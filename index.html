@@ -6,6 +6,9 @@
 <title>The Guzzi Support Network</title>
 <meta name="description" content="A community-maintained, geocoded, graded, freshness-dated map of everything that keeps a Moto Guzzi running.">
 <meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#c8102e">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
 <style>
   /* The web, back when it was cool: a document, made by a person. */
@@ -139,7 +142,11 @@
     <button id="theme" class="sec" title="Switch between the 1999 and 2026 skins">VIEW: 1999</button>
     &nbsp;|&nbsp;
     <select id="flayer" aria-label="Filter by layer"><option value="">— all layers —</option></select>
+    <button id="gpx" class="sec" title="Download the shown nodes as GPX waypoints (Garmin, OsmAnd, Kurviger…)">↓ GPX</button>
+    <button id="kml" class="sec" title="Download the shown nodes as KML (Google Earth, Maps)">↓ KML</button>
   </div>
+  <div id="offline" style="display:none;text-align:center;background:#ffe08a;color:#5a4500;font:13px/1.6 monospace;padding:4px">
+    offline — showing cached data; map tiles may be blank, the list still works</div>
   <div class="chips" id="chips" role="group" aria-label="Filter by node type"></div>
   <hr class="thin">
   <div class="cols">
@@ -355,6 +362,26 @@ function render(){
     navigator.clipboard.writeText(u.toString());
     document.getElementById('share').textContent='COPIED!';setTimeout(()=>document.getElementById('share').textContent='SHARE VIEW',1500);
   };
+  // ---- GPX / KML export of the currently-shown (filtered) nodes, client-side ----
+  function visibleGeo(){const fl=document.getElementById('flayer').value;
+    return FEATS.filter(f=>f.geometry&&f.properties.capability.some(c=>activeCaps.has(c))&&(!fl||f.properties.layer===fl));}
+  function xesc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+  function dl(name,type,text){const b=new Blob([text],{type});const a=document.createElement('a');
+    a.href=URL.createObjectURL(b);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000);}
+  function descOf(p){return [p.capability.join('+'),(p.city?p.city+', '+p.state:''),p.phone,p.url,'verified '+p.last_verified].filter(Boolean).join(' | ');}
+  document.getElementById('gpx').onclick=()=>{
+    const w=visibleGeo().map(f=>{const p=f.properties,[lng,lat]=f.geometry.coordinates;
+      return `  <wpt lat="${lat}" lon="${lng}">\n    <name>${xesc(p.name)}</name>\n    <desc>${xesc(descOf(p))}</desc>\n    <sym>Motorcycle Shop</sym>\n  </wpt>`;}).join('\n');
+    dl('gsn-nodes.gpx','application/gpx+xml',`<?xml version="1.0" encoding="UTF-8"?>\n<gpx version="1.1" creator="Guzzi Support Network" xmlns="http://www.topografix.com/GPX/1/1">\n${w}\n</gpx>\n`);};
+  document.getElementById('kml').onclick=()=>{
+    const w=visibleGeo().map(f=>{const p=f.properties,[lng,lat]=f.geometry.coordinates;
+      return `    <Placemark>\n      <name>${xesc(p.name)}</name>\n      <description>${xesc(descOf(p))}</description>\n      <Point><coordinates>${lng},${lat},0</coordinates></Point>\n    </Placemark>`;}).join('\n');
+    dl('gsn-nodes.kml','application/vnd.google-earth.kml+xml',`<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document>\n    <name>Guzzi Support Network</name>\n${w}\n</Document></kml>\n`);};
+  // ---- offline indicator + service worker (PWA / offline-first) ----
+  const offEl=document.getElementById('offline');
+  const setOff=()=>{offEl.style.display=navigator.onLine?'none':'block';};
+  window.addEventListener('online',setOff);window.addEventListener('offline',setOff);setOff();
+  if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
   map.on('click',e=>setHome([e.latlng.lat,e.latlng.lng]));
   let placed=false;
   if(params.get('home')){const [a,b]=params.get('home').split(',').map(Number);if(!isNaN(a)){setHome([a,b],false);map.setView([a,b],7);placed=true}}
