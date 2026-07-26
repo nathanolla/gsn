@@ -151,6 +151,7 @@ function bearing(a,b){const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180,dl=(b[1]-a[1
   const d=(Math.atan2(y,x)*180/Math.PI+360)%360;return ['N','NE','E','SE','S','SW','W','NW'][Math.round(d/45)%8]}
 function staleClass(lv){if(!lv)return 'stale-2';const m=(Date.now()-new Date(lv))/2629800000;return m<12?'':(m<24?'stale-1':'stale-2')}
 
+function host(u){try{return new URL(u).hostname.replace(/^www\./,'')}catch(e){return u}}
 let map,home=null,homeMarker=null,rings=[],markers={},FEATS=[];
 const params=new URLSearchParams(location.search);
 
@@ -196,7 +197,7 @@ function render(){
     tr.innerHTML=`<td>${nameHtml}<br>
         <span class="cap">${p.capability.join('+')}</span> · ${p.city?p.city+', '+p.state:'—'}${rel?'<br><span class="pill">'+rel+'</span>':''}</td>
       <td class="fnline">${p.functions.join(' · ')}<br>`+
-      (p.url?`<a href="${p.url}" target="_blank" rel="noopener">${new URL(p.url).hostname.replace(/^www\./,'')}</a>`:'')+
+      (p.url?`<a href="${p.url}" target="_blank" rel="noopener">${host(p.url)}</a>`:'')+
       (p.phone?` · <a href="tel:${p.phone.replace(/[^+\d]/g,'')}">${p.phone}</a>`:'')+`</td>
       <td><span class="pill">${p.last_verified||'never'}</span></td>`;
     if(markers[p.id]) tr.onclick=(ev)=>{if(ev.target.closest('a'))return; map.setView(markers[p.id].getLatLng(),9);markers[p.id].openPopup();
@@ -222,7 +223,7 @@ function render(){
     const m=L.circleMarker(ll,{radius:8,color:'#000',weight:1.5,fillColor:CAP_COLORS[p.capability[0]],fillOpacity:staleClass(p.last_verified)?0.45:0.95}).addTo(map);
     const obs=(p.observations||[]).map(o=>`<div style="font-size:12px;color:#444">${o.date} · <i>${o.method}</i> — ${o.fact}</div>`).join('');
     m.bindPopup(`<b>${p.url?`<a href="${p.url}" target="_blank" rel="noopener">${p.name}</a>`:p.name}</b><br>${p.city||''}${p.state?', '+p.state:''} · <tt>${p.capability.join('+')}</tt><br>${p.functions.join(' · ')}`+
-      (p.url?`<br><a href="${p.url}" target="_blank" rel="noopener">${new URL(p.url).hostname}</a>`:'')+(p.phone?` · ${p.phone}`:'')+
+      (p.url?`<br><a href="${p.url}" target="_blank" rel="noopener">${host(p.url)}</a>`:'')+(p.phone?` · ${p.phone}`:'')+
       `<hr>${obs}<div style="font-size:11px;color:#666;margin-top:3px">last verified ${p.last_verified} by ${p.verified_by}</div>`);
     markers[p.id]=m;
   });
