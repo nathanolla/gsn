@@ -24,6 +24,9 @@ observations:
   - date: 2026-07-26
     method: official-locator
     fact: "listed on the official Moto Guzzi US dealer locator as \"AF-1 Racing\" (Austin, TX); type=dealers,services; verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "retails/installs UpMap T800+ app-based ECU reflash for Moto Guzzi V85/V9/V7-850 e5 (RACE / full-exhaust maps) \u2014 an ECU-tune option in addition to parts [source: af1racing.com UpMap listing]"
 last_verified: 2026-07-26
-verified_by: claude-locator-xref
+verified_by: claude
 status: active

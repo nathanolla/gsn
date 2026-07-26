@@ -6,7 +6,7 @@ country: US
 lat: 39.4459
 lon: -77.6603
 layer: independent
-capability: [heritage]
+capability: [heritage, performance]
 brands: [moto-guzzi]
 functions:
   - service
@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "directory listings current (Yelp updated May 2026) at 3333 Gapland Rd, Rohrersville MD; described as dedicated to vintage European motorcycles with Moto Guzzi as primary focus"
+  - date: 2026-07-26
+    method: website
+    fact: "documented Moto Guzzi engine building incl. a 949cc big-bore build with 5-speed and head/valve work (Charlie Mullendore) \u2014 performance-grade engine capability [source: https://www.antietamclassiccycle.com]"
 last_verified: 2026-07-26
 verified_by: claude
 status: active

@@ -6,7 +6,7 @@ country: US
 lat: 33.7905
 lon: -118.1519
 layer: independent
-capability: [heritage]
+capability: [heritage, performance]
 brands: [moto-guzzi]
 functions:
   - vintage service
@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "site live with current-year page timestamp"
+  - date: 2026-07-26
+    method: website
+    fact: "specialized Moto Guzzi engine repair and performance tuning / carb work (Mark Etheridge, 30+ yr Guzzi-only shop) \u2014 a performance/heritage node, not only heritage [source: https://motoguzziclassics.com]"
 last_verified: 2026-07-26
 verified_by: claude
 status: active
