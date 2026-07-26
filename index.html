@@ -3,73 +3,130 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Guzzi Support Network</title>
+<title>The Guzzi Support Network</title>
 <meta name="description" content="A community-maintained, geocoded, graded, freshness-dated map of everything that keeps a Moto Guzzi running.">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
-  :root{--bg:#101418;--panel:#171d24;--panel2:#1e2630;--border:#2a3542;--text:#dbe4ee;--muted:#8fa1b3;
-    --accent:#c8102e;--green:#3fb27f;--amber:#d9a441;--blue:#4f8fd9;--purple:#9a6fd9;--slate:#7d8ea0}
-  *{box-sizing:border-box} body{margin:0;font:15px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--text)}
-  header{padding:14px 22px;border-bottom:2px solid var(--accent);display:flex;flex-wrap:wrap;gap:14px;align-items:center}
-  header h1{margin:0;font-size:21px} header .sub{color:var(--muted);font-size:13px}
-  .controls{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:13px}
-  .controls input,.controls select{background:var(--panel2);color:var(--text);border:1px solid var(--border);border-radius:7px;padding:5px 9px;font-size:13px}
-  .controls button{background:var(--accent);color:#fff;border:0;border-radius:7px;padding:6px 11px;cursor:pointer;font-size:13px}
-  .controls button.sec{background:var(--panel2);border:1px solid var(--border)}
-  .wrap{display:grid;grid-template-columns:minmax(330px,400px) 1fr;height:calc(100vh - 62px)}
-  @media(max-width:900px){.wrap{display:block;height:auto}#map{height:65vh}}
-  .side{overflow-y:auto;background:var(--panel);border-right:1px solid var(--border);padding:14px 16px}
-  #map{height:100%;min-height:460px}
-  h2{font-size:11.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:18px 0 8px}
-  .node{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:9px 12px;margin-bottom:8px;cursor:pointer}
-  .node:hover{border-color:var(--accent)}
-  .node .nm{font-weight:600}.node .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px}
-  .node .fn{color:var(--muted);font-size:12.5px;margin-top:2px}
-  .node .meta{font-size:12.5px;margin-top:5px;color:#b7c4d1}
-  .node .meta a{color:var(--blue);text-decoration:none}
-  .stale-1{opacity:.55}.stale-2{opacity:.35}
-  .pill{font-size:10.5px;border:1px solid var(--border);color:var(--muted);border-radius:9px;padding:0 7px;float:right}
-  footer{padding:14px 22px;color:var(--muted);font-size:12px;border-top:1px solid var(--border);line-height:1.7}
-  footer a{color:var(--blue)}
-  .legend{position:absolute;z-index:900;right:12px;top:12px;background:rgba(17,22,28,.93);border:1px solid var(--border);border-radius:10px;padding:9px 12px;font-size:12.5px}
-  .legend .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px}
-  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--panel2);color:var(--text)}
-  .leaflet-popup-content a{color:var(--blue)}
+  /* The web, back when it was cool: a document, made by a person. */
+  body{margin:0;background:#efefea;color:#111;font:16px/1.45 "Times New Roman",Times,serif}
+  a{color:#0000EE} a:visited{color:#551A8B}
+  .page{max-width:1200px;margin:0 auto;padding:0 12px}
+  .masthead{text-align:center;padding:18px 8px 10px}
+  .masthead h1{font-size:34px;margin:0;letter-spacing:.5px}
+  .masthead h1 .red{color:#c8102e}
+  .masthead .tag{font-style:italic;margin:4px 0 0}
+  .masthead .est{font-family:"Courier New",monospace;font-size:12px;color:#444;margin-top:4px}
+  hr.rule{border:0;border-top:3px double #c8102e;margin:10px 0}
+  hr.thin{border:0;border-top:1px solid #999;margin:14px 0}
+  .counter{display:inline-block;background:#000;color:#3f6;font:bold 15px/1 "Courier New",monospace;
+    padding:4px 7px;border:2px inset #888;letter-spacing:2px;vertical-align:middle}
+  .ctrbar{text-align:center;font-family:"Courier New",monospace;font-size:13px;margin:8px 0}
+  .controls{text-align:center;margin:10px 0;font-size:14px}
+  .controls input,.controls select{font:14px "Courier New",monospace;background:#fff;border:2px inset #999;padding:3px 6px}
+  .controls button{font:bold 13px "Courier New",monospace;background:#d4d0c8;border:2px outset #999;padding:3px 10px;cursor:pointer}
+  .controls button:active{border-style:inset}
+  .cols{display:grid;grid-template-columns:minmax(340px,430px) 1fr;gap:14px;align-items:start}
+  @media(max-width:920px){.cols{display:block}}
+  #map{height:66vh;min-height:440px;border:3px ridge #999;background:#dde}
+  .maplabel{font-family:"Courier New",monospace;font-size:12px;color:#444;text-align:center;margin-top:3px}
+  table.nodes{border-collapse:collapse;width:100%;font-size:14px;background:#fff;border:2px outset #999}
+  table.nodes th{background:#c8102e;color:#fff;font-family:Verdana,Geneva,sans-serif;font-size:11px;
+    text-transform:uppercase;letter-spacing:.08em;padding:5px 7px;text-align:left}
+  table.nodes td{border-top:1px solid #ccc;padding:6px 7px;vertical-align:top}
+  table.nodes tr:nth-child(even) td{background:#f7f6f2}
+  table.nodes tr.clickable{cursor:pointer}
+  table.nodes tr.clickable:hover td{background:#fff3cc}
+  .sw{display:inline-block;width:10px;height:10px;border:1px solid #333;margin-right:6px;vertical-align:-1px}
+  .nm{font-weight:bold}
+  .cap{font-family:"Courier New",monospace;font-size:12px}
+  .obsline,.fnline{font-size:13px;color:#333}
+  .pill{font-family:"Courier New",monospace;font-size:11px;color:#555;white-space:nowrap}
+  .stale-1 td{opacity:.55} .stale-2 td{opacity:.35}
+  .stale-2 .nm::after{content:" [UNVERIFIED]";color:#a00;font-family:"Courier New",monospace;font-size:11px}
+  .legend{font-size:13px;background:#fff;border:2px groove #999;padding:8px 10px;margin-bottom:10px}
+  .legend b{font-family:Verdana,Geneva,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+  .badges{text-align:center;margin:16px 0 6px}
+  .badge88{width:88px;height:31px;border:1px solid #666;background:#000;color:#fff;
+    font:bold 9px/1.2 Verdana,Geneva,sans-serif;text-align:center;margin:2px;vertical-align:middle;
+    text-decoration:none;display:inline-flex;align-items:center;justify-content:center;flex-direction:column}
+  .badge88 .g{color:#3f6}.badge88 .r{color:#ff4136}.badge88 .b{color:#7fdbff}
+  .ring{text-align:center;font-size:14px;margin:10px 0}
+  .foot{font-size:12.5px;color:#333;text-align:center;line-height:1.7;padding-bottom:26px}
+  .marq{overflow:hidden;white-space:nowrap;background:#000;color:#3f6;font:13px "Courier New",monospace;padding:3px 0;border:2px inset #888}
+  .marq span{display:inline-block;padding-left:100%;animation:marq 28s linear infinite}
+  @keyframes marq{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
+  @media(prefers-reduced-motion:reduce){.marq span{animation:none;padding-left:8px}}
+  .leaflet-container{font:13px "Times New Roman",serif}
 </style>
 </head>
 <body>
-<header>
-  <div><h1>Guzzi Support Network</h1>
-  <div class="sub">community-maintained · graded by function · freshness-dated</div></div>
-  <div class="controls">
-    <input id="loc" placeholder="ZIP or city for home pin" size="18">
-    <button id="setloc">Set home</button>
-    <button id="geoloc" class="sec" title="Use browser location">📍</button>
-    <button id="share" class="sec" title="Copy a shareable link centered on your home pin">Share view</button>
-    <select id="fcap"><option value="">all capabilities</option></select>
-    <select id="flayer"><option value="">all layers</option></select>
+<div class="page">
+  <div class="masthead">
+    <h1>The <span class="red">GUZZI</span> Support Network</h1>
+    <p class="tag">&ldquo;Where&hellip;?&rdquo; &mdash; answered. A community-maintained map of everything that keeps a Moto&nbsp;Guzzi running.</p>
+    <p class="est">EST. 2026 &middot; A FAN PROJECT &middot; GRADED BY FUNCTION &middot; FRESHNESS-DATED &middot; YOUR LOCATION NEVER LEAVES YOUR BROWSER</p>
   </div>
-</header>
-<div class="wrap">
-  <div class="side" id="side"><div id="nodes"></div></div>
-  <div style="position:relative"><div class="legend" id="legend"></div><div id="map"></div></div>
+  <hr class="rule">
+  <div class="marq"><span id="marqtext">WELCOME, RIDER ··· drop a home pin or allow location and the network sorts itself around YOU ··· stale nodes fade — verify one and send a PR ··· the dispute channel is the contribution channel ··· not affiliated with Piaggio Group ··· keep the plug kit under the seat ···</span></div>
+  <div class="ctrbar">
+    NODES IN DATABASE: <span class="counter" id="odometer">000000</span>
+    &nbsp;·&nbsp; LAST DATABASE UPDATE: <span id="lastupd" style="font-weight:bold">—</span>
+    &nbsp;·&nbsp; visitors counted: <b>0</b> <i>(we don't)</i>
+  </div>
+  <div class="controls">
+    <input id="loc" placeholder="ZIP or city…" size="16">
+    <button id="setloc">SET HOME</button>
+    <button id="geoloc" title="Use browser location">LOCATE ME</button>
+    <button id="share" title="Copy a link centered on your home pin">SHARE VIEW</button>
+    &nbsp;|&nbsp;
+    <select id="fcap"><option value="">— all capabilities —</option></select>
+    <select id="flayer"><option value="">— all layers —</option></select>
+  </div>
+  <hr class="thin">
+  <div class="cols">
+    <div>
+      <div class="legend" id="legend"></div>
+      <table class="nodes" id="nodetable">
+        <thead><tr><th>Node</th><th>What it's for</th><th>Verified</th></tr></thead>
+        <tbody id="nodes"></tbody>
+      </table>
+    </div>
+    <div>
+      <div id="map"></div>
+      <div class="maplabel">click the map to move your home pin &middot; rings = 100 / 200 / 300 miles</div>
+    </div>
+  </div>
+  <div class="badges">
+    <span class="badge88"><span>VIEWABLE WITH</span><span class="b">ANY BROWSER</span></span>
+    <span class="badge88"><span class="g">NO COOKIES</span><span>NO TRACKING</span></span>
+    <span class="badge88"><span>POWERED BY</span><span class="r">PULL REQUESTS</span></span>
+    <span class="badge88"><span class="g">100% HAND</span><span>CODED HTML</span></span>
+  </div>
+  <div class="ring">&mdash;&mdash; the ring: <a href="https://wildguzzi.com">wildguzzi</a> &middot;
+    <a href="https://www.mgnoc.com">MGNOC</a> &middot;
+    <a href="https://guzzitech.com">GuzziTech</a> &mdash;&mdash;</div>
+  <hr class="rule">
+  <div class="foot">
+    Data <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> · code MIT ·
+    provided as-is, no warranty, informational only · corrections &amp; new nodes via
+    <a href="https://github.com/nathanolla/gsn">pull request</a>
+    (<a href="https://github.com/nathanolla/gsn/blob/main/doctrine.md">doctrine</a> ·
+    <a href="https://github.com/nathanolla/gsn/blob/main/methodology.md">methodology</a> ·
+    <a href="https://github.com/nathanolla/gsn/blob/main/PRIVACY.md">privacy</a>)<br>
+    Categories are mechanical derivations from dated observations; disputes are resolved by submitting
+    newer or better observations — the category recomputes. Any listed business may request correction
+    or removal, honored within 7&nbsp;days, no questions asked.<br>
+    <b>Not affiliated with, endorsed by, or sponsored by Piaggio Group or Moto&nbsp;Guzzi.
+    Trademarks are the property of their owners.</b> Official site: <a href="https://www.motoguzzi.com/">motoguzzi.com</a> ·
+    <a href="https://github.com/nathanolla/gsn/blob/main/compliance.md">compliance</a><br>
+    Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors ·
+    your location never leaves your browser · best viewed in <i>any</i> browser — and unlike 1999, that's true.
+  </div>
 </div>
-<footer>
-  <b>Guzzi Support Network</b> — data <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a>,
-  code MIT. Provided as-is, no warranty, informational only; corrections and additions via pull request
-  (see the repo's <a href="https://github.com/nathanolla/gsn/blob/main/doctrine.md">doctrine</a> &amp; methodology). Categories are mechanical
-  derivations from dated observations — disputes are resolved by submitting newer or better observations.
-  Any listed business may request correction or removal, honored within 7 days, no questions asked.
-  <br><b>Not affiliated with, endorsed by, or sponsored by Piaggio Group or Moto Guzzi.
-  Trademarks are the property of their owners.</b>
-  Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
-  · <a href="https://github.com/nathanolla/gsn/blob/main/PRIVACY.md">Privacy</a>: your location never leaves your browser — no accounts, no analytics, no tracking.
-</footer>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-const CAP_COLORS={'full-service':'#3fb27f','satellite':'#d9a441','depot':'#4f8fd9','performance':'#9a6fd9','heritage':'#7d8ea0','knowledge':'#8fa1b3'};
-const MI=1609.344;
-const R=6371e3;
+const CAP_COLORS={'full-service':'#1e8a5f','satellite':'#c98d1f','depot':'#2f6fbe','performance':'#7a4fc0','heritage':'#6d7c8c','knowledge':'#888'};
+const MI=1609.344,R=6371e3;
 function dist(a,b){const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180,dp=(b[0]-a[0])*Math.PI/180,dl=(b[1]-a[1])*Math.PI/180;
   const h=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;return 2*R*Math.asin(Math.sqrt(h))/MI}
 function bearing(a,b){const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180,dl=(b[1]-a[1])*Math.PI/180;
@@ -81,16 +138,15 @@ let map,home=null,homeMarker=null,rings=[],markers={},FEATS=[];
 const params=new URLSearchParams(location.search);
 
 async function geocode(q){
-  const r=await fetch(`https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q=${encodeURIComponent(q)}`,
-    {headers:{'Accept-Language':'en'}});
+  const r=await fetch(`https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q=${encodeURIComponent(q)}`,{headers:{'Accept-Language':'en'}});
   const j=await r.json(); return j[0]? [parseFloat(j[0].lat),parseFloat(j[0].lon)] : null;
 }
 function setHome(ll,save=true){
   home=ll;
   if(homeMarker)homeMarker.remove(); rings.forEach(r=>r.remove()); rings=[];
-  homeMarker=L.circleMarker(ll,{radius:9,color:'#0c0f12',weight:1.5,fillColor:'#fff',fillOpacity:1}).addTo(map).bindPopup('<b>Home</b> (drag map + click to move)');
-  [100,200,300].forEach(mi=>rings.push(L.circle(ll,{radius:mi*MI,color:'#c8102e',weight:1,opacity:.4,fill:false,dashArray:'6 8'}).addTo(map)));
-  if(save){try{localStorage.setItem('gsn_home',JSON.stringify(ll))}catch(e){}} // location stays client-side; URL only via explicit Share
+  homeMarker=L.circleMarker(ll,{radius:9,color:'#000',weight:2,fillColor:'#fff',fillOpacity:1}).addTo(map).bindPopup('<b>HOME</b> — click the map to move');
+  [100,200,300].forEach(mi=>rings.push(L.circle(ll,{radius:mi*MI,color:'#c8102e',weight:1,opacity:.5,fill:false,dashArray:'6 8'}).addTo(map)));
+  if(save){try{localStorage.setItem('gsn_home',JSON.stringify(ll))}catch(e){}} // client-side only; URL only via explicit Share
   render();
 }
 function render(){
@@ -104,32 +160,36 @@ function render(){
   if(home) list.sort((a,b)=>{
     const da=a.geometry?dist(home,[a.geometry.coordinates[1],a.geometry.coordinates[0]]):1e9;
     const db=b.geometry?dist(home,[b.geometry.coordinates[1],b.geometry.coordinates[0]]):1e9;
-    return da-db;});
-  const wrap=document.getElementById('nodes'); wrap.innerHTML='';
+    return da-db});
+  const tb=document.getElementById('nodes'); tb.innerHTML='';
   let nearestFull=null;
   if(home) nearestFull=list.find(f=>f.geometry&&f.properties.capability.includes('full-service'));
   list.forEach(f=>{
-    const p=f.properties, d=document.createElement('div');
-    d.className='node '+staleClass(p.last_verified);
+    const p=f.properties, tr=document.createElement('tr');
+    tr.className=(markers[p.id]?'clickable ':'')+staleClass(p.last_verified);
     let rel='';
     if(home&&f.geometry){
       const ll=[f.geometry.coordinates[1],f.geometry.coordinates[0]];
       rel=`${Math.round(dist(home,ll))} mi ${bearing(home,ll)}`;
-      if(f===nearestFull) rel+=' · closest full-service';
+      if(f===nearestFull) rel+=' ★ closest full-service';
     }
-    d.innerHTML=`<span class="pill">${p.last_verified||'unverified'}</span>
-      <div class="nm"><span class="dot" style="background:${CAP_COLORS[p.capability[0]]}"></span>${p.name}</div>
-      <div class="fn">${p.capability.join(' + ')} · ${p.city?p.city+', '+p.state:''} ${rel?'· '+rel:''}</div>
-      <div class="meta">${p.functions.join(' · ')}<br>`+
-      (p.url?`<a href="${p.url}" target="_blank" rel="noopener">${new URL(p.url).hostname}</a>`:'')+
-      (p.phone?` · <a href="tel:${p.phone.replace(/[^+\d]/g,'')}">${p.phone}</a>`:'')+`</div>`;
-    if(markers[p.id]) d.onclick=()=>{map.setView(markers[p.id].getLatLng(),9);markers[p.id].openPopup()};
-    wrap.appendChild(d);
+    tr.innerHTML=`<td><span class="sw" style="background:${CAP_COLORS[p.capability[0]]}"></span><span class="nm">${p.name}</span><br>
+        <span class="cap">${p.capability.join('+')}</span> · ${p.city?p.city+', '+p.state:'—'}${rel?'<br><span class="pill">'+rel+'</span>':''}</td>
+      <td class="fnline">${p.functions.join(' · ')}<br>`+
+      (p.url?`<a href="${p.url}" target="_blank" rel="noopener">${new URL(p.url).hostname.replace(/^www\./,'')}</a>`:'')+
+      (p.phone?` · <a href="tel:${p.phone.replace(/[^+\d]/g,'')}">${p.phone}</a>`:'')+`</td>
+      <td><span class="pill">${p.last_verified||'never'}</span></td>`;
+    if(markers[p.id]) tr.onclick=()=>{map.setView(markers[p.id].getLatLng(),9);markers[p.id].openPopup()};
+    tb.appendChild(tr);
   });
 }
 (async()=>{
   const gj=await (await fetch('nodes.geojson')).json();
   FEATS=gj.features;
+  // odometer + last update (honest hit-counter: it counts nodes, not you)
+  document.getElementById('odometer').textContent=String(FEATS.length).padStart(6,'0');
+  const newest=FEATS.map(f=>f.properties.last_verified).filter(Boolean).sort().slice(-1)[0];
+  document.getElementById('lastupd').textContent=newest||'—';
   map=L.map('map').setView([37.5,-85],5);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(map);
   const caps=new Set(),layers=new Set();
@@ -137,40 +197,38 @@ function render(){
     const p=f.properties; p.capability.forEach(c=>caps.add(c)); layers.add(p.layer);
     if(!f.geometry) return;
     const ll=[f.geometry.coordinates[1],f.geometry.coordinates[0]];
-    const m=L.circleMarker(ll,{radius:8,color:'#0c0f12',weight:1.5,fillColor:CAP_COLORS[p.capability[0]],fillOpacity:staleClass(p.last_verified)?0.45:0.95}).addTo(map);
-    const obs=(p.observations||[]).map(o=>`<div style="color:#8fa1b3;font-size:12px">${o.date} · ${o.method} — ${o.fact}</div>`).join('');
-    m.bindPopup(`<b>${p.name}</b><br>${p.city||''}${p.state?', '+p.state:''} · ${p.capability.join(' + ')}<br>${p.functions.join(' · ')}`+
-      (p.url?`<br><a href="${p.url}" target="_blank" rel="noopener">${new URL(p.url).hostname}</a>`:'')+
-      (p.phone?` · ${p.phone}`:'')+`<hr style="border-color:#2a3542">${obs}<div style="color:#8fa1b3;font-size:11.5px;margin-top:4px">last verified ${p.last_verified} by ${p.verified_by}</div>`);
+    const m=L.circleMarker(ll,{radius:8,color:'#000',weight:1.5,fillColor:CAP_COLORS[p.capability[0]],fillOpacity:staleClass(p.last_verified)?0.45:0.95}).addTo(map);
+    const obs=(p.observations||[]).map(o=>`<div style="font-size:12px;color:#444">${o.date} · <i>${o.method}</i> — ${o.fact}</div>`).join('');
+    m.bindPopup(`<b>${p.name}</b><br>${p.city||''}${p.state?', '+p.state:''} · <tt>${p.capability.join('+')}</tt><br>${p.functions.join(' · ')}`+
+      (p.url?`<br><a href="${p.url}" target="_blank" rel="noopener">${new URL(p.url).hostname}</a>`:'')+(p.phone?` · ${p.phone}`:'')+
+      `<hr>${obs}<div style="font-size:11px;color:#666;margin-top:3px">last verified ${p.last_verified} by ${p.verified_by}</div>`);
     markers[p.id]=m;
   });
   [...caps].sort().forEach(c=>document.getElementById('fcap').insertAdjacentHTML('beforeend',`<option>${c}</option>`));
   [...layers].sort().forEach(l=>document.getElementById('flayer').insertAdjacentHTML('beforeend',`<option>${l}</option>`));
-  document.getElementById('legend').innerHTML=Object.entries(CAP_COLORS)
-    .map(([c,col])=>`<div><span class="dot" style="background:${col}"></span>${c}</div>`).join('')+
-    `<div style="margin-top:4px;color:#8fa1b3">faded = last verified &gt;12 mo<br>rings: 100/200/300 mi from home</div>`;
+  document.getElementById('legend').innerHTML='<b>Legend:</b> '+Object.entries(CAP_COLORS)
+    .map(([c,col])=>`<span style="white-space:nowrap"><span class="sw" style="background:${col}"></span>${c}</span>`).join(' &nbsp; ')+
+    ' &nbsp; <span style="color:#666">— faded = last verified &gt;12 months ago</span>';
   document.getElementById('fcap').onchange=render; document.getElementById('flayer').onchange=render;
   document.getElementById('setloc').onclick=async()=>{
     const q=document.getElementById('loc').value.trim(); if(!q)return;
     const ll=await geocode(q); if(ll){map.setView(ll,7);setHome(ll)} else alert('Location not found');
   };
   document.getElementById('geoloc').onclick=()=>navigator.geolocation.getCurrentPosition(p=>{map.setView([p.coords.latitude,p.coords.longitude],7);setHome([p.coords.latitude,p.coords.longitude])});
-  map.on('click',e=>setHome([e.latlng.lat,e.latlng.lng]));
   document.getElementById('share').onclick=()=>{
     if(!home){alert('Set a home pin first');return}
     const u=new URL(location.href);u.searchParams.set('home',home.map(x=>x.toFixed(3)).join(','));
     navigator.clipboard.writeText(u.toString());
-    document.getElementById('share').textContent='Copied!';setTimeout(()=>document.getElementById('share').textContent='Share view',1500);
+    document.getElementById('share').textContent='COPIED!';setTimeout(()=>document.getElementById('share').textContent='SHARE VIEW',1500);
   };
+  map.on('click',e=>setHome([e.latlng.lat,e.latlng.lng]));
   let placed=false;
   if(params.get('home')){const [a,b]=params.get('home').split(',').map(Number);if(!isNaN(a)){setHome([a,b],false);map.setView([a,b],7);placed=true}}
   if(!placed){try{const s=JSON.parse(localStorage.getItem('gsn_home'));if(s){setHome(s,false);map.setView(s,7);placed=true}}catch(e){}}
   if(!placed&&navigator.geolocation){
-    // Location-aware by default: the browser's own permission prompt is the consent.
-    // Coordinates never leave the browser — all distance math is client-side.
     navigator.geolocation.getCurrentPosition(
       p=>{map.setView([p.coords.latitude,p.coords.longitude],7);setHome([p.coords.latitude,p.coords.longitude])},
-      ()=>{}, {timeout:8000, maximumAge:600000});
+      ()=>{},{timeout:8000,maximumAge:600000});
   }
   render();
 })();
