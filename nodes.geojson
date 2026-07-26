@@ -265,7 +265,8 @@
      "aprilia",
      "triumph",
      "arctic-cat",
-     "piaggio"
+     "piaggio",
+     "royal-enfield"
     ],
     "functions": [
      "sales",
@@ -275,8 +276,8 @@
     "url": "https://www.bmgpowersports.com/",
     "phone": "845-294-2453",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -355,7 +356,8 @@
      "moto-guzzi",
      "ducati",
      "laverda",
-     "mv-agusta"
+     "mv-agusta",
+     "bmw"
     ],
     "functions": [
      "restorations",
@@ -364,7 +366,7 @@
     "url": "https://motoborgotaro.com/",
     "phone": "(917) 589-4754",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "heritage"
@@ -449,7 +451,11 @@
     "layer": "franchise",
     "brands": [
      "moto-guzzi",
-     "piaggio"
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "benelli",
+     "ssr"
     ],
     "functions": [
      "sales",
@@ -459,7 +465,7 @@
     "url": "https://www.ccspowersports.com/",
     "phone": "570-301-6065",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "satellite"
@@ -502,7 +508,8 @@
      "vespa",
      "genuine",
      "kymco",
-     "royal-enfield"
+     "keeway",
+     "qjmotor"
     ],
     "functions": [
      "sales",
@@ -513,7 +520,7 @@
     "url": "https://www.clevelandmoto.com/",
     "phone": "216-795-5580",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -645,7 +652,8 @@
      "moto-guzzi",
      "aprilia",
      "ducati",
-     "triumph"
+     "triumph",
+     "mv-agusta"
     ],
     "functions": [
      "sales",
@@ -655,8 +663,8 @@
     "url": "https://www.ctxmotoworks.com/",
     "phone": "210-403-2100",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "full-service"
     ],
@@ -799,7 +807,11 @@
      "ducati",
      "triumph",
      "bmw",
-     "indian"
+     "indian",
+     "polaris",
+     "slingshot",
+     "royal-enfield",
+     "cfmoto"
     ],
     "functions": [
      "service booking",
@@ -808,7 +820,7 @@
     "url": "https://www.d2powersports-greer.com/",
     "phone": "(864) 879-2119",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "satellite"
@@ -839,7 +851,13 @@
     "country": "US",
     "layer": "franchise",
     "brands": [
-     "moto-guzzi"
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "triumph",
+     "mv-agusta",
+     "kymco",
+     "genuine"
     ],
     "functions": [
      "sales",
@@ -849,8 +867,8 @@
     "url": "https://www.danddcycles.com/",
     "phone": "850-456-0354",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "active",
+    "verified_by": "claude-research-sweep",
+    "status": "unverified",
     "capability": [
      "full-service"
     ],
@@ -864,6 +882,11 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "danddcycles.com live; Yelp listing updated April 2026 at 2400 Fernwood Ave, Pensacola FL, carrying Moto Guzzi"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "own site, new-models page, and Facebook all list Triumph/Vespa/Aprilia/Piaggio/MV/Kymco/Genuine — NO Moto Guzzi (the 2024-11 forum franchise claim is not supported by current first-party evidence)"
      }
     ]
    }
@@ -889,7 +912,7 @@
      "aprilia",
      "kawasaki",
      "royal-enfield",
-     "benelli",
+     "moto-morini",
      "ssr"
     ],
     "functions": [
@@ -898,10 +921,10 @@
      "parts"
     ],
     "url": "https://www.detroitironcycles.com/",
-    "phone": "",
+    "phone": "(248) 342-8225",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -943,9 +966,9 @@
      "parts"
     ],
     "url": "https://www.dvorakmotorsports.com/",
-    "phone": "",
+    "phone": "(701) 751-7547",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "satellite"
@@ -1036,8 +1059,8 @@
     "url": "http://easterncycle.net/",
     "phone": "978-922-3707",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "heritage"
     ],
@@ -1121,7 +1144,11 @@
      "aprilia",
      "vespa",
      "piaggio",
-     "bmw"
+     "bmw",
+     "triumph",
+     "ducati",
+     "mv-agusta",
+     "zero"
     ],
     "functions": [
      "sales",
@@ -1130,9 +1157,9 @@
      "mail-order"
     ],
     "url": "https://rideeurocycle.com/",
-    "phone": "702-454-6269",
+    "phone": "(702) 430-3500",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -1175,9 +1202,9 @@
      "service"
     ],
     "url": "https://www.europamacchina.com/",
-    "phone": "",
+    "phone": "(717) 932-6600",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "heritage"
@@ -1227,8 +1254,8 @@
     "url": "https://www.euroutah.com/",
     "phone": "801-618-2700",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "full-service"
     ],
@@ -1274,8 +1301,8 @@
     "url": "https://www.gatewaycycles.com/",
     "phone": "859-497-2100",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -1321,10 +1348,10 @@
      "parts"
     ],
     "url": "https://gpmotorcycles.com/",
-    "phone": "",
+    "phone": "(619) 233-4762",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "full-service"
     ],
@@ -1416,14 +1443,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -87.8412,
-     42.3256
+     -87.8673,
+     42.2795
     ]
    },
    "properties": {
     "id": "guzzidoctor",
     "name": "The Guzzi Doctor",
-    "city": "North Chicago",
+    "city": "Lake Bluff",
     "state": "IL",
     "country": "US",
     "layer": "independent",
@@ -1438,7 +1465,7 @@
     "url": "https://theguzzidoctor.com/",
     "phone": "708-715-0360",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "heritage",
@@ -1553,7 +1580,13 @@
     "country": "US",
     "layer": "franchise",
     "brands": [
-     "moto-guzzi"
+     "moto-guzzi",
+     "aprilia",
+     "suzuki",
+     "cfmoto",
+     "can-am",
+     "sea-doo",
+     "segway"
     ],
     "functions": [
      "sales",
@@ -1563,7 +1596,7 @@
     "url": "https://www.hbrpowersports.com/",
     "phone": "423-790-0510",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "satellite"
@@ -1792,8 +1825,8 @@
     "url": "https://www.lonestaryamaha.com/",
     "phone": "817-447-4200",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -1869,7 +1902,12 @@
     "country": "US",
     "layer": "franchise",
     "brands": [
-     "moto-guzzi"
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "royal-enfield",
+     "cfmoto"
     ],
     "functions": [
      "sales",
@@ -1877,10 +1915,10 @@
      "parts"
     ],
     "url": "https://www.luckyuftmyers.com/",
-    "phone": "239-306-6560",
+    "phone": "(239) 415-3271",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -1961,7 +1999,8 @@
      "ducati",
      "triumph",
      "ktm",
-     "husqvarna"
+     "husqvarna",
+     "royal-enfield"
     ],
     "functions": [
      "sales",
@@ -1971,7 +2010,7 @@
     "url": "https://www.teammcc.com/",
     "phone": "630-782-2010",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -2337,7 +2376,8 @@
      "moto-guzzi",
      "aprilia",
      "triumph",
-     "royal-enfield"
+     "royal-enfield",
+     "beta"
     ],
     "functions": [
      "sales",
@@ -2347,7 +2387,7 @@
     "url": "https://www.motopianm.com/",
     "phone": "505-839-0505",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -2429,6 +2469,7 @@
     "brands": [
      "moto-guzzi",
      "triumph",
+     "ktm",
      "vespa",
      "piaggio",
      "genuine"
@@ -2440,7 +2481,7 @@
     "url": "https://www.motorichmond.com/",
     "phone": "(804) 230-1000",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -2471,11 +2512,12 @@
     "country": "US",
     "layer": "franchise",
     "brands": [
-     "moto-guzzi",
      "cfmoto",
      "segway",
      "beta",
-     "ssr"
+     "hisun",
+     "ssr",
+     "thumpstar"
     ],
     "functions": [
      "sales",
@@ -2485,7 +2527,7 @@
     "url": "https://www.mountainpowersports.net/",
     "phone": "706-636-5222",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "unverified",
     "capability": [
      "satellite"
@@ -2495,6 +2537,11 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "Own site runs 'Moto Guzzi Days' promotional content indicating a Guzzi franchise, but primary lines are CFMOTO/Segway/Beta; Guzzi stocking depth unconfirmed."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "own site brand roster is CFMOTO/Segway/Beta/Hisun/SSR/Thumpstar — NO Moto Guzzi; the earlier 'Moto Guzzi Days' signal is not reflected in the current lineup"
      }
     ]
    }
@@ -2504,14 +2551,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -95.642,
-     29.7858
+     -96.0536,
+     30.044
     ]
    },
    "properties": {
     "id": "mph",
     "name": "MPH Cycles",
-    "city": "Houston",
+    "city": "Hempstead",
     "state": "TX",
     "country": "US",
     "layer": "independent",
@@ -2526,7 +2573,7 @@
     "url": "https://mphcycles.com/",
     "phone": "281-647-6557",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service",
@@ -2551,8 +2598,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -80.8526,
-     38.2812
+     -80.832,
+     38.302
     ]
    },
    "properties": {
@@ -2580,7 +2627,7 @@
     "url": "https://www.motorsportsunlimitedsummersville.shop/",
     "phone": "304-872-5151",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "satellite"
@@ -2599,8 +2646,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -75.6324,
-     41.4198
+     -75.6083,
+     41.4248
     ]
    },
    "properties": {
@@ -2628,9 +2675,9 @@
      "parts"
     ],
     "url": "https://www.nawarhorse.com/",
-    "phone": "",
+    "phone": "(570) 346-2453",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -2649,8 +2696,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -82.4572,
-     27.9506
+     -82.3744,
+     27.9524
     ]
    },
    "properties": {
@@ -2678,7 +2725,7 @@
     "url": "https://www.nextride.com/",
     "phone": "813-443-5399",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -2697,8 +2744,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -79.4378,
-     36.0957
+     -79.4302,
+     36.0654
     ]
    },
    "properties": {
@@ -2716,7 +2763,7 @@
     "url": "https://www.facebook.com/p/Old-school-cycles-100054321799370/",
     "phone": "(336) 596-1111",
     "last_verified": "2026-07-26",
-    "verified_by": "nathan",
+    "verified_by": "claude-research-sweep",
     "status": "unverified",
     "capability": [
      "full-service"
@@ -2735,8 +2782,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -110.9747,
-     32.2226
+     -111.007,
+     32.2529
     ]
    },
    "properties": {
@@ -2753,9 +2800,8 @@
      "mv-agusta",
      "piaggio",
      "vespa",
-     "benelli",
-     "yamaha",
-     "kymco"
+     "ajp",
+     "zero"
     ],
     "functions": [
      "sales",
@@ -2763,10 +2809,10 @@
      "parts"
     ],
     "url": "https://www.onanymoto.com/",
-    "phone": "877-626-9668",
+    "phone": "(520) 269-6606",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "full-service"
     ],
@@ -2789,14 +2835,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.162,
-     47.627
+     -122.1044,
+     47.6644
     ]
    },
    "properties": {
     "id": "opmoto",
     "name": "Optimum Performance Motorsports",
-    "city": "Bellevue",
+    "city": "Redmond",
     "state": "WA",
     "country": "US",
     "layer": "franchise",
@@ -2815,7 +2861,7 @@
     "url": "https://opmotorsports.com/",
     "phone": "425-765-3691",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -2849,8 +2895,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -116.387,
-     33.753
+     -116.39,
+     33.802
     ]
    },
    "properties": {
@@ -2879,7 +2925,7 @@
     "url": "https://www.palmspringsmotorsports.com/",
     "phone": "760-288-0011",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "satellite"
@@ -2903,8 +2949,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -80.6081,
-     28.0836
+     -80.6398,
+     28.0789
     ]
    },
    "properties": {
@@ -2916,10 +2962,15 @@
     "layer": "franchise",
     "brands": [
      "moto-guzzi",
-     "royal-enfield",
      "cfmoto",
      "moto-morini",
-     "segway"
+     "segway",
+     "aprilia",
+     "benelli",
+     "piaggio",
+     "vespa",
+     "denago",
+     "benda"
     ],
     "functions": [
      "sales",
@@ -2927,10 +2978,10 @@
      "parts"
     ],
     "url": "https://www.primemotorcyclesmelbourne.com/",
-    "phone": "",
+    "phone": "(321) 587-4697",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -2948,8 +2999,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -118.2551,
-     34.1425
+     -118.2291,
+     34.199
     ]
    },
    "properties": {
@@ -2970,9 +3021,9 @@
      "parts"
     ],
     "url": "https://www.proitalia.com/",
-    "phone": "",
+    "phone": "(818) 249-5707",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -3003,7 +3054,16 @@
     "country": "US",
     "layer": "franchise",
     "brands": [
-     "moto-guzzi"
+     "moto-guzzi",
+     "genuine",
+     "kymco",
+     "moto-morini",
+     "swm",
+     "gpx",
+     "kove",
+     "benelli",
+     "benda",
+     "keeway"
     ],
     "functions": [
      "sales",
@@ -3011,10 +3071,10 @@
      "parts"
     ],
     "url": "https://powersportsoutlet.com/",
-    "phone": "",
+    "phone": "(928) 778-7910",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -3032,8 +3092,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -86.2619,
-     39.9509
+     -86.2523,
+     39.9433
     ]
    },
    "properties": {
@@ -3057,7 +3117,7 @@
     "url": "https://www.rahalpiaggio.com/",
     "phone": "317-939-2145",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -3077,7 +3137,7 @@
     "type": "Point",
     "coordinates": [
      -71.4662,
-     41.5501
+     41.5554
     ]
    },
    "properties": {
@@ -3099,7 +3159,7 @@
     "url": "https://www.razeemotorcycle.com/",
     "phone": "401-295-8837",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -3118,8 +3178,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -88.1065,
-     43.0606
+     -88.0703,
+     43.0896
     ]
    },
    "properties": {
@@ -3142,8 +3202,8 @@
     "url": "https://www.reinaintlauto.com/",
     "phone": "262-781-3336",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -3202,8 +3262,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.4148,
-     37.7699
+     -122.3837,
+     37.7591
     ]
    },
    "properties": {
@@ -3230,7 +3290,7 @@
     "url": "https://www.scuderiawest.com/",
     "phone": "",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "unverified",
     "capability": [
      "full-service"
@@ -3249,8 +3309,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -71.3273,
-     42.8806
+     -71.299,
+     42.8753
     ]
    },
    "properties": {
@@ -3276,7 +3336,7 @@
     "url": "https://seacoastsport.com/",
     "phone": "603-437-5656",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -3405,8 +3465,8 @@
      "aprilia",
      "vespa",
      "piaggio",
-     "kawasaki",
-     "suzuki"
+     "polaris",
+     "cfmoto"
     ],
     "functions": [
      "sales",
@@ -3414,9 +3474,9 @@
      "parts"
     ],
     "url": "https://www.stlouispowersports.com/",
-    "phone": "",
+    "phone": "(636) 385-6300",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -3463,9 +3523,9 @@
      "parts"
     ],
     "url": "https://suncsp.com/",
-    "phone": "",
+    "phone": "(719) 635-3004",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "satellite"
@@ -3601,8 +3661,8 @@
     "url": "https://www.turnonepowersports.com/",
     "phone": "903-494-0336",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -3733,8 +3793,8 @@
     "url": "https://www.vintagemotonc.com",
     "phone": "(919) 614-5414",
     "last_verified": "2026-07-26",
-    "verified_by": "nathan",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "heritage"
     ],
@@ -3771,7 +3831,8 @@
      "ktm",
      "vespa",
      "piaggio",
-     "bmw"
+     "bmw",
+     "yamaha"
     ],
     "functions": [
      "sales",
@@ -3779,9 +3840,9 @@
      "parts"
     ],
     "url": "https://www.warhorsecamphill.com/",
-    "phone": "",
+    "phone": "(717) 761-6192",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "full-service"
@@ -3817,7 +3878,9 @@
      "piaggio",
      "vespa",
      "triumph",
-     "royal-enfield"
+     "royal-enfield",
+     "moto-morini",
+     "cfmoto"
     ],
     "functions": [
      "sales",
@@ -3827,8 +3890,8 @@
     "url": "https://www.wideworldmotors.com/",
     "phone": "610-344-0945",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "full-service"
     ],
@@ -3875,8 +3938,8 @@
     "url": "https://www.wildwestmotoplex.com/",
     "phone": "281-392-8850",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "unverified",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -3965,9 +4028,9 @@
      "parts"
     ],
     "url": "https://www.xps-usa.com/",
-    "phone": "",
+    "phone": "(800) 967-7738",
     "last_verified": "2026-07-26",
-    "verified_by": "claude",
+    "verified_by": "claude-research-sweep",
     "status": "active",
     "capability": [
      "satellite"
