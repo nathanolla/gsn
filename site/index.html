@@ -29,8 +29,11 @@
   .controls input,.controls select{font:14px "Courier New",monospace;background:#fff;border:2px inset #999;padding:3px 6px}
   .controls button{font:bold 13px "Courier New",monospace;background:#d4d0c8;border:2px outset #999;padding:3px 10px;cursor:pointer}
   .controls button:active{border-style:inset}
-  .cols{display:grid;grid-template-columns:minmax(340px,430px) 1fr;gap:14px;align-items:start}
-  .mapcol{position:sticky;top:12px;align-self:start}  /* pin the map so it tracks the long list instead of leaving a dead gap */
+  .cols{display:grid;grid-template-columns:minmax(340px,430px) minmax(0,1fr);gap:14px;align-items:start}
+  /* min-width:0 lets both tracks honor their sizing; without it a grid item won't shrink below its
+     content's min-content, so 2026's wider sans-serif blows the list column past 430px and over the map. */
+  .listcol{min-width:0}
+  .mapcol{position:sticky;top:12px;align-self:start;min-width:0}  /* pin the map so it tracks the long list instead of leaving a dead gap */
   #map{height:66vh;min-height:440px;border:3px ridge #999;background:#dde}
   @media(max-width:920px){
     .cols{display:flex;flex-direction:column}
@@ -49,7 +52,7 @@
   table.nodes{border-collapse:collapse;width:100%;font-size:14px;background:#fff;border:2px outset #999}
   table.nodes th{background:#c8102e;color:#fff;font-family:Verdana,Geneva,sans-serif;font-size:11px;
     text-transform:uppercase;letter-spacing:.08em;padding:5px 7px;text-align:left}
-  table.nodes td{border-top:1px solid #ccc;padding:6px 7px;vertical-align:top}
+  table.nodes td{border-top:1px solid #ccc;padding:6px 7px;vertical-align:top;overflow-wrap:anywhere}
   table.nodes tr:nth-child(even) td{background:#f7f6f2}
   table.nodes tr.clickable{cursor:pointer}
   table.nodes tr.clickable:hover td{background:#fff3cc}
