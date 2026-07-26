@@ -7,7 +7,7 @@ lat: 34.6948
 lon: -84.4822
 layer: franchise
 capability: [satellite]
-brands: [cfmoto, segway, beta, hisun, ssr, thumpstar]
+brands: [moto-guzzi, cfmoto, segway, beta, hisun, ssr, thumpstar]
 functions:
   - sales
   - service
@@ -20,7 +20,7 @@ observations:
     fact: "Own site runs 'Moto Guzzi Days' promotional content indicating a Guzzi franchise, but primary lines are CFMOTO/Segway/Beta; Guzzi stocking depth unconfirmed."
   - date: 2026-07-26
     method: website
-    fact: "own site brand roster is CFMOTO/Segway/Beta/Hisun/SSR/Thumpstar \u2014 NO Moto Guzzi; the earlier 'Moto Guzzi Days' signal is not reflected in the current lineup"
+    fact: "in-stock inventory search lists a 2027 Moto Guzzi (homepage brand roster omits Guzzi but the inventory carries it): mountainpowersports.net/search/inventory/availability/In Stock/brand/Moto Guzzi"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
-status: unverified
+verified_by: nathan
+status: active
