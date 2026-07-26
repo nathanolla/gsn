@@ -16,3 +16,6 @@ this manifest.
 | site/vendor/leaflet/images/marker-icon.png | Leaflet 1.9.4 distribution (vendored) | BSD-2-Clause (Leaflet) |
 | site/vendor/leaflet/images/marker-icon-2x.png | Leaflet 1.9.4 distribution (vendored) | BSD-2-Clause (Leaflet) |
 | site/vendor/leaflet/images/marker-shadow.png | Leaflet 1.9.4 distribution (vendored) | BSD-2-Clause (Leaflet) |
+
+## Icon glyphs
+Capability icons are inline SVG bundled in the page (no hosted image files). Paths adapted from [Feather Icons](https://github.com/feathericons/feather), MIT License.

@@ -169,6 +169,24 @@ def main():
 CAP_COLORS = {"full-service": "#1e8a5f", "satellite": "#c98d1f", "depot": "#2f6fbe",
               "performance": "#7a4fc0", "heritage": "#6d7c8c", "knowledge": "#888"}
 
+# In-house capability glyphs (inline SVG inner-paths; adapted from Feather Icons, MIT).
+# Single source of truth: used by the static render here AND injected into the page
+# for the JS to reuse, so both paths draw identical icons. No hosted images.
+ICON_PATHS = {
+    "full-service": '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>',
+    "satellite": '<circle cx="12" cy="12" r="9"/><path d="M8.3 12.3 11 15l5-6"/>',
+    "depot": '<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.3 7 12 12l8.7-5"/><path d="M12 22V12"/>',
+    "performance": '<path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/>',
+    "heritage": '<circle cx="12" cy="8" r="6"/><path d="M8.2 13.9 7 22l5-3 5 3-1.2-8.1"/>',
+    "knowledge": '<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 1-4 4v14a3 3 0 0 1 3-3h7z"/>',
+}
+
+
+def icon_svg(cap, cls="micon"):
+    inner = ICON_PATHS.get(cap, '<circle cx="12" cy="12" r="7"/>')
+    return (f'<svg class="{cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+            f'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{inner}</svg>')
+
 
 def _replace_sentinel(doc, name, inner):
     """Replace content between <!--BUILD:name--> and <!--/BUILD:name-->. Idempotent."""
@@ -194,7 +212,7 @@ def static_render(features):
         cap = (p["capability"] or ["knowledge"])[0]
         color = CAP_COLORS.get(cap, "#888")
         url = p.get("url")
-        sw = f'<span class="sw" style="background:{color}"></span>'
+        sw = f'<span class="sw" style="color:{color}">{icon_svg(cap)}</span>'
         if url:
             u = e(url)
             namecell = (f'<a href="{u}" target="_blank" rel="noopener">{sw}</a>'
@@ -221,6 +239,8 @@ def static_render(features):
             f'<td class="fnline">{fns}<br>{link}{tel}</td>'
             f'<td><span class="pill">{lv}</span></td></tr>')
 
+    icons_js = "<script>const ICONS=" + json.dumps({c: icon_svg(c) for c in CAP_COLORS}) + ";</script>"
+    doc = _replace_sentinel(doc, "ICONS", icons_js)
     doc = _replace_sentinel(doc, "COUNT", str(len(features)).zfill(6))
     doc = _replace_sentinel(doc, "LASTUPD", e(newest) or "—")
     doc = _replace_sentinel(doc, "FOOTUPD", e(newest) or "—")
