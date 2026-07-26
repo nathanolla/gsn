@@ -1,0 +1,23 @@
+id: vintagemoto
+name: "Vintage Moto"
+city: Clayton
+state: NC
+country: US
+lat: 35.6507
+lon: -78.4564
+layer: independent
+capability: [heritage]
+brands: []
+functions:
+  - vintage & modern motorcycle repair
+  - restoration
+  - routine maintenance
+url: https://www.vintagemotonc.com
+phone: "(919) 614-5414"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "120 Rock Pillar Rd, Clayton NC; vintage & new repair + restoration, Tue-Sat by appointment; actively hiring a technician (operational); no marque list published"
+last_verified: 2026-07-26
+verified_by: nathan
+status: unverified
