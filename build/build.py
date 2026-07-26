@@ -81,6 +81,9 @@ def main():
             if not (isinstance(o, dict) and DATE.match(str(o.get("date", "")))
                     and o.get("method") in METHODS and o.get("fact")):
                 err(f, f"malformed observation: {o}")
+        u = n.get("url")
+        if u and not re.match(r"^https?://", str(u)):
+            err(f, f"url must be absolute (https://...): {u}")
         lat, lon, st = n.get("lat"), n.get("lon"), n.get("state")
         if (lat is None) != (lon is None):
             err(f, "lat/lon must both be set or both null")
