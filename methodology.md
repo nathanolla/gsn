@@ -1,54 +1,34 @@
-# Methodology — observations in, categories out
+# Methodology
 
-**Rubric version 1.1.0 (2026-07-26).** (1.0.0 → 1.1.0: added the `community-endorsement` observation method.)
+Rubric 1.1.0. Nodes are graded from dated observations, not opinion.
 
-## Principle
-Store **observations**, derive **categories**, never publish **characterizations**.
+## Observations
+An observation is a dated fact with a method. Methods, strongest first:
 
-- An *observation* is a dated, attributed, verifiable fact with a method:
-  `2026-07-25 · visited · 3 new Guzzi units on floor` ·
-  `2026-07 · called · books Guzzi service appointments: yes` ·
-  `listed on official Piaggio dealer locator: yes`.
-- Accepted methods, in descending signal quality:
-  1. `official-locator` — authoritative and binary (Piaggio's own claim)
-  2. `called` / `visited` / `bought` — verifiable by anyone
-  3. `website` — weakest; caps a new node's status at `unverified`
-- Floor counts are one dated input among several, never the sole basis — allocation and
-  season make them noisy.
-- `community-endorsement` — a dated, sourced recommendation from a public community venue
-  (forum thread, owners-group post). The fact must name the venue and thread date. Signal
-  scope: endorsements support **capability** evidence (someone's Guzzi was actually
-  wrenched there) but never franchise/authorization status, and never outweigh a
-  first-party `called`/`visited` check. A node with only community-endorsement +
-  website evidence stays `unverified`.
+- `official-locator` — appears on the manufacturer's dealer locator
+- `called` / `visited` / `bought` — first-party check
+- `community-endorsement` — dated, sourced forum or owners-group recommendation; must name the venue and date; supports capability evidence only, not franchise status; does not outrank a first-party check
+- `website` — weakest; alone, caps status at `unverified`
 
-## Category derivation rules (v1.0.0)
-- official-locator listing **or** own-site franchise statement, **and** books Guzzi service,
-  **and** service depth evidenced (dedicated techs / multi-line Italian house / ≥3 new units
-  observed) → `full-service`
-- listing or franchise statement **and** books service, without depth evidence → `satellite`
-- mail-order parts at scale → `depot`
-- dyno/tuning development as a primary function → `performance`
-- vintage specialization as a primary function → `heritage`
-- no coordinates (book / software / club) → `knowledge`
+## Categories
+Derived from observations, not stored as opinion:
 
-A category change is traceable to a data change or a rubric-version change — never to
-editorial judgment.
+- `full-service` — locator listing or franchise statement, books Guzzi service, service depth evidenced
+- `satellite` — franchise or service without depth evidence
+- `depot` — mail-order parts at scale
+- `performance` — tuning or dyno
+- `heritage` — vintage/classic specialization
+- `knowledge` — book, software, or club (no coordinates)
+
+Multi-role nodes list several.
 
 ## Status
-- `active` — most recent observations support operation
-- `unverified` — website-only evidence, or last_verified > 24 months
-- `defunct` — evidence of closure; **kept**, rendered ghosted
+- `active` — recent observations support operation
+- `unverified` — website-only, or `last_verified` over 24 months
+- `defunct` — evidence of closure; kept, rendered faded
 
-## Corrections & disputes
-Categories are mechanical derivations from dated observations; disputes are resolved by
-submitting newer or better observations via PR — the category recomputes.
-**The dispute channel is the contribution channel.**
+## Corrections
+Submit a newer or better observation; the category recomputes. Any listed business may request correction or removal.
 
-## Delist-on-request
-Any listed business may request correction or removal — honored within **7 days**, no
-questions asked, logged in repo history.
-
-## Quality opinion is outsourced
-Node cards may *link* to a business's public review page; this dataset never imports,
-caches, renders, or summarizes ratings, and the rubric never consumes review data.
+## Reviews
+Node cards may link to a business's public review page. This dataset does not import, cache, render, or summarize ratings.

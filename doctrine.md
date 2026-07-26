@@ -1,36 +1,30 @@
-# Doctrine — how nodes are graded
+# Doctrine — grading
 
-The Guzzi Support Network grades nodes by **function, not existence**. The rubric scales;
-no founder survey has to.
+Nodes are graded by function, not existence.
 
 ## Principles
-1. **Function over existence; capability over floor inventory.** A node is what a stranded
-   or planning rider can actually *use* it for.
-2. **Edge nodes are judged by position** — what terrain they guard — never by capacity.
-3. **Dealers are a warranty-years dependency.** The long decade runs on depots, independents,
-   and the workbench.
-4. **Tier One is the toolkit under the seat:** tubeless plug kit + mini compressor, fuses,
-   tape, multi-tool, tire gauge — and every relevant node's number in your phone before a
-   mountain trip.
-5. **Freshness is the product.** A node nobody has verified in two years is a rumor with
-   coordinates. Stale nodes are demoted, never deleted — knowing a node died is information.
+- Function over existence; capability over inventory.
+- A node is judged by what a rider near it can use it for.
+- A node unverified for over two years is rendered faded. Closed nodes are kept and marked `defunct`, not deleted.
 
-## Capability grades (`capability`)
+## Tier One
+The first resource is the rider's own kit: tubeless plug kit, mini compressor, fuses, tape, multi-tool, tire gauge, and the relevant node numbers saved before a trip.
+
+## Capability grades
 | grade | meaning |
 |---|---|
-| `full-service` | Books and performs Guzzi service with real wrenching depth; can be a primary node |
-| `satellite` | Carries the franchise / books service; useful for position, diagnostics, portal access |
-| `depot` | Parts at scale by mail — the layer that carries years 3–10 |
-| `performance` | Tuning, dyno, performance development |
-| `heritage` | Vintage/classic expertise — loop-frames, Tontis, restorations |
-| `knowledge` | Books, software, clubs — nodes without coordinates |
+| `full-service` | Books and performs Guzzi service with wrenching depth |
+| `satellite` | Carries the franchise or books service; useful for position and diagnostics |
+| `depot` | Parts at scale by mail |
+| `performance` | Tuning, dyno, performance work |
+| `heritage` | Vintage/classic specialization |
+| `knowledge` | Book, software, or club (no coordinates) |
 
-Multi-role nodes list several grades (e.g. AF1: `[depot, full-service]`).
+Multi-role nodes list several grades.
 
-## Relative roles are computed, never stored
-"Primary", "standby", "edge" describe a node–**viewer** pair. Set your home pin; the map
-computes distance and bearing for you. The dataset stores only intrinsic attributes.
+## Relative roles
+Primary, standby, and edge describe a node relative to the viewer's home pin and are computed client-side, not stored. The dataset stores only intrinsic attributes.
 
-## What a good node entry answers
-- What would a stranded rider actually USE it for?
-- What did you *observe*, when, and how (visited / called / bought / website / official-locator)?
+## A node entry answers
+- What can a rider use it for?
+- What was observed, when, and by which method?
