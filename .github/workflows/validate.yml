@@ -1,0 +1,28 @@
+name: validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pyyaml pillow
+      - name: Schema validation + build (the moderation)
+        run: python3 build/build.py
+      - name: URL liveness on changed nodes (PR only)
+        if: github.event_name == 'pull_request'
+        run: |
+          base="origin/${{ github.base_ref }}"
+          for f in $(git diff --name-only "$base"... -- 'nodes/*.yaml'); do
+            [ -f "$f" ] || continue
+            url=$(python3 -c "import yaml;print(yaml.safe_load(open('$f')).get('url') or '')")
+            [ -z "$url" ] && continue
+            code=$(curl -skL -o /dev/null -m 20 -w '%{http_code}' -A 'gsn-ci/1.0' "$url")
+            echo "$f -> $code"
+            case "$code" in 2*|3*|401|403) ;; *) echo "::error file=$f::$url returned $code"; exit 1;; esac
+          done

@@ -1,0 +1,15 @@
+name: staleness
+on:
+  schedule: [{cron: '30 12 * * 1'}]
+  workflow_dispatch:
+jobs:
+  staleness:
+    runs-on: ubuntu-latest
+    permissions: {issues: write, contents: read}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pyyaml
+      - env: {GH_TOKEN: "${{ github.token }}"}
+        run: python3 scripts/staleness_check.py
