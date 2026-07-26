@@ -1,0 +1,22 @@
+id: oldschool
+name: "Old School Cycles (SCOOT-NC)"
+city: Burlington
+state: NC
+country: US
+lat: 36.0957
+lon: -79.4378
+layer: independent
+capability: [full-service]
+brands: []
+functions:
+  - vintage & modern motorcycle repair
+  - maintenance without upsell (community-reported)
+url: https://www.facebook.com/p/Old-school-cycles-100054321799370/
+phone: "(336) 596-1111"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "2442 Maple Ave, Burlington NC 27215; 4.7 stars across 154 public reviews; owner Johnny; vintage and modern repair per directories; recommended by name for Guzzi work in a Moto Guzzi USA community thread (2025-04, owner-supplied)"
+last_verified: 2026-07-26
+verified_by: nathan
+status: unverified
