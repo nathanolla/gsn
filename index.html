@@ -97,6 +97,13 @@
   body.modern .foot{color:#8fa1b3}
   body.modern .ring{color:#8fa1b3}
   /* ---------- filter chips (both skins) ---------- */
+  .pager{text-align:center;font:13px "Courier New",monospace;margin:8px 0;color:#444}
+  .pager button{font:inherit;background:#d4d0c8;border:2px outset #999;padding:2px 8px;margin:0 2px;cursor:pointer}
+  .pager button:disabled{opacity:.4;cursor:default}
+  .pager button.cur{border-style:inset;font-weight:bold}
+  body.modern .pager{color:#8fa1b3;font-family:ui-monospace,Menlo,Consolas,monospace}
+  body.modern .pager button{background:#1e2630;color:#dbe4ee;border:1px solid #2a3542;border-radius:7px}
+  body.modern .pager button.cur{background:#c8102e;border-color:#c8102e}
   .chips{text-align:center;margin:8px 0}
   .chip{display:inline-block;cursor:pointer;font:13px "Courier New",monospace;background:#fff;
     border:2px outset #999;padding:3px 9px;margin:2px;user-select:none}
@@ -131,10 +138,12 @@
   <hr class="thin">
   <div class="cols">
     <div class="listcol">
+      <div class="pager" id="pagertop"></div>
       <table class="nodes" id="nodetable">
         <thead><tr><th>Node</th><th>What it's for</th><th>Verified</th></tr></thead>
         <tbody id="nodes"></tbody>
       </table>
+      <div class="pager" id="pagerbot"></div>
     </div>
     <div class="mapcol">
       <div style="position:relative">
@@ -191,6 +200,8 @@ function staleClass(lv){if(!lv)return 'stale-2';const m=(Date.now()-new Date(lv)
 function host(u){try{return new URL(u).hostname.replace(/^www\./,'')}catch(e){return u}}
 let map,home=null,homeMarker=null,rings=[],markers={},FEATS=[];
 const activeCaps=new Set(Object.keys(CAP_COLORS));
+let pageSize=(()=>{try{return parseInt(localStorage.getItem('gsn_pagesize'))||25}catch(e){return 25}})();
+let page=0;
 const params=new URLSearchParams(location.search);
 
 async function geocode(q){
@@ -203,7 +214,7 @@ function setHome(ll,save=true){
   homeMarker=L.marker(ll,{icon:L.divIcon({className:'',html:'<div style="font-size:22px;line-height:1;filter:drop-shadow(1px 1px 0 #fff)" role="img" aria-label="home">\uD83C\uDFCD\uFE0F</div>',iconSize:[24,24],iconAnchor:[12,12]})}).addTo(map).bindPopup('<b>HOME</b> — click the map to move');
   [100,200,300].forEach(mi=>rings.push(L.circle(ll,{radius:mi*MI,color:'#c8102e',weight:1,opacity:.5,fill:false,dashArray:'6 8'}).addTo(map)));
   if(save){try{localStorage.setItem('gsn_home',JSON.stringify(ll))}catch(e){}} // client-side only; URL only via explicit Share
-  render();
+  page=0; render();
 }
 function render(){
   const flayer=document.getElementById('flayer').value;
@@ -220,7 +231,28 @@ function render(){
   const tb=document.getElementById('nodes'); tb.innerHTML='';
   let nearestFull=null;
   if(home) nearestFull=list.find(f=>f.geometry&&f.properties.capability.includes('full-service'));
-  list.forEach(f=>{
+  // pagination (table only — the map always shows every filtered node)
+  const total=list.length, size=pageSize>0?pageSize:total||1, pages=Math.max(1,Math.ceil(total/size));
+  if(page>=pages)page=pages-1;
+  const start=page*size, shown=list.slice(start,start+size);
+  const pagerHtml=(()=>{ if(total===0) return 'no nodes match';
+    let h=`showing ${start+1}–${Math.min(start+size,total)} of ${total} &nbsp;`;
+    h+=`<button ${page===0?'disabled':''} data-pg="prev">&laquo; PREV</button>`;
+    for(let i=0;i<pages;i++){ if(pages>9 && Math.abs(i-page)>3 && i>0 && i<pages-1){ if(Math.abs(i-page)===4)h+='&hellip;'; continue;}
+      h+=`<button class="${i===page?'cur':''}" data-pg="${i}">${i+1}</button>`;}
+    h+=`<button ${page>=pages-1?'disabled':''} data-pg="next">NEXT &raquo;</button> &nbsp;per page: `;
+    h+=[10,25,50,0].map(n=>`<button class="${pageSize===n?'cur':''}" data-ps="${n}">${n||'ALL'}</button>`).join('');
+    return h;})();
+  ['pagertop','pagerbot'].forEach(id=>{
+    const el=document.getElementById(id); el.innerHTML=pagerHtml;
+    el.querySelectorAll('[data-pg]').forEach(b=>b.onclick=()=>{
+      const v=b.dataset.pg; page=v==='prev'?page-1:v==='next'?page+1:parseInt(v); render();
+      if(id==='pagerbot')document.getElementById('pagertop').scrollIntoView({behavior:'smooth'});});
+    el.querySelectorAll('[data-ps]').forEach(b=>b.onclick=()=>{
+      pageSize=parseInt(b.dataset.ps); page=0;
+      try{localStorage.setItem('gsn_pagesize',String(pageSize))}catch(e){} render();});
+  });
+  shown.forEach(f=>{
     const p=f.properties, tr=document.createElement('tr');
     tr.className=(markers[p.id]?'clickable ':'')+staleClass(p.last_verified);
     let rel='';
@@ -274,7 +306,7 @@ function render(){
     b.type='button'; b.className='chip'; b.setAttribute('aria-pressed','true');
     b.innerHTML=`<span class="sw" style="background:${col}"></span>${c}`;
     b.onclick=()=>{activeCaps.has(c)?activeCaps.delete(c):activeCaps.add(c);
-      b.classList.toggle('off',!activeCaps.has(c)); b.setAttribute('aria-pressed',String(activeCaps.has(c))); render();};
+      b.classList.toggle('off',!activeCaps.has(c)); b.setAttribute('aria-pressed',String(activeCaps.has(c))); page=0; render();};
     chipwrap.appendChild(b);
   });
   document.getElementById('legend').innerHTML='<b>Key — tap to filter</b><br>'+Object.entries(CAP_COLORS)
@@ -285,9 +317,9 @@ function render(){
       el.style.opacity=activeCaps.has(c)?'1':'.35';
       const chip=[...document.querySelectorAll('.chip')].find(x=>x.textContent.trim()===c);
       if(chip)chip.classList.toggle('off',!activeCaps.has(c));
-      render();};
+      page=0; render();};
   });
-  document.getElementById('flayer').onchange=render;
+  document.getElementById('flayer').onchange=()=>{page=0;render()};
   const themeBtn=document.getElementById('theme');
   function applyTheme(t){document.body.classList.toggle('modern',t==='2026');
     themeBtn.textContent='VIEW: '+(t==='2026'?'2026':'1999');
