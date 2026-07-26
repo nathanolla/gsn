@@ -1,0 +1,6230 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9372,
+     40.0992
+    ]
+   },
+   "properties": {
+    "id": "aces",
+    "name": "ACES Motorcycles",
+    "city": "Frederick",
+    "state": "CO",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.acesmotorcycles.com/",
+    "phone": "970-223-1203",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Family-owned Northern Colorado dealer (150+ units) carrying Aprilia, Ducati and Moto Guzzi; own site maintains new Moto Guzzi inventory pages; 3761 Monarch St."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Aces Motorcycles\" (Frederick, CO); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.6858,
+     30.3634
+    ]
+   },
+   "properties": {
+    "id": "af1",
+    "name": "AF1 Racing",
+    "city": "Austin",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia"
+    ],
+    "functions": [
+     "national mail-order parts",
+     "fiche lookup",
+     "full service (local)"
+    ],
+    "url": "https://www.af1racingaustin.com/",
+    "phone": "(512) 459-3966",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "depot",
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi dealer locator"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "retail site live; single consolidated Austin location"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"AF-1 Racing\" (Austin, TX); type=dealers,services; verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "retails/installs UpMap T800+ app-based ECU reflash for Moto Guzzi V85/V9/V7-850 e5 (RACE / full-exhaust maps) — an ECU-tune option in addition to parts [source: af1racing.com UpMap listing]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.6603,
+     39.4459
+    ]
+   },
+   "properties": {
+    "id": "antietam",
+    "name": "Antietam Classic Cycle",
+    "city": "Rohrersville",
+    "state": "MD",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service",
+     "restoration",
+     "parts"
+    ],
+    "url": "https://antietamclassiccycle.com/",
+    "phone": "301-432-2275",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "heritage",
+     "performance"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by multiple members on wildguzzi.com as loop-frame Guzzi expert 'Charlie' worth 'a short trailer ride', thread of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "directory listings current (Yelp updated May 2026) at 3333 Gapland Rd, Rohrersville MD; described as dedicated to vintage European motorcycles with Moto Guzzi as primary focus"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "documented Moto Guzzi engine building incl. a 949cc big-bore build with 5-speed and head/valve work (Charlie Mullendore) — performance-grade engine capability [source: https://www.antietamclassiccycle.com]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.6566,
+     35.7635
+    ]
+   },
+   "properties": {
+    "id": "artmoto",
+    "name": "ArtMoto Garage",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "triumph",
+     "ducati",
+     "bimota",
+     "vespa"
+    ],
+    "functions": [
+     "warranty service",
+     "PADS diagnostics",
+     "new unit sales"
+    ],
+    "url": "https://artmotogarage.com/",
+    "phone": "(919) 833-5575",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-25",
+      "method": "visited",
+      "fact": "multiple new Moto Guzzi units observed on showroom floor (V85 TT among them)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "not yet listed on the official Moto Guzzi dealer locator"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; brands page predates the Guzzi line"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Piaggio Vespa Aprilia Moto Guzzi Raleigh\" (Raleigh, NC); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -92.58684,
+     34.56422
+    ]
+   },
+   "properties": {
+    "id": "baxleys",
+    "name": "Baxleys Motorcycle + ATV",
+    "city": "Benton",
+    "state": "AR",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "ktm",
+     "gasgas",
+     "beta",
+     "husqvarna",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.baxleysmcatv.com/",
+    "phone": "(501) 794-5852",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Benton, AR); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Site loads with featured 2027-model inventory (Aprilia, GasGas, Husqvarna, KTM)  [source: https://www.baxleysmcatv.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.23406,
+     39.42947
+    ]
+   },
+   "properties": {
+    "id": "bb-powersports",
+    "name": "B & B Powersports & Outdoors",
+    "city": "Bridgeton",
+    "state": "NJ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "kawasaki",
+     "ktm",
+     "suzuki",
+     "segway",
+     "hisun",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.bbpowersportsandoutdoors.com",
+    "phone": "(856) 455-1144",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Bridgeton, NJ); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site returns HTTP 403 (Cloudflare bot-protection), not a down site  [source: https://www.bbpowersportsandoutdoors.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -76.6199483577,
+     39.8436087785
+    ]
+   },
+   "properties": {
+    "id": "billet-pa",
+    "name": "Billet Motorsports",
+    "city": "Red Lion",
+    "state": "PA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "beta",
+     "aprilia",
+     "bsa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.billetmotorsportsinc.com/",
+    "phone": "(717) 501-0028",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Red Lion, PA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site copyright 2026; official Beta USA dealer; dated asset 'AMA membership 062725' (June 27, 2025); sells Beta, Aprilia, Moto Guzzi, BSA  [source: https://www.billetmotorsportsinc.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.4966,
+     40.5393
+    ]
+   },
+   "properties": {
+    "id": "blackmans",
+    "name": "Blackmans Cycle",
+    "city": "Emmaus",
+    "state": "PA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "honda",
+     "yamaha",
+     "suzuki",
+     "can-am",
+     "royal-enfield",
+     "cfmoto",
+     "kymco"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.blackmanscycle.com/",
+    "phone": "610-965-9865",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "70-year, 18-brand family dealership; own site has current Moto Guzzi inventory pages, Moto Guzzi promotions page, and a Moto Guzzi Demo Tour event listing."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Blackmans Cycle Center in Emmaus, PA\" (Emmaus, PA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.3243,
+     41.4021
+    ]
+   },
+   "properties": {
+    "id": "bmg",
+    "name": "BMG Powersports",
+    "city": "Goshen",
+    "state": "NY",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "triumph",
+     "arctic-cat",
+     "piaggio",
+     "royal-enfield"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.bmgpowersports.com/",
+    "phone": "845-294-2453",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site headline: 'New Aprilia, Arctic Cat, Moto Guzzi, & Piaggio for sale'; maintains new Moto Guzzi model showroom pages; 2677 Route 17M."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise — treat franchise status as unconfirmed)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.9487,
+     34.2353
+    ]
+   },
+   "properties": {
+    "id": "bombars",
+    "name": "Bombar's Beemers",
+    "city": "Wilmington",
+    "state": "NC",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "bmw"
+    ],
+    "functions": [
+     "independent European service",
+     "restoration"
+    ],
+    "url": "https://www.bombarsbeemers.com/",
+    "phone": "(919) 491-4875",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "own site lists Moto Guzzi among serviced marques; in business since 1992"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "relocated from Durham NC to Wilmington NC per own announcements"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.0038,
+     40.6848
+    ]
+   },
+   "properties": {
+    "id": "borgotaro",
+    "name": "Moto Borgotaro",
+    "city": "Brooklyn",
+    "state": "NY",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "laverda",
+     "mv-agusta",
+     "bmw"
+    ],
+    "functions": [
+     "restorations",
+     "curated vintage sales"
+    ],
+    "url": "https://motoborgotaro.com/",
+    "phone": "(917) 589-4754",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; by-appointment-only per own pages"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.381,
+     39.257
+    ]
+   },
+   "properties": {
+    "id": "cadre",
+    "name": "Cadre Cycle",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://cadrecycle.com/",
+    "phone": "513-522-7300",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site: 'Cincinnati's premier Moto Guzzi, Vespa, and Piaggio dealership and service center', European-brand specialists at 11121 Deerfield Rd (Blue Ash area), home delivery within 200 miles."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by multiple members on wildguzzi.com â praised for 'Guzzi Dave', a 1970s Guzzi restoration, and 'top notch mechanics', threads of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0) and 2021-11 (https://wildguzzi.com/forum/index.php?topic=112965.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Cadre Cycle\" (Cincinnati, OH); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.55097154,
+     37.30133718
+    ]
+   },
+   "properties": {
+    "id": "cape-mo",
+    "name": "Cape Powersports",
+    "city": "Cape Girardeau",
+    "state": "MO",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "suzuki",
+     "cfmoto",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.capesuzukicfmoto.com/",
+    "phone": "(573) 334-7300",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Cape Girardeau, MO); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows July 1-31 2026 promotions (Piaggio Urban Days, Vespa Days, Moto Guzzi Days, Aprilia Days); Suzuki graphics promo through Sep 30 2026  [source: https://www.capesuzukicfmoto.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.878,
+     41.279
+    ]
+   },
+   "properties": {
+    "id": "ccspower",
+    "name": "CC's Powersports",
+    "city": "Forty Fort",
+    "state": "PA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "benelli",
+     "ssr"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.ccspowersports.com/",
+    "phone": "570-301-6065",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows Moto Guzzi new-model showroom and 2025 V85 Strada availability; 19 Shoemaker St."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"CC\\'s Powersports\" (Forty Fort, PA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -102.37519,
+     31.84915
+    ]
+   },
+   "properties": {
+    "id": "ch-powersports",
+    "name": "C&H Power Sport",
+    "city": "Odessa",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "triumph",
+     "segway"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.chpowersports.com/",
+    "phone": "(432) 225-0479",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Odessa, TX); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows July 2026 'Moto Guzzi Days' / 'Aprilia Days' promotions and 2027 model-year inventory (Aprilia RS 660, Moto Guzzi V7)  [source: https://www.chpowersports.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.829,
+     41.456
+    ]
+   },
+   "properties": {
+    "id": "clevelandmoto",
+    "name": "ClevelandMoto",
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "moto-morini",
+     "benelli",
+     "piaggio",
+     "vespa",
+     "genuine",
+     "kymco",
+     "keeway",
+     "qjmotor"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "restoration"
+    ],
+    "url": "https://www.clevelandmoto.com/",
+    "phone": "216-795-5580",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "25+ year shop at 16211 Lorain Ave claiming the largest Italian bike/scooter inventory in the USA; current stock incl. 2023 Moto Guzzi V100 Mandello S; also does Guzzi restoration and custom work (separate Mentor OH satellite closed)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Listed as 'Cleveland Moto Guzzi' on the official dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by a forum member on wildguzzi.com â former MG dealers who 'still work on them (and lots of Italian bikes)', thread of 2021-11 (https://wildguzzi.com/forum/index.php?topic=112965.0); also cited as having good reviews in a 2020-08 Ohio thread (https://wildguzzi.com/forum/index.php?topic=107253.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Cleveland Moto Guzzi\" (Cleveland, OH); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.2497,
+     38.6582
+    ]
+   },
+   "properties": {
+    "id": "colemanwb",
+    "name": "Coleman PowerSports",
+    "city": "Woodbridge",
+    "state": "VA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "yamaha",
+     "kawasaki",
+     "honda",
+     "suzuki",
+     "ktm"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.wherethepoweris.com/",
+    "phone": "703-497-1500",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Group site (wherethepoweris.com) shows Moto Guzzi brand inventory incl. 2026 V7 Special ($10,190) and 2025 V85 TT ($12,690) at the Woodbridge store, 14105 Telegraph Rd."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Coleman PowerSports\" (Woodbridge, VA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.8824,
+     36.0073
+    ]
+   },
+   "properties": {
+    "id": "combustion",
+    "name": "Combustion Cycles Ltd",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "ducati",
+     "bmw",
+     "triumph"
+    ],
+    "functions": [
+     "independent European service",
+     "machine work"
+    ],
+    "url": "https://www.combustioncycles.com/",
+    "phone": "(919) 688-5009",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; lists European service and in-house machining; no Moto Guzzi statement found"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.607,
+     29.554
+    ]
+   },
+   "properties": {
+    "id": "ctx",
+    "name": "CTX Motoworks",
+    "city": "San Antonio",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati",
+     "triumph",
+     "mv-agusta"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.ctxmotoworks.com/",
+    "phone": "210-403-2100",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site sells new Triumph, Moto Guzzi, Aprilia and Ducati with a Moto Guzzi current-inventory showroom and demo-bike program; 11007 Fredericksburg Rd."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"CTX Motoworks\" (San Antonio, TX); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.9019336,
+     21.3358997
+    ]
+   },
+   "properties": {
+    "id": "cyclecity-hi",
+    "name": "Moto Guzzi Honolulu",
+    "city": "Honolulu",
+    "state": "HI",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "aprilia",
+     "harley-davidson",
+     "kawasaki",
+     "triumph"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.cyclecityltd.com/",
+    "phone": "(808) 831-2600",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Honolulu, HI); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Independent Yelp profile 'Claimed' with 3.9 stars and 495 reviews, categorized Motorcycle Dealers/Repair/Rental  [source: https://www.yelp.com/biz/cycle-city-hawaii-honolulu-2]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -116.2156,
+     33.7206
+    ]
+   },
+   "properties": {
+    "id": "cyclegarden",
+    "name": "Cycle Garden Moto Guzzi",
+    "city": "Indio",
+    "state": "CA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "restoration",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.cyclegarden.com/",
+    "phone": "(760) 972-4800",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Moe Moore's vintage-Guzzi house specializing in pre-1975 loop-frames (Ambassador, Eldorado, V700, V7 Sport) with full restoration and NOS/used parts shipped worldwide; 25+ years in business."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site describes a Huntington Beach showroom, but a Yelp listing updated Feb 2026 shows a Cycle Garden Moto Guzzi address in Indio, CA â location may have moved; needs confirmation."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended by a forum member on guzzitech.com forums for Guzzi engine work â 'those guys are artists...they know what they do and do it well', thread of 2011-12 (https://www.guzzitech.com/forums/threads/i-cant-find-a-new-top-end.7818/); no fresher forum endorsement found, but shop is widely described as the premiere pre-1975 Guzzi restoration specialist"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "relocation confirmed: now at 83525 Date Ave, Indio CA (moved from Huntington Beach); Yelp listing updated Feb 2026"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6557,
+     30.3322
+    ]
+   },
+   "properties": {
+    "id": "cyclesjax",
+    "name": "Cycles of Jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "triumph",
+     "honda"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.cyclesofjacksonville.com/",
+    "phone": "904-721-2453",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows current Moto Guzzi inventory incl. new 2026 V7 Sport, 2025 Stelvio and 2025 V85 TT; 8209 Atlantic Blvd."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Vespa Jacksonville\" (Jacksonville, FL); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -82.2372,
+     34.9181
+    ]
+   },
+   "properties": {
+    "id": "d2",
+    "name": "D2 Powersports Greer",
+    "city": "Greer",
+    "state": "SC",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "ducati",
+     "triumph",
+     "bmw",
+     "indian",
+     "polaris",
+     "slingshot",
+     "royal-enfield",
+     "cfmoto"
+    ],
+    "functions": [
+     "service booking",
+     "PADS diagnostics"
+    ],
+    "url": "https://www.d2powersports-greer.com/",
+    "phone": "(864) 879-2119",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "operating as D2 Powersports Greer; states it is the only SC dealer for Aprilia/Moto Guzzi/Vespa/Piaggio"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"D2 Powersports\" (Greer, SC); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -83.533,
+     42.657
+    ]
+   },
+   "properties": {
+    "id": "detroitiron",
+    "name": "Detroit Iron Cycles",
+    "city": "White Lake",
+    "state": "MI",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "kawasaki",
+     "royal-enfield",
+     "moto-morini",
+     "ssr"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.detroitironcycles.com/",
+    "phone": "(248) 342-8225",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site calls itself Michigan's #1 Moto Guzzi dealer â factory-authorized sales/service/parts with a dedicated Moto Guzzi page; appears to be the sole current Guzzi franchise in Michigan."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Detroit Iron Cycles\" (White Lake, MI); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -100.7837,
+     46.8083
+    ]
+   },
+   "properties": {
+    "id": "dvorak",
+    "name": "Dvorak Motorsports",
+    "city": "Bismarck",
+    "state": "ND",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "cfmoto",
+     "arctic-cat"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.dvorakmotorsports.com/",
+    "phone": "(701) 751-7547",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Motorsports & RV center carrying Aprilia/Moto Guzzi/Vespa; own site lists 2026 Moto Guzzi V7 Sport and 2025 V85 TT Travel; one of the very few Guzzi points in the Dakotas."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Dvorak Motorsports & RV Center\" (Bismarck, ND); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.056,
+     43.488
+    ]
+   },
+   "properties": {
+    "id": "eaglerock",
+    "name": "Eagle Rock Indian Motorcycle (Idaho Motorcycle Co.)",
+    "city": "Idaho Falls",
+    "state": "ID",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa",
+     "indian",
+     "harley-davidson",
+     "royal-enfield",
+     "cfmoto",
+     "zero"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.idahomotorcyclecompany.com/",
+    "phone": "208-525-1901",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Eastern Idaho multi-line store (opened 2017) with a Motoplex section; own-site inventory search includes Aprilia and Moto Guzzi units; 804 Pancheri Dr."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Motoplex Idaho\" (Idaho Falls, ID); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.88,
+     42.5584
+    ]
+   },
+   "properties": {
+    "id": "easterncycle",
+    "name": "Eastern Cycle",
+    "city": "Beverly",
+    "state": "MA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "mv-agusta"
+    ],
+    "functions": [
+     "service",
+     "restoration"
+    ],
+    "url": "http://easterncycle.net/",
+    "phone": "978-922-3707",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Founded 1971; sold its Ducati/Guzzi/MV franchises in 2011 and now operates as a restoration and cafe-custom shop with a Moto Guzzi/BMW-certified technician; Yelp listing updated Nov 2025 shows it open."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.03732,
+     45.25123
+    ]
+   },
+   "properties": {
+    "id": "ecofun-mn",
+    "name": "Ecofun LLC",
+    "city": "Forest Lake",
+    "state": "MN",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "aprilia",
+     "yamaha",
+     "kawasaki",
+     "sym",
+     "lance",
+     "bintelli",
+     "kayo"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.ecofunmotorsports.com/",
+    "phone": "(612) 321-8867",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Forest Lake, MN); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows promotions dated through July 31 2026 and 2024-2026 model-year inventory with financing offers  [source: https://www.ecofunmotorsports.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -121.36935,
+     38.38431
+    ]
+   },
+   "properties": {
+    "id": "elkgrove",
+    "name": "Elk Grove Powersports, LLC",
+    "city": "Elk Grove",
+    "state": "CA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "indian",
+     "aprilia",
+     "ducati",
+     "triumph",
+     "vespa",
+     "piaggio",
+     "can-am",
+     "sea-doo",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.egpowersports.com",
+    "phone": "(916) 714-7223",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Elk Grove, CA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Site loads with 2026 copyright and promotions dated July 1-31 2026  [source: https://www.egpowersports.com]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9903,
+     39.7392
+    ]
+   },
+   "properties": {
+    "id": "erico",
+    "name": "Erico Motorsports",
+    "city": "Denver",
+    "state": "CO",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "triumph",
+     "aprilia",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.ericomotorsports.com/",
+    "phone": "303-308-1811",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "named by multiple members on wildguzzi.com as the go-to (and only) Guzzi dealer service option in Colorado after Moto Italia Fort Collins closed, thread of 2019-07 (https://wildguzzi.com/forum/index.php?topic=102078.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "ericomotorsports.com live with Moto Guzzi inventory pages; Yelp listing updated June 2026, 2855 Walnut St, Denver CO"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Erico Enterprises Incorporated\" (Denver, CO); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -115.227,
+     36.1447
+    ]
+   },
+   "properties": {
+    "id": "eurocyclelv",
+    "name": "Euro Cycle Las Vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "bmw",
+     "triumph",
+     "ducati",
+     "mv-agusta",
+     "zero"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "mail-order"
+    ],
+    "url": "https://rideeurocycle.com/",
+    "phone": "(702) 430-3500",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "300+ bikes in stock at 6175 W Sahara Ave; current Guzzi inventory incl. 2025 V85 Strada/V85 TT and 2024 V9 Bobber/V100 Mandello; ships nationwide with financing in all 50 states."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Euro Cycle\" (Las Vegas, NV); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -76.8594,
+     40.1351
+    ]
+   },
+   "properties": {
+    "id": "europamacchina",
+    "name": "Europa Macchina",
+    "city": "Lewisberry",
+    "state": "PA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "restoration",
+     "service"
+    ],
+    "url": "https://www.europamacchina.com/",
+    "phone": "(717) 932-6600",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by a forum member on wildguzzi.com as 'top notch in every way' with high-end restoration resources, thread of 2017-09 (https://wildguzzi.com/forum/index.php?topic=92351.0); dropped the MG franchise in late 2017 per guzzitech.com forums but continues restoration work"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "europamacchina.com live; business directory data as of March 2026 shows the restoration shop operating with ~6 employees at 501 Industrial Dr, Lewisberry PA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.893,
+     40.585
+    ]
+   },
+   "properties": {
+    "id": "eurosportsut",
+    "name": "Eurosports Utah",
+    "city": "Sandy",
+    "state": "UT",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati",
+     "bmw",
+     "triumph"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.euroutah.com/",
+    "phone": "801-618-2700",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Utah's leading European-brand dealer (founded 2009 as BMW Motorcycles of Utah); own site lists Moto Guzzi among its five premium lines; 339 W 9000 S; Yelp listing updated July 2026."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Aprilia & Moto Guzzi Of Utah\" (Sandy, UT); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.05319,
+     26.71439
+    ]
+   },
+   "properties": {
+    "id": "exclusive-wpb",
+    "name": "Exclusive Cycles",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.exclusivecycleswp.com/",
+    "phone": "(561) 758-0569",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (West Palm Beach, FL); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Correct dealer site (exclusivecycleswp.com) shows 2026/2027 inventory (Aprilia RS 660, Moto Guzzi V7 Stone) and promotions valid July 1-31, 2026  [source: https://www.exclusivecycleswp.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.855187,
+     40.50015
+    ]
+   },
+   "properties": {
+    "id": "flemington",
+    "name": "Flemington Powersports",
+    "city": "Flemington",
+    "state": "NJ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "can-am",
+     "polaris",
+     "landmaster"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.flemingtonpowersports.com/",
+    "phone": "(908) 237-0099",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Flemington, NJ); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "MotoHunt lists 13 current Moto Guzzi motorcycles including 2026 model-year units; recent TikTok product tours of current Aprilia inventory  [source: https://html.duckduckgo.com/html/?q=Flemington+Powersports+Flemington+NJ+Moto+Guzzi+Aprilia+dealer+reviews]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -85.6825048,
+     42.8825953
+    ]
+   },
+   "properties": {
+    "id": "fox-mi",
+    "name": "Fox Powersports",
+    "city": "Wyoming",
+    "state": "MI",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "yamaha"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.foxpowersports.com",
+    "phone": "(616) 855-3660",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Wyoming, MI); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "BirdEye shows 3,333 customer reviews for the Wyoming MI location; active Yelp/Yellow Pages/Google Maps listings with current hours  [source: https://html.duckduckgo.com/html/?q=%22Fox+Powersports%22+Wyoming+MI+Yelp+reviews+rating+hours]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.36968,
+     29.76058
+    ]
+   },
+   "properties": {
+    "id": "fullthrottle-hou",
+    "name": "Full Throttle",
+    "city": "Houston",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.fullthrottlehouston.com/",
+    "phone": "(877) 551-9538",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Houston, TX); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows July 1-31 2026 'Moto Guzzi Days'/'Aprilia Days' promotions and 2026-2027 model inventory ($6,849-$11,849)  [source: https://www.fullthrottlehouston.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -83.9433,
+     38.0565
+    ]
+   },
+   "properties": {
+    "id": "gatewayky",
+    "name": "Gateway Cycles",
+    "city": "Mount Sterling",
+    "state": "KY",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "kawasaki",
+     "suzuki",
+     "cfmoto",
+     "benelli",
+     "ssr",
+     "kayo"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.gatewaycycles.com/",
+    "phone": "859-497-2100",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site lists Moto Guzzi among authorized brands; claims Kentucky's largest powersports showroom (250+ units); acquired by Derek Harmon in 2024."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Gateway Cycles\" (Mt. Sterling, KY); type=dealers; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.235555,
+     33.635498
+    ]
+   },
+   "properties": {
+    "id": "goaz-peoria",
+    "name": "GO AZ Motorcycles Peoria",
+    "city": "Peoria",
+    "state": "AZ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "aprilia",
+     "bmw",
+     "ducati",
+     "triumph",
+     "ktm",
+     "royal-enfield"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.goazwest.com",
+    "phone": "(623) 322-6700",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Peoria, AZ); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Independent Yelp profile 'go-az-motorcycles-peoria-peoria' with 4.1 stars and 57 reviews  [source: https://www.yelp.com/biz/go-az-motorcycles-peoria-peoria]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.1611,
+     32.7157
+    ]
+   },
+   "properties": {
+    "id": "gpmoto",
+    "name": "GP Motorcycles",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati",
+     "mv-agusta",
+     "husqvarna",
+     "ktm",
+     "gasgas",
+     "ural",
+     "swm"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://gpmotorcycles.com/",
+    "phone": "(619) 233-4762",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site: San Diego County's only all-European dealership, authorized for Moto Guzzi alongside Ducati/Aprilia/MV Agusta/KTM/Ural, with a dedicated Moto Guzzi page."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"GP Motorcycles\" (San Diego, CA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.6894,
+     34.0356
+    ]
+   },
+   "properties": {
+    "id": "gtm",
+    "name": "GTM / GuzziTech",
+    "city": "Malibu",
+    "state": "CA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "V85 performance parts",
+     "custom ECU maps",
+     "dyno development"
+    ],
+    "url": "https://guzzitech.com",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "performance"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "store live; contact is email-only by stated policy"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "guzzidiag",
+    "name": "GuzziDiag",
+    "city": null,
+    "state": null,
+    "country": "US",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "free community ECU read/diagnostic tooling"
+    ],
+    "url": "https://www.von-der-salierburg.de/download/GuzziDiag/",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "download page actively maintained (v0.61 Windows / v0.60 Linux+Mac, June 2026)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.8673,
+     42.2795
+    ]
+   },
+   "properties": {
+    "id": "guzzidoctor",
+    "name": "The Guzzi Doctor",
+    "city": "Lake Bluff",
+    "state": "IL",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service",
+     "restoration",
+     "engine-building"
+    ],
+    "url": "https://theguzzidoctor.com/",
+    "phone": "708-715-0360",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
+    "capability": [
+     "heritage",
+     "performance"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "praised by multiple members on wildguzzi.com â 'pre computer Guzzi expert', 'knows what he's doing', 'Amazing workmanship' â when his motor build for a turbo 1969 Eldorado was recognized by Moto Guzzi, thread of 2017-08 (https://wildguzzi.com/forum/index.php?topic=91691.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "theguzzidoctor.com live (Chicago Moto Guzzi repair, Joe Walano); 5-star rating across 24 reviews on current Birdeye listing, 3109 Beacon St, North Chicago IL"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "guzziology",
+    "name": "Guzziology (Dave Richardson)",
+    "city": null,
+    "state": null,
+    "country": "US",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service and repair reference book"
+    ],
+    "url": "https://www.amazon.com/Guzziology-Version-9-Dave-Richardson/dp/1790479215",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Version 9 is current; author's site routes purchases to Amazon"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.3406,
+     33.8358
+    ]
+   },
+   "properties": {
+    "id": "guzzipower",
+    "name": "GuzziPower (Ed Milich)",
+    "city": "Torrance",
+    "state": "CA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "performance machine work",
+     "big-bore / pistons / heads / cams",
+     "dyno runs & race prep",
+     "mail-in parts"
+    ],
+    "url": "https://guzzipower.com",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "performance"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Moto Guzzi-only performance shop; site lists in-house machine work under P.E. Ed Milich — big-bore kits, pistons, heads, camshafts, billet parts, sump spacers, dyno runs. Mail-order (P.O. Box 3083, Torrance CA 90510; ed@guzzipower.com). [source: https://guzzipower.com/store/]"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "identified by wildguzzi/guzzitech forum members as a US Moto Guzzi performance/machine specialist"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.3951,
+     40.83655
+    ]
+   },
+   "properties": {
+    "id": "habberstad",
+    "name": "Habberstad Powersports",
+    "city": "Huntington Station",
+    "state": "NY",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "suzuki",
+     "aprilia",
+     "cfmoto",
+     "kawasaki",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.habberstadpowersports.com/",
+    "phone": "(631) 427-4400",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Huntington Station, NY); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site returns HTTP 403 (bot-protection)  [source: https://www.habberstadpowersports.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.4242635,
+     41.3755731
+    ]
+   },
+   "properties": {
+    "id": "hamlin",
+    "name": "Hamlin Cycles, LLC",
+    "city": "Bethel",
+    "state": "CT",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "triumph"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.hamlincycles.com",
+    "phone": "(203) 942-2232",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Bethel, CT); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Yelp listing active as of July 2026, 16 reviews, 'Authorized Moto Guzzi dealership'  [source: https://www.yelp.com/biz/hamlin-cycles-bethel]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.344,
+     38.852
+    ]
+   },
+   "properties": {
+    "id": "harpers",
+    "name": "Harper's Moto Guzzi",
+    "city": "Greenwood",
+    "state": "MO",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "NOS parts",
+     "parts for 1967-current models"
+    ],
+    "url": "https://harpermoto.com",
+    "phone": "(816) 697-3411",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "depot"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi dealer locator"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "e-commerce live"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Harper\\'s Moto Guzzi\" (Greenwood, MO); type=services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.8766,
+     35.1595
+    ]
+   },
+   "properties": {
+    "id": "hbr",
+    "name": "HBR Powersports",
+    "city": "Cleveland",
+    "state": "TN",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "suzuki",
+     "cfmoto",
+     "can-am",
+     "sea-doo",
+     "segway"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.hbrpowersports.com/",
+    "phone": "423-790-0510",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows Moto Guzzi current-inventory showroom incl. a 2024 Stelvio with PFF Rider Assistance; 165 1st St SW, serving the Chattanooga corridor."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"HBR Powersports\" (Cleveland, TN); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.7787,
+     41.1104
+    ]
+   },
+   "properties": {
+    "id": "hunterny",
+    "name": "Hunter Motorsports",
+    "city": "Thornwood",
+    "state": "NY",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://huntermotorcycle.com/",
+    "phone": "914-769-4722",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site titles itself 'Piaggio, Vespa, Aprilia, Moto Guzzi Dealer' serving Westchester/CT/NYC; Yelp listing updated July 2026 shows it open at 873 Franklin Ave."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise — treat franchise status as unconfirmed)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.15078,
+     31.98226
+    ]
+   },
+   "properties": {
+    "id": "hy-savannah",
+    "name": "Honda Yamaha of Savannah",
+    "city": "Savannah",
+    "state": "GA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "honda",
+     "yamaha",
+     "triumph",
+     "kawasaki"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.hondayamahaofsavannah.com/",
+    "phone": "(912) 927-7070",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Savannah, GA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site returns HTTP 403 (bot-protection)  [source: https://www.hondayamahaofsavannah.com/]"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "on the official Guzzi locator as a Piaggio-group point; own-site sales lineup does not foreground Moto Guzzi units — treat as service/order satellite"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.2386,
+     40.6706
+    ]
+   },
+   "properties": {
+    "id": "kissell",
+    "name": "Kissell Motorsports",
+    "city": "Tyrone",
+    "state": "PA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "bmw",
+     "beta",
+     "zero",
+     "ural",
+     "kove"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.kissellmotorsports.com/",
+    "phone": "814-861-7890",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site says 'Your Moto Guzzi Dealer' with V7/V9/V85TT/Mandello/Stelvio inventory; content dated March 2026 and July 2026 event notice, copyright 2026."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Adventure Motorsports, LLC\" (Tyrone, PA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.091,
+     38.8816
+    ]
+   },
+   "properties": {
+    "id": "lamoto",
+    "name": "La Moto Washington",
+    "city": "Arlington",
+    "state": "VA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.lamotowashington.com/",
+    "phone": "833-686-7532",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "cited by forum members on wildguzzi.com for northern Virginia Guzzi service â one reported no issues with their service work, another called them 'nice folks' with 'cool Guzzis', thread of 2017-09 (https://wildguzzi.com/forum/index.php?topic=92351.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "lamotowashington.com live with current Moto Guzzi inventory (incl. Stelvio); listed on motoguzzi.com official dealer locator, 3298 A Wilson Blvd, Arlington VA"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise — treat franchise status as unconfirmed)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.2427,
+     44.6497
+    ]
+   },
+   "properties": {
+    "id": "leossouth",
+    "name": "Leo's South",
+    "city": "Lakeville",
+    "state": "MN",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "kawasaki",
+     "suzuki",
+     "ski-doo"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.leossouth.com/",
+    "phone": "855-536-7386",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site calls itself the leading Moto Guzzi dealer in Minnesota (family-owned since 1977) with new (2024 V100 Mandello, V7/V9/V85) and used Guzzi inventory pages."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Leo\\'s South, Inc.\" (Lakeville, MN); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.3208,
+     32.5421
+    ]
+   },
+   "properties": {
+    "id": "lonestarburleson",
+    "name": "Lone Star Yamaha Burleson",
+    "city": "Burleson",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "yamaha",
+     "aprilia",
+     "vespa",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.lonestaryamaha.com/",
+    "phone": "817-447-4200",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Full-line Yamaha store that also franchises Aprilia/Vespa/Moto Guzzi; own site hosts Moto Guzzi model-list pages (can-order); DFW-area Guzzi point at 1636 SW Wilshire Blvd."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Lone Star Burleson\" (Burleson, TX); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -82.6151001,
+     28.7813722
+    ]
+   },
+   "properties": {
+    "id": "love-homosassa",
+    "name": "Love Motorsports",
+    "city": "Homosassa",
+    "state": "FL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.lovemotorsports.com/",
+    "phone": "(352) 621-3678",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Homosassa, FL); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Facebook (LoveMotorsportsFL) shows 3,394 likes, 220 talking about this, 1,130 were here; active Yelp biz page  [source: https://www.yelp.com/biz/love-motorsports-homosassa]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.544,
+     28.5692
+    ]
+   },
+   "properties": {
+    "id": "lovemotorsports",
+    "name": "Love Motorsports of Ocoee",
+    "city": "Ocoee",
+    "state": "FL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "polaris",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.lmsocoee.com/",
+    "phone": "407-787-9595",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site carries Moto Guzzi brand showroom with new inventory incl. 2024 Stelvio; Orlando-area store at 11953 W Colonial Dr."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Love Motorsports of Ocoee\" (Ocoee, FL); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.8723,
+     26.6406
+    ]
+   },
+   "properties": {
+    "id": "luckyu",
+    "name": "Lucky U Cycles Fort Myers",
+    "city": "Fort Myers",
+    "state": "FL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "royal-enfield",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.luckyuftmyers.com/",
+    "phone": "(239) 415-3271",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site maintains dedicated in-stock Moto Guzzi inventory and factory-showroom model pages (V7, Stelvio); part of the Lucky U Cycles group (also Wildwood FL)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Lucky U Cycles of Ft Myers\" (Fort Myers, FL); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.6343,
+     33.2487
+    ]
+   },
+   "properties": {
+    "id": "manicmoto",
+    "name": "Manic Moto",
+    "city": "Queen Creek",
+    "state": "AZ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "beta"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.manicmoto.com/",
+    "phone": "480-783-3243",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended by a forum member on guzzitech.com forums as a Phoenix East Valley Guzzi dealer with 'great reviews', thread post of 2020 (https://www.guzzitech.com/forums/threads/guzzi-mechanic-in-the-phoenix-area-east-valley.19612/)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "manicmoto.com live selling Beta and Moto Guzzi and repairing all makes; Yelp listing updated December 2025, 22230 S Scotland Ct #101, Queen Creek AZ"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Manic Moto, LLC\" (Queen Creek, AZ); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.9895,
+     41.8886
+    ]
+   },
+   "properties": {
+    "id": "mcc",
+    "name": "Motor Cycle Center",
+    "city": "Villa Park",
+    "state": "IL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati",
+     "triumph",
+     "ktm",
+     "husqvarna",
+     "royal-enfield"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.teammcc.com/",
+    "phone": "630-782-2010",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "40+ year dealership at 443 E Saint Charles Rd; authorized Moto Guzzi alongside Ducati/Triumph/KTM/Aprilia/Husqvarna, with new (2024 V7 Stone) and used Guzzi stock; Yelp listing updated April 2026."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"MCC Motor Cycle Center\" (Vila Park, IL); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.1519,
+     33.7905
+    ]
+   },
+   "properties": {
+    "id": "mgclassics",
+    "name": "Moto Guzzi Classics",
+    "city": "Signal Hill",
+    "state": "CA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "vintage service",
+     "NOS/used parts",
+     "restorations"
+    ],
+    "url": "https://www.motoguzziclassics.com/",
+    "phone": "(562) 986-0070",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "heritage",
+     "performance"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live with current-year page timestamp"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "specialized Moto Guzzi engine repair and performance tuning / carb work (Mark Etheridge, 30+ yr Guzzi-only shop) — a performance/heritage node, not only heritage [source: https://motoguzziclassics.com]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.4305,
+     42.7137
+    ]
+   },
+   "properties": {
+    "id": "mgcycle",
+    "name": "MG Cycle",
+    "city": "Albany",
+    "state": "WI",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "OEM + Mistral parts by mail"
+    ],
+    "url": "https://www.mgcycle.com",
+    "phone": "(608) 862-2300",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "depot"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "e-commerce live"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "mgnoc-reps",
+    "name": "MGNOC state-rep network",
+    "city": null,
+    "state": null,
+    "country": "US",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "regional club knowledge nodes (state reps, published by MGNOC)"
+    ],
+    "url": "https://www.mgnoc.com/staff_and_reps.html",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "state-rep roster published and current on mgnoc.com"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.2996,
+     40.2798
+    ]
+   },
+   "properties": {
+    "id": "montgomeryville",
+    "name": "Montgomeryville Cycle Center",
+    "city": "Hatfield",
+    "state": "PA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "suzuki",
+     "kawasaki",
+     "yamaha"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.montgomeryvillecc.com/",
+    "phone": "215-712-7433",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site lists ~15 Moto Guzzi units incl. new 2026 V85 TT Travel and 2026 V7 Stone; Moto Guzzi Days financing promo through July 31, 2026."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Montgomeryville Cycle Center\" (Hatfield, PA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.733939,
+     42.140974
+    ]
+   },
+   "properties": {
+    "id": "montys",
+    "name": "Monty's Motorsports",
+    "city": "Westfield",
+    "state": "MA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "ktm",
+     "husqvarna",
+     "gasgas",
+     "cfmoto",
+     "suzuki",
+     "beta",
+     "arctic-cat"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.montysmotorsports.com/",
+    "phone": "(413) 642-8199",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Westfield, MA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows 2026 model-year inventory and Aprilia promotions dated through December 2026  [source: https://www.montysmotorsports.com/]"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "on the official Guzzi locator as a Piaggio-group point; own-site sales lineup does not foreground Moto Guzzi units — treat as service/order satellite"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -96.01,
+     36.13
+    ]
+   },
+   "properties": {
+    "id": "motherroad",
+    "name": "Mother Road Motorsports",
+    "city": "Tulsa",
+    "state": "OK",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "ducati"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motherroadmotorsports.com/",
+    "phone": "918-660-2883",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Italian-line dealer on Route 66 (2208 Southwest Blvd); own site shows current Guzzi stock incl. 2026 V85 Strada, 2025 Stelvio Duecento Tributo and multiple 2024 V7/V100 units."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Mother Road Motor Sports\" (Tulsa, OK); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.5164276,
+     35.4675602
+    ]
+   },
+   "properties": {
+    "id": "motiv",
+    "name": "MOTIV Cycle Works",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "aprilia",
+     "bmw",
+     "mv-agusta"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://motivcycleworks.net/",
+    "phone": "(405) 641-1801",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Oklahoma City, OK); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site (www.motivcycleworks.com redirects to motivcycleworks.net) lists Moto Guzzi 'Authorized dealer'; address 245 W Wilshire Blvd Unit A; copyright shows placeholder 'Â© 2035'; newest inventory 'New 2024 Moto Guzzi'  [source: https://motivcycleworks.net/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.9323611,
+     33.6400941
+    ]
+   },
+   "properties": {
+    "id": "motobello-oc",
+    "name": "Moto Bello Orange County",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "aprilia",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motobello-oc.com/",
+    "phone": "(949) 373-3041",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Costa Mesa, CA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site 'Copyright Â© 2026 Moto Bello Orange County'; 'Established in 2024'; sells Vespa, Aprilia, Moto Guzzi, Piaggio  [source: https://www.motobello-oc.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.4044776,
+     34.0213117
+    ]
+   },
+   "properties": {
+    "id": "motoclub-la",
+    "name": "MotoClub Los Angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "stark"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://motoclubla.com/",
+    "phone": "(310) 882-5684",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Los Angeles, CA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Yelp listing 250+ reviews, 521 photos  [source: https://html.duckduckgo.com/html/?q=%22MotoClub%22+3770+Motor+Ave+Los+Angeles+Moto+Guzzi+Aprilia]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.4489181,
+     31.77709
+    ]
+   },
+   "properties": {
+    "id": "motoelpaso",
+    "name": "Moto El Paso",
+    "city": "El Paso",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "aprilia",
+     "mv-agusta",
+     "royal-enfield",
+     "genuine"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motoelpaso.com",
+    "phone": "(915) 566-6666",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (El Paso, TX); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Search corroborates 70,000 sq ft dealership at 3750 Gateway Blvd East selling Piaggio, Vespa, Aprilia, Moto Guzzi (AllBiz listing)  [source: https://html.duckduckgo.com/html/?q=Moto+El+Paso+Vespa+Moto+Guzzi+dealer+El+Paso+Texas]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.3442,
+     47.6858
+    ]
+   },
+   "properties": {
+    "id": "motointl",
+    "name": "Moto International",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://motointernational.com/",
+    "phone": "206-297-3822",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "defunct",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Historic 7701 Aurora Ave N dealership â the biggest-selling US Moto Guzzi dealer every year 2004-2012; its website is still online, but the Yelp listing (updated Dec 2025) marks the business CLOSED. Included as a notable closed legend."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise — treat franchise status as unconfirmed)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.12756,
+     40.40533
+    ]
+   },
+   "properties": {
+    "id": "motomall-monmouth",
+    "name": "Motorcycle Mall of Monmouth",
+    "city": "Middletown",
+    "state": "NJ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motorcyclemallofmonmouth.com",
+    "phone": "(732) 615-0900",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Middletown, NJ); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Independent listings on Yelp, CycleTrader, and MotoHunt; described as authorized Moto Guzzi dealer at 656 State Route 35, formerly Jersey Shore Powersports  [source: https://html.duckduckgo.com/html/?q=Motorcycle+Mall+of+Monmouth+Middletown+NJ+Moto+Guzzi+dealer]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.1502,
+     40.7937
+    ]
+   },
+   "properties": {
+    "id": "motomall",
+    "name": "Motorcycle Mall",
+    "city": "Belleville",
+    "state": "NJ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "ktm",
+     "honda"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motorcyclemall.com/",
+    "phone": "973-751-4545",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site (search-indexed; direct fetch bot-blocked) lists new 2025 Moto Guzzi V85 TT / V85 TT Travel and ran Moto Guzzi APR promotions dated February 2026; 655 Washington Ave."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Motorcycle Mall\" (Belleville, NJ); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9019,
+     35.9975
+    ]
+   },
+   "properties": {
+    "id": "motomotivo",
+    "name": "Moto Motivo (Two Wheel Art)",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "ducati"
+    ],
+    "functions": [
+     "restorations",
+     "custom builds / transformations",
+     "workshop service"
+    ],
+    "url": "https://www.motomotivo.com",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "nathan",
+    "status": "unverified",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Durham NC per own contact page; restoration/workshop/transformations focus; Ducati work shown in workshop gallery; no Moto Guzzi statement found; contact johann@motomotivo.com"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.6056,
+     35.1107
+    ]
+   },
+   "properties": {
+    "id": "motopia",
+    "name": "Motopia NM",
+    "city": "Albuquerque",
+    "state": "NM",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "triumph",
+     "royal-enfield",
+     "beta"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motopianm.com/",
+    "phone": "505-839-0505",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "New Mexico's Guzzi point at 2839 Carlisle Blvd NE; own site shows new Moto Guzzi inventory across 2023-2026 model years (V7, V85 TT, V100, Stelvio) plus factory showroom."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Motopia NM\" (ALBUQUERQUE, NM); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.2613,
+     41.1408
+    ]
+   },
+   "properties": {
+    "id": "motoplexct",
+    "name": "Motoplex Fairfield",
+    "city": "Fairfield",
+    "state": "CT",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motoplexfairfield.com/",
+    "phone": "203-292-3550",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Piaggio-group Motoplex store at 301 Commerce Dr; own site lists 2027 Moto Guzzi V100 Mandello S, V85 TT, V7 Sport and Stelvio PFF with promotions running through July 31, 2026."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"PiaggioVespa ApriliaMoto Guzzi Fairfield\" (Fairfield, CT); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.5068,
+     37.5052
+    ]
+   },
+   "properties": {
+    "id": "motorichmond",
+    "name": "Moto Richmond",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "triumph",
+     "ktm",
+     "vespa",
+     "piaggio",
+     "genuine"
+    ],
+    "functions": [
+     "full service",
+     "parts counter"
+    ],
+    "url": "https://www.motorichmond.com/",
+    "phone": "(804) 230-1000",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; carries Moto Guzzi per own pages and current directory listings"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Moto Richmond\" (Richmond, VA); type=dealers; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.181437,
+     33.139952
+    ]
+   },
+   "properties": {
+    "id": "motosandiego",
+    "name": "Moto San Diego",
+    "city": "San Marcos",
+    "state": "CA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "bmw",
+     "aprilia",
+     "moto-morini"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motosandiego.com/",
+    "phone": "(760) 520-1288",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (San Marcos, CA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Listed-locator URL bmwmcescondido.com 301-redirects to motosandiego.com; site 'Â©2026. Moto San Diego'; warranty info dated 'March 2026'; 2026 model inventory  [source: https://www.motosandiego.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.685358,
+     41.8553907
+    ]
+   },
+   "properties": {
+    "id": "motoworks-chi",
+    "name": "Vespa Aprilia Moto Guzzi Chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "bmw",
+     "ducati",
+     "triumph",
+     "royal-enfield",
+     "zero",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motoworkschicago.com",
+    "phone": "(312) 738-4269",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Chicago, IL); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site returns HTTP 403 (bot-protection)  [source: https://www.motoworkschicago.com]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.4822,
+     34.6948
+    ]
+   },
+   "properties": {
+    "id": "mountainps",
+    "name": "Mountain Powersports",
+    "city": "Ellijay",
+    "state": "GA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "cfmoto",
+     "segway",
+     "beta",
+     "hisun",
+     "ssr",
+     "thumpstar"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.mountainpowersports.net/",
+    "phone": "706-636-5222",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site runs 'Moto Guzzi Days' promotional content indicating a Guzzi franchise, but primary lines are CFMOTO/Segway/Beta; Guzzi stocking depth unconfirmed."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "in-stock inventory search lists a 2027 Moto Guzzi (homepage brand roster omits Guzzi but the inventory carries it): mountainpowersports.net/search/inventory/availability/In Stock/brand/Moto Guzzi"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise — treat franchise status as unconfirmed)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -96.0536,
+     30.044
+    ]
+   },
+   "properties": {
+    "id": "mph",
+    "name": "MPH Cycles",
+    "city": "Hempstead",
+    "state": "TX",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "bmw"
+    ],
+    "functions": [
+     "service",
+     "repair"
+    ],
+    "url": "https://mphcycles.com/",
+    "phone": "281-647-6557",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
+    "capability": [
+     "full-service",
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Mike Haven's independent Moto Guzzi/BMW service house (former Texas #1 Guzzi dealer 2000-2016, servicing Guzzis since the 1980s); site notice dated April 2025 'now accepting BMW & Moto Guzzi motorcycles for service', copyright 2026; relocated to the Pine Island/Waller area west of Houston per wildguzzi."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by multiple members on guzzitech.com forums â former Texas #1 Guzzi dealer; one member wrote 'Simply cannot say enough good things...about MPH', thread of 2021-06 (https://www.guzzitech.com/forums/threads/houston-moto-guzzi-recommended-shops-mechanics.21516/)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.97496,
+     36.71064
+    ]
+   },
+   "properties": {
+    "id": "msu-abingdon",
+    "name": "Motorsports Unlimited",
+    "city": "Abingdon",
+    "state": "VA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "cfmoto",
+     "aprilia",
+     "vespa",
+     "beta",
+     "arctic-cat",
+     "kayo",
+     "hammerhead"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.virginia-motorsports.com/",
+    "phone": "(304) 952-7096",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Abingdon, VA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Active independent inventory sites motorsportsunlimitedabingdon.shop and CFMoto dealer subdomain virginiamotorsports.dz.cfmotousa.com  [source: https://html.duckduckgo.com/html/?q=Motorsports+Unlimited+Abingdon+Virginia+motorcycle+dealer]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.832,
+     38.302
+    ]
+   },
+   "properties": {
+    "id": "msunlimited",
+    "name": "Motorsports Unlimited - Summersville",
+    "city": "Summersville",
+    "state": "WV",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "polaris",
+     "suzuki",
+     "yamaha",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motorsportsunlimitedsummersville.shop/",
+    "phone": "304-872-5151",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "VA/WV dealer group; Summersville location's own site shows 2025 and 2026 Moto Guzzi units in stock; 806 Northside Dr."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Motorsports Unlimited\" (Summersville, WV); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.6083,
+     41.4248
+    ]
+   },
+   "properties": {
+    "id": "nawarhorse",
+    "name": "North American Warhorse",
+    "city": "Dunmore",
+    "state": "PA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati",
+     "mv-agusta",
+     "piaggio",
+     "honda",
+     "kawasaki",
+     "husqvarna",
+     "polaris",
+     "can-am"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.nawarhorse.com/",
+    "phone": "(570) 346-2453",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site (search-indexed; direct fetch bot-blocked) lists Moto Guzzi among franchised brands with current inventory incl. 2025 Stelvio, V85 TT and V85 TT Travel; 50,000+ sq ft store."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"North American Warhorse\" (Dunmore, PA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -82.3744,
+     27.9524
+    ]
+   },
+   "properties": {
+    "id": "nextride",
+    "name": "Next Ride",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "bmw",
+     "ducati",
+     "mv-agusta",
+     "piaggio",
+     "vespa",
+     "slingshot"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.nextride.com/",
+    "phone": "813-443-5399",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Authorized dealer for Aprilia/BMW/Ducati/MV Agusta/Moto Guzzi/Piaggio/Vespa per own site; current inventory incl. 2026 V7 Stone and 2025 V85 TT; Tampa and Clearwater locations."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Next Ride, LLC\" (Largo, FL); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.77346,
+     41.0241
+    ]
+   },
+   "properties": {
+    "id": "nypowersports",
+    "name": "New York Powersports",
+    "city": "White Plains",
+    "state": "NY",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "aprilia",
+     "kawasaki",
+     "kymco",
+     "benelli",
+     "segway",
+     "ssr"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://newyorkpowersports.com/",
+    "phone": "(914) 949-1993",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (White Plains, NY); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows active promotions dated 07/01/2026 through 07/31/2026 across Moto Guzzi/Vespa/Piaggio/Aprilia, with 2025-2027 model inventory  [source: https://newyorkpowersports.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.4302,
+     36.0654
+    ]
+   },
+   "properties": {
+    "id": "oldschool",
+    "name": "Old School Cycles (SCOOT-NC)",
+    "city": "Burlington",
+    "state": "NC",
+    "country": "US",
+    "layer": "independent",
+    "brands": [],
+    "functions": [
+     "vintage & modern motorcycle repair",
+     "maintenance without upsell (community-reported)"
+    ],
+    "url": "https://www.facebook.com/p/Old-school-cycles-100054321799370/",
+    "phone": "(336) 596-1111",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-research-sweep",
+    "status": "unverified",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "2442 Maple Ave, Burlington NC 27215; 4.7 stars across 154 public reviews; owner Johnny; vintage and modern repair per directories; recommended by name for Guzzi work in a Moto Guzzi USA community thread (2025-04, owner-supplied)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.007,
+     32.2529
+    ]
+   },
+   "properties": {
+    "id": "onanymoto",
+    "name": "On Any Moto",
+    "city": "Tucson",
+    "state": "AZ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati",
+     "mv-agusta",
+     "piaggio",
+     "vespa",
+     "ajp",
+     "zero"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.onanymoto.com/",
+    "phone": "(520) 269-6606",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Authorized dealer for a deep Italian roster (Aprilia, Ducati, MV Agusta, Moto Guzzi, Piaggio, Vespa) per own site, with a Moto Guzzi current-inventory showroom."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"On Any Moto\" (Tucson, AZ); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.1044,
+     47.6644
+    ]
+   },
+   "properties": {
+    "id": "opmoto",
+    "name": "Optimum Performance Motorsports",
+    "city": "Redmond",
+    "state": "WA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "triumph"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://opmotorsports.com/",
+    "phone": "425-765-3691",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Licensed Aprilia/Moto Guzzi/Vespa/Piaggio/Triumph dealer at 13622 NE 20th St â the Seattle-area Guzzi franchise since Moto International's closure; own site maintains new-inventory and news pages, with additional Redmond WA and Portland OR operations."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by multiple members on wildguzzi.com as the Seattle-area dealer after Moto International closed; one member's friend had a new V85 shipped to Alaska with 'nothing but praise', thread of 2020-01 (https://wildguzzi.com/forum/index.php?topic=104139.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "second Eastside location reported at 17646 NE 65th St, Redmond WA, plus a Portland OR operation — multi-site; confirm primary address when calling"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Optimum Performance Motorsports\" (Redmond, WA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -116.39,
+     33.802
+    ]
+   },
+   "properties": {
+    "id": "palmsprings",
+    "name": "Palm Springs Motorsports",
+    "city": "Palm Desert",
+    "state": "CA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "kawasaki",
+     "yamaha",
+     "suzuki",
+     "can-am",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.palmspringsmotorsports.com/",
+    "phone": "760-288-0011",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Multi-line desert dealer at 72750 Dinah Shore Dr; own site lists new Guzzi units incl. 2024 V100 Mandello S and 2025 V7 Special."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Palm Springs Motorsports\" (Palm Desert, CA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.30607,
+     47.50732
+    ]
+   },
+   "properties": {
+    "id": "paulsens-mt",
+    "name": "Paulsens Powersports",
+    "city": "Great Falls",
+    "state": "MT",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "can-am",
+     "ski-doo",
+     "sea-doo",
+     "arctic-cat",
+     "beta",
+     "aprilia",
+     "kawasaki"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.paulsenspowersports.com/",
+    "phone": "(406) 761-0303",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Great Falls, MT); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site copyright 2026; featured inventory includes 2025 and 2026 model-year vehicles plus 'Coming Soon' 2026 Can-Am Defender models; carries Beta, Moto Guzzi, Aprilia among others  [source: https://www.paulsenspowersports.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.093198,
+     43.237968
+    ]
+   },
+   "properties": {
+    "id": "peake",
+    "name": "Peake Piaggio Vespa Aprilia Moto Guzzi",
+    "city": "Williamson",
+    "state": "NY",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "kawasaki",
+     "cfmoto",
+     "mahindra",
+     "e-z-go",
+     "roxor",
+     "vespa",
+     "aprilia",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.peakeoffroad.com/",
+    "phone": "(315) 483-6916",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Williamson, NY); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Site loads with promotions dated July 1-31 2026; featured 2024 Moto Guzzi Stelvio  [source: https://www.peakeoffroad.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.0804,
+     40.65322
+    ]
+   },
+   "properties": {
+    "id": "pittcycles",
+    "name": "Aprilia Moto Guzzi of Pittsburgh",
+    "city": "Warrendale",
+    "state": "PA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "triumph",
+     "royal-enfield",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.pittcycles.com/",
+    "phone": "(724) 779-1901",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Warrendale, PA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site copyright 2026; multiple 2026 model-year motorcycles in inventory with current pricing; sells Triumph, Royal Enfield, Aprilia, Moto Guzzi  [source: https://www.pittcycles.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -96.7022874243,
+     33.0438442084
+    ]
+   },
+   "properties": {
+    "id": "plano-ks",
+    "name": "Plano Kawasaki Suzuki",
+    "city": "Plano",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "kawasaki",
+     "suzuki",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "genuine"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.planokawasakisuzuki.com",
+    "phone": "(972) 422-4111",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Plano, TX); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site shows July 1-31 2026 promotions and 'Bikes and Coffee' events dated Aug 01 and Sep 05 2026; 2026-2027 inventory  [source: https://www.planokawasakisuzuki.com]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.6398,
+     28.0789
+    ]
+   },
+   "properties": {
+    "id": "primemelb",
+    "name": "Prime Motorcycles of Melbourne",
+    "city": "Melbourne",
+    "state": "FL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "cfmoto",
+     "moto-morini",
+     "segway",
+     "aprilia",
+     "benelli",
+     "piaggio",
+     "vespa",
+     "denago",
+     "benda"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.primemotorcyclesmelbourne.com/",
+    "phone": "(321) 587-4697",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site offers in-stock Moto Guzzi inventory and can-order model list; sister service operation in Sanford FL."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Prime Motorcycles Melbourne\" (Melbourne, FL); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.2291,
+     34.199
+    ]
+   },
+   "properties": {
+    "id": "proitalia",
+    "name": "Pro Italia",
+    "city": "Glendale",
+    "state": "CA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.proitalia.com/",
+    "phone": "(818) 249-5707",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Selling Italian bikes since 1987; own site runs current Moto Guzzi inventory showroom and US Moto Guzzi promotions pages serving greater Los Angeles."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Pro Italia Motors, Inc.\" (Glendale, CA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.4685,
+     34.54
+    ]
+   },
+   "properties": {
+    "id": "psoutlet",
+    "name": "Powersports Outlet",
+    "city": "Prescott",
+    "state": "AZ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "genuine",
+     "kymco",
+     "moto-morini",
+     "swm",
+     "gpx",
+     "kove",
+     "benelli",
+     "benda",
+     "keeway"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://powersportsoutlet.com/",
+    "phone": "(928) 778-7910",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site's 'Moto Guzzi Motorcycles For Sale in Prescott, AZ' page states it has been an authorized Moto Guzzi dealer since 1996 â the northern-Arizona Guzzi point."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Powersports Outlet\" (Prescott, AZ); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.2523,
+     39.9433
+    ]
+   },
+   "properties": {
+    "id": "rahal",
+    "name": "Rahal Piaggio Indianapolis",
+    "city": "Zionsville",
+    "state": "IN",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.rahalpiaggio.com/",
+    "phone": "317-939-2145",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Graham Rahal's Piaggio Motoplex (opened 2023 in Carmel, grand opening at Zionsville HQ Oct 2024); own site runs a current Moto Guzzi showroom; co-located with Rahal Ducati at 10814 Creek Way."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Piaggio Vespa Aprilia Moto Guzzi Indiana\" (Zionsville, IN); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4662,
+     41.5554
+    ]
+   },
+   "properties": {
+    "id": "razee",
+    "name": "Razee Motorcycle Center",
+    "city": "North Kingstown",
+    "state": "RI",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "honda"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.razeemotorcycle.com/",
+    "phone": "401-295-8837",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site (search-indexed; direct fetch bot-blocked) shows current new Moto Guzzi inventory including 2025 V85 Strada and 2024 V100 Mandello S; family-owned, 730 Tower Hill Rd."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Razee Motorcycle Center, Inc.\" (N. Kingstown, RI); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.0703,
+     43.0896
+    ]
+   },
+   "properties": {
+    "id": "reina",
+    "name": "Reina International Auto",
+    "city": "Brookfield",
+    "state": "WI",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.reinaintlauto.com/",
+    "phone": "262-781-3336",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "40+ year family exotic-car house that is also the Milwaukee-area Vespa/Piaggio/Aprilia/Moto Guzzi dealer with Italian factory-trained techs; two-wheel side is secondary to the car business."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Reina International\" (Brookfield, WI); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.834601,
+     33.335458
+    ]
+   },
+   "properties": {
+    "id": "reparto-veloce",
+    "name": "Reparto Veloce",
+    "city": "Chandler",
+    "state": "AZ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.repartoveloce.com",
+    "phone": "(480) 284-8433",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Chandler, AZ); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Yelp listing marked 'Updated July 2026' with 82 photos and 22 reviews  [source: https://html.duckduckgo.com/html/?q=Reparto+Veloce+Chandler+Arizona+Aprilia+Moto+Guzzi+dealer+reviews]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.05555,
+     29.28558
+    ]
+   },
+   "properties": {
+    "id": "ridermarket",
+    "name": "RiderMarket Daytona",
+    "city": "Ormond Beach",
+    "state": "FL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "triumph",
+     "bmw",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "rawrr"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://ridermarketdaytona.com/",
+    "phone": "(386) 257-2269",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Ormond Beach, FL); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Listed site daytonabeachmotos.com 301-redirects to ridermarketdaytona.com (live)  [source: https://www.daytonabeachmotos.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.4487,
+     42.3147
+    ]
+   },
+   "properties": {
+    "id": "rosefarm",
+    "name": "Rose Farm Classics",
+    "city": "Woodstock",
+    "state": "IL",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "bmw"
+    ],
+    "functions": [
+     "service",
+     "restoration"
+    ],
+    "url": null,
+    "phone": "815-337-6686",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "unverified",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Jim Barron's appointment-only BMW/Moto Guzzi specialist at 1250 N Rose Farm Rd; long described as Chicagoland's only exclusive Moto Guzzi shop; no own website found â listing data from directories, currency unconfirmed."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.3837,
+     37.7591
+    ]
+   },
+   "properties": {
+    "id": "scuderia",
+    "name": "Scuderia West",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ktm",
+     "kove",
+     "piaggio",
+     "royal-enfield",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.scuderiawest.com/",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "unverified",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Open since 1991; own site lists Moto Guzzi among authorized franchises (with Aprilia, KTM, Kove, Piaggio, Royal Enfield, Vespa) â the Bay Area's Guzzi point."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Scuderia West\" (San Francisco, CA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.299,
+     42.8753
+    ]
+   },
+   "properties": {
+    "id": "seacoast",
+    "name": "Seacoast Sport Cycle",
+    "city": "Derry",
+    "state": "NH",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati",
+     "mv-agusta",
+     "piaggio",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://seacoastsport.com/",
+    "phone": "603-437-5656",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site lists Moto Guzzi among new-unit brands (Aprilia, Ducati, MV Agusta, Piaggio, Vespa) and bills itself the largest all-Italian motorcycle dealer in the country; copyright 2026 with current blog/service content."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Seacoast Sport Cycle\" (Derry, NH); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.7477,
+     33.7515
+    ]
+   },
+   "properties": {
+    "id": "southeastmoto",
+    "name": "Southeast Motorcycle",
+    "city": "Douglasville",
+    "state": "GA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.southeastmotorcycle.com/",
+    "phone": "678-831-3747",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site: carries Aprilia, Moto Guzzi, CFMOTO and Vespa with dedicated Moto Guzzi page, current inventory and regional promotions; serves Greater Atlanta metro from 6401 Spring St."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended by multiple members on guzzitech.com forums â Aprilia-experienced mechanic and a Savannah sister location with 'straight forward sales staff, no BS', thread of 2023-02 (https://www.guzzitech.com/forums/threads/new-member-and-question-about-atlanta-dealers.23468/)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Southeast Motorcycle\" (Douglasville, GA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -121.9133095,
+     37.3191898
+    ]
+   },
+   "properties": {
+    "id": "spirit-sj",
+    "name": "Spirit Motorcycles San Jose",
+    "city": "San Jose",
+    "state": "CA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "triumph",
+     "indian",
+     "royal-enfield",
+     "can-am"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.spiritmotorcycles.com",
+    "phone": "(408) 571-6000",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (San Jose, CA); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site copyright 2026 with 2026 Triumph Street Triple inventory and 'Moto Guzzi Days' promotion running through July 31, 2026  [source: https://www.spiritmotorcycles.com]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.0617,
+     35.9212
+    ]
+   },
+   "properties": {
+    "id": "starmoto",
+    "name": "Star Powersports",
+    "city": "Knoxville",
+    "state": "TN",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "beta"
+    ],
+    "functions": [
+     "full service",
+     "new unit sales"
+    ],
+    "url": "https://www.starpowersportstn.com/",
+    "phone": "(865) 851-8688",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "operating as Star Powersports (formerly Star Moto / Ducati of Knoxville)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Star Powersports, LLC\" (Knoxville, TN); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.6266,
+     38.8003
+    ]
+   },
+   "properties": {
+    "id": "stlpsn",
+    "name": "St. Louis Powersports North",
+    "city": "St. Peters",
+    "state": "MO",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "polaris",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.stlouispowersports.com/",
+    "phone": "(636) 385-6300",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Group site calls itself 'the hub for all things Aprilia, Vespa, Moto Guzzi and Piaggio in the Midwest'; North store (4740 N Service Rd) stocks 2026 V7 Stone and 2025 V85 TT Travel."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"St. Louis Powersports\" (St Peters, MO); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.8214,
+     38.8339
+    ]
+   },
+   "properties": {
+    "id": "sunps",
+    "name": "Sun Powersports Colorado Springs",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "triumph",
+     "ducati",
+     "bmw",
+     "can-am",
+     "ski-doo",
+     "sea-doo"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://suncsp.com/",
+    "phone": "(719) 635-3004",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site lists Moto Guzzi among carried brands with a dedicated /moto-guzzi page and a 2026 motorcycle collection showroom; 945 Motor City Dr, serving southern Colorado."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Sun Powersports\" (Colorado Springs, CO); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.8888,
+     35.2422
+    ]
+   },
+   "properties": {
+    "id": "tees",
+    "name": "T's Euro Cycles",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "full service",
+     "new unit sales"
+    ],
+    "url": "https://www.tseurocycles.com/",
+    "phone": "(704) 847-8454",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live with current-year inventory listed"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Team Charlotte Motorsports\" (Charlotte, NC); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -83.0287584,
+     39.9477699
+    ]
+   },
+   "properties": {
+    "id": "throttlecompany",
+    "name": "Throttle Company Vintage Motorcycles LLC",
+    "city": "Columbus",
+    "state": "OH",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "royal-enfield",
+     "bsa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.throttlecompany.com",
+    "phone": "(614) 600-2421",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Columbus, OH); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site newsletters dated February, March and April 2026; 'NEW 2026 & 2027 Moto Guzzi Models incoming'; Royal Enfield Classic 650 pre-order through March 31, 2026  [source: https://www.throttlecompany.com]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.8315,
+     33.4152
+    ]
+   },
+   "properties": {
+    "id": "tomsitalian",
+    "name": "Tom's Italian Tune and Service",
+    "city": "Mesa",
+    "state": "AZ",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "ducati"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "http://www.tomsitaliantuneandservice.com/",
+    "phone": "480-641-3871",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service",
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended by a forum member on guzzitech.com forums as 'The most knowledgeable Italian bike specialist I have ever met' (cash only), thread post of 2021 (https://www.guzzitech.com/forums/threads/guzzi-mechanic-in-the-phoenix-area-east-valley.19612/)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "tomsitaliantuneandservice.com live with contact page; owner Tom Hull is a factory-trained Ducati and Moto Guzzi technician per current directory listings"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.9809282,
+     42.2814665
+    ]
+   },
+   "properties": {
+    "id": "townline-cairo",
+    "name": "Town Line Motorsports of Cairo",
+    "city": "Cairo",
+    "state": "NY",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "cfmoto",
+     "aprilia",
+     "piaggio",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.townlinemotorsports.com/",
+    "phone": "(518) 622-0131",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator (Cairo, NY); verified 2026-07-26"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Site loads with promotions active July-Sept 2026 (Moto Guzzi Days, Aprilia Days, Vespa Days, 0.99% APR)  [source: https://www.townlinemotorsports.com/]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.225,
+     32.2265
+    ]
+   },
+   "properties": {
+    "id": "turnone",
+    "name": "Turn One Powersports",
+    "city": "Whitehouse",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "ktm",
+     "husqvarna",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "stark"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.turnonepowersports.com/",
+    "phone": "903-494-0336",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site lists Moto Guzzi among carried brands (with KTM/Husqvarna/Aprilia/Vespa/Piaggio); East Texas Guzzi point at 14186 TX-110 near Tyler; Yelp listing updated Dec 2025."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Turn One Powersports\" (Whitehouse, TX); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.9703,
+     40.6976
+    ]
+   },
+   "properties": {
+    "id": "vespabk",
+    "name": "Vespa Brooklyn",
+    "city": "Brooklyn",
+    "state": "NY",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.vespabk.com/",
+    "phone": "718-254-0808",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site: exclusive authorized Piaggio/Vespa/Aprilia/Moto Guzzi dealer at 19 Vanderbilt Ave with current new inventory incl. 2025 V7 Special and V7 Stone."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Moto Guzzi Brooklyn\" (Brooklyn, NY); type=dealers; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.5291,
+     33.9511
+    ]
+   },
+   "properties": {
+    "id": "vespamarietta",
+    "name": "Vespa Marietta",
+    "city": "Marietta",
+    "state": "GA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "genuine",
+     "royal-enfield"
+    ],
+    "functions": [
+     "service booking",
+     "parts ordering (Piaggio portal)"
+    ],
+    "url": "https://www.vespamarietta.com/",
+    "phone": "(770) 420-8787",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi dealer locator"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; actively promotes Moto Guzzi financing"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Moto Guzzi Marietta\" (Marietta, GA); type=dealers; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.4564,
+     35.6507
+    ]
+   },
+   "properties": {
+    "id": "vintagemoto",
+    "name": "Vintage Moto",
+    "city": "Clayton",
+    "state": "NC",
+    "country": "US",
+    "layer": "independent",
+    "brands": [],
+    "functions": [
+     "vintage & modern motorcycle repair",
+     "restoration",
+     "routine maintenance"
+    ],
+    "url": "https://www.vintagemotonc.com",
+    "phone": "(919) 614-5414",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-research-sweep",
+    "status": "active",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "120 Rock Pillar Rd, Clayton NC; vintage & new repair + restoration, Tue-Sat by appointment; actively hiring a technician (operational); no marque list published"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -76.9197,
+     40.2398
+    ]
+   },
+   "properties": {
+    "id": "warhorsech",
+    "name": "Warhorse Camp Hill",
+    "city": "Camp Hill",
+    "state": "PA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati",
+     "triumph",
+     "ktm",
+     "vespa",
+     "piaggio",
+     "bmw",
+     "yamaha"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.warhorsecamphill.com/",
+    "phone": "(717) 761-6192",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site (search-indexed) shows franchised Moto Guzzi line with new inventory incl. 2025 V85 Strada, V85 TT and 2024 Stelvio/V100 Mandello."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Warhorse Camp Hill\" (Camp Hill, PA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.6066,
+     39.9601
+    ]
+   },
+   "properties": {
+    "id": "wideworld",
+    "name": "Wide World Motors",
+    "city": "West Chester",
+    "state": "PA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa",
+     "triumph",
+     "royal-enfield",
+     "moto-morini",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.wideworldmotors.com/",
+    "phone": "610-344-0945",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site carries full Moto Guzzi model-list and in-stock/new Moto Guzzi inventory sections; premium multi-line Italian/British store at 315 Westtown Rd; Yelp listing updated July 2026."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Moto Guzzi West Chester\" (West Chester, PA); type=dealers; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.8245,
+     29.7858
+    ]
+   },
+   "properties": {
+    "id": "wildwest",
+    "name": "Wild West Motoplex",
+    "city": "Katy",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "honda",
+     "kawasaki",
+     "yamaha",
+     "ktm",
+     "bmw",
+     "can-am",
+     "sea-doo"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.wildwestmotoplex.com/",
+    "phone": "281-392-8850",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Houston-area multi-line megastore with a dedicated 'Moto Guzzi Dealer in Katy, TX' page on its own site; 22515 Katy Freeway."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Wild West Motoplex\" (Katy, TX); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.5315,
+     33.9653
+    ]
+   },
+   "properties": {
+    "id": "wow",
+    "name": "WOW Motorcycles",
+    "city": "Marietta",
+    "state": "GA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "ducati",
+     "mv-agusta",
+     "aprilia",
+     "bimota"
+    ],
+    "functions": [
+     "in-house dyno tuning"
+    ],
+    "url": "https://www.wowmotorcycles.com/",
+    "phone": "(770) 424-8804",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "performance"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "dyno-tuning page lists staff experience across Italian/European marques"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Moto Guzzi Marietta\" (Marietta, GA); type=dealers; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.3195,
+     39.6287
+    ]
+   },
+   "properties": {
+    "id": "xtremeps",
+    "name": "Xtreme Powersports & Marine",
+    "city": "Accident",
+    "state": "MD",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "arctic-cat",
+     "beta"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.xps-usa.com/",
+    "phone": "(800) 967-7738",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Own site lists Aprilia/Vespa/Moto Guzzi among brands with current new inventory incl. 2025 V85 TT and 2025 Stelvio; 418 S Main St."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi US dealer locator as \"Xtreme Powersports-Marine\" (Accident, MD); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  }
+ ],
+ "properties": {
+  "generated_by": "gsn build.py",
+  "count": 123
+ }
+}
