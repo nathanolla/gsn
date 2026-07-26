@@ -50,8 +50,12 @@ def main():
             continue
         for req in ("id", "name", "country", "layer", "capability", "brands",
                     "functions", "observations", "last_verified", "verified_by", "status"):
-            if req not in n or n[req] in (None, [], ""):
+            if req not in n or n[req] is None or n[req] == "":
                 err(f, f"missing required field: {req}")
+            # brands may be an empty list (marques unpublished — an honest state);
+            # everything else must be non-empty
+            elif req != "brands" and n[req] == []:
+                err(f, f"empty required field: {req}")
         if errors and errors[-1].startswith(f.name):
             continue
         if not SLUG.match(str(n["id"])):
