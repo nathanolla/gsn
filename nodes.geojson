@@ -2512,6 +2512,7 @@
     "country": "US",
     "layer": "franchise",
     "brands": [
+     "moto-guzzi",
      "cfmoto",
      "segway",
      "beta",
@@ -2527,8 +2528,8 @@
     "url": "https://www.mountainpowersports.net/",
     "phone": "706-636-5222",
     "last_verified": "2026-07-26",
-    "verified_by": "claude-research-sweep",
-    "status": "unverified",
+    "verified_by": "nathan",
+    "status": "active",
     "capability": [
      "satellite"
     ],
@@ -2541,7 +2542,7 @@
      {
       "date": "2026-07-26",
       "method": "website",
-      "fact": "own site brand roster is CFMOTO/Segway/Beta/Hisun/SSR/Thumpstar — NO Moto Guzzi; the earlier 'Moto Guzzi Days' signal is not reflected in the current lineup"
+      "fact": "in-stock inventory search lists a 2027 Moto Guzzi (homepage brand roster omits Guzzi but the inventory carries it): mountainpowersports.net/search/inventory/availability/In Stock/brand/Moto Guzzi"
      }
     ]
    }
