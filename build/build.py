@@ -163,7 +163,23 @@ def main():
     out.write_text(json.dumps(gj, indent=1, ensure_ascii=False, default=str))
     print(f"OK: {len(nodes)} nodes validated -> {out.relative_to(ROOT)}")
     static_render(features)
+    stamp_sw()
     whatsnew()
+
+
+def stamp_sw():
+    """Version the service-worker cache by a content hash so a new build invalidates
+    the shell cache (offline updates propagate)."""
+    import hashlib
+    sw = ROOT / "site" / "sw.js"
+    if not sw.exists():
+        return
+    idx = (ROOT / "site" / "index.html").read_text()
+    gj = (ROOT / "site" / "nodes.geojson").read_text()
+    h = hashlib.md5((idx + gj).encode()).hexdigest()[:10]
+    doc = re.sub(r"/\*BUILD:SWVER\*/[^/]*/\*/", f"/*BUILD:SWVER*/{h}/*/", sw.read_text())
+    sw.write_text(doc)
+    print(f"sw.js version -> gsn-{h}")
 
 
 CAP_COLORS = {"full-service": "#1e8a5f", "satellite": "#c98d1f", "depot": "#2f6fbe",
