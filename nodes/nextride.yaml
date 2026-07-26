@@ -3,8 +3,8 @@ name: "Next Ride"
 city: "Tampa"
 state: FL
 country: US
-lat: 27.9506
-lon: -82.4572
+lat: 27.9524
+lon: -82.3744
 layer: franchise
 capability: [full-service]
 brands: [moto-guzzi, aprilia, bmw, ducati, mv-agusta, piaggio, vespa, slingshot]
@@ -19,5 +19,5 @@ observations:
     method: website
     fact: "Authorized dealer for Aprilia/BMW/Ducati/MV Agusta/Moto Guzzi/Piaggio/Vespa per own site; current inventory incl. 2026 V7 Stone and 2025 V85 TT; Tampa and Clearwater locations."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

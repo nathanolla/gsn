@@ -7,7 +7,7 @@ lat: 29.554
 lon: -98.607
 layer: franchise
 capability: [full-service]
-brands: [moto-guzzi, aprilia, ducati, triumph]
+brands: [moto-guzzi, aprilia, ducati, triumph, mv-agusta]
 functions:
   - sales
   - service
@@ -22,5 +22,5 @@ observations:
     method: official-locator
     fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
 last_verified: 2026-07-26
-verified_by: claude
-status: unverified
+verified_by: claude-research-sweep
+status: active

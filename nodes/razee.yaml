@@ -3,7 +3,7 @@ name: "Razee Motorcycle Center"
 city: "North Kingstown"
 state: RI
 country: US
-lat: 41.5501
+lat: 41.5554
 lon: -71.4662
 layer: franchise
 capability: [full-service]
@@ -19,5 +19,5 @@ observations:
     method: website
     fact: "Own site (search-indexed; direct fetch bot-blocked) shows current new Moto Guzzi inventory including 2025 V85 Strada and 2024 V100 Mandello S; family-owned, 730 Tower Hill Rd."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

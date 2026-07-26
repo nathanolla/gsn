@@ -7,7 +7,7 @@ lat: 35.1595
 lon: -84.8766
 layer: franchise
 capability: [satellite]
-brands: [moto-guzzi]
+brands: [moto-guzzi, aprilia, suzuki, cfmoto, can-am, sea-doo, segway]
 functions:
   - sales
   - service
@@ -19,5 +19,5 @@ observations:
     method: website
     fact: "Own site shows Moto Guzzi current-inventory showroom incl. a 2024 Stelvio with PFF Rider Assistance; 165 1st St SW, serving the Chattanooga corridor."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

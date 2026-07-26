@@ -19,5 +19,5 @@ observations:
     method: website
     fact: "Full-line Yamaha store that also franchises Aprilia/Vespa/Moto Guzzi; own site hosts Moto Guzzi model-list pages (can-order); DFW-area Guzzi point at 1636 SW Wilshire Blvd."
 last_verified: 2026-07-26
-verified_by: claude
-status: unverified
+verified_by: claude-research-sweep
+status: active

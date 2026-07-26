@@ -7,7 +7,7 @@ lat: 40.6848
 lon: -74.0038
 layer: independent
 capability: [heritage]
-brands: [moto-guzzi, ducati, laverda, mv-agusta]
+brands: [moto-guzzi, ducati, laverda, mv-agusta, bmw]
 functions:
   - restorations
   - curated vintage sales
@@ -18,5 +18,5 @@ observations:
     method: website
     fact: "site live; by-appointment-only per own pages"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

@@ -7,7 +7,7 @@ lat: 41.4021
 lon: -74.3243
 layer: franchise
 capability: [satellite]
-brands: [moto-guzzi, aprilia, triumph, arctic-cat, piaggio]
+brands: [moto-guzzi, aprilia, triumph, arctic-cat, piaggio, royal-enfield]
 functions:
   - sales
   - service
@@ -19,5 +19,5 @@ observations:
     method: website
     fact: "Own site headline: 'New Aprilia, Arctic Cat, Moto Guzzi, & Piaggio for sale'; maintains new Moto Guzzi model showroom pages; 2677 Route 17M."
 last_verified: 2026-07-26
-verified_by: claude
-status: unverified
+verified_by: claude-research-sweep
+status: active

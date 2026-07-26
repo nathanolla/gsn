@@ -7,7 +7,7 @@ lat: 37.5052
 lon: -77.5068
 layer: franchise
 capability: [full-service]
-brands: [moto-guzzi, triumph, vespa, piaggio, genuine]
+brands: [moto-guzzi, triumph, ktm, vespa, piaggio, genuine]
 functions:
   - full service
   - parts counter
@@ -18,5 +18,5 @@ observations:
     method: website
     fact: "site live; carries Moto Guzzi per own pages and current directory listings"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

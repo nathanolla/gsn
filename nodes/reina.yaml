@@ -3,8 +3,8 @@ name: "Reina International Auto"
 city: "Brookfield"
 state: WI
 country: US
-lat: 43.0606
-lon: -88.1065
+lat: 43.0896
+lon: -88.0703
 layer: franchise
 capability: [satellite]
 brands: [moto-guzzi, vespa, piaggio, aprilia]
@@ -18,5 +18,5 @@ observations:
     method: website
     fact: "40+ year family exotic-car house that is also the Milwaukee-area Vespa/Piaggio/Aprilia/Moto Guzzi dealer with Italian factory-trained techs; two-wheel side is secondary to the car business."
 last_verified: 2026-07-26
-verified_by: claude
-status: unverified
+verified_by: claude-research-sweep
+status: active

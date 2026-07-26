@@ -7,7 +7,7 @@ lat: 41.8886
 lon: -87.9895
 layer: franchise
 capability: [full-service]
-brands: [moto-guzzi, aprilia, ducati, triumph, ktm, husqvarna]
+brands: [moto-guzzi, aprilia, ducati, triumph, ktm, husqvarna, royal-enfield]
 functions:
   - sales
   - service
@@ -19,5 +19,5 @@ observations:
     method: website
     fact: "40+ year dealership at 443 E Saint Charles Rd; authorized Moto Guzzi alongside Ducati/Triumph/KTM/Aprilia/Husqvarna, with new (2024 V7 Stone) and used Guzzi stock; Yelp listing updated April 2026."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

@@ -1,6 +1,6 @@
 id: vintagemoto
 name: "Vintage Moto"
-city: Clayton
+city: "Clayton"
 state: NC
 country: US
 lat: 35.6507
@@ -19,5 +19,5 @@ observations:
     method: website
     fact: "120 Rock Pillar Rd, Clayton NC; vintage & new repair + restoration, Tue-Sat by appointment; actively hiring a technician (operational); no marque list published"
 last_verified: 2026-07-26
-verified_by: nathan
-status: unverified
+verified_by: claude-research-sweep
+status: active

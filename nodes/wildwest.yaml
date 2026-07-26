@@ -22,5 +22,5 @@ observations:
     method: official-locator
     fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
 last_verified: 2026-07-26
-verified_by: claude
-status: unverified
+verified_by: claude-research-sweep
+status: active

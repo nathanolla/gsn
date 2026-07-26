@@ -7,7 +7,7 @@ lat: 34.6948
 lon: -84.4822
 layer: franchise
 capability: [satellite]
-brands: [moto-guzzi, cfmoto, segway, beta, ssr]
+brands: [cfmoto, segway, beta, hisun, ssr, thumpstar]
 functions:
   - sales
   - service
@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site runs 'Moto Guzzi Days' promotional content indicating a Guzzi franchise, but primary lines are CFMOTO/Segway/Beta; Guzzi stocking depth unconfirmed."
+  - date: 2026-07-26
+    method: website
+    fact: "own site brand roster is CFMOTO/Segway/Beta/Hisun/SSR/Thumpstar \u2014 NO Moto Guzzi; the earlier 'Moto Guzzi Days' signal is not reflected in the current lineup"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: unverified

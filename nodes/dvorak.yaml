@@ -13,11 +13,11 @@ functions:
   - service
   - parts
 url: https://www.dvorakmotorsports.com/
-phone: ""
+phone: "(701) 751-7547"
 observations:
   - date: 2026-07-26
     method: website
     fact: "Motorsports & RV center carrying Aprilia/Moto Guzzi/Vespa; own site lists 2026 Moto Guzzi V7 Sport and 2025 V85 TT Travel; one of the very few Guzzi points in the Dakotas."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

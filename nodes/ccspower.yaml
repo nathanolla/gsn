@@ -7,7 +7,7 @@ lat: 41.279
 lon: -75.878
 layer: franchise
 capability: [satellite]
-brands: [moto-guzzi, piaggio]
+brands: [moto-guzzi, piaggio, vespa, aprilia, benelli, ssr]
 functions:
   - sales
   - service
@@ -22,5 +22,5 @@ observations:
     method: official-locator
     fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

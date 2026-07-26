@@ -3,8 +3,8 @@ name: "North American Warhorse"
 city: "Dunmore"
 state: PA
 country: US
-lat: 41.4198
-lon: -75.6324
+lat: 41.4248
+lon: -75.6083
 layer: franchise
 capability: [full-service]
 brands: [moto-guzzi, aprilia, ducati, mv-agusta, piaggio, honda, kawasaki, husqvarna, polaris, can-am]
@@ -13,11 +13,11 @@ functions:
   - service
   - parts
 url: https://www.nawarhorse.com/
-phone: ""
+phone: "(570) 346-2453"
 observations:
   - date: 2026-07-26
     method: website
     fact: "Own site (search-indexed; direct fetch bot-blocked) lists Moto Guzzi among franchised brands with current inventory incl. 2025 Stelvio, V85 TT and V85 TT Travel; 50,000+ sq ft store."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

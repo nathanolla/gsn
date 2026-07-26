@@ -7,7 +7,7 @@ lat: 35.1107
 lon: -106.6056
 layer: franchise
 capability: [full-service]
-brands: [moto-guzzi, aprilia, triumph, royal-enfield]
+brands: [moto-guzzi, aprilia, triumph, royal-enfield, beta]
 functions:
   - sales
   - service
@@ -22,5 +22,5 @@ observations:
     method: official-locator
     fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

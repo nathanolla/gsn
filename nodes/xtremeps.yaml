@@ -13,11 +13,11 @@ functions:
   - service
   - parts
 url: https://www.xps-usa.com/
-phone: ""
+phone: "(800) 967-7738"
 observations:
   - date: 2026-07-26
     method: website
     fact: "Own site lists Aprilia/Vespa/Moto Guzzi among brands with current new inventory incl. 2025 V85 TT and 2025 Stelvio; 418 S Main St."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

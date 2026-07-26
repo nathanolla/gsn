@@ -7,7 +7,7 @@ lat: 30.4213
 lon: -87.2169
 layer: franchise
 capability: [full-service]
-brands: [moto-guzzi]
+brands: [aprilia, vespa, piaggio, triumph, mv-agusta, kymco, genuine]
 functions:
   - sales
   - service
@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "danddcycles.com live; Yelp listing updated April 2026 at 2400 Fernwood Ave, Pensacola FL, carrying Moto Guzzi"
+  - date: 2026-07-26
+    method: website
+    fact: "own site, new-models page, and Facebook all list Triumph/Vespa/Aprilia/Piaggio/MV/Kymco/Genuine \u2014 NO Moto Guzzi (the 2024-11 forum franchise claim is not supported by current first-party evidence)"
 last_verified: 2026-07-26
-verified_by: claude
-status: active
+verified_by: claude-research-sweep
+status: unverified

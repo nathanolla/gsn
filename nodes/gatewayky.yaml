@@ -19,5 +19,5 @@ observations:
     method: website
     fact: "Own site lists Moto Guzzi among authorized brands; claims Kentucky's largest powersports showroom (250+ units); acquired by Derek Harmon in 2024."
 last_verified: 2026-07-26
-verified_by: claude
-status: unverified
+verified_by: claude-research-sweep
+status: active

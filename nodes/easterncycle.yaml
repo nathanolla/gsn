@@ -18,5 +18,5 @@ observations:
     method: website
     fact: "Founded 1971; sold its Ducati/Guzzi/MV franchises in 2011 and now operates as a restoration and cafe-custom shop with a Moto Guzzi/BMW-certified technician; Yelp listing updated Nov 2025 shows it open."
 last_verified: 2026-07-26
-verified_by: claude
-status: unverified
+verified_by: claude-research-sweep
+status: active

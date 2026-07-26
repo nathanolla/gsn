@@ -7,14 +7,14 @@ lat: 36.1447
 lon: -115.227
 layer: franchise
 capability: [full-service]
-brands: [moto-guzzi, aprilia, vespa, piaggio, bmw]
+brands: [moto-guzzi, aprilia, vespa, piaggio, bmw, triumph, ducati, mv-agusta, zero]
 functions:
   - sales
   - service
   - parts
   - mail-order
 url: https://rideeurocycle.com/
-phone: "702-454-6269"
+phone: "(702) 430-3500"
 observations:
   - date: 2026-07-26
     method: website
@@ -23,5 +23,5 @@ observations:
     method: official-locator
     fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

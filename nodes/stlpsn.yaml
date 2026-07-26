@@ -7,17 +7,17 @@ lat: 38.8003
 lon: -90.6266
 layer: franchise
 capability: [full-service]
-brands: [moto-guzzi, aprilia, vespa, piaggio, kawasaki, suzuki]
+brands: [moto-guzzi, aprilia, vespa, piaggio, polaris, cfmoto]
 functions:
   - sales
   - service
   - parts
 url: https://www.stlouispowersports.com/
-phone: ""
+phone: "(636) 385-6300"
 observations:
   - date: 2026-07-26
     method: website
     fact: "Group site calls itself 'the hub for all things Aprilia, Vespa, Moto Guzzi and Piaggio in the Midwest'; North store (4740 N Service Rd) stocks 2026 V7 Stone and 2025 V85 TT Travel."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

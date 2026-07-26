@@ -1,10 +1,10 @@
 id: mph
 name: "MPH Cycles"
-city: "Houston"
+city: "Hempstead"
 state: TX
 country: US
-lat: 29.7858
-lon: -95.642
+lat: 30.044
+lon: -96.0536
 layer: independent
 capability: [full-service, heritage]
 brands: [moto-guzzi, bmw]
@@ -21,5 +21,5 @@ observations:
     method: community-endorsement
     fact: "recommended for Guzzi work by multiple members on guzzitech.com forums \u00e2\u0080\u0094 former Texas #1 Guzzi dealer; one member wrote 'Simply cannot say enough good things...about MPH', thread of 2021-06 (https://www.guzzitech.com/forums/threads/houston-moto-guzzi-recommended-shops-mechanics.21516/)"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

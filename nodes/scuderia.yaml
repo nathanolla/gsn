@@ -3,8 +3,8 @@ name: "Scuderia West"
 city: "San Francisco"
 state: CA
 country: US
-lat: 37.7699
-lon: -122.4148
+lat: 37.7591
+lon: -122.3837
 layer: franchise
 capability: [full-service]
 brands: [moto-guzzi, aprilia, ktm, kove, piaggio, royal-enfield, vespa]
@@ -19,5 +19,5 @@ observations:
     method: website
     fact: "Open since 1991; own site lists Moto Guzzi among authorized franchises (with Aprilia, KTM, Kove, Piaggio, Royal Enfield, Vespa) \u00e2\u0080\u0094 the Bay Area's Guzzi point."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: unverified

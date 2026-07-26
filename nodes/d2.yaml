@@ -7,7 +7,7 @@ lat: 34.9181
 lon: -82.2372
 layer: franchise
 capability: [satellite]
-brands: [moto-guzzi, aprilia, vespa, piaggio, ducati, triumph, bmw, indian]
+brands: [moto-guzzi, aprilia, vespa, piaggio, ducati, triumph, bmw, indian, polaris, slingshot, royal-enfield, cfmoto]
 functions:
   - service booking
   - PADS diagnostics
@@ -18,5 +18,5 @@ observations:
     method: website
     fact: "operating as D2 Powersports Greer; states it is the only SC dealer for Aprilia/Moto Guzzi/Vespa/Piaggio"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

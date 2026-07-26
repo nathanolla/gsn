@@ -7,17 +7,17 @@ lat: 34.54
 lon: -112.4685
 layer: franchise
 capability: [satellite]
-brands: [moto-guzzi]
+brands: [moto-guzzi, genuine, kymco, moto-morini, swm, gpx, kove, benelli, benda, keeway]
 functions:
   - sales
   - service
   - parts
 url: https://powersportsoutlet.com/
-phone: ""
+phone: "(928) 778-7910"
 observations:
   - date: 2026-07-26
     method: website
     fact: "Own site's 'Moto Guzzi Motorcycles For Sale in Prescott, AZ' page states it has been an authorized Moto Guzzi dealer since 1996 \u00e2\u0080\u0094 the northern-Arizona Guzzi point."
 last_verified: 2026-07-26
-verified_by: claude
-status: unverified
+verified_by: claude-research-sweep
+status: active

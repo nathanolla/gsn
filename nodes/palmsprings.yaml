@@ -3,8 +3,8 @@ name: "Palm Springs Motorsports"
 city: "Palm Desert"
 state: CA
 country: US
-lat: 33.753
-lon: -116.387
+lat: 33.802
+lon: -116.39
 layer: franchise
 capability: [satellite]
 brands: [moto-guzzi, aprilia, vespa, piaggio, kawasaki, yamaha, suzuki, can-am, cfmoto]
@@ -22,5 +22,5 @@ observations:
     method: official-locator
     fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active

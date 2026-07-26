@@ -1,10 +1,10 @@
 id: guzzidoctor
 name: "The Guzzi Doctor"
-city: "North Chicago"
+city: "Lake Bluff"
 state: IL
 country: US
-lat: 42.3256
-lon: -87.8412
+lat: 42.2795
+lon: -87.8673
 layer: independent
 capability: [heritage, performance]
 brands: [moto-guzzi]
@@ -22,5 +22,5 @@ observations:
     method: website
     fact: "theguzzidoctor.com live (Chicago Moto Guzzi repair, Joe Walano); 5-star rating across 24 reviews on current Birdeye listing, 3109 Beacon St, North Chicago IL"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-research-sweep
 status: active
