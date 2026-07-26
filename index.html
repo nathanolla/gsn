@@ -191,7 +191,7 @@
     <b>Not affiliated with, endorsed by, or sponsored by Piaggio Group or Moto&nbsp;Guzzi.
     Trademarks are the property of their owners.</b> Official site: <a href="https://www.motoguzzi.com/">motoguzzi.com</a> ·
     <a href="https://github.com/nathanolla/gsn/blob/main/notices.md">notices</a><br>
-    Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors ·
+    Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · <a href="https://carto.com/attributions">CARTO</a> ·
     your location never leaves your browser · best viewed in <i>any</i> browser — and unlike 1999, that's true.<br>
     maintained by <b>Nathan</b> · Durham, NC · database last touched <span id="footupd"><!--BUILD:FOOTUPD-->2026-07-26<!--/BUILD:FOOTUPD--></span> ·
     <a href="whatsnew.html">what's new</a> · est. 2026
@@ -309,7 +309,14 @@ function render(){
   document.getElementById('lastupd').textContent=newest||'—';
   const fu=document.getElementById('footupd'); if(fu)fu.textContent=newest||'—';
   map=L.map('map').setView([37.5,-85],5);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(map);
+  // Carto basemaps (embeddable, no key) — theme-aware: Voyager for 1999, Dark Matter for 2026.
+  const TILES={light:'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+               dark:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'};
+  const TATTR='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>';
+  let tileLayer=null;
+  function setTiles(kind){ if(tileLayer)tileLayer.remove();
+    tileLayer=L.tileLayer(TILES[kind],{maxZoom:19,subdomains:'abcd',detectRetina:true,attribution:TATTR}).addTo(map);}
+  setTiles('light');
   const caps=new Set(),layers=new Set();
   FEATS.forEach(f=>{
     const p=f.properties; p.capability.forEach(c=>caps.add(c)); layers.add(p.layer);
@@ -348,6 +355,7 @@ function render(){
   const themeBtn=document.getElementById('theme');
   function applyTheme(t){document.body.classList.toggle('modern',t==='2026');
     themeBtn.textContent='VIEW: '+(t==='2026'?'2026':'1999');
+    setTiles(t==='2026'?'dark':'light');
     try{localStorage.setItem('gsn_theme',t)}catch(e){}}
   themeBtn.onclick=()=>applyTheme(document.body.classList.contains('modern')?'1999':'2026');
   try{applyTheme(localStorage.getItem('gsn_theme')||'1999')}catch(e){}
