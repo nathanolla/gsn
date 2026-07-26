@@ -1,0 +1,778 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.6858,
+     30.3634
+    ]
+   },
+   "properties": {
+    "id": "af1",
+    "name": "AF1 Racing",
+    "city": "Austin",
+    "state": "TX",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia"
+    ],
+    "functions": [
+     "national mail-order parts",
+     "fiche lookup",
+     "full service (local)"
+    ],
+    "url": "https://www.af1racingaustin.com/",
+    "phone": "(512) 459-3966",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "depot",
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi dealer locator"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "retail site live; single consolidated Austin location"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.6566,
+     35.7635
+    ]
+   },
+   "properties": {
+    "id": "artmoto",
+    "name": "ArtMoto Garage",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "triumph",
+     "ducati",
+     "bimota",
+     "vespa"
+    ],
+    "functions": [
+     "warranty service",
+     "PADS diagnostics",
+     "new unit sales"
+    ],
+    "url": "https://artmotogarage.com/",
+    "phone": "(919) 833-5575",
+    "last_verified": "2026-07-25",
+    "verified_by": "nathan",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-25",
+      "method": "visited",
+      "fact": "multiple new Moto Guzzi units observed on showroom floor (V85 TT among them)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "not yet listed on the official Moto Guzzi dealer locator"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; brands page predates the Guzzi line"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.9487,
+     34.2353
+    ]
+   },
+   "properties": {
+    "id": "bombars",
+    "name": "Bombar's Beemers",
+    "city": "Wilmington",
+    "state": "NC",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "bmw"
+    ],
+    "functions": [
+     "independent European service",
+     "restoration"
+    ],
+    "url": "https://www.bombarsbeemers.com/",
+    "phone": "(919) 491-4875",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "own site lists Moto Guzzi among serviced marques; in business since 1992"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "relocated from Durham NC to Wilmington NC per own announcements"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.0038,
+     40.6848
+    ]
+   },
+   "properties": {
+    "id": "borgotaro",
+    "name": "Moto Borgotaro",
+    "city": "Brooklyn",
+    "state": "NY",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "laverda",
+     "mv-agusta"
+    ],
+    "functions": [
+     "restorations",
+     "curated vintage sales"
+    ],
+    "url": "https://motoborgotaro.com/",
+    "phone": "(917) 589-4754",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; by-appointment-only per own pages"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.8824,
+     36.0073
+    ]
+   },
+   "properties": {
+    "id": "combustion",
+    "name": "Combustion Cycles Ltd",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "ducati",
+     "bmw",
+     "triumph"
+    ],
+    "functions": [
+     "independent European service",
+     "machine work"
+    ],
+    "url": "https://www.combustioncycles.com/",
+    "phone": "(919) 688-5009",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; lists European service and in-house machining; no Moto Guzzi statement found"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -82.2372,
+     34.9181
+    ]
+   },
+   "properties": {
+    "id": "d2",
+    "name": "D2 Powersports Greer",
+    "city": "Greer",
+    "state": "SC",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "ducati",
+     "triumph",
+     "bmw",
+     "indian"
+    ],
+    "functions": [
+     "service booking",
+     "PADS diagnostics"
+    ],
+    "url": "https://www.d2powersports-greer.com/",
+    "phone": "(864) 879-2119",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "operating as D2 Powersports Greer; states it is the only SC dealer for Aprilia/Moto Guzzi/Vespa/Piaggio"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.6894,
+     34.0356
+    ]
+   },
+   "properties": {
+    "id": "gtm",
+    "name": "GTM / GuzziTech",
+    "city": "Malibu",
+    "state": "CA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "V85 performance parts",
+     "custom ECU maps",
+     "dyno development"
+    ],
+    "url": "guzzitech.com",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "performance"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "store live; contact is email-only by stated policy"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "guzzidiag",
+    "name": "GuzziDiag",
+    "city": null,
+    "state": null,
+    "country": "US",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "free community ECU read/diagnostic tooling"
+    ],
+    "url": "https://www.von-der-salierburg.de/download/GuzziDiag/",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "download page actively maintained (v0.61 Windows / v0.60 Linux+Mac, June 2026)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "guzziology",
+    "name": "Guzziology (Dave Richardson)",
+    "city": null,
+    "state": null,
+    "country": "US",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service and repair reference book"
+    ],
+    "url": "https://www.amazon.com/Guzziology-Version-9-Dave-Richardson/dp/1790479215",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Version 9 is current; author's site routes purchases to Amazon"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.344,
+     38.852
+    ]
+   },
+   "properties": {
+    "id": "harpers",
+    "name": "Harper's Moto Guzzi",
+    "city": "Greenwood",
+    "state": "MO",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "NOS parts",
+     "parts for 1967-current models"
+    ],
+    "url": "harpermoto.com",
+    "phone": "(816) 697-3411",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "depot"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi dealer locator"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "e-commerce live"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.1519,
+     33.7905
+    ]
+   },
+   "properties": {
+    "id": "mgclassics",
+    "name": "Moto Guzzi Classics",
+    "city": "Signal Hill",
+    "state": "CA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "vintage service",
+     "NOS/used parts",
+     "restorations"
+    ],
+    "url": "https://www.motoguzziclassics.com/",
+    "phone": "(562) 986-0070",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live with current-year page timestamp"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.4305,
+     42.7137
+    ]
+   },
+   "properties": {
+    "id": "mgcycle",
+    "name": "MG Cycle",
+    "city": "Albany",
+    "state": "WI",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "OEM + Mistral parts by mail"
+    ],
+    "url": "mgcycle.com",
+    "phone": "(608) 862-2300",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "depot"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "e-commerce live"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "mgnoc-reps",
+    "name": "MGNOC state-rep network",
+    "city": null,
+    "state": null,
+    "country": "US",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "regional club knowledge nodes (state reps, published by MGNOC)"
+    ],
+    "url": "https://www.mgnoc.com/staff_and_reps.html",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "state-rep roster published and current on mgnoc.com"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.5068,
+     37.5052
+    ]
+   },
+   "properties": {
+    "id": "motorichmond",
+    "name": "Moto Richmond",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "triumph",
+     "vespa",
+     "piaggio",
+     "genuine"
+    ],
+    "functions": [
+     "full service",
+     "parts counter"
+    ],
+    "url": "https://www.motorichmond.com/",
+    "phone": "(804) 230-1000",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; carries Moto Guzzi per own pages and current directory listings"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.0617,
+     35.9212
+    ]
+   },
+   "properties": {
+    "id": "starmoto",
+    "name": "Star Powersports",
+    "city": "Knoxville",
+    "state": "TN",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "beta"
+    ],
+    "functions": [
+     "full service",
+     "new unit sales"
+    ],
+    "url": "https://www.starpowersportstn.com/",
+    "phone": "(865) 851-8688",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "operating as Star Powersports (formerly Star Moto / Ducati of Knoxville)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.8888,
+     35.2422
+    ]
+   },
+   "properties": {
+    "id": "tees",
+    "name": "T's Euro Cycles",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "full service",
+     "new unit sales"
+    ],
+    "url": "https://www.tseurocycles.com/",
+    "phone": "(704) 847-8454",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live with current-year inventory listed"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.5291,
+     33.9511
+    ]
+   },
+   "properties": {
+    "id": "vespamarietta",
+    "name": "Vespa Marietta",
+    "city": "Marietta",
+    "state": "GA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "genuine",
+     "royal-enfield"
+    ],
+    "functions": [
+     "service booking",
+     "parts ordering (Piaggio portal)"
+    ],
+    "url": "https://www.vespamarietta.com/",
+    "phone": "(770) 420-8787",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "official-locator",
+      "fact": "listed on the official Moto Guzzi dealer locator"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "site live; actively promotes Moto Guzzi financing"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.5315,
+     33.9653
+    ]
+   },
+   "properties": {
+    "id": "wow",
+    "name": "WOW Motorcycles",
+    "city": "Marietta",
+    "state": "GA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "ducati",
+     "mv-agusta",
+     "aprilia",
+     "bimota"
+    ],
+    "functions": [
+     "in-house dyno tuning"
+    ],
+    "url": "https://www.wowmotorcycles.com/",
+    "phone": "(770) 424-8804",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "performance"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "dyno-tuning page lists staff experience across Italian/European marques"
+     }
+    ]
+   }
+  }
+ ],
+ "properties": {
+  "generated_by": "gsn build.py",
+  "count": 18
+ }
+}

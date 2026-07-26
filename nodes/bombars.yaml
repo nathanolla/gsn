@@ -1,0 +1,25 @@
+id: bombars
+name: "Bombar's Beemers"
+city: "Wilmington"
+state: NC
+country: US
+lat: 34.2353
+lon: -77.9487
+layer: independent
+capability: [full-service]
+brands: [moto-guzzi, bmw]
+functions:
+  - independent European service
+  - restoration
+url: https://www.bombarsbeemers.com/
+phone: "(919) 491-4875"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "own site lists Moto Guzzi among serviced marques; in business since 1992"
+  - date: 2026-07-26
+    method: website
+    fact: "relocated from Durham NC to Wilmington NC per own announcements"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

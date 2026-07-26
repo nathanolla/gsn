@@ -1,0 +1,21 @@
+id: mgnoc-reps
+name: "MGNOC state-rep network"
+city: null
+state: null
+country: US
+lat: null
+lon: null
+layer: knowledge
+capability: [knowledge]
+brands: [moto-guzzi]
+functions:
+  - regional club knowledge nodes (state reps, published by MGNOC)
+url: https://www.mgnoc.com/staff_and_reps.html
+phone: ""
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "state-rep roster published and current on mgnoc.com"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

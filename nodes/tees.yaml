@@ -1,0 +1,22 @@
+id: tees
+name: "T's Euro Cycles"
+city: "Charlotte"
+state: NC
+country: US
+lat: 35.2422
+lon: -80.8888
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, vespa, piaggio]
+functions:
+  - full service
+  - new unit sales
+url: https://www.tseurocycles.com/
+phone: "(704) 847-8454"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "site live with current-year inventory listed"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

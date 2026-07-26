@@ -1,0 +1,23 @@
+id: gtm
+name: "GTM / GuzziTech"
+city: "Malibu"
+state: CA
+country: US
+lat: 34.0356
+lon: -118.6894
+layer: independent
+capability: [performance]
+brands: [moto-guzzi]
+functions:
+  - V85 performance parts
+  - custom ECU maps
+  - dyno development
+url: guzzitech.com
+phone: ""
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "store live; contact is email-only by stated policy"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

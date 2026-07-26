@@ -1,0 +1,23 @@
+id: mgclassics
+name: "Moto Guzzi Classics"
+city: "Signal Hill"
+state: CA
+country: US
+lat: 33.7905
+lon: -118.1519
+layer: independent
+capability: [heritage]
+brands: [moto-guzzi]
+functions:
+  - vintage service
+  - NOS/used parts
+  - restorations
+url: https://www.motoguzziclassics.com/
+phone: "(562) 986-0070"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "site live with current-year page timestamp"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

@@ -1,0 +1,22 @@
+id: starmoto
+name: "Star Powersports"
+city: "Knoxville"
+state: TN
+country: US
+lat: 35.9212
+lon: -84.0617
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, ducati, aprilia, vespa, piaggio, beta]
+functions:
+  - full service
+  - new unit sales
+url: https://www.starpowersportstn.com/
+phone: "(865) 851-8688"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "operating as Star Powersports (formerly Star Moto / Ducati of Knoxville)"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

@@ -1,0 +1,21 @@
+id: guzzidiag
+name: GuzziDiag
+city: null
+state: null
+country: US
+lat: null
+lon: null
+layer: knowledge
+capability: [knowledge]
+brands: [moto-guzzi]
+functions:
+  - free community ECU read/diagnostic tooling
+url: https://www.von-der-salierburg.de/download/GuzziDiag/
+phone: ""
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "download page actively maintained (v0.61 Windows / v0.60 Linux+Mac, June 2026)"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

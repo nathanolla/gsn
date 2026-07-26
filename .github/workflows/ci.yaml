@@ -1,0 +1,37 @@
+name: validate-and-build
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pyyaml
+      - name: Schema validation + GeoJSON build (the moderation)
+        run: python3 build/build.py
+      - name: URL liveness (PR-touched nodes only)
+        if: github.event_name == 'pull_request'
+        run: |
+          for f in $(git diff --name-only origin/${{ github.base_ref }}... -- 'nodes/*.yaml'); do
+            url=$(python3 -c "import yaml,sys; print(yaml.safe_load(open('$f'))['url'] or '')")
+            [ -z "$url" ] && continue
+            code=$(curl -skL -o /dev/null -m 20 -w '%{http_code}' -A 'gsn-ci/1.0' "$url")
+            echo "$f -> $url -> $code"
+            case "$code" in 2*|3*|401|403) ;; *) echo "::error file=$f::URL $url returned $code"; exit 1;; esac
+          done
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
+        with: {path: site/}
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    permissions: {pages: write, id-token: write}
+    environment: {name: github-pages, url: ${{ steps.deployment.outputs.page_url }}}
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

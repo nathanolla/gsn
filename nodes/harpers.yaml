@@ -1,0 +1,25 @@
+id: harpers
+name: "Harper's Moto Guzzi"
+city: "Greenwood"
+state: MO
+country: US
+lat: 38.852
+lon: -94.344
+layer: independent
+capability: [depot]
+brands: [moto-guzzi]
+functions:
+  - NOS parts
+  - parts for 1967-current models
+url: harpermoto.com
+phone: "(816) 697-3411"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi dealer locator"
+  - date: 2026-07-26
+    method: website
+    fact: "e-commerce live"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

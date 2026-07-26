@@ -1,0 +1,21 @@
+id: wow
+name: "WOW Motorcycles"
+city: "Marietta"
+state: GA
+country: US
+lat: 33.9653
+lon: -84.5315
+layer: independent
+capability: [performance]
+brands: [ducati, mv-agusta, aprilia, bimota]
+functions:
+  - in-house dyno tuning
+url: https://www.wowmotorcycles.com/
+phone: "(770) 424-8804"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "dyno-tuning page lists staff experience across Italian/European marques"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

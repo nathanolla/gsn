@@ -1,0 +1,22 @@
+id: borgotaro
+name: "Moto Borgotaro"
+city: "Brooklyn"
+state: NY
+country: US
+lat: 40.6848
+lon: -74.0038
+layer: independent
+capability: [heritage]
+brands: [moto-guzzi, ducati, laverda, mv-agusta]
+functions:
+  - restorations
+  - curated vintage sales
+url: https://motoborgotaro.com/
+phone: "(917) 589-4754"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "site live; by-appointment-only per own pages"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

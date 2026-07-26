@@ -1,0 +1,22 @@
+id: combustion
+name: "Combustion Cycles Ltd"
+city: "Durham"
+state: NC
+country: US
+lat: 36.0073
+lon: -78.8824
+layer: independent
+capability: [full-service]
+brands: [ducati, bmw, triumph]
+functions:
+  - independent European service
+  - machine work
+url: https://www.combustioncycles.com/
+phone: "(919) 688-5009"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "site live; lists European service and in-house machining; no Moto Guzzi statement found"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

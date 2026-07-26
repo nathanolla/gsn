@@ -1,0 +1,22 @@
+id: d2
+name: "D2 Powersports Greer"
+city: "Greer"
+state: SC
+country: US
+lat: 34.9181
+lon: -82.2372
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, vespa, piaggio, ducati, triumph, bmw, indian]
+functions:
+  - service booking
+  - PADS diagnostics
+url: https://www.d2powersports-greer.com/
+phone: "(864) 879-2119"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "operating as D2 Powersports Greer; states it is the only SC dealer for Aprilia/Moto Guzzi/Vespa/Piaggio"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

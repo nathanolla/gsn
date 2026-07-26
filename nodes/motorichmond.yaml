@@ -1,0 +1,22 @@
+id: motorichmond
+name: "Moto Richmond"
+city: "Richmond"
+state: VA
+country: US
+lat: 37.5052
+lon: -77.5068
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, triumph, vespa, piaggio, genuine]
+functions:
+  - full service
+  - parts counter
+url: https://www.motorichmond.com/
+phone: "(804) 230-1000"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "site live; carries Moto Guzzi per own pages and current directory listings"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

@@ -1,0 +1,21 @@
+id: mgcycle
+name: "MG Cycle"
+city: "Albany"
+state: WI
+country: US
+lat: 42.7137
+lon: -89.4305
+layer: independent
+capability: [depot]
+brands: [moto-guzzi]
+functions:
+  - OEM + Mistral parts by mail
+url: mgcycle.com
+phone: "(608) 862-2300"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "e-commerce live"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

@@ -1,0 +1,26 @@
+id: af1
+name: "AF1 Racing"
+city: "Austin"
+state: TX
+country: US
+lat: 30.3634
+lon: -97.6858
+layer: franchise
+capability: [depot, full-service]
+brands: [moto-guzzi, aprilia]
+functions:
+  - national mail-order parts
+  - fiche lookup
+  - full service (local)
+url: https://www.af1racingaustin.com/
+phone: "(512) 459-3966"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi dealer locator"
+  - date: 2026-07-26
+    method: website
+    fact: "retail site live; single consolidated Austin location"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

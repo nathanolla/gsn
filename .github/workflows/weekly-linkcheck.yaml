@@ -1,0 +1,30 @@
+name: weekly-linkcheck
+on:
+  schedule:
+    - cron: '17 12 * * 0'
+  workflow_dispatch:
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    permissions: {issues: write, contents: read}
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pyyaml
+      - name: Check every node URL; open an issue per new failure
+        env: {GH_TOKEN: ${{ github.token }}}
+        run: |
+          fail=0
+          for f in nodes/*.yaml; do
+            url=$(python3 -c "import yaml; print(yaml.safe_load(open('$f'))['url'] or '')")
+            [ -z "$url" ] && continue
+            code=$(curl -skL -o /dev/null -m 20 -w '%{http_code}' -A 'gsn-linkcheck/1.0' "$url")
+            echo "$f -> $code"
+            case "$code" in 2*|3*|401|403) ;; *)
+              fail=1
+              title="linkcheck: $(basename $f .yaml) URL returned $code"
+              if ! gh issue list --state open --search "$title" | grep -q .; then
+                gh issue create --title "$title" --body "Weekly link check: \`$url\` returned **$code**. If the node is gone, submit a PR setting \`status: defunct\` (demote, never delete). If it moved, update \`url\` with a dated observation."
+              fi;;
+            esac
+          done
+          exit 0
