@@ -14,7 +14,7 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LAYERS = {"franchise", "independent", "knowledge"}
 CAPABILITIES = {"full-service", "satellite", "depot", "performance", "heritage", "knowledge"}
-METHODS = {"visited", "called", "bought", "website", "official-locator"}
+METHODS = {"visited", "called", "bought", "website", "official-locator", "community-endorsement"}
 STATUSES = {"active", "unverified", "defunct"}
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 SLUG = re.compile(r"^[a-z0-9][a-z0-9-]*$")

@@ -1,6 +1,6 @@
 # Methodology — observations in, categories out
 
-**Rubric version 1.0.0 (2026-07-26).**
+**Rubric version 1.1.0 (2026-07-26).** (1.0.0 → 1.1.0: added the `community-endorsement` observation method.)
 
 ## Principle
 Store **observations**, derive **categories**, never publish **characterizations**.
@@ -15,6 +15,12 @@ Store **observations**, derive **categories**, never publish **characterizations
   3. `website` — weakest; caps a new node's status at `unverified`
 - Floor counts are one dated input among several, never the sole basis — allocation and
   season make them noisy.
+- `community-endorsement` — a dated, sourced recommendation from a public community venue
+  (forum thread, owners-group post). The fact must name the venue and thread date. Signal
+  scope: endorsements support **capability** evidence (someone's Guzzi was actually
+  wrenched there) but never franchise/authorization status, and never outweigh a
+  first-party `called`/`visited` check. A node with only community-endorsement +
+  website evidence stays `unverified`.
 
 ## Category derivation rules (v1.0.0)
 - official-locator listing **or** own-site franchise statement, **and** books Guzzi service,
