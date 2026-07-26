@@ -1,10 +1,10 @@
 id: motomotivo
 name: "Moto Motivo (Two Wheel Art)"
-city: Durham
+city: "Durham"
 state: NC
 country: US
-lat: 35.994
-lon: -78.899
+lat: 35.9975
+lon: -78.9019
 layer: independent
 capability: [heritage]
 brands: [ducati]
