@@ -30,10 +30,11 @@
   .controls button{font:bold 13px "Courier New",monospace;background:#d4d0c8;border:2px outset #999;padding:3px 10px;cursor:pointer}
   .controls button:active{border-style:inset}
   .cols{display:grid;grid-template-columns:minmax(340px,430px) 1fr;gap:14px;align-items:start}
+  .mapcol{position:sticky;top:12px;align-self:start}  /* pin the map so it tracks the long list instead of leaving a dead gap */
   #map{height:66vh;min-height:440px;border:3px ridge #999;background:#dde}
   @media(max-width:920px){
     .cols{display:flex;flex-direction:column}
-    .mapcol{order:-1}
+    .mapcol{order:-1;position:static}
     #map{height:56vh;min-height:320px}
     .masthead h1{font-size:26px}
     .ctrbar{font-size:12px}
@@ -89,7 +90,7 @@
   body.modern .controls input,body.modern .controls select{background:#1e2630;color:#dbe4ee;border:1px solid #2a3542;border-radius:8px}
   body.modern .controls button{background:#c8102e;color:#fff;border:0;border-radius:8px}
   body.modern .controls button.sec{background:#1e2630;border:1px solid #2a3542}
-  body.modern #map{border:1px solid #2a3542;border-radius:12px}
+  body.modern #map{border:1px solid #2a3542;border-radius:12px;background:#0b0e12}
   body.modern .maplabel{color:#8fa1b3;font-family:ui-monospace,Menlo,Consolas,monospace}
   body.modern table.nodes{background:#171d24;border:1px solid #2a3542;border-radius:12px;overflow:hidden}
   body.modern table.nodes th{background:#1e2630;color:#8fa1b3}
@@ -314,8 +315,14 @@ function render(){
                dark:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'};
   const TATTR='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>';
   let tileLayer=null;
-  function setTiles(kind){ if(tileLayer)tileLayer.remove();
-    tileLayer=L.tileLayer(TILES[kind],{maxZoom:19,subdomains:'abcd',detectRetina:true,attribution:TATTR}).addTo(map);}
+  function setTiles(kind){
+    // Cross-fade: add the new layer, drop the old one only once new tiles paint —
+    // otherwise a theme switch flashes the empty map background before tiles arrive.
+    const nl=L.tileLayer(TILES[kind],{maxZoom:19,subdomains:'abcd',detectRetina:true,attribution:TATTR});
+    const old=tileLayer; tileLayer=nl; nl.addTo(map);
+    if(old){ const drop=()=>{ if(map.hasLayer(old)) old.remove(); };
+      nl.once('load',drop); setTimeout(drop,4000); }   // hard-drop after 4s if 'load' never fires
+  }
   setTiles('light');
   const caps=new Set(),layers=new Set();
   FEATS.forEach(f=>{
