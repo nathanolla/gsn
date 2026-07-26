@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Graham Rahal's Piaggio Motoplex (opened 2023 in Carmel, grand opening at Zionsville HQ Oct 2024); own site runs a current Moto Guzzi showroom; co-located with Rahal Ducati at 10814 Creek Way."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Piaggio Vespa Aprilia Moto Guzzi Indiana\" (Zionsville, IN); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

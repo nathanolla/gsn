@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site lists ~15 Moto Guzzi units incl. new 2026 V85 TT Travel and 2026 V7 Stone; Moto Guzzi Days financing promo through July 31, 2026."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Montgomeryville Cycle Center\" (Hatfield, PA); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

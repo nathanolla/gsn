@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Open since 1991; own site lists Moto Guzzi among authorized franchises (with Aprilia, KTM, Kove, Piaggio, Royal Enfield, Vespa) \u00e2\u0080\u0094 the Bay Area's Guzzi point."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Scuderia West\" (San Francisco, CA); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: unverified

@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site calls itself Michigan's #1 Moto Guzzi dealer \u00e2\u0080\u0094 factory-authorized sales/service/parts with a dedicated Moto Guzzi page; appears to be the sole current Guzzi franchise in Michigan."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Detroit Iron Cycles\" (White Lake, MI); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

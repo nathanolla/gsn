@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Eastern Idaho multi-line store (opened 2017) with a Motoplex section; own-site inventory search includes Aprilia and Moto Guzzi units; 804 Pancheri Dr."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Motoplex Idaho\" (Idaho Falls, ID); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "ericomotorsports.com live with Moto Guzzi inventory pages; Yelp listing updated June 2026, 2855 Walnut St, Denver CO"
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Erico Enterprises Incorporated\" (Denver, CO); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

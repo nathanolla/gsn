@@ -20,6 +20,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "site live; actively promotes Moto Guzzi financing"
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Moto Guzzi Marietta\" (Marietta, GA); type=dealers; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

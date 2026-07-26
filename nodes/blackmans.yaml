@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "70-year, 18-brand family dealership; own site has current Moto Guzzi inventory pages, Moto Guzzi promotions page, and a Moto Guzzi Demo Tour event listing."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Blackmans Cycle Center in Emmaus, PA\" (Emmaus, PA); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

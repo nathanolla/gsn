@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site carries Moto Guzzi brand showroom with new inventory incl. 2024 Stelvio; Orlando-area store at 11953 W Colonial Dr."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Love Motorsports of Ocoee\" (Ocoee, FL); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

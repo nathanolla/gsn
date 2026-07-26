@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "lamotowashington.com live with current Moto Guzzi inventory (incl. Stelvio); listed on motoguzzi.com official dealer locator, 3298 A Wilson Blvd, Arlington VA"
+  - date: 2026-07-26
+    method: official-locator
+    fact: "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise \u2014 treat franchise status as unconfirmed)"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

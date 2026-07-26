@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Group site calls itself 'the hub for all things Aprilia, Vespa, Moto Guzzi and Piaggio in the Midwest'; North store (4740 N Service Rd) stocks 2026 V7 Stone and 2025 V85 TT Travel."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"St. Louis Powersports\" (St Peters, MO); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

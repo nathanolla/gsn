@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site headline: 'New Aprilia, Arctic Cat, Moto Guzzi, & Piaggio for sale'; maintains new Moto Guzzi model showroom pages; 2677 Route 17M."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise \u2014 treat franchise status as unconfirmed)"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

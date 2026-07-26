@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site (search-indexed; direct fetch bot-blocked) lists new 2025 Moto Guzzi V85 TT / V85 TT Travel and ran Moto Guzzi APR promotions dated February 2026; 655 Washington Ave."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Motorcycle Mall\" (Belleville, NJ); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

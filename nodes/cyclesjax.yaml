@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site shows current Moto Guzzi inventory incl. new 2026 V7 Sport, 2025 Stelvio and 2025 V85 TT; 8209 Atlantic Blvd."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Vespa Jacksonville\" (Jacksonville, FL); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

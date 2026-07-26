@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site carries full Moto Guzzi model-list and in-stock/new Moto Guzzi inventory sections; premium multi-line Italian/British store at 315 Westtown Rd; Yelp listing updated July 2026."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Moto Guzzi West Chester\" (West Chester, PA); type=dealers; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

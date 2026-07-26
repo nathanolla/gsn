@@ -17,6 +17,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "operating as D2 Powersports Greer; states it is the only SC dealer for Aprilia/Moto Guzzi/Vespa/Piaggio"
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"D2 Powersports\" (Greer, SC); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

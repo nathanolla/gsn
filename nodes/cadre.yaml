@@ -24,6 +24,9 @@ observations:
   - date: 2026-07-26
     method: community-endorsement
     fact: "recommended for Guzzi work by multiple members on wildguzzi.com \u00e2\u0080\u0094 praised for 'Guzzi Dave', a 1970s Guzzi restoration, and 'top notch mechanics', threads of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0) and 2021-11 (https://wildguzzi.com/forum/index.php?topic=112965.0)"
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Cadre Cycle\" (Cincinnati, OH); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

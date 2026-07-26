@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site lists Aprilia/Vespa/Moto Guzzi among brands with current new inventory incl. 2025 V85 TT and 2025 Stelvio; 418 S Main St."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Xtreme Powersports-Marine\" (Accident, MD); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

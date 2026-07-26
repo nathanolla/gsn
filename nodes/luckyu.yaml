@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site maintains dedicated in-stock Moto Guzzi inventory and factory-showroom model pages (V7, Stelvio); part of the Lucky U Cycles group (also Wildwood FL)."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Lucky U Cycles of Ft Myers\" (Fort Myers, FL); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

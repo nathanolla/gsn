@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "VA/WV dealer group; Summersville location's own site shows 2025 and 2026 Moto Guzzi units in stock; 806 Northside Dr."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Motorsports Unlimited\" (Summersville, WV); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

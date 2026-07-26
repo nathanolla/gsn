@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site shows Moto Guzzi current-inventory showroom incl. a 2024 Stelvio with PFF Rider Assistance; 165 1st St SW, serving the Chattanooga corridor."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"HBR Powersports\" (Cleveland, TN); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

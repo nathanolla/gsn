@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Family-owned Northern Colorado dealer (150+ units) carrying Aprilia, Ducati and Moto Guzzi; own site maintains new Moto Guzzi inventory pages; 3761 Monarch St."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Aces Motorcycles\" (Frederick, CO); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

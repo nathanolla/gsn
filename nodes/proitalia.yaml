@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Selling Italian bikes since 1987; own site runs current Moto Guzzi inventory showroom and US Moto Guzzi promotions pages serving greater Los Angeles."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Pro Italia Motors, Inc.\" (Glendale, CA); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

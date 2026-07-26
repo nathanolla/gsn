@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Historic 7701 Aurora Ave N dealership \u00e2\u0080\u0094 the biggest-selling US Moto Guzzi dealer every year 2004-2012; its website is still online, but the Yelp listing (updated Dec 2025) marks the business CLOSED. Included as a notable closed legend."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise \u2014 treat franchise status as unconfirmed)"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: defunct

@@ -20,6 +20,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "e-commerce live"
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Harper\\'s Moto Guzzi\" (Greenwood, MO); type=services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

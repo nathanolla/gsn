@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "in-stock inventory search lists a 2027 Moto Guzzi (homepage brand roster omits Guzzi but the inventory carries it): mountainpowersports.net/search/inventory/availability/In Stock/brand/Moto Guzzi"
+  - date: 2026-07-26
+    method: official-locator
+    fact: "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise \u2014 treat franchise status as unconfirmed)"
 last_verified: 2026-07-26
-verified_by: nathan
+verified_by: claude-locator-xref
 status: active

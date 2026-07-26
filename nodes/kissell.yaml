@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site says 'Your Moto Guzzi Dealer' with V7/V9/V85TT/Mandello/Stelvio inventory; content dated March 2026 and July 2026 event notice, copyright 2026."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Adventure Motorsports, LLC\" (Tyrone, PA); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

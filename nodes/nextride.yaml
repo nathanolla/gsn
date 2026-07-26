@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Authorized dealer for Aprilia/BMW/Ducati/MV Agusta/Moto Guzzi/Piaggio/Vespa per own site; current inventory incl. 2026 V7 Stone and 2025 V85 TT; Tampa and Clearwater locations."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Next Ride, LLC\" (Largo, FL); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site: San Diego County's only all-European dealership, authorized for Moto Guzzi alongside Ducati/Aprilia/MV Agusta/KTM/Ural, with a dedicated Moto Guzzi page."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"GP Motorcycles\" (San Diego, CA); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

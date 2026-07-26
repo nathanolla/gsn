@@ -27,6 +27,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "second Eastside location reported at 17646 NE 65th St, Redmond WA, plus a Portland OR operation \u2014 multi-site; confirm primary address when calling"
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Optimum Performance Motorsports\" (Redmond, WA); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

@@ -20,6 +20,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "manicmoto.com live selling Beta and Moto Guzzi and repairing all makes; Yelp listing updated December 2025, 22230 S Scotland Ct #101, Queen Creek AZ"
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Manic Moto, LLC\" (Queen Creek, AZ); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

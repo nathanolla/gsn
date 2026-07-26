@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site lists Moto Guzzi among new-unit brands (Aprilia, Ducati, MV Agusta, Piaggio, Vespa) and bills itself the largest all-Italian motorcycle dealer in the country; copyright 2026 with current blog/service content."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Seacoast Sport Cycle\" (Derry, NH); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

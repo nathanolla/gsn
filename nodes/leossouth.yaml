@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site calls itself the leading Moto Guzzi dealer in Minnesota (family-owned since 1977) with new (2024 V100 Mandello, V7/V9/V85) and used Guzzi inventory pages."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Leo\\'s South, Inc.\" (Lakeville, MN); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

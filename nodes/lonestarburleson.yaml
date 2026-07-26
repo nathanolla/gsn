@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Full-line Yamaha store that also franchises Aprilia/Vespa/Moto Guzzi; own site hosts Moto Guzzi model-list pages (can-order); DFW-area Guzzi point at 1636 SW Wilshire Blvd."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Lone Star Burleson\" (Burleson, TX); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

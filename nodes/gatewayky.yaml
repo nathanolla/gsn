@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site lists Moto Guzzi among authorized brands; claims Kentucky's largest powersports showroom (250+ units); acquired by Derek Harmon in 2024."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Gateway Cycles\" (Mt. Sterling, KY); type=dealers; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

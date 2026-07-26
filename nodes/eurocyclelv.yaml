@@ -22,6 +22,9 @@ observations:
   - date: 2026-07-26
     method: official-locator
     fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Euro Cycle\" (Las Vegas, NV); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

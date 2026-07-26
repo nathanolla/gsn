@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site: exclusive authorized Piaggio/Vespa/Aprilia/Moto Guzzi dealer at 19 Vanderbilt Ave with current new inventory incl. 2025 V7 Special and V7 Stone."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Moto Guzzi Brooklyn\" (Brooklyn, NY); type=dealers; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-locator-xref
 status: active

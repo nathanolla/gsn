@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site (search-indexed) shows franchised Moto Guzzi line with new inventory incl. 2025 V85 Strada, V85 TT and 2024 Stelvio/V100 Mandello."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"Warhorse Camp Hill\" (Camp Hill, PA); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active

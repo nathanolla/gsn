@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "40+ year dealership at 443 E Saint Charles Rd; authorized Moto Guzzi alongside Ducati/Triumph/KTM/Aprilia/Husqvarna, with new (2024 V7 Stone) and used Guzzi stock; Yelp listing updated April 2026."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator as \"MCC Motor Cycle Center\" (Vila Park, IL); type=dealers,services; verified 2026-07-26"
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-locator-xref
 status: active
