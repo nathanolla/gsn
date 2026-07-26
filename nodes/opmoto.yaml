@@ -21,6 +21,12 @@ observations:
   - date: 2026-07-26
     method: official-locator
     fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "recommended for Guzzi work by multiple members on wildguzzi.com as the Seattle-area dealer after Moto International closed; one member's friend had a new V85 shipped to Alaska with 'nothing but praise', thread of 2020-01 (https://wildguzzi.com/forum/index.php?topic=104139.0)"
+  - date: 2026-07-26
+    method: website
+    fact: "second Eastside location reported at 17646 NE 65th St, Redmond WA, plus a Portland OR operation \u2014 multi-site; confirm primary address when calling"
 last_verified: 2026-07-26
 verified_by: claude
 status: active

@@ -1,0 +1,25 @@
+id: manicmoto
+name: "Manic Moto"
+city: "Queen Creek"
+state: AZ
+country: US
+lat: 33.2487
+lon: -111.6343
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, beta]
+functions:
+  - sales
+  - service
+url: https://www.manicmoto.com/
+phone: "480-783-3243"
+observations:
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "recommended by a forum member on guzzitech.com forums as a Phoenix East Valley Guzzi dealer with 'great reviews', thread post of 2020 (https://www.guzzitech.com/forums/threads/guzzi-mechanic-in-the-phoenix-area-east-valley.19612/)"
+  - date: 2026-07-26
+    method: website
+    fact: "manicmoto.com live selling Beta and Moto Guzzi and repairing all makes; Yelp listing updated December 2025, 22230 S Scotland Ct #101, Queen Creek AZ"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

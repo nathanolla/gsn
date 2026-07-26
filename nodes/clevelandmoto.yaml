@@ -22,6 +22,9 @@ observations:
   - date: 2026-07-26
     method: official-locator
     fact: "Listed as 'Cleveland Moto Guzzi' on the official dealer locator (surfaced in search results)."
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "recommended for Guzzi work by a forum member on wildguzzi.com \u00e2\u0080\u0094 former MG dealers who 'still work on them (and lots of Italian bikes)', thread of 2021-11 (https://wildguzzi.com/forum/index.php?topic=112965.0); also cited as having good reviews in a 2020-08 Ohio thread (https://wildguzzi.com/forum/index.php?topic=107253.0)"
 last_verified: 2026-07-26
 verified_by: claude
 status: active

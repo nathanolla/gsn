@@ -1,0 +1,26 @@
+id: danddcycles
+name: "D & D Cycles"
+city: "Pensacola"
+state: FL
+country: US
+lat: 30.4213
+lon: -87.2169
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.danddcycles.com/
+phone: "850-456-0354"
+observations:
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "endorsed by a forum member on wildguzzi.com when it took on the Moto Guzzi franchise \u00e2\u0080\u0094 'This is a GREAT dealership, have dealt with them for many years!', thread of 2024-11 (https://wildguzzi.com/forum/index.php?topic=122191.0)"
+  - date: 2026-07-26
+    method: website
+    fact: "danddcycles.com live; Yelp listing updated April 2026 at 2400 Fernwood Ave, Pensacola FL, carrying Moto Guzzi"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

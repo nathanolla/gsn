@@ -17,6 +17,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Mike Haven's independent Moto Guzzi/BMW service house (former Texas #1 Guzzi dealer 2000-2016, servicing Guzzis since the 1980s); site notice dated April 2025 'now accepting BMW & Moto Guzzi motorcycles for service', copyright 2026; relocated to the Pine Island/Waller area west of Houston per wildguzzi."
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "recommended for Guzzi work by multiple members on guzzitech.com forums \u00e2\u0080\u0094 former Texas #1 Guzzi dealer; one member wrote 'Simply cannot say enough good things...about MPH', thread of 2021-06 (https://www.guzzitech.com/forums/threads/houston-moto-guzzi-recommended-shops-mechanics.21516/)"
 last_verified: 2026-07-26
 verified_by: claude
 status: active

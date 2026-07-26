@@ -1,10 +1,10 @@
 id: cyclegarden
 name: "Cycle Garden Moto Guzzi"
-city: "Huntington Beach"
+city: "Indio"
 state: CA
 country: US
-lat: 33.6595
-lon: -117.9988
+lat: 33.7206
+lon: -116.2156
 layer: independent
 capability: [heritage]
 brands: [moto-guzzi]
@@ -13,7 +13,7 @@ functions:
   - service
   - parts
 url: https://www.cyclegarden.com/
-phone: "714-848-5955"
+phone: "(760) 972-4800"
 observations:
   - date: 2026-07-26
     method: website
@@ -21,6 +21,12 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site describes a Huntington Beach showroom, but a Yelp listing updated Feb 2026 shows a Cycle Garden Moto Guzzi address in Indio, CA \u00e2\u0080\u0094 location may have moved; needs confirmation."
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "recommended by a forum member on guzzitech.com forums for Guzzi engine work \u00e2\u0080\u0094 'those guys are artists...they know what they do and do it well', thread of 2011-12 (https://www.guzzitech.com/forums/threads/i-cant-find-a-new-top-end.7818/); no fresher forum endorsement found, but shop is widely described as the premiere pre-1975 Guzzi restoration specialist"
+  - date: 2026-07-26
+    method: website
+    fact: "relocation confirmed: now at 83525 Date Ave, Indio CA (moved from Huntington Beach); Yelp listing updated Feb 2026"
 last_verified: 2026-07-26
 verified_by: claude
-status: unverified
+status: active

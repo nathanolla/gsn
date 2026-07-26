@@ -1,0 +1,26 @@
+id: guzzidoctor
+name: "The Guzzi Doctor"
+city: "North Chicago"
+state: IL
+country: US
+lat: 42.3256
+lon: -87.8412
+layer: independent
+capability: [heritage, performance]
+brands: [moto-guzzi]
+functions:
+  - service
+  - restoration
+  - engine-building
+url: https://theguzzidoctor.com/
+phone: "708-715-0360"
+observations:
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "praised by multiple members on wildguzzi.com \u00e2\u0080\u0094 'pre computer Guzzi expert', 'knows what he's doing', 'Amazing workmanship' \u00e2\u0080\u0094 when his motor build for a turbo 1969 Eldorado was recognized by Moto Guzzi, thread of 2017-08 (https://wildguzzi.com/forum/index.php?topic=91691.0)"
+  - date: 2026-07-26
+    method: website
+    fact: "theguzzidoctor.com live (Chicago Moto Guzzi repair, Joe Walano); 5-star rating across 24 reviews on current Birdeye listing, 3109 Beacon St, North Chicago IL"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

@@ -1,0 +1,26 @@
+id: antietam
+name: "Antietam Classic Cycle"
+city: "Rohrersville"
+state: MD
+country: US
+lat: 39.4459
+lon: -77.6603
+layer: independent
+capability: [heritage]
+brands: [moto-guzzi]
+functions:
+  - service
+  - restoration
+  - parts
+url: https://antietamclassiccycle.com/
+phone: "301-432-2275"
+observations:
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "recommended for Guzzi work by multiple members on wildguzzi.com as loop-frame Guzzi expert 'Charlie' worth 'a short trailer ride', thread of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0)"
+  - date: 2026-07-26
+    method: website
+    fact: "directory listings current (Yelp updated May 2026) at 3333 Gapland Rd, Rohrersville MD; described as dedicated to vintage European motorcycles with Moto Guzzi as primary focus"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

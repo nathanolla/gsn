@@ -1,0 +1,24 @@
+id: tomsitalian
+name: "Tom's Italian Tune and Service"
+city: "Mesa"
+state: AZ
+country: US
+lat: 33.4152
+lon: -111.8315
+layer: independent
+capability: [full-service, heritage]
+brands: [moto-guzzi, ducati]
+functions:
+  - service
+url: http://www.tomsitaliantuneandservice.com/
+phone: "480-641-3871"
+observations:
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "recommended by a forum member on guzzitech.com forums as 'The most knowledgeable Italian bike specialist I have ever met' (cash only), thread post of 2021 (https://www.guzzitech.com/forums/threads/guzzi-mechanic-in-the-phoenix-area-east-valley.19612/)"
+  - date: 2026-07-26
+    method: website
+    fact: "tomsitaliantuneandservice.com live with contact page; owner Tom Hull is a factory-trained Ducati and Moto Guzzi technician per current directory listings"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

@@ -18,6 +18,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site: carries Aprilia, Moto Guzzi, CFMOTO and Vespa with dedicated Moto Guzzi page, current inventory and regional promotions; serves Greater Atlanta metro from 6401 Spring St."
+  - date: 2026-07-26
+    method: community-endorsement
+    fact: "recommended by multiple members on guzzitech.com forums \u00e2\u0080\u0094 Aprilia-experienced mechanic and a Savannah sister location with 'straight forward sales staff, no BS', thread of 2023-02 (https://www.guzzitech.com/forums/threads/new-member-and-question-about-atlanta-dealers.23468/)"
 last_verified: 2026-07-26
 verified_by: claude
 status: active
