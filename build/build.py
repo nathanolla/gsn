@@ -104,6 +104,30 @@ def main():
             geom = {"type": "Point", "coordinates": [n["lon"], n["lat"]]}
         features.append({"type": "Feature", "geometry": geom, "properties": props})
 
+    # §9: images are minimal by doctrine; any that exist must carry zero EXIF
+    # (GPS/timestamps/device ids) and appear in docs/attribution.md.
+    imgs = [p for ext in ("*.jpg", "*.jpeg", "*.png", "*.webp")
+            for p in ROOT.rglob(ext) if ".git" not in p.parts]
+    if imgs:
+        try:
+            from PIL import Image
+            attribution = (ROOT / "docs" / "attribution.md")
+            attr_text = attribution.read_text() if attribution.exists() else ""
+            for ip in imgs:
+                exif = Image.open(ip).getexif()
+                if len(exif):
+                    print(f"EXIF metadata present in {ip.relative_to(ROOT)} — strip it "
+                          f"(exiftool -all= / PIL re-save); the leak must be impossible.",
+                          file=sys.stderr)
+                    sys.exit(1)
+                if ip.name not in attr_text:
+                    print(f"{ip.relative_to(ROOT)} missing from docs/attribution.md "
+                          f"(path → source → license)", file=sys.stderr)
+                    sys.exit(1)
+        except ImportError:
+            print("Pillow required to validate images (pip install pillow)", file=sys.stderr)
+            sys.exit(1)
+
     gj = {"type": "FeatureCollection",
           "features": features,
           "properties": {"generated_by": "gsn build.py", "count": len(features)}}
