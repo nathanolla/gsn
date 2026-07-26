@@ -839,63 +839,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -87.2169,
-     30.4213
-    ]
-   },
-   "properties": {
-    "id": "danddcycles",
-    "name": "D & D Cycles",
-    "city": "Pensacola",
-    "state": "FL",
-    "country": "US",
-    "layer": "franchise",
-    "brands": [
-     "aprilia",
-     "vespa",
-     "piaggio",
-     "triumph",
-     "mv-agusta",
-     "kymco",
-     "genuine"
-    ],
-    "functions": [
-     "sales",
-     "service",
-     "parts"
-    ],
-    "url": "https://www.danddcycles.com/",
-    "phone": "850-456-0354",
-    "last_verified": "2026-07-26",
-    "verified_by": "claude-research-sweep",
-    "status": "unverified",
-    "capability": [
-     "full-service"
-    ],
-    "observations": [
-     {
-      "date": "2026-07-26",
-      "method": "community-endorsement",
-      "fact": "endorsed by a forum member on wildguzzi.com when it took on the Moto Guzzi franchise â 'This is a GREAT dealership, have dealt with them for many years!', thread of 2024-11 (https://wildguzzi.com/forum/index.php?topic=122191.0)"
-     },
-     {
-      "date": "2026-07-26",
-      "method": "website",
-      "fact": "danddcycles.com live; Yelp listing updated April 2026 at 2400 Fernwood Ave, Pensacola FL, carrying Moto Guzzi"
-     },
-     {
-      "date": "2026-07-26",
-      "method": "website",
-      "fact": "own site, new-models page, and Facebook all list Triumph/Vespa/Aprilia/Piaggio/MV/Kymco/Genuine — NO Moto Guzzi (the 2024-11 forum franchise claim is not supported by current first-party evidence)"
-     }
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      -83.533,
      42.657
     ]
@@ -4048,6 +3991,6 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 87
+  "count": 86
  }
 }
