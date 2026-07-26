@@ -1,0 +1,26 @@
+id: ridermarket
+name: "RiderMarket Daytona"
+city: "Ormond Beach"
+state: FL
+country: US
+lat: 29.28558
+lon: -81.05555
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, triumph, bmw, aprilia, vespa, piaggio, rawrr]
+functions:
+  - sales
+  - service
+  - parts
+url: https://ridermarketdaytona.com/
+phone: "(386) 257-2269"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Ormond Beach, FL); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Listed site daytonabeachmotos.com 301-redirects to ridermarketdaytona.com (live)  [source: https://www.daytonabeachmotos.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

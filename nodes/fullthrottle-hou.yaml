@@ -1,0 +1,26 @@
+id: fullthrottle-hou
+name: "Full Throttle"
+city: "Houston"
+state: TX
+country: US
+lat: 29.76058
+lon: -95.36968
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, vespa, piaggio]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.fullthrottlehouston.com/
+phone: "(877) 551-9538"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Houston, TX); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site shows July 1-31 2026 'Moto Guzzi Days'/'Aprilia Days' promotions and 2026-2027 model inventory ($6,849-$11,849)  [source: https://www.fullthrottlehouston.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

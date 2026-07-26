@@ -1,0 +1,26 @@
+id: hamlin
+name: "Hamlin Cycles, LLC"
+city: "Bethel"
+state: CT
+country: US
+lat: 41.3755731
+lon: -73.4242635
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, triumph]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.hamlincycles.com
+phone: "(203) 942-2232"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Bethel, CT); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Yelp listing active as of July 2026, 16 reviews, 'Authorized Moto Guzzi dealership'  [source: https://www.yelp.com/biz/hamlin-cycles-bethel]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

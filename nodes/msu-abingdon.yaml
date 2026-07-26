@@ -1,0 +1,26 @@
+id: msu-abingdon
+name: "Motorsports Unlimited"
+city: "Abingdon"
+state: VA
+country: US
+lat: 36.71064
+lon: -81.97496
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, cfmoto, aprilia, vespa, beta, arctic-cat, kayo, hammerhead]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.virginia-motorsports.com/
+phone: "(304) 952-7096"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Abingdon, VA); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Active independent inventory sites motorsportsunlimitedabingdon.shop and CFMoto dealer subdomain virginiamotorsports.dz.cfmotousa.com  [source: https://html.duckduckgo.com/html/?q=Motorsports+Unlimited+Abingdon+Virginia+motorcycle+dealer]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

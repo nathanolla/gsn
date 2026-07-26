@@ -1,0 +1,26 @@
+id: pittcycles
+name: "Aprilia Moto Guzzi of Pittsburgh"
+city: "Warrendale"
+state: PA
+country: US
+lat: 40.65322
+lon: -80.0804
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, triumph, royal-enfield, aprilia]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.pittcycles.com/
+phone: "(724) 779-1901"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Warrendale, PA); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site copyright 2026; multiple 2026 model-year motorcycles in inventory with current pricing; sells Triumph, Royal Enfield, Aprilia, Moto Guzzi  [source: https://www.pittcycles.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

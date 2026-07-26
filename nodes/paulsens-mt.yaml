@@ -1,0 +1,26 @@
+id: paulsens-mt
+name: "Paulsens Powersports"
+city: "Great Falls"
+state: MT
+country: US
+lat: 47.50732
+lon: -111.30607
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, can-am, ski-doo, sea-doo, arctic-cat, beta, aprilia, kawasaki]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.paulsenspowersports.com/
+phone: "(406) 761-0303"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Great Falls, MT); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site copyright 2026; featured inventory includes 2025 and 2026 model-year vehicles plus 'Coming Soon' 2026 Can-Am Defender models; carries Beta, Moto Guzzi, Aprilia among others  [source: https://www.paulsenspowersports.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

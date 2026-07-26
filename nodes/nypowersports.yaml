@@ -1,0 +1,26 @@
+id: nypowersports
+name: "New York Powersports"
+city: "White Plains"
+state: NY
+country: US
+lat: 41.0241
+lon: -73.77346
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, vespa, piaggio, aprilia, kawasaki, kymco, benelli, segway, ssr]
+functions:
+  - sales
+  - service
+  - parts
+url: https://newyorkpowersports.com/
+phone: "(914) 949-1993"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (White Plains, NY); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site shows active promotions dated 07/01/2026 through 07/31/2026 across Moto Guzzi/Vespa/Piaggio/Aprilia, with 2025-2027 model inventory  [source: https://newyorkpowersports.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

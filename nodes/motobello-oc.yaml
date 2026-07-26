@@ -1,0 +1,26 @@
+id: motobello-oc
+name: "Moto Bello Orange County"
+city: "Costa Mesa"
+state: CA
+country: US
+lat: 33.6400941
+lon: -117.9323611
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, vespa, aprilia, piaggio]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.motobello-oc.com/
+phone: "(949) 373-3041"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Costa Mesa, CA); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site 'Copyright \u00c2\u00a9 2026 Moto Bello Orange County'; 'Established in 2024'; sells Vespa, Aprilia, Moto Guzzi, Piaggio  [source: https://www.motobello-oc.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

@@ -1,0 +1,26 @@
+id: throttlecompany
+name: "Throttle Company Vintage Motorcycles LLC"
+city: "Columbus"
+state: OH
+country: US
+lat: 39.9477699
+lon: -83.0287584
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, royal-enfield, bsa]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.throttlecompany.com
+phone: "(614) 600-2421"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Columbus, OH); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site newsletters dated February, March and April 2026; 'NEW 2026 & 2027 Moto Guzzi Models incoming'; Royal Enfield Classic 650 pre-order through March 31, 2026  [source: https://www.throttlecompany.com]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

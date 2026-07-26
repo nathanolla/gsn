@@ -1,0 +1,26 @@
+id: habberstad
+name: "Habberstad Powersports"
+city: "Huntington Station"
+state: NY
+country: US
+lat: 40.83655
+lon: -73.3951
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, suzuki, aprilia, cfmoto, kawasaki, vespa]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.habberstadpowersports.com/
+phone: "(631) 427-4400"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Huntington Station, NY); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site returns HTTP 403 (bot-protection)  [source: https://www.habberstadpowersports.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

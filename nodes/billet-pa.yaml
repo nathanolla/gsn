@@ -1,0 +1,26 @@
+id: billet-pa
+name: "Billet Motorsports"
+city: "Red Lion"
+state: PA
+country: US
+lat: 39.8436087785
+lon: -76.6199483577
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, beta, aprilia, bsa]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.billetmotorsportsinc.com/
+phone: "(717) 501-0028"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Red Lion, PA); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site copyright 2026; official Beta USA dealer; dated asset 'AMA membership 062725' (June 27, 2025); sells Beta, Aprilia, Moto Guzzi, BSA  [source: https://www.billetmotorsportsinc.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

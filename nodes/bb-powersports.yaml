@@ -1,0 +1,26 @@
+id: bb-powersports
+name: "B & B Powersports & Outdoors"
+city: "Bridgeton"
+state: NJ
+country: US
+lat: 39.42947
+lon: -75.23406
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, kawasaki, ktm, suzuki, segway, hisun, aprilia]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.bbpowersportsandoutdoors.com
+phone: "(856) 455-1144"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Bridgeton, NJ); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site returns HTTP 403 (Cloudflare bot-protection), not a down site  [source: https://www.bbpowersportsandoutdoors.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

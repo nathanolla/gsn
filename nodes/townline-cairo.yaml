@@ -1,0 +1,26 @@
+id: townline-cairo
+name: "Town Line Motorsports of Cairo"
+city: "Cairo"
+state: NY
+country: US
+lat: 42.2814665
+lon: -73.9809282
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, cfmoto, aprilia, piaggio, vespa]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.townlinemotorsports.com/
+phone: "(518) 622-0131"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Cairo, NY); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Site loads with promotions active July-Sept 2026 (Moto Guzzi Days, Aprilia Days, Vespa Days, 0.99% APR)  [source: https://www.townlinemotorsports.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

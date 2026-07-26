@@ -1,0 +1,26 @@
+id: motoworks-chi
+name: "Vespa Aprilia Moto Guzzi Chicago"
+city: "Chicago"
+state: IL
+country: US
+lat: 41.8553907
+lon: -87.685358
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, bmw, ducati, triumph, royal-enfield, zero, vespa, aprilia]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.motoworkschicago.com
+phone: "(312) 738-4269"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Chicago, IL); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site returns HTTP 403 (bot-protection)  [source: https://www.motoworkschicago.com]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

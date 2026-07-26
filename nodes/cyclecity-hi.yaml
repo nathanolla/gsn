@@ -1,0 +1,26 @@
+id: cyclecity-hi
+name: "Moto Guzzi Honolulu"
+city: "Honolulu"
+state: HI
+country: US
+lat: 21.3358997
+lon: -157.9019336
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, vespa, piaggio, aprilia, harley-davidson, kawasaki, triumph]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.cyclecityltd.com/
+phone: "(808) 831-2600"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Honolulu, HI); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Independent Yelp profile 'Claimed' with 3.9 stars and 495 reviews, categorized Motorcycle Dealers/Repair/Rental  [source: https://www.yelp.com/biz/cycle-city-hawaii-honolulu-2]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

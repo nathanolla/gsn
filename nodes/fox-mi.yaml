@@ -1,0 +1,26 @@
+id: fox-mi
+name: "Fox Powersports"
+city: "Wyoming"
+state: MI
+country: US
+lat: 42.8825953
+lon: -85.6825048
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, vespa, piaggio, yamaha]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.foxpowersports.com
+phone: "(616) 855-3660"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Wyoming, MI); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "BirdEye shows 3,333 customer reviews for the Wyoming MI location; active Yelp/Yellow Pages/Google Maps listings with current hours  [source: https://html.duckduckgo.com/html/?q=%22Fox+Powersports%22+Wyoming+MI+Yelp+reviews+rating+hours]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

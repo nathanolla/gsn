@@ -1,0 +1,26 @@
+id: exclusive-wpb
+name: "Exclusive Cycles"
+city: "West Palm Beach"
+state: FL
+country: US
+lat: 26.71439
+lon: -80.05319
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, vespa, piaggio, aprilia]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.exclusivecycleswp.com/
+phone: "(561) 758-0569"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (West Palm Beach, FL); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Correct dealer site (exclusivecycleswp.com) shows 2026/2027 inventory (Aprilia RS 660, Moto Guzzi V7 Stone) and promotions valid July 1-31, 2026  [source: https://www.exclusivecycleswp.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

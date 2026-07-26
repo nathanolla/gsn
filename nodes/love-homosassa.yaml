@@ -1,0 +1,26 @@
+id: love-homosassa
+name: "Love Motorsports"
+city: "Homosassa"
+state: FL
+country: US
+lat: 28.7813722
+lon: -82.6151001
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.lovemotorsports.com/
+phone: "(352) 621-3678"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Homosassa, FL); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Facebook (LoveMotorsportsFL) shows 3,394 likes, 220 talking about this, 1,130 were here; active Yelp biz page  [source: https://www.yelp.com/biz/love-motorsports-homosassa]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

@@ -1,0 +1,26 @@
+id: motiv
+name: "MOTIV Cycle Works"
+city: "Oklahoma City"
+state: OK
+country: US
+lat: 35.4675602
+lon: -97.5164276
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, ducati, aprilia, bmw, mv-agusta]
+functions:
+  - sales
+  - service
+  - parts
+url: https://motivcycleworks.net/
+phone: "(405) 641-1801"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Oklahoma City, OK); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site (www.motivcycleworks.com redirects to motivcycleworks.net) lists Moto Guzzi 'Authorized dealer'; address 245 W Wilshire Blvd Unit A; copyright shows placeholder '\u00c2\u00a9 2035'; newest inventory 'New 2024 Moto Guzzi'  [source: https://motivcycleworks.net/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

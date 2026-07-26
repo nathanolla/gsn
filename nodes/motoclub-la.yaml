@@ -1,0 +1,26 @@
+id: motoclub-la
+name: "MotoClub Los Angeles"
+city: "Los Angeles"
+state: CA
+country: US
+lat: 34.0213117
+lon: -118.4044776
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, stark]
+functions:
+  - sales
+  - service
+  - parts
+url: https://motoclubla.com/
+phone: "(310) 882-5684"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Los Angeles, CA); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Yelp listing 250+ reviews, 521 photos  [source: https://html.duckduckgo.com/html/?q=%22MotoClub%22+3770+Motor+Ave+Los+Angeles+Moto+Guzzi+Aprilia]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

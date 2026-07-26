@@ -1,0 +1,26 @@
+id: peake
+name: "Peake Piaggio Vespa Aprilia Moto Guzzi"
+city: "Williamson"
+state: NY
+country: US
+lat: 43.237968
+lon: -77.093198
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, kawasaki, cfmoto, mahindra, e-z-go, roxor, vespa, aprilia, piaggio]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.peakeoffroad.com/
+phone: "(315) 483-6916"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Williamson, NY); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Site loads with promotions dated July 1-31 2026; featured 2024 Moto Guzzi Stelvio  [source: https://www.peakeoffroad.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

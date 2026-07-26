@@ -1,0 +1,26 @@
+id: baxleys
+name: "Baxleys Motorcycle + ATV"
+city: "Benton"
+state: AR
+country: US
+lat: 34.56422
+lon: -92.58684
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, ktm, gasgas, beta, husqvarna, aprilia]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.baxleysmcatv.com/
+phone: "(501) 794-5852"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Benton, AR); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Site loads with featured 2027-model inventory (Aprilia, GasGas, Husqvarna, KTM)  [source: https://www.baxleysmcatv.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

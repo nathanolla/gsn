@@ -1,0 +1,26 @@
+id: motoelpaso
+name: "Moto El Paso"
+city: "El Paso"
+state: TX
+country: US
+lat: 31.77709
+lon: -106.4489181
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, vespa, piaggio, aprilia, mv-agusta, royal-enfield, genuine]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.motoelpaso.com
+phone: "(915) 566-6666"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (El Paso, TX); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Search corroborates 70,000 sq ft dealership at 3750 Gateway Blvd East selling Piaggio, Vespa, Aprilia, Moto Guzzi (AllBiz listing)  [source: https://html.duckduckgo.com/html/?q=Moto+El+Paso+Vespa+Moto+Guzzi+dealer+El+Paso+Texas]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

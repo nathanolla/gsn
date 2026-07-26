@@ -1,0 +1,26 @@
+id: ecofun-mn
+name: "Ecofun LLC"
+city: "Forest Lake"
+state: MN
+country: US
+lat: 45.25123
+lon: -93.03732
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, vespa, piaggio, aprilia, yamaha, kawasaki, sym, lance, bintelli, kayo]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.ecofunmotorsports.com/
+phone: "(612) 321-8867"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Forest Lake, MN); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site shows promotions dated through July 31 2026 and 2024-2026 model-year inventory with financing offers  [source: https://www.ecofunmotorsports.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

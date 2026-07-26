@@ -1,0 +1,26 @@
+id: elkgrove
+name: "Elk Grove Powersports, LLC"
+city: "Elk Grove"
+state: CA
+country: US
+lat: 38.38431
+lon: -121.36935
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, indian, aprilia, ducati, triumph, vespa, piaggio, can-am, sea-doo, cfmoto]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.egpowersports.com
+phone: "(916) 714-7223"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Elk Grove, CA); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Site loads with 2026 copyright and promotions dated July 1-31 2026  [source: https://www.egpowersports.com]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

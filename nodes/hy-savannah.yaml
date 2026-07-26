@@ -1,0 +1,29 @@
+id: hy-savannah
+name: "Honda Yamaha of Savannah"
+city: "Savannah"
+state: GA
+country: US
+lat: 31.98226
+lon: -81.15078
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, honda, yamaha, triumph, kawasaki]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.hondayamahaofsavannah.com/
+phone: "(912) 927-7070"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Savannah, GA); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site returns HTTP 403 (bot-protection)  [source: https://www.hondayamahaofsavannah.com/]"
+  - date: 2026-07-26
+    method: website
+    fact: "on the official Guzzi locator as a Piaggio-group point; own-site sales lineup does not foreground Moto Guzzi units \u2014 treat as service/order satellite"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

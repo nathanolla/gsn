@@ -1,0 +1,26 @@
+id: ch-powersports
+name: "C&H Power Sport"
+city: "Odessa"
+state: TX
+country: US
+lat: 31.84915
+lon: -102.37519
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, vespa, piaggio, triumph, segway]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.chpowersports.com/
+phone: "(432) 225-0479"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Odessa, TX); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Own site shows July 2026 'Moto Guzzi Days' / 'Aprilia Days' promotions and 2027 model-year inventory (Aprilia RS 660, Moto Guzzi V7)  [source: https://www.chpowersports.com/]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active

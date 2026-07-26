@@ -1,0 +1,26 @@
+id: motomall-monmouth
+name: "Motorcycle Mall of Monmouth"
+city: "Middletown"
+state: NJ
+country: US
+lat: 40.40533
+lon: -74.12756
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.motorcyclemallofmonmouth.com
+phone: "(732) 615-0900"
+observations:
+  - date: 2026-07-26
+    method: official-locator
+    fact: "listed on the official Moto Guzzi US dealer locator (Middletown, NJ); verified 2026-07-26"
+  - date: 2026-07-26
+    method: website
+    fact: "Independent listings on Yelp, CycleTrader, and MotoHunt; described as authorized Moto Guzzi dealer at 656 State Route 35, formerly Jersey Shore Powersports  [source: https://html.duckduckgo.com/html/?q=Motorcycle+Mall+of+Monmouth+Middletown+NJ+Moto+Guzzi+dealer]"
+last_verified: 2026-07-26
+verified_by: claude
+status: active
