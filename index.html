@@ -67,6 +67,42 @@
   .foot{font-size:12.5px;color:#333;text-align:center;line-height:1.7;padding-bottom:26px}
   .leaflet-container{font:13px "Times New Roman",serif}
   a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #c8102e;outline-offset:1px}
+
+  /* ============ 2026 skin (body.modern) — same document, other face ============ */
+  body.modern{background:#101418;color:#dbe4ee;font:15px/1.55 system-ui,Segoe UI,Roboto,sans-serif}
+  body.modern a{color:#6ea8ff} body.modern a:visited{color:#b08fe8}
+  body.modern .masthead h1{letter-spacing:.3px;font-weight:650}
+  body.modern .masthead .est{color:#8fa1b3;font-family:ui-monospace,Menlo,Consolas,monospace}
+  body.modern hr.rule{border-top:2px solid #c8102e;opacity:.85}
+  body.modern hr.thin{border-top:1px solid #2a3542}
+  body.modern .counter{background:#0b0e12;color:#3fb27f;border:1px solid #2a3542;border-radius:7px}
+  body.modern .ctrbar{color:#8fa1b3;font-family:ui-monospace,Menlo,Consolas,monospace}
+  body.modern .controls input,body.modern .controls select{background:#1e2630;color:#dbe4ee;border:1px solid #2a3542;border-radius:8px}
+  body.modern .controls button{background:#c8102e;color:#fff;border:0;border-radius:8px}
+  body.modern .controls button.sec{background:#1e2630;border:1px solid #2a3542}
+  body.modern #map{border:1px solid #2a3542;border-radius:12px}
+  body.modern .maplabel{color:#8fa1b3;font-family:ui-monospace,Menlo,Consolas,monospace}
+  body.modern table.nodes{background:#171d24;border:1px solid #2a3542;border-radius:12px;overflow:hidden}
+  body.modern table.nodes th{background:#1e2630;color:#8fa1b3}
+  body.modern table.nodes td{border-top:1px solid #2a3542}
+  body.modern table.nodes tr:nth-child(even) td{background:#1a212a}
+  body.modern table.nodes tr.clickable:hover td{background:#232d3a}
+  body.modern .nm{color:#eef4fa} body.modern a.nm{color:#6ea8ff}
+  body.modern .fnline,.modern .obsline{color:#b7c4d1}
+  body.modern .pill{color:#8fa1b3}
+  body.modern .maplegend{background:rgba(23,29,36,.95);border:1px solid #2a3542;border-radius:10px;color:#dbe4ee}
+  body.modern .chip{background:#1e2630;border:1px solid #2a3542;border-radius:999px;color:#dbe4ee}
+  body.modern .chip.off{opacity:.35}
+  body.modern .badge88{border-radius:6px;border-color:#2a3542}
+  body.modern .foot{color:#8fa1b3}
+  body.modern .ring{color:#8fa1b3}
+  /* ---------- filter chips (both skins) ---------- */
+  .chips{text-align:center;margin:8px 0}
+  .chip{display:inline-block;cursor:pointer;font:13px "Courier New",monospace;background:#fff;
+    border:2px outset #999;padding:3px 9px;margin:2px;user-select:none}
+  .chip.off{opacity:.4;border-style:inset}
+  .chip .sw{margin-right:5px}
+  body.modern .chip{font-family:system-ui,sans-serif;font-size:12.5px;padding:4px 11px}
 </style>
 </head>
 <body>
@@ -87,10 +123,11 @@
     <button id="setloc">SET HOME</button>
     <button id="geoloc" title="Use browser location">LOCATE ME</button>
     <button id="share" title="Copy a link centered on your home pin">SHARE VIEW</button>
+    <button id="theme" class="sec" title="Switch between the 1999 and 2026 skins">VIEW: 1999</button>
     &nbsp;|&nbsp;
-    <select id="fcap" aria-label="Filter by capability"><option value="">— all capabilities —</option></select>
     <select id="flayer" aria-label="Filter by layer"><option value="">— all layers —</option></select>
   </div>
+  <div class="chips" id="chips" role="group" aria-label="Filter by node type"></div>
   <hr class="thin">
   <div class="cols">
     <div class="listcol">
@@ -153,6 +190,7 @@ function staleClass(lv){if(!lv)return 'stale-2';const m=(Date.now()-new Date(lv)
 
 function host(u){try{return new URL(u).hostname.replace(/^www\./,'')}catch(e){return u}}
 let map,home=null,homeMarker=null,rings=[],markers={},FEATS=[];
+const activeCaps=new Set(Object.keys(CAP_COLORS));
 const params=new URLSearchParams(location.search);
 
 async function geocode(q){
@@ -168,10 +206,10 @@ function setHome(ll,save=true){
   render();
 }
 function render(){
-  const fcap=document.getElementById('fcap').value, flayer=document.getElementById('flayer').value;
+  const flayer=document.getElementById('flayer').value;
   const list=[];
   FEATS.forEach(f=>{
-    const p=f.properties, show=(!fcap||p.capability.includes(fcap))&&(!flayer||p.layer===flayer);
+    const p=f.properties, show=p.capability.some(c=>activeCaps.has(c))&&(!flayer||p.layer===flayer);
     if(markers[p.id]) markers[p.id][show&&f.geometry?'addTo':'remove'](map);
     if(show) list.push(f);
   });
@@ -227,12 +265,35 @@ function render(){
       `<hr>${obs}<div style="font-size:11px;color:#666;margin-top:3px">last verified ${p.last_verified} by ${p.verified_by}</div>`);
     markers[p.id]=m;
   });
-  [...caps].sort().forEach(c=>document.getElementById('fcap').insertAdjacentHTML('beforeend',`<option>${c}</option>`));
   [...layers].sort().forEach(l=>document.getElementById('flayer').insertAdjacentHTML('beforeend',`<option>${l}</option>`));
-  document.getElementById('legend').innerHTML='<b>Key</b><br>'+Object.entries(CAP_COLORS)
-    .map(([c,col])=>`<span style="white-space:nowrap"><span class="sw" style="background:${col}"></span>${c}</span>`).join('<br>')+
+  // type filter chips — tap to toggle a capability on/off
+  const chipwrap=document.getElementById('chips');
+  Object.entries(CAP_COLORS).forEach(([c,col])=>{
+    if(![...caps].includes(c))return;
+    const b=document.createElement('button');
+    b.type='button'; b.className='chip'; b.setAttribute('aria-pressed','true');
+    b.innerHTML=`<span class="sw" style="background:${col}"></span>${c}`;
+    b.onclick=()=>{activeCaps.has(c)?activeCaps.delete(c):activeCaps.add(c);
+      b.classList.toggle('off',!activeCaps.has(c)); b.setAttribute('aria-pressed',String(activeCaps.has(c))); render();};
+    chipwrap.appendChild(b);
+  });
+  document.getElementById('legend').innerHTML='<b>Key — tap to filter</b><br>'+Object.entries(CAP_COLORS)
+    .map(([c,col])=>`<span class="lg" data-cap="${c}" style="white-space:nowrap;cursor:pointer"><span class="sw" style="background:${col}"></span>${c}</span>`).join('<br>')+
     '<br><span style="color:#666;font-size:11px">faded = stale</span>';
-  document.getElementById('fcap').onchange=render; document.getElementById('flayer').onchange=render;
+  document.querySelectorAll('.lg').forEach(el=>{
+    el.onclick=()=>{const c=el.dataset.cap; activeCaps.has(c)?activeCaps.delete(c):activeCaps.add(c);
+      el.style.opacity=activeCaps.has(c)?'1':'.35';
+      const chip=[...document.querySelectorAll('.chip')].find(x=>x.textContent.trim()===c);
+      if(chip)chip.classList.toggle('off',!activeCaps.has(c));
+      render();};
+  });
+  document.getElementById('flayer').onchange=render;
+  const themeBtn=document.getElementById('theme');
+  function applyTheme(t){document.body.classList.toggle('modern',t==='2026');
+    themeBtn.textContent='VIEW: '+(t==='2026'?'2026':'1999');
+    try{localStorage.setItem('gsn_theme',t)}catch(e){}}
+  themeBtn.onclick=()=>applyTheme(document.body.classList.contains('modern')?'1999':'2026');
+  try{applyTheme(localStorage.getItem('gsn_theme')||'1999')}catch(e){}
   document.getElementById('setloc').onclick=async()=>{
     const q=document.getElementById('loc').value.trim(); if(!q)return;
     const ll=await geocode(q); if(ll){map.setView(ll,7);setHome(ll)} else alert('Location not found');
