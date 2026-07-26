@@ -134,6 +134,39 @@ def main():
     out = ROOT / "site" / "nodes.geojson"
     out.write_text(json.dumps(gj, indent=1, ensure_ascii=False, default=str))
     print(f"OK: {len(nodes)} nodes validated -> {out.relative_to(ROOT)}")
+    whatsnew()
+
+
+def whatsnew():
+    """The old 'What's New' page, for free: rendered from the git log (§10)."""
+    import subprocess, html
+    try:
+        log = subprocess.run(
+            ["git", "-C", str(ROOT), "log", "--date=short", "-40",
+             "--format=%ad\x1f%s", "--", "nodes/", "doctrine.md", "methodology.md"],
+            capture_output=True, text=True, check=True).stdout
+    except Exception:
+        print("whatsnew: git unavailable, skipping")
+        return
+    rows = []
+    for line in log.splitlines():
+        if "\x1f" not in line:
+            continue
+        d, subj = line.split("\x1f", 1)
+        rows.append(f"<tr><td><tt>{d}</tt></td><td>{html.escape(subj)}</td></tr>")
+    page = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>What's New — GSN</title>
+<style>body{{background:#efefea;color:#111;font:16px/1.5 "Times New Roman",Times,serif;max-width:820px;margin:0 auto;padding:16px}}
+a{{color:#0000EE}}a:visited{{color:#551A8B}}h1{{text-align:center}}hr{{border:0;border-top:3px double #c8102e}}
+table{{border-collapse:collapse;width:100%;background:#fff;border:2px outset #999;font-size:14px}}
+td{{border-top:1px solid #ccc;padding:5px 8px;vertical-align:top}}</style></head><body>
+<h1>What's New</h1><p style="text-align:center"><i>rendered straight from the git log — the database's own diary.</i>
+<br><a href="index.html">&larr; back to the map</a></p><hr>
+<table>{''.join(rows)}</table>
+<hr><p style="text-align:center;font-size:13px">The Guzzi Support Network · not affiliated with Piaggio Group</p>
+</body></html>"""
+    (ROOT / "site" / "whatsnew.html").write_text(page)
+    print(f"whatsnew.html: {len(rows)} entries")
 
 
 if __name__ == "__main__":
