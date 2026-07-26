@@ -1,0 +1,23 @@
+id: eurosportsut
+name: "Eurosports Utah"
+city: "Sandy"
+state: UT
+country: US
+lat: 40.585
+lon: -111.893
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, ducati, bmw, triumph]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.euroutah.com/
+phone: "801-618-2700"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Utah's leading European-brand dealer (founded 2009 as BMW Motorcycles of Utah); own site lists Moto Guzzi among its five premium lines; 339 W 9000 S; Yelp listing updated July 2026."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

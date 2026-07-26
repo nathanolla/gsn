@@ -1,0 +1,23 @@
+id: turnone
+name: "Turn One Powersports"
+city: "Whitehouse"
+state: TX
+country: US
+lat: 32.2265
+lon: -95.225
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, ktm, husqvarna, aprilia, vespa, piaggio, stark]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.turnonepowersports.com/
+phone: "903-494-0336"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site lists Moto Guzzi among carried brands (with KTM/Husqvarna/Aprilia/Vespa/Piaggio); East Texas Guzzi point at 14186 TX-110 near Tyler; Yelp listing updated Dec 2025."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

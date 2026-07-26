@@ -1,0 +1,26 @@
+id: opmoto
+name: "Optimum Performance Motorsports"
+city: "Bellevue"
+state: WA
+country: US
+lat: 47.627
+lon: -122.162
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, vespa, piaggio, triumph]
+functions:
+  - sales
+  - service
+  - parts
+url: https://opmotorsports.com/
+phone: "425-765-3691"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Licensed Aprilia/Moto Guzzi/Vespa/Piaggio/Triumph dealer at 13622 NE 20th St \u00e2\u0080\u0094 the Seattle-area Guzzi franchise since Moto International's closure; own site maintains new-inventory and news pages, with additional Redmond WA and Portland OR operations."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

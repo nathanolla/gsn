@@ -1,0 +1,22 @@
+id: easterncycle
+name: "Eastern Cycle"
+city: "Beverly"
+state: MA
+country: US
+lat: 42.5584
+lon: -70.88
+layer: independent
+capability: [heritage]
+brands: [moto-guzzi, ducati, mv-agusta]
+functions:
+  - service
+  - restoration
+url: http://easterncycle.net/
+phone: "978-922-3707"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Founded 1971; sold its Ducati/Guzzi/MV franchises in 2011 and now operates as a restoration and cafe-custom shop with a Moto Guzzi/BMW-certified technician; Yelp listing updated Nov 2025 shows it open."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

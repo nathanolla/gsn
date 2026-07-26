@@ -1,0 +1,23 @@
+id: hunterny
+name: "Hunter Motorsports"
+city: "Thornwood"
+state: NY
+country: US
+lat: 41.1104
+lon: -73.7787
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, piaggio, vespa, aprilia]
+functions:
+  - sales
+  - service
+  - parts
+url: https://huntermotorcycle.com/
+phone: "914-769-4722"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site titles itself 'Piaggio, Vespa, Aprilia, Moto Guzzi Dealer' serving Westchester/CT/NYC; Yelp listing updated July 2026 shows it open at 873 Franklin Ave."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

@@ -1,0 +1,23 @@
+id: proitalia
+name: "Pro Italia"
+city: "Glendale"
+state: CA
+country: US
+lat: 34.1425
+lon: -118.2551
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, ducati]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.proitalia.com/
+phone: ""
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Selling Italian bikes since 1987; own site runs current Moto Guzzi inventory showroom and US Moto Guzzi promotions pages serving greater Los Angeles."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

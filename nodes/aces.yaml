@@ -1,0 +1,23 @@
+id: aces
+name: "ACES Motorcycles"
+city: "Frederick"
+state: CO
+country: US
+lat: 40.0992
+lon: -104.9372
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, ducati]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.acesmotorcycles.com/
+phone: "970-223-1203"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Family-owned Northern Colorado dealer (150+ units) carrying Aprilia, Ducati and Moto Guzzi; own site maintains new Moto Guzzi inventory pages; 3761 Monarch St."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

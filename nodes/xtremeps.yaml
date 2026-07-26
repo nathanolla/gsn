@@ -1,0 +1,23 @@
+id: xtremeps
+name: "Xtreme Powersports & Marine"
+city: "Accident"
+state: MD
+country: US
+lat: 39.6287
+lon: -79.3195
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, vespa, arctic-cat, beta]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.xps-usa.com/
+phone: ""
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site lists Aprilia/Vespa/Moto Guzzi among brands with current new inventory incl. 2025 V85 TT and 2025 Stelvio; 418 S Main St."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

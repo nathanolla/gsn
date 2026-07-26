@@ -1,0 +1,23 @@
+id: gpmoto
+name: "GP Motorcycles"
+city: "San Diego"
+state: CA
+country: US
+lat: 32.7157
+lon: -117.1611
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, ducati, mv-agusta, husqvarna, ktm, gasgas, ural, swm]
+functions:
+  - sales
+  - service
+  - parts
+url: https://gpmotorcycles.com/
+phone: ""
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site: San Diego County's only all-European dealership, authorized for Moto Guzzi alongside Ducati/Aprilia/MV Agusta/KTM/Ural, with a dedicated Moto Guzzi page."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

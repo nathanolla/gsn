@@ -1,0 +1,23 @@
+id: rahal
+name: "Rahal Piaggio Indianapolis"
+city: "Zionsville"
+state: IN
+country: US
+lat: 39.9509
+lon: -86.2619
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, piaggio, vespa, aprilia]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.rahalpiaggio.com/
+phone: "317-939-2145"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Graham Rahal's Piaggio Motoplex (opened 2023 in Carmel, grand opening at Zionsville HQ Oct 2024); own site runs a current Moto Guzzi showroom; co-located with Rahal Ducati at 10814 Creek Way."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

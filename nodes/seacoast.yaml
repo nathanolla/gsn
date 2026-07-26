@@ -1,0 +1,23 @@
+id: seacoast
+name: "Seacoast Sport Cycle"
+city: "Derry"
+state: NH
+country: US
+lat: 42.8806
+lon: -71.3273
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, ducati, mv-agusta, piaggio, vespa]
+functions:
+  - sales
+  - service
+  - parts
+url: https://seacoastsport.com/
+phone: "603-437-5656"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site lists Moto Guzzi among new-unit brands (Aprilia, Ducati, MV Agusta, Piaggio, Vespa) and bills itself the largest all-Italian motorcycle dealer in the country; copyright 2026 with current blog/service content."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

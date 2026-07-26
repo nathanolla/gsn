@@ -1,0 +1,23 @@
+id: vespabk
+name: "Vespa Brooklyn"
+city: "Brooklyn"
+state: NY
+country: US
+lat: 40.6976
+lon: -73.9703
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, vespa, piaggio, aprilia]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.vespabk.com/
+phone: "718-254-0808"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site: exclusive authorized Piaggio/Vespa/Aprilia/Moto Guzzi dealer at 19 Vanderbilt Ave with current new inventory incl. 2025 V7 Special and V7 Stone."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

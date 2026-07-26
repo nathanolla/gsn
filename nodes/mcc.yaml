@@ -1,0 +1,23 @@
+id: mcc
+name: "Motor Cycle Center"
+city: "Villa Park"
+state: IL
+country: US
+lat: 41.8886
+lon: -87.9895
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, ducati, triumph, ktm, husqvarna]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.teammcc.com/
+phone: "630-782-2010"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "40+ year dealership at 443 E Saint Charles Rd; authorized Moto Guzzi alongside Ducati/Triumph/KTM/Aprilia/Husqvarna, with new (2024 V7 Stone) and used Guzzi stock; Yelp listing updated April 2026."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

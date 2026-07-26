@@ -1,0 +1,23 @@
+id: primemelb
+name: "Prime Motorcycles of Melbourne"
+city: "Melbourne"
+state: FL
+country: US
+lat: 28.0836
+lon: -80.6081
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, royal-enfield, cfmoto, moto-morini, segway]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.primemotorcyclesmelbourne.com/
+phone: ""
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site offers in-stock Moto Guzzi inventory and can-order model list; sister service operation in Sanford FL."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

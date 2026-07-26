@@ -1,0 +1,23 @@
+id: lonestarburleson
+name: "Lone Star Yamaha Burleson"
+city: "Burleson"
+state: TX
+country: US
+lat: 32.5421
+lon: -97.3208
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, yamaha, aprilia, vespa, cfmoto]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.lonestaryamaha.com/
+phone: "817-447-4200"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Full-line Yamaha store that also franchises Aprilia/Vespa/Moto Guzzi; own site hosts Moto Guzzi model-list pages (can-order); DFW-area Guzzi point at 1636 SW Wilshire Blvd."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

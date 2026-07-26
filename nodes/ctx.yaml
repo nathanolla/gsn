@@ -1,0 +1,26 @@
+id: ctx
+name: "CTX Motoworks"
+city: "San Antonio"
+state: TX
+country: US
+lat: 29.554
+lon: -98.607
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, ducati, triumph]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.ctxmotoworks.com/
+phone: "210-403-2100"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site sells new Triumph, Moto Guzzi, Aprilia and Ducati with a Moto Guzzi current-inventory showroom and demo-bike program; 11007 Fredericksburg Rd."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

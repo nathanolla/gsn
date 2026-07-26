@@ -1,0 +1,26 @@
+id: palmsprings
+name: "Palm Springs Motorsports"
+city: "Palm Desert"
+state: CA
+country: US
+lat: 33.753
+lon: -116.387
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, vespa, piaggio, kawasaki, yamaha, suzuki, can-am, cfmoto]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.palmspringsmotorsports.com/
+phone: "760-288-0011"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Multi-line desert dealer at 72750 Dinah Shore Dr; own site lists new Guzzi units incl. 2024 V100 Mandello S and 2025 V7 Special."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

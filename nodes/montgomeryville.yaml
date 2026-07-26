@@ -1,0 +1,23 @@
+id: montgomeryville
+name: "Montgomeryville Cycle Center"
+city: "Hatfield"
+state: PA
+country: US
+lat: 40.2798
+lon: -75.2996
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, ducati, suzuki, kawasaki, yamaha]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.montgomeryvillecc.com/
+phone: "215-712-7433"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site lists ~15 Moto Guzzi units incl. new 2026 V85 TT Travel and 2026 V7 Stone; Moto Guzzi Days financing promo through July 31, 2026."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

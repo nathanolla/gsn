@@ -1,0 +1,22 @@
+id: rosefarm
+name: "Rose Farm Classics"
+city: "Woodstock"
+state: IL
+country: US
+lat: 42.3147
+lon: -88.4487
+layer: independent
+capability: [heritage]
+brands: [moto-guzzi, bmw]
+functions:
+  - service
+  - restoration
+url: null
+phone: "815-337-6686"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Jim Barron's appointment-only BMW/Moto Guzzi specialist at 1250 N Rose Farm Rd; long described as Chicagoland's only exclusive Moto Guzzi shop; no own website found \u00e2\u0080\u0094 listing data from directories, currency unconfirmed."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

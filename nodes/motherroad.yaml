@@ -1,0 +1,23 @@
+id: motherroad
+name: "Mother Road Motorsports"
+city: "Tulsa"
+state: OK
+country: US
+lat: 36.13
+lon: -96.01
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, vespa, piaggio, ducati]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.motherroadmotorsports.com/
+phone: "918-660-2883"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Italian-line dealer on Route 66 (2208 Southwest Blvd); own site shows current Guzzi stock incl. 2026 V85 Strada, 2025 Stelvio Duecento Tributo and multiple 2024 V7/V100 units."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

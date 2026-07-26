@@ -1,0 +1,23 @@
+id: msunlimited
+name: "Motorsports Unlimited - Summersville"
+city: "Summersville"
+state: WV
+country: US
+lat: 38.2812
+lon: -80.8526
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, vespa, piaggio, polaris, suzuki, yamaha, cfmoto]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.motorsportsunlimitedsummersville.shop/
+phone: "304-872-5151"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "VA/WV dealer group; Summersville location's own site shows 2025 and 2026 Moto Guzzi units in stock; 806 Northside Dr."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

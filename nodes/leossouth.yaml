@@ -1,0 +1,23 @@
+id: leossouth
+name: "Leo's South"
+city: "Lakeville"
+state: MN
+country: US
+lat: 44.6497
+lon: -93.2427
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, kawasaki, suzuki, ski-doo]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.leossouth.com/
+phone: "855-536-7386"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site calls itself the leading Moto Guzzi dealer in Minnesota (family-owned since 1977) with new (2024 V100 Mandello, V7/V9/V85) and used Guzzi inventory pages."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

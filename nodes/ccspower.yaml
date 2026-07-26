@@ -1,0 +1,26 @@
+id: ccspower
+name: "CC's Powersports"
+city: "Forty Fort"
+state: PA
+country: US
+lat: 41.279
+lon: -75.878
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, piaggio]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.ccspowersports.com/
+phone: "570-301-6065"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site shows Moto Guzzi new-model showroom and 2025 V85 Strada availability; 19 Shoemaker St."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

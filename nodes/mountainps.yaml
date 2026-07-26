@@ -1,0 +1,23 @@
+id: mountainps
+name: "Mountain Powersports"
+city: "Ellijay"
+state: GA
+country: US
+lat: 34.6948
+lon: -84.4822
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, cfmoto, segway, beta, ssr]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.mountainpowersports.net/
+phone: "706-636-5222"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site runs 'Moto Guzzi Days' promotional content indicating a Guzzi franchise, but primary lines are CFMOTO/Segway/Beta; Guzzi stocking depth unconfirmed."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

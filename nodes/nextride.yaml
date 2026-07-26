@@ -1,0 +1,23 @@
+id: nextride
+name: "Next Ride"
+city: "Tampa"
+state: FL
+country: US
+lat: 27.9506
+lon: -82.4572
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, bmw, ducati, mv-agusta, piaggio, vespa, slingshot]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.nextride.com/
+phone: "813-443-5399"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Authorized dealer for Aprilia/BMW/Ducati/MV Agusta/Moto Guzzi/Piaggio/Vespa per own site; current inventory incl. 2026 V7 Stone and 2025 V85 TT; Tampa and Clearwater locations."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

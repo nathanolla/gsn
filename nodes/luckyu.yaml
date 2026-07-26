@@ -1,0 +1,23 @@
+id: luckyu
+name: "Lucky U Cycles Fort Myers"
+city: "Fort Myers"
+state: FL
+country: US
+lat: 26.6406
+lon: -81.8723
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.luckyuftmyers.com/
+phone: "239-306-6560"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site maintains dedicated in-stock Moto Guzzi inventory and factory-showroom model pages (V7, Stelvio); part of the Lucky U Cycles group (also Wildwood FL)."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

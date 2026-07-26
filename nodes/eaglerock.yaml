@@ -1,0 +1,23 @@
+id: eaglerock
+name: "Eagle Rock Indian Motorcycle (Idaho Motorcycle Co.)"
+city: "Idaho Falls"
+state: ID
+country: US
+lat: 43.488
+lon: -112.056
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, piaggio, vespa, indian, harley-davidson, royal-enfield, cfmoto, zero]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.idahomotorcyclecompany.com/
+phone: "208-525-1901"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Eastern Idaho multi-line store (opened 2017) with a Motoplex section; own-site inventory search includes Aprilia and Moto Guzzi units; 804 Pancheri Dr."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

@@ -1,0 +1,22 @@
+id: mph
+name: "MPH Cycles"
+city: "Houston"
+state: TX
+country: US
+lat: 29.7858
+lon: -95.642
+layer: independent
+capability: [full-service, heritage]
+brands: [moto-guzzi, bmw]
+functions:
+  - service
+  - repair
+url: https://mphcycles.com/
+phone: "281-647-6557"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Mike Haven's independent Moto Guzzi/BMW service house (former Texas #1 Guzzi dealer 2000-2016, servicing Guzzis since the 1980s); site notice dated April 2025 'now accepting BMW & Moto Guzzi motorcycles for service', copyright 2026; relocated to the Pine Island/Waller area west of Houston per wildguzzi."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

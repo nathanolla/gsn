@@ -1,0 +1,26 @@
+id: onanymoto
+name: "On Any Moto"
+city: "Tucson"
+state: AZ
+country: US
+lat: 32.2226
+lon: -110.9747
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, ducati, mv-agusta, piaggio, vespa, benelli, yamaha, kymco]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.onanymoto.com/
+phone: "877-626-9668"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Authorized dealer for a deep Italian roster (Aprilia, Ducati, MV Agusta, Moto Guzzi, Piaggio, Vespa) per own site, with a Moto Guzzi current-inventory showroom."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

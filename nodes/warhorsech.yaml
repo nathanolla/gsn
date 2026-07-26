@@ -1,0 +1,23 @@
+id: warhorsech
+name: "Warhorse Camp Hill"
+city: "Camp Hill"
+state: PA
+country: US
+lat: 40.2398
+lon: -76.9197
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, ducati, triumph, ktm, vespa, piaggio, bmw]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.warhorsecamphill.com/
+phone: ""
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site (search-indexed) shows franchised Moto Guzzi line with new inventory incl. 2025 V85 Strada, V85 TT and 2024 Stelvio/V100 Mandello."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

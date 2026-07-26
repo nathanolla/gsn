@@ -1,0 +1,26 @@
+id: cadre
+name: "Cadre Cycle"
+city: "Cincinnati"
+state: OH
+country: US
+lat: 39.257
+lon: -84.381
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, vespa, piaggio]
+functions:
+  - sales
+  - service
+  - parts
+url: https://cadrecycle.com/
+phone: "513-522-7300"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site: 'Cincinnati's premier Moto Guzzi, Vespa, and Piaggio dealership and service center', European-brand specialists at 11121 Deerfield Rd (Blue Ash area), home delivery within 200 miles."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

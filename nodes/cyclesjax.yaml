@@ -1,0 +1,23 @@
+id: cyclesjax
+name: "Cycles of Jacksonville"
+city: "Jacksonville"
+state: FL
+country: US
+lat: 30.3322
+lon: -81.6557
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, vespa, triumph, honda]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.cyclesofjacksonville.com/
+phone: "904-721-2453"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site shows current Moto Guzzi inventory incl. new 2026 V7 Sport, 2025 Stelvio and 2025 V85 TT; 8209 Atlantic Blvd."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

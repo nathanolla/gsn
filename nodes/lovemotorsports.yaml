@@ -1,0 +1,23 @@
+id: lovemotorsports
+name: "Love Motorsports of Ocoee"
+city: "Ocoee"
+state: FL
+country: US
+lat: 28.5692
+lon: -81.544
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, vespa, piaggio, polaris, cfmoto]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.lmsocoee.com/
+phone: "407-787-9595"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site carries Moto Guzzi brand showroom with new inventory incl. 2024 Stelvio; Orlando-area store at 11953 W Colonial Dr."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

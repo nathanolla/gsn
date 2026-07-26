@@ -1,0 +1,23 @@
+id: colemanwb
+name: "Coleman PowerSports"
+city: "Woodbridge"
+state: VA
+country: US
+lat: 38.6582
+lon: -77.2497
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, yamaha, kawasaki, honda, suzuki, ktm]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.wherethepoweris.com/
+phone: "703-497-1500"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Group site (wherethepoweris.com) shows Moto Guzzi brand inventory incl. 2026 V7 Special ($10,190) and 2025 V85 TT ($12,690) at the Woodbridge store, 14105 Telegraph Rd."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

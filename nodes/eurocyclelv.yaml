@@ -1,0 +1,27 @@
+id: eurocyclelv
+name: "Euro Cycle Las Vegas"
+city: "Las Vegas"
+state: NV
+country: US
+lat: 36.1447
+lon: -115.227
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, vespa, piaggio, bmw]
+functions:
+  - sales
+  - service
+  - parts
+  - mail-order
+url: https://rideeurocycle.com/
+phone: "702-454-6269"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "300+ bikes in stock at 6175 W Sahara Ave; current Guzzi inventory incl. 2025 V85 Strada/V85 TT and 2024 V9 Bobber/V100 Mandello; ships nationwide with financing in all 50 states."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

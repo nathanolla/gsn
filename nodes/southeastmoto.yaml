@@ -1,0 +1,23 @@
+id: southeastmoto
+name: "Southeast Motorcycle"
+city: "Douglasville"
+state: GA
+country: US
+lat: 33.7515
+lon: -84.7477
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, vespa, cfmoto]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.southeastmotorcycle.com/
+phone: "678-831-3747"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site: carries Aprilia, Moto Guzzi, CFMOTO and Vespa with dedicated Moto Guzzi page, current inventory and regional promotions; serves Greater Atlanta metro from 6401 Spring St."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

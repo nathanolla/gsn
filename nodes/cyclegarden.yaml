@@ -1,0 +1,26 @@
+id: cyclegarden
+name: "Cycle Garden Moto Guzzi"
+city: "Huntington Beach"
+state: CA
+country: US
+lat: 33.6595
+lon: -117.9988
+layer: independent
+capability: [heritage]
+brands: [moto-guzzi]
+functions:
+  - restoration
+  - service
+  - parts
+url: https://www.cyclegarden.com/
+phone: "714-848-5955"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Moe Moore's vintage-Guzzi house specializing in pre-1975 loop-frames (Ambassador, Eldorado, V700, V7 Sport) with full restoration and NOS/used parts shipped worldwide; 25+ years in business."
+  - date: 2026-07-26
+    method: website
+    fact: "Own site describes a Huntington Beach showroom, but a Yelp listing updated Feb 2026 shows a Cycle Garden Moto Guzzi address in Indio, CA \u00e2\u0080\u0094 location may have moved; needs confirmation."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

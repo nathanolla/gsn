@@ -1,0 +1,23 @@
+id: blackmans
+name: "Blackmans Cycle"
+city: "Emmaus"
+state: PA
+country: US
+lat: 40.5393
+lon: -75.4966
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, vespa, piaggio, honda, yamaha, suzuki, can-am, royal-enfield, cfmoto, kymco]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.blackmanscycle.com/
+phone: "610-965-9865"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "70-year, 18-brand family dealership; own site has current Moto Guzzi inventory pages, Moto Guzzi promotions page, and a Moto Guzzi Demo Tour event listing."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

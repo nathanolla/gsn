@@ -1,0 +1,23 @@
+id: motomall
+name: "Motorcycle Mall"
+city: "Belleville"
+state: NJ
+country: US
+lat: 40.7937
+lon: -74.1502
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, vespa, piaggio, ktm, honda]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.motorcyclemall.com/
+phone: "973-751-4545"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site (search-indexed; direct fetch bot-blocked) lists new 2025 Moto Guzzi V85 TT / V85 TT Travel and ran Moto Guzzi APR promotions dated February 2026; 655 Washington Ave."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

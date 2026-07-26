@@ -1,0 +1,27 @@
+id: clevelandmoto
+name: "ClevelandMoto"
+city: "Cleveland"
+state: OH
+country: US
+lat: 41.456
+lon: -81.829
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, moto-morini, benelli, piaggio, vespa, genuine, kymco, royal-enfield]
+functions:
+  - sales
+  - service
+  - parts
+  - restoration
+url: https://www.clevelandmoto.com/
+phone: "216-795-5580"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "25+ year shop at 16211 Lorain Ave claiming the largest Italian bike/scooter inventory in the USA; current stock incl. 2023 Moto Guzzi V100 Mandello S; also does Guzzi restoration and custom work (separate Mentor OH satellite closed)."
+  - date: 2026-07-26
+    method: official-locator
+    fact: "Listed as 'Cleveland Moto Guzzi' on the official dealer locator (surfaced in search results)."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

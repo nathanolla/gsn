@@ -1,0 +1,23 @@
+id: kissell
+name: "Kissell Motorsports"
+city: "Tyrone"
+state: PA
+country: US
+lat: 40.6706
+lon: -78.2386
+layer: franchise
+capability: [full-service]
+brands: [moto-guzzi, aprilia, bmw, beta, zero, ural, kove]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.kissellmotorsports.com/
+phone: "814-861-7890"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site says 'Your Moto Guzzi Dealer' with V7/V9/V85TT/Mandello/Stelvio inventory; content dated March 2026 and July 2026 event notice, copyright 2026."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

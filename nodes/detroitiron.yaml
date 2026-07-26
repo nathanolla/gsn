@@ -1,0 +1,23 @@
+id: detroitiron
+name: "Detroit Iron Cycles"
+city: "White Lake"
+state: MI
+country: US
+lat: 42.657
+lon: -83.533
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, aprilia, kawasaki, royal-enfield, benelli, ssr]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.detroitironcycles.com/
+phone: ""
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site calls itself Michigan's #1 Moto Guzzi dealer \u00e2\u0080\u0094 factory-authorized sales/service/parts with a dedicated Moto Guzzi page; appears to be the sole current Guzzi franchise in Michigan."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified

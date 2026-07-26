@@ -1,0 +1,23 @@
+id: hbr
+name: "HBR Powersports"
+city: "Cleveland"
+state: TN
+country: US
+lat: 35.1595
+lon: -84.8766
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.hbrpowersports.com/
+phone: "423-790-0510"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site shows Moto Guzzi current-inventory showroom incl. a 2024 Stelvio with PFF Rider Assistance; 165 1st St SW, serving the Chattanooga corridor."
+last_verified: 2026-07-26
+verified_by: claude
+status: active

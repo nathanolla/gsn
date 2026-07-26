@@ -1,0 +1,23 @@
+id: gatewayky
+name: "Gateway Cycles"
+city: "Mount Sterling"
+state: KY
+country: US
+lat: 38.0565
+lon: -83.9433
+layer: franchise
+capability: [satellite]
+brands: [moto-guzzi, kawasaki, suzuki, cfmoto, benelli, ssr, kayo]
+functions:
+  - sales
+  - service
+  - parts
+url: https://www.gatewaycycles.com/
+phone: "859-497-2100"
+observations:
+  - date: 2026-07-26
+    method: website
+    fact: "Own site lists Moto Guzzi among authorized brands; claims Kentucky's largest powersports showroom (250+ units); acquired by Derek Harmon in 2024."
+last_verified: 2026-07-26
+verified_by: claude
+status: unverified
