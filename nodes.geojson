@@ -97,6 +97,52 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -77.6603,
+     39.4459
+    ]
+   },
+   "properties": {
+    "id": "antietam",
+    "name": "Antietam Classic Cycle",
+    "city": "Rohrersville",
+    "state": "MD",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service",
+     "restoration",
+     "parts"
+    ],
+    "url": "https://antietamclassiccycle.com/",
+    "phone": "301-432-2275",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by multiple members on wildguzzi.com as loop-frame Guzzi expert 'Charlie' worth 'a short trailer ride', thread of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "directory listings current (Yelp updated May 2026) at 3333 Gapland Rd, Rohrersville MD; described as dedicated to vintage European motorcycles with Moto Guzzi as primary focus"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -78.6566,
      35.7635
     ]
@@ -376,6 +422,11 @@
       "date": "2026-07-26",
       "method": "official-locator",
       "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by multiple members on wildguzzi.com â praised for 'Guzzi Dave', a 1970s Guzzi restoration, and 'top notch mechanics', threads of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0) and 2021-11 (https://wildguzzi.com/forum/index.php?topic=112965.0)"
      }
     ]
    }
@@ -477,6 +528,11 @@
       "date": "2026-07-26",
       "method": "official-locator",
       "fact": "Listed as 'Cleveland Moto Guzzi' on the official dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by a forum member on wildguzzi.com â former MG dealers who 'still work on them (and lots of Italian bikes)', thread of 2021-11 (https://wildguzzi.com/forum/index.php?topic=112965.0); also cited as having good reviews in a 2020-08 Ohio thread (https://wildguzzi.com/forum/index.php?topic=107253.0)"
      }
     ]
    }
@@ -623,14 +679,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -117.9988,
-     33.6595
+     -116.2156,
+     33.7206
     ]
    },
    "properties": {
     "id": "cyclegarden",
     "name": "Cycle Garden Moto Guzzi",
-    "city": "Huntington Beach",
+    "city": "Indio",
     "state": "CA",
     "country": "US",
     "layer": "independent",
@@ -643,10 +699,10 @@
      "parts"
     ],
     "url": "https://www.cyclegarden.com/",
-    "phone": "714-848-5955",
+    "phone": "(760) 972-4800",
     "last_verified": "2026-07-26",
     "verified_by": "claude",
-    "status": "unverified",
+    "status": "active",
     "capability": [
      "heritage"
     ],
@@ -660,6 +716,16 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "Own site describes a Huntington Beach showroom, but a Yelp listing updated Feb 2026 shows a Cycle Garden Moto Guzzi address in Indio, CA â location may have moved; needs confirmation."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended by a forum member on guzzitech.com forums for Guzzi engine work â 'those guys are artists...they know what they do and do it well', thread of 2011-12 (https://www.guzzitech.com/forums/threads/i-cant-find-a-new-top-end.7818/); no fresher forum endorsement found, but shop is widely described as the premiere pre-1975 Guzzi restoration specialist"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "relocation confirmed: now at 83525 Date Ave, Indio CA (moved from Huntington Beach); Yelp listing updated Feb 2026"
      }
     ]
    }
@@ -752,6 +818,52 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "operating as D2 Powersports Greer; states it is the only SC dealer for Aprilia/Moto Guzzi/Vespa/Piaggio"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.2169,
+     30.4213
+    ]
+   },
+   "properties": {
+    "id": "danddcycles",
+    "name": "D & D Cycles",
+    "city": "Pensacola",
+    "state": "FL",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.danddcycles.com/",
+    "phone": "850-456-0354",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "endorsed by a forum member on wildguzzi.com when it took on the Moto Guzzi franchise â 'This is a GREAT dealership, have dealt with them for many years!', thread of 2024-11 (https://wildguzzi.com/forum/index.php?topic=122191.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "danddcycles.com live; Yelp listing updated April 2026 at 2400 Fernwood Ave, Pensacola FL, carrying Moto Guzzi"
      }
     ]
    }
@@ -943,6 +1055,56 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -104.9903,
+     39.7392
+    ]
+   },
+   "properties": {
+    "id": "erico",
+    "name": "Erico Motorsports",
+    "city": "Denver",
+    "state": "CO",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "triumph",
+     "aprilia",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.ericomotorsports.com/",
+    "phone": "303-308-1811",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "named by multiple members on wildguzzi.com as the go-to (and only) Guzzi dealer service option in Colorado after Moto Italia Fort Collins closed, thread of 2019-07 (https://wildguzzi.com/forum/index.php?topic=102078.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "ericomotorsports.com live with Moto Guzzi inventory pages; Yelp listing updated June 2026, 2855 Walnut St, Denver CO"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -115.227,
      36.1447
     ]
@@ -985,6 +1147,51 @@
       "date": "2026-07-26",
       "method": "official-locator",
       "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -76.8594,
+     40.1351
+    ]
+   },
+   "properties": {
+    "id": "europamacchina",
+    "name": "Europa Macchina",
+    "city": "Lewisberry",
+    "state": "PA",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "restoration",
+     "service"
+    ],
+    "url": "https://www.europamacchina.com/",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by a forum member on wildguzzi.com as 'top notch in every way' with high-end restoration resources, thread of 2017-09 (https://wildguzzi.com/forum/index.php?topic=92351.0); dropped the MG franchise in late 2017 per guzzitech.com forums but continues restoration work"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "europamacchina.com live; business directory data as of March 2026 shows the restoration shop operating with ~6 employees at 501 Industrial Dr, Lewisberry PA"
      }
     ]
    }
@@ -1206,6 +1413,53 @@
   },
   {
    "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.8412,
+     42.3256
+    ]
+   },
+   "properties": {
+    "id": "guzzidoctor",
+    "name": "The Guzzi Doctor",
+    "city": "North Chicago",
+    "state": "IL",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service",
+     "restoration",
+     "engine-building"
+    ],
+    "url": "https://theguzzidoctor.com/",
+    "phone": "708-715-0360",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "heritage",
+     "performance"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "praised by multiple members on wildguzzi.com â 'pre computer Guzzi expert', 'knows what he's doing', 'Amazing workmanship' â when his motor build for a turbo 1969 Eldorado was recognized by Moto Guzzi, thread of 2017-08 (https://wildguzzi.com/forum/index.php?topic=91691.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "theguzzidoctor.com live (Chicago Moto Guzzi repair, Joe Walano); 5-star rating across 24 reviews on current Birdeye listing, 3109 Beacon St, North Chicago IL"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "geometry": null,
    "properties": {
     "id": "guzziology",
@@ -1419,6 +1673,55 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -77.091,
+     38.8816
+    ]
+   },
+   "properties": {
+    "id": "lamoto",
+    "name": "La Moto Washington",
+    "city": "Arlington",
+    "state": "VA",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.lamotowashington.com/",
+    "phone": "833-686-7532",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "cited by forum members on wildguzzi.com for northern Virginia Guzzi service â one reported no issues with their service work, another called them 'nice folks' with 'cool Guzzis', thread of 2017-09 (https://wildguzzi.com/forum/index.php?topic=92351.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "lamotowashington.com live with current Moto Guzzi inventory (incl. Stelvio); listed on motoguzzi.com official dealer locator, 3298 A Wilson Blvd, Arlington VA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -93.2427,
      44.6497
     ]
@@ -1586,6 +1889,52 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "Own site maintains dedicated in-stock Moto Guzzi inventory and factory-showroom model pages (V7, Stelvio); part of the Lucky U Cycles group (also Wildwood FL)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.6343,
+     33.2487
+    ]
+   },
+   "properties": {
+    "id": "manicmoto",
+    "name": "Manic Moto",
+    "city": "Queen Creek",
+    "state": "AZ",
+    "country": "US",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "beta"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.manicmoto.com/",
+    "phone": "480-783-3243",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended by a forum member on guzzitech.com forums as a Phoenix East Valley Guzzi dealer with 'great reviews', thread post of 2020 (https://www.guzzitech.com/forums/threads/guzzi-mechanic-in-the-phoenix-area-east-valley.19612/)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "manicmoto.com live selling Beta and Moto Guzzi and repairing all makes; Yelp listing updated December 2025, 22230 S Scotland Ct #101, Queen Creek AZ"
      }
     ]
    }
@@ -2188,6 +2537,11 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "Mike Haven's independent Moto Guzzi/BMW service house (former Texas #1 Guzzi dealer 2000-2016, servicing Guzzis since the 1980s); site notice dated April 2025 'now accepting BMW & Moto Guzzi motorcycles for service', copyright 2026; relocated to the Pine Island/Waller area west of Houston per wildguzzi."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by multiple members on guzzitech.com forums â former Texas #1 Guzzi dealer; one member wrote 'Simply cannot say enough good things...about MPH', thread of 2021-06 (https://www.guzzitech.com/forums/threads/houston-moto-guzzi-recommended-shops-mechanics.21516/)"
      }
     ]
    }
@@ -2476,6 +2830,16 @@
       "date": "2026-07-26",
       "method": "official-locator",
       "fact": "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended for Guzzi work by multiple members on wildguzzi.com as the Seattle-area dealer after Moto International closed; one member's friend had a new V85 shipped to Alaska with 'nothing but praise', thread of 2020-01 (https://wildguzzi.com/forum/index.php?topic=104139.0)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "second Eastside location reported at 17646 NE 65th St, Redmond WA, plus a Portland OR operation — multi-site; confirm primary address when calling"
      }
     ]
    }
@@ -2966,6 +3330,11 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "Own site: carries Aprilia, Moto Guzzi, CFMOTO and Vespa with dedicated Moto Guzzi page, current inventory and regional promotions; serves Greater Atlanta metro from 6401 Spring St."
+     },
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended by multiple members on guzzitech.com forums â Aprilia-experienced mechanic and a Savannah sister location with 'straight forward sales staff, no BS', thread of 2023-02 (https://www.guzzitech.com/forums/threads/new-member-and-question-about-atlanta-dealers.23468/)"
      }
     ]
    }
@@ -3149,6 +3518,52 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "site live with current-year inventory listed"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.8315,
+     33.4152
+    ]
+   },
+   "properties": {
+    "id": "tomsitalian",
+    "name": "Tom's Italian Tune and Service",
+    "city": "Mesa",
+    "state": "AZ",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "ducati"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "http://www.tomsitaliantuneandservice.com/",
+    "phone": "480-641-3871",
+    "last_verified": "2026-07-26",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "full-service",
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "community-endorsement",
+      "fact": "recommended by a forum member on guzzitech.com forums as 'The most knowledgeable Italian bike specialist I have ever met' (cash only), thread post of 2021 (https://www.guzzitech.com/forums/threads/guzzi-mechanic-in-the-phoenix-area-east-valley.19612/)"
+     },
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "tomsitaliantuneandservice.com live with contact page; owner Tom Hull is a factory-trained Ducati and Moto Guzzi technician per current directory listings"
      }
     ]
    }
@@ -3569,6 +3984,6 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 79
+  "count": 87
  }
 }
