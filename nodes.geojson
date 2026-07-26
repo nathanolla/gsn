@@ -552,6 +552,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -78.899,
+     35.994
+    ]
+   },
+   "properties": {
+    "id": "motomotivo",
+    "name": "Moto Motivo (Two Wheel Art)",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US",
+    "layer": "independent",
+    "brands": [
+     "ducati"
+    ],
+    "functions": [
+     "restorations",
+     "custom builds / transformations",
+     "workshop service"
+    ],
+    "url": "https://www.motomotivo.com",
+    "phone": "",
+    "last_verified": "2026-07-26",
+    "verified_by": "nathan",
+    "status": "unverified",
+    "capability": [
+     "heritage"
+    ],
+    "observations": [
+     {
+      "date": "2026-07-26",
+      "method": "website",
+      "fact": "Durham NC per own contact page; restoration/workshop/transformations focus; Ducati work shown in workshop gallery; no Moto Guzzi statement found; contact johann@motomotivo.com"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -77.5068,
      37.5052
     ]
@@ -773,6 +814,6 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 18
+  "count": 19
  }
 }
