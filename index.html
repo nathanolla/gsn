@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guzzi Support Network</title>
+<meta name="description" content="A community-maintained, geocoded, graded, freshness-dated map of everything that keeps a Moto Guzzi running.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root{--bg:#101418;--panel:#171d24;--panel2:#1e2630;--border:#2a3542;--text:#dbe4ee;--muted:#8fa1b3;
+    --accent:#c8102e;--green:#3fb27f;--amber:#d9a441;--blue:#4f8fd9;--purple:#9a6fd9;--slate:#7d8ea0}
+  *{box-sizing:border-box} body{margin:0;font:15px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--text)}
+  header{padding:14px 22px;border-bottom:2px solid var(--accent);display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  header h1{margin:0;font-size:21px} header .sub{color:var(--muted);font-size:13px}
+  .controls{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:13px}
+  .controls input,.controls select{background:var(--panel2);color:var(--text);border:1px solid var(--border);border-radius:7px;padding:5px 9px;font-size:13px}
+  .controls button{background:var(--accent);color:#fff;border:0;border-radius:7px;padding:6px 11px;cursor:pointer;font-size:13px}
+  .controls button.sec{background:var(--panel2);border:1px solid var(--border)}
+  .wrap{display:grid;grid-template-columns:minmax(330px,400px) 1fr;height:calc(100vh - 62px)}
+  @media(max-width:900px){.wrap{display:block;height:auto}#map{height:65vh}}
+  .side{overflow-y:auto;background:var(--panel);border-right:1px solid var(--border);padding:14px 16px}
+  #map{height:100%;min-height:460px}
+  h2{font-size:11.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:18px 0 8px}
+  .node{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:9px 12px;margin-bottom:8px;cursor:pointer}
+  .node:hover{border-color:var(--accent)}
+  .node .nm{font-weight:600}.node .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px}
+  .node .fn{color:var(--muted);font-size:12.5px;margin-top:2px}
+  .node .meta{font-size:12.5px;margin-top:5px;color:#b7c4d1}
+  .node .meta a{color:var(--blue);text-decoration:none}
+  .stale-1{opacity:.55}.stale-2{opacity:.35}
+  .pill{font-size:10.5px;border:1px solid var(--border);color:var(--muted);border-radius:9px;padding:0 7px;float:right}
+  footer{padding:14px 22px;color:var(--muted);font-size:12px;border-top:1px solid var(--border);line-height:1.7}
+  footer a{color:var(--blue)}
+  .legend{position:absolute;z-index:900;right:12px;top:12px;background:rgba(17,22,28,.93);border:1px solid var(--border);border-radius:10px;padding:9px 12px;font-size:12.5px}
+  .legend .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--panel2);color:var(--text)}
+  .leaflet-popup-content a{color:var(--blue)}
+</style>
+</head>
+<body>
+<header>
+  <div><h1>Guzzi Support Network</h1>
+  <div class="sub">community-maintained · graded by function · freshness-dated</div></div>
+  <div class="controls">
+    <input id="loc" placeholder="ZIP or city for home pin" size="18">
+    <button id="setloc">Set home</button>
+    <button id="geoloc" class="sec" title="Use browser location">📍</button>
+    <button id="share" class="sec" title="Copy a shareable link centered on your home pin">Share view</button>
+    <select id="fcap"><option value="">all capabilities</option></select>
+    <select id="flayer"><option value="">all layers</option></select>
+  </div>
+</header>
+<div class="wrap">
+  <div class="side" id="side"><div id="nodes"></div></div>
+  <div style="position:relative"><div class="legend" id="legend"></div><div id="map"></div></div>
+</div>
+<footer>
+  <b>Guzzi Support Network</b> — data <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a>,
+  code MIT. Provided as-is, no warranty, informational only; corrections and additions via pull request
+  (see the repo's <a href="https://github.com/nathanolla/gsn/blob/main/doctrine.md">doctrine</a> &amp; methodology). Categories are mechanical
+  derivations from dated observations — disputes are resolved by submitting newer or better observations.
+  Any listed business may request correction or removal, honored within 7 days, no questions asked.
+  <br><b>Not affiliated with, endorsed by, or sponsored by Piaggio Group or Moto Guzzi.
+  Trademarks are the property of their owners.</b>
+  Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+  · <a href="https://github.com/nathanolla/gsn/blob/main/PRIVACY.md">Privacy</a>: your location never leaves your browser — no accounts, no analytics, no tracking.
+</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const CAP_COLORS={'full-service':'#3fb27f','satellite':'#d9a441','depot':'#4f8fd9','performance':'#9a6fd9','heritage':'#7d8ea0','knowledge':'#8fa1b3'};
+const MI=1609.344;
+const R=6371e3;
+function dist(a,b){const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180,dp=(b[0]-a[0])*Math.PI/180,dl=(b[1]-a[1])*Math.PI/180;
+  const h=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;return 2*R*Math.asin(Math.sqrt(h))/MI}
+function bearing(a,b){const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180,dl=(b[1]-a[1])*Math.PI/180;
+  const y=Math.sin(dl)*Math.cos(p2),x=Math.cos(p1)*Math.sin(p2)-Math.sin(p1)*Math.cos(p2)*Math.cos(dl);
+  const d=(Math.atan2(y,x)*180/Math.PI+360)%360;return ['N','NE','E','SE','S','SW','W','NW'][Math.round(d/45)%8]}
+function staleClass(lv){if(!lv)return 'stale-2';const m=(Date.now()-new Date(lv))/2629800000;return m<12?'':(m<24?'stale-1':'stale-2')}
+
+let map,home=null,homeMarker=null,rings=[],markers={},FEATS=[];
+const params=new URLSearchParams(location.search);
+
+async function geocode(q){
+  const r=await fetch(`https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q=${encodeURIComponent(q)}`,
+    {headers:{'Accept-Language':'en'}});
+  const j=await r.json(); return j[0]? [parseFloat(j[0].lat),parseFloat(j[0].lon)] : null;
+}
+function setHome(ll,save=true){
+  home=ll;
+  if(homeMarker)homeMarker.remove(); rings.forEach(r=>r.remove()); rings=[];
+  homeMarker=L.circleMarker(ll,{radius:9,color:'#0c0f12',weight:1.5,fillColor:'#fff',fillOpacity:1}).addTo(map).bindPopup('<b>Home</b> (drag map + click to move)');
+  [100,200,300].forEach(mi=>rings.push(L.circle(ll,{radius:mi*MI,color:'#c8102e',weight:1,opacity:.4,fill:false,dashArray:'6 8'}).addTo(map)));
+  if(save){try{localStorage.setItem('gsn_home',JSON.stringify(ll))}catch(e){}} // location stays client-side; URL only via explicit Share
+  render();
+}
+function render(){
+  const fcap=document.getElementById('fcap').value, flayer=document.getElementById('flayer').value;
+  const list=[];
+  FEATS.forEach(f=>{
+    const p=f.properties, show=(!fcap||p.capability.includes(fcap))&&(!flayer||p.layer===flayer);
+    if(markers[p.id]) markers[p.id][show&&f.geometry?'addTo':'remove'](map);
+    if(show) list.push(f);
+  });
+  if(home) list.sort((a,b)=>{
+    const da=a.geometry?dist(home,[a.geometry.coordinates[1],a.geometry.coordinates[0]]):1e9;
+    const db=b.geometry?dist(home,[b.geometry.coordinates[1],b.geometry.coordinates[0]]):1e9;
+    return da-db;});
+  const wrap=document.getElementById('nodes'); wrap.innerHTML='';
+  let nearestFull=null;
+  if(home) nearestFull=list.find(f=>f.geometry&&f.properties.capability.includes('full-service'));
+  list.forEach(f=>{
+    const p=f.properties, d=document.createElement('div');
+    d.className='node '+staleClass(p.last_verified);
+    let rel='';
+    if(home&&f.geometry){
+      const ll=[f.geometry.coordinates[1],f.geometry.coordinates[0]];
+      rel=`${Math.round(dist(home,ll))} mi ${bearing(home,ll)}`;
+      if(f===nearestFull) rel+=' · closest full-service';
+    }
+    d.innerHTML=`<span class="pill">${p.last_verified||'unverified'}</span>
+      <div class="nm"><span class="dot" style="background:${CAP_COLORS[p.capability[0]]}"></span>${p.name}</div>
+      <div class="fn">${p.capability.join(' + ')} · ${p.city?p.city+', '+p.state:''} ${rel?'· '+rel:''}</div>
+      <div class="meta">${p.functions.join(' · ')}<br>`+
+      (p.url?`<a href="${p.url}" target="_blank" rel="noopener">${new URL(p.url).hostname}</a>`:'')+
+      (p.phone?` · <a href="tel:${p.phone.replace(/[^+\d]/g,'')}">${p.phone}</a>`:'')+`</div>`;
+    if(markers[p.id]) d.onclick=()=>{map.setView(markers[p.id].getLatLng(),9);markers[p.id].openPopup()};
+    wrap.appendChild(d);
+  });
+}
+(async()=>{
+  const gj=await (await fetch('nodes.geojson')).json();
+  FEATS=gj.features;
+  map=L.map('map').setView([37.5,-85],5);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(map);
+  const caps=new Set(),layers=new Set();
+  FEATS.forEach(f=>{
+    const p=f.properties; p.capability.forEach(c=>caps.add(c)); layers.add(p.layer);
+    if(!f.geometry) return;
+    const ll=[f.geometry.coordinates[1],f.geometry.coordinates[0]];
+    const m=L.circleMarker(ll,{radius:8,color:'#0c0f12',weight:1.5,fillColor:CAP_COLORS[p.capability[0]],fillOpacity:staleClass(p.last_verified)?0.45:0.95}).addTo(map);
+    const obs=(p.observations||[]).map(o=>`<div style="color:#8fa1b3;font-size:12px">${o.date} · ${o.method} — ${o.fact}</div>`).join('');
+    m.bindPopup(`<b>${p.name}</b><br>${p.city||''}${p.state?', '+p.state:''} · ${p.capability.join(' + ')}<br>${p.functions.join(' · ')}`+
+      (p.url?`<br><a href="${p.url}" target="_blank" rel="noopener">${new URL(p.url).hostname}</a>`:'')+
+      (p.phone?` · ${p.phone}`:'')+`<hr style="border-color:#2a3542">${obs}<div style="color:#8fa1b3;font-size:11.5px;margin-top:4px">last verified ${p.last_verified} by ${p.verified_by}</div>`);
+    markers[p.id]=m;
+  });
+  [...caps].sort().forEach(c=>document.getElementById('fcap').insertAdjacentHTML('beforeend',`<option>${c}</option>`));
+  [...layers].sort().forEach(l=>document.getElementById('flayer').insertAdjacentHTML('beforeend',`<option>${l}</option>`));
+  document.getElementById('legend').innerHTML=Object.entries(CAP_COLORS)
+    .map(([c,col])=>`<div><span class="dot" style="background:${col}"></span>${c}</div>`).join('')+
+    `<div style="margin-top:4px;color:#8fa1b3">faded = last verified &gt;12 mo<br>rings: 100/200/300 mi from home</div>`;
+  document.getElementById('fcap').onchange=render; document.getElementById('flayer').onchange=render;
+  document.getElementById('setloc').onclick=async()=>{
+    const q=document.getElementById('loc').value.trim(); if(!q)return;
+    const ll=await geocode(q); if(ll){map.setView(ll,7);setHome(ll)} else alert('Location not found');
+  };
+  document.getElementById('geoloc').onclick=()=>navigator.geolocation.getCurrentPosition(p=>{map.setView([p.coords.latitude,p.coords.longitude],7);setHome([p.coords.latitude,p.coords.longitude])});
+  map.on('click',e=>setHome([e.latlng.lat,e.latlng.lng]));
+  document.getElementById('share').onclick=()=>{
+    if(!home){alert('Set a home pin first');return}
+    const u=new URL(location.href);u.searchParams.set('home',home.map(x=>x.toFixed(3)).join(','));
+    navigator.clipboard.writeText(u.toString());
+    document.getElementById('share').textContent='Copied!';setTimeout(()=>document.getElementById('share').textContent='Share view',1500);
+  };
+  let placed=false;
+  if(params.get('home')){const [a,b]=params.get('home').split(',').map(Number);if(!isNaN(a)){setHome([a,b],false);map.setView([a,b],7);placed=true}}
+  if(!placed){try{const s=JSON.parse(localStorage.getItem('gsn_home'));if(s){setHome(s,false);map.setView(s,7);placed=true}}catch(e){}}
+  if(!placed&&navigator.geolocation){
+    // Location-aware by default: the browser's own permission prompt is the consent.
+    // Coordinates never leave the browser — all distance math is client-side.
+    navigator.geolocation.getCurrentPosition(
+      p=>{map.setView([p.coords.latitude,p.coords.longitude],7);setHome([p.coords.latitude,p.coords.longitude])},
+      ()=>{}, {timeout:8000, maximumAge:600000});
+  }
+  render();
+})();
+</script>
+</body>
+</html>
