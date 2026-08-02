@@ -17,10 +17,15 @@ jobs:
           for f in nodes/*.yaml; do
             url=$(python3 -c "import yaml;print(yaml.safe_load(open('$f')).get('url') or '')")
             [ -z "$url" ] && continue
-            code=$(curl -skL -o /dev/null -m 20 -w '%{http_code}' -A 'gsn-linkcheck/1.0' "$url")
+            # curl transport failures (DNS, TLS, timeout) exit non-zero and would kill
+            # this -e shell; a dead site IS the signal we're here to catch, so map any
+            # transport error to its curl exit code and fall through to the issue path.
+            rc=0
+            code=$(curl -skL -o /dev/null -m 20 -w '%{http_code}' -A 'gsn-linkcheck/1.0' "$url") || rc=$?
+            [ "$rc" -ne 0 ] && code="curl-error-$rc"
             case "$code" in 2*|3*|401|403) ;; *)
               title="linkcheck: $(basename "$f" .yaml) URL returned $code"
               gh issue list --state open --search "$title in:title" --json number -q '.[].number' | grep -q . || \
-                gh issue create --title "$title" --body "Weekly link check: \`$url\` returned **$code**. If gone, submit a PR setting status: defunct. If moved, update url with a dated observation." ;;
+                gh issue create --title "$title" --body "Weekly link check: \`$url\` returned **$code**. (\`curl-error-6\`=DNS, \`-28\`=timeout, \`-35\`=TLS.) If gone, submit a PR setting status: defunct. If moved, update url with a dated observation." ;;
             esac
           done
