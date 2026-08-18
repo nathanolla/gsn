@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site shows July 1-31 2026 promotions (Piaggio Urban Days, Vespa Days, Moto Guzzi Days, Aprilia Days); Suzuki graphics promo through Sep 30 2026  [source: https://www.capesuzukicfmoto.com/]"
-last_verified: 2026-07-26
-verified_by: claude
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; Moto Guzzi military/first-responders promotion displayed; heavy 2026/2027 references; phone matches node"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

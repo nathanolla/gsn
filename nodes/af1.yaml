@@ -27,6 +27,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "retails/installs UpMap T800+ app-based ECU reflash for Moto Guzzi V85/V9/V7-850 e5 (RACE / full-exhaust maps) \u2014 an ECU-tune option in addition to parts [source: af1racing.com UpMap listing]"
-last_verified: 2026-07-26
-verified_by: claude
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; brand meta lists Aprilia/Moto Guzzi/Vespa/Triumph; 2027 and 2026 model-year references throughout; phone matches node"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

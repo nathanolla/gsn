@@ -27,6 +27,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "relocation confirmed: now at 83525 Date Ave, Indio CA (moved from Huntington Beach); Yelp listing updated Feb 2026"
-last_verified: 2026-07-26
-verified_by: claude
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; full pre-1975 Guzzi restoration/service catalog on homepage; contact page returns 406 to automated fetch (mod_security) so phone/address not re-checked — Indio location per 2026-07-26 evidence stands"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

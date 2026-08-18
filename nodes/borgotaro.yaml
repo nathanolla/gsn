@@ -17,6 +17,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "site live; by-appointment-only per own pages"
-last_verified: 2026-07-26
-verified_by: claude-research-sweep
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live (static site, content dated ~2021); business's own Instagram storefront @motoborgotaro active (11k followers, 748 posts) — operating vintage shop, by appointment"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

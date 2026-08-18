@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site shows promotions dated through July 31 2026 and 2024-2026 model-year inventory with financing offers  [source: https://www.ecofunmotorsports.com/]"
-last_verified: 2026-07-26
-verified_by: claude
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; Moto Guzzi inventory link and military/first-responders promotion; heavy 2026 references; phone matches node"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

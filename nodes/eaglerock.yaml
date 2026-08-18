@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: official-locator
     fact: "listed on the official Moto Guzzi US dealer locator as \"Motoplex Idaho\" (Idaho Falls, ID); type=dealers,services; verified 2026-07-26"
+  - date: 2026-08-18
+    method: website
+    fact: "re-check 2026-08-18: idahomotorcyclecompany.com is up but returns 403 bot-challenge to automated fetch (site perimeter, not an outage); content not re-checkable this round; 2026-07-26 locator listing stands; last_verified NOT bumped"
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active
