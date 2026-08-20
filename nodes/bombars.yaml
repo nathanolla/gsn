@@ -20,6 +20,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "relocated from Durham NC to Wilmington NC per own announcements"
-last_verified: 2026-07-26
-verified_by: claude
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; meta description \"BMW, Triumph, Moto Guzzi and European Motorcycle Service\"; phone matches node"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

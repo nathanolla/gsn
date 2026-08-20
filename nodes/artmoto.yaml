@@ -27,6 +27,9 @@ observations:
   - date: 2026-07-26
     method: official-locator
     fact: "listed on the official Moto Guzzi US dealer locator as \"Piaggio Vespa Aprilia Moto Guzzi Raleigh\" (Raleigh, NC); type=dealers,services; verified 2026-07-26"
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live (JS single-page shell); meta description names Moto Guzzi among dealership lines; consistent with 2026-07-25 in-person visit and 2026-07-26 locator listing"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Site loads with 2026 copyright and promotions dated July 1-31 2026  [source: https://www.egpowersports.com]"
-last_verified: 2026-07-26
-verified_by: claude
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; Moto Guzzi among brand keywords; heavy 2026 references and copyright 2026; phone matches node"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

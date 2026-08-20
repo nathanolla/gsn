@@ -24,6 +24,9 @@ observations:
   - date: 2026-07-26
     method: official-locator
     fact: "listed on the official Moto Guzzi US dealer locator as \"CC\\'s Powersports\" (Forty Fort, PA); type=dealers,services; verified 2026-07-26"
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; own sitemap inventory includes 2027 Moto Guzzi Stelvio and 2027 V100 Mandello units (Forty Fort) — fresher than the 2025 V85 stock noted 2026-07-26; phone matches node"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

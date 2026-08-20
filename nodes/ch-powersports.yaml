@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site shows July 2026 'Moto Guzzi Days' / 'Aprilia Days' promotions and 2027 model-year inventory (Aprilia RS 660, Moto Guzzi V7)  [source: https://www.chpowersports.com/]"
-last_verified: 2026-07-26
-verified_by: claude
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; 2027 Moto Guzzi V7 Special unit listed in inventory URL structure; 2027 model-year references; phone matches node"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

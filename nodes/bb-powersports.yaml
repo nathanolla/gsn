@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Own site returns HTTP 403 (Cloudflare bot-protection), not a down site  [source: https://www.bbpowersportsandoutdoors.com/]"
-last_verified: 2026-07-26
-verified_by: claude
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site now serves HTTP 200 to automated fetch (was 403 Cloudflare on 2026-07-26); current Moto Guzzi inventory link and brand imagery; copyright 2026; phone matches node"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

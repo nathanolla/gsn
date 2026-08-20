@@ -24,6 +24,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "documented Moto Guzzi engine building incl. a 949cc big-bore build with 5-speed and head/valve work (Charlie Mullendore) \u2014 performance-grade engine capability [source: https://www.antietamclassiccycle.com]"
+  - date: 2026-08-18
+    method: website
+    fact: "re-check 2026-08-18: own-site domain antietamclassiccycle.com fails DNS resolution (SERVFAIL, no NS records at 1.1.1.1 and 8.8.8.8); third-party directories (Yelp) last updated Dec 2024; no 2025-26 signals found — flagged dubious, needs a phone check; last_verified NOT bumped"
 last_verified: 2026-07-26
 verified_by: claude
 status: active

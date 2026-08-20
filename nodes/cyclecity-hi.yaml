@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Independent Yelp profile 'Claimed' with 3.9 stars and 495 reviews, categorized Motorcycle Dealers/Repair/Rental  [source: https://www.yelp.com/biz/cycle-city-hawaii-honolulu-2]"
-last_verified: 2026-07-26
-verified_by: claude
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; own new-inventory sitemap feed (358 units, 2026 model-year stock) lists zero Moto Guzzi units (Kawasaki/Yamaha/Honda/Triumph/Harley/Aprilia/Vespa present); brand pages are JS-rendered and not fetchable; franchise per official locator 2026-07-26 — satellite retained, zero-stock noted"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

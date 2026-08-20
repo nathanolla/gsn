@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: official-locator
     fact: "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise \u2014 treat franchise status as unconfirmed)"
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; Moto Guzzi showroom grid plus 48 Guzzi mentions; heavy 2026/2027 model-year references; phone matches node (official-locator absence noted 2026-07-26 still unexplained)"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

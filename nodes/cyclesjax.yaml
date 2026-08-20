@@ -21,6 +21,9 @@ observations:
   - date: 2026-07-26
     method: official-locator
     fact: "listed on the official Moto Guzzi US dealer locator as \"Vespa Jacksonville\" (Jacksonville, FL); type=dealers,services; verified 2026-07-26"
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: site live; Guzzi among brands with current inventory references incl. 2027 model-year; phone matches node"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active

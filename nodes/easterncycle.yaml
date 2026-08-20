@@ -17,6 +17,9 @@ observations:
   - date: 2026-07-26
     method: website
     fact: "Founded 1971; sold its Ducati/Guzzi/MV franchises in 2011 and now operates as a restoration and cafe-custom shop with a Moto Guzzi/BMW-certified technician; Yelp listing updated Nov 2025 shows it open."
-last_verified: 2026-07-26
-verified_by: claude-research-sweep
+  - date: 2026-08-18
+    method: website
+    fact: "re-check: homepage live but stale (copyright 2019); business operating through its own eBay storefront (easterncycle) with 32 active Moto Guzzi NOS/OEM parts listings plus Ducati/Honda/Benelli vintage stock — heritage parts capability confirmed via the live channel"
+last_verified: 2026-08-18
+verified_by: claude-glm
 status: active
