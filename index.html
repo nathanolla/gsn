@@ -130,6 +130,47 @@
   .chip.off{opacity:.4;border-style:inset}
   .chip .sw{margin-right:5px}
   body.modern .chip{font-family:system-ui,sans-serif;font-size:12.5px;padding:4px 11px}
+
+  /* ---------- OS-theme matching (2026 skin only) ----------
+     Pure CSS media feature: the browser picks light or dark from the OS
+     setting. Nothing is read by us, stored, or sent anywhere — there is no
+     JS involvement in the colors and this site carries no analytics.
+     Old browsers without light-dark() simply keep the dark 2026 skin
+     (the rules above), because this whole block is behind @supports.
+     1999 stays light forever; 1999 did not know what an OS theme was. */
+  @supports (color: light-dark(#000,#fff)){
+    body.modern{color-scheme:light dark;
+      --bg:light-dark(#f4f6f9,#101418); --ink:light-dark(#1f2a36,#dbe4ee);
+      --ink-strong:light-dark(#0e161e,#eef4fa); --ink-2:light-dark(#40505f,#b7c4d1);
+      --muted:light-dark(#5c6b7a,#8fa1b3);
+      --link:light-dark(#155ec4,#6ea8ff); --vlink:light-dark(#6d3fb8,#b08fe8);
+      --surface:light-dark(#ffffff,#171d24); --surface-2:light-dark(#eef1f5,#1e2630);
+      --input-bg:light-dark(#ffffff,#1e2630); --border:light-dark(#d8dfe7,#2a3542);
+      --row-even:light-dark(#f7f9fb,#1a212a); --row-hover:light-dark(#e9f1fb,#232d3a);
+      --map-bg:light-dark(#e8ecf1,#0b0e12);
+      --legend-bg:light-dark(rgba(255,255,255,.95),rgba(23,29,36,.95));
+      background:var(--bg);color:var(--ink)}
+    body.modern a{color:var(--link)} body.modern a:visited{color:var(--vlink)}
+    body.modern .masthead .est{color:var(--muted)}
+    body.modern hr.thin{border-top-color:var(--border)}
+    body.modern .controls input,body.modern .controls select{background:var(--input-bg);color:var(--ink);border-color:var(--border)}
+    body.modern .controls button.sec{background:var(--surface-2);border:1px solid var(--border);color:var(--ink)}
+    body.modern #map{border-color:var(--border);background:var(--map-bg)}
+    body.modern .maplabel{color:var(--muted)}
+    body.modern table.nodes{background:var(--surface);border-color:var(--border)}
+    body.modern table.nodes th{background:var(--surface-2);color:var(--muted)}
+    body.modern table.nodes td{border-top-color:var(--border)}
+    body.modern table.nodes tr:nth-child(even) td{background:var(--row-even)}
+    body.modern table.nodes tr.clickable:hover td{background:var(--row-hover)}
+    body.modern .nm{color:var(--ink-strong)} body.modern a.nm{color:var(--link)}
+    body.modern .fnline,body.modern .obsline{color:var(--ink-2)}
+    body.modern .pill{color:var(--muted)}
+    body.modern .maplegend{background:var(--legend-bg);border-color:var(--border);color:var(--ink)}
+    body.modern .chip{background:var(--surface-2);border-color:var(--border);color:var(--ink)}
+    body.modern .chip.off{opacity:.4}
+    body.modern .badge88{border-color:var(--border)}
+    body.modern .foot,body.modern .ring,body.modern .pager{color:var(--muted)}
+  }
 </style>
 </head>
 <body>
@@ -369,11 +410,16 @@ function render(){
   });
   document.getElementById('flayer').onchange=()=>{page=0;render()};
   const themeBtn=document.getElementById('theme');
+  // 2026 follows the OS (prefers-color-scheme); 1999 is light, always.
+  // Local media query only — nothing is stored or sent anywhere.
+  const osDark=matchMedia('(prefers-color-scheme: dark)');
   function applyTheme(t){document.body.classList.toggle('modern',t==='2026');
     themeBtn.textContent='VIEW: '+(t==='2026'?'2026':'1999');
-    setTiles(t==='2026'?'dark':'light');
-    document.documentElement.style.colorScheme=(t==='2026'?'dark':'light'); // native scrollbars/controls follow the skin
+    setTiles(t==='2026'?(osDark.matches?'dark':'light'):'light');
+    document.documentElement.style.colorScheme=(t==='2026'?'light dark':'light'); // CSS light-dark() + native controls follow
     try{localStorage.setItem('gsn_skin',t)}catch(e){}}
+  osDark.addEventListener('change',()=>{ // live OS-theme flips retile the map
+    if(document.body.classList.contains('modern')) setTiles(osDark.matches?'dark':'light');});
   themeBtn.onclick=()=>applyTheme(document.body.classList.contains('modern')?'1999':'2026');
   // 2026 is the face we show the world; 1999 is the soul, kept behind a curtain.
   // Ways in: ?retro=1 (shareable), five quick clicks on the "est." line, or having
