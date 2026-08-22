@@ -32,10 +32,11 @@ phone: 02 4940 8777
 observations:
 - date: 2026-08-22
   method: website
-  fact: brisans.com.au/new-bikes/moto-guzzi live showing Moto Guzzi range; located
-    at 250 Maitland Road, Islington NSW 2296 (Newcastle region); multi-brand authorised
-    dealer; verified 2026-08-22
+  fact: brisans.com.au/new-bikes/moto-guzzi is live showing the Moto Guzzi range.
+    Located at 250 Maitland Road, Islington NSW 2296 (Newcastle region). Multi-brand
+    authorised dealer with 15 brands. Verified 2026-08-22.
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
 status: active
 geocode: city-centroid
+address: 250 Maitland Road, Islington NSW 2296

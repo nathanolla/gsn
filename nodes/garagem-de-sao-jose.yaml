@@ -17,11 +17,11 @@ phone: '296201920'
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''GARAGEM DE
-    SÃO JOSÉ'' (Ponta Delgada), type=dealers,services, dealer code DEALER-PT-41, address
-    PARQUE DINIS DA MOTA 4, 9500-241 Ponta Delgada; source: https://www.motoguzzi.com/pt_PT/dealer-locator/ponta-delgada/garagem-de-são-josé/
-    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
-    verified 2026-08-22'
+  fact: 'Listed on the official Moto Guzzi dealer locator (PT feed) as "GARAGEM DE
+    SÃO JOSÉ" (Ponta Delgada), type dealers/services, dealer code DEALER-PT-41, address
+    Parque Dinis da Mota 4, 9500-241 Ponta Delgada. Source: https://www.motoguzzi.com/pt_PT/dealer-locator/ponta-delgada/garagem-de-são-josé/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores).
+    Verified 2026-08-22.'
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active

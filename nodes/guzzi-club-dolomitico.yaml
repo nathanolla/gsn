@@ -27,7 +27,10 @@ observations:
     ''Ti consiglio anch''io di sentire il guzzi club dolomiti'' and again 2026-02-11
     ''Prova a contattare il moto club dolomitico'' (routing Guzzi riders in Alto Adige/Südtirol)
     — https://forum.animaguzzista.com/viewtopic.php?t=60944'
+- date: 2026-08-22
+  method: website
+  fact: 'pass-2 check: site unreachable (HTTP 403)'
 last_verified: 2026-08-22
 verified_by: italy-community-lane
-status: active
+status: unverified
 geocode: city-centroid

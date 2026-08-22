@@ -14,7 +14,7 @@ functions:
 - sales
 - service
 url: https://scooters.co.uk/
-phone: ''
+phone: 0115 939 2713
 observations:
 - date: 2026-07-06
   method: community-endorsement
@@ -26,3 +26,4 @@ last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active
 geocode: city-centroid
+address: Pasture Road, Stapleford, Nottinghamshire, NG9 8GG

@@ -1,26 +1,35 @@
 id: motosandiego
-name: "Moto San Diego"
-city: "San Marcos"
+name: Moto San Diego
+city: San Marcos
 state: CA
 country: US
 lat: 33.139952
 lon: -117.181437
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, bmw, aprilia, moto-morini]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- bmw
+- aprilia
+- moto-morini
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.motosandiego.com/
-phone: "(760) 520-1288"
+phone: (760) 520-1288
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (San Marcos, CA); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Listed-locator URL bmwmcescondido.com 301-redirects to motosandiego.com; site '\u00c2\u00a92026. Moto San Diego'; warranty info dated 'March 2026'; 2026 model inventory  [source: https://www.motosandiego.com/]"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (San Marcos, CA); verified
+    2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'Formerly BMW Motorcycles of Escondido, now operating as Moto San Diego in
+    San Marcos. Site shows copyright 2026, warranty info dated March 2026, and current
+    2026 model inventory. [source: https://www.motosandiego.com/]'
 last_verified: 2026-07-26
 verified_by: claude
 status: active
+address: 1040 Los Vallecitos Blvd Suite 102, San Marcos, CA 92069

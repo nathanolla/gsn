@@ -21,12 +21,14 @@ phone: 02 40 94 85 19
 observations:
 - date: 2026-08-22
   method: website
-  fact: italiscoot.com live; title « ITALISCOOT concessionnaire Piaggio, Vespa, Gilera,
-    Aprilia et Moto guzzi à Rezé » (21 Guzzi mentions)
+  fact: 'italiscoot.com live; title « ITALISCOOT concessionnaire Piaggio, Vespa, Gilera,
+    Aprilia et Moto guzzi à Rezé (Nantes) (44) ». Address: 129 Rue Des Sorinières,
+    44400 Rezé.'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (API fr/G): ITALISCOOT, 129 Route des Sorinières,
-    44400 Rezé, type=dealers,services, dealerCd FR7S87'
+  fact: 'Official Moto Guzzi FR locator (API fr/G): ITALISCOOT, 129 Route des Sorinières,
+    44400 Rezé, type=dealers,services, dealerCd FR7S87.'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 129 Rue Des Sorinières, 44400 Rezé

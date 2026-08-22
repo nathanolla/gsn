@@ -15,13 +15,14 @@ functions:
 - sales
 - service
 url: https://wendelmotorraeder.de/
-phone: ''
+phone: +49 30 3942054
 observations:
 - date: 2026-08-22
   method: website
-  fact: 'Site live: ''Wendel Motorraeder Berlin'' (https://wendelmotorraeder.de/)
-    with extensive Moto Guzzi content; address Wilsnacker Str. 35, 10559 Berlin stated
-    on site; coordinates geocoded from that stated address.'
+  fact: 'Site live: ''Wendel Motorraeder Berlin'' (https://wendelmotorraeder.de/);
+    address Wilsnacker Str. 35, 10559 Berlin stated on site; coordinates geocoded
+    from that stated address. Note: retail shop closed since end of 2024; workshop
+    continues by appointment (Tom Wener, co-founder).'
 - date: 2026-08-22
   method: website
   fact: Listed in guzzifan.ch directory ('Wendel Motorräder Berlin') and on the guzzi.at
@@ -29,3 +30,4 @@ observations:
 last_verified: 2026-08-22
 verified_by: claude-zai-dach
 status: active
+address: Wilsnacker Str. 35, 10559 Berlin

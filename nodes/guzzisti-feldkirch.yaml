@@ -13,13 +13,14 @@ brands:
 functions:
 - community
 url: https://guzzisti.at/home
-phone: ''
+phone: +43 664 430 99 09
 observations:
 - date: 2026-08-22
   method: website
   fact: 'Club site live: ''Moto Guzzi Motorrad Club Feldkirch | Vorarlberg | Österreich''
-    (https://guzzisti.at/home) with 2026 Programm and 2025 Archiv — active club. No
-    coordinates per knowledge-node doctrine.'
+    (https://guzzisti.at/home) with 2026 Sommerfest and club events through July 2026,
+    plus archived events from 2010-2025 — an active club. No coordinates per knowledge-node
+    doctrine.'
 - date: 2026-08-22
   method: website
   fact: Listed in guzzisti.de clubs directory as 'Guzzisti Feldkirch, 6800 Feldkirch,
@@ -28,3 +29,4 @@ last_verified: 2026-08-22
 verified_by: claude-zai-dach
 status: active
 geocode: city-centroid
+address: Kreuzgasse 7a, 6832 Sulz

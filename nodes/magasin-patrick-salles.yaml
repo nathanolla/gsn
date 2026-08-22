@@ -21,14 +21,15 @@ phone: 05 62 68 82 18
 observations:
 - date: 2026-08-22
   method: website
-  fact: moto-guzzi-32.fr live; title « MAGASIN PATRICK SALLES votre concessionnaire
-    MOTO GUZZI, PIAGGIO, VESPA, APRILIA » (97 Guzzi mentions) — Guzzi-fronted official
-    dealer
+  fact: 'moto-guzzi-32.fr live; title « MAGASIN PATRICK SALLES votre concessionnaire
+    MOTO GUZZI, PIAGGIO, VESPA, APRILIA à LECTOURE (32) ». Address: Zone Industrielle
+    La Couture rue De L''artisanat, 32700 Lectoure.'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (API fr/G): MAGASIN PATRICK SALLES, Zone Industrielle,
+  fact: 'Official Moto Guzzi FR locator (API fr/G): MAGASIN PATRICK SALLES, Zone Industrielle,
     32700 Lectoure, type=dealers,services, dealerCd FRMG0273; sister dealers-only
-    entry at Boé (Lot-et-Garonne, FRMG0273S1)'
+    entry at Boé (Lot-et-Garonne, FRMG0273S1).'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: Zone Industrielle La Couture rue De L'artisanat, 32700 Lectoure

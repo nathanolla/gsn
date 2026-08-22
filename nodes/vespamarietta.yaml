@@ -1,28 +1,36 @@
 id: vespamarietta
-name: "Vespa Marietta"
-city: "Marietta"
+name: Vespa Marietta
+city: Marietta
 state: GA
 country: US
 lat: 33.9511
 lon: -84.5291
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, vespa, piaggio, genuine, royal-enfield]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- vespa
+- piaggio
+- genuine
+- royal-enfield
 functions:
-  - service booking
-  - parts ordering (Piaggio portal)
+- service booking
+- parts ordering (Piaggio portal)
 url: https://www.vespamarietta.com/
-phone: "(770) 420-8787"
+phone: (770) 420-8787
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi dealer locator"
-  - date: 2026-07-26
-    method: website
-    fact: "site live; actively promotes Moto Guzzi financing"
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Moto Guzzi Marietta\" (Marietta, GA); type=dealers; verified 2026-07-26"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi dealer locator.
+- date: 2026-07-26
+  method: website
+  fact: Site live; actively promotes Moto Guzzi financing.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Moto Guzzi Marietta"
+    (Marietta, GA); type=dealers; verified 2026-07-26.
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active
+address: 793 Roswell Street NE, Marietta, GA 30060

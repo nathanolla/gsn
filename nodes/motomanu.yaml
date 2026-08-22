@@ -18,8 +18,9 @@ observations:
 - date: 2026-08-22
   method: official-locator
   fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTOMANU";
-    address: VIA ROMA 161, 30030 SALZANO (VE); type=services; dealerCd=IT479Z; verified
+    address: Via Roma 161, 30030 Salzano (VE); type=services; dealerCd=IT479Z; verified
     via official Piaggio Group dealerlocator API 2026-08-22'
 last_verified: 2026-08-22
 verified_by: claude-it-locator
 status: active
+address: Via Roma 161, 30030 Salzano (VE)

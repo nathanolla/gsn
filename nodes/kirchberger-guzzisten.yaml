@@ -17,10 +17,10 @@ phone: ''
 observations:
 - date: 2026-08-22
   method: website
-  fact: Site live (http://www.guzzi.at/); site meta identifies it as 'Kirchberger
-    Guzzisten' (Kirchberg am Wechsel) and hosts a maintained Moto Guzzi links directory
-    (dealers, specialists, international clubs). No coordinates per knowledge-node
-    doctrine.
+  fact: Site live (http://www.guzzi.at/). The site identifies itself as 'Moto Guzzi
+    Kirchberg' / 'Kirchberger Guzzisten' (Kirchberg am Wechsel) and hosts a maintained
+    Moto Guzzi links directory covering dealers, specialists, and international clubs.
+    No coordinates per knowledge-node doctrine.
 - date: 2026-08-22
   method: website
   fact: Listed in guzzisti.de clubs directory as 'Kirchberger Guzzisten, 2880 Kirchberg

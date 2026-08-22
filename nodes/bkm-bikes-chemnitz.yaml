@@ -22,7 +22,10 @@ observations:
     (snapshot 2026-02-11, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260211130815/https://www.motoguzzi.com/de_DE/dealer-locator/chemnitz/bkm-bikes-handels-gmbh/
     ; bkm-bikes.de exists but is Cloudflare bot-walled (403 on 2026-08-22), identity
     not confirmed on-site'
+- date: 2026-08-22
+  method: website
+  fact: 'pass-2 check: site unreachable (403 Cloudflare bot-wall on bkm-bikes.de)'
 last_verified: 2026-08-22
 verified_by: claude-eu-social
-status: active
+status: unverified
 geocode: city-centroid

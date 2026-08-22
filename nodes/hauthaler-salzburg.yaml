@@ -18,13 +18,14 @@ phone: ''
 observations:
 - date: 2026-08-22
   method: website
-  fact: Dealer Moto Guzzi brand page exists at https://www.2rad-hauthaler.at/de/motorrad-marke-motoguzzi-28
-    (CMS page; front bot-protected to plain HTTP clients, verified via reader proxy);
-    address Moosstraße 52a, 5020 Salzburg; coordinates geocoded from that stated address
-    (OSM POI 'Zweirad Hauthaler').
+  fact: The Moto Guzzi brand page exists at https://www.2rad-hauthaler.at/de/motorrad-marke-motoguzzi-28
+    but the site is bot-protected (403 to plain HTTP clients). Address Moosstraße
+    52a, 5020 Salzburg was captured via a reader proxy on 2026-08-22. Coordinates
+    were geocoded from that address (OSM POI 'Zweirad Hauthaler').
 - date: 2026-08-22
   method: website
   fact: Listed on the guzzi.at links page as '2-Rad Hauthaler' (http://www.guzzi.at/).
 last_verified: 2026-08-22
 verified_by: claude-zai-dach
 status: active
+address: Moosstraße 52a, 5020 Salzburg

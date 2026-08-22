@@ -17,8 +17,9 @@ phone: 06 62 12 68 73
 observations:
 - date: 2026-08-22
   method: website
-  fact: d2k.fr live; title « D2K Atelier moto à Salasc (34 Hérault) », with a motos-realisations
-    section of built/restored bikes
+  fact: 'd2k.fr live; title « D2K Atelier moto à Salasc (34 Hérault) ». Address on
+    site: 7 Rue Des Fontaines, 34800 Salasc. Owner: Tierino Canale. Workshop specializes
+    in maintenance, repair, and restoration of motorcycles from 1980 onward.'
 - date: 2026-07-16
   method: community-endorsement
   fact: 'forumGUZZI.fr independent-mechanics list (viewtopic.php?t=508, mise à jour
@@ -28,3 +29,4 @@ observations:
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 7 Rue Des Fontaines, 34800 Salasc

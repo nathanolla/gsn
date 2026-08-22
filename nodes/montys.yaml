@@ -1,29 +1,45 @@
 id: montys
-name: "Monty's Motorsports"
-city: "Westfield"
+name: Monty's Motorsports
+city: Westfield
 state: MA
 country: US
 lat: 42.140974
 lon: -72.733939
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, aprilia, vespa, ktm, husqvarna, gasgas, cfmoto, suzuki, beta, arctic-cat]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- ktm
+- husqvarna
+- gasgas
+- cfmoto
+- suzuki
+- beta
+- arctic-cat
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.montysmotorsports.com/
-phone: "(413) 642-8199"
+phone: (413) 642-8199
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Westfield, MA); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Own site shows 2026 model-year inventory and Aprilia promotions dated through December 2026  [source: https://www.montysmotorsports.com/]"
-  - date: 2026-07-26
-    method: website
-    fact: "on the official Guzzi locator as a Piaggio-group point; own-site sales lineup does not foreground Moto Guzzi units \u2014 treat as service/order satellite"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (Westfield, MA); verified
+    2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'The site shows 2026 model-year inventory and Aprilia promotions dated through
+    December 2026. [source: https://www.montysmotorsports.com/]'
+- date: 2026-07-26
+  method: website
+  fact: Listed on the official Guzzi locator as a Piaggio-group point. The site's
+    sales lineup does not foreground Moto Guzzi units; treat as a service and order
+    satellite.
 last_verified: 2026-07-26
 verified_by: claude
 status: active
+address: 1 Arch Rd. Suite 8, Westfield, MA 01085

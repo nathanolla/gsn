@@ -1,35 +1,47 @@
 id: cadre
-name: "Cadre Cycle"
-city: "Cincinnati"
+name: Cadre Cycle
+city: Cincinnati
 state: OH
 country: US
 lat: 39.257
 lon: -84.381
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, vespa, piaggio]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- vespa
+- piaggio
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://cadrecycle.com/
-phone: "513-522-7300"
+phone: 513-522-7300
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Own site: 'Cincinnati's premier Moto Guzzi, Vespa, and Piaggio dealership and service center', European-brand specialists at 11121 Deerfield Rd (Blue Ash area), home delivery within 200 miles."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
-  - date: 2026-07-26
-    method: community-endorsement
-    fact: "recommended for Guzzi work by multiple members on wildguzzi.com \u00e2\u0080\u0094 praised for 'Guzzi Dave', a 1970s Guzzi restoration, and 'top notch mechanics', threads of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0) and 2021-11 (https://wildguzzi.com/forum/index.php?topic=112965.0)"
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Cadre Cycle\" (Cincinnati, OH); type=dealers,services; verified 2026-07-26"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; title/description \"Vespa, Piaggio, Moto Guzzi Dealer Cincinnati\"; 2027 V85 reference; copyright 2026; phone matches node"
+- date: 2026-07-26
+  method: website
+  fact: 'Own site: ''Cincinnati''s premier Moto Guzzi, Vespa, and Piaggio dealership
+    and service center'', European-brand specialists at 11121 Deerfield Rd (Blue Ash
+    area), home delivery within 200 miles.'
+- date: 2026-07-26
+  method: official-locator
+  fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
+- date: 2026-07-26
+  method: community-endorsement
+  fact: Recommended for Guzzi work by multiple members on wildguzzi.com — praised
+    for 'Guzzi Dave', a 1970s Guzzi restoration, and 'top notch mechanics', threads
+    of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0) and 2021-11
+    (https://wildguzzi.com/forum/index.php?topic=112965.0).
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Cadre Cycle" (Cincinnati,
+    OH); type=dealers,services; verified 2026-07-26.
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; title/description "Vespa, Piaggio, Moto Guzzi Dealer
+    Cincinnati"; 2027 V85 reference; copyright 2026; phone matches node.'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 11121 Deerfield Rd Ste D, Blue Ash, OH 45242

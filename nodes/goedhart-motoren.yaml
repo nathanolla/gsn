@@ -18,12 +18,13 @@ phone: 0172-650005
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (NL feed) as ''GOEDHART
-    MOTOREN BV'' (BODEGRAVEN), type=dealers,services, dealer code NL2226, address
-    EUROPAWEG 1D, 2411 NE BODEGRAVEN; source: https://www.motoguzzi.com/nl_NL/dealer-locator/bodegraven/goedhart-motoren-bv/
-    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/nl/G/stores);
-    verified 2026-08-22'
+  fact: 'Listed on the official Moto Guzzi dealer locator (NL feed) as "GOEDHART MOTOREN
+    BV" (Bodegraven), type dealers/services, dealer code NL2226, address Europaweg
+    1D, 2411 NE Bodegraven. Source: https://www.motoguzzi.com/nl_NL/dealer-locator/bodegraven/goedhart-motoren-bv/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/nl/G/stores).
+    Verified 2026-08-22.'
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
+address: Europaweg 1D, 2411 NE Bodegraven

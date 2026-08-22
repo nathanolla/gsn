@@ -21,13 +21,16 @@ phone: 01 82 03 00 90
 observations:
 - date: 2026-08-22
   method: website
-  fact: neubauer-piaggiogroup.fr live; title « votre concessionnaire PIAGGIO, VESPA,
-    APRILIA, MOTO GUZZI à CHAMBOURCY (78) et Saint-Denis »
+  fact: 'neubauer-piaggiogroup.fr live; title « votre concessionnaire PIAGGIO, VESPA,
+    APRILIA, MOTO GUZZI à CHAMBOURCY (78) et Saint-Denis (93) ». Address: 29 Route
+    De Mantes, 78240 Chambourcy. Sister site at 233 Boulevard Anatole France, 93200
+    Saint-Denis.'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (API fr/G): NEUBAUER MOTO PASSION, Route de
+  fact: 'Official Moto Guzzi FR locator (API fr/G): NEUBAUER MOTO PASSION, Route de
     Mantes 29, 78240 Chambourcy, type=dealers,services, dealerCd FR7W80S1; separate
-    Saint-Denis (93) branch FR7W80'
+    Saint-Denis (93) branch FR7W80.'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 29 Route De Mantes, 78240 Chambourcy

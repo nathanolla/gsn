@@ -1,29 +1,44 @@
 id: elkgrove
-name: "Elk Grove Powersports, LLC"
-city: "Elk Grove"
+name: Elk Grove Powersports, LLC
+city: Elk Grove
 state: CA
 country: US
 lat: 38.38431
 lon: -121.36935
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, indian, aprilia, ducati, triumph, vespa, piaggio, can-am, sea-doo, cfmoto]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- indian
+- aprilia
+- ducati
+- triumph
+- vespa
+- piaggio
+- can-am
+- sea-doo
+- cfmoto
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.egpowersports.com
-phone: "(916) 714-7223"
+phone: (916) 714-7223
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Elk Grove, CA); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Site loads with 2026 copyright and promotions dated July 1-31 2026  [source: https://www.egpowersports.com]"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; Moto Guzzi among brand keywords; heavy 2026 references and copyright 2026; phone matches node"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (Elk Grove, CA); verified
+    2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'Site loads with 2026 copyright and promotions dated July 1-31 2026. [source:
+    https://www.egpowersports.com]'
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; Moto Guzzi among brand keywords; heavy 2026 references
+    and copyright 2026; phone matches node.'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 10297 E. Stockton Blvd, Elk Grove, CA 95624

@@ -27,11 +27,12 @@ observations:
   fact: 123mc dealer profile lists Køge MC & Båd Center ApS, Falkevej 38, 4600 Køge,
     as authorized dealer of brands including Moto Guzzi, Aprilia, Honda, Piaggio and
     Vespa, https://www.123mc.dk/find-mc-forhandler/koege-mc-amp-baad-center-aps/30,
-    verified 2026-08-22
+    verified 2026-08-22.
 - date: 2026-08-22
   method: website
-  fact: own website mc-center.dk displays Moto Guzzi among represented brand logos,
-    https://mc-center.dk/, verified 2026-08-22
+  fact: Own website mc-center.dk displays Moto Guzzi among represented brand logos,
+    https://mc-center.dk/, verified 2026-08-22.
 last_verified: 2026-08-22
 verified_by: gsn-scandi-balkans-lane
 status: active
+address: Falkevej 38, 4600 Køge

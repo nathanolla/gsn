@@ -18,11 +18,13 @@ phone: 02 31 83 83 00
 observations:
 - date: 2026-08-22
   method: website
-  fact: mary-moto.fr live (title « Mary Moto », 4 Guzzi mentions on page)
+  fact: 'mary-moto.fr live; title « Mary Moto ». Address: Bieville-Beuville, 14118
+    Caen. Phone: 02 52 20 36 95. Moto Guzzi listed among 20 brands.'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (API fr/G): MARY MOTO, P.A. de la Bijude,
-    Bd du Suffolk, 14112 Biéville-Beuville, type=dealers,services, dealerCd FR7Y06'
+  fact: 'Official Moto Guzzi FR locator (API fr/G): MARY MOTO, P.A. de la Bijude,
+    Bd du Suffolk, 14112 Biéville-Beuville, type=dealers,services, dealerCd FR7Y06.'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: P.A. de la Bijude, Bd du Suffolk, 14112 Biéville-Beuville

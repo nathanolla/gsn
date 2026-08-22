@@ -17,12 +17,13 @@ phone: 968 203 100
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (ES feed) as ''CIAO MOTO,
+  fact: 'Listed on the official Moto Guzzi dealer locator (ES feed) as ''CIAO MOTO,
     SL'' (Murcia), type=dealers,services, dealer code ESDAFT, address Avda. del Rocio,
     8, 30007 Murcia; source: https://www.motoguzzi.com/es_ES/dealer-locator/murcia/ciao-moto-sl/
     (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/es/G/stores);
-    verified 2026-08-22'
+    verified 2026-08-22.'
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
+address: Avda. del Rocio, 8, 30007 Murcia

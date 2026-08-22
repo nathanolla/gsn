@@ -1,22 +1,27 @@
 id: europamacchina
-name: "Europa Macchina"
-city: "Lewisberry"
+name: Europa Macchina
+city: Lewisberry
 state: PA
 country: US
 lat: 40.1351
 lon: -76.8594
 layer: independent
-capability: [heritage]
-brands: [moto-guzzi]
+capability:
+- heritage
+brands:
+- moto-guzzi
 functions:
-  - restoration
-  - service
+- restoration
+- service
 url: https://www.europamacchina.com/
-phone: "(717) 932-6600"
+phone: (717) 932-6600
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "europamacchina.com live; business directory data as of March 2026 shows the restoration shop operating with ~6 employees at 501 Industrial Dr, Lewisberry PA"
+- date: 2026-07-26
+  method: website
+  fact: europamacchina.com is live. Business directory data as of March 2026 shows
+    the restoration shop operating with approximately 6 employees at 501 Industrial
+    Drive, Lewisberry, PA.
 last_verified: 2026-07-26
 verified_by: claude-research-sweep
 status: active
+address: 501 Industrial Drive, Lewisberry, PA 17339

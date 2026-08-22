@@ -21,14 +21,15 @@ phone: +48 789 341 539
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: listed on official Moto Guzzi dealer locator, 'Euro Rider, sprzedaż serwis
-    Moto Guzzi pod adresem Katowice', archived snapshot 2025-12-15 at https://web.archive.org/web/20251215142922/https://www.motoguzzi.com/pl_PL/dealer-locator/katowice/euro-rider/
-    (live motoguzzi.com returned 503 on 2026-08-22)
+  fact: Listed on the official Moto Guzzi dealer locator as "Euro Rider, sprzedaż
+    serwis Moto Guzzi pod adresem Katowice". Archived snapshot 2025-12-15 at https://web.archive.org/web/20251215142922/https://www.motoguzzi.com/pl_PL/dealer-locator/katowice/euro-rider/
+    (live motoguzzi.com returned 503 on 2026-08-22).
 - date: 2026-08-22
   method: website
-  fact: 'own site https://eurorider.pl/ (2026): EURORIDER SIKORA KATOWICE Sp. z o.o.,
-    ul. Bocheńskiego 99, 40-847 Katowice; brand range includes ''Piaggio, Aprilia,
-    Moto Guzzi oraz Vespa''; serwis i części +48 789 341 539'
+  fact: 'eurorider.pl is live (2026). The company is EURORIDER SIKORA KATOWICE Sp.
+    z o.o. at ul. Bocheńskiego 99, 40-847 Katowice. Brands carried include Piaggio,
+    Aprilia, Moto Guzzi, and Vespa. Service and parts phone: +48 789 341 539.'
 last_verified: 2026-08-22
 verified_by: gsn-scandi-balkans-lane
 status: active
+address: ul. Bocheńskiego 99, 40-847 Katowice

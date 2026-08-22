@@ -1,32 +1,42 @@
 id: ctx
-name: "CTX Motoworks"
-city: "San Antonio"
+name: CTX Motoworks
+city: San Antonio
 state: TX
 country: US
 lat: 29.554
 lon: -98.607
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, ducati, triumph, mv-agusta]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- ducati
+- triumph
+- mv-agusta
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.ctxmotoworks.com/
-phone: "210-403-2100"
+phone: 210-403-2100
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Own site sells new Triumph, Moto Guzzi, Aprilia and Ducati with a Moto Guzzi current-inventory showroom and demo-bike program; 11007 Fredericksburg Rd."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"CTX Motoworks\" (San Antonio, TX); type=dealers,services; verified 2026-07-26"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; \"new and pre-owned from Triumph, Moto Guzzi, Aprilia and Ducati\"; 2026 references; phone matches node"
+- date: 2026-07-26
+  method: website
+  fact: Own site sells new Triumph, Moto Guzzi, Aprilia and Ducati with a Moto Guzzi
+    current-inventory showroom and demo-bike program; 11007 Fredericksburg Rd.
+- date: 2026-07-26
+  method: official-locator
+  fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "CTX Motoworks" (San
+    Antonio, TX); type=dealers,services; verified 2026-07-26.
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; "new and pre-owned from Triumph, Moto Guzzi, Aprilia
+    and Ducati"; 2026 references; phone matches node.'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 11007 Fredericksburg Road, San Antonio, TX 78249

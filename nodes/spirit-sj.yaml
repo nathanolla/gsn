@@ -1,26 +1,38 @@
 id: spirit-sj
-name: "Spirit Motorcycles San Jose"
-city: "San Jose"
+name: Spirit Motorcycles San Jose
+city: San Jose
 state: CA
 country: US
 lat: 37.3191898
 lon: -121.9133095
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, piaggio, triumph, indian, royal-enfield, can-am]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- triumph
+- indian
+- royal-enfield
+- can-am
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.spiritmotorcycles.com
-phone: "(408) 571-6000"
+phone: (408) 571-6000
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (San Jose, CA); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Own site copyright 2026 with 2026 Triumph Street Triple inventory and 'Moto Guzzi Days' promotion running through July 31, 2026  [source: https://www.spiritmotorcycles.com]"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (San Jose, CA); verified
+    2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'Own site copyright 2026 with current Triumph and Moto Guzzi promotions running
+    through August 2026, including Military & First Responder incentives. [source:
+    https://www.spiritmotorcycles.com]'
 last_verified: 2026-07-26
 verified_by: claude
 status: active
+address: 460 Meridian Avenue, San Jose, CA 95126

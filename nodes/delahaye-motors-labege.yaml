@@ -21,13 +21,16 @@ phone: 05 61 00 20 20
 observations:
 - date: 2026-08-22
   method: website
-  fact: piaggiotoulouse.fr live; title « DELAHAYE MOTORS votre concessionnaire PIAGGIO,
-    VESPA, APRILIA à LABEGE (31) » (13 Guzzi mentions)
+  fact: 'piaggiotoulouse.fr live; title « DELAHAYE MOTORS votre concessionnaire PIAGGIO,
+    VESPA, APRILIA à LABEGE (31) ». Address: 3605 La Lauragaise route De Baziège,
+    31670 Labège. Moto Guzzi listed as a brand. Sister site at Albi (230 Chemin Des
+    2 Voies, 81380 Lescure-d''Albigeois, 05 31 511 115).'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (API fr/G): DELAHAYE MOTORS, 3605 Route de
+  fact: 'Official Moto Guzzi FR locator (API fr/G): DELAHAYE MOTORS, 3605 Route de
     Baziège - La Laugara, 31670 Labège, type=dealers,services, dealerCd FR7U19; dealers-only
-    sister at Lescure-d''Albigeois (81, FR7U19S2)'
+    sister at Lescure-d''Albigeois (81, FR7U19S2).'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 3605 La Lauragaise route De Baziège, 31670 Labège

@@ -1,21 +1,26 @@
 id: tomsitalian
-name: "Tom's Italian Tune and Service"
-city: "Mesa"
+name: Tom's Italian Tune and Service
+city: Mesa
 state: AZ
 country: US
 lat: 33.4152
 lon: -111.8315
 layer: independent
-capability: [full-service, heritage]
-brands: [moto-guzzi, ducati]
+capability:
+- full-service
+- heritage
+brands:
+- moto-guzzi
+- ducati
 functions:
-  - service
+- service
 url: http://www.tomsitaliantuneandservice.com/
-phone: "480-641-3871"
+phone: 480-641-3871
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "tomsitaliantuneandservice.com live with contact page; owner Tom Hull is a factory-trained Ducati and Moto Guzzi technician per current directory listings"
+- date: 2026-07-26
+  method: website
+  fact: tomsitaliantuneandservice.com live with contact page; owner Tom Hull is a
+    factory-trained Ducati and Moto Guzzi technician per current directory listings.
 last_verified: 2026-07-26
 verified_by: claude
 status: active

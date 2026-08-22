@@ -18,10 +18,12 @@ phone: 0032(0)64232872
 observations:
 - date: 2026-08-22
   method: website
-  fact: renga.be/point-de-vente/ live (page resolves; Renga motos point-de-vente listing)
+  fact: renga.be is live but has transitioned to a Stellantis platform page. The page
+    shows location selectors for "Renga & Chif - La Louvière" and "Renga & Chif -
+    Gilly" but no street address is displayed.
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi BE locator (API be/G): GARAGE RENGA & CHIF SA, Rue des
+  fact: 'Official Moto Guzzi BE locator (API be/G): GARAGE RENGA & CHIF SA, Rue des
     Sapeurs-Pompiers 1, 7100 La Louvière, type=dealers,services, rl@motorenga.be'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane

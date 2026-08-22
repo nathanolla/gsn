@@ -17,12 +17,13 @@ phone: '663986953'
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (ES feed) as ''Lolamoto
+  fact: 'Listed on the official Moto Guzzi dealer locator (ES feed) as ''Lolamoto
     Vigo'' (Vigo), type=dealers,services, dealer code ES0032S3, address Rua de Pontevedra,
     1 Santiago de Vigo, 36201 Vigo; source: https://www.motoguzzi.com/es_ES/dealer-locator/vigo/lolamoto-vigo/
     (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/es/G/stores);
-    verified 2026-08-22'
+    verified 2026-08-22.'
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
+address: Rua de Pontevedra 1, Santiago de Vigo, 36201 Vigo

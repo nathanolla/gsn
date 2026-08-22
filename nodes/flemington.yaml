@@ -1,26 +1,35 @@
 id: flemington
-name: "Flemington Powersports"
-city: "Flemington"
+name: Flemington Powersports
+city: Flemington
 state: NJ
 country: US
 lat: 40.50015
 lon: -74.855187
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, can-am, polaris, landmaster]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- can-am
+- polaris
+- landmaster
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.flemingtonpowersports.com/
-phone: "(908) 237-0099"
+phone: (908) 237-0099
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Flemington, NJ); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "MotoHunt lists 13 current Moto Guzzi motorcycles including 2026 model-year units; recent TikTok product tours of current Aprilia inventory  [source: https://html.duckduckgo.com/html/?q=Flemington+Powersports+Flemington+NJ+Moto+Guzzi+Aprilia+dealer+reviews]"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (Flemington, NJ); verified
+    2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'MotoHunt lists 13 current Moto Guzzi motorcycles including 2026 model-year
+    units. Recent TikTok product tours show current Aprilia inventory. [source: https://html.duckduckgo.com/html/?q=Flemington+Powersports+Flemington+NJ+Moto+Guzzi+Aprilia+dealer+reviews]'
 last_verified: 2026-07-26
 verified_by: claude
 status: active
+address: 300 Route 202, Flemington, NJ 08822

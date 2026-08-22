@@ -18,10 +18,10 @@ phone: ''
 observations:
 - date: 2025-06-24
   method: official-locator
-  fact: 'official Moto Guzzi dealer-locator page for ''il-moto-parndorf'' (snapshot
+  fact: 'Official Moto Guzzi dealer-locator page for ''il-moto-parndorf'' (snapshot
     2025-06-24, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20250624194930/https://www.motoguzzi.com/at_DE/dealer-locator/parndorf/il-moto-parndorf/
-    ; ilmoto.at exists but is Cloudflare bot-walled (403 on 2026-08-22), identity
-    not confirmed on-site'
+    . The site ilmoto.at exists but returns 403 (Cloudflare bot-walled) as of 2026-08-22,
+    so identity could not be confirmed on-site.'
 last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active

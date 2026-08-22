@@ -1,29 +1,45 @@
 id: blackmans
-name: "Blackmans Cycle"
-city: "Emmaus"
+name: Blackmans Cycle
+city: Emmaus
 state: PA
 country: US
 lat: 40.5393
 lon: -75.4966
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, aprilia, vespa, piaggio, honda, yamaha, suzuki, can-am, royal-enfield, cfmoto, kymco]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+- honda
+- yamaha
+- suzuki
+- can-am
+- royal-enfield
+- cfmoto
+- kymco
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.blackmanscycle.com/
-phone: "610-965-9865"
+phone: 610-965-9865
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "70-year, 18-brand family dealership; own site has current Moto Guzzi inventory pages, Moto Guzzi promotions page, and a Moto Guzzi Demo Tour event listing."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Blackmans Cycle Center in Emmaus, PA\" (Emmaus, PA); type=dealers,services; verified 2026-07-26"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; Moto Guzzi inventory link and promotional slideshow; 2027 model-year references; copyright 2026; phone matches node"
+- date: 2026-07-26
+  method: website
+  fact: 70-year, 18-brand family dealership; own site has current Moto Guzzi inventory
+    pages, Moto Guzzi promotions page, and a Moto Guzzi Demo Tour event listing
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Blackmans Cycle Center
+    in Emmaus, PA" (Emmaus, PA); type=dealers,services; verified 2026-07-26
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; Moto Guzzi inventory link and promotional slideshow;
+    2027 model-year references; copyright 2026; phone matches node'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 4911 Buckeye Road, Emmaus, PA 18049

@@ -17,10 +17,11 @@ phone: 051-525751
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTORFELSINEA
-    SRL"; address: VIA MALVASIA, 26/a, 40131 BOLOGNA (BO); type=services; dealerCd=ITB902;
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "Motorfelsinea
+    S.r.l."; address: Via Malvasia, 26/a, 40131 Bologna (BO); type=services; dealerCd=ITB902;
     website: http://www.motorfelsinea.it/piaggio/; verified via official Piaggio Group
     dealerlocator API 2026-08-22'
 last_verified: 2026-08-22
 verified_by: claude-it-locator
 status: active
+address: Via Malvasia, 26, 40131 Bologna (BO)

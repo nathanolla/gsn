@@ -1,28 +1,45 @@
 id: d2
-name: "D2 Powersports Greer"
-city: "Greer"
+name: D2 Powersports Greer
+city: Greer
 state: SC
 country: US
 lat: 34.9181
 lon: -82.2372
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, aprilia, vespa, piaggio, ducati, triumph, bmw, indian, polaris, slingshot, royal-enfield, cfmoto]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+- ducati
+- triumph
+- bmw
+- indian
+- polaris
+- slingshot
+- royal-enfield
+- cfmoto
 functions:
-  - service booking
-  - PADS diagnostics
+- service booking
+- PADS diagnostics
 url: https://www.d2powersports-greer.com/
-phone: "(864) 879-2119"
+phone: (864) 879-2119
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "operating as D2 Powersports Greer; states it is the only SC dealer for Aprilia/Moto Guzzi/Vespa/Piaggio"
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"D2 Powersports\" (Greer, SC); type=dealers,services; verified 2026-07-26"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; Moto Guzzi brand slide and in-stock inventory link; phone matches node"
+- date: 2026-07-26
+  method: website
+  fact: Operating as D2 Powersports Greer; states it is the only SC dealer for Aprilia/Moto
+    Guzzi/Vespa/Piaggio.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "D2 Powersports" (Greer,
+    SC); type=dealers,services; verified 2026-07-26.
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; Moto Guzzi brand slide and in-stock inventory link;
+    phone matches node.'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 1700 S Hwy 14, Greer, SC 29650

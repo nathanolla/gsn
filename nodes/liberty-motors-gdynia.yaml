@@ -16,13 +16,15 @@ url: https://libertymotors.pl/
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: listed on official Moto Guzzi dealer locator, 'Liberty Motors Gdynia, sprzedaż
-    serwis Moto Guzzi pod adresem Gdynia', archived snapshot 2025-12-14 at https://web.archive.org/web/20251214173954/https://www.motoguzzi.com/pl_PL/dealer-locator/gdynia/liberty-motors-gdynia/
-    (live motoguzzi.com returned 503 on 2026-08-22)
+  fact: Listed on the official Moto Guzzi dealer locator as "Liberty Motors Gdynia,
+    sprzedaż serwis Moto Guzzi pod adresem Gdynia". Archived snapshot 2025-12-14 at
+    https://web.archive.org/web/20251214173954/https://www.motoguzzi.com/pl_PL/dealer-locator/gdynia/liberty-motors-gdynia/
+    (live motoguzzi.com returned 503 on 2026-08-22).
 - date: 2026-08-22
   method: website
-  fact: Liberty Motors dealer-group site live at https://libertymotors.pl/ (2026),
-    title 'Twoje nowe doświadczenie jazdy na motocyklu | Liberty Motors'
+  fact: libertymotors.pl is live (2026). The page title reads "Twoje nowe doświadczenie
+    jazdy na motocyklu | Liberty Motors". The site is a JavaScript single-page application;
+    no street address was extractable from the rendered content.
 last_verified: 2026-08-22
 verified_by: gsn-scandi-balkans-lane
 status: active

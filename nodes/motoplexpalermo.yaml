@@ -21,10 +21,11 @@ phone: ''
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: listed on the official Moto Guzzi Argentina dealer page at motoguzzioficial.com.ar/concesionarios/
-    as a Moto Guzzi concessionnaire in Palermo, Buenos Aires CABA; address Federico
-    Lacroze 3335; verified 2026-08-22
+  fact: Listed on the official Moto Guzzi Argentina dealer page at motoguzzioficial.com.ar/concesionarios/
+    as a Moto Guzzi concessionnaire in Palermo, Buenos Aires CABA at Av. Federico
+    Lacroze 3335, Capital Federal. Verified 2026-08-22.
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
 status: active
 geocode: city-centroid
+address: Av. Federico Lacroze 3335, Palermo, Capital Federal

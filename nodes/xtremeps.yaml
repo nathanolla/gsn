@@ -1,26 +1,40 @@
 id: xtremeps
-name: "Xtreme Powersports & Marine"
-city: "Accident"
+name: Xtreme Powersports & Marine
+city: Accident
 state: MD
 country: US
 lat: 39.6287
 lon: -79.3195
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, aprilia, vespa, arctic-cat, beta]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- arctic-cat
+- beta
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.xps-usa.com/
-phone: "(800) 967-7738"
+phone: (800) 967-7738
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Own site lists Aprilia/Vespa/Moto Guzzi among brands with current new inventory incl. 2025 V85 TT and 2025 Stelvio; 418 S Main St."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Xtreme Powersports-Marine\" (Accident, MD); type=dealers,services; verified 2026-07-26"
+- date: 2026-07-26
+  method: website
+  fact: Own site lists Aprilia, Beta, and Moto Guzzi among brands with current new
+    inventory including 2025 V85 TT and 2025 Stelvio; located at 418 S Main St.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Xtreme Powersports-Marine"
+    (Accident, MD); type=dealers,services; verified 2026-07-26.
+- date: 2026-08-22
+  method: website
+  fact: Pass-2 site check confirmed the address as 418 S. Main St, Accident, MD 21520
+    and the phone as (800) 967-7738. Homepage promotes Aprilia and Moto Guzzi with
+    current financing offers.
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active
+address: 418 S. Main St, Accident, MD 21520

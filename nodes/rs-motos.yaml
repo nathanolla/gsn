@@ -18,12 +18,18 @@ phone: 282 764 947
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''R&S MOTOS''
+  fact: 'Listed on the official Moto Guzzi dealer locator (PT feed) as ''R&S MOTOS''
     (Lagos), type=dealers,services, dealer code DEALER-PT-30, address Urbanização
-    Parque do Pinheiral, Lote 16, 8600-306  Lagos; source: https://www.motoguzzi.com/pt_PT/dealer-locator/lagos/rs-motos/
+    Parque do Pinheiral, Lote 16, 8600-306 Lagos; source: https://www.motoguzzi.com/pt_PT/dealer-locator/lagos/rs-motos/
     (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
     verified 2026-08-22'
+- date: 2026-08-22
+  method: website
+  fact: Own site contacts section shows address as "Parque Industrial do Pinheiral,
+    Lote 16 Chincato, Lagos" (no postcode displayed on site); phone 282764947; email
+    geral@rsmotos.pt; hours Seg-Sex 9:00-13:00 and 15:00-19:00; verified 2026-08-22
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
+address: Parque Industrial do Pinheiral, Lote 16 Chincato, Lagos

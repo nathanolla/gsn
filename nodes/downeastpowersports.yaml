@@ -24,15 +24,16 @@ phone: 506-635-1223
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: listed on the official Moto Guzzi Canada dealer locator at motoguzzi.com/ca_EN/dealer-locator/saint-john/down-east-powersports/
-    and on piaggio.com/ca_EN/dealer-locator as authorised dealer in Saint John NB;
-    verified 2026-08-22
+  fact: Listed on the official Moto Guzzi Canada dealer locator at motoguzzi.com/ca_EN/dealer-locator/saint-john/down-east-powersports/
+    and on piaggio.com/ca_EN/dealer-locator as an authorised dealer in Saint John
+    NB.
 - date: 2026-08-22
   method: website
-  fact: downeastpowersports.ca live; address 1230 Fairville Blvd, Saint John NB E2M
-    5T7; phone 506-635-1223; stocks Polaris, Honda, Piaggio, Aprilia, Vespa and Moto
-    Guzzi; new and used inventory; verified 2026-08-22
+  fact: downeastpowersports.ca is live. Address 1230 Fairville Blvd, Saint John NB
+    E2M 5T7; phone 506-635-1223. Stocks Polaris, Honda, Piaggio, Aprilia, Vespa, and
+    Moto Guzzi. New and used inventory available.
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
 status: active
 geocode: city-centroid
+address: 1230 Fairville Blvd, Saint John, NB E2M 5T7

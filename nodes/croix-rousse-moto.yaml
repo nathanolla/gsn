@@ -17,12 +17,14 @@ phone: 09 82 43 34 70
 observations:
 - date: 2026-08-22
   method: website
-  fact: croixroussemoto.fr live; title « Croix Rousse Moto – Garage Moto Lyon »
+  fact: 'croixroussemoto.fr live; title « Croix Rousse Moto – Garage Moto Lyon ».
+    Address on site: 16 rue des Tables Claudiennes, 69001 Lyon.'
 - date: 2026-07-16
   method: community-endorsement
   fact: 'forumGUZZI.fr independent-mechanics list (viewtopic.php?t=508, mise à jour
-    16/07/2026), dept 69: CROIX ROUSSE MOTO, 16 Rue des Tables Claudiennes 69004 Lyon;
-    lat/lon geocoded from stated address (Nominatim)'
+    16/07/2026), dept 69: CROIX ROUSSE MOTO, 16 Rue des Tables Claudiennes 69004 Lyon
+    (note: website shows 69001, not 69004); lat/lon geocoded from stated address (Nominatim)'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 16 rue des Tables Claudiennes, 69001 Lyon

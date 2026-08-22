@@ -1,26 +1,34 @@
 id: proitalia
-name: "Pro Italia"
-city: "Glendale"
+name: Pro Italia
+city: Glendale
 state: CA
 country: US
 lat: 34.199
 lon: -118.2291
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, ducati]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- ducati
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.proitalia.com/
-phone: "(818) 249-5707"
+phone: (818) 249-5707
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Selling Italian bikes since 1987; own site runs current Moto Guzzi inventory showroom and US Moto Guzzi promotions pages serving greater Los Angeles."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Pro Italia Motors, Inc.\" (Glendale, CA); type=dealers,services; verified 2026-07-26"
+- date: 2026-07-26
+  method: website
+  fact: Selling Italian bikes since 1987. Own site runs current Moto Guzzi inventory
+    showroom (2027 V100 Mandello S in stock) and US Moto Guzzi promotions pages serving
+    greater Los Angeles. Also carries Aprilia and Ducati.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Pro Italia Motors,
+    Inc." (Glendale, CA); type=dealers,services; verified 2026-07-26.
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active
+address: 3319 North Verdugo Rd., Glendale, CA 91208

@@ -16,7 +16,7 @@ functions:
 - sales
 - service
 url: https://www.american-bikes.it/
-phone: ''
+phone: 0471 678060
 observations:
 - date: 2026-08-22
   method: website
@@ -32,3 +32,4 @@ last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active
 geocode: city-centroid
+address: Handwerkerzone 13 zona artigianale, 39052 Caldaro sulla Strada del Vino (BZ)

@@ -1,29 +1,45 @@
 id: mountainps
-name: "Mountain Powersports"
-city: "Ellijay"
+name: Mountain Powersports
+city: Ellijay
 state: GA
 country: US
 lat: 34.6948
 lon: -84.4822
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, cfmoto, segway, beta, hisun, ssr, thumpstar]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- cfmoto
+- segway
+- beta
+- hisun
+- ssr
+- thumpstar
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.mountainpowersports.net/
-phone: "706-636-5222"
+phone: 706-636-5222
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Own site runs 'Moto Guzzi Days' promotional content indicating a Guzzi franchise, but primary lines are CFMOTO/Segway/Beta; Guzzi stocking depth unconfirmed."
-  - date: 2026-07-26
-    method: website
-    fact: "in-stock inventory search lists a 2027 Moto Guzzi (homepage brand roster omits Guzzi but the inventory carries it): mountainpowersports.net/search/inventory/availability/In Stock/brand/Moto Guzzi"
-  - date: 2026-07-26
-    method: official-locator
-    fact: "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise \u2014 treat franchise status as unconfirmed)"
+- date: 2026-07-26
+  method: website
+  fact: Own site runs 'Moto Guzzi Days' promotional content indicating a Guzzi franchise,
+    but primary lines are CFMOTO/Segway/Beta; Guzzi stocking depth unconfirmed.
+- date: 2026-07-26
+  method: website
+  fact: 'In-stock inventory search lists a 2027 Moto Guzzi (homepage brand roster
+    omits Guzzi but the inventory carries it): mountainpowersports.net/search/inventory/availability/In
+    Stock/brand/Moto Guzzi'
+- date: 2026-07-26
+  method: official-locator
+  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may
+    be onboarding, a satellite listing, or a dropped franchise — treat franchise status
+    as unconfirmed).
+- date: 2026-08-22
+  method: website
+  fact: 'pass-2 check: site unreachable (HTTP 403 bot-protection block on all attempts)'
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
-status: active
+status: unverified

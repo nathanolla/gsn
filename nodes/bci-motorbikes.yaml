@@ -20,15 +20,16 @@ phone: +31 73 511 6900
 observations:
 - date: 2026-08-22
   method: website
-  fact: 'bci.nl live: ''Uw Moto Guzzi specialist sinds 1982'' — workshop, restorations/projects
-    and parts webshop; Grote Kerk 10, 5251 AA Vlijmen; lat/lon placeholders (0.0)
-    — not geocoded'
+  fact: bci.nl is live. The site describes BCI as "Uw Moto Guzzi specialist sinds
+    1982" and offers workshop services, restoration projects, and a parts webshop
+    at Grote Kerk 10, 5251 AA Vlijmen.
 - date: 2026-08-22
   method: community-endorsement
-  fact: listed in Moto Guzzi Club Nederland's dealer POI database as a previous Guzzi
-    dealer still operating (https://www.mgcn.nl/database/guzzi-dealers-gps)
+  fact: Listed in Moto Guzzi Club Nederland''s dealer POI database as a previous Guzzi
+    dealer still operating (https://www.mgcn.nl/database/guzzi-dealers-gps).
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
 geocode: city-centroid
+address: Grote Kerk 10, 5251 AA Vlijmen

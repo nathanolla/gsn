@@ -21,16 +21,16 @@ phone: 06-900-6789-09
 observations:
 - date: 2026-08-22
   method: website
-  fact: 'tlm.nl live, site title: ''TLM Nijmegen: Triumph & CFMoto motor dealer en
-    onafhankelijk Moto Guzzi specialist.'' — independent (non-franchise) Moto Guzzi
-    specialist with Moto Guzzi section incl. Onderdeelboeken (parts books) and Service
-    & Onderhoud; socials facebook.com/TLMNijmegen and instagram.com/tlmnijmegen.wkw'
+  fact: 'tlm.nl is live. The site title reads "TLM Nijmegen: Triumph & CFMoto motor
+    dealer en onafhankelijk Moto Guzzi specialist." TLM is an independent (non-franchise)
+    Moto Guzzi specialist with a dedicated Moto Guzzi section including parts books
+    and service/maintenance. Socials: facebook.com/TLMNijmegen and instagram.com/tlmnijmegen.wkw.'
 - date: 2021-02-25
   method: official-locator
-  fact: 'TLM was listed on the official Moto Guzzi dealer-locator under Nijmegen in
+  fact: 'TLM was listed on the official Moto Guzzi dealer locator under Nijmegen in
     2021 (snapshot, accessed 2026-08-22): https://web.archive.org/web/20210225220302/https://www.motoguzzi.com/nl_NL/dealer-locator/nijmegen/tlm/
-    ; current site self-describes as independent specialist — franchise status appears
-    ended, layer set accordingly'
+    The current site self-describes as an independent specialist, so the franchise
+    status appears to have ended; layer set accordingly.'
 last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active

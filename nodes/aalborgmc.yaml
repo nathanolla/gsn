@@ -27,11 +27,13 @@ observations:
   fact: 123mc dealer profile lists Aalborg MC ApS, Hjørringvej 125, 9400 Nørresundby,
     as 'Autoriseret forhandler af Aprilia, Ducati, Kawasaki, Moto Guzzi, Piaggio,
     Triumph, Vespa', https://www.123mc.dk/find-mc-forhandler/aalborg-mc-aps/80816,
-    verified 2026-08-22
+    verified 2026-08-22. Contact page on just-ride.nu confirms same address and phone
+    72300433.
 - date: 2026-08-22
   method: website
-  fact: dealer website just-ride.nu offers 'Nye Moto Guzzi Motorcykler', https://just-ride.nu/,
-    verified 2026-08-22
+  fact: Dealer website just-ride.nu offers 'Nye Moto Guzzi Motorcykler', https://just-ride.nu/,
+    verified 2026-08-22.
 last_verified: 2026-08-22
 verified_by: gsn-scandi-balkans-lane
 status: active
+address: Hjørringvej 125, 9400 Nørresundby

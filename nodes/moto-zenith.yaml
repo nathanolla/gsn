@@ -18,11 +18,13 @@ phone: 085-845012
 observations:
 - date: 2026-08-22
   method: website
-  fact: motozenith.be live (11 Guzzi mentions on homepage)
+  fact: motozenith.be is live. Multiple Moto Guzzi models are featured on the homepage
+    including the Stelvio Duecento Tributo.
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi BE locator (API be/G): MOTO ZENITH SRL, Chaussée d''Andenne
+  fact: 'Official Moto Guzzi BE locator (API be/G): MOTO ZENITH SRL, Chaussée d''Andenne
     8, 4500 Ben-Ahin (Huy), type=dealers,services'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: Chaussée d'Andenne 8, 4500 Ben-Ahin

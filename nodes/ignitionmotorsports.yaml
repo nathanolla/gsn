@@ -23,11 +23,11 @@ phone: 250-510-8844
 observations:
 - date: 2026-08-22
   method: website
-  fact: ignitionmotorsports.ca/pages/moto-guzzi live as authorised Moto Guzzi retailer
-    in Duncan BC; address 277 Government St, Duncan BC; phone (250) 510-8844; carries
-    Aprilia, Moto Guzzi, CFMOTO, Talaria, Fantic plus karts and used powersports;
-    verified 2026-08-22
+  fact: ignitionmotorsports.ca is live as an authorised Moto Guzzi retailer in Duncan
+    BC. Address 277 Government St, Duncan BC; phone (250) 510-8844. Carries Aprilia,
+    Moto Guzzi, CFMOTO, Talaria, and Fantic, plus karts and used powersports.
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
 status: active
 geocode: city-centroid
+address: 277 Government St, Duncan, BC

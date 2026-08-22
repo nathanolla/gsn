@@ -19,13 +19,14 @@ phone: 05 59 55 87 48
 observations:
 - date: 2026-08-22
   method: website
-  fact: esprit-moto-guzzi.fr live; title « ESPRIT MOTO votre concessionnaire MOTO
-    GUZZI, APRILIA à ST PIERRE D'IRUBE (64) » (89 Guzzi mentions)
+  fact: 'esprit-moto-guzzi.fr live; title « ESPRIT MOTO votre concessionnaire MOTO
+    GUZZI, APRILIA à ST PIERRE D''IRUBE (64) ». Address: 1 Rue Urgain, 64990 Saint-Pierre-d''Irube.'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (motoguzzi.com/fr_FR/dealer-locator/, API
+  fact: 'Official Moto Guzzi FR locator (motoguzzi.com/fr_FR/dealer-locator/, API
     fr/G): ESPRIT MOTO, Rue Urgain 1, 64990 Saint-Pierre-d''Irube, type=dealers,services,
-    dealerCd FRMG0111'
+    dealerCd FRMG0111.'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 1 Rue Urgain, 64990 Saint-Pierre-d'Irube

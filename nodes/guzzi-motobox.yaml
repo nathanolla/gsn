@@ -21,14 +21,15 @@ observations:
 - date: 2026-08-22
   method: website
   fact: 'guzzimotobox.com live: dedicated Moto Guzzi / classic-bike specialist 25+
-    years (restoration, preparation, parts, imports); Pol. Ind. la Ravaleta 12, 43520
-    Roquetes (Tortosa), Tarragona; lat/lon placeholders (0.0) — not geocoded'
+    years (restoration, preparation, parts, imports); address Pol. Ind. la Ravaleta
+    12, 43520 Roquetes (Tortosa), Tarragona confirmed on site; phone +34 977 445 663.'
 - date: 2026-08-22
   method: community-endorsement
-  fact: 'recommended in pinned Guzzistas club list and dedicated praise threads (''un
+  fact: 'Recommended in pinned Guzzistas club list and dedicated praise threads (''un
     taller de la ostia... De 10''): https://guzzistas.mforos.com/652460/11812891-para-los-que-no-aun-no-conoceis-guzzi-motobox/'
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
 geocode: city-centroid
+address: Pol. Ind. la Ravaleta 12, 43520 Roquetes

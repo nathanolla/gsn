@@ -22,7 +22,7 @@ observations:
   method: website
   fact: 'nonsolomoto.it live 2026-08-22: ''NONSOLOMOTO - Officina Moto Venturina Terme
     | Centro Assistenza Piaggio, Aprilia, Moto Guzzi'', Via della Monaca 16 D/E, 57021
-    Venturina Terme (LI)'
+    Venturina Terme (LI), tel 0565.852754, mobile 320.1529468'
 - date: 2026-08-22
   method: community-endorsement
   fact: 'Anima Guzzista thread 2024-07-25: TODD ''Sulla costa sicuramente il nome
@@ -37,3 +37,4 @@ observations:
 last_verified: 2026-08-22
 verified_by: italy-community-lane
 status: active
+address: Via della Monaca, 16 D/E, 57021 Venturina Terme (LI)

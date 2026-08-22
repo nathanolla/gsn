@@ -1,26 +1,37 @@
 id: scuderia
-name: "Scuderia West"
-city: "San Francisco"
+name: Scuderia West
+city: San Francisco
 state: CA
 country: US
 lat: 37.7591
 lon: -122.3837
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, ktm, kove, piaggio, royal-enfield, vespa]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- ktm
+- kove
+- piaggio
+- royal-enfield
+- vespa
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.scuderiawest.com/
-phone: ""
+phone: +1-415-621-7223
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Open since 1991; own site lists Moto Guzzi among authorized franchises (with Aprilia, KTM, Kove, Piaggio, Royal Enfield, Vespa) \u00e2\u0080\u0094 the Bay Area's Guzzi point."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Scuderia West\" (San Francisco, CA); type=dealers,services; verified 2026-07-26"
+- date: 2026-07-26
+  method: website
+  fact: Open since 1991; own site lists Moto Guzzi among authorized franchises (with
+    Aprilia, KTM, Kove, Piaggio, Royal Enfield, Vespa) — the Bay Area's Guzzi point.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Scuderia West" (San
+    Francisco, CA); type=dealers,services; verified 2026-07-26.
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: unverified
+address: 1070 Maryland St, Suite 112, Pier 70 Bldg 12, San Francisco, CA 94107

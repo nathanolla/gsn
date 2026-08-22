@@ -1,25 +1,33 @@
 id: combustion
-name: "Combustion Cycles Ltd"
-city: "Durham"
+name: Combustion Cycles Ltd
+city: Durham
 state: NC
 country: US
 lat: 36.0073
 lon: -78.8824
 layer: independent
-capability: [full-service]
-brands: [ducati, bmw, triumph]
+capability:
+- full-service
+brands:
+- ducati
+- bmw
+- triumph
 functions:
-  - independent European service
-  - machine work
+- independent European service
+- machine work
 url: https://www.combustioncycles.com/
-phone: "(919) 688-5009"
+phone: (919) 688-5009
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "site live; lists European service and in-house machining; no Moto Guzzi statement found"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; WordPress media uploaded May 2025; phone 919-688-5009 matches; still no Moto Guzzi mention anywhere on own site — node kept as Durham-area European service option, scope question flagged to maintainer"
+- date: 2026-07-26
+  method: website
+  fact: Site live; lists European service and in-house machining; no Moto Guzzi statement
+    found.
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; WordPress media uploaded May 2025; phone 919-688-5009
+    matches; still no Moto Guzzi mention anywhere on own site — node kept as Durham-area
+    European service option, scope question flagged to maintainer.'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 911-C East Trinity Avenue, Durham, NC 27704

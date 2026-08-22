@@ -17,9 +17,10 @@ phone: '3387402934'
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTORBIKE DI
-    FRANCO RE"; address: Via Carlo Tenca, 4, 46019 Viadana (MN); type=services; dealerCd=IT201M;
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "Motorbike di
+    Franco Re"; address: Via Carlo Tenca, 4, 46019 Viadana (MN); type=services; dealerCd=IT201M;
     verified via official Piaggio Group dealerlocator API 2026-08-22'
 last_verified: 2026-08-22
 verified_by: claude-it-locator
 status: active
+address: Via Carlo Tenca, 4, 46019 Viadana (MN)

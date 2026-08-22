@@ -1,26 +1,37 @@
 id: kissell
-name: "Kissell Motorsports"
-city: "Tyrone"
+name: Kissell Motorsports
+city: Tyrone
 state: PA
 country: US
 lat: 40.6706
 lon: -78.2386
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, bmw, beta, zero, ural, kove]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- bmw
+- beta
+- zero
+- ural
+- kove
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.kissellmotorsports.com/
-phone: "814-861-7890"
+phone: 814-861-7890
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Own site says 'Your Moto Guzzi Dealer' with V7/V9/V85TT/Mandello/Stelvio inventory; content dated March 2026 and July 2026 event notice, copyright 2026."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Adventure Motorsports, LLC\" (Tyrone, PA); type=dealers,services; verified 2026-07-26"
+- date: 2026-07-26
+  method: website
+  fact: Own site says 'Your Moto Guzzi Dealer' with V7/V9/V85TT/Mandello/Stelvio inventory.
+    Content dated March 2026 and July 2026 event notice, copyright 2026.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Adventure Motorsports,
+    LLC" (Tyrone, PA); type=dealers,services; verified 2026-07-26.
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active
+address: 5165 E Pleasant Valley Boulevard, Tyrone, PA 16686

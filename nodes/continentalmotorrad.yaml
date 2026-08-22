@@ -27,11 +27,11 @@ phone: 09 956 3841
 observations:
 - date: 2026-08-22
   method: website
-  fact: continentalmotorrad.co.nz/stock-search/moto-guzzi/ live showing Moto Guzzi
-    motorcycles for sale in Auckland and Wellington; Auckland sales 09 956 3841, service
-    021 224 3649, parts 09 488 2000; Wellington sales 04 499 9030; multi-brand dealer
-    carrying BMW, Ducati, Honda, Indian, Kawasaki, Moto Guzzi, Suzuki, Triumph, Vespa;
-    verified 2026-08-22
+  fact: 'continentalmotorrad.co.nz is live. The site shows Moto Guzzi motorcycles
+    for sale in Auckland and Wellington. Auckland: sales 09 956 3841, service 021
+    224 3649, parts 09 488 2000. Wellington: sales 04 499 9030. Multi-brand dealer
+    carrying BMW, Ducati, Honda, Indian, Kawasaki, Moto Guzzi, Suzuki, Triumph, and
+    Vespa. Verified 2026-08-22.'
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
 status: active

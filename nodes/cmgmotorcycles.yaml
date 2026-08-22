@@ -19,11 +19,15 @@ observations:
 - date: 2026-08-22
   method: official-locator
   fact: Moto Guzzi New Zealand official site motoguzzi.com/nz_EN/ lists CMG Motorcycles
-    as the Moto Guzzi dealer in Christchurch; verified 2026-08-22
+    as the Moto Guzzi dealer in Christchurch. Verified 2026-08-22.
 - date: 2026-08-22
   method: website
-  fact: cmgmotorcycles.co.nz/moto-guzzi page live; verified 2026-08-22
+  fact: cmgmotorcycles.co.nz/moto-guzzi page live. Verified 2026-08-22.
+- date: 2026-08-22
+  method: website
+  fact: 'pass-2 check: site unreachable (HTTP 403 Forbidden on both /moto-guzzi and
+    root / — server blocks automated requests)'
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
-status: active
+status: unverified
 geocode: city-centroid

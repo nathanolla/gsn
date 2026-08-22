@@ -13,7 +13,7 @@ brands:
 functions:
 - service
 url: https://www.rpmbikes.co.uk/
-phone: ''
+phone: 07979 153900
 observations:
 - date: 2026-08-22
   method: website
@@ -29,3 +29,4 @@ last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active
 geocode: city-centroid
+address: Unit 6 Bozenham Mill Farm, Bozenham Mill Lane, Ashton, Northampton, NN7 2JW

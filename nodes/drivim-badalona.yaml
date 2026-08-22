@@ -18,12 +18,13 @@ phone: '930500267'
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (ES feed) as ''Drivim''
+  fact: 'Listed on the official Moto Guzzi dealer locator (ES feed) as ''Drivim''
     (Badalona), type=dealers,services, dealer code ES8H35S1, address Calle Acer 24,
     08915 Badalona; source: https://www.motoguzzi.com/es_ES/dealer-locator/badalona/drivim/
     (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/es/G/stores);
-    verified 2026-08-22'
+    verified 2026-08-22.'
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
+address: Calle Acer 24, 08915 Badalona

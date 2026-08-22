@@ -21,14 +21,15 @@ phone: +31 614 101 567
 observations:
 - date: 2026-08-22
   method: website
-  fact: dezwartmotoren.nl live, Roermondseweg 81, Weert; site menu shows 'Moto Guzzi
-    dealerschap', Aprilia dealerschap, CFMOTO, Werkplaats (workshop), Onderdelen (parts);
-    tel +31 614 101 567; socials instagram.com/dezwartmotoren.nl and facebook.com/dezwartmotoren
+  fact: 'dezwartmotoren.nl is live. The site lists Moto Guzzi, Aprilia, and CFMOTO
+    dealerships, a workshop, and parts sales at Roermondseweg 81, 6004 AR Weert. Phone
+    +31 614 101 567. Socials: instagram.com/dezwartmotoren.nl and facebook.com/dezwartmotoren.'
 - date: 2025-03-16
   method: official-locator
-  fact: 'official Moto Guzzi dealer-locator page for ''de-zwart-motoren'', Weert (snapshot
+  fact: 'Official Moto Guzzi dealer-locator page for "de-zwart-motoren", Weert (snapshot
     2025-03-16, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20250316103610/https://www.motoguzzi.com/nl_NL/dealer-locator/weert/de-zwart-motoren/'
 last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active
 geocode: city-centroid
+address: Roermondseweg 81, 6004 AR Weert

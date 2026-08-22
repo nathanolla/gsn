@@ -19,12 +19,13 @@ phone: 04 76 09 31 83
 observations:
 - date: 2026-08-22
   method: website
-  fact: aprilia-motoguzzi-grenoble.fr live; title « MOTO LABO votre concessionnaire
-    APRILIA, MOTO GUZZI à ECHIROLLES (38) » (88 Guzzi mentions)
+  fact: 'aprilia-motoguzzi-grenoble.fr live; title « MOTO LABO votre concessionnaire
+    APRILIA, MOTO GUZZI à ECHIROLLES (38) ». Address: 2 Rue De Bretagne, 38130 Échirolles.'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (API fr/G): MOTOLABO, 2 Rue de Bretagne, 38130
-    Échirolles, type=dealers,services, dealerCd FR7U23'
+  fact: 'Official Moto Guzzi FR locator (API fr/G): MOTOLABO, 2 Rue de Bretagne, 38130
+    Échirolles, type=dealers,services, dealerCd FR7U23.'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 2 Rue De Bretagne, 38130 Échirolles

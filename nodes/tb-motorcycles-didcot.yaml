@@ -13,7 +13,7 @@ brands:
 functions:
 - service
 url: https://www.tbmotorcycles.co.uk/
-phone: ''
+phone: 07970 855318
 observations:
 - date: 2026-08-22
   method: website
@@ -30,3 +30,5 @@ last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active
 geocode: city-centroid
+address: Unit N4, Didcot Enterprise Centre, Southmead Industrial Est, Hawksworth,
+  Didcot, OX11 7PH

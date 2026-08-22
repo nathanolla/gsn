@@ -18,12 +18,14 @@ phone: 080-510841
 observations:
 - date: 2026-08-22
   method: website
-  fact: motokaiser.com live; title « Motokaiser | Le + grand choix de Motos, Quads,
-    SSV en Belgique | Limerlé - Gouvy » (2 Guzzi mentions)
+  fact: motokaiser.com is live. The site title reads "Motokaiser | Le + grand choix
+    de Motos, Quads, SSV en Belgique | Limerlé - Gouvy". Moto Guzzi is listed among
+    the motorcycle brands.
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi BE locator (API be/G): PHILIPPE KAISER SPRL, Rue du Roy
+  fact: 'Official Moto Guzzi BE locator (API be/G): PHILIPPE KAISER SPRL, Rue du Roy
     2, 6670 Limerlé, type=dealers,services, info@motokaiser.com'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: Rue du Roy 2, 6670 Limerlé

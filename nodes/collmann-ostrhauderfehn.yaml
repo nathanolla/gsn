@@ -17,7 +17,7 @@ functions:
 - sales
 - service
 url: https://collmann.eu/
-phone: ''
+phone: +49 4952 8651
 observations:
 - date: 2026-08-22
   method: website
@@ -30,3 +30,4 @@ observations:
 last_verified: 2026-08-22
 verified_by: claude-zai-dach
 status: active
+address: Sandkamp 3, 26842 Ostrhauderfehn

@@ -18,10 +18,10 @@ phone: ''
 observations:
 - date: 2026-05-20
   method: official-locator
-  fact: 'official Moto Guzzi dealer-locator page for ''siegis-garage'', Gleisdorf
+  fact: 'Official Moto Guzzi dealer-locator page for ''siegis-garage'', Gleisdorf
     (snapshot 2026-05-20, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260520071639/https://www.motoguzzi.com/at_DE/dealer-locator/gleisdorf/siegis-garage/
-    ; no own website found (siegis.at is an unrelated bakery; siegisgarage.at connection
-    refused, checked 2026-08-22)'
+    . No own website found — siegis.at is an unrelated bakery and siegisgarage.at
+    refused connection (checked 2026-08-22).'
 last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active

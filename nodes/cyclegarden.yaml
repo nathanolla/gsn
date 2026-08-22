@@ -1,32 +1,42 @@
 id: cyclegarden
-name: "Cycle Garden Moto Guzzi"
-city: "Indio"
+name: Cycle Garden Moto Guzzi
+city: Indio
 state: CA
 country: US
 lat: 33.7206
 lon: -116.2156
 layer: independent
-capability: [heritage]
-brands: [moto-guzzi]
+capability:
+- heritage
+brands:
+- moto-guzzi
 functions:
-  - restoration
-  - service
-  - parts
+- restoration
+- service
+- parts
 url: https://www.cyclegarden.com/
-phone: "(760) 972-4800"
+phone: (760) 972-4800
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Moe Moore's vintage-Guzzi house specializing in pre-1975 loop-frames (Ambassador, Eldorado, V700, V7 Sport) with full restoration and NOS/used parts shipped worldwide; 25+ years in business."
-  - date: 2026-07-26
-    method: website
-    fact: "Own site describes a Huntington Beach showroom, but a Yelp listing updated Feb 2026 shows a Cycle Garden Moto Guzzi address in Indio, CA \u00e2\u0080\u0094 location may have moved; needs confirmation."
-  - date: 2026-07-26
-    method: website
-    fact: "relocation confirmed: now at 83525 Date Ave, Indio CA (moved from Huntington Beach); Yelp listing updated Feb 2026"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; full pre-1975 Guzzi restoration/service catalog on homepage; contact page returns 406 to automated fetch (mod_security) so phone/address not re-checked — Indio location per 2026-07-26 evidence stands"
+- date: 2026-07-26
+  method: website
+  fact: Moe Moore's vintage-Guzzi house specializing in pre-1975 loop-frames (Ambassador,
+    Eldorado, V700, V7 Sport) with full restoration and NOS/used parts shipped worldwide;
+    25+ years in business.
+- date: 2026-07-26
+  method: website
+  fact: Own site describes a Huntington Beach showroom, but a Yelp listing updated
+    Feb 2026 shows a Cycle Garden Moto Guzzi address in Indio, CA — location may have
+    moved; needs confirmation.
+- date: 2026-07-26
+  method: website
+  fact: 'Relocation confirmed: now at 83525 Date Ave, Indio CA (moved from Huntington
+    Beach); Yelp listing updated Feb 2026.'
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; full pre-1975 Guzzi restoration/service catalog on homepage;
+    contact page returns 406 to automated fetch (mod_security) so phone/address not
+    re-checked — Indio location per 2026-07-26 evidence stands.'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 83525 Date Ave, Indio, CA

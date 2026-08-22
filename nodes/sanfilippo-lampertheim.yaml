@@ -14,13 +14,14 @@ functions:
 - service
 - used-sales
 url: https://fahrzeugtechnik-sanfilippo.de/
-phone: ''
+phone: +49 6206 52359
 observations:
 - date: 2026-08-22
   method: website
   fact: 'Site live: ''Fahrzeugtechnik Sanfilippo | Werkstatt und Verkauf in Lampertheim''
-    (https://fahrzeugtechnik-sanfilippo.de/); OSM POI ''Fahrzeugtechnik Sanfilippo,
-    Gaußstraße 4, Lampertheim'' matches stated address Gaußstr. 4, 68623 Lampertheim.'
+    (https://fahrzeugtechnik-sanfilippo.de/); address Gaußstraße 4, 68623 Lampertheim
+    confirmed on site; OSM POI ''Fahrzeugtechnik Sanfilippo, Gaußstraße 4, Lampertheim''
+    matches.'
 - date: 2026-08-22
   method: community-endorsement
   fact: 'guzzisti.de forum, 2026-01-19, thread ''Werkstattempfehlung/Werkstatterfahrung
@@ -29,3 +30,4 @@ observations:
 last_verified: 2026-08-22
 verified_by: claude-zai-dach
 status: active
+address: Gaußstraße 4, 68623 Lampertheim

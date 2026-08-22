@@ -18,7 +18,7 @@ phone: ''
 observations:
 - date: 2025-04-24
   method: official-locator
-  fact: 'official Moto Guzzi dealer-locator page for ''motodonia-s-l'', Castellón
+  fact: 'Official Moto Guzzi dealer-locator page for ''motodonia-s-l'', Castellón
     (snapshot 2025-04-24, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20250424140710/https://www.motoguzzi.com/es_ES/dealer-locator/castell%C3%B3n/motodonia-s-l-1/'
 last_verified: 2026-08-22
 verified_by: claude-eu-social

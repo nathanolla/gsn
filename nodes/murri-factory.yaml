@@ -15,7 +15,7 @@ functions:
 - service
 - restoration
 url: https://www.murrifactory.com/
-phone: ''
+phone: +39 340 7079819
 observations:
 - date: 2026-08-22
   method: website
@@ -37,3 +37,4 @@ observations:
 last_verified: 2026-08-22
 verified_by: italy-community-lane
 status: active
+address: Via dell'Artigianato, 1/E, 44039 Tresignana loc. Formignana (FE)

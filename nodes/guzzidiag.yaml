@@ -17,7 +17,11 @@ phone: ''
 observations:
 - date: 2026-07-26
   method: website
-  fact: download page actively maintained (v0.61 Windows / v0.60 Linux+Mac, June 2026)
+  fact: Download page was actively maintained (v0.61 Windows / v0.60 Linux+Mac, June
+    2026).
+- date: 2026-08-22
+  method: website
+  fact: 'pass-2 check: site unreachable (HTTP 404 on both attempts).'
 last_verified: 2026-07-26
 verified_by: claude
-status: active
+status: unverified

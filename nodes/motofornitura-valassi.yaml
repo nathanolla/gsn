@@ -13,12 +13,12 @@ brands:
 functions:
 - parts
 url: https://www.motofornituravalassi.it/
-phone: ''
+phone: +39 0341 731223
 observations:
 - date: 2026-08-22
   method: website
   fact: 'motofornituravalassi.it live 2026-08-22: ''RICAMBI PER MOTO GUZZI - SPEDIZIONI
-    RAPIDE 24/48h'', Via Parodi 29, 23826 Mandello del Lario (LC)'
+    RAPIDE 24/48h'', Via Parodi 29, 23826 Mandello del Lario (LC), tel 0341/731223'
 - date: 2026-08-22
   method: community-endorsement
   fact: 'Anima Guzzista thread 2026-06-24/25: saiot ''Valassi a Mandello (fa anche
@@ -27,3 +27,4 @@ observations:
 last_verified: 2026-08-22
 verified_by: italy-community-lane
 status: active
+address: Via Parodi, 29, 23826 Mandello del Lario (LC)

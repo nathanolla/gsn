@@ -17,15 +17,17 @@ phone: 07 81 83 35 33
 observations:
 - date: 2026-08-22
   method: website
-  fact: gms-33.com live; title « Gironde Moto Services 33 | Pessac | Réparation motos
-    et scooters toutes marques, dépannage à domicile » — note title says Pessac while
-    forum-listed address is Villenave-d'Ornon
+  fact: 'gms-33.com live; title « Gironde Moto Services 33 | Pessac | Réparation motos
+    et scooters toutes marques, dépannage à domicile ». Address: 173 docteur Nancel
+    Pénard, 33600 Pessac. Owner: Serge De Almeida. Fixed line: 09 84 13 29 55, Mobile:
+    07 81 833 533.'
 - date: 2026-07-16
   method: community-endorsement
   fact: 'forumGUZZI.fr independent-mechanics list (viewtopic.php?t=508, mise à jour
     16/07/2026), dept 33: « GMS33, 10bis Impasse Barreyre, 33140 Villenave-d''Ornon
-    — Un petit bouclard conseillé par Lorik33 »; lat/lon geocoded from stated address
-    (Nominatim)'
+    — Un petit bouclard conseillé par Lorik33 » (note: website shows Pessac at different
+    address); lat/lon geocoded from stated address (Nominatim)'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 173 docteur Nancel Pénard, 33600 Pessac

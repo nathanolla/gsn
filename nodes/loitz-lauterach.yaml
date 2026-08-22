@@ -18,13 +18,14 @@ phone: ''
 observations:
 - date: 2026-08-22
   method: website
-  fact: 'Site live: ''Zweirad Loitz'', 6923 Lauterach (https://www.loitz.at/); coordinates
-    are a town-level approximation for Lauterach (street not captured). Guzzi not
-    named on fetched homepage — Guzzi affiliation rests on the directory entry below.'
+  fact: 'Site live: ''Zweirad Loitz'', 6923 Lauterach (https://www.loitz.at/). Address:
+    Bundesstrasse 94, 6923 Lauterach. Moto Guzzi is not named on the homepage — the
+    Guzzi affiliation rests on the directory entry below.'
 - date: 2026-08-22
   method: website
-  fact: 'auto-motor.at Moto Guzzi dealer directory for Vorarlberg lists ''Lauterach:
-    Loitz — Loitz KG'' among Moto Guzzi dealers/worksops (https://auto-motor.at/Motorrad/Motorradhaendler/Moto-Guzzi-Motorrad-Haendler/Moto-Guzzi-Vorarlberg.html).'
+  fact: 'The auto-motor.at Moto Guzzi dealer directory for Vorarlberg lists ''Lauterach:
+    Loitz — Loitz KG'' among Moto Guzzi dealers/workshops (https://auto-motor.at/Motorrad/Motorradhaendler/Moto-Guzzi-Motorrad-Haendler/Moto-Guzzi-Vorarlberg.html).'
 last_verified: 2026-08-22
 verified_by: claude-zai-dach
 status: active
+address: Bundesstrasse 94, 6923 Lauterach

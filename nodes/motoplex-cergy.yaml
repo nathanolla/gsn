@@ -20,13 +20,14 @@ phone: 01 30 32 55 55
 observations:
 - date: 2026-08-22
   method: website
-  fact: motoplex.fr live; title « MOTOPLEX concessionnaire PIAGGIO VESPA et GILERA
-    à ST OUEN L'AUMONE (95) » — Guzzi not on homepage but dealer is Guzzi-locator
-    listed
+  fact: 'motoplex.fr live; title « MOTOPLEX concessionnaire PIAGGIO VESPA et GILERA
+    à ST OUEN L''AUMONE (95) ». Address: 11 Rue D''épluches, 95310 Saint-Ouen-l''Aumône.
+    Moto Guzzi not on homepage but dealer is Guzzi-locator listed.'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (API fr/G): MOTOPLEX CERGY 95, 11 Rue d''Epluches,
-    95310 Saint-Ouen-l''Aumône, type=dealers,services, dealerCd FR7U60'
+  fact: 'Official Moto Guzzi FR locator (API fr/G): MOTOPLEX CERGY 95, 11 Rue d''Epluches,
+    95310 Saint-Ouen-l''Aumône, type=dealers,services, dealerCd FR7U60.'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 11 Rue D'épluches, 95310 Saint-Ouen-l'Aumône

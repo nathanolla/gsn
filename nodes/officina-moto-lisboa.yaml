@@ -17,7 +17,7 @@ phone: '211370209'
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''OFFICINA
+  fact: 'Listed on the official Moto Guzzi dealer locator (PT feed) as ''OFFICINA
     MOTO'' (Lisboa), type=dealers,services, dealer code DEALER-PT-38, address Rua
     Fernando Palha, nº 29 C, 1950-130 Lisboa; source: https://www.motoguzzi.com/pt_PT/dealer-locator/lisboa/officina-moto/
     (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);

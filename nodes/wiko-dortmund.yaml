@@ -23,10 +23,10 @@ phone: 0231 818078
 observations:
 - date: 2026-08-22
   method: website
-  fact: 'wiko-motorrad.de live (behind bot-check): ''WIKO Motorrad GmbH, Lindenhorster
-    Str. 42, 44147 Dortmund''; homepage brand list shows Kawasaki, Aprilia, Vespa,
-    Piaggio, Kymco (no Moto Guzzi mention found on homepage — Guzzi franchise evidenced
-    by locator listing below); tel 0231 818078'
+  fact: wiko-motorrad.de behind bot-check (403 on 2026-08-22); address Lindenhorster
+    Str. 42, 44147 Dortmund and tel 0231 818078 from prior site visit; homepage brand
+    list shows Kawasaki, Aprilia, Vespa, Piaggio, Kymco (Moto Guzzi franchise evidenced
+    by locator listing below).
 - date: 2026-01-19
   method: official-locator
   fact: 'official Moto Guzzi dealer-locator page for ''wiko-motorrad-gmbh'', Dortmund
@@ -35,3 +35,4 @@ last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active
 geocode: city-centroid
+address: Lindenhorster Str. 42, 44147 Dortmund

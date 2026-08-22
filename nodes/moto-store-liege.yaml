@@ -18,12 +18,13 @@ phone: 04 253 68 37
 observations:
 - date: 2026-08-22
   method: website
-  fact: motostoreliege.be live; title « Moto Store - Liège | Concession Moto et Scooter
-    » (2 Guzzi mentions)
+  fact: motostoreliege.be is live. Moto Guzzi is listed among the official brands
+    on the homepage.
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi BE locator (API be/G): MOTO STORE - LIÈGE, Quai du Halage
+  fact: 'Official Moto Guzzi BE locator (API be/G): MOTO STORE - LIÈGE, Quai du Halage
     6, 4400 Flémalle, type=dealers,services, info@motostoreliege.be'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: Quai du Halage 6, 4400 Flémalle

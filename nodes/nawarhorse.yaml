@@ -1,26 +1,41 @@
 id: nawarhorse
-name: "North American Warhorse"
-city: "Dunmore"
+name: North American Warhorse
+city: Dunmore
 state: PA
 country: US
 lat: 41.4248
 lon: -75.6083
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, ducati, mv-agusta, piaggio, honda, kawasaki, husqvarna, polaris, can-am]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- ducati
+- mv-agusta
+- piaggio
+- honda
+- kawasaki
+- husqvarna
+- polaris
+- can-am
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.nawarhorse.com/
-phone: "(570) 346-2453"
+phone: (570) 346-2453
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Own site (search-indexed; direct fetch bot-blocked) lists Moto Guzzi among franchised brands with current inventory incl. 2025 Stelvio, V85 TT and V85 TT Travel; 50,000+ sq ft store."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"North American Warhorse\" (Dunmore, PA); type=dealers,services; verified 2026-07-26"
+- date: 2026-07-26
+  method: website
+  fact: Site describes a 50,000+ sq ft showroom at 1000 Dunham Dr., Dunmore, PA. Promotions
+    include Ducati, MV Agusta, Honda, Yamaha, Kawasaki, KTM, Polaris, Can-Am, Ski-Doo,
+    Vespa, and Piaggio. Moto Guzzi confirmed via official locator listing.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "North American Warhorse"
+    (Dunmore, PA); type=dealers,services; verified 2026-07-26.
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active
+address: 1000 Dunham Dr., Dunmore, PA 18512

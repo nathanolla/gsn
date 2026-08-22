@@ -1,26 +1,38 @@
 id: plano-ks
-name: "Plano Kawasaki Suzuki"
-city: "Plano"
+name: Plano Kawasaki Suzuki
+city: Plano
 state: TX
 country: US
 lat: 33.0438442084
 lon: -96.7022874243
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, kawasaki, suzuki, aprilia, vespa, piaggio, genuine]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- kawasaki
+- suzuki
+- aprilia
+- vespa
+- piaggio
+- genuine
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.planokawasakisuzuki.com
-phone: "(972) 422-4111"
+phone: (972) 422-4111
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Plano, TX); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Own site shows July 1-31 2026 promotions and 'Bikes and Coffee' events dated Aug 01 and Sep 05 2026; 2026-2027 inventory  [source: https://www.planokawasakisuzuki.com]"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (Plano, TX); verified
+    2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'Own site shows August 2026 promotions across Moto Guzzi, Vespa, Piaggio,
+    and Aprilia (military/first responder incentives valid 08/01/2026-08/31/2026).
+    Carries Kawasaki, Suzuki, Aprilia, Moto Guzzi, Vespa, and Piaggio. [source: https://www.planokawasakisuzuki.com]'
 last_verified: 2026-07-26
 verified_by: claude
 status: active
+address: 3405 N Central Expy, Plano, TX 75023

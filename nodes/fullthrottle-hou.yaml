@@ -1,26 +1,35 @@
 id: fullthrottle-hou
-name: "Full Throttle"
-city: "Houston"
+name: Full Throttle
+city: Houston
 state: TX
 country: US
 lat: 29.76058
 lon: -95.36968
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, aprilia, vespa, piaggio]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.fullthrottlehouston.com/
-phone: "(877) 551-9538"
+phone: (877) 551-9538
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Houston, TX); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Own site shows July 1-31 2026 'Moto Guzzi Days'/'Aprilia Days' promotions and 2026-2027 model inventory ($6,849-$11,849)  [source: https://www.fullthrottlehouston.com/]"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (Houston, TX); verified
+    2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'Own site shows Moto Guzzi Days and Aprilia Days promotions with financing
+    offers and performance credits on select 2025-2027 models, valid August 1-31,
+    2026. Current inventory includes 2027 Aprilia RS 660 at $11,849. [source: https://www.fullthrottlehouston.com/]'
 last_verified: 2026-07-26
 verified_by: claude
 status: active
+address: 7090 SW Freeway, Houston, TX 77074

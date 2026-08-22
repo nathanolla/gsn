@@ -15,9 +15,10 @@ functions:
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on official Moto Guzzi dealer locator for Slovenia; live page returned
-    HTTP 503 on 2026-08-22, verified via Wayback snapshot 2022-05-17: https://web.archive.org/web/20220517213026/https://www.motoguzzi.com/si_SL/dealer-locator/ljubljana/dr-moto/
-    — note: stale snapshot, needs re-confirmation'
+  fact: 'Listed on the official Moto Guzzi dealer locator for Slovenia. The live page
+    returned HTTP 503 on 2026-08-22; verified via a stale Wayback snapshot from 2022-05-17:
+    https://web.archive.org/web/20220517213026/https://www.motoguzzi.com/si_SL/dealer-locator/ljubljana/dr-moto/
+    — this snapshot is over 4 years old and needs re-confirmation'
 last_verified: 2026-08-22
 verified_by: gsn-scandi-balkans-lane
 status: active

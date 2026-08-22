@@ -1,26 +1,42 @@
 id: goaz-peoria
-name: "GO AZ Motorcycles Peoria"
-city: "Peoria"
+name: GO AZ Motorcycles Peoria
+city: Peoria
 state: AZ
 country: US
 lat: 33.635498
 lon: -112.235555
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, vespa, piaggio, aprilia, bmw, ducati, triumph, ktm, royal-enfield]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- vespa
+- piaggio
+- aprilia
+- bmw
+- ducati
+- triumph
+- ktm
+- royal-enfield
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.goazwest.com
-phone: "(623) 322-6700"
+phone: (623) 322-6700
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Peoria, AZ); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Independent Yelp profile 'go-az-motorcycles-peoria-peoria' with 4.1 stars and 57 reviews  [source: https://www.yelp.com/biz/go-az-motorcycles-peoria-peoria]"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (Peoria, AZ); verified
+    2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'Independent Yelp profile ''go-az-motorcycles-peoria-peoria'' with 4.1 stars
+    and 57 reviews. [source: https://www.yelp.com/biz/go-az-motorcycles-peoria-peoria]'
+- date: 2026-08-22
+  method: website
+  fact: 'pass-2 check: site returns HTTP 403 (bot-protection), address could not be
+    extracted.'
 last_verified: 2026-07-26
 verified_by: claude
 status: active

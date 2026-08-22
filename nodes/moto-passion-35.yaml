@@ -18,13 +18,16 @@ phone: 02 99 14 01 00
 observations:
 - date: 2026-08-22
   method: website
-  fact: motopassion35.free.fr live with Moto Guzzi content on page (ex-franchise site)
+  fact: 'motopassion35.com live. Address: 37 bis rue du Manoir de Servigne, ZI route
+    de Lorient, 35000 Rennes. Former Moto Guzzi franchise, now multi-brand (ZX Moto,
+    Royal Enfield, Benelli, Kove, Macbor, E Ride Pro, Hyosung).'
 - date: 2026-07-16
   method: community-endorsement
   fact: 'forumGUZZI.fr independent-mechanics list (viewtopic.php?t=508, mise à jour
     16/07/2026), dept 35: « MOTO PASSION 35, 37 bis rue du Manoir de Servigné ZI route
     de Lorient 35000 Rennes — Ex-concess'' Guzzi ! »; lat/lon geocoded from stated
-    address (Nominatim)'
+    address (Nominatim).'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 37 bis rue du Manoir de Servigne, ZI route de Lorient, 35000 Rennes

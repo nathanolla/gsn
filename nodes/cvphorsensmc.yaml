@@ -27,11 +27,13 @@ observations:
   fact: 123mc dealer profile lists CVP Horsens MC-Service A/S, Spedalsø 69, 8700 Horsens,
     as 'Autoriseret forhandler af Aprilia, Arctic Cat, Kawasaki, Moto Guzzi, Peugeot,
     PGO, Suzuki, TGB, Vespa', https://www.123mc.dk/find-mc-forhandler/cvp-horsens-mc-service-as/451,
-    verified 2026-08-22
+    verified 2026-08-22. Own site (https://www.cvp-mc.dk/) confirms address Spedalsø
+    69, 8700 Horsens and phone 75 61 81 11.
 - date: 2026-08-22
   method: website
-  fact: own website confirms MC workshop (MC-værksted) in Horsens, https://www.cvp-mc.dk/,
-    verified 2026-08-22
+  fact: Own website confirms MC workshop (MC-værksted) in Horsens, https://www.cvp-mc.dk/,
+    verified 2026-08-22.
 last_verified: 2026-08-22
 verified_by: gsn-scandi-balkans-lane
 status: active
+address: Spedalsø 69, 8700 Horsens

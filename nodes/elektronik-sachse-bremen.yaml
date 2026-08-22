@@ -15,17 +15,18 @@ functions:
 - mail-order
 - parts
 url: https://www.elektronik-sachse.de/
-phone: ''
+phone: +49 5409 9069826
 observations:
 - date: 2026-08-22
   method: website
   fact: 'Site live: ''Elektronik Sachse MHP - Electronic ignition systems, digital
     ignition systems'' with dedicated Moto Guzzi catalog (https://www.elektronik-sachse.de/shopsystem-3/de/Digitale-Zuendsysteme/Moto-Guzzi/);
-    site states 28213 Bremen. Coordinates are a PLZ-level approximation for 28213
-    Bremen (street not captured).'
+    site states Busestraße 26a, 28213 Bremen. Coordinates are a PLZ-level approximation
+    for 28213 Bremen (street not captured).'
 - date: 2026-08-22
   method: website
   fact: Listed on the guzzi.at links page as 'Sachse Elektronic für Moto Guzzi' (http://www.guzzi.at/).
 last_verified: 2026-08-22
 verified_by: claude-zai-dach
 status: active
+address: Busestraße 26a, 28213 Bremen

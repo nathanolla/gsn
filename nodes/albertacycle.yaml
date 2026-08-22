@@ -25,10 +25,11 @@ phone: 780-477-3525
 observations:
 - date: 2026-08-22
   method: website
-  fact: albertacycle.com live; address 12505 97 Street NW, Edmonton AB T5G 1Z8; phone
-    780-477-3525; carries Royal Enfield, Aprilia, Moto Guzzi, Vespa, Piaggio, Arctic
-    Cat, Husqvarna; verified 2026-08-22
+  fact: albertacycle.com is live. Address 12505 97 Street NW, Edmonton AB T5G 1Z8;
+    phone 780-477-3525. Carries Royal Enfield, Aprilia, Moto Guzzi, Vespa, Piaggio,
+    Arctic Cat, and Husqvarna.
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
 status: active
 geocode: city-centroid
+address: 12505 97 Street NW, Edmonton, AB T5G 1Z8

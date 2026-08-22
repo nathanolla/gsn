@@ -1,26 +1,34 @@
 id: reparto-veloce
-name: "Reparto Veloce"
-city: "Chandler"
+name: Reparto Veloce
+city: Chandler
 state: AZ
 country: US
 lat: 33.335458
 lon: -111.834601
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, vespa, piaggio]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.repartoveloce.com
-phone: "(480) 284-8433"
+phone: (480) 284-8433
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Chandler, AZ); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Yelp listing marked 'Updated July 2026' with 82 photos and 22 reviews  [source: https://html.duckduckgo.com/html/?q=Reparto+Veloce+Chandler+Arizona+Aprilia+Moto+Guzzi+dealer+reviews]"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (Chandler, AZ); verified
+    2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'Yelp listing marked ''Updated July 2026'' with 82 photos and 22 reviews.
+    [source: https://html.duckduckgo.com/html/?q=Reparto+Veloce+Chandler+Arizona+Aprilia+Moto+Guzzi+dealer+reviews]'
 last_verified: 2026-07-26
 verified_by: claude
 status: active
+address: 430 E. Warner Rd Suite 5, Chandler, AZ 85225

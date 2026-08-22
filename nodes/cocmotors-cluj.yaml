@@ -15,8 +15,9 @@ functions:
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on official Moto Guzzi dealer locator for Romania; live page returned
-    HTTP 503 on 2026-08-22, verified via Wayback snapshot 2025-06-20: https://web.archive.org/web/20250620125137/https://www.motoguzzi.com/ro_RO/dealer-locator/cluj-napoca/cocmotors-service-srl/'
+  fact: 'Listed on the official Moto Guzzi dealer locator for Romania. The live page
+    returned HTTP 503 on 2026-08-22; verified via Wayback snapshot from 2025-06-20:
+    https://web.archive.org/web/20250620125137/https://www.motoguzzi.com/ro_RO/dealer-locator/cluj-napoca/cocmotors-service-srl/'
 last_verified: 2026-08-22
 verified_by: gsn-scandi-balkans-lane
 status: active

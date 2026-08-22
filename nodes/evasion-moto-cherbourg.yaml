@@ -19,12 +19,15 @@ observations:
 - date: 2026-08-22
   method: website
   fact: 'evasion-moto.com live; title « Evasion Moto – L''univers moto : neuf, occasion
-    et réparation » (3 Guzzi mentions)'
+    et réparation ». Site shows multiple locations including Cherbourg. Moto Guzzi
+    listed among brands. Address from official locator: Rue du Grand Pré 475, 50110
+    Tourlaville.'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (API fr/G): EVASION MOTO, Rue du Grand Pré
+  fact: 'Official Moto Guzzi FR locator (API fr/G): EVASION MOTO, Rue du Grand Pré
     475, 50110 Tourlaville (Cherbourg-en-Cotentin), type=dealers,services, dealerCd
-    FR7W64'
+    FR7W64.'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: Rue du Grand Pré 475, 50110 Tourlaville

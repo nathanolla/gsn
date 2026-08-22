@@ -26,11 +26,12 @@ phone: 03 9432 6886
 observations:
 - date: 2026-08-22
   method: website
-  fact: eurobrit.com.au live; self-described 'Italian & British Motorbike Specialists';
-    located at Factory 5/10-14 Simms Road, Greensborough VIC 3088; sells Moto Guzzi
-    motorcycles and parts, offers workshop manuals, wrecking inventory, external financing;
-    verified 2026-08-22
+  fact: eurobrit.com.au is live. Self-described 'Italian & British Motorbike Specialists'.
+    Located at Factory 5/10-14 Simms Road, Greensborough VIC 3088. Sells Moto Guzzi
+    motorcycles and parts, offers workshop manuals, wrecking inventory, and external
+    financing. Verified 2026-08-22.
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
 status: active
 geocode: city-centroid
+address: Factory 5/10-14 Simms Road, Greensborough VIC 3088

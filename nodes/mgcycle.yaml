@@ -1,21 +1,25 @@
 id: mgcycle
-name: "MG Cycle"
-city: "Albany"
+name: MG Cycle
+city: Albany
 state: WI
 country: US
 lat: 42.7137
 lon: -89.4305
 layer: independent
-capability: [depot]
-brands: [moto-guzzi]
+capability:
+- depot
+brands:
+- moto-guzzi
 functions:
-  - OEM + Mistral parts by mail
+- OEM + Mistral parts by mail
 url: https://www.mgcycle.com
-phone: "(608) 862-2300"
+phone: (608) 862-2300
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "e-commerce live"
+- date: 2026-07-26
+  method: website
+  fact: E-commerce site is live, selling OEM and Mistral Moto Guzzi parts and accessories
+    by mail order.
 last_verified: 2026-07-26
 verified_by: claude
 status: active
+address: 601 Ogden Ave, Albany, WI 53502

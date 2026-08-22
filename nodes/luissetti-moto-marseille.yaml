@@ -18,18 +18,20 @@ phone: 04 91 01 41 39
 observations:
 - date: 2026-08-22
   method: website
-  fact: lm-marseille.fr/motos-guzzi/ live; page title « Luisetti Moto - Concessionnaire
-    moto Guzzi Marseille La Valentine » (31 Guzzi mentions on page)
+  fact: 'lm-marseille.fr/motos-guzzi/ live; title « Luisetti Moto - Concessionnaire
+    moto Guzzi Marseille La Valentine ». Address: 13 avenue de Saint Menet, 13011
+    Marseille. Exclusive Moto Guzzi dealer.'
 - date: 2026-08-22
   method: official-locator
-  fact: listed on official Moto Guzzi France locator (https://www.motoguzzi.com/fr_FR/dealer-locator/,
+  fact: Listed on official Moto Guzzi France locator (https://www.motoguzzi.com/fr_FR/dealer-locator/,
     data API jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/fr/G/stores)
     as LUISETTI MOTO MARSEILLE, Avenue de Saint-Menet 13, 13011 Marseille, type=dealers,services,
-    dealerCd FR7Y07, lat/lng 43.2909/5.4920 from locator
+    dealerCd FR7Y07, lat/lng 43.2909/5.4920 from locator.
 - date: 2026-06-13
   method: community-endorsement
-  fact: listed in forumGUZZI.fr network list (viewtopic.php?t=507, mise à jour 13/06/2026)
-    with dedicated Guzzi page link https://lm-marseille.fr/motos-guzzi/
+  fact: Listed in forumGUZZI.fr network list (viewtopic.php?t=507, mise à jour 13/06/2026)
+    with dedicated Guzzi page link https://lm-marseille.fr/motos-guzzi/.
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 13 avenue de Saint Menet, 13011 Marseille

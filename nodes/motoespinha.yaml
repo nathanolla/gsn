@@ -17,9 +17,9 @@ phone: 253 533 227
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''MOTOESPINHA''
-    (GUIMARÃES), type=dealers,services, dealer code DEALER-PT-47, address RUA 25 DE
-    ABRIL, BRITO, 4805-026  GUIMARÃES; source: https://www.motoguzzi.com/pt_PT/dealer-locator/guimarães/motoespinha/
+  fact: 'Listed on the official Moto Guzzi dealer locator (PT feed) as ''MOTOESPINHA''
+    (GUIMARÃES), type=dealers,services, dealer code DEALER-PT-47, address Rua 25 de
+    Abril, Brito, 4805-026 Guimarães; source: https://www.motoguzzi.com/pt_PT/dealer-locator/guimarães/motoespinha/
     (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
     verified 2026-08-22'
 last_verified: 2026-08-22

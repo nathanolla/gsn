@@ -21,13 +21,15 @@ phone: 04 78 60 01 36
 observations:
 - date: 2026-08-22
   method: website
-  fact: nomade69.com live; title « NOMADE 69 concessionnaire Piaggio, Vespa, Gilera,
-    Aprilia et Moto guzzi » (20 Guzzi mentions)
+  fact: 'nomade69.com live; title « NOMADE 69 concessionnaire Piaggio, Vespa, Gilera,
+    Aprilia et Moto guzzi ». Lyon address: 161 Avenue Maréchal De Saxe, 69003 Lyon.
+    Sister site at Brignais (5 Chemin De Sacuny, 69530, 04 78 05 60 80).'
 - date: 2026-08-22
   method: official-locator
-  fact: 'official Moto Guzzi FR locator (API fr/G): NOMADE 69, 161 Av. Maréchal de
+  fact: 'Official Moto Guzzi FR locator (API fr/G): NOMADE 69, 161 Av. Maréchal de
     Saxe, 69003 Lyon, type=dealers,services, dealerCd FRDAFC; second site at Chemin
-    de Sacuny, 69530 Brignais (FR7R77)'
+    de Sacuny, 69530 Brignais (FR7R77).'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 161 Avenue Maréchal De Saxe, 69003 Lyon

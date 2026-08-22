@@ -14,13 +14,13 @@ functions:
 - sales
 - service
 url: https://www.faber.at/roller-bikes/moto-guzzi/
-phone: ''
+phone: +43 1 491590
 observations:
 - date: 2026-08-22
   method: website
   fact: 'Dealer brand page live: ''Moto Guzzi - stilechte Motorräder aus Italien |
-    Faber Roller & Bike'' (https://www.faber.at/roller-bikes/moto-guzzi/); address
-    Richard-Strauss-Straße 36, 1230 Wien stated in site imprint; coordinates geocoded
+    Faber Roller & Bike'' (https://www.faber.at/roller-bikes/moto-guzzi/). Address
+    Richard-Strauss-Straße 36, 1230 Wien stated in site imprint. Coordinates geocoded
     to that street in 1230 Wien (house number not resolved by geocoder).'
 - date: 2026-08-22
   method: website
@@ -28,3 +28,4 @@ observations:
 last_verified: 2026-08-22
 verified_by: claude-zai-dach
 status: active
+address: Richard-Strauss-Straße 36, 1230 Wien

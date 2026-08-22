@@ -20,20 +20,21 @@ phone: 91 872 91 65
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (ES feed) as ''CLASSIC CO''
+  fact: 'Listed on the official Moto Guzzi dealer locator (ES feed) as ''CLASSIC CO''
     (Madrid), type=services, address Calle Oltra area (lat/lon from locator feed);
     source: https://www.motoguzzi.com/es_ES/dealer-locator/ (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/es/G/stores);
-    verified 2026-08-22'
+    verified 2026-08-22.'
 - date: 2026-08-22
   method: website
-  fact: 'classicco.biz and parts store classicco.es live: independent Guzzi specialist
-    since 1994 (repairs, restorations, race prep, all models from late 60s); Calle
-    Oltra 2, Madrid'
+  fact: 'classicco.biz live: independent Guzzi specialist since 1994 (repairs, restorations,
+    race prep, all models from late 60s); Calle Oltra 2, Madrid; phone (+34) 918 729
+    165. Parts store at classicco.es.'
 - date: 2026-08-22
   method: community-endorsement
-  fact: 'recommended in pinned Guzzistas club thread ''Listado buenos Concesionarios
+  fact: 'Recommended in pinned Guzzistas club thread ''Listado buenos Concesionarios
     Guzzi'' (''En Classicos tienen un buen cocinero. Doy fe''): https://guzzistas.mforos.com/652460/7216198-listado-buenos-concesionarios-guzzi/'
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
+address: Calle Oltra 2, Madrid

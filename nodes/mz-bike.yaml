@@ -17,9 +17,9 @@ phone: '291751610'
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''MZ BIKE''
-    (Funchal ), type=dealers,services, dealer code DEALER-PT-37, address Rua D. João,
-    Nº 6 - D, 9050-048 Funchal ; source: https://www.motoguzzi.com/pt_PT/dealer-locator/funchal-/mz-bike/
+  fact: 'Listed on the official Moto Guzzi dealer locator (PT feed) as ''MZ BIKE''
+    (Funchal), type=dealers,services, dealer code DEALER-PT-37, address Rua D. João,
+    Nº 6 - D, 9050-048 Funchal; source: https://www.motoguzzi.com/pt_PT/dealer-locator/funchal-/mz-bike/
     (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
     verified 2026-08-22'
 last_verified: 2026-08-22

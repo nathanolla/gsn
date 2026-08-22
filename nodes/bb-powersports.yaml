@@ -1,29 +1,42 @@
 id: bb-powersports
-name: "B & B Powersports & Outdoors"
-city: "Bridgeton"
+name: B & B Powersports & Outdoors
+city: Bridgeton
 state: NJ
 country: US
 lat: 39.42947
 lon: -75.23406
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, kawasaki, ktm, suzuki, segway, hisun, aprilia]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- kawasaki
+- ktm
+- suzuki
+- segway
+- hisun
+- aprilia
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.bbpowersportsandoutdoors.com
-phone: "(856) 455-1144"
+phone: (856) 455-1144
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Bridgeton, NJ); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Own site returns HTTP 403 (Cloudflare bot-protection), not a down site  [source: https://www.bbpowersportsandoutdoors.com/]"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site now serves HTTP 200 to automated fetch (was 403 Cloudflare on 2026-07-26); current Moto Guzzi inventory link and brand imagery; copyright 2026; phone matches node"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (Bridgeton, NJ); verified
+    2026-07-26
+- date: 2026-07-26
+  method: website
+  fact: 'Own site returned HTTP 403 (Cloudflare bot-protection), not a down site [source:
+    https://www.bbpowersportsandoutdoors.com/]'
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site now serves HTTP 200 to automated fetch (was 403 Cloudflare
+    on 2026-07-26); current Moto Guzzi inventory link and brand imagery; copyright
+    2026; phone matches node'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 219 Bridgeton Fairton Rd, Bridgeton, NJ 08302

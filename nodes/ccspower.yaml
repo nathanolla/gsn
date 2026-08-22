@@ -1,32 +1,44 @@
 id: ccspower
-name: "CC's Powersports"
-city: "Forty Fort"
+name: CC's Powersports
+city: Forty Fort
 state: PA
 country: US
 lat: 41.279
 lon: -75.878
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, piaggio, vespa, aprilia, benelli, ssr]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- benelli
+- ssr
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.ccspowersports.com/
-phone: "570-301-6065"
+phone: 570-301-6065
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Own site shows Moto Guzzi new-model showroom and 2025 V85 Strada availability; 19 Shoemaker St."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"CC\\'s Powersports\" (Forty Fort, PA); type=dealers,services; verified 2026-07-26"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; own sitemap inventory includes 2027 Moto Guzzi Stelvio and 2027 V100 Mandello units (Forty Fort) — fresher than the 2025 V85 stock noted 2026-07-26; phone matches node"
+- date: 2026-07-26
+  method: website
+  fact: Own site shows Moto Guzzi new-model showroom and 2025 V85 Strada availability;
+    previously listed at 19 Shoemaker St.
+- date: 2026-07-26
+  method: official-locator
+  fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "CC's Powersports"
+    (Forty Fort, PA); type=dealers,services; verified 2026-07-26.
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; own sitemap inventory includes 2027 Moto Guzzi Stelvio
+    and 2027 V100 Mandello units (Forty Fort) — fresher than the 2025 V85 stock noted
+    2026-07-26; phone matches node.'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 1340 Wyoming Ave., Forty Fort, PA 18704

@@ -17,18 +17,19 @@ functions:
 - sales
 - service
 url: https://www.cebmotor.it/
-phone: ''
+phone: 055 4379141
 observations:
 - date: 2026-08-22
   method: website
-  fact: 'cebmotor.it live: ''CeB Group Concessionaria Moto e Scooter Piaggio a Firenze''
+  fact: 'cebmotor.it live: "CeB Group Concessionaria Moto e Scooter Piaggio a Firenze"
     — brands Moto Aprilia Moto Guzzi Scooter Piaggio Scooter Aprilia Vespa Usato;
     socials facebook.com/cebgroupfirenze and instagram.com/ceb_group'
 - date: 2025-03-17
   method: official-locator
-  fact: 'official Moto Guzzi dealer-locator page for ''ceb-motor-srl'', Firenze (snapshot
+  fact: 'official Moto Guzzi dealer-locator page for "ceb-motor-srl", Firenze (snapshot
     2025-03-17, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20250317114128/https://www.motoguzzi.com/it_IT/dealer-locator/firenze/ceb-motor-srl/'
 last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active
 geocode: city-centroid
+address: Viale Guidoni 22, Firenze

@@ -1,35 +1,44 @@
 id: artmoto
-name: "ArtMoto Garage"
-city: "Raleigh"
+name: ArtMoto Garage
+city: Raleigh
 state: NC
 country: US
 lat: 35.7635
 lon: -78.6566
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, triumph, ducati, bimota, vespa]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- triumph
+- ducati
+- bimota
+- vespa
 functions:
-  - warranty service
-  - PADS diagnostics
-  - new unit sales
+- warranty service
+- PADS diagnostics
+- new unit sales
 url: https://artmotogarage.com/
-phone: "(919) 833-5575"
+phone: (919) 833-5575
 observations:
-  - date: 2026-07-25
-    method: visited
-    fact: "multiple new Moto Guzzi units observed on showroom floor (V85 TT among them)"
-  - date: 2026-07-26
-    method: official-locator
-    fact: "not yet listed on the official Moto Guzzi dealer locator"
-  - date: 2026-07-26
-    method: website
-    fact: "site live; brands page predates the Guzzi line"
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Piaggio Vespa Aprilia Moto Guzzi Raleigh\" (Raleigh, NC); type=dealers,services; verified 2026-07-26"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live (JS single-page shell); meta description names Moto Guzzi among dealership lines; consistent with 2026-07-25 in-person visit and 2026-07-26 locator listing"
+- date: 2026-07-25
+  method: visited
+  fact: Multiple new Moto Guzzi units observed on showroom floor (V85 TT among them)
+- date: 2026-07-26
+  method: official-locator
+  fact: Not yet listed on the official Moto Guzzi dealer locator
+- date: 2026-07-26
+  method: website
+  fact: Site live; brands page predates the Guzzi line
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Piaggio Vespa Aprilia
+    Moto Guzzi Raleigh" (Raleigh, NC); type=dealers,services; verified 2026-07-26
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live (JS single-page shell); meta description names Moto Guzzi
+    among dealership lines; consistent with 2026-07-25 in-person visit and 2026-07-26
+    locator listing'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active

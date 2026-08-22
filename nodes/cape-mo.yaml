@@ -1,29 +1,41 @@
 id: cape-mo
-name: "Cape Powersports"
-city: "Cape Girardeau"
+name: Cape Powersports
+city: Cape Girardeau
 state: MO
 country: US
 lat: 37.30133718
 lon: -89.55097154
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, suzuki, cfmoto, piaggio, vespa, aprilia]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- suzuki
+- cfmoto
+- piaggio
+- vespa
+- aprilia
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.capesuzukicfmoto.com/
-phone: "(573) 334-7300"
+phone: (573) 334-7300
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Cape Girardeau, MO); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Own site shows July 1-31 2026 promotions (Piaggio Urban Days, Vespa Days, Moto Guzzi Days, Aprilia Days); Suzuki graphics promo through Sep 30 2026  [source: https://www.capesuzukicfmoto.com/]"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; Moto Guzzi military/first-responders promotion displayed; heavy 2026/2027 references; phone matches node"
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator (Cape Girardeau, MO);
+    verified 2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: 'Own site shows July 1-31 2026 promotions (Piaggio Urban Days, Vespa Days,
+    Moto Guzzi Days, Aprilia Days); Suzuki graphics promo through Sep 30 2026. [source:
+    https://www.capesuzukicfmoto.com/]'
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; Moto Guzzi military/first-responders promotion displayed;
+    heavy 2026/2027 references; phone matches node.'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 338 Christine Street, Cape Girardeau, MO 63703

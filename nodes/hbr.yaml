@@ -1,26 +1,37 @@
 id: hbr
-name: "HBR Powersports"
-city: "Cleveland"
+name: HBR Powersports
+city: Cleveland
 state: TN
 country: US
 lat: 35.1595
 lon: -84.8766
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, aprilia, suzuki, cfmoto, can-am, sea-doo, segway]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- suzuki
+- cfmoto
+- can-am
+- sea-doo
+- segway
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.hbrpowersports.com/
-phone: "423-790-0510"
+phone: 423-790-0510
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Own site shows Moto Guzzi current-inventory showroom incl. a 2024 Stelvio with PFF Rider Assistance; 165 1st St SW, serving the Chattanooga corridor."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"HBR Powersports\" (Cleveland, TN); type=dealers,services; verified 2026-07-26"
+- date: 2026-07-26
+  method: website
+  fact: Own site shows Moto Guzzi in current inventory including a 2024 Stelvio with
+    PFF Rider Assistance. Located at 165 1st St SW, serving the Chattanooga corridor.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "HBR Powersports" (Cleveland,
+    TN); type=dealers,services; verified 2026-07-26.
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active
+address: 165 1st St SW, Cleveland, TN 37311

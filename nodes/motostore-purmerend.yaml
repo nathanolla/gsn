@@ -18,7 +18,7 @@ phone: ''
 observations:
 - date: 2025-12-14
   method: official-locator
-  fact: 'official Moto Guzzi dealer-locator page for ''motostore-purmerend'' (snapshot
+  fact: 'Official Moto Guzzi dealer-locator page for "motostore-purmerend" (snapshot
     2025-12-14, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20251214162322/https://www.motoguzzi.com/nl_NL/dealer-locator/purmerend/motostore-purmerend/'
 last_verified: 2026-08-22
 verified_by: claude-eu-social

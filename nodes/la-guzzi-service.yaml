@@ -13,7 +13,7 @@ brands:
 functions:
 - service
 url: http://www.laguzziservice.com/
-phone: ''
+phone: 06 85 41 324
 observations:
 - date: 2026-08-22
   method: community-endorsement
@@ -22,7 +22,13 @@ observations:
     da qui http://www.laguzziservice.com/ Quell''officina purtroppo non esiste più.
     Non so se Gianni è ancora in attività'' — https://forum.animaguzzista.com/viewtopic.php?t=60928;
     kept as defunct; lat/lon 0.0'
+- date: 2026-08-22
+  method: website
+  fact: laguzziservice.com is live as of 2026-08-22, showing address Via Savoia 60-62,
+    00198 Roma and phone 06 85 41 324, but community reports from 2025-11-23 indicate
+    the workshop may no longer be operating.
 last_verified: 2026-08-22
 verified_by: italy-community-lane
 status: defunct
 geocode: city-centroid
+address: Via Savoia 60-62, 00198 Roma

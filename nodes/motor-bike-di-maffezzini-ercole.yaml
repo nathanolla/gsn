@@ -17,9 +17,10 @@ phone: 02 99056094
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTOR BIKE
-    DI MAFFEZZINI ERCOLE"; address: VIA VOLTA 249, 20030 SENAGO (MI); type=services;
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "Motor Bike
+    di Maffezzini Ercole"; address: Via Volta 249, 20030 Senago (MI); type=services;
     dealerCd=IT225D; verified via official Piaggio Group dealerlocator API 2026-08-22'
 last_verified: 2026-08-22
 verified_by: claude-it-locator
 status: active
+address: Via Volta 249, 20030 Senago (MI)

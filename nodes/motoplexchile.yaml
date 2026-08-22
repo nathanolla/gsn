@@ -22,16 +22,17 @@ phone: +56 9 5446 5720
 observations:
 - date: 2026-08-22
   method: website
-  fact: motoplex.cl live; showroom at Av La Dehesa 181, Santiago (between Av Las Condes
-    y Escriva de Balaguer); phone +56 9 5446 5720; header lists 'Vespa, Aprilia, Piaggio,
-    Moto Guzzi'; offers new sales, used bikes (Usadas), parts (Repuestos), service
-    (Servicio Tecnico); verified 2026-08-22
+  fact: motoplex.cl is live. Showroom at Av La Dehesa 181, Santiago (between Av Las
+    Condes y Escriva de Balaguer). Phone +56 9 5446 5720. Header lists "Vespa, Aprilia,
+    Piaggio, Moto Guzzi". Offers new sales, used bikes (Usadas), parts (Repuestos),
+    and service (Servicio Tecnico).
 - date: 2026-08-22
   method: community-endorsement
-  fact: 'Instagram post from motoguzzi.com/es_ES promoting ''La evolución de Moto
-    Guzzi ya está en Chile. La nueva V100 S'' confirming Moto Guzzi presence in Chile;
-    source: https://www.instagram.com/reel/DUtC_GkEaXp/'
+  fact: 'Instagram post from motoguzzi.com/es_ES promoting "La evolución de Moto Guzzi
+    ya está en Chile. La nueva V100 S", confirming Moto Guzzi presence in Chile. Source:
+    https://www.instagram.com/reel/DUtC_GkEaXp/'
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
 status: active
 geocode: city-centroid
+address: Av La Dehesa 181, Santiago

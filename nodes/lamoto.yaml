@@ -1,29 +1,44 @@
 id: lamoto
-name: "La Moto Washington"
-city: "Arlington"
+name: La Moto Washington
+city: Arlington
 state: VA
 country: US
 lat: 38.8816
 lon: -77.091
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, piaggio, vespa]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.lamotowashington.com/
-phone: "833-686-7532"
+phone: 833-686-7532
 observations:
-  - date: 2026-07-26
-    method: community-endorsement
-    fact: "cited by forum members on wildguzzi.com for northern Virginia Guzzi service \u00e2\u0080\u0094 one reported no issues with their service work, another called them 'nice folks' with 'cool Guzzis', thread of 2017-09 (https://wildguzzi.com/forum/index.php?topic=92351.0)"
-  - date: 2026-07-26
-    method: website
-    fact: "lamotowashington.com live with current Moto Guzzi inventory (incl. Stelvio); listed on motoguzzi.com official dealer locator, 3298 A Wilson Blvd, Arlington VA"
-  - date: 2026-07-26
-    method: official-locator
-    fact: "not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding, a satellite listing, or a dropped franchise \u2014 treat franchise status as unconfirmed)"
+- date: 2026-07-26
+  method: community-endorsement
+  fact: Cited by forum members on wildguzzi.com for northern Virginia Guzzi service
+    — one reported no issues with their service work, another called them 'nice folks'
+    with 'cool Guzzis', thread of 2017-09 (https://wildguzzi.com/forum/index.php?topic=92351.0).
+- date: 2026-07-26
+  method: website
+  fact: lamotowashington.com was live with current Moto Guzzi inventory including
+    Stelvio. Listed on motoguzzi.com official dealer locator. Previously observed
+    at 3298 A Wilson Blvd, Arlington, VA.
+- date: 2026-07-26
+  method: official-locator
+  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may
+    be onboarding, a satellite listing, or a dropped franchise — treat franchise status
+    as unconfirmed).
+- date: 2026-08-22
+  method: website
+  fact: 'pass-2 check: site returns HTTP 403 (bot-protection), address could not be
+    re-verified.'
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active

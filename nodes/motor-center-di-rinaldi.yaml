@@ -17,10 +17,11 @@ phone: 0187/512027
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTOR CENTER
-    DI RINALDI"; address: Viale Italia, 207/209, 19124 La Spezia (SP); type=dealers;
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "Motor Center
+    di Rinaldi"; address: Viale Italia, 207/209, 19124 La Spezia (SP); type=dealers;
     dealerCd=ITB357S6; website: http://lnx.motorcenterweb.it/; verified via official
     Piaggio Group dealerlocator API 2026-08-22'
 last_verified: 2026-08-22
 verified_by: claude-it-locator
 status: active
+address: Viale Italia, 207/209, 19124 La Spezia (SP)

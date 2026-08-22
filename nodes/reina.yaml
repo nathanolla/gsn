@@ -1,25 +1,34 @@
 id: reina
-name: "Reina International Auto"
-city: "Brookfield"
+name: Reina International Auto
+city: Brookfield
 state: WI
 country: US
 lat: 43.0896
 lon: -88.0703
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, vespa, piaggio, aprilia]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- vespa
+- piaggio
+- aprilia
 functions:
-  - sales
-  - service
+- sales
+- service
 url: https://www.reinaintlauto.com/
-phone: "262-781-3336"
+phone: 262-781-3336
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "40+ year family exotic-car house that is also the Milwaukee-area Vespa/Piaggio/Aprilia/Moto Guzzi dealer with Italian factory-trained techs; two-wheel side is secondary to the car business."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Reina International\" (Brookfield, WI); type=dealers,services; verified 2026-07-26"
+- date: 2026-07-26
+  method: website
+  fact: 40+ year family exotic-car house that is also the Milwaukee-area Vespa/Piaggio/Aprilia/Moto
+    Guzzi dealer with Italian factory-trained techs; two-wheel side is secondary to
+    the car business.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Reina International"
+    (Brookfield, WI); type=dealers,services; verified 2026-07-26.
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active
+address: 12730 West Capitol Drive, Brookfield, WI 53005

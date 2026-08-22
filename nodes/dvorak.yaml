@@ -1,29 +1,40 @@
 id: dvorak
-name: "Dvorak Motorsports"
-city: "Bismarck"
+name: Dvorak Motorsports
+city: Bismarck
 state: ND
 country: US
 lat: 46.8083
 lon: -100.7837
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi, aprilia, vespa, cfmoto, arctic-cat]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- cfmoto
+- arctic-cat
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.dvorakmotorsports.com/
-phone: "(701) 751-7547"
+phone: (701) 751-7547
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Motorsports & RV center carrying Aprilia/Moto Guzzi/Vespa; own site lists 2026 Moto Guzzi V7 Sport and 2025 V85 TT Travel; one of the very few Guzzi points in the Dakotas."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Dvorak Motorsports & RV Center\" (Bismarck, ND); type=dealers,services; verified 2026-07-26"
-  - date: 2026-08-18
-    method: website
-    fact: "re-check: site live; Moto-Guzzi Inventory showroom link; 2027 model-year references; phone matches node"
+- date: 2026-07-26
+  method: website
+  fact: Motorsports & RV center carrying Aprilia/Moto Guzzi/Vespa; own site lists
+    2026 Moto Guzzi V7 Sport and 2025 V85 TT Travel; one of the very few Guzzi points
+    in the Dakotas.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Dvorak Motorsports
+    & RV Center" (Bismarck, ND); type=dealers,services; verified 2026-07-26.
+- date: 2026-08-18
+  method: website
+  fact: 'Re-check: site live; Moto Guzzi inventory showroom link; 2027 model-year
+    references; phone matches node.'
 last_verified: 2026-08-18
 verified_by: claude-glm
 status: active
+address: 1829 E Bismarck Expressway, Bismarck, ND 58504

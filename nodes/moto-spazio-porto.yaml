@@ -18,12 +18,13 @@ phone: '225072580'
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''MOTO SPAZIO
-    PORTO'' (Porto), type=dealers,services, dealer code DEALER-PT-39, address Rua
-    de Camões 700, 4000-142 Porto; source: https://www.motoguzzi.com/pt_PT/dealer-locator/porto/moto-spazio-porto/
-    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
-    verified 2026-08-22'
+  fact: 'Listed on the official Moto Guzzi dealer locator (PT feed) as "MOTO SPAZIO
+    PORTO" (Porto), type dealers/services, dealer code DEALER-PT-39, address Rua de
+    Camões 700, 4000-142 Porto. Source: https://www.motoguzzi.com/pt_PT/dealer-locator/porto/moto-spazio-porto/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores).
+    Verified 2026-08-22.'
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
+address: Rua de Camões 700, 4000-142 Porto

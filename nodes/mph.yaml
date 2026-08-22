@@ -1,22 +1,30 @@
 id: mph
-name: "MPH Cycles"
-city: "Hempstead"
+name: MPH Cycles
+city: Hempstead
 state: TX
 country: US
 lat: 30.044
 lon: -96.0536
 layer: independent
-capability: [full-service, heritage]
-brands: [moto-guzzi, bmw]
+capability:
+- full-service
+- heritage
+brands:
+- moto-guzzi
+- bmw
 functions:
-  - service
-  - repair
+- service
+- repair
 url: https://mphcycles.com/
-phone: "281-647-6557"
+phone: 281-647-6557
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Mike Haven's independent Moto Guzzi/BMW service house (former Texas #1 Guzzi dealer 2000-2016, servicing Guzzis since the 1980s); site notice dated April 2025 'now accepting BMW & Moto Guzzi motorcycles for service', copyright 2026; relocated to the Pine Island/Waller area west of Houston per wildguzzi."
+- date: 2026-07-26
+  method: website
+  fact: 'Mike Haven''s independent Moto Guzzi/BMW service house (former Texas #1 Guzzi
+    dealer 2000-2016, servicing Guzzis since the 1980s). Site notice dated April 2025
+    states they are ''now accepting BMW & Moto Guzzi motorcycles for service''. Copyright
+    2026. Relocated to the Pine Island/Waller area west of Houston per wildguzzi.com
+    community reports.'
 last_verified: 2026-07-26
 verified_by: claude-research-sweep
 status: active

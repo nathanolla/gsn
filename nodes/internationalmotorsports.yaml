@@ -19,10 +19,14 @@ phone: 604-288-1553
 observations:
 - date: 2026-08-22
   method: website
-  fact: internationalmotorsports.com has active Moto Guzzi inventory search at internationalmotorsports.com/search/inventory/brand/Moto%20Guzzi;
-    address 100-9420 200A St, Langley BC; phone (604) 288-1553; also has Chilliwack
-    location; verified 2026-08-22
+  fact: internationalmotorsports.com has an active Moto Guzzi inventory search at
+    internationalmotorsports.com/search/inventory/brand/Moto%20Guzzi. Address 100-9420
+    200A St, Langley BC; phone (604) 288-1553. Also has a Chilliwack location.
+- date: 2026-08-22
+  method: website
+  fact: 'pass-2 check: site unreachable (HTTP 403 Forbidden on both attempts — likely
+    bot protection or geo-blocking)'
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
-status: active
+status: unverified
 geocode: city-centroid

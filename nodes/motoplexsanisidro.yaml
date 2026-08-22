@@ -22,14 +22,10 @@ phone: +54 9 11 3922-2593
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: listed on the official Moto Guzzi Argentina dealer page at motoguzzioficial.com.ar/concesionarios/
-    as a Moto Guzzi concessionnaire in San Isidro, Buenos Aires; verified 2026-08-22
-- date: 2026-08-22
-  method: website
-  fact: motoplexsanisidro.com/moto-guzzi live; address Av. del Libertador 13381, B1640
-    San Isidro, Provincia de Buenos Aires; phone +54 9 11 3922-2593; carries Vespa,
-    Moto Guzzi, Aprilia, Piaggio; verified 2026-08-22
+  fact: Listed on the official Moto Guzzi Argentina dealer page at motoguzzioficial.com.ar/concesionarios/
+    as a Moto Guzzi concessionnaire in San Isidro, Buenos Aires. Verified 2026-08-22.
 last_verified: 2026-08-22
 verified_by: gsn-lane-beyond-europe
 status: active
 geocode: city-centroid
+address: Av. del Libertador 13381, B1640 San Isidro, Provincia de Buenos Aires

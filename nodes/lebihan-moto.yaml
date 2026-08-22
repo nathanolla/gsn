@@ -17,13 +17,15 @@ phone: 02 96 48 92 62
 observations:
 - date: 2026-08-22
   method: website
-  fact: lebihanmoto.fr live; title « Le Bihan Moto | Motos d'occasion et réparation
-    à Lannion » with Moto Guzzi mentions on page
+  fact: 'lebihanmoto.fr live; title « Le Bihan Moto | Motos d''occasion et réparation
+    à Lannion ». Address: 16 avenue de la résistance, 22300 Lannion. Moto Guzzi mentioned
+    in customer reviews.'
 - date: 2026-07-16
   method: community-endorsement
   fact: 'forumGUZZI.fr independent-mechanics list (viewtopic.php?t=508, mise à jour
     16/07/2026), dept 22: LE BIHAN MOTO, 16 Avenue de la Résistance 22300 Lannion;
-    lat/lon geocoded from stated address (Nominatim)'
+    lat/lon geocoded from stated address (Nominatim).'
 last_verified: 2026-08-22
 verified_by: claude-zai-fr-be-lane
 status: active
+address: 16 avenue de la résistance, 22300 Lannion

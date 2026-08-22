@@ -1,26 +1,43 @@
 id: gpmoto
-name: "GP Motorcycles"
-city: "San Diego"
+name: GP Motorcycles
+city: San Diego
 state: CA
 country: US
 lat: 32.7157
 lon: -117.1611
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, ducati, mv-agusta, husqvarna, ktm, gasgas, ural, swm]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- ducati
+- mv-agusta
+- husqvarna
+- ktm
+- gasgas
+- ural
+- swm
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://gpmotorcycles.com/
-phone: "(619) 233-4762"
+phone: (619) 233-4762
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Own site: San Diego County's only all-European dealership, authorized for Moto Guzzi alongside Ducati/Aprilia/MV Agusta/KTM/Ural, with a dedicated Moto Guzzi page."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"GP Motorcycles\" (San Diego, CA); type=dealers,services; verified 2026-07-26"
+- date: 2026-07-26
+  method: website
+  fact: Own site describes the dealership as San Diego County's only all-European
+    dealership, authorized for Moto Guzzi alongside Ducati, Aprilia, MV Agusta, KTM,
+    and Ural, with a dedicated Moto Guzzi page.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "GP Motorcycles" (San
+    Diego, CA); type=dealers,services; verified 2026-07-26.
+- date: 2026-08-22
+  method: website
+  fact: 'pass-2 check: site returns HTTP 403 (bot-protection), address could not be
+    extracted.'
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active

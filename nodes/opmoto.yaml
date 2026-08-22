@@ -1,35 +1,49 @@
 id: opmoto
-name: "Optimum Performance Motorsports"
-city: "Redmond"
+name: Optimum Performance Motorsports
+city: Redmond
 state: WA
 country: US
 lat: 47.6644
 lon: -122.1044
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, vespa, piaggio, triumph]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+- triumph
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://opmotorsports.com/
-phone: "425-765-3691"
+phone: 425-765-3691
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Licensed Aprilia/Moto Guzzi/Vespa/Piaggio/Triumph dealer at 13622 NE 20th St \u00e2\u0080\u0094 the Seattle-area Guzzi franchise since Moto International's closure; own site maintains new-inventory and news pages, with additional Redmond WA and Portland OR operations."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
-  - date: 2026-07-26
-    method: community-endorsement
-    fact: "recommended for Guzzi work by multiple members on wildguzzi.com as the Seattle-area dealer after Moto International closed; one member's friend had a new V85 shipped to Alaska with 'nothing but praise', thread of 2020-01 (https://wildguzzi.com/forum/index.php?topic=104139.0)"
-  - date: 2026-07-26
-    method: website
-    fact: "second Eastside location reported at 17646 NE 65th St, Redmond WA, plus a Portland OR operation \u2014 multi-site; confirm primary address when calling"
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Optimum Performance Motorsports\" (Redmond, WA); type=dealers,services; verified 2026-07-26"
+- date: 2026-07-26
+  method: website
+  fact: Licensed Aprilia/Moto Guzzi/Vespa/Piaggio/Triumph dealer at 13622 NE 20th
+    St — the Seattle-area Guzzi franchise since Moto International's closure. Own
+    site maintains new-inventory and news pages, with additional Redmond WA and Portland
+    OR operations.
+- date: 2026-07-26
+  method: official-locator
+  fact: Listed on the official Moto Guzzi US dealer locator as "Optimum Performance
+    Motorsports" (Redmond, WA); type=dealers,services; verified 2026-07-26.
+- date: 2026-07-26
+  method: community-endorsement
+  fact: Recommended for Guzzi work by multiple members on wildguzzi.com as the Seattle-area
+    dealer after Moto International closed. One member's friend had a new V85 shipped
+    to Alaska with 'nothing but praise', thread of 2020-01 (https://wildguzzi.com/forum/index.php?topic=104139.0).
+- date: 2026-07-26
+  method: website
+  fact: Second Eastside location reported at 17646 NE 65th St, Redmond WA, plus a
+    Portland OR operation — multi-site; confirm primary address when calling.
+- date: 2026-08-22
+  method: website
+  fact: Site is currently down for scheduled maintenance. Maintenance page confirms
+    Redmond phone (425) 765-3691 and Portland phone (971) 865-0054.
 last_verified: 2026-07-26
 verified_by: claude-locator-xref
 status: active

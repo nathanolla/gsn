@@ -18,12 +18,13 @@ phone: 035-6012106
 observations:
 - date: 2026-08-22
   method: official-locator
-  fact: 'listed on the official Moto Guzzi dealer locator (NL feed) as ''FA. LEERTOUWER''
-    (SOEST), type=dealers,services, dealer code NL3350, address ZUIDERGRACHT 1, 3763
-    LS SOEST; source: https://www.motoguzzi.com/nl_NL/dealer-locator/soest/fa-leertouwer-1/
-    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/nl/G/stores);
-    verified 2026-08-22'
+  fact: 'Listed on the official Moto Guzzi dealer locator (NL feed) as "FA. LEERTOUWER"
+    (Soest), type dealers/services, dealer code NL3350, address Zuidergracht 1, 3763
+    LS Soest. Source: https://www.motoguzzi.com/nl_NL/dealer-locator/soest/fa-leertouwer-1/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/nl/G/stores).
+    Verified 2026-08-22.'
 last_verified: 2026-08-22
 verified_by: claude-es-pt-nl-uk-locator
 status: active
 state: ''
+address: Zuidergracht 1, 3763 LS Soest
