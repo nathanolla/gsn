@@ -300,6 +300,7 @@ function setHome(ll,save=true){
   if(save){try{localStorage.setItem('gsn_home',JSON.stringify(ll))}catch(e){}} // client-side only; URL only via explicit Share
   page=0; render();
 }
+let corridorOn=()=>false, nearRoute=()=>true; // corridor module reassigns when armed
 function render(){
   const flayer=document.getElementById('flayer').value;
   const list=[];
@@ -401,6 +402,15 @@ function render(){
     let _rt; (window.visualViewport||window).addEventListener('resize',
       ()=>{clearTimeout(_rt);_rt=setTimeout(revive,200)});
     setTimeout(revive,400); setTimeout(revive,1500);
+    // watchdog: if the list has geometry rows but the map painted nothing,
+    // the canvas is stale (the iOS class) — revive it. Cheap, self-limiting.
+    setInterval(()=>{
+      try{
+        const want=FEATS.some(f=>f.geometry&&f.properties.capability.some(c=>activeCaps.has(c)));
+        const got=document.querySelectorAll('#map .leaflet-marker-icon').length;
+        if(want&&got===0) revive();
+      }catch(e){}
+    },3000);
   }
   // Carto basemaps (embeddable, no key) — theme-aware: Voyager for 1999, Dark Matter for 2026.
   const TILES={light:'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
@@ -461,20 +471,22 @@ function render(){
   const CORR_R=(LOC.units==='km'?[25,50,100]:[15,30,60]);
   CORR_R.forEach(r=>corrSel.insertAdjacentHTML('beforeend',`<option value="${r}">±${r} ${LOC.units}</option>`));
   corrSel.value=CORR_R[1];
-  function corridorOn(){return corridorActive&&routePts.length>1;}
+  corridorOn=function(){return corridorActive&&routePts.length>1;};
   function toXY(ll){const R=6371e3,rad=Math.PI/180;return [ll[1]*rad*R*Math.cos(ll[0]*rad),ll[0]*rad*R];}
   function segDist(p,a,b){const px=p[0]-a[0],py=p[1]-a[1],bx=b[0]-a[0],by=b[1]-a[1];
     const L2=bx*bx+by*by; const t=L2?Math.max(0,Math.min(1,(px*bx+py*by)/L2)):0;
     const dx=px-t*bx,dy=py-t*by; return Math.hypot(dx,dy);}
-  function nearRoute(coords){ // [lng,lat]
+  nearRoute=function(coords){ // [lng,lat]
     const P=toXY([coords[1],coords[0]]);
     const rM=corrSel.value*(LOC.units==='km'?1000:1609.344);
     for(let i=1;i<routePts.length;i++){
       if(segDist(P,toXY(routePts[i-1]),toXY(routePts[i]))<=rM) return true;
     }
-    return false;}
+    return false;};
   function drawRoute(){
     if(routeLine){routeLine.remove();routeLine=null;}
+    routeDots.forEach(d=>d.remove()); routeDots=[];
+    routePts.forEach(ll=>routeDots.push(L.circleMarker(ll,{radius:4,color:'#2f6fbe',weight:2,fillOpacity:.9}).addTo(map)));
     if(routePts.length>1) routeLine=L.polyline(routePts,{color:'#2f6fbe',weight:3,opacity:.8,dashArray:'2 6'}).addTo(map);
   }
   function setCorridor(on){
@@ -486,11 +498,14 @@ function render(){
     if(!on){routePts=[];drawRoute();}
     render();
   }
+  let routeDots=[];
   document.getElementById('corridor').onclick=()=>{
     if(corridorActive){setCorridor(false);return;}
     setCorridor(true);
-    if(routePts.length<2) document.getElementById('gpxfile').click();
   };
+  // long-press alternative for GPX import lives on the radius select label;
+  // simplest affordance: double-click the ROUTE button to import a file
+  document.getElementById('corridor').ondblclick=()=>{if(corridorActive)document.getElementById('gpxfile').click();};
   document.getElementById('gpxfile').onchange=e=>{
     const f=e.target.files[0]; if(!f)return;
     const rd=new FileReader();
