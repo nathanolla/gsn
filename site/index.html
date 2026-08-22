@@ -82,6 +82,12 @@
   .leaflet-container{font:13px "Times New Roman",serif}
   a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #c8102e;outline-offset:1px}
 
+  /* The 1999 face is the hidden feature now (est. line ×5, or ?retro=1).
+     The VIEW button renders only inside 1999 — it is the exit, not the entrance.
+     The hit counter stays behind the curtain too; 2026 does not count hits. */
+  #theme{display:none}
+  body:not(.modern) #theme{display:inline-block}
+  body.modern .ctrbar{display:none}
   /* ============ 2026 skin (body.modern) — same document, other face ============ */
   body.modern{background:#101418;color:#dbe4ee;font:15px/1.55 system-ui,Segoe UI,Roboto,sans-serif}
   body.modern a{color:#6ea8ff} body.modern a:visited{color:#b08fe8}
@@ -144,7 +150,7 @@
     <button id="setloc">SET HOME</button>
     <button id="geoloc" title="Use browser location">LOCATE ME</button>
     <button id="share" title="Copy a link centered on your home pin">SHARE VIEW</button>
-    <button id="theme" class="sec" title="Switch between the 1999 and 2026 skins">VIEW: 1999</button>
+    <button id="theme" class="sec" title="Back to the future">VIEW: 1999</button>
     &nbsp;|&nbsp;
     <select id="flayer" aria-label="Filter by layer"><option value="">— all layers —</option></select>
     <button id="gpx" class="sec" title="Download the shown nodes as GPX waypoints (Garmin, OsmAnd, Kurviger…)">↓ GPX</button>
@@ -366,9 +372,24 @@ function render(){
   function applyTheme(t){document.body.classList.toggle('modern',t==='2026');
     themeBtn.textContent='VIEW: '+(t==='2026'?'2026':'1999');
     setTiles(t==='2026'?'dark':'light');
-    try{localStorage.setItem('gsn_theme',t)}catch(e){}}
+    document.documentElement.style.colorScheme=(t==='2026'?'dark':'light'); // native scrollbars/controls follow the skin
+    try{localStorage.setItem('gsn_skin',t)}catch(e){}}
   themeBtn.onclick=()=>applyTheme(document.body.classList.contains('modern')?'1999':'2026');
-  try{applyTheme(localStorage.getItem('gsn_theme')||'1999')}catch(e){}
+  // 2026 is the face we show the world; 1999 is the soul, kept behind a curtain.
+  // Ways in: ?retro=1 (shareable), five quick clicks on the "est." line, or having
+  // toggled before (localStorage). The VIEW button only exists inside 1999 — it is
+  // the way back out, not the way in.
+  try{
+    const _p=new URLSearchParams(location.search);
+    applyTheme(_p.has('retro')?'1999':(localStorage.getItem('gsn_skin')||'2026'));
+  }catch(e){applyTheme('2026')}
+  (()=>{ // the curtain: 5 clicks on the est. line within 3s
+    const est=document.querySelector('.masthead .est'); if(!est) return;
+    let n=0,t0=0;
+    est.addEventListener('click',()=>{const now=Date.now();
+      if(now-t0>3000){n=0;t0=now} n++;
+      if(n>=5){n=0;applyTheme(document.body.classList.contains('modern')?'1999':'2026')}});
+  })();
   document.getElementById('setloc').onclick=async()=>{
     const q=document.getElementById('loc').value.trim(); if(!q)return;
     const ll=await geocode(q); if(ll){map.setView(ll,7);setHome(ll)} else alert('Location not found');
