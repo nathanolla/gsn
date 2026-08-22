@@ -1,0 +1,29 @@
+id: moto-guzzi-mandello
+name: "Moto Guzzi — Factory & Museo Moto Guzzi"
+city: "Mandello del Lario"
+state: ""
+country: IT
+lat: 45.9154
+lon: 9.3224
+layer: knowledge
+capability: [heritage, knowledge]
+brands: [moto-guzzi]
+functions:
+  - the factory — every Guzzi since 1921 is built here
+  - Museo Moto Guzzi (historic collection, Carlo Guzzi's wind tunnel, the V8)
+  - pilgrimage ground zero — GMG / Motoraduno Internazionale gathers here
+url: https://www.motoguzzi.com/en_EN/world/museum/
+phone: ""
+observations:
+  - date: 2026-08-22
+    method: website
+    fact: "headquarters and factory at Via Parodi 57, Mandello del Lario, operating
+      since the company's founding (Società Anonima Moto Guzzi, 15 March 1921) —
+      address and history verified against the Wikipedia 'Moto Guzzi' article
+      (https://en.wikipedia.org/wiki/Moto_Guzzi); coordinates geocoded to the exact
+      Via Parodi 57 address via OSM/Nominatim. The official museum page exists at
+      the url above but motoguzzi.com serves 403 to non-browser agents, so the
+      official-site observation is the page's existence, not its content."
+last_verified: '2026-08-22'
+verified_by: claude
+status: active
