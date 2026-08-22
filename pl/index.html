@@ -252,7 +252,7 @@
     Znaki towarowe należą do właścicieli.</b> Oficjalna strona: <a href="https://www.motoguzzi.com/">motoguzzi.com</a> ·
     <a href="https://github.com/nathanolla/gsn/blob/main/notices.md">notices</a><br>
     Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · <a href="https://carto.com/attributions">CARTO</a> ·
-    your location never leaves your browser · best viewed in <i>any</i> browser — and unlike 1999, that's true.<br>
+    twoja lokalizacja nigdy nie opuszcza przeglądarki · najlepiej działa w <i>każdej</i> przeglądarce — i <a href="#" id="go1999" title="Back to 1999">w przeciwieństwie do 1999</a> tym razem to prawda.<br>
     community-maintained · database last touched <span id="footupd"><!--BUILD:FOOTUPD-->2026-08-22<!--/BUILD:FOOTUPD--></span> ·
     <a href="whatsnew.html">co nowego</a> · od 2026
   </div>
@@ -434,6 +434,7 @@ function render(){
   osDark.addEventListener('change',()=>{ // live OS-theme flips retile the map
     if(document.body.classList.contains('modern')) setTiles(osDark.matches?'dark':'light');});
   themeBtn.onclick=()=>applyTheme(document.body.classList.contains('modern')?'1999':'2026');
+  const g99=document.getElementById('go1999'); if(g99)g99.onclick=e=>{e.preventDefault();applyTheme(document.body.classList.contains('modern')?'1999':'2026');};
   // 2026 is the face we show the world; 1999 is the soul, kept behind a curtain.
   // Ways in: ?retro=1 (shareable), five quick clicks on the "est." line, or having
   // toggled before (localStorage). The VIEW button only exists inside 1999 — it is
