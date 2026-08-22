@@ -1,0 +1,37 @@
+id: piaggio-el-salvador
+name: Piaggio El Salvador
+city: San Salvador
+country: SV
+lat: 13.6976
+lon: -89.1912
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+- parts
+url: https://piaggiopanama.com/piaggio-abre-concesionario-en-el-salvador/
+phone: 2505 6995
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Article dated 03/05/2016 on regional distributor site piaggiopanama.com:
+    Piaggio opened a dealership in San Salvador carrying Piaggio, Vespa, Aprilia,
+    Moto Guzzi and Ape, offering stock, accessories, spare parts and a specialized
+    workshop ("taller especializado").'
+- date: 2026-08-22
+  method: website
+  fact: Business-directory search results (todosbiz.com, worldplaces.me, cybo.com)
+    show a listing "Piaggio El Salvador" in San Salvador with phone 2505 6995; listing
+    dates unknown and street address not retrievable. No source confirms the Moto
+    Guzzi line is still active in 2026; lat/lon 0.0 because no verified street address.
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: unverified
+geocode: city-centroid

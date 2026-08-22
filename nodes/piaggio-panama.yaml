@@ -1,0 +1,37 @@
+id: piaggio-panama
+name: Piaggio Panama
+city: Panama City
+country: PA
+lat: 8.9768
+lon: -79.5343
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+- parts
+url: https://piaggiopanama.com/motos-moto-guzzi-en-panama/
+phone: +507 2039178
+observations:
+- date: 2026-08-22
+  method: website
+  fact: piaggiopanama.com bills itself "Sitio Oficial de Piaggio Panamá"; its Moto
+    Guzzi page lists Guzzi Stelvio 1200 NTX and California 1400 and shows address
+    "Vía España entre Av. Brasil y Av. Belisario Porras", phones (507) 2039178 / 6822
+    2275, email eperez@piaggiopanama.com. Coordinates geocoded approximately to Vía
+    España, Panama City.
+- date: 2026-08-22
+  method: website
+  fact: 'Caveat: the Guzzi models listed are previous-generation and site content
+    carries dates up to 2024, so the Moto Guzzi line-up page appears not recently
+    updated even though the domain is live; current Guzzi availability should be re-confirmed
+    by phone.'
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active

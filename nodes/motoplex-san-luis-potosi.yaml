@@ -1,0 +1,31 @@
+id: motoplex-san-luis-potosi
+name: Motoplex San Luis Potosí
+city: San Luis Potosí (Tequisquiapan)
+state: San Luis Potosí
+country: MX
+lat: 22.1504
+lon: -100.9907
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- sales
+url: https://www.google.com/maps/place/Motoplex+San+Luis+Potos%C3%AD
+phone: +52 462 980 0438
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/)
+    as "Motoplex San Luis Potosí", address "Av. Venustiano Carranza 1475, De Tequisquiapan,
+    San Luis Potosí". Also on https://piaggio.com.mx/distribuidores/.
+- date: 2026-08-22
+  method: website
+  fact: 'Google Maps business listing "Motoplex San Luis Potosí" (category Motorcycle
+    dealer): "Av. Venustiano Carranza 1475, Tequisquiapan, 78250 San Luis Potosí,
+    S.L.P.", phone +52 462 980 0438. Lat/lon geocoded from the stated address (Nominatim).'
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: active

@@ -1,0 +1,23 @@
+id: rider-room-medellin
+name: Rider Room
+city: Medellín
+country: CO
+lat: 6.2358
+lon: -75.5684
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://motoguzzi-colombia.com/store/rider-room-medellin/
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Official distributor site store page "Rider Room – Medellín distribuidor
+    en Medellín" lists address Calle 37 # 46-13 San Diego, Medellín, Antioquia. Coordinates
+    geocoded from that address (San Diego barrio, Medellín).'
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active

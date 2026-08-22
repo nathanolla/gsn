@@ -1,0 +1,30 @@
+id: agencia-mgt-san-jose
+name: Moto Gran Turismo (Agencia MGT)
+city: San José
+country: CR
+lat: 9.9348
+lon: -84.0866
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://usados.crmotos.com/motogranturismo/
+phone: 8332 4849
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Used-motorcycle agency on Costa Rican portal crmotos; its catalog (files dated
+    08-2026) includes a used 2020 Moto Guzzi V85 TT listing, showing current Guzzi
+    stock handling.
+- date: 2026-08-22
+  method: website
+  fact: 'Directory listings: es.cybo.com "Moto Gran Turismo - Paseo Colón, San José"
+    (coordinates geocoded from Paseo Colón) and autoyas/findglocal "Calle 40 y Avenida
+    14, Sabana Sur, San José"; phone 8332 4849 per todosbiz.com listing title. Facebook
+    page facebook.com/motogranturismo.'
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active

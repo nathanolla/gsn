@@ -214,6 +214,50 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -84.0866,
+     9.9348
+    ]
+   },
+   "properties": {
+    "id": "agencia-mgt-san-jose",
+    "name": "Moto Gran Turismo (Agencia MGT)",
+    "city": "San José",
+    "state": null,
+    "country": "CR",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://usados.crmotos.com/motogranturismo/",
+    "phone": "8332 4849",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Used-motorcycle agency on Costa Rican portal crmotos; its catalog (files dated 08-2026) includes a used 2020 Moto Guzzi V85 TT listing, showing current Guzzi stock handling."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Directory listings: es.cybo.com \"Moto Gran Turismo - Paseo Colón, San José\" (coordinates geocoded from Paseo Colón) and autoyas/findglocal \"Calle 40 y Avenida 14, Sabana Sur, San José\"; phone 8332 4849 per todosbiz.com listing title. Facebook page facebook.com/motogranturismo."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      9.3126,
      45.9402
     ]
@@ -3089,6 +3133,54 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -78.5123,
+     -0.2202
+    ]
+   },
+   "properties": {
+    "id": "corporacion-maresa",
+    "name": "Corporación Maresa",
+    "city": "Quito",
+    "state": null,
+    "country": "EC",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://www.maresa.com.ec/",
+    "phone": "(02) 299-8100",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Auto Magazine Ecuador article \"Piaggio, Guzzi, Aprilia y Vespa con Maresa en Ecuador\" (automagazine.ec, site copyright 2004-2026 with 2026-dated content): Corporación Maresa (4 decades in Ecuador, ex-rep of Mazda/Fiat/Kawasaki etc.) takes on Piaggio Group representation and \"representará también a estas otras icónicas tres marcas: Vespa, Aprilia y Moto Guzzi\", with new exhibition locals planned in Quito and Guayaquil; Moto Guzzi placed in the superior price segment."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Brand channels: Facebook \"Motoguzziecuadoroficial\" (facebook.com/motoguzzioficial.ec/) and Instagram @motoguzzioficial_ec (\"Guzzi Ecuador Oficial\") exist per search results. Maresa Quito phone (02) 299-8100 per ec.todosnegocios.com; Maresa Center dealership listings on autoyas.com (2026) show Quito locations (e.g. Av. Granados E11-124 y Av. 6 de Diciembre) but these are car showrooms — dedicated Moto Guzzi showroom street address unverified, so lat/lon 0.0."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      12.8003,
      41.8192
     ]
@@ -3936,6 +4028,51 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"DIEFFE DI COLOMBO FABIO & C. SNC\"; address: VIA ROMA 9, 26010 PIANENGO (CR); type=services; dealerCd=IT014M; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.0836,
+     4.6534
+    ]
+   },
+   "properties": {
+    "id": "distribuidora-los-autos-de-colombia",
+    "name": "Distribuidora Los Autos de Colombia SAS",
+    "city": "Bogotá",
+    "state": null,
+    "country": "CO",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi-colombia.com/",
+    "phone": "787-333-0277",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "motoguzzi-colombia.com is titled \"Moto Guzzi Colombia | Distribuidor Oficial\"; its Nosotros page states \"Distribuidora Los Autos de Colombia importador Oficial 2026\". Site content includes the 2025 Stelvio (mosaic dated 2025/03). Notably, no Auteco affiliation appears anywhere on the site (grep count 0)."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Colombian company registries (empresite.eleconomistaamerica.co, colfirma.com) list \"Distribuidora Los Autos De Colombia SAS\", NIT 900486347, locality Bogotá D.C.; no street address published, so lat/lon 0.0. Site publishes a concesionarios (dealer) map page and per-store pages."
      }
     ]
    }
@@ -4842,6 +4979,55 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "official Moto Guzzi BE locator (API be/G): Engels Filip bvba, Colmanstraat 44, 9270 Laarne, type=dealers,services — Guzzi franchise point inside a multi-brand dealer"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -69.9313,
+     18.4755
+    ]
+   },
+   "properties": {
+    "id": "erh-eurosports-rd",
+    "name": "ERH Eurosports",
+    "city": "Santo Domingo",
+    "state": null,
+    "country": "DO",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "vespa",
+     "aprilia",
+     "ape"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://erheurosports.com/",
+    "phone": "+1-809-523-2212",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "About page (erheurosports.com/sobre-nosotros/): \"Somos los representantes oficiales de las mejores marcas italianas como Ducati y el grupo Piaggio que incluye Vespa, Ape, Moto Guzzi y Aprilia.\""
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Contact page lists showroom Avenida Gustavo Mejía Ricart 94, Santo Domingo, +1-809-523-2212 (coordinates geocoded from that address). Caveat: blog content on the site references 2018 news, so site is not recently updated; current Guzzi stock/service should be re-confirmed by phone. Related signal: dedicated Instagram account \"Moto Guzzi Dominicana\" (@motoguzzird) exists; affiliation unverified."
      }
     ]
    }
@@ -6529,6 +6715,53 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -57.5877,
+     -25.2831
+    ]
+   },
+   "properties": {
+    "id": "grupo-tapyracuai",
+    "name": "Grupo Tapyracuai S.A.",
+    "city": "Asunción",
+    "state": null,
+    "country": "PY",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://grupotapyracuai.com/motocicletas/moto-guzzi-paraguay.html",
+    "phone": "(021) 286 167",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "grupotapyracuai.com states: \"Grupo Tapyracuai S.A. representa de forma exclusiva en Paraguay al grupo Piaggio y sus respectivas marcas: Vespa, Moto Guzzi, Aprilia y Piaggio\" and maintains a \"Moto Guzzi Paraguay\" page listing V7 among models."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "IMPORTANT CAVEAT: the same site states the company \"es una persona jurídica incautada en el marco de una causa penal y administrada por la Secretaría Nacional de Administración de Bienes Incautados y Comisados - SENABICO\" per Oficio Fiscal Nº 137/2022 and Resolución Senabico Nº 175/2022 — i.e. seized in a criminal proceeding and under state administration since 2022, while continuing as exclusive Piaggio-group representative. Phone (021) 286 167 and Avenida Sacramento, Asunción per todosnegocios.com and autoyas.com (2025); coordinates geocoded from Avenida Sacramento, Asunción."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      10.3581,
      44.8103
     ]
@@ -8205,6 +8438,52 @@
       "date": "2020-07-01",
       "method": "community-endorsement",
       "fact": "Moto Guzzi Club GB forum, thread 'Guzzi mechanics': Horton916 (2020-07-01) — 'Jason Sutcliffe Guiseley, Leeds 07977504215. Jason used to own Motostrada in Shipley, but operates from his workshop at Home. Ring for an appointment': https://forum.motoguzziclub.co.uk/t/guzzi-mechanics/3528"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.4986,
+     14.5824
+    ]
+   },
+   "properties": {
+    "id": "jcn-motors-guatemala",
+    "name": "JCN Motors",
+    "city": "Guatemala City",
+    "state": null,
+    "country": "GT",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.jcn.com.gt/moto_guzzi/",
+    "phone": null,
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Brand page https://www.jcn.com.gt/moto_guzzi/ states \"Actualmente Moto Guzzi y sus modelos más icónicos los encuentras en JCN Motors\" and notes Moto Guzzi joined Grupo Piaggio in 2004; showcases Stelvio Duecento Tributo 1050."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "JCN puntos-de-venta page lists Guatemala City locations: 20 calle 8-01 zona 10; 10 calle \"A\" 10-31 Av. Reforma zona 10; Calzada Aguilar Batres 24-05 zona 12. Coordinates geocoded from 20 calle 8-01 zona 10."
      }
     ]
    }
@@ -11622,6 +11901,140 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -63.2006,
+     -17.7559
+    ]
+   },
+   "properties": {
+    "id": "motoguzzi-bolivia",
+    "name": "Moto Guzzi Bolivia",
+    "city": "Santa Cruz de la Sierra",
+    "state": null,
+    "country": "BO",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.facebook.com/MotoGuzziBolivia",
+    "phone": "33437005",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Directory listing autoyas.com (marked 2026): \"Moto Guzzi Bolivia, 4to. Anillo entre Avenida San Martín y Av. La Salle Ventura Mall local 1, Santa Cruz de la Sierra\", phone 33437005. Coordinates geocoded from Ventura Mall, Santa Cruz. Facebook page facebook.com/MotoGuzziBolivia exists (about page login-walled; affiliation to a parent importer unverified)."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Used-market context: Facebook Marketplace Santa Cruz listing of a Guzzi California 1400 via Powersport Vehicles; no club or independent Guzzi workshop found elsewhere in Bolivia (searches returned only spec aggregators bikersbuddy/motowheeler and wanuncios classifieds)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.5022,
+     14.5877
+    ]
+   },
+   "properties": {
+    "id": "motoguzzi-guatemala",
+    "name": "Moto Guzzi Guatemala",
+    "city": "Guatemala City",
+    "state": null,
+    "country": "GT",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://motoguzzigt.com/",
+    "phone": "+502 3033 5540",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Contact page (https://motoguzzigt.com/contacto/) lists address Diagonal 6 13-78 zona 10, Ciudad de Guatemala, Guatemala and phone +502 3033 5540."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Site lists current models V7 Special, V7 Stone, V85TT, Stelvio, Mandello plus a \"Servicio y mantenimiento\" section; site meta description surfaced via search reads \"Distribuidor oficial de Moto Guzzi en Guatemala ... Venta, repuestos y servicio\"."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -99.2309,
+     19.479
+    ]
+   },
+   "properties": {
+    "id": "motoguzzi-naucalpan",
+    "name": "Moto Guzzi (Alce Blanco, Naucalpan)",
+    "city": "Naucalpan de Juárez (Alce Blanco)",
+    "state": "Estado de México",
+    "country": "MX",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.google.com/maps/place/Moto+Guzzi",
+    "phone": "+52 800 742 4446",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps listing \"Moto Guzzi\" (rating 4.7, category Motorcycle dealer): \"C. 9 685, Alce Blanco, 53370 Naucalpan de Juárez, Méx., Mexico\", phone +52 800 742 4446 — a Piaggio México toll-free number (7424446 spells PIAGGIO on a keypad). Listing is UNCLAIMED (\"Claim this business\" shown), has no website and no visible reviews/recent activity. Lat/lon from the listing's stated address."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Cross-check: this location is NOT on the official motoguzzimx.com/distribuidores/ locator (2026-08-22), whose CDMX-area Moto Guzzi dealer is Motoplex Polanco. Possibly a stale/vestigial listing from a prior importer era. Storefront operations not independently verified — review before publishing."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      135.5015,
      34.6938
     ]
@@ -11799,6 +12212,51 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Facebook page 'Moto Italia Sydney' active at facebook.com/p/Moto-Italia-Sydney-100054376067154/ listing Penrith NSW; verified 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.1308,
+     8.5596
+    ]
+   },
+   "properties": {
+    "id": "motojungla-panama",
+    "name": "MotoJungla.com",
+    "city": "",
+    "state": null,
+    "country": "PA",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motojungla.com/brand/moto-guzzi/",
+    "phone": null,
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "depot"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Panamanian moto marketplace/dealer site with a dedicated Moto Guzzi brand page: \"Motos Moto Guzzi en Panamá nuevas y de segunda mano. Repuestos y accesorios para motocicletas y pilotos.\" Also hosts verified-store pages for local shops incl. MOVINSA."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "No street address or phone published on reachable pages; city and coordinates left empty/0.0 for that reason."
      }
     ]
    }
@@ -12368,6 +12826,96 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -100.3965,
+     25.7303
+    ]
+   },
+   "properties": {
+    "id": "motoplex-cumbres-monterrey",
+    "name": "Motoplex Cumbres (Monterrey)",
+    "city": "Monterrey (Cumbres 2o. Sector)",
+    "state": "Nuevo León",
+    "country": "MX",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.google.com/maps/place/Motoplex+Cumbres",
+    "phone": "+52 81 4175 1600",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/) as \"Motoplex Monterrey Cumbres\", address \"Paseo de los Leones 2301, Cumbres 2o. Sector, Monterrey, Nuevo León\". Also on https://piaggio.com.mx/distribuidores/."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps business listing \"Motoplex Cumbres\" (rating 5.0, category Motorcycle dealer): \"Av Paseo de los Leones 2301, Cumbres 2o. Sector Secc C, 64610 Monterrey, N.L.\", phone +52 81 4175 1600. Lat/lon geocoded from the stated address (Nominatim)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.6712,
+     24.0347
+    ]
+   },
+   "properties": {
+    "id": "motoplex-durango",
+    "name": "Motoplex Durango",
+    "city": "Durango (Zona Centro)",
+    "state": "Durango",
+    "country": "MX",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.google.com/maps/place/MOTOPLEX+Durango",
+    "phone": "+52 618 315 0195",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/) as \"Motoplex Durango\", address \"Blvd Felipe pescador 253 pte, Durango, Durango\". Also on https://piaggio.com.mx/distribuidores/."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps business listing \"MOTOPLEX Durango\" (category Motorcycle dealer): \"Blvd. Felipe Pescador 255, Zona Centro, 34000 Durango, Dgo.\" (house number 255 vs locator's 253 pte — minor discrepancy), phone +52 618 315 0195. Lat/lon geocoded from the stated address (Nominatim); service capability not individually verified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      114.1872,
      22.3128
     ]
@@ -12447,6 +12995,285 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"MOTOPLEX Mantova\"; address: Piazza Vilfredo Pareto, 1, 46100 Mantova (MN); type=dealers,services; dealerCd=ITCS01; website: http://www.motoplexpiaggio.com/mantova/; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -96.7191,
+     17.081
+    ]
+   },
+   "properties": {
+    "id": "motoplex-oaxaca",
+    "name": "Motoplex Oaxaca",
+    "city": "Oaxaca de Juárez (Reforma)",
+    "state": "Oaxaca",
+    "country": "MX",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.google.com/maps/place/MOTOPLEX+OAXACA",
+    "phone": "+52 951 635 7079",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/) as \"Motoplex Oaxaca\", address \"Calz. Porfirio Díaz 208, Reforma, Oaxaca\". Also on https://piaggio.com.mx/distribuidores/."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps business listing \"MOTOPLEX OAXACA\" (category Motorcycle dealer): \"Calz. Porfirio Díaz 208, Reforma, 68050 Oaxaca de Juárez, Oax.\", phone +52 951 635 7079. Lat/lon geocoded from the stated address (Nominatim)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -99.1965,
+     19.4411
+    ]
+   },
+   "properties": {
+    "id": "motoplex-polanco",
+    "name": "Motoplex Polanco",
+    "city": "Ciudad de México (Granada, Miguel Hidalgo)",
+    "state": "CDMX",
+    "country": "MX",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://motoplexpolanco.com.mx/",
+    "phone": "+52 55 1204 0869",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on the official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/, importer Moto Continental) as \"Motoplex Polanco\", CDMX, \"Local patio inglés, Blvd. Miguel de Cervantes Saavedra 161, Granada, Miguel Hidalgo\". Also listed on https://piaggio.com.mx/distribuidores/."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Own site https://motoplexpolanco.com.mx/ (title \"Motoplex | Piaggio - Vespa - Aprilia - Moto Guzzi\"): \"Somos la casa de Piaggio… De Vespa… Moto Guzzi, motos ruteras de estilo clásico… Y Aprilia\". Includes postventa (after-sales/service) section and online store for parts/apparel. Hours Mon-Fri 9:30-14:00 & 15:00-18:30, Sat 10:00-15:00. Phones on site: 55 1490 3025 and 55 1204 0869."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps business listing (rating 4.4, category Motorcycle dealer) shows address \"Local patio inglés, Blvd. Miguel de Cervantes Saavedra 161, Granada, Miguel Hidalgo, 11520 Ciudad de México\", phone +52 55 1204 0869. Lat/lon from the listing's stated address (https://www.google.com/maps/place/Motoplex+Polanco)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.3081,
+     19.0455
+    ]
+   },
+   "properties": {
+    "id": "motoplex-puebla-aguazul",
+    "name": "Motoplex Puebla (7 Sur)",
+    "city": "Puebla (Prados Agua Azul)",
+    "state": "Puebla",
+    "country": "MX",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motoguzzimx.com/distribuidores/",
+    "phone": null,
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/) as \"Motoplex Puebla\", address \"C. 7 Sur 4921, Prados Agua Azul, Puebla\". Also on https://piaggio.com.mx/distribuidores/."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps search for this location (2026-08-22) surfaces only the sister store \"Motoplex Puebla\" at Cto. Juan Pablo II 2102 (Atlixcáyotl) — no separate Maps listing with its own phone was found for the 7 Sur address. No phone published; lat/lon geocoded from the stated address (Nominatim)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.2248,
+     19.0358
+    ]
+   },
+   "properties": {
+    "id": "motoplex-puebla-atlixcayotl",
+    "name": "Motoplex Puebla II (Atlixcáyotl)",
+    "city": "Puebla (La Noria, Reserva Territorial Atlixcáyotl)",
+    "state": "Puebla",
+    "country": "MX",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.google.com/maps/place/Motoplex+Puebla",
+    "phone": "+52 222 346 1568",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/) as \"Motoplex Puebla II\", address \"Cto Juan Pablo II 2102-LOCAL C, Reserva Territorial Atlixcáyotl, La Noria, Puebla\". Also on https://piaggio.com.mx/distribuidores/."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps business listing \"Motoplex Puebla\" (category Motorcycle dealer): \"Cto Juan Pablo II 2102-Loc C, Reserva Territorial Atlixcáyotl, La Noria, 72410 Heroica Puebla de Zaragoza\", phone +52 222 346 1568, website authority motoplexpuebla.com (site connection-refused/dead as of 2026-08-22). Lat/lon from the listing's stated address."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -100.3955,
+     20.545
+    ]
+   },
+   "properties": {
+    "id": "motoplex-queretaro",
+    "name": "Motoplex Querétaro",
+    "city": "Santiago de Querétaro (Álamos 3ra Secc.)",
+    "state": "Querétaro",
+    "country": "MX",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.google.com/maps/place/MOTOPLEX+Quer%C3%A9taro",
+    "phone": "+52 446 123 3738",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/) as \"Motoplex Querétaro\", address \"Prol. Bernardo Quintana 4100-Local 2B, Alamos 3ra Secc, Querétaro\". Also on https://piaggio.com.mx/distribuidores/."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps business listing \"MOTOPLEX Querétaro\" (category Motorcycle dealer): \"Prol. Bernardo Quintana 4100-Loc 2B, Alamos 3ra Secc, 76160 Santiago de Querétaro, Qro.\", \"Located in: Plaza Boulevares\", phone +52 446 123 3738. Lat/lon geocoded from the stated address (Nominatim)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -100.9907,
+     22.1504
+    ]
+   },
+   "properties": {
+    "id": "motoplex-san-luis-potosi",
+    "name": "Motoplex San Luis Potosí",
+    "city": "San Luis Potosí (Tequisquiapan)",
+    "state": "San Luis Potosí",
+    "country": "MX",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.google.com/maps/place/Motoplex+San+Luis+Potos%C3%AD",
+    "phone": "+52 462 980 0438",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/) as \"Motoplex San Luis Potosí\", address \"Av. Venustiano Carranza 1475, De Tequisquiapan, San Luis Potosí\". Also on https://piaggio.com.mx/distribuidores/."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps business listing \"Motoplex San Luis Potosí\" (category Motorcycle dealer): \"Av. Venustiano Carranza 1475, Tequisquiapan, 78250 San Luis Potosí, S.L.P.\", phone +52 462 980 0438. Lat/lon geocoded from the stated address (Nominatim)."
      }
     ]
    }
@@ -13453,6 +14280,53 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -84.114,
+     9.9684
+    ]
+   },
+   "properties": {
+    "id": "motoviaggio-cr",
+    "name": "Motoviaggio",
+    "city": "Heredia",
+    "state": null,
+    "country": "CR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "aprilia",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.facebook.com/Motoviaggiocr/",
+    "phone": null,
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Facebook page facebook.com/Motoviaggiocr (Heredia) announces it is the new agency with representation of Vespa, Aprilia and Moto Guzzi brands, and posts \"Moto Guzzi Costa Rica ... auténtico con una V7 Stone\" promoting new Guzzi sales."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Directory autoyas.com listing \"Motoviaggio, Antiguo Autos Xiri, La Valencia, Heredia (2026)\" with promo text \"Súper liquidación en motos y scooters Vespa Piaggio\"; coordinates geocoded from La Valencia, Heredia. No phone or dedicated website found."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -87.685358,
      41.8553907
     ]
@@ -13497,6 +14371,46 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "Site loads normally (previously returned HTTP 403 due to bot protection). Copyright 2026; lists BMW, Triumph, Ducati, Vespa, Royal Enfield, Piaggio, MV Agusta, KTM, Aprilia, Moto Guzzi, and Husqvarna among franchised brands. [source: https://www.motoworkschicago.com]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.0207,
+     4.6705
+    ]
+   },
+   "properties": {
+    "id": "motus-motos-bogota",
+    "name": "MOTUS Motos",
+    "city": "Bogotá",
+    "state": null,
+    "country": "CO",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://motusmotos.co/moto-guzzi",
+    "phone": "+57 317 588 882",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "motusmotos.co/moto-guzzi is headed \"Moto Guzzi Colombia — Distribuidor Oficial en Bogotá | MOTUS\" and lists V85 TT, V7 and Stelvio models; homepage shows address Calle 100 # 62-49, Bogotá, WhatsApp +57 317 588 882, and describes a \"Taller especializado con técnicos certificados por las marcas italianas\" (workshop with brand-certified technicians). Coordinates geocoded from stated address (approx, Chapinero area)."
      }
     ]
    }
@@ -13599,6 +14513,53 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "listed as 'MOVE MOTO | Moto Guzzi Split' on official Moto Guzzi dealer locator for Croatia; live page returned HTTP 503 on 2026-08-22, verified via Wayback snapshot 2022-06-30: https://web.archive.org/web/20220630232142/https://www.motoguzzi.com/hr_HR/dealer-locator/split/move-moto/ — note: stale snapshot, needs re-confirmation"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.5342,
+     8.9714
+    ]
+   },
+   "properties": {
+    "id": "movinsa-panama",
+    "name": "MOVINSA (Movilidad Internacional S.A.)",
+    "city": "Panama City",
+    "state": null,
+    "country": "PA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://movinsa.com.pa/",
+    "phone": "+507 375-7742",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "MOVINSA (Movilidad Internacional S.A., a Grupo Posada company) runs a \"Motos & Scooters\" division (movinsa.com.pa/projects/motos-scooters/) and homepage states alliances with leading global manufacturers; contact +507 375-7742."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Cybo directory listing titled \"Vespa Panama - VESPA APRILIA MOTO GUZZI, EDIFICIO MOVINSA\" ties the Vespa/Aprilia/Moto Guzzi storefront to the MOVINSA building; a newer Vespapanama Facebook page (facebook.com/61558722722723) also exists. Street address not retrievable (directory blocked fetch), so lat/lon 0.0."
      }
     ]
    }
@@ -15140,6 +16101,104 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -89.1912,
+     13.6976
+    ]
+   },
+   "properties": {
+    "id": "piaggio-el-salvador",
+    "name": "Piaggio El Salvador",
+    "city": "San Salvador",
+    "state": null,
+    "country": "SV",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://piaggiopanama.com/piaggio-abre-concesionario-en-el-salvador/",
+    "phone": "2505 6995",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "unverified",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Article dated 03/05/2016 on regional distributor site piaggiopanama.com: Piaggio opened a dealership in San Salvador carrying Piaggio, Vespa, Aprilia, Moto Guzzi and Ape, offering stock, accessories, spare parts and a specialized workshop (\"taller especializado\")."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Business-directory search results (todosbiz.com, worldplaces.me, cybo.com) show a listing \"Piaggio El Salvador\" in San Salvador with phone 2505 6995; listing dates unknown and street address not retrievable. No source confirms the Moto Guzzi line is still active in 2026; lat/lon 0.0 because no verified street address."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.5343,
+     8.9768
+    ]
+   },
+   "properties": {
+    "id": "piaggio-panama",
+    "name": "Piaggio Panama",
+    "city": "Panama City",
+    "state": null,
+    "country": "PA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://piaggiopanama.com/motos-moto-guzzi-en-panama/",
+    "phone": "+507 2039178",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "piaggiopanama.com bills itself \"Sitio Oficial de Piaggio Panamá\"; its Moto Guzzi page lists Guzzi Stelvio 1200 NTX and California 1400 and shows address \"Vía España entre Av. Brasil y Av. Belisario Porras\", phones (507) 2039178 / 6822 2275, email eperez@piaggiopanama.com. Coordinates geocoded approximately to Vía España, Panama City."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Caveat: the Guzzi models listed are previous-generation and site content carries dates up to 2024, so the Moto Guzzi line-up page appears not recently updated even though the domain is live; current Guzzi availability should be re-confirmed by phone."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      11.201704,
      43.758992
     ]
@@ -15445,6 +16504,51 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Anima Guzzista threads: Cane 2023-03-22 'Oppure c'e' Posarelli a Ponte a Egola...(guzzista storico)' — https://forum.animaguzzista.com/viewtopic.php?t=60079; MAUGUZZI 2025-08-22 'Posarelli Ponte a Egola (Pi)' — https://forum.animaguzzista.com/viewtopic.php?t=60892; lat/lon are Ponte a Egola frazione centroid (approx)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -66.0534,
+     18.3842
+    ]
+   },
+   "properties": {
+    "id": "power-sports-pr",
+    "name": "Power Sports PR (Power Sports Warehouse)",
+    "city": "San Juan",
+    "state": null,
+    "country": "PR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://powersportspr.com/collections/moto-guzzi/",
+    "phone": "787-333-0277",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "powersportspr.com (\"Motoras, Generadores y Vehículos Todo Terreno\") maintains a dedicated MOTO GUZZI collection (powersportspr.com/collections/moto-guzzi/) and an Aprilia/Moto Guzzi \"motoras\" collection (powersportspr.com/collections/motoras-aprilia/); contact phone 787.333.0277 shown on site. Guzzi collection page showed no listed products/price in fetched text — current Guzzi stock unconfirmed."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "PR directories (info-puertorico.com, eldirectorio.co, todosbiz.com) list \"Power Sports Warehouse\" in San Juan with phones 787-333-0277 / (787) 272-0000 / (787) 277-0415; no street address retrievable from any source, so lat/lon 0.0."
      }
     ]
    }
@@ -16024,6 +17128,45 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "listed on the official Moto Guzzi dealer locator (GB feed) as 'Revolutions' (Perth), type=dealers,services, dealer code GB5469S1, address Arran Road  - Bute House, PH1 3DZ Perth; source: https://www.motoguzzi.com/gb_EN/dealer-locator/perth/revolutions/ (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/gb/G/stores); verified 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.5684,
+     6.2358
+    ]
+   },
+   "properties": {
+    "id": "rider-room-medellin",
+    "name": "Rider Room",
+    "city": "Medellín",
+    "state": null,
+    "country": "CO",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motoguzzi-colombia.com/store/rider-room-medellin/",
+    "phone": null,
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-latam-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Official distributor site store page \"Rider Room – Medellín distribuidor en Medellín\" lists address Calle 37 # 46-13 San Diego, Medellín, Antioquia. Coordinates geocoded from that address (San Diego barrio, Medellín)."
      }
     ]
    }
@@ -18327,6 +19470,53 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -99.1785,
+     19.4062
+    ]
+   },
+   "properties": {
+    "id": "vespa-condesa-vmotors",
+    "name": "Vespa Condesa (VMotors)",
+    "city": "Ciudad de México (Hipódromo, Cuauhtémoc)",
+    "state": "CDMX",
+    "country": "MX",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "aprilia",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.google.com/maps/place/Vespa+Condesa",
+    "phone": "+52 55 3469 8413",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-mx-lane",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Google Maps business listing name self-declares \"Vespa Condesa | Distribuidor Oficial de Vespa, Aprilia, Moto Guzzi y Piaggio\" — address \"Diagonal Patriotismo 12, Hipódromo, Cuauhtémoc, 06100 Ciudad de México\", phone +52 55 3469 8413, rating 4.1, category Motorcycle dealer, listing website https://vmotorsmx.com/. Lat/lon from the listing's stated address."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Caveat: the VMotors group site (https://vmotorsmx.com/, phone 5524012905, contacto@vmotors.mx) brands only Aprilia, Vespa, Piaggio, Italjet and BSA — Moto Guzzi is NOT listed there as of 2026-08-22. The Moto Guzzi claim rests solely on the store's own Maps listing name. NOT present on the official motoguzzimx.com/distribuidores/ locator. Flagged for review."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -4.479276,
      36.70801
     ]
@@ -19207,6 +20397,6 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 415
+  "count": 441
  }
 }

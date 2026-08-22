@@ -1,0 +1,33 @@
+id: motoguzzi-naucalpan
+name: Moto Guzzi (Alce Blanco, Naucalpan)
+city: Naucalpan de Juárez (Alce Blanco)
+state: Estado de México
+country: MX
+lat: 19.479
+lon: -99.2309
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://www.google.com/maps/place/Moto+Guzzi
+phone: +52 800 742 4446
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Google Maps listing "Moto Guzzi" (rating 4.7, category Motorcycle dealer):
+    "C. 9 685, Alce Blanco, 53370 Naucalpan de Juárez, Méx., Mexico", phone +52 800
+    742 4446 — a Piaggio México toll-free number (7424446 spells PIAGGIO on a keypad).
+    Listing is UNCLAIMED ("Claim this business" shown), has no website and no visible
+    reviews/recent activity. Lat/lon from the listing''s stated address.'
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Cross-check: this location is NOT on the official motoguzzimx.com/distribuidores/
+    locator (2026-08-22), whose CDMX-area Moto Guzzi dealer is Motoplex Polanco. Possibly
+    a stale/vestigial listing from a prior importer era. Storefront operations not
+    independently verified — review before publishing.'
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: unverified

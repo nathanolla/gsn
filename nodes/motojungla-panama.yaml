@@ -1,0 +1,30 @@
+id: motojungla-panama
+name: MotoJungla.com
+city: ''
+country: PA
+lat: 8.5596
+lon: -81.1308
+layer: independent
+capability:
+- depot
+brands:
+- moto-guzzi
+functions:
+- sales
+- parts
+url: https://motojungla.com/brand/moto-guzzi/
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Panamanian moto marketplace/dealer site with a dedicated Moto Guzzi brand
+    page: "Motos Moto Guzzi en Panamá nuevas y de segunda mano. Repuestos y accesorios
+    para motocicletas y pilotos." Also hosts verified-store pages for local shops
+    incl. MOVINSA.'
+- date: 2026-08-22
+  method: website
+  fact: No street address or phone published on reachable pages; city and coordinates
+    left empty/0.0 for that reason.
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active
+geocode: city-centroid

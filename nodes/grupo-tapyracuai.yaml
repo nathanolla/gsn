@@ -1,0 +1,36 @@
+id: grupo-tapyracuai
+name: Grupo Tapyracuai S.A.
+city: Asunción
+country: PY
+lat: -25.2831
+lon: -57.5877
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+url: https://grupotapyracuai.com/motocicletas/moto-guzzi-paraguay.html
+phone: (021) 286 167
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'grupotapyracuai.com states: "Grupo Tapyracuai S.A. representa de forma exclusiva
+    en Paraguay al grupo Piaggio y sus respectivas marcas: Vespa, Moto Guzzi, Aprilia
+    y Piaggio" and maintains a "Moto Guzzi Paraguay" page listing V7 among models.'
+- date: 2026-08-22
+  method: website
+  fact: 'IMPORTANT CAVEAT: the same site states the company "es una persona jurídica
+    incautada en el marco de una causa penal y administrada por la Secretaría Nacional
+    de Administración de Bienes Incautados y Comisados - SENABICO" per Oficio Fiscal
+    Nº 137/2022 and Resolución Senabico Nº 175/2022 — i.e. seized in a criminal proceeding
+    and under state administration since 2022, while continuing as exclusive Piaggio-group
+    representative. Phone (021) 286 167 and Avenida Sacramento, Asunción per todosnegocios.com
+    and autoyas.com (2025); coordinates geocoded from Avenida Sacramento, Asunción.'
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active

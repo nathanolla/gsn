@@ -1,0 +1,34 @@
+id: movinsa-panama
+name: MOVINSA (Movilidad Internacional S.A.)
+city: Panama City
+country: PA
+lat: 8.9714
+lon: -79.5342
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+url: https://movinsa.com.pa/
+phone: +507 375-7742
+observations:
+- date: 2026-08-22
+  method: website
+  fact: MOVINSA (Movilidad Internacional S.A., a Grupo Posada company) runs a "Motos
+    & Scooters" division (movinsa.com.pa/projects/motos-scooters/) and homepage states
+    alliances with leading global manufacturers; contact +507 375-7742.
+- date: 2026-08-22
+  method: website
+  fact: Cybo directory listing titled "Vespa Panama - VESPA APRILIA MOTO GUZZI, EDIFICIO
+    MOVINSA" ties the Vespa/Aprilia/Moto Guzzi storefront to the MOVINSA building;
+    a newer Vespapanama Facebook page (facebook.com/61558722722723) also exists. Street
+    address not retrievable (directory blocked fetch), so lat/lon 0.0.
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active
+geocode: city-centroid

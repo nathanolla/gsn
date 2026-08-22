@@ -1,0 +1,36 @@
+id: erh-eurosports-rd
+name: ERH Eurosports
+city: Santo Domingo
+country: DO
+lat: 18.4755
+lon: -69.9313
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- ducati
+- vespa
+- aprilia
+- ape
+functions:
+- sales
+- service
+url: https://erheurosports.com/
+phone: +1-809-523-2212
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'About page (erheurosports.com/sobre-nosotros/): "Somos los representantes
+    oficiales de las mejores marcas italianas como Ducati y el grupo Piaggio que incluye
+    Vespa, Ape, Moto Guzzi y Aprilia."'
+- date: 2026-08-22
+  method: website
+  fact: 'Contact page lists showroom Avenida Gustavo Mejía Ricart 94, Santo Domingo,
+    +1-809-523-2212 (coordinates geocoded from that address). Caveat: blog content
+    on the site references 2018 news, so site is not recently updated; current Guzzi
+    stock/service should be re-confirmed by phone. Related signal: dedicated Instagram
+    account "Moto Guzzi Dominicana" (@motoguzzird) exists; affiliation unverified.'
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active

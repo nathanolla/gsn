@@ -1,0 +1,46 @@
+id: distribuidora-los-autos-de-colombia
+name: Distribuidora Los Autos de Colombia SAS
+city: Bogotá
+country: CO
+lat: 4.6534
+lon: -74.0836
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- parts
+url: https://motoguzzi-colombia.com/
+observations:
+- date: 2026-08-22
+  method: website
+  fact: motoguzzi-colombia.com is titled "Moto Guzzi Colombia | Distribuidor Oficial";
+    its Nosotros page states "Distribuidora Los Autos de Colombia importador Oficial
+    2026". Site content includes the 2025 Stelvio (mosaic dated 2025/03). Notably,
+    no Auteco affiliation appears anywhere on the site (grep count 0).
+- date: 2026-08-22
+  method: website
+  fact: Colombian company registries (empresite.eleconomistaamerica.co, colfirma.com)
+    list "Distribuidora Los Autos De Colombia SAS", NIT 900486347, locality Bogotá
+    D.C.; no street address published, so lat/lon 0.0. Site publishes a concesionarios
+    (dealer) map page and per-store pages.
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active
+phone: 787-333-0277
+REGION REPORT: Puerto Rico (beyond Power Sports)
+No Moto Guzzi club, independent Guzzi specialist, or parts house found beyond ERH Eurosports. Sources checked 2026-08-22: DDG
+  searches ("Moto Guzzi República Dominicana", "concesionario Moto Guzzi Santo Domingo
+  taller", "@motoguzzird/Moto Guzzi Dominicana website"). Moto Market (motomarket.com.do)
+  is a multi-brand marketplace with no Guzzi dealer listing reachable; Teruel & Co
+  (teruel.us) carries X1000/Zontes/Kove/Aprilia but no Moto Guzzi; Motomarcas Srl
+  shows no Guzzi among brands; only used-bike market activity (FB Marketplace V85TT
+  2023, Santo Domingo).
+Sources checked 2026-08-22: DDG ("Moto Guzzi Puerto Rico dealer"), powersportspr.com
+  pages, Cycle Trader PR dealer listing (blocked/no data returned), PR directories.
+  Only Power Sports PR surfaced as a Guzzi-carrying dealer; no Moto Guzzi club or
+  independent Guzzi specialist found. The official motoguzzi.com US dealer-locator
+  was not fetched (403-blocks fetchers per lane instructions).
+geocode: city-centroid

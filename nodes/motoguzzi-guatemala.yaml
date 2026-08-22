@@ -1,0 +1,31 @@
+id: motoguzzi-guatemala
+name: Moto Guzzi Guatemala
+city: Guatemala City
+country: GT
+lat: 14.5877
+lon: -90.5022
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+- parts
+url: https://motoguzzigt.com/
+phone: +502 3033 5540
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Contact page (https://motoguzzigt.com/contacto/) lists address Diagonal 6
+    13-78 zona 10, Ciudad de Guatemala, Guatemala and phone +502 3033 5540.
+- date: 2026-08-22
+  method: website
+  fact: Site lists current models V7 Special, V7 Stone, V85TT, Stelvio, Mandello plus
+    a "Servicio y mantenimiento" section; site meta description surfaced via search
+    reads "Distribuidor oficial de Moto Guzzi en Guatemala ... Venta, repuestos y
+    servicio".
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active

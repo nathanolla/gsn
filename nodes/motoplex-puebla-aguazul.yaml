@@ -1,0 +1,31 @@
+id: motoplex-puebla-aguazul
+name: Motoplex Puebla (7 Sur)
+city: Puebla (Prados Agua Azul)
+state: Puebla
+country: MX
+lat: 19.0455
+lon: -98.3081
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- sales
+url: https://motoguzzimx.com/distribuidores/
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/)
+    as "Motoplex Puebla", address "C. 7 Sur 4921, Prados Agua Azul, Puebla". Also
+    on https://piaggio.com.mx/distribuidores/.
+- date: 2026-08-22
+  method: website
+  fact: Google Maps search for this location (2026-08-22) surfaces only the sister
+    store "Motoplex Puebla" at Cto. Juan Pablo II 2102 (Atlixcáyotl) — no separate
+    Maps listing with its own phone was found for the 7 Sur address. No phone published;
+    lat/lon geocoded from the stated address (Nominatim).
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: active

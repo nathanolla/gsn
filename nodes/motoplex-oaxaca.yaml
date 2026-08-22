@@ -1,0 +1,31 @@
+id: motoplex-oaxaca
+name: Motoplex Oaxaca
+city: Oaxaca de Juárez (Reforma)
+state: Oaxaca
+country: MX
+lat: 17.081
+lon: -96.7191
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- sales
+url: https://www.google.com/maps/place/MOTOPLEX+OAXACA
+phone: +52 951 635 7079
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/)
+    as "Motoplex Oaxaca", address "Calz. Porfirio Díaz 208, Reforma, Oaxaca". Also
+    on https://piaggio.com.mx/distribuidores/.
+- date: 2026-08-22
+  method: website
+  fact: 'Google Maps business listing "MOTOPLEX OAXACA" (category Motorcycle dealer):
+    "Calz. Porfirio Díaz 208, Reforma, 68050 Oaxaca de Juárez, Oax.", phone +52 951
+    635 7079. Lat/lon geocoded from the stated address (Nominatim).'
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: active

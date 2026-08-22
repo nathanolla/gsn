@@ -1,0 +1,27 @@
+id: motus-motos-bogota
+name: MOTUS Motos
+city: Bogotá
+country: CO
+lat: 4.6705
+lon: -74.0207
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://motusmotos.co/moto-guzzi
+phone: +57 317 588 882
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'motusmotos.co/moto-guzzi is headed "Moto Guzzi Colombia — Distribuidor Oficial
+    en Bogotá | MOTUS" and lists V85 TT, V7 and Stelvio models; homepage shows address
+    Calle 100 # 62-49, Bogotá, WhatsApp +57 317 588 882, and describes a "Taller especializado
+    con técnicos certificados por las marcas italianas" (workshop with brand-certified
+    technicians). Coordinates geocoded from stated address (approx, Chapinero area).'
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active

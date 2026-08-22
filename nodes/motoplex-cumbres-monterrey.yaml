@@ -1,0 +1,31 @@
+id: motoplex-cumbres-monterrey
+name: Motoplex Cumbres (Monterrey)
+city: Monterrey (Cumbres 2o. Sector)
+state: Nuevo León
+country: MX
+lat: 25.7303
+lon: -100.3965
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- sales
+url: https://www.google.com/maps/place/Motoplex+Cumbres
+phone: +52 81 4175 1600
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/)
+    as "Motoplex Monterrey Cumbres", address "Paseo de los Leones 2301, Cumbres 2o.
+    Sector, Monterrey, Nuevo León". Also on https://piaggio.com.mx/distribuidores/.
+- date: 2026-08-22
+  method: website
+  fact: 'Google Maps business listing "Motoplex Cumbres" (rating 5.0, category Motorcycle
+    dealer): "Av Paseo de los Leones 2301, Cumbres 2o. Sector Secc C, 64610 Monterrey,
+    N.L.", phone +52 81 4175 1600. Lat/lon geocoded from the stated address (Nominatim).'
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: active

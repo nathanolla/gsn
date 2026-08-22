@@ -1,0 +1,40 @@
+id: corporacion-maresa
+name: Corporación Maresa
+city: Quito
+country: EC
+lat: -0.2202
+lon: -78.5123
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- parts
+url: https://www.maresa.com.ec/
+phone: (02) 299-8100
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Auto Magazine Ecuador article "Piaggio, Guzzi, Aprilia y Vespa con Maresa
+    en Ecuador" (automagazine.ec, site copyright 2004-2026 with 2026-dated content):
+    Corporación Maresa (4 decades in Ecuador, ex-rep of Mazda/Fiat/Kawasaki etc.)
+    takes on Piaggio Group representation and "representará también a estas otras
+    icónicas tres marcas: Vespa, Aprilia y Moto Guzzi", with new exhibition locals
+    planned in Quito and Guayaquil; Moto Guzzi placed in the superior price segment.'
+- date: 2026-08-22
+  method: website
+  fact: 'Brand channels: Facebook "Motoguzziecuadoroficial" (facebook.com/motoguzzioficial.ec/)
+    and Instagram @motoguzzioficial_ec ("Guzzi Ecuador Oficial") exist per search
+    results. Maresa Quito phone (02) 299-8100 per ec.todosnegocios.com; Maresa Center
+    dealership listings on autoyas.com (2026) show Quito locations (e.g. Av. Granados
+    E11-124 y Av. 6 de Diciembre) but these are car showrooms — dedicated Moto Guzzi
+    showroom street address unverified, so lat/lon 0.0.'
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active
+geocode: city-centroid

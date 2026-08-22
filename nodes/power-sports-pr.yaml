@@ -1,0 +1,33 @@
+id: power-sports-pr
+name: Power Sports PR (Power Sports Warehouse)
+city: San Juan
+country: PR
+lat: 18.3842
+lon: -66.0534
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+functions:
+- sales
+url: https://powersportspr.com/collections/moto-guzzi/
+phone: 787-333-0277
+observations:
+- date: 2026-08-22
+  method: website
+  fact: powersportspr.com ("Motoras, Generadores y Vehículos Todo Terreno") maintains
+    a dedicated MOTO GUZZI collection (powersportspr.com/collections/moto-guzzi/)
+    and an Aprilia/Moto Guzzi "motoras" collection (powersportspr.com/collections/motoras-aprilia/);
+    contact phone 787.333.0277 shown on site. Guzzi collection page showed no listed
+    products/price in fetched text — current Guzzi stock unconfirmed.
+- date: 2026-08-22
+  method: website
+  fact: PR directories (info-puertorico.com, eldirectorio.co, todosbiz.com) list "Power
+    Sports Warehouse" in San Juan with phones 787-333-0277 / (787) 272-0000 / (787)
+    277-0415; no street address retrievable from any source, so lat/lon 0.0.
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active
+geocode: city-centroid

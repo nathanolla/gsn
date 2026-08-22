@@ -1,0 +1,32 @@
+id: motoguzzi-bolivia
+name: Moto Guzzi Bolivia
+city: Santa Cruz de la Sierra
+country: BO
+lat: -17.7559
+lon: -63.2006
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://www.facebook.com/MotoGuzziBolivia
+phone: '33437005'
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Directory listing autoyas.com (marked 2026): "Moto Guzzi Bolivia, 4to. Anillo
+    entre Avenida San Martín y Av. La Salle Ventura Mall local 1, Santa Cruz de la
+    Sierra", phone 33437005. Coordinates geocoded from Ventura Mall, Santa Cruz. Facebook
+    page facebook.com/MotoGuzziBolivia exists (about page login-walled; affiliation
+    to a parent importer unverified).'
+- date: 2026-08-22
+  method: website
+  fact: 'Used-market context: Facebook Marketplace Santa Cruz listing of a Guzzi California
+    1400 via Powersport Vehicles; no club or independent Guzzi workshop found elsewhere
+    in Bolivia (searches returned only spec aggregators bikersbuddy/motowheeler and
+    wanuncios classifieds).'
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active

@@ -1,0 +1,43 @@
+id: motoplex-polanco
+name: Motoplex Polanco
+city: Ciudad de México (Granada, Miguel Hidalgo)
+state: CDMX
+country: MX
+lat: 19.4411
+lon: -99.1965
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+- parts
+url: https://motoplexpolanco.com.mx/
+phone: +52 55 1204 0869
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on the official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/,
+    importer Moto Continental) as "Motoplex Polanco", CDMX, "Local patio inglés, Blvd.
+    Miguel de Cervantes Saavedra 161, Granada, Miguel Hidalgo". Also listed on https://piaggio.com.mx/distribuidores/.
+- date: 2026-08-22
+  method: website
+  fact: 'Own site https://motoplexpolanco.com.mx/ (title "Motoplex | Piaggio - Vespa
+    - Aprilia - Moto Guzzi"): "Somos la casa de Piaggio… De Vespa… Moto Guzzi, motos
+    ruteras de estilo clásico… Y Aprilia". Includes postventa (after-sales/service)
+    section and online store for parts/apparel. Hours Mon-Fri 9:30-14:00 & 15:00-18:30,
+    Sat 10:00-15:00. Phones on site: 55 1490 3025 and 55 1204 0869.'
+- date: 2026-08-22
+  method: website
+  fact: Google Maps business listing (rating 4.4, category Motorcycle dealer) shows
+    address "Local patio inglés, Blvd. Miguel de Cervantes Saavedra 161, Granada,
+    Miguel Hidalgo, 11520 Ciudad de México", phone +52 55 1204 0869. Lat/lon from
+    the listing's stated address (https://www.google.com/maps/place/Motoplex+Polanco).
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: active

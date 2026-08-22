@@ -1,0 +1,33 @@
+id: motoplex-puebla-atlixcayotl
+name: Motoplex Puebla II (Atlixcáyotl)
+city: Puebla (La Noria, Reserva Territorial Atlixcáyotl)
+state: Puebla
+country: MX
+lat: 19.0358
+lon: -98.2248
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- sales
+url: https://www.google.com/maps/place/Motoplex+Puebla
+phone: +52 222 346 1568
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/)
+    as "Motoplex Puebla II", address "Cto Juan Pablo II 2102-LOCAL C, Reserva Territorial
+    Atlixcáyotl, La Noria, Puebla". Also on https://piaggio.com.mx/distribuidores/.
+- date: 2026-08-22
+  method: website
+  fact: 'Google Maps business listing "Motoplex Puebla" (category Motorcycle dealer):
+    "Cto Juan Pablo II 2102-Loc C, Reserva Territorial Atlixcáyotl, La Noria, 72410
+    Heroica Puebla de Zaragoza", phone +52 222 346 1568, website authority motoplexpuebla.com
+    (site connection-refused/dead as of 2026-08-22). Lat/lon from the listing''s stated
+    address.'
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: active

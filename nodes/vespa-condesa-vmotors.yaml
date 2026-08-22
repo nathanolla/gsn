@@ -1,0 +1,37 @@
+id: vespa-condesa-vmotors
+name: Vespa Condesa (VMotors)
+city: Ciudad de México (Hipódromo, Cuauhtémoc)
+state: CDMX
+country: MX
+lat: 19.4062
+lon: -99.1785
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+- vespa
+- aprilia
+- piaggio
+functions:
+- sales
+url: https://www.google.com/maps/place/Vespa+Condesa
+phone: +52 55 3469 8413
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Google Maps business listing name self-declares "Vespa Condesa | Distribuidor
+    Oficial de Vespa, Aprilia, Moto Guzzi y Piaggio" — address "Diagonal Patriotismo
+    12, Hipódromo, Cuauhtémoc, 06100 Ciudad de México", phone +52 55 3469 8413, rating
+    4.1, category Motorcycle dealer, listing website https://vmotorsmx.com/. Lat/lon
+    from the listing's stated address.
+- date: 2026-08-22
+  method: website
+  fact: 'Caveat: the VMotors group site (https://vmotorsmx.com/, phone 5524012905,
+    contacto@vmotors.mx) brands only Aprilia, Vespa, Piaggio, Italjet and BSA — Moto
+    Guzzi is NOT listed there as of 2026-08-22. The Moto Guzzi claim rests solely
+    on the store''s own Maps listing name. NOT present on the official motoguzzimx.com/distribuidores/
+    locator. Flagged for review.'
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: active

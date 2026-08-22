@@ -1,0 +1,32 @@
+id: motoplex-queretaro
+name: Motoplex Querétaro
+city: Santiago de Querétaro (Álamos 3ra Secc.)
+state: Querétaro
+country: MX
+lat: 20.545
+lon: -100.3955
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- sales
+url: https://www.google.com/maps/place/MOTOPLEX+Quer%C3%A9taro
+phone: +52 446 123 3738
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/)
+    as "Motoplex Querétaro", address "Prol. Bernardo Quintana 4100-Local 2B, Alamos
+    3ra Secc, Querétaro". Also on https://piaggio.com.mx/distribuidores/.
+- date: 2026-08-22
+  method: website
+  fact: 'Google Maps business listing "MOTOPLEX Querétaro" (category Motorcycle dealer):
+    "Prol. Bernardo Quintana 4100-Loc 2B, Alamos 3ra Secc, 76160 Santiago de Querétaro,
+    Qro.", "Located in: Plaza Boulevares", phone +52 446 123 3738. Lat/lon geocoded
+    from the stated address (Nominatim).'
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: active

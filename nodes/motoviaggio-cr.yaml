@@ -1,0 +1,32 @@
+id: motoviaggio-cr
+name: Motoviaggio
+city: Heredia
+country: CR
+lat: 9.9684
+lon: -84.114
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- vespa
+- aprilia
+- piaggio
+functions:
+- sales
+url: https://www.facebook.com/Motoviaggiocr/
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Facebook page facebook.com/Motoviaggiocr (Heredia) announces it is the new
+    agency with representation of Vespa, Aprilia and Moto Guzzi brands, and posts
+    "Moto Guzzi Costa Rica ... auténtico con una V7 Stone" promoting new Guzzi sales.
+- date: 2026-08-22
+  method: website
+  fact: Directory autoyas.com listing "Motoviaggio, Antiguo Autos Xiri, La Valencia,
+    Heredia (2026)" with promo text "Súper liquidación en motos y scooters Vespa Piaggio";
+    coordinates geocoded from La Valencia, Heredia. No phone or dedicated website
+    found.
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active

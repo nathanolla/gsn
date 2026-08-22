@@ -1,0 +1,32 @@
+id: motoplex-durango
+name: Motoplex Durango
+city: Durango (Zona Centro)
+state: Durango
+country: MX
+lat: 24.0347
+lon: -104.6712
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- sales
+url: https://www.google.com/maps/place/MOTOPLEX+Durango
+phone: +52 618 315 0195
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on official Moto Guzzi México dealer locator (https://motoguzzimx.com/distribuidores/)
+    as "Motoplex Durango", address "Blvd Felipe pescador 253 pte, Durango, Durango".
+    Also on https://piaggio.com.mx/distribuidores/.
+- date: 2026-08-22
+  method: website
+  fact: 'Google Maps business listing "MOTOPLEX Durango" (category Motorcycle dealer):
+    "Blvd. Felipe Pescador 255, Zona Centro, 34000 Durango, Dgo." (house number 255
+    vs locator''s 253 pte — minor discrepancy), phone +52 618 315 0195. Lat/lon geocoded
+    from the stated address (Nominatim); service capability not individually verified.'
+last_verified: 2026-08-22
+verified_by: claude-zai-mx-lane
+status: active

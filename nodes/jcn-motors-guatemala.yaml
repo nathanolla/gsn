@@ -1,0 +1,30 @@
+id: jcn-motors-guatemala
+name: JCN Motors
+city: Guatemala City
+country: GT
+lat: 14.5824
+lon: -90.4986
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+functions:
+- sales
+url: https://www.jcn.com.gt/moto_guzzi/
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Brand page https://www.jcn.com.gt/moto_guzzi/ states "Actualmente Moto Guzzi
+    y sus modelos más icónicos los encuentras en JCN Motors" and notes Moto Guzzi
+    joined Grupo Piaggio in 2004; showcases Stelvio Duecento Tributo 1050.
+- date: 2026-08-22
+  method: website
+  fact: 'JCN puntos-de-venta page lists Guatemala City locations: 20 calle 8-01 zona
+    10; 10 calle "A" 10-31 Av. Reforma zona 10; Calzada Aguilar Batres 24-05 zona
+    12. Coordinates geocoded from 20 calle 8-01 zona 10.'
+last_verified: 2026-08-22
+verified_by: claude-zai-latam-lane
+status: active
