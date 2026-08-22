@@ -1,0 +1,39 @@
+id: nonsolomoto-venturina
+name: Nonsolomoto (Paparo)
+city: Venturina Terme
+state: ''
+country: IT
+lat: 43.0247
+lon: 10.612
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+functions:
+- sales
+- service
+url: https://www.nonsolomoto.it/
+phone: 320-1529468
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'nonsolomoto.it live 2026-08-22: ''NONSOLOMOTO - Officina Moto Venturina Terme
+    | Centro Assistenza Piaggio, Aprilia, Moto Guzzi'', Via della Monaca 16 D/E, 57021
+    Venturina Terme (LI)'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2024-07-25: TODD ''Sulla costa sicuramente il nome
+    di riferimento è nonsolomoto a venturina''; Pask73 ''Paparo di Venturina è molto
+    affidabile... da feedback anche qui su AG''; Ticcio93 ''Rosanna, Antonio e Giovanni
+    di Nonsolomoto, son conosciuti (e premiati) in Associazione da molto tempo...
+    sei a casa''; Calidreaming ''conce storico e persone molto belle'' — https://forum.animaguzzista.com/viewtopic.php?t=60468'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2025-08-22: MAUGUZZI ''Nonsolomoto Paparo a Venturina
+    (Li)'' listed for Tuscany service — https://forum.animaguzzista.com/viewtopic.php?t=60892'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

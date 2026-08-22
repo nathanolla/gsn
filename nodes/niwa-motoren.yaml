@@ -1,0 +1,29 @@
+id: niwa-motoren
+name: Niwa Motoren
+city: Zwaagdijk
+region: Noord-Holland
+country: NL
+lat: 52.69907
+lon: 5.146064
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.niwa.nl
+phone: 0228-564000
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (NL feed) as ''NIWA MOTOREN
+    B.V.'' (ZWAAGDIJK), type=dealers,services, dealer code NL8151, address TULPENMARKT
+    1, 1681 PK ZWAAGDIJK; source: https://www.motoguzzi.com/nl_NL/dealer-locator/zwaagdijk/niwa-motoren-b-v/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/nl/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

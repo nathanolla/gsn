@@ -1,0 +1,35 @@
+id: italymoto-bialystok
+name: ItalyMoto
+city: Białystok
+country: PL
+lat: 53.1587
+lon: 23.1539
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+- parts
+url: https://italymoto.pl/
+phone: +48 514 351 269
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed on official Moto Guzzi dealer locator, 'ItalyMoto, sprzedaż serwis
+    Moto Guzzi pod adresem Białystok', archived snapshot 2026-06-11 at https://web.archive.org/web/20260611202756/https://www.motoguzzi.com/pl_PL/dealer-locator/bia%C5%82ystok/italymoto/
+    (live motoguzzi.com returned 503 on 2026-08-22)
+- date: 2026-08-22
+  method: website
+  fact: 'own site https://italymoto.pl/ (2026): ''Autoryzowany salon włoskich motocykli
+    i skuterów w Białymstoku. Sprzedaż, serwis, akcesoria — Vespa, Piaggio, Aprilia,
+    Moto Guzzi'', address Generała Władysława Andersa 56, 15-113 Białystok, phone
+    +48 514 351 269'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

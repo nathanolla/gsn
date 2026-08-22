@@ -1,0 +1,25 @@
+id: lsg-moto-di-tacconelli-luigi
+name: LSG MOTO di Tacconelli Luigi
+city: Pescara
+state: ''
+country: IT
+lat: 42.45970335
+lon: 14.22753803
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/pescara/lsg-moto-di-tacconelli-luigi/
+phone: 08568508
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "LSG MOTO di
+    Tacconelli Luigi"; address: Via Bardet 15, 65126 Pescara (PE); type=services;
+    dealerCd=IT093M; verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

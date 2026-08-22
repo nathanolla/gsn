@@ -1,0 +1,33 @@
+id: imc-motor-dunakeszi
+name: IMC Motor — Importőr Motorcenter Kft.
+city: Dunakeszi
+country: HU
+lat: 47.6465
+lon: 19.1296
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+- parts
+url: https://imcmotor.hu/
+phone: +36-70-397-2543
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'importer webshop imcmotor.hu lists Moto Guzzi category with V7, V85, Stelvio,
+    V100 Mandello models; footer: ''Importőr Motorcenter Kft. 2120 Dunakeszi, Iskola
+    u. 18.'', accessed 2026-08-22, https://imcmotor.hu/'
+- date: 2026-08-22
+  method: website
+  fact: listed as 'Importőr Motorcenter Kft' on official Hungarian importer dealer
+    page vespa.hu/kereskedok (site footer © 2026), accessed 2026-08-22, https://vespa.hu/kereskedok/
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

@@ -1,0 +1,28 @@
+id: bkm-bikes-chemnitz
+name: BKM Bikes Handels GmbH
+city: Chemnitz
+state: ''
+country: DE
+lat: 50.8324
+lon: 12.9189
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-02-11
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''bkm-bikes-handels-gmbh'', Chemnitz
+    (snapshot 2026-02-11, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260211130815/https://www.motoguzzi.com/de_DE/dealer-locator/chemnitz/bkm-bikes-handels-gmbh/
+    ; bkm-bikes.de exists but is Cloudflare bot-walled (403 on 2026-08-22), identity
+    not confirmed on-site'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

@@ -1,0 +1,32 @@
+id: cp-racing
+name: CP Racing (Claudio)
+city: San Cesareo
+state: ''
+country: IT
+lat: 41.8192
+lon: 12.8003
+layer: independent
+capability:
+- performance
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+- tuning
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2025-11-23: gbot74 ''vai da Claudio (CP Racing) a San
+    Cesareo...... un mito!!!!!!!''; chicco_r1 ''confermo, bravo e molto onesto, e
+    cmq anche Claudio correva con le guzzi'' — https://forum.animaguzzista.com/viewtopic.php?t=60928'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2018-03-30: decibel160 ''di sicuro almeno due in gamba
+    sono Cp Racing c''è anche la pubblicità su questo forum'' — https://forum.animaguzzista.com/viewtopic.php?t=57673;
+    lat/lon are San Cesareo comune centroid (approx), no street published in sources'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

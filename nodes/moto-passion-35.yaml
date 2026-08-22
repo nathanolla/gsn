@@ -1,0 +1,30 @@
+id: moto-passion-35
+name: Moto Passion 35
+city: Rennes
+state: ''
+country: FR
+lat: 48.1007
+lon: -1.7332
+layer: independent
+capability:
+- full-service
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+url: http://motopassion35.free.fr
+phone: 02 99 14 01 00
+observations:
+- date: 2026-08-22
+  method: website
+  fact: motopassion35.free.fr live with Moto Guzzi content on page (ex-franchise site)
+- date: 2026-07-16
+  method: community-endorsement
+  fact: 'forumGUZZI.fr independent-mechanics list (viewtopic.php?t=508, mise à jour
+    16/07/2026), dept 35: « MOTO PASSION 35, 37 bis rue du Manoir de Servigné ZI route
+    de Lorient 35000 Rennes — Ex-concess'' Guzzi ! »; lat/lon geocoded from stated
+    address (Nominatim)'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

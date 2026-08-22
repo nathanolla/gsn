@@ -1,0 +1,32 @@
+id: stradale-moto
+name: Stradale Moto
+city: Marquette-lez-Lille
+state: ''
+country: FR
+lat: 50.6808
+lon: 3.0816
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: https://stradalemoto.com/
+phone: 0320811180
+observations:
+- date: 2026-08-22
+  method: website
+  fact: stradalemoto.com live; title « STRADALE MOTO votre concessionnaire PIAGGIO,
+    APRILIA, VESPA, MOTO GUZZI à MARQUETTE-LEZ-LILLE » (21 Guzzi mentions)
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi FR locator (API fr/G): STRADALE MOTO, 190 rue de Ménin
+    - Le Lazaro, 59520 Marquette-lez-Lille, type=dealers,services, dealerCd FRDAUQ'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

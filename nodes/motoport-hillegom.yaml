@@ -1,0 +1,29 @@
+id: motoport-hillegom
+name: Motoport Hillegom
+city: Hillegom
+region: Zuid-Holland
+country: NL
+lat: 52.275155
+lon: 4.573465
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoporthillegom.nl
+phone: 0252-515229
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (NL feed) as ''MOTOPORT
+    HILLEGOM BV'' (HILLEGOM), type=dealers,services, dealer code NL5356, address ARNOUDSTRAAT
+    2, 2182 DZ HILLEGOM; source: https://www.motoguzzi.com/nl_NL/dealer-locator/hillegom/motoport-hillegom-bv/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/nl/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

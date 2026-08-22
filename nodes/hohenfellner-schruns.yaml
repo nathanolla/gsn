@@ -1,0 +1,31 @@
+id: hohenfellner-schruns
+name: Moto Guzzi Hohenfellner
+city: Schruns
+state: ''
+country: AT
+lat: 47.0633
+lon: 9.9348
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: http://www.motoguzzi-hohenfellner.at/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Domain motoguzzi-hohenfellner.at is live but front bot-protected (proof-of-work
+    wall) to plain HTTP clients; listed on guzzi.at links page as 'Moto Guzzi Hohenfellner'
+    (http://www.guzzi.at/).
+- date: 2026-08-22
+  method: website
+  fact: 'auto-motor.at Moto Guzzi dealer directory for Vorarlberg lists ''Schruns:
+    Moto Guzzi Hohenfellner'' with address Silvrettastraße 201, 6780 Schruns (https://auto-motor.at/Motorrad/Motorradhaendler/Moto-Guzzi-Motorrad-Haendler/Moto-Guzzi-Vorarlberg.html);
+    coordinates geocoded from that stated address.'
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

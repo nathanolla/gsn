@@ -1,0 +1,30 @@
+id: isler-oberrohrdorf
+name: Isler Motorräder
+city: Oberrohrdorf
+state: ''
+country: CH
+lat: 47.4218
+lon: 8.3165
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.islermotorraeder.ch/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''Isler Motorräder'', 5452 Oberrohrdorf, current-model Moto Guzzi
+    listings (2025/2026) (https://www.islermotorraeder.ch/); coordinates are a town-level
+    approximation for Oberrohrdorf (street not captured).'
+- date: 2026-08-22
+  method: website
+  fact: Listed in the guzzifan.ch Swiss dealer directory as 'Isler Motorräder, AG'
+    (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

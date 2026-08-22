@@ -1,0 +1,30 @@
+id: guzzisti-feldkirch
+name: Moto Guzzi Motorrad Club Feldkirch
+city: Feldkirch
+state: ''
+country: AT
+lat: 47.2524
+lon: 9.5917
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- community
+url: https://guzzisti.at/home
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Club site live: ''Moto Guzzi Motorrad Club Feldkirch | Vorarlberg | Österreich''
+    (https://guzzisti.at/home) with 2026 Programm and 2025 Archiv — active club. No
+    coordinates per knowledge-node doctrine.'
+- date: 2026-08-22
+  method: website
+  fact: Listed in guzzisti.de clubs directory as 'Guzzisti Feldkirch, 6800 Feldkirch,
+    Österreich' (https://www.guzzisti.de/clubs/).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active
+geocode: city-centroid

@@ -1,0 +1,25 @@
+id: motomanu
+name: MOTOMANU
+city: SALZANO
+state: ''
+country: IT
+lat: 45.5235621
+lon: 12.0904521
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/salzano/motomanu/
+phone: 041-5746345
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTOMANU";
+    address: VIA ROMA 161, 30030 SALZANO (VE); type=services; dealerCd=IT479Z; verified
+    via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

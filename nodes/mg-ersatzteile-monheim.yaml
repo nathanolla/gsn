@@ -1,0 +1,27 @@
+id: mg-ersatzteile-monheim
+name: Moto-Guzzi-Ersatzteile.de (Online GmbH)
+city: Monheim am Rhein
+state: ''
+country: DE
+lat: 51.0962
+lon: 6.892
+layer: independent
+capability:
+- depot
+brands:
+- moto-guzzi
+functions:
+- mail-order
+- parts
+url: https://www.moto-guzzi-ersatzteile.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Shopware online shop live: ''Moto Guzzi Ersatzteile & Zubehör für V9, V7
+    III, California, Norge'' (https://www.moto-guzzi-ersatzteile.de/); imprint states
+    ''Online GmbH, 40789 Monheim''. Operator''s full legal name not shown on fetched
+    page; coordinates are a PLZ-level approximation for 40789 Monheim am Rhein.'
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

@@ -1,0 +1,32 @@
+id: rn-motor-technik-reutlingen
+name: RN Motor-Technik (René Nesselhauf)
+city: Reutlingen
+state: ''
+country: DE
+lat: 48.5101
+lon: 9.2287
+layer: independent
+capability:
+- performance
+brands:
+- moto-guzzi
+functions:
+- engine-rebuild
+- gearbox-revision
+- service
+url: https://www.rn-motor-technik.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Site live (https://www.rn-motor-technik.de/); address Hundsschleestr. 31,
+    72766 Reutlingen as stated on the site; coordinates geocoded from that stated
+    address.
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'guzzisti.de forum, 2023-11-21, thread ''Werkstattempfehlung Raum Stuttgart
+    - Motor/Getriebe Revision - Calli EV 97 1100'' (https://www.guzzisti.de/forum/topic/12261-werkstattempfehlung-raum-stuttgart-motorgetriebe-revision-calli-ev-97-1100/):
+    ''Für Dein Problem dürfte René Nesselhauf in Reutlingen die Lösung sein: https://www.rn-motor-technik.de/Home'''
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

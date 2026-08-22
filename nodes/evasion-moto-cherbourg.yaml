@@ -1,0 +1,30 @@
+id: evasion-moto-cherbourg
+name: Evasion Moto
+city: Tourlaville
+state: ''
+country: FR
+lat: 49.6372
+lon: -1.5953
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://evasion-moto.com/
+phone: 02 33 57 03 35
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'evasion-moto.com live; title « Evasion Moto – L''univers moto : neuf, occasion
+    et réparation » (3 Guzzi mentions)'
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi FR locator (API fr/G): EVASION MOTO, Rue du Grand Pré
+    475, 50110 Tourlaville (Cherbourg-en-Cotentin), type=dealers,services, dealerCd
+    FR7W64'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

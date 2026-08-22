@@ -1,0 +1,37 @@
+id: remotors
+name: RE Motors Oy Ab
+city: Pietarsaari
+country: FI
+lat: 63.6488
+lon: 22.7333
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- ktm
+- husqvarna
+- mv-agusta
+- kawasaki
+- vespa
+functions:
+- sales
+- service
+- parts
+url: https://remotors.fi/
+phone: 06 781 19 01
+observations:
+- date: 2026-08-22
+  method: website
+  fact: remotors.fi states RE Motors is authorized dealer ('valtuutettuna jälleenmyyjänä')
+    for KTM, Husqvarna, MV Agusta, Kawasaki, Aprilia and Moto Guzzi; address Pännäistentie
+    141, 68600 Pietarsaari, https://remotors.fi/, verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: RE Motors Oy Ab sells Moto Guzzi (California Stone listings, Pietarsaari)
+    on Nettimoto, https://www.nettimoto.com/en/moto-guzzi/california/3101420, verified
+    2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

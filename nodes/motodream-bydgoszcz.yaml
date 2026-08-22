@@ -1,0 +1,35 @@
+id: motodream-bydgoszcz
+name: MotoDream
+city: Bydgoszcz
+country: PL
+lat: 53.1219
+lon: 18.0226
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+functions:
+- sales
+- service
+- parts
+url: https://motodream.pl/
+phone: +48 722 226 228
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed on official Moto Guzzi dealer locator, 'Motodream, sprzedaż serwis
+    Moto Guzzi pod adresem Bydgoszcz', archived snapshot 2025-12-07 at https://web.archive.org/web/20251207195028/https://www.motoguzzi.com/pl_PL/dealer-locator/bydgoszcz/motodream/
+    (live motoguzzi.com returned 503 on 2026-08-22)
+- date: 2026-08-22
+  method: website
+  fact: 'own site https://motodream.pl/ (2026): ''nowe motocykle i skutery cenionych
+    włoskich producentów: Aprilia, Moto Guzzi, Piaggio oraz Vespa'', salon ul. Jagiellońska
+    70 Bydgoszcz, serwis ul. Jagiellońska 73, salon phone +48 722 226 228, serwis
+    +48 509 737 073'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

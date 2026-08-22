@@ -1,0 +1,28 @@
+id: omega-moto-dubrovnik
+name: Omega Moto
+city: Dubrovnik
+country: HR
+lat: 42.6491
+lon: 18.094
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- sales
+- service
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on official Moto Guzzi dealer locator for Croatia; live page returned
+    HTTP 503 on 2026-08-22, verified via Wayback snapshot 2021-06-24: https://web.archive.org/web/20210624000848/https://www.motoguzzi.com/hr_HR/dealer-locator/dubrovnik/omega-moto/'
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Omega Moto also present (Makarska and Seget Donji branches) on official Piaggio
+    dealer locator for Croatia, Wayback snapshot 2024-04-24: https://web.archive.org/web/20240424092640/https://www.piaggio.com/hr_HR/dealer-locator/makarska/omega-moto/'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
+geocode: city-centroid

@@ -1,0 +1,28 @@
+id: il-moto-parndorf
+name: Il Moto
+city: Parndorf
+state: ''
+country: AT
+lat: 47.9974
+lon: 16.8608
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2025-06-24
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''il-moto-parndorf'' (snapshot
+    2025-06-24, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20250624194930/https://www.motoguzzi.com/at_DE/dealer-locator/parndorf/il-moto-parndorf/
+    ; ilmoto.at exists but is Cloudflare bot-walled (403 on 2026-08-22), identity
+    not confirmed on-site'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

@@ -1,0 +1,25 @@
+id: dieffe-di-colombo-fabio-c-snc
+name: DIEFFE DI COLOMBO FABIO & C. SNC
+city: PIANENGO
+state: ''
+country: IT
+lat: 45.3970453
+lon: 9.69337394
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/pianengo/dieffe-di-colombo-fabio-c-snc-1/
+phone: 0373-74965
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "DIEFFE DI COLOMBO
+    FABIO & C. SNC"; address: VIA ROMA 9, 26010 PIANENGO (CR); type=services; dealerCd=IT014M;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

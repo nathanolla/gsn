@@ -1,0 +1,28 @@
+id: croix-rousse-moto
+name: Croix Rousse Moto
+city: Lyon
+state: ''
+country: FR
+lat: 45.7708
+lon: 4.8327
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://croixroussemoto.fr/
+phone: 09 82 43 34 70
+observations:
+- date: 2026-08-22
+  method: website
+  fact: croixroussemoto.fr live; title « Croix Rousse Moto – Garage Moto Lyon »
+- date: 2026-07-16
+  method: community-endorsement
+  fact: 'forumGUZZI.fr independent-mechanics list (viewtopic.php?t=508, mise à jour
+    16/07/2026), dept 69: CROIX ROUSSE MOTO, 16 Rue des Tables Claudiennes 69004 Lyon;
+    lat/lon geocoded from stated address (Nominatim)'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

@@ -1,0 +1,38 @@
+id: vra-motors
+name: VRA Motors
+city: Oosterzele
+state: ''
+country: BE
+lat: 50.955
+lon: 3.81
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.vramotors.be/
+phone: 0032 9 329 84 18
+observations:
+- date: 2026-08-22
+  method: website
+  fact: vramotors.be live; site title « VRA Motors, de moto Guzzi specialist » (8
+    Guzzi mentions, Dutch)
+- date: 2026-08-22
+  method: official-locator
+  fact: listed on official Moto Guzzi Belgium locator (https://www.motoguzzi.com/be_FR/dealer-locator/,
+    data API .../dealerlocator/v2/be/G/stores) as VRA MOTORS, Geraardsbergsesteenweg
+    63, 9860 Oosterzele, type=services (service point, not sales dealer)
+- date: 2017-03-28
+  method: community-endorsement
+  fact: 'forumGUZZI.fr thread [Belgique] VRA MOTORS (viewtopic.php?t=5143): « Je viens
+    de déposer mon 1200 sport pour une panne sur le cylindre droit, une synchro et
+    un reset Tps. Super accueil […] ça sent la passion des motos italiennes ! […]
+    Pour l''instant que du bon ! » and « Tu ne seras pas déçu ils travaillent bien
+    » (2017); « VRA motos à oosterzele à côté de Gand Belgique. Des vrais passionnés
+    GUZZI » (viewtopic.php?t=8107, 2021-04-30); same thread records founders Raf Lachaert
+    & Veerle Verliefde, Raf deceased January 2021'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

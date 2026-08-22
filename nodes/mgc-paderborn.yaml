@@ -1,0 +1,29 @@
+id: mgc-paderborn
+name: Moto Guzzi Club Paderborn
+city: Paderborn
+state: ''
+country: DE
+lat: 51.7177
+lon: 8.7527
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- community
+url: https://www.mgc-paderborn.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Club site live: ''Moto Guzzi Club'' (https://www.mgc-paderborn.de/). No coordinates
+    per knowledge-node doctrine.'
+- date: 2026-08-22
+  method: website
+  fact: Listed in guzzisti.de clubs directory as 'Moto Guzzi Club Paderborn, 33100
+    Paderborn, Deutschland' (https://www.guzzisti.de/clubs/).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active
+geocode: city-centroid

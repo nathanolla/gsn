@@ -1,0 +1,29 @@
+id: dos-ruedas-badajoz
+name: Dos Ruedas
+city: Badajoz
+region: Badajoz
+country: ES
+lat: 38.868678
+lon: -6.979989
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://2ruedas.es/
+phone: 924 24 10 00
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (ES feed) as ''DOS RUEDAS''
+    (Badajoz), type=dealers,services, dealer code ES0032S1, address Avda. María Auxiiadora
+    19, 06011 Badajoz; source: https://www.motoguzzi.com/es_ES/dealer-locator/badajoz/dos-ruedas/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/es/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

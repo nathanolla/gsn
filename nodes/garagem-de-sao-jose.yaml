@@ -1,0 +1,28 @@
+id: garagem-de-sao-jose
+name: Garagem de São José
+city: Ponta Delgada
+region: Açores
+country: PT
+lat: 37.735256
+lon: -25.680673
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: '296201920'
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''GARAGEM DE
+    SÃO JOSÉ'' (Ponta Delgada), type=dealers,services, dealer code DEALER-PT-41, address
+    PARQUE DINIS DA MOTA 4, 9500-241 Ponta Delgada; source: https://www.motoguzzi.com/pt_PT/dealer-locator/ponta-delgada/garagem-de-são-josé/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

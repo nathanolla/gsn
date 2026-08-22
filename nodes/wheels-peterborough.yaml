@@ -1,0 +1,37 @@
+id: wheels-peterborough
+name: Wheels Motorcycles
+city: Peterborough
+state: ''
+country: GB
+lat: 52.5726
+lon: -0.2427
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- honda
+- kawasaki
+- suzuki
+functions:
+- sales
+- service
+url: https://www.wheelsmotorcycles.co.uk/
+phone: 01733 358555
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'wheelsmotorcycles.co.uk live: ''East Anglia''s #1 Motorcycle Dealer'' with
+    New Bikes incl. Aprilia, Moto Guzzi, Suzuki, Honda, Kawasaki; dedicated Moto Guzzi
+    range page (wheelsmotorcycles.co.uk/moto-guzzi/); Peterborough tel 01733 358555
+    (second branch 01384 633455)'
+- date: 2026-07-06
+  method: community-endorsement
+  fact: 'Moto Guzzi Club GB forum, thread ''1st Service, where to go.'' — member Shane
+    (2026-07-06) lists ''Wheels at Peterborough'' among Guzzi-authorised options for
+    a 2025 V7 first service (''ECU reset required… Guzzi authorised''): https://forum.motoguzziclub.co.uk/t/1st-service-where-to-go/24252'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

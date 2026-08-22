@@ -1,0 +1,30 @@
+id: motorbike-senago
+name: Motorbike
+city: Senago
+state: ''
+country: IT
+lat: 45.5779
+lon: 9.122
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2017-04-11: AlcideX ''sicuramente Farinazzo a Rho o
+    Motorbike a Senago dovrebbero essere abbastanza vicini a te e sicuramente sono
+    entrambi ottimi'' — https://forum.animaguzzista.com/viewtopic.php?t=56878'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2024-04-11: gis ''adesso che anche Rho non è più la
+    stessa cosa la scelta più comoda è Senago'' — https://forum.animaguzzista.com/viewtopic.php?t=60387;
+    lat/lon are Senago comune centroid (approx); no website found 2026-08-22'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

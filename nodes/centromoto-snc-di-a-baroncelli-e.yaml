@@ -1,0 +1,26 @@
+id: centromoto-snc-di-a-baroncelli-e
+name: CENTROMOTO S.N.C DI A. BARONCELLI E
+city: Trieste
+state: ''
+country: IT
+lat: 45.64445389
+lon: 13.78236555
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/trieste/centromoto-s-n-c-di-a-baroncelli-e/
+phone: 040-2454902
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "CENTROMOTO
+    S.N.C DI A. BARONCELLI E"; address: Largo Sidney Sonnino 9, 34148 Trieste (TS);
+    type=services; dealerCd=IT079G; verified via official Piaggio Group dealerlocator
+    API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

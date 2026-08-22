@@ -1,0 +1,25 @@
+id: scooterin-snc
+name: SCOOTERIN S.N.C.
+city: Trieste
+state: ''
+country: IT
+lat: 45.64961284
+lon: 13.77946853
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/trieste/scooterin-s-n-c/
+phone: 040-3490092
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "SCOOTERIN S.N.C.";
+    address: Via della Sorgente 9/A, 34125 Trieste (TS); type=services; dealerCd=ITA053;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

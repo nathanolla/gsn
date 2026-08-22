@@ -1,0 +1,31 @@
+id: dynotec-monsheim
+name: Dynotec GmbH
+city: Monsheim
+state: ''
+country: DE
+lat: 49.6298
+lon: 8.2044
+layer: independent
+capability:
+- performance
+brands:
+- moto-guzzi
+functions:
+- tuning
+- engine-rebuild
+- service
+url: https://dynotec.de/
+phone: 06243-5882
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''Dynotec GmbH – dynamisch optimierte Fahrzeugtechnik GmbH – Die
+    Topadresse für Guzzi...'' (https://dynotec.de/); site states Carl-Benz-Strasse
+    11, D-67590 Monsheim, Telefon 06243-5882, Telefax 06243-7029; coordinates geocoded
+    from that stated address.'
+- date: 2026-08-22
+  method: website
+  fact: Listed on the guzzi.at links page as 'Dynotec Motoroptimierung' (http://www.guzzi.at/).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

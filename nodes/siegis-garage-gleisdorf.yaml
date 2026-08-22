@@ -1,0 +1,28 @@
+id: siegis-garage-gleisdorf
+name: Siegis Garage
+city: Gleisdorf
+state: ''
+country: AT
+lat: 47.1054
+lon: 15.7098
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-05-20
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''siegis-garage'', Gleisdorf
+    (snapshot 2026-05-20, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260520071639/https://www.motoguzzi.com/at_DE/dealer-locator/gleisdorf/siegis-garage/
+    ; no own website found (siegis.at is an unrelated bakery; siegisgarage.at connection
+    refused, checked 2026-08-22)'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

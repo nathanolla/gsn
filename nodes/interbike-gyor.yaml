@@ -1,0 +1,31 @@
+id: interbike-gyor
+name: Interbike Kft.
+city: Győr
+country: HU
+lat: 47.6528
+lon: 17.6615
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- vespa
+- ducati
+functions:
+- sales
+- service
+- parts
+url: https://interbike.hu/
+phone: +36-70-394-8459
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'homepage features ''Moto Guzzi 2026'' models and MotoGuzzi accessories; contact
+    footer: 9028 Győr, Szent Imre út 179, (70) 394 8459, accessed 2026-08-22, https://interbike.hu/'
+- date: 2026-08-22
+  method: website
+  fact: listed as 'INTERBIKE KFT. 9028 Győr, Szt. Imre út. 179.' on importer dealer
+    list, accessed 2026-08-22, https://vespa.hu/kereskedok/
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

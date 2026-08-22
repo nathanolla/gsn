@@ -1,0 +1,38 @@
+id: italomotos-dorsten
+name: ItaloMotos GmbH (Hertrampf Racing)
+city: Dorsten
+state: ''
+country: DE
+lat: 51.6604
+lon: 6.9647
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- mv-agusta
+- cf-moto
+- zontes
+functions:
+- sales
+- service
+- parts
+url: https://www.italomotos.de/
+phone: +49 2369 21842
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'italomotos.de live: ''Italmotos in Dorsten-Wulfen ist seit dem 01. Januar
+    2020 in die Hertrampf Gruppe eingebunden''; Hervesterstraße 39, 46286 Dorsten
+    (kontakt/impressum pages); brands incl. MV Agusta, Aprilia, Moto Guzzi, CF Moto,
+    Zontes; tel +49 2369 21842; socials instagram.com/hertrampf_racing_dorsten and
+    facebook.com/HertrampfRacingItalomotos'
+- date: 2026-06-08
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''italomotos-gmbh'', Dorsten
+    (snapshot 2026-06-08, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260608212250/https://www.motoguzzi.com/de_DE/dealer-locator/dorsten/italomotos-gmbh/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

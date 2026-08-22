@@ -1,0 +1,25 @@
+id: gobbi-moto
+name: GOBBI MOTO
+city: BOJON DI CAMPOLONGO MAGGI
+state: ''
+country: IT
+lat: 45.337747
+lon: 12.065402
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/bojon-di-campolongo-maggi/gobbi-moto/
+phone: 049 5809273
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "GOBBI MOTO";
+    address: VIA VILLA N.235, 30010 BOJON DI CAMPOLONGO MAGGI (VE); type=services;
+    dealerCd=IT670F; verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

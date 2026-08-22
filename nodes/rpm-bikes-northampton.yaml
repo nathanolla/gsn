@@ -1,0 +1,31 @@
+id: rpm-bikes-northampton
+name: RPM Bikes Ltd
+city: Ashton, Northampton
+state: ''
+country: GB
+lat: 52.1432
+lon: -0.8829
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.rpmbikes.co.uk/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'rpmbikes.co.uk live; contact details on site: RPM Bikes Ltd, Unit 6 Bozenham
+    Mill Farm, Bozenham Mill Lane, Ashton, Northampton NN7 2JW; no Moto Guzzi mention
+    found on pages checked — Guzzi link rests on forum endorsement'
+- date: 2018-04-16
+  method: community-endorsement
+  fact: 'Moto Guzzi Club GB forum, thread ''Moto Guzzi servicing'': Don-Spada (2018-04-16)
+    — ''a place in Northampton for servicing, set up by Ian Rhodes, formerly of Forza
+    Italia at Silverstone. https://www.rpmbikes.co.uk/about-us'': https://forum.motoguzziclub.co.uk/t/moto-guzzi-servicing/2686'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

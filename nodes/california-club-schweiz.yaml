@@ -1,0 +1,27 @@
+id: california-club-schweiz
+name: Moto Guzzi California Club Schweiz
+city: ''
+state: ''
+country: CH
+lat: 46.7986
+lon: 8.232
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- community
+url: https://motoguzzicaliforniaclubschweiz.clubdesk.com/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Club site live: ''Moto Guzzi California Club - Moto Guzzi California Club
+    Schweiz'' (https://motoguzzicaliforniaclubschweiz.clubdesk.com/), with Verein/Neumitglied
+    and Impressum sections. National Swiss club — no city stated on fetched page;
+    no coordinates per knowledge-node doctrine.'
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active
+geocode: city-centroid

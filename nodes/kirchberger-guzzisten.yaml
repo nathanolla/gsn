@@ -1,0 +1,31 @@
+id: kirchberger-guzzisten
+name: Kirchberger Guzzisten
+city: Kirchberg am Wechsel
+state: ''
+country: AT
+lat: 47.6098
+lon: 15.9913
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- community
+url: http://www.guzzi.at/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Site live (http://www.guzzi.at/); site meta identifies it as 'Kirchberger
+    Guzzisten' (Kirchberg am Wechsel) and hosts a maintained Moto Guzzi links directory
+    (dealers, specialists, international clubs). No coordinates per knowledge-node
+    doctrine.
+- date: 2026-08-22
+  method: website
+  fact: Listed in guzzisti.de clubs directory as 'Kirchberger Guzzisten, 2880 Kirchberg
+    am Wechsel, Österreich' (https://www.guzzisti.de/clubs/).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active
+geocode: city-centroid

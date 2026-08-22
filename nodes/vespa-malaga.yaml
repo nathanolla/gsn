@@ -1,0 +1,28 @@
+id: vespa-malaga
+name: Vespa Malaga
+city: Málaga
+region: Málaga
+country: ES
+lat: 36.70801
+lon: -4.479276
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: 952 341 404
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (ES feed) as ''VESPA MALAGA
+    S.A.'' (Málaga), type=dealers,services, dealer code ES8A10S5, address Avda. José
+    Ortega y Gasset, 296, 29006 Málaga; source: https://www.motoguzzi.com/es_ES/dealer-locator/málaga/vespa-malaga-s-a/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/es/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

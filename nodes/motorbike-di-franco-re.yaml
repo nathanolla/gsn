@@ -1,0 +1,25 @@
+id: motorbike-di-franco-re
+name: MOTORBIKE DI FRANCO RE
+city: Viadana
+state: ''
+country: IT
+lat: 44.93723
+lon: 10.49194
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/viadana/motorbike-di-franco-re/
+phone: '3387402934'
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTORBIKE DI
+    FRANCO RE"; address: Via Carlo Tenca, 4, 46019 Viadana (MN); type=services; dealerCd=IT201M;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

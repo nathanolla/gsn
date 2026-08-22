@@ -1,0 +1,33 @@
+id: millepercento
+name: Millepercento
+city: Alzate Brianza
+state: ''
+country: IT
+lat: 45.7626
+lon: 9.2034
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://millepercento.com/
+phone: +39-031-5621234
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'millepercento.com live 2026-08-22: ''MILLEPERCENTO concessionaria ufficiale
+    Moto Guzzi ad Alzate Brianza'', Strada Statale Briantea 342 N.104, Alzate Brianza
+    (CO), tel +39 031 5621234'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2025-03-27: kiaikido ''puoi andare sul sicuro con Millepercento
+    ad Alzate Brianza... nella loro officina ho visto spesso moto anche molto datate,
+    smontate e rimontate come dei Lego''; LIRO ''A Alzate Brianza c''è la Millepercento'';
+    Bibobomio 2025-03-31 ''Millepercento ad Alzate B. bravi e corretti'' — https://forum.animaguzzista.com/viewtopic.php?t=60707;
+    earlier: Falcone PS 2017 ''dei signori meccanici'' (t=56878)'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

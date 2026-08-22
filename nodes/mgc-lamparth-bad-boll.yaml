@@ -1,0 +1,36 @@
+id: mgc-lamparth-bad-boll
+name: Moto Guzzi Center Lamparth (Peter Lamparth)
+city: Bad Boll
+state: ''
+country: DE
+lat: 48.6387
+lon: 9.6168
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+- parts
+url: https://mgc-lamparth.de/
+phone: 07164 14037
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Site live (https://mgc-lamparth.de/), phone 07164 14037 (Bad Boll prefix).
+    Street address not stated on site; coordinates are a town-level approximation
+    for Bad Boll.
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'guzzisti.de forum, 2026-03-05 (https://www.guzzisti.de/forum/topic/19433-werkstatt-gesucht-raum-75xxx/):
+    ''wenn ich da wohnen würde, würde ich nach Bad Boll zu Peter Lamparth gehen. Für
+    mich eine der Top-Guzzi-Werkstätten.'''
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Same thread, 2026-03-06: ''Lamparth kenne ich persönlich. War immer super
+    bedient dort! Der macht aber über kurz oder lang altershalber zu.'' — flagged:
+    possible future closure due to owner age.'
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

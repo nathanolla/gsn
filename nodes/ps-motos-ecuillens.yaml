@@ -1,0 +1,26 @@
+id: ps-motos-ecuillens
+name: PS Motos Cycles SA
+city: Ecuillens
+state: ''
+country: CH
+lat: 0.0
+lon: 0.0
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2025-12-06
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''ps-motos-cycles-sa'', Ecuillens
+    (snapshot 2025-12-06, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20251206033353/https://www.motoguzzi.com/ch_DE/dealer-locator/ecuvillens/ps-motos-cycles-sa/
+    ; psmotos.ch not found in DNS on 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active

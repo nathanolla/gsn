@@ -281,6 +281,9 @@ def whatsnew():
         if "\x1f" not in line:
             continue
         d, subj = line.split("\x1f", 1)
+        # A removed source stays removed — including by name in the changelog.
+        import re as _re
+        subj = _re.sub(r"(?i)guzzitech", "[removed source]", subj)
         rows.append(f"<tr><td><tt>{d}</tt></td><td>{html.escape(subj)}</td></tr>")
     page = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"><title>What's New — GSN</title>

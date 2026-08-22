@@ -1,0 +1,26 @@
+id: italmoto84-lepontet
+name: Italmoto 84 by Gemelli
+city: Le Pontet
+state: ''
+country: FR
+lat: 45.4935
+lon: 6.2283
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2025-01-18
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''italmoto-84-by-gemelli'', Le
+    Pontet (snapshot 2025-01-18, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20250118112554/https://www.motoguzzi.com/fr_FR/dealer-locator/le-pontet/italmoto-84-by-gemelli/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

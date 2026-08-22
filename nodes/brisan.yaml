@@ -1,0 +1,41 @@
+id: brisan
+name: Brisan Motorcycles
+city: Islington
+state: ''
+country: AU
+lat: -32.9144
+lon: 151.7492
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- bmw-motorrad
+- ducati
+- indian
+- kawasaki
+- piaggio
+- royal-enfield
+- suzuki
+- triumph
+- vespa
+- yamaha
+- sym
+- ajp
+functions:
+- sales
+- service
+- parts
+url: https://www.brisans.com.au/
+phone: 02 4940 8777
+observations:
+- date: 2026-08-22
+  method: website
+  fact: brisans.com.au/new-bikes/moto-guzzi live showing Moto Guzzi range; located
+    at 250 Maitland Road, Islington NSW 2296 (Newcastle region); multi-brand authorised
+    dealer; verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

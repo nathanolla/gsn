@@ -1,0 +1,26 @@
+id: beppe-moto-snc-di-giuseppe-bumbaca-e-c
+name: BEPPE MOTO SNC DI GIUSEPPE BUMBACA E C.
+city: Moncalieri
+state: ''
+country: IT
+lat: 45.0075803
+lon: 7.6575397
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/moncalieri/beppe-moto-snc-di-giuseppe-bumbaca-e-c/
+phone: 011-6061253
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "BEPPE MOTO
+    SNC DI GIUSEPPE BUMBACA E C."; address: Via Sestriere 3, 10024 Moncalieri (TO);
+    type=services; dealerCd=IT284A; verified via official Piaggio Group dealerlocator
+    API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

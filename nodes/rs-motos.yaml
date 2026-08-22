@@ -1,0 +1,29 @@
+id: rs-motos
+name: R&S Motos
+city: Lagos
+region: Faro
+country: PT
+lat: 37.135953
+lon: -8.669716
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.rsmotos.com.pt
+phone: 282 764 947
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''R&S MOTOS''
+    (Lagos), type=dealers,services, dealer code DEALER-PT-30, address Urbanização
+    Parque do Pinheiral, Lote 16, 8600-306  Lagos; source: https://www.motoguzzi.com/pt_PT/dealer-locator/lagos/rs-motos/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

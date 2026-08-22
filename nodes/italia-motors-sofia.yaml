@@ -1,0 +1,24 @@
+id: italia-motors-sofia
+name: Italia Motors Ltd.
+city: Sofia
+country: BG
+lat: 42.6977
+lon: 23.3217
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed as ''Italia Motors Ltd. | Moto Guzzi Sofia'' on official Moto Guzzi
+    dealer locator for Bulgaria; live page returned HTTP 503 on 2026-08-22, verified
+    via Wayback snapshot 2026-02-07: https://web.archive.org/web/20260207131806/https://www.motoguzzi.com/bg_BG/dealer-locator/sofia/-italia-motors-ltd/'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
+geocode: city-centroid

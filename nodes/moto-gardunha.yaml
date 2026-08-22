@@ -1,0 +1,28 @@
+id: moto-gardunha
+name: Moto Gardunha
+city: Fundão
+region: Castelo Branco
+country: PT
+lat: 40.140131
+lon: -7.504154
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: '275751955'
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''MOTO GARDUNHA''
+    (Fundão), type=dealers,services, dealer code DEALER-PT-42, address Loteamento
+    da Boavista lote 20 R/Chão Esquerdo, 6230-287  Fundão; source: https://www.motoguzzi.com/pt_PT/dealer-locator/fundão/moto-gardunha/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

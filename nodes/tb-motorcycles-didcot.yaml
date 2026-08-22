@@ -1,0 +1,32 @@
+id: tb-motorcycles-didcot
+name: TB Motorcycles (Tony Botto)
+city: Didcot
+state: ''
+country: GB
+lat: 51.6064
+lon: -1.246
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.tbmotorcycles.co.uk/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'tbmotorcycles.co.uk live: ''TB Motorcycles - Motorcycle & Scooter service
+    & repair in Oxfordshire'' (general workshop; Guzzi specialism not stated on site)'
+- date: 2020-08-16
+  method: community-endorsement
+  fact: 'Moto Guzzi Club GB forum, thread ''Guzzi mechanics'': rapheal_glynn (2020-08-16)
+    — ''Tony Botto at TB motorcycle Didcot who services my motorcycle, my nephews
+    motorcycle, and will shortly be overhauling a V35TT''; also iandunmore (2017-08-23)
+    same thread family: https://forum.motoguzziclub.co.uk/t/guzzi-mechanics/3528 and
+    https://forum.motoguzziclub.co.uk/t/moto-guzzi-servicing/2686'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

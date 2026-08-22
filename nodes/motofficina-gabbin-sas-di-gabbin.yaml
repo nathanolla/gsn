@@ -1,0 +1,26 @@
+id: motofficina-gabbin-sas-di-gabbin
+name: MOTOFFICINA GABBIN S.A.S. di Gabbin
+city: TREVISO
+state: ''
+country: IT
+lat: 45.6652091
+lon: 12.2587397
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/treviso/motofficina-gabbin-s-a-s-di-gabbin/
+phone: 0422 540873
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTOFFICINA
+    GABBIN S.A.S. di Gabbin"; address: VIALE IV NOVEMBRE 32/A, 31100 TREVISO (TV);
+    type=services; dealerCd=IT015556; verified via official Piaggio Group dealerlocator
+    API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

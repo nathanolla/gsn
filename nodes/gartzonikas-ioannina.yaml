@@ -1,0 +1,30 @@
+id: gartzonikas-ioannina
+name: Gartzonikas Moto (Κ. Γκαρτζονίκας Α.Ε.Β.Ε.)
+city: Ioannina
+country: GR
+lat: 39.6538
+lon: 20.8611
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://gartzonikas.gr/
+phone: +30 2651 607822
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed as 'Κ. ΓΚΑΡΤΖΟΝΙΚΑΣ Α.Ε.Β.Ε' in ΙΩΑΝΝΙΝΑ on official Moto Guzzi dealer
+    locator, archived snapshot 2026-04-21, https://web.archive.org/web/20260421230728/https://www.motoguzzi.com/gr_EL/dealer-locator/%CE%B9%CF%89%CE%B1%CE%BD%CE%BD%CE%B9%CE%BD%CE%B1/%CE%BA-%CE%B3%CE%BA%CE%B1%CF%81%CF%84%CE%B6%CE%BF%CE%BD%CE%B9%CE%BA%CE%B1%CF%82-%CE%B1-%CE%B5-%CE%B2-%CE%B5-1/,
+    verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: 'dealer site shows Moto Guzzi logo and ''Υποκατάστημα Moto: Στρ. Βογιανού
+    16, Ιωάννινα 452 21, 2651 607822, moto@gartzonikas.gr'', accessed 2026-08-22,
+    https://gartzonikas.gr/epikoinonia/'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

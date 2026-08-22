@@ -1,0 +1,35 @@
+id: downend-bikes-bristol
+name: Downend Bikes & Scooters Ltd
+city: Bristol
+state: ''
+country: GB
+lat: 51.443
+lon: -2.5817
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: https://www.downendbikesandscooters.co.uk/
+phone: 0117 956 7899
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'downendbikesandscooters.co.uk live: ''Official Piaggio Group Dealer in Bristol''
+    — ''Vespa, Piaggio, Moto Guzzi & Aprilia''; site footer address 15 Cleevewood
+    Road, Downend, Bristol (BS16); tel 0117 956 7899; socials facebook.com/people/Downend-Bikes-Scooters-Ltd/61574138009350
+    and instagram.com/downendbikes'
+- date: 2025-01-25
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''downend-bikes-and-scooters'',
+    Bristol (snapshot 2025-01-25, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20250125040510/https://www.motoguzzi.com/gb_EN/dealer-locator/bristol/downend-bikes-and-scooters/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

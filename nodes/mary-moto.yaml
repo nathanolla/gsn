@@ -1,0 +1,28 @@
+id: mary-moto
+name: Mary Moto
+city: Biéville-Beuville
+state: ''
+country: FR
+lat: 49.2271
+lon: -0.3676
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.mary-moto.fr/
+phone: 02 31 83 83 00
+observations:
+- date: 2026-08-22
+  method: website
+  fact: mary-moto.fr live (title « Mary Moto », 4 Guzzi mentions on page)
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi FR locator (API fr/G): MARY MOTO, P.A. de la Bijude,
+    Bd du Suffolk, 14112 Biéville-Beuville, type=dealers,services, dealerCd FR7Y06'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

@@ -1,0 +1,30 @@
+id: roadparc72-lemans
+name: RoadParc 72
+city: Le Mans
+state: ''
+country: FR
+lat: 48.0074
+lon: 0.1968
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.roadparc72.fr/
+phone: +33 2 52 38 00 38
+observations:
+- date: 2026-08-22
+  method: website
+  fact: roadparc72.fr live ('Portail RoadParc 72'); Moto Guzzi referenced on site;
+    tel +33 2 52 38 00 38; socials facebook.com/p/RoadParc72-61578334134978 and instagram.com/roadparc.72
+- date: 2025-12-09
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''roadparc-72'', Le Mans (snapshot
+    2025-12-09, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20251209101725/https://www.motoguzzi.com/fr_FR/dealer-locator/le-mans/roadparc-72/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

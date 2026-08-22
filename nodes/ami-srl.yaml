@@ -1,0 +1,25 @@
+id: ami-srl
+name: A.M.I. srl
+city: Roma
+state: ''
+country: IT
+lat: 41.90674503
+lon: 12.52312807
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/roma/a-m-i-srl/
+phone: 06 45504254
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "A.M.I. srl";
+    address: Via Tiburtina 251, 00162 Roma (RM); type=services; dealerCd=IT5231; verified
+    via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

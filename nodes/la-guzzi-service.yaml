@@ -1,0 +1,28 @@
+id: la-guzzi-service
+name: La Guzzi Service (Gianni Gallinelli)
+city: Roma
+state: ''
+country: IT
+lat: 41.8933
+lon: 12.4829
+layer: independent
+capability:
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+url: http://www.laguzziservice.com/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2025-11-23: GuzziTopo ''fa (o faceva) scopa Via Savoia
+    e La Guzzi Service, di Gianni Gallinelli. prova a vedere se riconosci l''officina
+    da qui http://www.laguzziservice.com/ Quell''officina purtroppo non esiste più.
+    Non so se Gianni è ancora in attività'' — https://forum.animaguzzista.com/viewtopic.php?t=60928;
+    kept as defunct; lat/lon 0.0'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: defunct
+geocode: city-centroid

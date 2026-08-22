@@ -1,0 +1,29 @@
+id: motoport-rockanje
+name: Motoport Rockanje
+city: Rockanje
+region: Zuid-Holland
+country: NL
+lat: 51.874326
+lon: 4.075667
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoportrockanje.nl
+phone: 0181-402455
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (NL feed) as ''MOTOPORT
+    ROCKANJE'' (ROCKANJE), type=dealers,services, dealer code NL4400, address MOOLHOEK
+    6, 3235 XK ROCKANJE; source: https://www.motoguzzi.com/nl_NL/dealer-locator/rockanje/motoport-rockanje-1/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/nl/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

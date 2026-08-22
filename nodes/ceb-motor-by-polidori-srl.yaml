@@ -1,0 +1,26 @@
+id: ceb-motor-by-polidori-srl
+name: CeB Motor by Polidori Srl
+city: Prato
+state: ''
+country: IT
+lat: 43.88158888
+lon: 11.06963062
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://cebmotor.it/
+phone: '3387762800'
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "CeB Motor by
+    Polidori Srl"; address: Via Galcianese 56/B1, 59100 Prato (PO); type=dealers;
+    dealerCd=ITA802S4; website: https://cebmotor.it/; verified via official Piaggio
+    Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

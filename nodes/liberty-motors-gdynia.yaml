@@ -1,0 +1,29 @@
+id: liberty-motors-gdynia
+name: Liberty Motors Gdynia
+city: Gdynia
+country: PL
+lat: 54.5165
+lon: 18.5403
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://libertymotors.pl/
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed on official Moto Guzzi dealer locator, 'Liberty Motors Gdynia, sprzedaż
+    serwis Moto Guzzi pod adresem Gdynia', archived snapshot 2025-12-14 at https://web.archive.org/web/20251214173954/https://www.motoguzzi.com/pl_PL/dealer-locator/gdynia/liberty-motors-gdynia/
+    (live motoguzzi.com returned 503 on 2026-08-22)
+- date: 2026-08-22
+  method: website
+  fact: Liberty Motors dealer-group site live at https://libertymotors.pl/ (2026),
+    title 'Twoje nowe doświadczenie jazdy na motocyklu | Liberty Motors'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
+geocode: city-centroid

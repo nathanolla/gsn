@@ -1,0 +1,30 @@
+id: loitz-lauterach
+name: Loitz KG (Zweirad Loitz)
+city: Lauterach
+state: ''
+country: AT
+lat: 47.4747
+lon: 9.7313
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- used-sales
+- service
+url: https://www.loitz.at/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''Zweirad Loitz'', 6923 Lauterach (https://www.loitz.at/); coordinates
+    are a town-level approximation for Lauterach (street not captured). Guzzi not
+    named on fetched homepage — Guzzi affiliation rests on the directory entry below.'
+- date: 2026-08-22
+  method: website
+  fact: 'auto-motor.at Moto Guzzi dealer directory for Vorarlberg lists ''Lauterach:
+    Loitz — Loitz KG'' among Moto Guzzi dealers/worksops (https://auto-motor.at/Motorrad/Motorradhaendler/Moto-Guzzi-Motorrad-Haendler/Moto-Guzzi-Vorarlberg.html).'
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

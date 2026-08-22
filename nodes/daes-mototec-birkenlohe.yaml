@@ -1,0 +1,32 @@
+id: daes-mototec-birkenlohe
+name: Däs Mototec
+city: Birkenlohe (Unterschneidheim)
+state: ''
+country: DE
+lat: 48.9409
+lon: 10.3639
+layer: independent
+capability:
+- performance
+brands:
+- moto-guzzi
+functions:
+- parts
+- tuning
+url: https://www.daes-mototec.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'eShop live: ''Däs Mototec - Qualität und Perfektion bis ins Detail'' (https://www.daes-mototec.de/),
+    parts catalog covering V7 (2008-2024), V11, Stelvio, California, Griso, Norge
+    etc., copyright 2025; address Gschwender Str. 34, 73577 Birkenlohe stated on site.
+    Coordinates are a town-level approximation for Unterschneidheim (street not present
+    in OSM).'
+- date: 2026-08-22
+  method: website
+  fact: Listed in guzzifan.ch dealer directory as 'Daes Mototec, Birkenlohe' (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr)
+    and on guzzi.at links page as 'DS Mototec'.
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

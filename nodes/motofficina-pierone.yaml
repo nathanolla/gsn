@@ -1,0 +1,27 @@
+id: motofficina-pierone
+name: Motofficina Pierone (Ettore Pierone)
+city: Bovolenta
+state: ''
+country: IT
+lat: 45.2732
+lon: 11.9328
+layer: independent
+capability:
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: 049-5386282
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2017-02-15: TrediciNera ''Ettore Pierone a Bovolenta
+    (PD). Competenza e professionalità. Ne sono rimasto soddisfatto'' with contact
+    block ''Via Padova 26, 35024 Bovolenta (PD), tel 049-5386282, motofficinapierone@gmail.com'';
+    cicli adds ''il sig. Pierone è bravo, ma non mette mano a moto con elettronica
+    (carburatori ok)'' — https://forum.animaguzzista.com/viewtopic.php?t=56701'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

@@ -1,0 +1,33 @@
+id: tutto-moto-budapest
+name: Tutto Moto Kft.
+city: Budapest
+country: HU
+lat: 47.4711
+lon: 19.087
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+- parts
+url: https://tuttomoto.hu/
+phone: +36-20-222-77-44
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'dealer site has MOTO GUZZI brand section and ''MENTÉS/SZERVIZ'' (service);
+    contact: 1097 Budapest, Könyves Kálmán krt. 16.; site shows news post dated 2026-06-25,
+    accessed 2026-08-22, https://tuttomoto.hu/markaink/moto-guzzi/'
+- date: 2026-08-22
+  method: website
+  fact: listed as 'TUTTO MOTO KFT. 1097 Budapest, Könyves Kálmán krt. 16.' on importer
+    dealer list, accessed 2026-08-22, https://vespa.hu/kereskedok/
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

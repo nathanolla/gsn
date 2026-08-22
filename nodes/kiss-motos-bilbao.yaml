@@ -1,0 +1,28 @@
+id: kiss-motos-bilbao
+name: Kiss Motos
+city: Bilbao
+region: Vizcaya
+country: ES
+lat: 43.26873
+lon: -2.95251
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: '944771124'
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (ES feed) as ''KISS MOTOS''
+    (Bilbao), type=dealers,services, dealer code ESX688S5, address Jon Arrospide 17,
+    48014 Bilbao; source: https://www.motoguzzi.com/es_ES/dealer-locator/bilbao/kiss-motos/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/es/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

@@ -1,0 +1,27 @@
+id: jason-sutcliffe-guiseley
+name: Jason Sutcliffe (ex-Moto Strada)
+city: Guiseley, Leeds
+state: ''
+country: GB
+lat: 53.8748
+lon: -1.7075
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: 07977 504215
+observations:
+- date: 2020-07-01
+  method: community-endorsement
+  fact: 'Moto Guzzi Club GB forum, thread ''Guzzi mechanics'': Horton916 (2020-07-01)
+    — ''Jason Sutcliffe Guiseley, Leeds 07977504215. Jason used to own Motostrada
+    in Shipley, but operates from his workshop at Home. Ring for an appointment'':
+    https://forum.motoguzziclub.co.uk/t/guzzi-mechanics/3528'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

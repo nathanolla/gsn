@@ -1,0 +1,26 @@
+id: moto-world-smr
+name: Moto World SMR
+city: Aprilia
+state: ''
+country: IT
+lat: 41.5942
+lon: 12.6486
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2025-12-14
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''moto-world-smr'', Aprilia (snapshot
+    2025-12-14, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20251214172515/https://www.motoguzzi.com/it_IT/dealer-locator/aprilia/moto-world-smr/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

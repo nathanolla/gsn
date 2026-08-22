@@ -1,0 +1,36 @@
+id: blacklocksmotorcycles
+name: Blacklocks Motorcycles
+city: Albury
+state: ''
+country: AU
+lat: -36.0738
+lon: 146.9135
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- bmw-motorrad
+- ducati
+- honda-motorcycles
+- indian
+- vespa
+functions:
+- sales
+- service
+- parts
+- financing
+url: https://blacklocksmotorcycles.com.au/
+phone: 02 6049 5500
+observations:
+- date: 2026-08-22
+  method: website
+  fact: blacklocksmotorcycles.com.au live; part of Tony White Group (HQ 164 Gympie
+    Rd, Kedron QLD 4031); dealership at 418 Swift St, Albury NSW 2640; sells Moto
+    Guzzi Enduro/Naked/Custom range; offers sales, parts, service, finance/insurance;
+    verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

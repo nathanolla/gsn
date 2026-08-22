@@ -1,0 +1,25 @@
+id: move-moto-split
+name: Move Moto
+city: Split
+country: HR
+lat: 43.5116
+lon: 16.44
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed as ''MOVE MOTO | Moto Guzzi Split'' on official Moto Guzzi dealer
+    locator for Croatia; live page returned HTTP 503 on 2026-08-22, verified via Wayback
+    snapshot 2022-06-30: https://web.archive.org/web/20220630232142/https://www.motoguzzi.com/hr_HR/dealer-locator/split/move-moto/
+    — note: stale snapshot, needs re-confirmation'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
+geocode: city-centroid

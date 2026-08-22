@@ -1,0 +1,34 @@
+id: albertacycle
+name: Alberta Cycle Motorsports
+city: Edmonton
+state: ''
+country: CA
+lat: 53.5462
+lon: -113.4912
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+- royal-enfield
+- husqvarna
+- arctic-cat
+functions:
+- sales
+- service
+- parts
+url: https://albertacycle.com/
+phone: 780-477-3525
+observations:
+- date: 2026-08-22
+  method: website
+  fact: albertacycle.com live; address 12505 97 Street NW, Edmonton AB T5G 1Z8; phone
+    780-477-3525; carries Royal Enfield, Aprilia, Moto Guzzi, Vespa, Piaggio, Arctic
+    Cat, Husqvarna; verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

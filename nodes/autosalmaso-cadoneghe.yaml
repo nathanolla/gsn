@@ -1,0 +1,28 @@
+id: autosalmaso-cadoneghe
+name: Autosalmaso S.r.l.
+city: Cadoneghe
+state: ''
+country: IT
+lat: 45.4586
+lon: 11.9202
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-04-16
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''autosalmaso-srl'', Cadoneghe
+    (snapshot 2026-04-16, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260416082221/https://www.motoguzzi.com/it_IT/dealer-locator/cadoneghe/autosalmaso-srl/
+    ; note: salmaso.it DNS currently resolves to a 000webhost parked host (checked
+    2026-08-22) — website status unclear'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

@@ -1,0 +1,29 @@
+id: moto-tricolore
+name: Moto Tricolore
+city: Kampen
+region: Overijssel
+country: NL
+lat: 52.567854
+lon: 5.895866
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.mototricolore.nl
+phone: 085 1248460
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (NL feed) as ''Moto Tricolore''
+    (Kampen), type=dealers,services, dealer code NL3794, address Industrieweg 11 L,
+    8263 AA Kampen; source: https://www.motoguzzi.com/nl_NL/dealer-locator/kampen/moto-tricolore/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/nl/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

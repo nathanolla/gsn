@@ -1,0 +1,36 @@
+id: maxximmotorsports
+name: Maxxim Motorsports
+city: Oakville
+state: ''
+country: CA
+lat: 43.4474
+lon: -79.6667
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- triumph
+- cfmoto
+- vespa
+- aprilia
+- suzuki
+- piaggio
+- argo
+functions:
+- sales
+- service
+- parts
+url: https://maxximmotorsports.com/
+phone: 416-686-5991
+observations:
+- date: 2026-08-22
+  method: website
+  fact: maxximmotorsports.com live; authorised Moto Guzzi retailer with locations
+    in Oakville (416-686-5991) and Barrie (705-230-3070), Ontario; carries Moto Guzzi
+    V7 series among other brands (Triumph, CFMOTO, Argo, Vespa, Aprilia, Suzuki, Piaggio);
+    factory-trained technicians for service with genuine parts; verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

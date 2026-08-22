@@ -1,0 +1,28 @@
+id: moto-spazio-aveiro
+name: Moto Spazio Aveiro
+city: Aveiro
+region: Aveiro
+country: PT
+lat: 40.659266
+lon: -8.615186
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: '234910720'
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''MOTO SPAZIO
+    AVEIRO'' (Aveiro), type=dealers,services, dealer code DEALER-PT-40, address ESTRADA
+    NACIONAL 109 - QUINTA DO SIMÃO Nº102 A/B, 3800-042 Aveiro; source: https://www.motoguzzi.com/pt_PT/dealer-locator/aveiro/moto-spazio-aveiro/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

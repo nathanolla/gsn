@@ -1,0 +1,35 @@
+id: plattner-motors-beograd
+name: Plattner Motors Beograd
+city: Beograd
+country: RS
+lat: 44.8153
+lon: 20.4457
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+- qjmotor
+functions:
+- sales
+- service
+- parts
+url: https://plattner-motors.rs/moto-guzzi/
+phone: 064 822 92 45
+observations:
+- date: 2026-08-22
+  method: website
+  fact: dedicated Moto Guzzi model pages (V85, V100, Stelvio, V7) on dealer site https://plattner-motors.rs/moto-guzzi/,
+    salon and authorized service at Vojislava Nanovica 27, Beograd per https://plattner-motors.rs/kontakt/,
+    verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: listed as authorized Piaggio group dealer and servicer on importer site https://www.piaggio.rs/ovlasceni-dileri/
+    and https://www.piaggio.rs/ovlasceni-serviseri/, verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
+geocode: city-centroid

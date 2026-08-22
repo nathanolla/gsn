@@ -1,0 +1,33 @@
+id: radical-speedshop-schwarzenfeld
+name: Radical Speedshop (Guzziladen Stefan)
+city: Schwarzenfeld
+state: ''
+country: DE
+lat: 49.3949
+lon: 12.1365
+layer: independent
+capability:
+- performance
+- heritage
+brands:
+- moto-guzzi
+functions:
+- parts
+- service
+- restoration
+url: https://radicalspeedshop.com/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''Radical Speedshop'' (https://radicalspeedshop.com/); address
+    Nabburger Str. 40, 92521 Schwarzenfeld stated on site; coordinates geocoded from
+    that stated address.'
+- date: 2026-08-22
+  method: website
+  fact: guzzifan.ch dealer directory lists 'Radical Guzzi - Guzziladen Stefan, Schwarzenfeld'
+    (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr); guzzi.at links page lists
+    'Guzziladen Radical Speedshop'.
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

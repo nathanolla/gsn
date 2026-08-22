@@ -1,0 +1,29 @@
+id: jim-allan-falkirk
+name: Jim Allan Motorcycles
+city: Falkirk  Scotland
+region: Falkirk
+country: GB
+lat: 56.008636
+lon: -3.784889
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: http://www.jim-allan.com
+phone: 01324 620111
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (GB feed) as ''JIM ALLAN
+    M/C  (BIKES)'' (FALKIRK  SCOTLAND), type=dealers,services, dealer code GB0089,
+    address 208 GRAHAMS ROAD, FK2 7BX FALKIRK  SCOTLAND; source: https://www.motoguzzi.com/gb_EN/dealer-locator/falkirk-scotland/jim-allan-m-c-bikes/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/gb/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

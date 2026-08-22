@@ -1,0 +1,33 @@
+id: thunderbikeperth
+name: Thunderbike Motorcycles
+city: Bassendean
+state: ''
+country: AU
+lat: -31.9059
+lon: 115.9443
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+- parts
+url: https://www.thunderbikes.com.au/
+phone: 08 9379 1991
+observations:
+- date: 2026-08-22
+  method: website
+  fact: thunderbikes.com.au contact page confirms address 1/15 Dyer Road, Bassendean
+    WA 6054, phone 08 9379 1991; authorised Moto Guzzi seller; workshop-heavy operation
+    focused on Guzzi repairs/service and spare parts; verified 2026-08-22
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'bikeshedtimes.com article ''Thunderbikes'' Mario Poggioli, Perth''s Guzzi
+    guru'' profiles the proprietor as Perth''s dedicated Moto Guzzi specialist interested
+    in just one brand; source: https://bikeshedtimes.com/thunderbikes-mario-poggioli-perths-guzzi-guru/'
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

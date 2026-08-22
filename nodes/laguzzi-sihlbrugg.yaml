@@ -1,0 +1,30 @@
+id: laguzzi-sihlbrugg
+name: La Guzzi (Thomas Herbst)
+city: Sihlbrugg (Baar)
+state: ''
+country: CH
+lat: 47.2155
+lon: 8.569
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.laguzzi.ch/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''La Guzzi'', dedicated Moto Guzzi dealer (''Moto Guzzi - ganz
+    exklusiv''), Blegistrasse 15, 6340 Sihlbrugg (https://www.laguzzi.ch/); coordinates
+    geocoded from that stated address (Blegistrasse 15, Baar ZG).'
+- date: 2026-08-22
+  method: website
+  fact: Listed under 'Moto Guzzi Händler Schweiz (freie und offizielle)' in the guzzifan.ch
+    directory as '"La Guzzi" Thomas Herbst, ZH' (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

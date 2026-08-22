@@ -1,0 +1,32 @@
+id: mad-motorraeder-leimen
+name: M.A.D. Motorräder
+city: Leimen
+state: ''
+country: DE
+lat: 49.3559
+lon: 8.6803
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- vespa
+functions:
+- sales
+- service
+url: https://www.mad-motorrad.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''Willkommen bei M.A.D | M.A.D. Motorräder'' (https://www.mad-motorrad.de/),
+    carries Moto Guzzi and Vespa.'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'guzzisti.de forum, 2026-01-19 (https://www.guzzisti.de/forum/topic/19249-werkstattempfehlung-werkstatterfahrung-im-raum-mannheim-heidelberg/):
+    thread OP lists ''M.A.D. MOTORRÄDER, Olpenitzer Str. 6, 69181 Leimen'' as Guzzi
+    workshop near Heidelberg (address geocoded from this stated posting); reply: ''MAD
+    - sind ok, da kann man schon hin.'''
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

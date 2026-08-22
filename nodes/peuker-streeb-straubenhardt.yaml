@@ -1,0 +1,39 @@
+id: peuker-streeb-straubenhardt
+name: Peuker & Streeb
+city: Straubenhardt
+state: ''
+country: DE
+lat: 48.8763
+lon: 8.5416
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.peuker-streeb.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Dealer site exists at peuker-streeb.de but is bot-protected (HTTP 403 challenge);
+    address Bachstraße 3, 75334 Straubenhardt from the dealer's CMS web profile; listed
+    as Moto Guzzi dealer in guzzifan.ch directory 'Guzzi Händler Europa - Deutschland'
+    (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr).
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'guzzisti.de forum, 2026-03-05 (https://www.guzzisti.de/forum/topic/19433-werkstatt-gesucht-raum-75xxx/):
+    thread OP: ''Mit der Suche auf der Guzzi-Seite bekomme ich nur den Händler Peuker
+    & Streeb in 75334 Straubenhardt.'' — i.e. the only official-locator hit for PLZ
+    75xxx at that time (franchise status relayed by user, locator itself not machine-accessible
+    to this lane).'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Same thread, 2026-03-08: ''Kann hier nur zustimmen. Gehe seit 2016 zu Peuker
+    & Streeb und bin zufrieden. Da ich aus KA über 30km Anfahrt habe, bekomme ich
+    immer ein Ersatzmoped für die Dauer der Inspektion.'''
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

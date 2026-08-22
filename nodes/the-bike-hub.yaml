@@ -1,0 +1,24 @@
+id: the-bike-hub
+name: The Bike Hub
+city: București
+country: RO
+lat: 44.4361
+lon: 26.1027
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed as ''The Bike Hub - Reprezentata Oficiala | Moto Guzzi Bucuresti''
+    on official Moto Guzzi dealer locator for Romania; live page returned HTTP 503
+    on 2026-08-22, verified via Wayback snapshot 2026-02-07: https://web.archive.org/web/20260207135452/https://www.motoguzzi.com/ro_RO/dealer-locator/bucure%C8%99ti/the-bike-hub-reprezentata-oficiala/'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
+geocode: city-centroid

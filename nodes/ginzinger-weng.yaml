@@ -1,0 +1,41 @@
+id: ginzinger-weng
+name: Zweirad Ginzinger (Weng branch)
+city: Weng
+state: ''
+country: AT
+lat: 47.9351
+lon: 13.176
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- beta
+- yamaha
+- suzuki
+- kawasaki
+- moto-morini
+- zontes
+functions:
+- sales
+- service
+- parts
+url: https://www.ginzinger.at/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: ginzinger.at live (Zweirad Ginzinger chain); brand list includes Vespa Moto
+    Guzzi Piaggio Moto Morini Zontes plus Beta/Kawasaki/Suzuki/SYM/Yamaha; socials
+    facebook.com/zweirad.ginzinger and instagram.com/ginzinger_zweirad
+- date: 2026-05-20
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''ginzinger-weng'' (snapshot
+    2026-05-20, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260520071106/https://www.motoguzzi.com/at_DE/dealer-locator/weng/ginzinger-weng/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

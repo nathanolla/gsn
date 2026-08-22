@@ -1,0 +1,28 @@
+id: farinazzo-rho
+name: Farinazzo
+city: Rho
+state: ''
+country: IT
+lat: 45.531
+lon: 9.0463
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2017-04-11: AlcideX ''sicuramente Farinazzo a Rho o
+    Motorbike a Senago... entrambi ottimi'' — https://forum.animaguzzista.com/viewtopic.php?t=56878;
+    2024-04-11 FlavioT3 lists it among the departed Milan-area names ''farinazzo riposi
+    in pace... cassani da tempo... senago già dato'' — https://forum.animaguzzista.com/viewtopic.php?t=60387;
+    kept as defunct; lat/lon 0.0'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: defunct
+geocode: city-centroid

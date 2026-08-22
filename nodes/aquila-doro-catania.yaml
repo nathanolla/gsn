@@ -1,0 +1,27 @@
+id: aquila-doro-catania
+name: Officina Aquila d'Oro (Saverio Mandrà)
+city: Catania
+state: ''
+country: IT
+lat: 37.5024
+lon: 15.0874
+layer: independent
+capability:
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2017-07-10: fabiolemans1 ''zona catania da saverio
+    mandrà (officina aquila d''oro)''; Akela 2017-07-11 ''A Catania c''è Saverio Mandrà''
+    (contacts via Facebook group link in thread) — https://forum.animaguzzista.com/viewtopic.php?t=57120;
+    lat/lon are Catania comune centroid (approx); 2017 endorsement, treat as faded
+    until reconfirmed'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

@@ -1,0 +1,26 @@
+id: nonsolomoto-di-paparo-antonio-c
+name: NONSOLOMOTO DI PAPARO ANTONIO & C.
+city: Campiglia Marittima
+state: ''
+country: IT
+lat: 43.030084
+lon: 10.6123493
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/campiglia-marittima/nonsolomoto-di-paparo-antonio-c/
+phone: 0565 852754
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "NONSOLOMOTO
+    DI PAPARO ANTONIO & C."; address: Via della Monaca 16 D/E, 57021 Campiglia Marittima
+    (LI); type=services; dealerCd=IT009071; verified via official Piaggio Group dealerlocator
+    API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

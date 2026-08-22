@@ -1,0 +1,38 @@
+id: continentalmotorrad
+name: Continental Motorrad
+city: Auckland
+state: ''
+country: NZ
+lat: -36.8521
+lon: 174.7632
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- bmw-motorrad
+- ducati
+- honda-motorcycles
+- indian
+- kawasaki
+- suzuki
+- triumph
+- vespa
+functions:
+- sales
+- service
+- parts
+url: https://continentalmotorrad.co.nz/
+phone: 09 956 3841
+observations:
+- date: 2026-08-22
+  method: website
+  fact: continentalmotorrad.co.nz/stock-search/moto-guzzi/ live showing Moto Guzzi
+    motorcycles for sale in Auckland and Wellington; Auckland sales 09 956 3841, service
+    021 224 3649, parts 09 488 2000; Wellington sales 04 499 9030; multi-brand dealer
+    carrying BMW, Ducati, Honda, Indian, Kawasaki, Moto Guzzi, Suzuki, Triumph, Vespa;
+    verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

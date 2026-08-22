@@ -1,0 +1,37 @@
+id: ami-roma
+name: A.M.I. Moto Guzzi Roma
+city: Roma
+state: ''
+country: IT
+lat: 41.8933
+lon: 12.4829
+layer: independent
+capability:
+- satellite
+- depot
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+- parts
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2018-03-31: Roxxana ''Se sei di mano a via Tiburtina
+    c''è A.M.I. Moto Guzzi Roma, storico ricambista e più di recente diventato concessionario,
+    che ha anche officina'' — https://forum.animaguzzista.com/viewtopic.php?t=57673'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2026-08-14: santuz ''Ami sulla Tiburtina davanti al
+    verano, storico meccanico Guzzi, il titolare si chiama Fulvio''; 2026-08-17 same
+    user on his V100 Mandello ''io l''ho sempre portata da loro... abbiamo trovato
+    e risolto il problema'' — https://forum.animaguzzista.com/viewtopic.php?t=61269;
+    lat/lon 0.0: location described only as via Tiburtina facing the Verano cemetery,
+    no street number published'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active
+geocode: city-centroid

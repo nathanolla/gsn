@@ -1,0 +1,25 @@
+id: altauto-srl
+name: Altauto srl
+city: Pavia
+state: ''
+country: IT
+lat: 45.170947
+lon: 9.145053
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/pavia/altauto-srl/
+phone: 0382 569602
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "Altauto srl";
+    address: Via Bramante 4, 27100 Pavia (PV); type=services; dealerCd=IT181D; verified
+    via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

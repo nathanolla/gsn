@@ -1,0 +1,35 @@
+id: beppe-moto
+name: Beppe Moto
+city: Moncalieri
+state: ''
+country: IT
+lat: 45.0077
+lon: 7.6576
+layer: franchise
+capability:
+- full-service
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+functions:
+- sales
+- service
+url: https://beppemoto.it/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'beppemoto.it live 2026-08-22: ''Beppemoto Concessionaria Aprilia e Moto Guzzi'',
+    Via Sestriere 3, 10024 Moncalieri (TO), info@beppemoto.it; holiday-closure notice
+    with reopening 2026-09-01 proves trading'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2021-11-04: Blueyes ''Hai provato da Beppe Moto a Moncalieri?
+    Sono i più storici a Torino''; marco58 (Rivoli dealer couldn''t fix his Stelvio)
+    ''Nessun problema a Moncalieri dove... hanno anche risolto il problema alla stelvio'';
+    Blueyes ''vendendo solo Guzzi e Aprilia da decenni sono molto più competenti''
+    — https://forum.animaguzzista.com/viewtopic.php?t=59691'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

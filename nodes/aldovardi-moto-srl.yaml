@@ -1,0 +1,25 @@
+id: aldovardi-moto-srl
+name: ALDOVARDI MOTO S.R.L.
+city: Massa
+state: ''
+country: IT
+lat: 44.040205
+lon: 10.143637
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/massa/aldovardi-moto-s-r-l/
+phone: 0585 488544
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "ALDOVARDI MOTO
+    S.R.L."; address: Via Venturini 5, 54100 Massa (MS); type=services; dealerCd=IT436C;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

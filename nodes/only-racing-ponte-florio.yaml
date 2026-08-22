@@ -1,0 +1,28 @@
+id: only-racing-ponte-florio
+name: Only Racing
+city: Ponte Florio
+state: ''
+country: IT
+lat: 45.4528
+lon: 11.0494
+layer: independent
+capability:
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2015-04-12: mikethebike ''ti consiglio l''officina
+    Only Racing di Ponte Florio... ho portato il mio 850T per alcune regolazioni e
+    sostituzioni di pezzi, e ne sono rimasto soddisfatto'' — https://forum.animaguzzista.com/viewtopic.php?t=54135;
+    STALE (2015) endorsement, no current verification, lat/lon 0.0 (frazione, no street
+    given)'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active
+geocode: city-centroid

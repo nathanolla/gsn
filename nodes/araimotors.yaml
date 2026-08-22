@@ -1,0 +1,37 @@
+id: araimotors
+name: Arai Motors
+city: Fuchu
+state: ''
+country: JP
+lat: 35.6694
+lon: 139.4774
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- honda-motorcycles
+- yamaha
+- suzuki
+- kawasaki
+- piaggio
+- vespa
+- triumph
+- bmw-motorrad
+functions:
+- sales
+- service
+- parts
+url: https://arai-motors.com/shop/moto_guzzi/
+phone: 042-358-2020
+observations:
+- date: 2026-08-22
+  method: website
+  fact: arai-motors.com/shop/moto_guzzi/ live; explicitly identified as a Moto Guzzi
+    専売店 (exclusive shop) in Fuchu, Tokyo; address 〒183-0057 東京都府中市晴見町3-13-13; phone
+    042-358-2020; offers new/used bike sales, inspections/repairs, vehicle inspections
+    (車検), trade-ins; verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

@@ -1,0 +1,36 @@
+id: motopark-ostrava
+name: Motopark Ostrava
+city: Ostrava
+country: CZ
+lat: 49.8246
+lon: 18.2171
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+- yamaha
+- honda
+functions:
+- sales
+- service
+- parts
+url: https://www.motopark.cz/
+phone: +420 720 951 175
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed on official Moto Guzzi dealer locator, 'Motopark Ostrava, prodej asistence
+    Piaggio v Ostrava', archived snapshot 2025-12-07 at https://web.archive.org/web/20251207103659/https://www.motoguzzi.com/cz_CS/dealer-locator/ostrava/motopark-ostrava/
+    (live motoguzzi.com returned 503 on 2026-08-22)
+- date: 2026-08-22
+  method: website
+  fact: 'own site https://www.motopark.cz/kontakt (2026): Ostrava branch Opavská 5637,
+    Ostrava-Třebovice 722 00, ''Autorizovaný prodejce a servis značek Yamaha, Honda
+    a Piaggio Group (Aprilia, Moto Guzzi, Piaggio, Vespa)'''
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

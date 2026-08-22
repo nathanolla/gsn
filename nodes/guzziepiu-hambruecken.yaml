@@ -1,0 +1,30 @@
+id: guzziepiu-hambruecken
+name: GuzziEpiu
+city: Hambrücken
+state: ''
+country: DE
+lat: 49.1893
+lon: 8.5542
+layer: independent
+capability:
+- performance
+brands:
+- moto-guzzi
+functions:
+- parts
+- service
+url: https://gpiu.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Site live (guzziepiu.de redirects to https://gpiu.de/blog/ with onlineshop,
+    entries dated 2025/2026); address Brühler Str. 49, Hambrücken stated on site;
+    coordinates geocoded from that stated address.
+- date: 2026-08-22
+  method: website
+  fact: 'guzzifan.ch directory lists Guzziepiu under ''Spezialisten für Guzzi V35-V65
+    / small block Guzzis: Guzziepiu, Hambrücken'' (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr).'
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

@@ -1,0 +1,29 @@
+id: fowlers-bristol
+name: Fowlers of Bristol
+city: Bristol
+region: Bristol
+country: GB
+lat: 51.446666
+lon: -2.58167
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: http://www.fowlers.co.uk/
+phone: 01179 770466
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (GB feed) as ''FOWLERS OF
+    BRISTOL LTD'' (BRISTOL), type=dealers,services, dealer code GB50KS, address 2
+    - 12 BATH ROAD, BS4 3DR BRISTOL; source: https://www.motoguzzi.com/gb_EN/dealer-locator/bristol/fowlers-of-bristol-ltd/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/gb/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

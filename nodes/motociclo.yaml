@@ -1,0 +1,30 @@
+id: motociclo
+name: Motociclo
+city: St Peters
+state: ''
+country: AU
+lat: -33.9111
+lon: 151.1761
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+- parts
+url: https://motociclo.com.au/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'v11lemans.com forum thread on Sydney Guzzi recommendations endorses Motociclo
+    (John) in St Peters for specialised V11 diagnostics using dealer-level tools;
+    source: https://www.v11lemans.com/forums/topic/11421-sydney-australia-looking-for-recomendations-or-warnings/'
+- date: 2026-08-22
+  method: website
+  fact: motociclo.com.au live selling Moto Guzzi bikes and parts; verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

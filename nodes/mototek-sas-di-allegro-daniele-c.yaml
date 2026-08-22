@@ -1,0 +1,26 @@
+id: mototek-sas-di-allegro-daniele-c
+name: Mototek sas di Allegro Daniele & c.
+city: Sarmeola di Rubano
+state: ''
+country: IT
+lat: 45.4205512
+lon: 11.8094109
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/sarmeola-di-rubano/mototek-sas-di-allegro-daniele-c/
+phone: 049 8979747
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "Mototek sas
+    di Allegro Daniele & c."; address: Via G. Galilei 13, 35020 Sarmeola di Rubano
+    (PD); type=services; dealerCd=IT241I; verified via official Piaggio Group dealerlocator
+    API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

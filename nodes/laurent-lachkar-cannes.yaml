@@ -1,0 +1,33 @@
+id: laurent-lachkar-cannes
+name: Laurent Lachkar Cannes
+city: Cannes
+state: ''
+country: FR
+lat: 43.5514
+lon: 7.0062
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: https://lachkar.com/
+phone: 0489897979
+observations:
+- date: 2026-08-22
+  method: website
+  fact: lachkar.com live; title « Piaggio Vespa Aprilia Moto Guzzi Nice Cannes Saint-Laurent-du-Var
+    - Laurent Lachkar » (23 Guzzi mentions)
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi FR locator (API fr/G): LAURENT LACHKAR CANNES, 3-5-7
+    Boulevard Vallombrosa, 06400 Cannes, type=dealers,services, dealerCd FR7H89S3;
+    sister dealers in Nice (FR7H89) and Saint-Laurent-du-Var (Motore 3000, FRDALD)'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

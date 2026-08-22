@@ -1,0 +1,34 @@
+id: american-bikes-kaltern
+name: American-Bikes Kaltern
+city: Caldaro sulla Strada del Vino (Kaltern)
+state: ''
+country: IT
+lat: 46.4132
+lon: 11.2467
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+functions:
+- sales
+- service
+url: https://www.american-bikes.it/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'american-bikes.it live: ''American-Bikes Kaltern: Vertragswerkstatt der Marke
+    Moto-Guzzi, Piaggio und Vespa in Kaltern bei Bozen - Südtirol''; socials facebook.com/American-Bikes-Kaltern-100942921542658
+    and instagram.com/americanbikes.kalterncaldaro'
+- date: 2025-11-16
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''american-bikes'', Caldaro sulla
+    Strada del Vino (snapshot 2025-11-16, accessed 2026-08-22 via Internet Archive):
+    https://web.archive.org/web/20251116002337/https://www.motoguzzi.com/it_IT/dealer-locator/caldaro-sulla-strada-del/american-bikes/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

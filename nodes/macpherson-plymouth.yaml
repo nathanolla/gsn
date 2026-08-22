@@ -1,0 +1,29 @@
+id: macpherson-plymouth
+name: Macpherson Motorcycles
+city: Plymouth
+region: Devon
+country: GB
+lat: 50.365886
+lon: -4.126005
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.macphersonmotorcycles.co.uk/
+phone: 01752 710177
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (GB feed) as ''Macpherson
+    Motorcycles Ltd'' (Plymouth), type=dealers,services, dealer code GB5467S1, address
+    Eagle Road 1, PL7 5JY Plymouth; source: https://www.motoguzzi.com/gb_EN/dealer-locator/plymouth/macpherson-motorcycles-ltd-1/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/gb/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

@@ -1,0 +1,30 @@
+id: d2k-atelier
+name: D2K Atelier
+city: Salasc
+state: ''
+country: FR
+lat: 43.6204
+lon: 3.3157
+layer: independent
+capability:
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://d2k.fr/
+phone: 06 62 12 68 73
+observations:
+- date: 2026-08-22
+  method: website
+  fact: d2k.fr live; title « D2K Atelier moto à Salasc (34 Hérault) », with a motos-realisations
+    section of built/restored bikes
+- date: 2026-07-16
+  method: community-endorsement
+  fact: 'forumGUZZI.fr independent-mechanics list (viewtopic.php?t=508, mise à jour
+    16/07/2026), dept 34: « ATELIER 2DK, 7 Rue des Fontaines 34800 Salasc — Un bouclard
+    sympa qui fait les Guzzi, découvert par notre Lolo national ! »; lat/lon geocoded
+    from stated address (Nominatim)'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

@@ -1,0 +1,32 @@
+id: kms-kindermann-warmsen
+name: KMS Motorrad Service (Achim Kindermann)
+city: Warmsen
+state: ''
+country: DE
+lat: 52.4556
+lon: 8.8508
+layer: independent
+capability:
+- heritage
+- performance
+brands:
+- moto-guzzi
+functions:
+- service
+- restoration
+url: https://www.kms-motorrad.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''KMS Motorrad Service - Meisterbetrieb Achim Kindermann'' (https://www.kms-motorrad.de/),
+    31606 Warmsen; site offers ''Moto Guzzi | Oldtimer & Youngtimer'' service and
+    notes the owner has raced Moto Guzzi sidecar outfits since 2005. Coordinates are
+    a town-level approximation for Warmsen (street not stated on fetched page).'
+- date: 2026-08-22
+  method: website
+  fact: Listed in guzzifan.ch dealer directory as 'KMS Motorrad Service Achim Kindermann,
+    Warmsen' (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

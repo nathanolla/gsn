@@ -1,0 +1,29 @@
+id: valpolini
+name: Valpolini
+city: Mandello del Lario
+state: ''
+country: IT
+lat: 45.9227
+lon: 9.3179
+layer: independent
+capability:
+- depot
+brands:
+- moto-guzzi
+functions:
+- parts
+url: https://www.valpolini.com/
+phone: 0341-732335
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'valpolini.com live 2026-08-22: Via Francesco Petrarca 20, 23826 Mandello
+    del Lario (LC), tel 0341-732335 — Piaggio-group parts house at scale by mail,
+    in Mandello itself'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2026-06-25: antocave names https://www.valpolini.com/home-it/
+    among the usual trusted sources Guzzi riders near Mandello go to — https://forum.animaguzzista.com/viewtopic.php?t=61212'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

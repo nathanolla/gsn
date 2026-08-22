@@ -1,0 +1,27 @@
+id: guzzifan-ch
+name: guzzifan.ch (Moto Guzzi Fan Portal)
+city: ''
+state: ''
+country: CH
+lat: 46.7986
+lon: 8.232
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- knowledge
+url: https://www.guzzifan.ch/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Portal live (https://www.guzzifan.ch/): maintained Swiss/German Moto Guzzi
+    dealer and club directory (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr),
+    V85/V100 service-interval pages, parts and classic-restoration listings. Online
+    portal, no physical location — no coordinates per knowledge-node doctrine.'
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active
+geocode: city-centroid

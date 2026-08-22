@@ -1,0 +1,31 @@
+id: officina-stucchi
+name: Officina Stucchi
+city: Cantù
+state: ''
+country: IT
+lat: 45.7395
+lon: 9.1291
+layer: independent
+capability:
+- depot
+brands:
+- moto-guzzi
+functions:
+- parts
+url: https://officinestucchi.it/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2020-11-25: GUZZUS asks about ''STUCCHI di Mandello''
+    (unreachable); LIRO replies ''Si è trasferita a Cantù https://officinestucchi.it/it/''
+    — historic Guzzi accessories maker (screens, racks, rearsets; 2014 crisis resolved
+    in continuity per t=52734) — https://forum.animaguzzista.com/viewtopic.php?t=59297;
+    lat/lon are Cantù comune centroid (approx)'
+- date: 2026-08-22
+  method: website
+  fact: officinestucchi.it responds 403 (bot-blocked) to automated fetch on 2026-08-22
+    — domain live and serving
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

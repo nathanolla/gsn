@@ -1,0 +1,33 @@
+id: posarelli-ponte-a-egola
+name: Posarelli Moto
+city: Ponte a Egola (San Miniato)
+state: ''
+country: IT
+lat: 43.6864
+lon: 10.7934
+layer: franchise
+capability:
+- satellite
+- heritage
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.posarellimoto.it/
+phone: 0571-49379
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'posarellimoto.it live 2026-08-22: Posarelli Moto, tel 0571 49379, Nuovo/Usato/Accessori/Assicurazioni
+    multi-brand dealer (Benelli, Kove among brands); address page not machine-readable
+    on 2026-08-22'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista threads: Cane 2023-03-22 ''Oppure c''e'' Posarelli a Ponte
+    a Egola...(guzzista storico)'' — https://forum.animaguzzista.com/viewtopic.php?t=60079;
+    MAUGUZZI 2025-08-22 ''Posarelli Ponte a Egola (Pi)'' — https://forum.animaguzzista.com/viewtopic.php?t=60892;
+    lat/lon are Ponte a Egola frazione centroid (approx)'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

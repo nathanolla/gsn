@@ -1,0 +1,25 @@
+id: posarelli-ottorino
+name: POSARELLI OTTORINO
+city: PONTEA A EGOLA
+state: ''
+country: IT
+lat: 43.6926797
+lon: 10.7860396
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/pontea-a-egola/posarelli-ottorino/
+phone: 0571-49379
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "POSARELLI OTTORINO";
+    address: VIA ROMAIANO, 56024 PONTEA A EGOLA (PI); type=services; dealerCd=IT193J;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

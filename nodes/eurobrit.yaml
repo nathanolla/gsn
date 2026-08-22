@@ -1,0 +1,36 @@
+id: eurobrit
+name: EuroBrit MotorBikes Australia
+city: Greensborough
+state: ''
+country: AU
+lat: -37.7037
+lon: 145.1079
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+- ducati
+- aprilia
+- royal-enfield
+- triumph
+- bmw-motorrad
+- harley-davidson
+- ural
+functions:
+- sales
+- service
+- parts
+url: https://www.eurobrit.com.au/
+phone: 03 9432 6886
+observations:
+- date: 2026-08-22
+  method: website
+  fact: eurobrit.com.au live; self-described 'Italian & British Motorbike Specialists';
+    located at Factory 5/10-14 Simms Road, Greensborough VIC 3088; sells Moto Guzzi
+    motorcycles and parts, offers workshop manuals, wrecking inventory, external financing;
+    verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

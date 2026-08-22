@@ -1,0 +1,38 @@
+id: scs-tokyo
+name: SCS
+city: Tokyo
+state: ''
+country: JP
+lat: 35.6769
+lon: 139.7639
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- honda-motorcycles
+- yamaha
+- suzuki
+- kawasaki
+- italjet
+- vespa
+- aprilia
+- kymco
+functions:
+- sales
+- service
+- parts
+url: https://scs-tokyo.co.jp/motoguzzi/
+phone: 03-3815-6221
+observations:
+- date: 2026-08-22
+  method: website
+  fact: scs-tokyo.co.jp/motoguzzi/ live as official Moto Guzzi retailer in Tokyo;
+    postal code 112-0001; phone 03-3815-6221 / toll-free 0120-860-819; offers new
+    bike sales, mechanical upkeep, 24-month warranty, 24-hour roadside assistance,
+    promotional financing; also carries Honda/Yamaha/Suzuki/Kawasaki/Vespa/Aprilia/Kymco;
+    verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

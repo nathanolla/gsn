@@ -1,0 +1,29 @@
+id: antwerp-bike-store
+name: Antwerp Bike Store BV
+city: Antwerpen
+state: ''
+country: BE
+lat: 51.2407
+lon: 4.4523
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://antwerpbikestore.be/
+phone: 0032 -(0)3 481 8
+observations:
+- date: 2026-08-22
+  method: website
+  fact: antwerpbikestore.be live (4 Guzzi mentions on homepage)
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi BE locator (API be/G): Antwerp Bike Store BV, Toekomstlaan
+    1, 2170 Antwerpen, type=dealers,services, info@antwerpbikestore.be; phone string
+    as returned by locator API appears truncated — treat with caution'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

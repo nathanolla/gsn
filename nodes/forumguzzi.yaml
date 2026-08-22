@@ -1,0 +1,29 @@
+id: forumguzzi
+name: forumGUZZI.fr
+city: ''
+state: ''
+country: FR
+lat: 46.6034
+lon: 1.8883
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- community
+url: https://www.forumguzzi.fr/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: forumguzzi.fr live (phpBB); French-language Moto Guzzi community forum with
+    dedicated sections « Concessionnaires - Agents - Bouclards Moto Guzzi » (f=18),
+    « L'atelier du Guzzi », model-specific sub-forums; community maintains a curated
+    independent-mechanics list (viewtopic.php?t=508, mise à jour 16/07/2026) and an
+    official-network list (viewtopic.php?t=507, mise à jour 13/06/2026); no coordinates
+    — knowledge node
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active
+geocode: city-centroid

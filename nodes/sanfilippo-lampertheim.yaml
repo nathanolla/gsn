@@ -1,0 +1,31 @@
+id: sanfilippo-lampertheim
+name: Fahrzeugtechnik Sanfilippo
+city: Lampertheim
+state: ''
+country: DE
+lat: 49.5963
+lon: 8.486
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+- used-sales
+url: https://fahrzeugtechnik-sanfilippo.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''Fahrzeugtechnik Sanfilippo | Werkstatt und Verkauf in Lampertheim''
+    (https://fahrzeugtechnik-sanfilippo.de/); OSM POI ''Fahrzeugtechnik Sanfilippo,
+    Gaußstraße 4, Lampertheim'' matches stated address Gaußstr. 4, 68623 Lampertheim.'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'guzzisti.de forum, 2026-01-19, thread ''Werkstattempfehlung/Werkstatterfahrung
+    im Raum Mannheim-Heidelberg'' (https://www.guzzisti.de/forum/topic/19249-werkstattempfehlung-werkstatterfahrung-im-raum-mannheim-heidelberg/):
+    ''Sanfilippo in Lampertheim fand ich immer sehr nett und engagiert.'''
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

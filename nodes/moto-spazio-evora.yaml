@@ -1,0 +1,28 @@
+id: moto-spazio-evora
+name: Moto Spazio Évora
+city: Évora
+region: Évora
+country: PT
+lat: 38.558348
+lon: -7.921935
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: '266098426'
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''MOTO SPAZIO
+    ÉVORA'' (Évora), type=dealers,services, dealer code DEALER-PT-44, address R. Armando
+    Antunes da silva, nº 2, 7005-145 Évora; source: https://www.motoguzzi.com/pt_PT/dealer-locator/évora/moto-spazio-évora/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

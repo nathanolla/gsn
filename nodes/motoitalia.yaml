@@ -1,0 +1,30 @@
+id: motoitalia
+name: Moto Italia
+city: Penrith
+state: ''
+country: AU
+lat: -33.7512
+lon: 150.6942
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'v11lemans.com forum thread on Sydney Guzzi recommendations endorses Moto
+    Italia (Dave Ward) in Penrith, noting his previous background working for the
+    national importer gives him exceptional brand expertise; source: https://www.v11lemans.com/forums/topic/11421-sydney-australia-looking-for-recomendations-or-warnings/'
+- date: 2026-08-22
+  method: website
+  fact: Facebook page 'Moto Italia Sydney' active at facebook.com/p/Moto-Italia-Sydney-100054376067154/
+    listing Penrith NSW; verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

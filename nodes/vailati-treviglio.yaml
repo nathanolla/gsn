@@ -1,0 +1,33 @@
+id: vailati-treviglio
+name: Vailati
+city: Treviglio
+state: ''
+country: IT
+lat: 45.534
+lon: 9.5973
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2021-09-16: greybike ''mi sono appoggiato a Vailati
+    di Treviglio, ora non più concessionario ufficiale ma officina autorizzata, mi
+    hanno fatto un intervento in garanzia... mi sono trovato molto bene... l''anno
+    scorso è venuto a mancare il titolare Carlo Vailati, ora è rimasta la moglie Paola''
+    — https://forum.animaguzzista.com/viewtopic.php?t=59635'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2024-04-11: greybike ''A Treviglio c''è Vailati, il
+    Carlo non c''è più però per me lavorano bene, abbastanza vicino si trova la stazione
+    ferroviaria'' — https://forum.animaguzzista.com/viewtopic.php?t=60387; lat/lon
+    are Treviglio comune centroid (approx)'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

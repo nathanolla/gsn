@@ -1,0 +1,34 @@
+id: gutsibits
+name: Gutsibits
+city: Slaithwaite
+region: West Yorkshire
+country: GB
+lat: 53.6242
+lon: -1.8806
+layer: independent
+capability:
+- depot
+brands:
+- moto-guzzi
+functions:
+- parts
+- mail-order
+url: https://www.gutsibits.co.uk/
+phone: +44 1484 841395
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'gutsibits.co.uk live: Moto-Guzzi-only spares specialist (new/used/reconditioned
+    parts for post-1968 models), worldwide mail order; address Unit 30 Upper Mills,
+    Canalside, Slaithwaite, Huddersfield HD7 5HA per site terms page; lat/lon placeholders
+    (0.0) — not geocoded'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: recommended by members on guzziriders.org ('Gutsibits' threads, incl. Useful
+    Links board topic 11771, http://www.guzziriders.org/gutsibits_topic11771.html)
+    and thanked for support by Moto Guzzi Club GB Scottish Branch (https://www.mgcgbscottishbranch.co.uk/scottish-rally)
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''
+geocode: city-centroid

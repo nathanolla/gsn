@@ -1,0 +1,26 @@
+id: chimoto-srl-1
+name: CHIMOTO S.R.L.
+city: PADERNO DUGNANO
+state: ''
+country: IT
+lat: 45.5827048
+lon: 9.1450649
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://chimoto.it/
+phone: 02 91082956
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "CHIMOTO S.R.L.";
+    address: VIA NIGRA, 2/L, 20037 PADERNO DUGNANO (MI); type=dealers; dealerCd=ITAD118401;
+    website: https://chimoto.it/; verified via official Piaggio Group dealerlocator
+    API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

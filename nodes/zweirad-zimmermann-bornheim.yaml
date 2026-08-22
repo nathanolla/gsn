@@ -1,0 +1,27 @@
+id: zweirad-zimmermann-bornheim
+name: Zweirad Zimmermann e.K.
+city: Bornheim
+state: ''
+country: DE
+lat: 50.7628
+lon: 6.9891
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-04-15
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''zweirad-zimmermann-e-k'', Bornheim
+    (snapshot 2026-04-15, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260415094341/https://www.motoguzzi.com/de_DE/dealer-locator/bornheim/zweirad-zimmermann-e-k/
+    ; region not determinable from listing alone (multiple Bornheims in DE)'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

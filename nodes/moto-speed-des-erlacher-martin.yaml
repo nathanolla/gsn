@@ -1,0 +1,26 @@
+id: moto-speed-des-erlacher-martin
+name: MOTO SPEED DES ERLACHER MARTIN
+city: Varna
+state: ''
+country: IT
+lat: 46.7465962
+lon: 11.64738054
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: http://www.motospeed.info/kontakt-i.php
+phone: 0472-835397
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTO SPEED
+    DES ERLACHER MARTIN"; address: Via della Pusteria 4, 39040 Varna (BZ); type=services;
+    dealerCd=ITA117; website: http://www.motospeed.info/kontakt-i.php; verified via
+    official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

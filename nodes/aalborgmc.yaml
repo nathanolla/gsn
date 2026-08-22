@@ -1,0 +1,37 @@
+id: aalborgmc
+name: Aalborg MC ApS (Just Ride Aalborg)
+city: Nørresundby
+country: DK
+lat: 57.0768
+lon: 9.9541
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- ducati
+- kawasaki
+- piaggio
+- triumph
+- vespa
+functions:
+- sales
+- service
+- parts
+url: https://just-ride.nu/
+phone: '72300433'
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 123mc dealer profile lists Aalborg MC ApS, Hjørringvej 125, 9400 Nørresundby,
+    as 'Autoriseret forhandler af Aprilia, Ducati, Kawasaki, Moto Guzzi, Piaggio,
+    Triumph, Vespa', https://www.123mc.dk/find-mc-forhandler/aalborg-mc-aps/80816,
+    verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: dealer website just-ride.nu offers 'Nye Moto Guzzi Motorcykler', https://just-ride.nu/,
+    verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

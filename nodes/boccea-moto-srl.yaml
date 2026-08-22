@@ -1,0 +1,25 @@
+id: boccea-moto-srl
+name: BOCCEA MOTO SRL
+city: Roma
+state: ''
+country: IT
+lat: 41.92208614
+lon: 12.37441951
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/roma/boccea-moto-srl/
+phone: 06-61551127
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "BOCCEA MOTO
+    SRL"; address: Via Boccea 589, 00166 Roma (RM); type=services; dealerCd=IT5521;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

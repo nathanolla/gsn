@@ -1,0 +1,36 @@
+id: guareschi-moto
+name: Guareschi Moto
+city: Parma
+state: ''
+country: IT
+lat: 44.8103
+lon: 10.3581
+layer: franchise
+capability:
+- full-service
+- performance
+brands:
+- moto-guzzi
+- aprilia
+functions:
+- sales
+- service
+- tuning
+url: https://www.guareschimoto.it/
+phone: 0521-774149
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'guareschimoto.it live 2026-08-22: ''Guareschi Moto: Concessionaria Moto Guzzi
+    e Aprilia'', Via Fantelli 15/A, 43122 Parma, tel 0521 774149; site sections Guareschi
+    Racing / Trofeo (racing heritage)'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2018-05-18: zanza85 ''Murri a Ferrara e Guareschi a
+    Parma sono due garanzie'' — https://forum.animaguzzista.com/viewtopic.php?t=57815;
+    counter-note 2012 (t=48224): local rider m.f. ''nulla da dire sulle competenze
+    tecniche ma la professionalità lascia a desiderare'' — mixed reviews, recorded
+    for balance — https://forum.animaguzzista.com/viewtopic.php?t=48224'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

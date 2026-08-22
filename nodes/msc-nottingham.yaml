@@ -1,0 +1,28 @@
+id: msc-nottingham
+name: MSC (Nottingham)
+city: Nottingham
+state: ''
+country: GB
+lat: 52.9534
+lon: -1.1496
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://scooters.co.uk/
+phone: ''
+observations:
+- date: 2026-07-06
+  method: community-endorsement
+  fact: 'Moto Guzzi Club GB forum, thread ''1st Service, where to go.'' — member Horton916
+    (2026-07-06): ''MSC at Nottingham is probably next nearest https://scooters.co.uk/''
+    as a Guzzi service option; scooters.co.uk is Cloudflare bot-walled (403 on 2026-08-22)
+    so franchise scope not re-verified on-site'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

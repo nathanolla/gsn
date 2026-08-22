@@ -1,0 +1,29 @@
+id: horsepower-84
+name: Horse Power 84
+city: Waterloo
+state: ''
+country: BE
+lat: 50.7001
+lon: 4.4019
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://horsepower84motos.be/
+phone: '3227925793'
+observations:
+- date: 2026-08-22
+  method: website
+  fact: horsepower84motos.be live; title « Horse Power 84 | Concession moto multi-marques
+    à Waterloo » (3 Guzzi mentions)
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi BE locator (API be/G): HORSE POWER 84 SRL, Chaussée de
+    Bruxelles 572, 1410 Waterloo, type=dealers,services'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

@@ -1,0 +1,36 @@
+id: pgs-motori
+name: P.G.S. Motori d.o.o. (Piaggio Group Srbija Motori)
+city: Novi Beograd
+country: RS
+lat: 44.8133
+lon: 20.4183
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- gilera
+functions:
+- sales
+- service
+- parts
+url: https://www.piaggio.rs/
+phone: +381 11 6690 916
+observations:
+- date: 2026-08-22
+  method: website
+  fact: official Piaggio Group importer and distributor for Serbia (Piaggio, Vespa,
+    Gilera, Aprilia, Moto Guzzi) with showroom at Vladimira Popovica 48a, Blok 19a,
+    11070 Novi Beograd, per https://www.piaggio.rs/o-nama/ and https://www.piaggio.rs/kontakt/,
+    verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: PGS SERVIS, Bulevar Mihaila Pupina 10 Z, listed as authorized service on importer
+    site https://www.piaggio.rs/ovlasceni-serviseri/, verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
+geocode: city-centroid

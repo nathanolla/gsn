@@ -1,0 +1,29 @@
+id: tecnomoto-milano
+name: Tecnomoto
+city: Milano
+state: ''
+country: IT
+lat: 45.4642
+lon: 9.1896
+layer: franchise
+capability:
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2024-04-11: ledzep ''problemi di salute, età della
+    pensione, figli che fanno altro, lo storico concessionario milanese Tecnomoto
+    ha chiuso... il 31 dicembre avevano chiuso'' (closed 2023-12-31); gis ''era una
+    miniera di ricambi e consigli soprattutto per le moto vecchie'' — https://forum.animaguzzista.com/viewtopic.php?t=60387;
+    kept per doctrine as defunct heritage reference for Milano; lat/lon 0.0 (no street
+    in sources)'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: defunct
+geocode: city-centroid

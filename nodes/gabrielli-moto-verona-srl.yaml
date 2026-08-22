@@ -1,0 +1,25 @@
+id: gabrielli-moto-verona-srl
+name: GABRIELLI MOTO VERONA S.R.L.
+city: Verona
+state: ''
+country: IT
+lat: 45.38719035
+lon: 10.98258062
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/verona/gabrielli-moto-verona-s-r-l-2/
+phone: 045 8230726
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "GABRIELLI MOTO
+    VERONA S.R.L."; address: Via Flavio Gioia 14, 37135 Verona (VR); type=services;
+    dealerCd=IT107G; verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

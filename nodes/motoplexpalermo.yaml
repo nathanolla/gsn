@@ -1,0 +1,30 @@
+id: motoplexpalermo
+name: Motoplex Palermo
+city: Palermo
+state: ''
+country: AR
+lat: -34.5803
+lon: -58.4245
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- vespa
+- aprilia
+- piaggio
+functions:
+- sales
+- service
+url: https://motoguzzioficial.com.ar/concesionarios/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed on the official Moto Guzzi Argentina dealer page at motoguzzioficial.com.ar/concesionarios/
+    as a Moto Guzzi concessionnaire in Palermo, Buenos Aires CABA; address Federico
+    Lacroze 3335; verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

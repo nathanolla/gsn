@@ -1,0 +1,27 @@
+id: kiss-moto-bilbao
+name: Kiss Moto
+city: Bilbao
+state: ''
+country: ES
+lat: 43.263
+lon: -2.935
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2025-12-07
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''kiss-moto'', Bilbao (snapshot
+    2025-12-07, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20251207102938/https://www.motoguzzi.com/es_ES/dealer-locator/bilbao/kiss-moto/
+    ; kissmoto.es not found in DNS on 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

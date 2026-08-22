@@ -1,0 +1,29 @@
+id: trebles-mc-service
+name: Treble's MC-service
+city: Trelleborg
+country: SE
+lat: 55.38388
+lon: 13.1134261
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.treblesmcservice.se/
+phone: +46 410 460 09
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed as "Treble´s MC-service *Endast verkstad*, Godsvägen 10, 231 62 Trelleborg,
+    +46 410 460 09" on the official Moto Guzzi Nordic dealer map (https://www.google.com/maps/d/embed?mid=16WuIcU55clW7w7xr7CVsxD3F37Y)
+    linked from https://motoguzzinordic.com/sv/dealers — marked workshop-only, verified
+    2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: own site https://www.treblesmcservice.se/ states motorcycle and moped service
+    and repairs since 2005, verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

@@ -1,0 +1,31 @@
+id: nbs-ingestre
+name: NBS Motorcycle Servicing
+city: Ingestre (near Stafford)
+state: ''
+country: GB
+lat: 0.0
+lon: 0.0
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: http://www.motorcycleservicing.co.uk/
+phone: 01889 271818
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'motorcycleservicing.co.uk live: ''NBS Motorcycle Servicing (Moto Guzzi Specialists).
+    Ingestre, Staffordshire'' — ''Moto Guzzi specialists for rebuilds, restoration,
+    repairs and servicing''; address Ingestre Garage, Trent Drive, Ingestre near Stafford
+    ST18 0RE; tel 01889 271818 / 07958 584889'
+- date: 2020-08-16
+  method: community-endorsement
+  fact: 'Moto Guzzi Club GB forum, thread ''Guzzi mechanics'': rapheal_glynn (2020-08-16)
+    ''Nigel at N.B.S. is superb''; opening post by Don-Spada (2020-06-30) lists NBS
+    as ''the obvious ones'' with full contact details: https://forum.motoguzziclub.co.uk/t/guzzi-mechanics/3528'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active

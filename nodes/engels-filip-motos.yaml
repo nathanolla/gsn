@@ -1,0 +1,34 @@
+id: engels-filip-motos
+name: Engels Filip Moto's
+city: Laarne
+state: ''
+country: BE
+lat: 51.0352
+lon: 3.8919
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- ktm
+- aprilia
+- mv-agusta
+- vespa
+functions:
+- sales
+- service
+url: https://www.engelsfilip-motos.be/
+phone: 0032 9 3285301
+observations:
+- date: 2026-08-22
+  method: website
+  fact: engelsfilip-motos.be live; title « Engels Filip Moto's - Officieel KTM, Aprilia,
+    MV Agusta en Vespa dealer » with Guzzi also referenced on page (2 mentions)
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi BE locator (API be/G): Engels Filip bvba, Colmanstraat
+    44, 9270 Laarne, type=dealers,services — Guzzi franchise point inside a multi-brand
+    dealer'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

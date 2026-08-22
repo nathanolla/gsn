@@ -1,0 +1,28 @@
+id: tifon-motor-las-palmas
+name: Tifón Motor
+city: Las Palmas de Gran Canari
+region: Las Palmas
+country: ES
+lat: 28.09899
+lon: -15.43874
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: 928 342350
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (ES feed) as ''TIFON MOTOR''
+    (Las Palmas de Gran Canari), type=dealers,services, dealer code ESDBDR, address
+    C/ Eufemiano Fuentes Cabrera 13, 35014 Las Palmas de Gran Canari; source: https://www.motoguzzi.com/es_ES/dealer-locator/las-palmas-de-gran-canari/tifon-motor/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/es/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

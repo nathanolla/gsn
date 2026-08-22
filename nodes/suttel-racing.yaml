@@ -1,0 +1,33 @@
+id: suttel-racing
+name: Suttel Racing
+city: Mauguio
+state: ''
+country: FR
+lat: 43.5922
+lon: 3.9412
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: https://suttel-racing.fr/
+phone: 04 67 20 96 06
+observations:
+- date: 2026-08-22
+  method: website
+  fact: suttel-racing.fr live; title « SUTTEL RACING concessionnaire Piaggio, Vespa,
+    Gilera, Aprilia et Moto guzzi » (19 Guzzi mentions)
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi FR locator (API fr/G): SUTTEL RACING, 199 rue Etienne
+    Lenoir, 34130 Mauguio, type=dealers,services, dealerCd FR7G44S5; group also runs
+    service points in Nîmes (FRDASQ) and Montpellier (FR7G44)'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

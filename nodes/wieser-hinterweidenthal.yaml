@@ -1,0 +1,35 @@
+id: wieser-hinterweidenthal
+name: Motorrad Wieser
+city: Hinterweidenthal
+state: ''
+country: DE
+lat: 49.2007
+lon: 7.7612
+layer: independent
+capability:
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+- restoration
+- parts
+url: https://www.motorrad-wieser.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Site live (https://www.motorrad-wieser.de/); OSM POI 'Motorrad Wieser, Wartbachstraße
+    32, Hinterweidenthal' matches stated address Wartbachstraße 32, 66999 Hinterweidenthal.
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'guzzisti.de forum, 2026-01-19 (https://www.guzzisti.de/forum/topic/19249-werkstattempfehlung-werkstatterfahrung-im-raum-mannheim-heidelberg/):
+    ''Wieser in Hinterweidenthal - etwas weiter weg, aber die Topadresse!'''
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Same thread, 2026-01-19: ''in Bezug auf Wieser: ja, neue Kunden nimmt er
+    nicht mehr an... nur eigen verkaufte und alte Stammkunden'' — capacity constraint:
+    not accepting new customers as of 2026-01.'
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

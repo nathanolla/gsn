@@ -1,0 +1,30 @@
+id: brisbanemotorcycles
+name: Brisbane Motorcycles
+city: Windsor
+state: ''
+country: AU
+lat: -33.6055
+lon: 150.822
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.brisbanemotorcycles.com.au/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed on the official Moto Guzzi Australia dealer locator at motoguzzi.com/au_EN/dealer-locator/windsor/brisbane-motorcycles/
+    as an authorised dealer in Windsor QLD; verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: brisbanemotorcycles.com.au contact page live; Yelp listing updated August
+    2026 confirming active business at Windsor QLD
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

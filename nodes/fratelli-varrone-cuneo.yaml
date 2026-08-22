@@ -1,0 +1,26 @@
+id: fratelli-varrone-cuneo
+name: Fratelli Varrone di Sorzana Alessio
+city: Cuneo
+state: ''
+country: IT
+lat: 44.4581
+lon: 7.5581
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2025-04-19
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''fratelli-varrone-di-sorzana-alessio'',
+    Cuneo (snapshot 2025-04-19, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20250419080816/https://www.motoguzzi.com/it_IT/dealer-locator/cuneo/fratelli-varrone-di-sorzana-alessio/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

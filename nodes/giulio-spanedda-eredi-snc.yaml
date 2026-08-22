@@ -1,0 +1,25 @@
+id: giulio-spanedda-eredi-snc
+name: GIULIO SPANEDDA EREDI SNC
+city: ALGHERO
+state: ''
+country: IT
+lat: 40.561014
+lon: 8.3210162
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/alghero/giulio-spanedda-eredi-snc/
+phone: 079-953053
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "GIULIO SPANEDDA
+    EREDI SNC"; address: C.SO VITTORIO EMANUELE 111, 07041 ALGHERO (SS); type=services;
+    dealerCd=ITAD1025; verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

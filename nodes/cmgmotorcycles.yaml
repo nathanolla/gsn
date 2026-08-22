@@ -1,0 +1,29 @@
+id: cmgmotorcycles
+name: CMG Motorcycles
+city: Christchurch
+state: ''
+country: NZ
+lat: -43.531
+lon: 172.6364
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.cmgmotorcycles.co.nz/moto-guzzi
+phone: ''
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Moto Guzzi New Zealand official site motoguzzi.com/nz_EN/ lists CMG Motorcycles
+    as the Moto Guzzi dealer in Christchurch; verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: cmgmotorcycles.co.nz/moto-guzzi page live; verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

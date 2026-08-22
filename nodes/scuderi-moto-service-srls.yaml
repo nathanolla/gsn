@@ -1,0 +1,25 @@
+id: scuderi-moto-service-srls
+name: SCUDERI MOTO SERVICE s.r.l.s.
+city: Siracusa
+state: ''
+country: IT
+lat: 37.0699852
+lon: 15.289731
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/siracusa/scuderi-moto-service-s-r-l-s/
+phone: 0931/64246
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "SCUDERI MOTO
+    SERVICE s.r.l.s."; address: Via Isonzo, 5a/5d, 96100 Siracusa (SR); type=services;
+    dealerCd=IT052W; verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

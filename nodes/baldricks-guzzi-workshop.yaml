@@ -1,0 +1,33 @@
+id: baldricks-guzzi-workshop
+name: Baldricks Guzzi Workshop
+city: London
+state: ''
+country: GB
+lat: 51.5074
+lon: -0.1278
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.facebook.com/baldricksworkshop
+phone: +44 7536 116176
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'public Facebook page renders without login: ''Baldricks Guzzi Workshop —
+    Motorcycles serviced and repaired. Moto Guzzi a speciality. MOT''s by appointment'';
+    +44 7536 116176; baldricks@hotmail.co.uk; ''100% recommend (15 Reviews)'': https://www.facebook.com/BaldricksWorkshop
+    ; former site baldricksworkshop.co.uk no longer resolves in DNS (checked 2026-08-22)'
+- date: 2026-05-18
+  method: community-endorsement
+  fact: 'Moto Guzzi Club GB forum, thread ''California 1400 independent servicing'':
+    Chris950s (2026-05-18) ''Baldrick gets my vote, look for contact details in the
+    back of Gambalunga'': https://forum.motoguzziclub.co.uk/t/california-1400-independent-servicing/23882
+    ; address Unit 20, rear of 282 Court Road, London SE9 4TU per forum post: https://forum.motoguzziclub.co.uk/t/moto-guzzi-servicing/2686'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

@@ -1,0 +1,29 @@
+id: riverbank-london
+name: Riverbank Motorcycles (Neil Freeman)
+city: London
+state: ''
+country: GB
+lat: 51.5074
+lon: -0.1278
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: 0208 983 4896
+observations:
+- date: 2020-07-08
+  method: community-endorsement
+  fact: 'Moto Guzzi Club GB forum, thread ''Guzzi mechanics'': Richardj (2020-07-08)
+    — ''I take it to Neil Freeman at Riverbank in East London. He works on all types
+    of bikes but is a big Guzzi fan and owns several assorted Guzzis. He can be contacted
+    on 0208 983 4896'': https://forum.motoguzziclub.co.uk/t/guzzi-mechanics/3528 ;
+    riverbankmotorcycles.co.uk no longer serving (connection refused, checked 2026-08-22)
+    — current contactability unverified'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

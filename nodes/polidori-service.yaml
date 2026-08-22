@@ -1,0 +1,25 @@
+id: polidori-service
+name: POLIDORI SERVICE
+city: PRATO
+state: ''
+country: IT
+lat: 43.8813367
+lon: 11.0705006
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/prato/polidori-service/
+phone: 0574-30862
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "POLIDORI SERVICE";
+    address: Via Galcianese, 56/C int. 6, 59100 PRATO (PO); type=services; dealerCd=IT161J;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

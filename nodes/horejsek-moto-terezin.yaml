@@ -1,0 +1,37 @@
+id: horejsek-moto-terezin
+name: Horejsek Moto
+city: Terezín
+country: CZ
+lat: 50.517
+lon: 14.1379
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- cfmoto
+- goes
+- kayo
+functions:
+- sales
+- service
+url: https://horejsekmoto.cz/
+phone: +420 602 405 006
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed on official Moto Guzzi dealer locator, 'HOREJSEK MOTO, prodej asistence
+    Piaggio v Terezín', archived snapshot 2025-12-06 at https://web.archive.org/web/20251206024302/https://www.motoguzzi.com/cz_CS/dealer-locator/terez%C3%ADn/horejsek-moto/
+    (live motoguzzi.com returned 503 on 2026-08-22)
+- date: 2026-08-22
+  method: website
+  fact: 'own site https://horejsekmoto.cz/kontakty.html (2026): ''Prodejce nových
+    i ojetých motorek a čtyřkolek značek PIAGGIO, VESPA, APRILIA, MOTO GUZZI, CF MOTO,
+    GOES, KAYO'', address Litoměřická kotlina 403, 411 55 Terezín, phone +420 602
+    405 006'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

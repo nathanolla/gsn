@@ -1,0 +1,26 @@
+id: nuova-sport-car-catania
+name: Nuova Sport Car S.p.A.
+city: Catania
+state: ''
+country: IT
+lat: 37.5024
+lon: 15.0874
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2025-04-24
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''nuova-sport-car-s-p-a'', Catania
+    (snapshot 2025-04-24, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20250424142210/https://www.motoguzzi.com/it_IT/dealer-locator/catania/nuova-sport-car-s-p-a/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

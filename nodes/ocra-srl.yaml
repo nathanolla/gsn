@@ -1,0 +1,25 @@
+id: ocra-srl
+name: OCRA SRL
+city: JESI
+state: ''
+country: IT
+lat: 43.5405297
+lon: 13.2698612
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/jesi/ocra-srl/
+phone: 0731-242329
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "OCRA SRL";
+    address: VIA  G. BRODOLINI, 33, 60035 JESI (AN); type=services; dealerCd=ITC075;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

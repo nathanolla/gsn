@@ -1,0 +1,26 @@
+id: motorpoint-snc-di-simone-donati
+name: Motorpoint snc di Simone Donati
+city: Rosignano Marittimo
+state: ''
+country: IT
+lat: 43.3874974
+lon: 10.4626512
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/rosignano-marittimo/motorpoint-snc-di-simone-donati/
+phone: 0586/760123
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "Motorpoint
+    snc di Simone Donati"; address: Via G. Rossa, 16, 57016 Rosignano Marittimo (LI);
+    type=services; dealerCd=IT306J; verified via official Piaggio Group dealerlocator
+    API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

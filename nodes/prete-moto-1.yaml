@@ -1,0 +1,25 @@
+id: prete-moto-1
+name: PRETE MOTO
+city: Caresanablot
+state: ''
+country: IT
+lat: 45.355362
+lon: 8.390238
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://www.motoguzzi.com/it_it/store-locator/caresanablot/prete-moto/
+phone: 0161 1921988
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "PRETE MOTO";
+    address: Via Vercelli 37, 13030 Caresanablot (VC); type=dealers; dealerCd=ITA172S1;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

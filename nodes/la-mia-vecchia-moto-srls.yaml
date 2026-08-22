@@ -1,0 +1,25 @@
+id: la-mia-vecchia-moto-srls
+name: LA MIA VECCHIA MOTO s.r.l.s.
+city: Torregrotta
+state: ''
+country: IT
+lat: 38.19408
+lon: 15.35059
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/torregrotta/la-mia-vecchia-moto-s-r-l-s/
+phone: 090-6019669
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "LA MIA VECCHIA
+    MOTO s.r.l.s."; address: Via Manzoni, 16, 98040 Torregrotta (ME); type=services;
+    dealerCd=IT160W; verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

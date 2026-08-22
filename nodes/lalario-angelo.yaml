@@ -1,0 +1,25 @@
+id: lalario-angelo
+name: LALARIO ANGELO
+city: BARI
+state: ''
+country: IT
+lat: 41.09961974
+lon: 16.83282495
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/bari/lalario-angelo/
+phone: '3357633472'
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "LALARIO ANGELO";
+    address: Via Martiri delle Foibe 11/A, 70124 BARI (BA); type=services; dealerCd=IT336U;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

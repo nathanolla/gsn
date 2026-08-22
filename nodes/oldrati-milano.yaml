@@ -1,0 +1,26 @@
+id: oldrati-milano
+name: OLDRATI MILANO
+city: MILANO
+state: ''
+country: IT
+lat: 45.4521321
+lon: 9.2152943
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://oldratimoto.it/
+phone: 02-55188289
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "OLDRATI MILANO";
+    address: VIA TITO LIVIO, 8, 20137 MILANO (MI); type=dealers; dealerCd=ITA3BNS8;
+    website: https://oldratimoto.it/; verified via official Piaggio Group dealerlocator
+    API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

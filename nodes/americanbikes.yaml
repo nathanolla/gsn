@@ -1,0 +1,26 @@
+id: americanbikes
+name: American-Bikes
+city: Caldaro sulla strada del
+state: ''
+country: IT
+lat: 46.42442518
+lon: 11.2504424
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: http://www.american-bikes.it/
+phone: 0471-678060
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "American-Bikes";
+    address: Zona Artigianale 13, 39052 Caldaro sulla strada del (BZ); type=services;
+    dealerCd=ITA133; website: http://www.american-bikes.it/; verified via official
+    Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

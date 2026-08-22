@@ -1,0 +1,33 @@
+id: stein-dinse-schwuelper
+name: Stein-Dinse GmbH
+city: Schwülper
+state: ''
+country: DE
+lat: 52.346
+lon: 10.4499
+layer: independent
+capability:
+- depot
+brands:
+- moto-guzzi
+- ducati
+- aprilia
+functions:
+- mail-order
+- parts
+url: https://www.stein-dinse.com/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Online shop live: ''Ersatzteile für Moto Guzzi, Ducati & Aprilia - Stein-Dinse''
+    (https://www.stein-dinse.com/, front page bot-protected, verified via reader proxy;
+    guzzisti.de dealer listing states 38179 Braunschweig/Schwülper). Coordinates are
+    a town-level approximation for Schwülper.'
+- date: 2026-08-22
+  method: website
+  fact: Listed on the guzzi.at links page as 'Stein-Dinse' under parts/specialist
+    suppliers (http://www.guzzi.at/).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

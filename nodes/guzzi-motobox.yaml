@@ -1,0 +1,34 @@
+id: guzzi-motobox
+name: Guzzi Motobox (GMB99)
+city: Roquetes
+region: Tarragona
+country: ES
+lat: 40.8204
+lon: 0.5034
+layer: independent
+capability:
+- heritage
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+- restoration
+- parts
+url: https://www.guzzimotobox.com/
+phone: +34 977 445 663
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'guzzimotobox.com live: dedicated Moto Guzzi / classic-bike specialist 25+
+    years (restoration, preparation, parts, imports); Pol. Ind. la Ravaleta 12, 43520
+    Roquetes (Tortosa), Tarragona; lat/lon placeholders (0.0) — not geocoded'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'recommended in pinned Guzzistas club list and dedicated praise threads (''un
+    taller de la ostia... De 10''): https://guzzistas.mforos.com/652460/11812891-para-los-que-no-aun-no-conoceis-guzzi-motobox/'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''
+geocode: city-centroid

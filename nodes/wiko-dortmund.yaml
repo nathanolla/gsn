@@ -1,0 +1,37 @@
+id: wiko-dortmund
+name: WIKO Motorrad GmbH
+city: Dortmund
+state: ''
+country: DE
+lat: 51.5142
+lon: 7.4653
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+- kawasaki
+- kymco
+functions:
+- sales
+- service
+url: https://www.wiko-motorrad.de/
+phone: 0231 818078
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'wiko-motorrad.de live (behind bot-check): ''WIKO Motorrad GmbH, Lindenhorster
+    Str. 42, 44147 Dortmund''; homepage brand list shows Kawasaki, Aprilia, Vespa,
+    Piaggio, Kymco (no Moto Guzzi mention found on homepage — Guzzi franchise evidenced
+    by locator listing below); tel 0231 818078'
+- date: 2026-01-19
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''wiko-motorrad-gmbh'', Dortmund
+    (snapshot 2026-01-19, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260119112931/https://www.motoguzzi.com/de_DE/dealer-locator/dortmund/wiko-motorrad-gmbh/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

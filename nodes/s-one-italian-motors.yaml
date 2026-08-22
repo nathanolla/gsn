@@ -1,0 +1,26 @@
+id: s-one-italian-motors
+name: S One Italian Motors
+city: Ballainvilliers
+state: ''
+country: FR
+lat: 48.6752
+lon: 2.2945
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-03-13
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''s-one-italian-motors'', Ballainvilliers
+    (snapshot 2026-03-13, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260313145345/https://www.motoguzzi.com/fr_FR/dealer-locator/ballainvilliers/s-one-italian-motors/'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

@@ -1,0 +1,32 @@
+id: collmann-ostrhauderfehn
+name: HC Motorradtechnik (Collmann)
+city: Ostrhauderfehn
+state: ''
+country: DE
+lat: 53.1362
+lon: 7.5998
+layer: franchise
+capability:
+- full-service
+brands:
+- aprilia
+- piaggio
+- vespa
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://collmann.eu/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''HC Motorradtechnik Fachhändler für Aprilia, Piaggio, Vespa,
+    Moto Guzzi'' (https://collmann.eu/); address Sandkamp 3, 26842 Ostrhauderfehn
+    stated on site; coordinates geocoded from that stated address.'
+- date: 2026-08-22
+  method: website
+  fact: Listed on the guzzi.at links page as 'HC Motorradtechnik' (http://www.guzzi.at/).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

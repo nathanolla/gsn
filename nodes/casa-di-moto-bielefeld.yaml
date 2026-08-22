@@ -1,0 +1,30 @@
+id: casa-di-moto-bielefeld
+name: Casa Di Moto GmbH
+city: Bielefeld
+state: ''
+country: DE
+lat: 51.9666
+lon: 8.4596
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+- parts
+url: https://www.casadimoto.com/
+phone: 0521-402030
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''Casa Di Moto GmbH: Spezialwerkstatt für italienische Motorräder
+    Bielefeld'' (https://www.casadimoto.com/, from casadimoto.de); site states Gütersloher
+    Str. 339, 33649 Bielefeld, phone 0521-402030, copyright 2026.'
+- date: 2026-08-22
+  method: website
+  fact: Listed as German Moto Guzzi dealer ('Casa di Moto, Bielefeld') in the guzzifan.ch
+    dealer directory (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

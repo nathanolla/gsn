@@ -1,0 +1,38 @@
+id: xross-moto-cacak
+name: XROSS MOTO
+city: Čačak
+country: RS
+lat: 43.8914
+lon: 20.3492
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- ktm
+- piaggio
+- vespa
+- aprilia
+- voge
+- loncin
+- segway
+functions:
+- sales
+- service
+url: https://www.xrossmoto.rs/
+phone: 063/266-832
+observations:
+- date: 2026-08-22
+  method: website
+  fact: dealer homepage states 'Ovlasceni distributeri za KTM, Piaggio, Vespa, Aprilia,
+    Moto Guzzi, Voge, Loncin, Segway' plus moto service, https://www.xrossmoto.rs/,
+    verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: XROSS MOTO Cacak, Bulevar Oslobodilaca Cacak 28, listed as authorized Piaggio
+    group dealer and servicer on importer site https://www.piaggio.rs/ovlasceni-dileri/,
+    verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
+geocode: city-centroid

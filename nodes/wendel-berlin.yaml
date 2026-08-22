@@ -1,0 +1,31 @@
+id: wendel-berlin
+name: Wendel Motorräder
+city: Berlin
+state: ''
+country: DE
+lat: 52.5317
+lon: 13.3502
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+functions:
+- sales
+- service
+url: https://wendelmotorraeder.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''Wendel Motorraeder Berlin'' (https://wendelmotorraeder.de/)
+    with extensive Moto Guzzi content; address Wilsnacker Str. 35, 10559 Berlin stated
+    on site; coordinates geocoded from that stated address.'
+- date: 2026-08-22
+  method: website
+  fact: Listed in guzzifan.ch directory ('Wendel Motorräder Berlin') and on the guzzi.at
+    links page ('Wendel Motorrad').
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

@@ -1,0 +1,35 @@
+id: ghezzi-brian
+name: Ghezzi & Brian
+city: ''
+state: ''
+country: IT
+lat: 42.6384
+lon: 12.6743
+layer: independent
+capability:
+- performance
+brands:
+- moto-guzzi
+functions:
+- tuning
+- parts
+- fabrication
+url: https://www.ghezzi-brian.com/
+phone: +39-348-3109784
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'ghezzi-brian.com live 2026-08-22: ''Benvenuti in Ghezzi-Brian | Ride your
+    Dreams'' — Tuning per Moto Guzzi, OZ/Kineo/Marvic wheels, models (Furia, V11 TROFEO...);
+    contacts page: gheb.info@ghezzi-brian.com, ''Per parlare con Brian'' +39 348 3109784;
+    NO street address published anywhere on site (lat/lon 0.0)'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2020: ''Ghezzi & Brian in crisi, si vende'' — company''s
+    ramo d''azienda put to auction June 2020 (gpone 2020-06-18 cited in thread), auction
+    unsold at Oct 2020 reserve per ilmitico; site active again 2026 — status history
+    relevant — https://forum.animaguzzista.com/viewtopic.php?t=59042'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active
+geocode: city-centroid

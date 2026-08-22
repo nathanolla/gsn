@@ -1,0 +1,25 @@
+id: garage-75
+name: GARAGE 75
+city: Roma
+state: ''
+country: IT
+lat: 41.94155549
+lon: 12.55350914
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/roma/garage-75/
+phone: 06-823612
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "GARAGE 75";
+    address: Via Nomentana 871, 00137 Roma (RM); type=services; dealerCd=IT222F; verified
+    via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

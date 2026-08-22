@@ -1,0 +1,29 @@
+id: motofornitura-valassi
+name: Motofornitura Valassi
+city: Mandello del Lario
+state: ''
+country: IT
+lat: 45.9174
+lon: 9.3213
+layer: independent
+capability:
+- depot
+brands:
+- moto-guzzi
+functions:
+- parts
+url: https://www.motofornituravalassi.it/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'motofornituravalassi.it live 2026-08-22: ''RICAMBI PER MOTO GUZZI - SPEDIZIONI
+    RAPIDE 24/48h'', Via Parodi 29, 23826 Mandello del Lario (LC)'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2026-06-24/25: saiot ''Valassi a Mandello (fa anche
+    ordini a distanza)''; antocave (lives ~17km from Mandello) lists motofornituravalassi.it
+    among his ''soliti noti'' — https://forum.animaguzzista.com/viewtopic.php?t=61212'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

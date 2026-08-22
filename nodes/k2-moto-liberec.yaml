@@ -1,0 +1,31 @@
+id: k2-moto-liberec
+name: K2 Moto Liberec
+city: Liberec
+country: CZ
+lat: 50.7446
+lon: 15.0305
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- honda
+functions:
+- sales
+- service
+url: https://www.k2moto.cz/
+phone: +420 733 640 412
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed on official Moto Guzzi dealer locator, 'K2 MOTO, prodej asistence Piaggio
+    v Liberec', archived snapshot 2025-12-11 at https://web.archive.org/web/20251211190159/https://www.motoguzzi.com/cz_CS/dealer-locator/liberec/k2-moto/
+    (live motoguzzi.com returned 503 on 2026-08-22)
+- date: 2026-08-22
+  method: website
+  fact: 'own site https://www.k2moto.cz/ (2026): Liberec branch at České Mládeže 750/118,
+    Liberec 460 08, phone +420 733 640 412; Moto Guzzi V7 Stone 850 E5+ listed in
+    stock'
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

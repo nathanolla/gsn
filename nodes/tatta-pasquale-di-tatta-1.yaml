@@ -1,0 +1,26 @@
+id: tatta-pasquale-di-tatta-1
+name: TATTA PASQUALE DI TATTA
+city: FORMIA
+state: ''
+country: IT
+lat: 41.2619845
+lon: 13.637058
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+url: http://www.tatta.it/
+phone: 0771-21574
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "TATTA PASQUALE
+    DI TATTA"; address: VIA APPIA, 267 (LATO NAPOLI), 04023 FORMIA (LT); type=dealers;
+    dealerCd=ITA686; website: http://www.tatta.it/; verified via official Piaggio
+    Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

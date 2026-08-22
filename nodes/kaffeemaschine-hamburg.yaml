@@ -1,0 +1,34 @@
+id: kaffeemaschine-hamburg
+name: Kaffeemaschine (Axel Budde)
+city: Hamburg
+state: ''
+country: DE
+lat: 53.5063
+lon: 9.9872
+layer: independent
+capability:
+- performance
+- heritage
+brands:
+- moto-guzzi
+functions:
+- custom-building
+- restoration
+- service
+url: https://www.kaffee-maschine.net/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''KAFFEEMASCHINE – ride unfiltered – Unique café racers'' (https://www.kaffee-maschine.net/).
+    Workshop address Rotenhäuser Straße 75a, 21107 Hamburg as stated on the site;
+    coordinates geocoded from that stated address.'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'guzzisti.de forum, 2022-11-15 (https://www.guzzisti.de/forum/topic/10186-besuch-bei-axel-budde/):
+    ''Habe heute mit einem Freund mal Axel Budde in HH besucht. Was für eine Traumwerkstatt,was
+    für Traummaschinen und dazu richtig guter Cappuccino! Und sehr freundlich und
+    kompetent!'''
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

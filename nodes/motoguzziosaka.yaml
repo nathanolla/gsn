@@ -1,0 +1,31 @@
+id: motoguzziosaka
+name: Moto Guzzi Osaka Chuoh
+city: Osaka
+state: ''
+country: JP
+lat: 34.6938
+lon: 135.5015
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+functions:
+- sales
+- service
+- parts
+url: https://www.bikejapan.jp/italiana/moto_guzzi.html
+phone: 06-6991-8195
+observations:
+- date: 2026-08-22
+  method: website
+  fact: bikejapan.jp/italiana/moto_guzzi.html live; authorised Moto Guzzi retailer
+    in Osaka at 大阪市鶴見区横堤4-26-34 2F; phone 06-6991-8195; carries Moto Guzzi, Aprilia,
+    Vespa; offers new bike sales, clothing, parts, brochure requests, consultations;
+    verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-lane-beyond-europe
+status: active
+geocode: city-centroid

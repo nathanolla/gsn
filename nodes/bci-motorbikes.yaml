@@ -1,0 +1,34 @@
+id: bci-motorbikes
+name: BCI Motorbikes (Peter Impens)
+city: Vlijmen
+region: Noord-Brabant
+country: NL
+lat: 51.6943
+lon: 5.2091
+layer: independent
+capability:
+- full-service
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+- parts
+- restoration
+url: https://bci.nl/
+phone: +31 73 511 6900
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'bci.nl live: ''Uw Moto Guzzi specialist sinds 1982'' — workshop, restorations/projects
+    and parts webshop; Grote Kerk 10, 5251 AA Vlijmen; lat/lon placeholders (0.0)
+    — not geocoded'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: listed in Moto Guzzi Club Nederland's dealer POI database as a previous Guzzi
+    dealer still operating (https://www.mgcn.nl/database/guzzi-dealers-gps)
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''
+geocode: city-centroid

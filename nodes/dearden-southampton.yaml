@@ -1,0 +1,38 @@
+id: dearden-southampton
+name: Dearden Motorcycles
+city: Southampton
+state: ''
+country: GB
+lat: 50.9025
+lon: -1.4042
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+- voge
+- qjmotor
+functions:
+- sales
+- service
+url: https://www.deardenmotorcycles.co.uk/
+phone: 023 8089 1110
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'deardenmotorcycles.co.uk live: ''Hampshire''s first premier dealership'';
+    New Bikes menu: Aprilia, Moto Guzzi, Piaggio, Vespa, Voge, QJMotor; postcode SO45
+    3NQ; tel 023 8089 1110; socials facebook.com/DeardenMotorcycles and instagram.com/deardenmotorcycles'
+- date: 2026-07-06
+  method: community-endorsement
+  fact: 'Moto Guzzi Club GB forum, thread ''1st Service, where to go.'' — member Shane
+    (2026-07-06) bought a new 2025 V7 Special as a distance sale from Deardens in
+    Southampton (''Telephone calls and messages were spot on… courier they used was
+    excellent''): https://forum.motoguzziclub.co.uk/t/1st-service-where-to-go/24252'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

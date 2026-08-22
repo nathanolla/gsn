@@ -1,0 +1,29 @@
+id: famotosport
+name: Fa. Moto-Sport
+city: Brønshøj
+country: DK
+lat: 55.7046
+lon: 12.506
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+- qj-motor
+functions:
+- sales
+- service
+url: https://famoto-sport.dk/
+phone: '38890312'
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 123mc dealer profile lists Fa. Moto-Sport, Degnemose Allé 4-6, 2700 Brønshøj,
+    as 'Autoriseret forhandler af Aprilia, Moto Guzzi, Piaggio, QJ Motor, Vespa',
+    https://www.123mc.dk/find-mc-forhandler/fa-moto-sport/1275, verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

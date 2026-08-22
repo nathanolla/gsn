@@ -1,0 +1,25 @@
+id: easy-rider-di-nicola-colella-sas
+name: EASY RIDER DI NICOLA COLELLA S.A.S.
+city: Termoli
+state: ''
+country: IT
+lat: 41.992833
+lon: 14.998682
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/termoli/easy-rider-di-nicola-colella-s-a-s/
+phone: 0875 / 551364
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "EASY RIDER
+    DI NICOLA COLELLA S.A.S."; address: Via Corsica 64H, 86039 Termoli (CB); type=services;
+    dealerCd=ITB465; verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

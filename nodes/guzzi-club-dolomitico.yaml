@@ -1,0 +1,33 @@
+id: guzzi-club-dolomitico
+name: Guzzi Club Dolomitico
+city: ''
+state: ''
+country: IT
+lat: 42.6384
+lon: 12.6743
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- community
+url: https://www.guzziclubdolomitico.com/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'guzziclubdolomitico.com live 2026-08-22: bilingual IT/DE club site with 2026
+    events programme (Stammtisch meetings) and photo archives 2021-2026; no published
+    seat/coordinates (lat/lon 0.0)'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread: MEK1 2025-10-01 ''prova a chiedere qua, sicuramente
+    ti sapranno indirizzare https://www.guzziclubdolomitico.com/''; cipo 2025-10-04
+    ''Ti consiglio anch''io di sentire il guzzi club dolomiti'' and again 2026-02-11
+    ''Prova a contattare il moto club dolomitico'' (routing Guzzi riders in Alto Adige/Südtirol)
+    — https://forum.animaguzzista.com/viewtopic.php?t=60944'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active
+geocode: city-centroid

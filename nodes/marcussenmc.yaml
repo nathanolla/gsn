@@ -1,0 +1,35 @@
+id: marcussenmc
+name: Marcussen MC AB
+city: Eldsberga
+country: SE
+lat: 56.6161782
+lon: 13.0345658
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- yamaha
+- honda
+- suzuki
+functions:
+- sales
+- service
+- parts
+url: https://www.marcussenmc.se/
+phone: 070-818 48 67
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed as 'Marcussen Mc AB, 310 31 Eldsberga' on the official Moto Guzzi Nordic
+    dealer map (https://www.google.com/maps/d/embed?mid=16WuIcU55clW7w7xr7CVsxD3F37Y)
+    linked from https://motoguzzinordic.com/sv/dealers, verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: own site https://www.marcussenmc.se/ states 'I vårt showroom säljer vi nya
+    motorcyklar från Aprilia och Moto Guzzi' and offers verkstad/service plus reservdelar,
+    phone 070-818 48 67, verified 2026-08-22
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

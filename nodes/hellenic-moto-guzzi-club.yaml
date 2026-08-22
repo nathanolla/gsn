@@ -1,0 +1,27 @@
+id: hellenic-moto-guzzi-club
+name: Hellenic Moto Guzzi Club (Ελληνική Λέσχη Moto Guzzi)
+city: Athens
+country: GR
+lat: 37.9755
+lon: 23.7055
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- touring-support
+url: https://motoguzziclub.gr/
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: club site live with 2026 content (27th '36 Hours' Endurance Tour of Greece,
+    25-26 April 2026; results posted 2026-05-15); HQ map link on site points to 37.975496,
+    23.705535, accessed 2026-08-22, https://motoguzziclub.gr/
+- date: 2026-08-22
+  method: community-endorsement
+  fact: public club forum online (server date 22 August 2026), accessed 2026-08-22,
+    https://forum.motoguzziclub.gr/
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active

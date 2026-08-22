@@ -1,0 +1,28 @@
+id: cerase-costabissara
+name: Officina Paolo Cerase
+city: Costabissara
+state: ''
+country: IT
+lat: 45.5905
+lon: 11.4862
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2017-02-15: Ieia ''Oppure anche Cerase a Costabissara
+    (Vicenza)'' — https://forum.animaguzzista.com/viewtopic.php?t=56701; closure reported
+    2025-06-07 by magis68 ''l''Officina di Paolo Cerase a Costabissara (Vicenza) ha
+    chiuso'' — https://forum.animaguzzista.com/viewtopic.php?t=60798; kept as defunct;
+    lat/lon 0.0'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: defunct
+geocode: city-centroid

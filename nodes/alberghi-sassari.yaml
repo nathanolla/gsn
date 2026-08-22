@@ -1,0 +1,29 @@
+id: alberghi-sassari
+name: Officina Enrico Alberghi
+city: Sassari
+state: ''
+country: IT
+lat: 40.7282
+lon: 8.5556
+layer: independent
+capability:
+- satellite
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2016-05-22: antocave ''a Sassari conosco Enrico Alberghi,
+    ha un''officina moto con specializzazione Guzzi, lui stesso possiede un V11, è
+    in un vicolo chiuso di Corso Francesco Vico a Sassari praticamente di fronte alla
+    stazione'' (n.31); Gonares notes he ''si é trasferito giusto pochi passi più avanti''
+    — https://forum.animaguzzista.com/viewtopic.php?t=55852; endorsement from 2016,
+    treat as faded until reconfirmed'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

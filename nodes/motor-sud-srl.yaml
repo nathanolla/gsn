@@ -1,0 +1,26 @@
+id: motor-sud-srl
+name: MOTOR SUD S.R.L.
+city: SIRACUSA
+state: ''
+country: IT
+lat: 37.0727603
+lon: 15.2872803
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://www.motorsud.it/
+phone: 0931/464166
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "MOTOR SUD S.R.L.";
+    address: VIALE LUIGI CADORNA, 88, 96100 SIRACUSA (SR); type=dealers; dealerCd=ITA424;
+    website: https://www.motorsud.it/; verified via official Piaggio Group dealerlocator
+    API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

@@ -1,0 +1,25 @@
+id: flli-magnani-srl-2
+name: F.LLI MAGNANI S.R.L.
+city: Cesena
+state: ''
+country: IT
+lat: 44.12775357
+lon: 12.28235012
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/cesena/f-lli-magnani-s-r-l/
+phone: 0547-631720
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "F.LLI MAGNANI
+    S.R.L."; address: Via Ravennate 943, 47023 Cesena (FC); type=services; dealerCd=ITB957;
+    verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

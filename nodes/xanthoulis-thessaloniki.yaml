@@ -1,0 +1,33 @@
+id: xanthoulis-thessaloniki
+name: Xanthoulis & Sia E.E. (Ε. Ξανθούλης και ΣΙΑ Ε.Ε.)
+city: Thessaloniki
+country: GR
+lat: 40.6403
+lon: 22.9353
+layer: franchise
+capability:
+- depot
+brands:
+- moto-guzzi
+- vespa
+- piaggio
+functions:
+- service
+- parts
+url: https://xanthoulis.com/
+phone: +30 2310 812580
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: listed as 'Ε. ΞΑΝΘΟΥΛΗΣ ΚΑΙ ΣΙΑ Ε.Ε' in ΘΕΣΣΑΛΟΝΙΚΗ on official Moto Guzzi
+    dealer locator, archived snapshot 2026-05-09, https://web.archive.org/web/20260509193341/https://www.motoguzzi.com/gr_EL/dealer-locator/%CE%B8%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%B9%CE%BA%CE%B7/%CE%B5-%CE%BE%CE%B1%CE%BD%CE%B8%CE%BF%CF%85%CE%BB%CE%B7%CF%82-%CE%BA%CE%B1%CE%B9-%CF%83%CE%B9%CE%B1-%CE%B5-%CE%B5/,
+    verified 2026-08-22
+- date: 2026-08-22
+  method: website
+  fact: company eshop xanthoulis.com ('Service + Ανταλλακτικά μηχανών', 'Από το 1967')
+    has ΑΞΕΣΟΥΑΡ MOTOGUZZI category; phone +30 2310 812 580, accessed 2026-08-22,
+    https://xanthoulis.com/
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
+geocode: city-centroid

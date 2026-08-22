@@ -1,0 +1,30 @@
+id: falcone-club-muenster
+name: Falcone-Club e.V.
+city: Münster
+state: ''
+country: DE
+lat: 51.9625
+lon: 7.6252
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- community
+url: https://falcone-club.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Club site live: ''Falcone-Club e.V. – der Club für Moto Guzzi Einzylinderfahrer
+    – von Airone bis Zigolo'' (https://falcone-club.de/) — single-cylinder Moto Guzzi
+    heritage club. No coordinates per knowledge-node doctrine.'
+- date: 2026-08-22
+  method: website
+  fact: Listed in guzzisti.de clubs directory as 'Falcone-Club, 48159 Münster, Deutschland'
+    (https://www.guzzisti.de/clubs/).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active
+geocode: city-centroid

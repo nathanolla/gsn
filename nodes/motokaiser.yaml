@@ -1,0 +1,29 @@
+id: motokaiser
+name: Moto Kaiser (Philippe Kaiser SPRL)
+city: Limerlé (Gouvy)
+state: ''
+country: BE
+lat: 50.1629
+lon: 5.9266
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motokaiser.com/
+phone: 080-510841
+observations:
+- date: 2026-08-22
+  method: website
+  fact: motokaiser.com live; title « Motokaiser | Le + grand choix de Motos, Quads,
+    SSV en Belgique | Limerlé - Gouvy » (2 Guzzi mentions)
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi BE locator (API be/G): PHILIPPE KAISER SPRL, Rue du Roy
+    2, 6670 Limerlé, type=dealers,services, info@motokaiser.com'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

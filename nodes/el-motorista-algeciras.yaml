@@ -1,0 +1,27 @@
+id: el-motorista-algeciras
+name: El Motorista (Algeciras)
+city: Algeciras
+state: ''
+country: ES
+lat: 36.1312
+lon: -5.4474
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: ''
+phone: ''
+observations:
+- date: 2026-05-20
+  method: official-locator
+  fact: 'official Moto Guzzi dealer-locator page for ''el-motorista-algeciras'' (snapshot
+    2026-05-20, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260520065848/https://www.motoguzzi.com/es_ES/dealer-locator/algeciras/el-motorista-algeciras/
+    ; elmotorista.es (chain site) is Cloudflare bot-walled (403 on 2026-08-22)'
+last_verified: 2026-08-22
+verified_by: claude-eu-social
+status: active
+geocode: city-centroid

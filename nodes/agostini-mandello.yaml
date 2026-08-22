@@ -1,0 +1,42 @@
+id: agostini-mandello
+name: Agostini Mandello
+city: Mandello del Lario
+state: ''
+country: IT
+lat: 45.9402
+lon: 9.3126
+layer: franchise
+capability:
+- full-service
+- depot
+- heritage
+brands:
+- moto-guzzi
+- aprilia
+functions:
+- sales
+- service
+- parts
+- rental
+url: https://agostinimandello.com/
+phone: +39-0341-735448
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'agostinimandello.com live 2026-08-22: ''Concessionario Moto Guzzi & Aprilia
+    - Agostini Mandello'', Showroom Via Statale 60, 23826 Mandello del Lario (LC),
+    tel +39 0341 735448, Mon-Sat; site sections Storia/Moto/Usato/Noleggio/Shop'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2018-07-09: nonnomario on taking a Norge 4V for service
+    ''Agostini a Mandello è ancora affidabile? — affidabilissimo!''; Ardito ''confermo
+    sulla bontà di Agostini'' — https://forum.animaguzzista.com/viewtopic.php?t=57926;
+    re-listed 2026-06-25 by antocave among Mandello ''soliti noti'' (t=61212) and
+    by LIRO 2025-03-27 ''A Mandello c''è Agostini'' (t=60707)'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'WildGuzzi international thread 2024-07-31: ''rented a V100 from Luca at Agostini
+    for 4 hours of fun'' during a Mandello visit — https://wildguzzi.com/forum/index.php?topic=121564.0'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

@@ -1,0 +1,31 @@
+id: motobene-henau
+name: Motobene GmbH
+city: Henau
+state: ''
+country: CH
+lat: 47.4583
+lon: 9.1183
+layer: independent
+capability:
+- full-service
+- heritage
+brands:
+- moto-guzzi
+functions:
+- service
+- restoration
+url: https://www.motobene.ch/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''MOTOBENE — Ihre unabhängige Motorradwerkstatt'', 9247 Henau,
+    with KLASSIKER/UMBAUTEN section including Moto Guzzi (https://www.motobene.ch/);
+    address Felseggstrasse 33a, 9247 Henau; coordinates geocoded from that stated
+    address (OSM POI ''Motobene'').'
+- date: 2026-08-22
+  method: website
+  fact: Listed in the guzzifan.ch Swiss dealer directory as 'Motobene, SG' (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

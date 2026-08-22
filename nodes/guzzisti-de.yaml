@@ -1,0 +1,36 @@
+id: guzzisti-de
+name: Guzzisti.de (Moto Guzzi News, Händler und Forum)
+city: ''
+state: ''
+country: DE
+lat: 51.1638
+lon: 10.4478
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- knowledge
+- community
+url: https://www.guzzisti.de/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Portal live: ''Guzzisti – Moto Guzzi News, Händler und Forum'' (https://www.guzzisti.de/)
+    with dealer list (https://www.guzzisti.de/index.php?action=haendler), clubs directory
+    (https://www.guzzisti.de/clubs/) and an active Invision forum whose workshop-recommendation
+    threads (10186/2022, 12261/2023, 19249/2026, 19433/2026) supplied the community
+    endorsements in this lane. Online portal — no coordinates per knowledge-node doctrine.'
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active
+? 34 draft nodes emitted (18 DE commercial, 6 AT commercial, 5 CH commercial, 7 club/portal
+  knowledge nodes). Excluded for lack of verifiable provenance or negative signals
+: ZRM Mannheim (explicit community warnings), IMT (site live but no address/function
+  determinable), ITAL-JAP (no Guzzi evidence on site), Siegi's Garage ("Coming Soon"),
+  World of Guzzi e.V. + Guzzifreunde.de (domains parked/dead), MGC Bodensee/guzzimoto.de
+  (site is now a generic blog, club affiliation not verifiable), Piaggio Center Riehl
+  (no reachable own website; only neutral "kenne ich nicht" mention).
+geocode: city-centroid

@@ -1,0 +1,30 @@
+id: kruckenhauser-kundl
+name: Auto Kruckenhauser
+city: Kundl
+state: ''
+country: AT
+lat: 47.4691
+lon: 11.9846
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.auto-kruckenhauser.at/index.php/motorrad/moto-guzzi
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: Moto Guzzi section live on dealer site (https://www.auto-kruckenhauser.at/index.php/motorrad/moto-guzzi),
+    page states 6250 Kundl; coordinates are a town-level approximation for Kundl (street
+    not captured).
+- date: 2026-08-22
+  method: website
+  fact: Listed in the auto-motor.at Moto Guzzi dealer directory for Tirol (https://auto-motor.at/Motorrad/Motorradhaendler/Moto-Guzzi-Motorrad-Haendler/Moto-Guzzi-Tirol.html)
+    and on guzzi.at (http://www.guzzi.at/).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

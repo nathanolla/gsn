@@ -1,0 +1,32 @@
+id: stahlmoto-stgallen
+name: Stahlmoto AG
+city: St. Gallen
+state: ''
+country: CH
+lat: 47.4256
+lon: 9.3762
+layer: franchise
+capability:
+- full-service
+brands:
+- yamaha
+- lambretta
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.stahlmoto.ch/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Site live: ''Stahlmoto AG - Yamaha & Lambretta St.Gallen Motorräder Roller''
+    (https://www.stahlmoto.ch/) with Moto Guzzi new-vehicle content; coordinates are
+    a town-level approximation for St. Gallen (street not captured).'
+- date: 2026-08-22
+  method: website
+  fact: Listed under 'Moto Guzzi Händler Schweiz (freie und offizielle)' in the guzzifan.ch
+    directory as 'Stahlmoto, SG' (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr).
+last_verified: 2026-08-22
+verified_by: claude-zai-dach
+status: active

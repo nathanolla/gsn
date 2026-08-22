@@ -1,0 +1,28 @@
+id: jarno-motors
+name: Jarno Motors
+city: Kapellen
+state: ''
+country: BE
+lat: 51.3557
+lon: 4.5045
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.jarno-motors.be/
+phone: 0032-(0)3-535127
+observations:
+- date: 2026-08-22
+  method: website
+  fact: jarno-motors.be live (Guzzi mentioned on homepage)
+- date: 2026-08-22
+  method: official-locator
+  fact: 'official Moto Guzzi BE locator (API be/G): Jarno Motors, Industrielaan 5/1,
+    2950 Kapellen, type=dealers,services, info@jarno-motors.be'
+last_verified: 2026-08-22
+verified_by: claude-zai-fr-be-lane
+status: active

@@ -1,0 +1,25 @@
+id: pikka-motors-snc-di-pisano-paolo-e
+name: PIKKA MOTORS SNC di Pisano Paolo e
+city: SCANDICCI
+state: ''
+country: IT
+lat: 43.758992
+lon: 11.201704
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com/it_it/store-locator/scandicci/pikka-motors-snc-di-pisano-paolo-e/
+phone: 055-253737
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "PIKKA MOTORS
+    SNC di Pisano Paolo e"; address: VIA V. E. ORLANDO, 2, 50018 SCANDICCI (FI); type=services;
+    dealerCd=IT083J; verified via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

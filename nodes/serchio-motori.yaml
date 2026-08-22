@@ -1,0 +1,30 @@
+id: serchio-motori
+name: Serchio Motori
+city: Lucca
+state: ''
+country: IT
+lat: 43.8428
+lon: 10.5029
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.gruppoferrando.it/it/serchio-motori-lucca
+phone: 0583-954275
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'serchiomotori.it redirects to gruppoferrando.it/it/serchio-motori-lucca (live
+    2026-08-22): Serchio Motori is a dealer of Gruppo Ferrando (Lucca), tel 0583 954275'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Anima Guzzista thread 2025-08-20: Calidreaming ''Firenze non so ma zona Livorno
+    sicuramente direi serchio motori'' — https://forum.animaguzzista.com/viewtopic.php?t=60892;
+    lat/lon are Lucca comune centroid (approx)'
+last_verified: 2026-08-22
+verified_by: italy-community-lane
+status: active

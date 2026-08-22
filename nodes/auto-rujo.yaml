@@ -1,0 +1,29 @@
+id: auto-rujo
+name: Auto Rujo
+city: Bragança
+region: Bragança
+country: PT
+lat: 41.818899
+lon: -6.791471
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.auto-rujo.com
+phone: 273 325 441
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'listed on the official Moto Guzzi dealer locator (PT feed) as ''AUTO RUJO''
+    (BRAGANÇA   ), type=dealers,services, dealer code DEALER-PT-50, address Estrada
+    de Donai, Edifício Rujo nº 1200, 5300-511 BRAGANÇA   ; source: https://www.motoguzzi.com/pt_PT/dealer-locator/bragança-/auto-rujo/
+    (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores);
+    verified 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-es-pt-nl-uk-locator
+status: active
+state: ''

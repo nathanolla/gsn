@@ -1,0 +1,25 @@
+id: che-moto-pescara
+name: CHE MOTO! PESCARA
+city: Pescara
+state: ''
+country: IT
+lat: 42.463288
+lon: 14.2210638
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://www.motoguzzi.com/it_it/store-locator/pescara/che-moto-pescara/
+phone: 085-64700
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi (Piaggio) IT dealer locator as "CHE MOTO! PESCARA";
+    address: Via Bardet 31, 65126 Pescara (PE); type=dealers; dealerCd=ITA3C7S3; verified
+    via official Piaggio Group dealerlocator API 2026-08-22'
+last_verified: 2026-08-22
+verified_by: claude-it-locator
+status: active

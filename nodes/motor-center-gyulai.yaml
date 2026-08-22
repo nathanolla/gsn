@@ -1,0 +1,36 @@
+id: motor-center-gyulai
+name: Motor Center Gyulai (Prestige Flat Kft.)
+city: Budapest
+country: HU
+lat: 47.4854
+lon: 19.229
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- suzuki
+- yamaha
+- aprilia
+- vespa
+- piaggio
+- benelli
+functions:
+- sales
+- service
+- parts
+url: https://www.motorcentergyulai.hu/
+phone: +36-70-376-6700
+observations:
+- date: 2026-08-22
+  method: website
+  fact: dealer homepage states 'Hivatalos SUZUKI és YAMAHA márkakereskedés... (Benelli,
+    Keeway, Morbidelli, Benda, Aprilia, Moto Guzzi, Vespa, Piaggio...)' at Budapest
+    XVII., Hajdúcsárda utca 10, accessed 2026-08-22, https://www.motorcentergyulai.hu/
+- date: 2026-08-22
+  method: website
+  fact: same address listed as 'PRESTIGE FLAT KFT. 1173 Budapest, Hajdúcsárda u. 10.'
+    on importer dealer list, accessed 2026-08-22, https://vespa.hu/kereskedok/
+last_verified: 2026-08-22
+verified_by: gsn-scandi-balkans-lane
+status: active
