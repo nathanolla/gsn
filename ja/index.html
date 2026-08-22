@@ -205,6 +205,9 @@
     <select id="flayer" aria-label="カテゴリで絞り込み"><option value="">— すべてのカテゴリ —</option></select>
     <button id="gpx" class="sec" title="表示中のノードをGPXウェイポイントでダウンロード（Garmin, OsmAnd, Kurviger…）">↓ GPX</button>
     <button id="kml" class="sec" title="表示中のノードをKMLでダウンロード（Google Earth, Maps）">↓ KML</button>
+    <button id="corridor" class="sec" title="ルート計画：地図をタップして描くか、GPXをインポート — ルート沿いのノードだけを表示">ルート</button>
+    <select id="corrad" aria-label="Corridor radius" style="display:none"></select>
+    <input id="gpxfile" type="file" accept=".gpx" style="display:none">
   </div>
   <div id="offline" style="display:none;text-align:center;background:#ffe08a;color:#5a4500;font:13px/1.6 monospace;padding:4px">
     オフライン — キャッシュ表示中。地図タイルは表示されない場合がありますが、リストは動作します</div>
@@ -303,7 +306,7 @@ function render(){
   const flayer=document.getElementById('flayer').value;
   const list=[];
   FEATS.forEach(f=>{
-    const p=f.properties, show=p.capability.some(c=>activeCaps.has(c))&&(!flayer||p.layer===flayer);
+    const p=f.properties, show=p.capability.some(c=>activeCaps.has(c))&&(!flayer||p.layer===flayer)&&(!corridorOn()||(f.geometry&&nearRoute(f.geometry.coordinates)));
     if(markers[p.id]) markers[p.id][show&&f.geometry?'addTo':'remove'](map);
     if(show) list.push(f);
   });
@@ -450,6 +453,67 @@ function render(){
       page=0; render();};
   });
   document.getElementById('flayer').onchange=()=>{page=0;render()};
+  // ---- corridor mode: plan a route, see only the nodes that can save it ----
+  // Tap ROUTE, then tap the map to lay waypoints (double-tap ends), or import
+  // a GPX. The list, map and exports all filter to nodes within the chosen
+  // radius of the line. Everything is client-side; the route never leaves
+  // the browser, same as the home pin.
+  let routePts=[], routeLine=null, corridorActive=false;
+  const corrSel=document.getElementById('corrad');
+  const CORR_R=(LOC.units==='km'?[25,50,100]:[15,30,60]);
+  CORR_R.forEach(r=>corrSel.insertAdjacentHTML('beforeend',`<option value="${r}">±${r} ${LOC.units}</option>`));
+  corrSel.value=CORR_R[1];
+  function corridorOn(){return corridorActive&&routePts.length>1;}
+  function toXY(ll){const R=6371e3,rad=Math.PI/180;return [ll[1]*rad*R*Math.cos(ll[0]*rad),ll[0]*rad*R];}
+  function segDist(p,a,b){const px=p[0]-a[0],py=p[1]-a[1],bx=b[0]-a[0],by=b[1]-a[1];
+    const L2=bx*bx+by*by; const t=L2?Math.max(0,Math.min(1,(px*bx+py*by)/L2)):0;
+    const dx=px-t*bx,dy=py-t*by; return Math.hypot(dx,dy);}
+  function nearRoute(coords){ // [lng,lat]
+    const P=toXY([coords[1],coords[0]]);
+    const rM=corrSel.value*(LOC.units==='km'?1000:1609.344);
+    for(let i=1;i<routePts.length;i++){
+      if(segDist(P,toXY(routePts[i-1]),toXY(routePts[i]))<=rM) return true;
+    }
+    return false;}
+  function drawRoute(){
+    if(routeLine){routeLine.remove();routeLine=null;}
+    if(routePts.length>1) routeLine=L.polyline(routePts,{color:'#2f6fbe',weight:3,opacity:.8,dashArray:'2 6'}).addTo(map);
+  }
+  function setCorridor(on){
+    corridorActive=on;
+    const cbtn=document.getElementById('corridor');
+    cbtn.dataset.base=cbtn.dataset.base||cbtn.textContent;
+    cbtn.textContent=on?cbtn.dataset.base+' ✕':cbtn.dataset.base;
+    corrSel.style.display=on?'':'none';
+    if(!on){routePts=[];drawRoute();}
+    render();
+  }
+  document.getElementById('corridor').onclick=()=>{
+    if(corridorActive){setCorridor(false);return;}
+    setCorridor(true);
+    if(routePts.length<2) document.getElementById('gpxfile').click();
+  };
+  document.getElementById('gpxfile').onchange=e=>{
+    const f=e.target.files[0]; if(!f)return;
+    const rd=new FileReader();
+    rd.onload=()=>{
+      const doc=new DOMParser().parseFromString(rd.result,'application/xml');
+      const pts=[...doc.querySelectorAll('trkpt,rtept,wpt')]
+        .map(el=>[parseFloat(el.getAttribute('lat')),parseFloat(el.getAttribute('lon'))])
+        .filter(([a,b])=>isFinite(a)&&isFinite(b));
+      // thin dense tracks: keep ~every Nth point, always first+last
+      const step=Math.max(1,Math.floor(pts.length/200));
+      routePts=pts.filter((_,i)=>i%step===0); 
+      if(pts.length&&routePts[routePts.length-1]!==pts[pts.length-1])routePts.push(pts[pts.length-1]);
+      drawRoute(); if(routePts.length>1&&routeLine)map.fitBounds(routeLine.getBounds(),{padding:[30,30]});
+      render();
+    };
+    rd.readAsText(f); e.target.value='';
+  };
+  map.on('click',e=>{ if(!corridorActive)return;
+    routePts.push([e.latlng.lat,e.latlng.lng]); drawRoute(); render();});
+  map.on('dblclick',e=>{ if(corridorActive){L.DomEvent.stop(e);} });
+  corrSel.onchange=()=>render();
   const themeBtn=document.getElementById('theme');
   // 2026 follows the OS (prefers-color-scheme); 1999 is light, always.
   // Local media query only — nothing is stored or sent anywhere.
@@ -509,7 +573,8 @@ function render(){
   const setOff=()=>{offEl.style.display=navigator.onLine?'none':'block';};
   window.addEventListener('online',setOff);window.addEventListener('offline',setOff);setOff();
   if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
-  map.on('click',e=>setHome([e.latlng.lat,e.latlng.lng]));
+  map.on('click',e=>{ if(typeof corridorActive!=='undefined'&&corridorActive) return; // corridor mode owns clicks
+    setHome([e.latlng.lat,e.latlng.lng]);});
   let placed=false;
   if(params.get('home')){const [a,b]=params.get('home').split(',').map(Number);if(!isNaN(a)){setHome([a,b],false);map.setView([a,b],7);placed=true}}
   if(!placed){try{const s=JSON.parse(localStorage.getItem('gsn_home'));if(s){setHome(s,false);map.setView(s,7);placed=true}}catch(e){}}
