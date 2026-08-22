@@ -1,0 +1,25 @@
+name: Suggest a shop / resource
+description: Know a dealer, mechanic, parts source, or club that keeps Guzzis running? Tell us — a verification pass runs before anything is published.
+title: "[node] "
+labels: [suggestion]
+body:
+  - type: input
+    id: name
+    attributes: { label: Name, placeholder: "Officina Rossi" }
+    validations: { required: true }
+  - type: input
+    id: location
+    attributes: { label: City & country, placeholder: "Mandello del Lario, IT" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Website (if any), placeholder: "https://…" }
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs here
+      description: What can a rider use it for? A forum thread, personal experience, or the shop's own site all help — links beat memories.
+    validations: { required: true }
+  - type: markdown
+    attributes:
+      value: Every suggestion gets an independent verification pass (site check, endorsement sourcing) before it appears — nothing publishes on say-so alone, including ours.
