@@ -13279,8 +13279,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     0.0,
-     0.0
+     -2.0286,
+     52.8196
     ]
    },
    "properties": {
@@ -14862,46 +14862,6 @@
       "date": "2026-07-26",
       "method": "official-locator",
       "fact": "listed on the official Moto Guzzi US dealer locator as \"Pro Italia Motors, Inc.\" (Glendale, CA); type=dealers,services; verified 2026-07-26"
-     }
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     0.0,
-     0.0
-    ]
-   },
-   "properties": {
-    "id": "ps-motos-ecuillens",
-    "name": "PS Motos Cycles SA",
-    "city": "Ecuillens",
-    "state": "",
-    "country": "CH",
-    "layer": "franchise",
-    "brands": [
-     "moto-guzzi"
-    ],
-    "functions": [
-     "sales",
-     "service"
-    ],
-    "url": "",
-    "phone": "",
-    "last_verified": "2026-08-22",
-    "verified_by": "claude-eu-social",
-    "status": "active",
-    "capability": [
-     "full-service"
-    ],
-    "observations": [
-     {
-      "date": "2025-12-06",
-      "method": "official-locator",
-      "fact": "official Moto Guzzi dealer-locator page for 'ps-motos-cycles-sa', Ecuillens (snapshot 2025-12-06, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20251206033353/https://www.motoguzzi.com/ch_DE/dealer-locator/ecuvillens/ps-motos-cycles-sa/ ; psmotos.ch not found in DNS on 2026-08-22"
      }
     ]
    }
@@ -18351,6 +18311,6 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 399
+  "count": 398
  }
 }
