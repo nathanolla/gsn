@@ -1074,6 +1074,56 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     18.6764,
+     -33.8645
+    ]
+   },
+   "properties": {
+    "id": "balance-importers-cape-town",
+    "name": "Balance Auto Importers - Cape Town",
+    "city": "Cape Town",
+    "state": "Western Cape",
+    "country": "ZA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "mv-agusta",
+     "ducati"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "accessories"
+    ],
+    "url": "https://www.balanceimporters.co.za/",
+    "phone": "+27 69 669 9651",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Balance Auto Importers is the premier Italian motorcycle specialist in South Africa, offering Aprilia, Moto Guzzi, MV Augusta, and Ducati. Cape Town location at Aroma Park Village, 40 Welgelee Street, Vredekloof, Cape Town. Contact: Jon +27 69 669 9651. Services include new & second-hand sales, service center, parts & accessories. Also handles delivery bikes for Africa."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Facebook page 'Moto Guzzi South Africa' (586 likes, 654 followers) confirms Balance Importers as the official source for Aprilia and Moto Guzzi products in South Africa. Instagram @motoguzzisa (874 followers) states 'Proudly authentic motorcycles since 1921 From IT to ZA by @imimporters'."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -0.1278,
      51.5074
     ]
@@ -3895,6 +3945,53 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     120.637,
+     24.1876
+    ]
+   },
+   "properties": {
+    "id": "dk-moto-taichung",
+    "name": "DK Moto (名速車業)",
+    "city": "Taichung",
+    "state": "Taichung",
+    "country": "TW",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "benelli"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.facebook.com/dkmotoclub",
+    "phone": "+886-4-2451-8909",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-asia-sweep",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi Taiwan dealer locator (motoguzzi.com/tw_EN/legacy-map) as \"DK Moto\" at No.1227, Sec.2, Huanzhong Rd., Xitun Dist., Taichung City 407009. Phone +886-4-2451-8909, email dkmotoclub@gmail.com. Also listed on aprilia.com as authorized dealer."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Facebook page \"DK MOTO\" has 10,860 likes, 1,619 were here, 4.9/5 rating (161 reviews). Opened as Aprilia & Moto Guzzi 3S Motoplex CI flagship store on 2024-05-25 per supermoto8.com and bikein-net.com coverage. First 3S dealership for these brands in central Taiwan. Also a Benelli central Taiwan dealer."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -6.979989,
      38.868678
     ]
@@ -4152,6 +4249,54 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on the official Moto Guzzi dealer locator (ES feed) as 'Drivim' (Badalona), type=dealers,services, dealer code ES8H35S1, address Calle Acer 24, 08915 Badalona; source: https://www.motoguzzi.com/es_ES/dealer-locator/badalona/drivim/ (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/es/G/stores); verified 2026-08-22."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     55.233,
+     25.1437
+    ]
+   },
+   "properties": {
+    "id": "duseja-moto-dubai",
+    "name": "Duseja Moto",
+    "city": "Dubai",
+    "state": "Dubai",
+    "country": "AE",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "triumph"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "accessories",
+     "storage",
+     "transportation"
+    ],
+    "url": "https://dusejamoto.com/",
+    "phone": "+971 4-3476712",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Duseja Moto has been operating in the UAE for 13+ years (since ~2009). Started as exclusive importer for Aprilia, Moto Guzzi, Piaggio, Vespa, Gilera, Derbi, and Triumph. Now the largest open-to-all-brand retail hub and service center for motorcycles in the UAE. Address: Warehouse B3, Al Qouz Ind Area 3, Umm Suqeim Road, Dubai. Factory-trained technicians. Services include sales, service/repair, storage, transportation, RTA services, and customization."
      }
     ]
    }
@@ -10428,6 +10573,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     116.5878,
+     39.9522
+    ]
+   },
+   "properties": {
+    "id": "moto-guzzi-beijing-xinxi",
+    "name": "Moto Guzzi 北京新禧",
+    "city": "Beijing",
+    "state": "Beijing",
+    "country": "CN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com/cn/zh/",
+    "phone": "010-84593991",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on the official Moto Guzzi China dealer locator as \"Moto Guzzi 北京新禧\" at 北京市朝阳区金盏乡金港汽车公园; phone 010-84593991; verified via Baidu search results showing official Moto Guzzi China website dealer list."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      9.3224,
      45.9154
     ]
@@ -10461,6 +10646,52 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "headquarters and factory at Via Parodi 57, Mandello del Lario, operating since the company's founding (Società Anonima Moto Guzzi, 15 March 1921) — address and history verified against the Wikipedia 'Moto Guzzi' article (https://en.wikipedia.org/wiki/Moto_Guzzi); coordinates geocoded to the exact Via Parodi 57 address via OSM/Nominatim. The official museum page exists at the url above but motoguzzi.com serves 403 to non-browser agents, so the official-site observation is the page's existence, not its content."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5889,
+     25.0578
+    ]
+   },
+   "properties": {
+    "id": "moto-guzzi-taiwan",
+    "name": "Moto Guzzi Taiwan — Moto Star International (摩托之星國際有限公司)",
+    "city": "Taipei",
+    "state": "Taipei",
+    "country": "TW",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.facebook.com/motoguzzitaiwan",
+    "phone": "02-27924208",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-asia-sweep",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Moto Guzzi Taiwan official distributor is 摩托之星國際有限公司 (Moto Star International Co., Ltd.). Address: 台北市內湖區新明路142之2號, Neihu District, Taipei. Phone 02-27924208. Hours Mon-Fri 09:00-20:00. Listed on motoguzzi.com/tw_ZH/dealer-locator. Also the official Aprilia Taiwan distributor."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Facebook page \"Moto Guzzi Taiwan\" has 502,318 likes and 449.2K followers — extremely high engagement for the market. Active Instagram presence. Marketing department phone: 02-2792-3647. Confirmed as Piaggio Group Taiwan authorized distributor."
      }
     ]
    }
@@ -11434,6 +11665,58 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     28.8658,
+     41.003
+    ]
+   },
+   "properties": {
+    "id": "motohub-istanbul",
+    "name": "MotoHub",
+    "city": "Istanbul",
+    "state": "Istanbul",
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "piaggio",
+     "aprilia",
+     "suzuki",
+     "kymco"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "accessories"
+    ],
+    "url": "https://www.motohub.tr/",
+    "phone": "+90 212 586 99 11",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "MotoHub is an authorized dealer and service center in Istanbul Bahçelievler for Vespa, Piaggio, Aprilia, Moto Guzzi, Suzuki, Kymco, and Silence. Address: Bahçelievler Mah. Eski Londra Asfaltı Cad. No: 3A Bahçelievler / Istanbul. Services include motorcycle sales, service & maintenance, spare parts, accessories, and test rides. Phone: 0212 586 99 11."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Listed on motorcular.com as a Moto Guzzi Istanbul dealer. Also appears in Yahoo Search results for 'Moto Guzzi Turkey Istanbul dealer' alongside the official motoguzzi.com.tr dealer locator."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -122.3442,
      47.6858
     ]
@@ -11899,6 +12182,145 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     100.569,
+     13.725
+    ]
+   },
+   "properties": {
+    "id": "motoplex-bangkok",
+    "name": "Motoplex Bangkok",
+    "city": "Bangkok",
+    "state": "Bangkok",
+    "country": "TH",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.facebook.com/motoguzzithailandofficial/",
+    "phone": "02-262-0846",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "BK Magazine (bkmagazine.com) confirms Motoplex Bangkok as the Piaggio Group flagship dealership at A-Square, 128 Soi Sukhumvit 26, Khlong Toei, Bangkok 10110. 10,000 sq meter space carrying Aprilia, Moto Guzzi, Vespa, and Piaggio. Phone: 02-262-0846. Facebook page: Moto Guzzi Thailand Official (502,335+ likes). Coordinates approximate, derived from Sukhumvit Soi 26 / A-Square location."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "DuckDuckGo search result shows motoguzzi.com/th_TH/dealer-locator/klongtoey-/motoplex-bangkok/ confirming official Moto Guzzi dealer listing for Motoplex Bangkok in Klongtoey district. Official Moto Guzzi Thailand dealer locator page at motoguzzi.com/th_TH/dealer-locator/ also indexed."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     129.1635,
+     35.1631
+    ]
+   },
+   "properties": {
+    "id": "motoplex-busan",
+    "name": "MotoPlex Busan (모토플렉스 부산)",
+    "city": "Busan",
+    "state": "Busan",
+    "country": "KR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com/kr_ko/dealer-locator",
+    "phone": "051-503-9741",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-asia-sweep",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi, Piaggio, Aprilia, and Vespa Korea dealer locators as \"Motoplex Busan (모토플렉스 부산)\". Address: 부산 해운대구 해운대로 239, 48057 Busan. Phone 051-503-9741. Grand opening May 2021 per Korean Motorcycle News (kmnews.net). Official Piaggio Group Korea flagship store."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Facebook page \"모토플렉스부산\" (5 likes, 164 were here). Daangn (당근마켓) listing confirms address as 부산광역시 해운대구 해운대로 239 (재송동), hours 11:00-20:00, phone 0504-2528-6588. Naver blog active at blog.naver.com/busan_vespa."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.438,
+     5.313
+    ]
+   },
+   "properties": {
+    "id": "motoplex-butterworth",
+    "name": "Motoplex Butterworth",
+    "city": "Perai",
+    "state": "Penang",
+    "country": "MY",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://motorshopnearme.my/penang/motor-shop-perai/motoplex-butterworth-authorized-dealer-for-vespa-aprilia-moto-guzzi-piaggio/",
+    "phone": "+60 4-504 1881",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "MotorShopNearMe.my listing confirms Motoplex Butterworth as authorized dealer for Vespa, Aprilia, Moto Guzzi and Piaggio. Address: 1681 G1-G2, Jalan Perusahaan, Auto-City Juru, 13600 Perai, Pulau Pinang, Malaysia. Phone: +60 4-504 1881. Rating 4.7/5. Open daily 9:30am-6:00pm. Equipped with diagnostic tools and staffed by trained technicians. Coordinates approximate, derived from Auto-City Juru location."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      2.1193,
      49.0542
     ]
@@ -11946,6 +12368,54 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     114.1872,
+     22.3128
+    ]
+   },
+   "properties": {
+    "id": "motoplex-hong-kong",
+    "name": "MotoPlex Hong Kong",
+    "city": "Kowloon",
+    "state": "Kowloon",
+    "country": "HK",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.facebook.com/motoplexhk",
+    "phone": "+852-2385-0181",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-asia-sweep",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Moto Guzzi website (motoguzzi.com/kowloon/motoplex-hong-kong) as \"MotoPlex Hong Kong\". Address: G/F, 373A To Kwa Wan Road, Kowloon (土瓜灣道373號A地下). Phone +852 2385 0181, email info@motoplex.com.hk. Hours 10am-7pm. Officially Authorized Importer and Distributor in Hong Kong and Macau for Piaggio/Vespa/Aprilia/Moto Guzzi."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Facebook page \"Motoplex Hong Kong\" has 6,471 likes and 677 were here. Listed on Webike motoservice (motoservice.webike.hk) as authorized dealer in Kowloon City. iBike (ibike.hk) coverage confirms 2025 Moto Guzzi V7 and full model range available. Also listed on findglocal.com and autoyas.com as official Hong Kong/Macau distributor."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      10.8271373,
      45.1654378
     ]
@@ -11977,6 +12447,139 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"MOTOPLEX Mantova\"; address: Piazza Vilfredo Pareto, 1, 46100 Mantova (MN); type=dealers,services; dealerCd=ITCS01; website: http://www.motoplexpiaggio.com/mantova/; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.0483,
+     37.5048
+    ]
+   },
+   "properties": {
+    "id": "motoplex-seoul-seolleung",
+    "name": "MotoPlex Seoul Seolleung Service Center (모토플렉스 서울 선릉 서비스센터)",
+    "city": "Seoul",
+    "state": "Seoul",
+    "country": "KR",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.aprilia.com/kr_ko/dealer-locator",
+    "phone": "02-543-4385",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-asia-sweep",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on official Aprilia and Piaggio Korea dealer locators as \"Motoplex Seoul Seolleung Service Center (모토플렉스 서울 선릉 서비스센터)\". Address: 서울 강남구 선릉로 529, 1층. Service center that became the primary Seoul service point after MotoPlex Seoul main store closed on 2026-07-15 per official Moto Guzzi Korea Facebook announcement."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Instagram @motoplex_seoul_seolleung (702 followers, 104 posts). Active Naver blog at blog.naver.com/mpseoulseolleung with regular service promotions. Hours: Mon-Fri 09:00-19:30, Sat 09:00-18:30. Confirmed as Piaggio/Vespa/Aprilia/Moto Guzzi service point."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.841,
+     1.273
+    ]
+   },
+   "properties": {
+    "id": "motoplex-singapore",
+    "name": "Motoplex Singapore",
+    "city": "Singapore",
+    "state": "Singapore",
+    "country": "SG",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com/sg_en/dealer-locator/singapore-/motoplex-singapore/",
+    "phone": "",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "DuckDuckGo search confirms motoguzzi.com/sg_EN/dealer-locator/singapore-/motoplex-singapore/ as an official Moto Guzzi dealer listing. Address: 47 Malan Road, Singapore (confirmed via autoyas.com and findglocal.com listings). Moto Guzzi Singapore Facebook page (502,292+ likes) also references this location. SGBikeMart lists new Moto Guzzi motorcycles for sale from authorised dealers. Coordinates approximate, derived from 47 Malan Road (one-north / Buona Vista area)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.58,
+     3.207
+    ]
+   },
+   "properties": {
+    "id": "motoplex-sungai-buloh",
+    "name": "Motoplex Sungai Buloh",
+    "city": "Sungai Buloh",
+    "state": "Selangor",
+    "country": "MY",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.bigwheels.my/motoplex-sungai-buloh-showroom-is-now-open-for-business/",
+    "phone": "",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "BigWheels.my (Feb 2024) confirms MotoPlex Sungai Buloh grand opening as the fourth MotoPlex in Malaysia. Managed by Welly Sungai Buloh Sdn Bhd, official dealer appointed by Didi Group (official distributor of Piaggio, Vespa, Aprilia and Moto Guzzi in Malaysia). 3,400 sqft total (2,200 sqft showroom + 1,200 sqft service centre). Director: Mr. Ngo Yoke Kwang. Welly World Cycle website (wellyworldcycle.com) confirms Moto Guzzi among carried brands alongside Ducati, Yamaha, Vespa, Aprilia, Husqvarna. Coordinates approximate, derived from Sungai Buloh, Selangor area. Exact street address not publicly listed."
      }
     ]
    }
@@ -13787,6 +14390,63 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"OCRA S.r.l.\"; address: Via G. Brodolini, 33, 60035 Jesi (AN); type=services; dealerCd=ITC075; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.771,
+     32.0522
+    ]
+   },
+   "properties": {
+    "id": "ofer-avnir-tel-aviv",
+    "name": "Ofer Avnir - Tel Aviv Showroom",
+    "city": "Tel Aviv-Yafo",
+    "state": "Tel Aviv",
+    "country": "IL",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa",
+     "suzuki",
+     "kymco",
+     "husqvarna",
+     "gasgas",
+     "cfmoto",
+     "can-am",
+     "sea-doo"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "accessories"
+    ],
+    "url": "https://www.oferavnir.co.il/moto-guzzi",
+    "phone": "8588*",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Ofer Avnir is the official exclusive importer of Moto Guzzi in Israel. Tel Aviv showroom at HaSadna 6, Tel Aviv-Yafo. Hours: Sun-Thu 08:30-18:00, Fri 08:30-13:00. Moto Guzzi models available: Stelvio 1100, V9 Bobber, V100 Mandello S, V100 Mandello, V7 Special, V85TT, V7 Stone. Marketing Moto Guzzi in Israel since 2013."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Website states 'עופר אבניר היא היבואן הרשמי בישראל' (Ofer Avnir is the official importer in Israel). Offers nationwide authorized service centers, original parts, financing options, and full warranty on all motorcycles."
      }
     ]
    }
@@ -16203,6 +16863,95 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     28.0758,
+     -26.0094
+    ]
+   },
+   "properties": {
+    "id": "smiths-motorcycles-johannesburg",
+    "name": "Smith's Motorcycles",
+    "city": "Johannesburg",
+    "state": "Gauteng",
+    "country": "ZA",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://www.smithsmotorcycles.co.za/",
+    "phone": "+27 83 250 4538",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Smith's Motorcycles lists Moto Guzzi as a category on their website. Located at 6 Forssman Cl, Barbeque Downs, Johannesburg, 1684. Phone: 083 250 4538. Website shows motorcycle sales, parts & accessories, services, and storage. Note: No Moto Guzzi products currently listed in stock (may be seasonal or by-order)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     55.233,
+     25.1437
+    ]
+   },
+   "properties": {
+    "id": "society-motors-dubai",
+    "name": "Society Motors LLC",
+    "city": "Dubai",
+    "state": "Dubai",
+    "country": "AE",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.instagram.com/societymotors/",
+    "phone": null,
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-locator-xref",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Society Motors is the exclusive distributor for Aprilia, Vespa, and Moto Guzzi in the United Arab Emirates. A venture by Ghaf Investments L.L.C. Located in Al Quoz Industrial 1, Dubai. Verified via dubizzle.com business profile, bikenationmag.com dealer directory, and LinkedIn company page. Instagram @societymotors has 5,271 followers."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Facebook page 'Society Motors UAE' active as of Aug 12, 2026, posting about Aprilia, Moto Guzzi, and Vespa ownership experiences. 680 likes, 731 followers."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -84.7477,
      33.7515
     ]
@@ -16397,6 +17146,53 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "pass-2 check: site unreachable (403 Forbidden)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.4867,
+     35.5933
+    ]
+   },
+   "properties": {
+    "id": "stars-trading-tokyo",
+    "name": "Stars Trading Ltd. (株式会社スターズトレーディング)",
+    "city": "Machida",
+    "state": "Tokyo",
+    "country": "JP",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "honda"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://starstrading.co.jp",
+    "phone": "042-795-9009",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-asia-sweep",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Official Aprilia & Moto Guzzi dealer (正規ディーラー) per starstrading.co.jp. Address: 〒194-0004 東京都町田市鶴間4-10-35. Also imports REKLUSE, ZAP Technix, Kouba Link, Tubliss. In business 30+ years. Sells new and used Moto Guzzi models including V7, V85, V100 Mandello, Stelvio."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Listed on Moto Guzzi Japan dealer locator (motoguzzi.com/jp_JA/dealer-locator). Confirmed as official Piaggio Group Japan authorized dealer."
      }
     ]
    }
@@ -18411,6 +19207,6 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 398
+  "count": 415
  }
 }

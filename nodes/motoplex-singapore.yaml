@@ -1,0 +1,32 @@
+id: motoplex-singapore
+name: Motoplex Singapore
+city: Singapore
+state: Singapore
+country: SG
+lat: 1.273
+lon: 103.841
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com/sg_en/dealer-locator/singapore-/motoplex-singapore/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'DuckDuckGo search confirms motoguzzi.com/sg_EN/dealer-locator/singapore-/motoplex-singapore/
+    as an official Moto Guzzi dealer listing. Address: 47 Malan Road, Singapore (confirmed
+    via autoyas.com and findglocal.com listings). Moto Guzzi Singapore Facebook page
+    (502,292+ likes) also references this location. SGBikeMart lists new Moto Guzzi
+    motorcycles for sale from authorised dealers. Coordinates approximate, derived
+    from 47 Malan Road (one-north / Buona Vista area).'
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

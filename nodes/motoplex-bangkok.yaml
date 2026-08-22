@@ -1,0 +1,37 @@
+id: motoplex-bangkok
+name: Motoplex Bangkok
+city: Bangkok
+state: Bangkok
+country: TH
+lat: 13.725
+lon: 100.569
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+url: https://www.facebook.com/motoguzzithailandofficial/
+phone: 02-262-0846
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'BK Magazine (bkmagazine.com) confirms Motoplex Bangkok as the Piaggio Group
+    flagship dealership at A-Square, 128 Soi Sukhumvit 26, Khlong Toei, Bangkok 10110.
+    10,000 sq meter space carrying Aprilia, Moto Guzzi, Vespa, and Piaggio. Phone:
+    02-262-0846. Facebook page: Moto Guzzi Thailand Official (502,335+ likes). Coordinates
+    approximate, derived from Sukhumvit Soi 26 / A-Square location.'
+- date: 2026-08-22
+  method: official-locator
+  fact: DuckDuckGo search result shows motoguzzi.com/th_TH/dealer-locator/klongtoey-/motoplex-bangkok/
+    confirming official Moto Guzzi dealer listing for Motoplex Bangkok in Klongtoey
+    district. Official Moto Guzzi Thailand dealer locator page at motoguzzi.com/th_TH/dealer-locator/
+    also indexed.
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

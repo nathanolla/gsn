@@ -1,0 +1,33 @@
+id: stars-trading-tokyo
+name: Stars Trading Ltd. (株式会社スターズトレーディング)
+city: Machida
+state: Tokyo
+country: JP
+lat: 35.5933
+lon: 139.4867
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- honda
+functions:
+- sales
+- service
+url: https://starstrading.co.jp
+phone: 042-795-9009
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Official Aprilia & Moto Guzzi dealer (正規ディーラー) per starstrading.co.jp. Address:
+    〒194-0004 東京都町田市鶴間4-10-35. Also imports REKLUSE, ZAP Technix, Kouba Link, Tubliss.
+    In business 30+ years. Sells new and used Moto Guzzi models including V7, V85,
+    V100 Mandello, Stelvio.'
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on Moto Guzzi Japan dealer locator (motoguzzi.com/jp_JA/dealer-locator).
+    Confirmed as official Piaggio Group Japan authorized dealer.
+last_verified: 2026-08-22
+verified_by: claude-asia-sweep
+status: active

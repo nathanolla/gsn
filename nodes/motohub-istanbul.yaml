@@ -1,0 +1,41 @@
+id: motohub-istanbul
+name: MotoHub
+city: Istanbul
+state: Istanbul
+country: TR
+lat: 41.003
+lon: 28.8658
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- vespa
+- piaggio
+- aprilia
+- suzuki
+- kymco
+functions:
+- sales
+- service
+- parts
+- accessories
+url: https://www.motohub.tr/
+phone: +90 212 586 99 11
+email: info@motohub.tr
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'MotoHub is an authorized dealer and service center in Istanbul Bahçelievler
+    for Vespa, Piaggio, Aprilia, Moto Guzzi, Suzuki, Kymco, and Silence. Address:
+    Bahçelievler Mah. Eski Londra Asfaltı Cad. No: 3A Bahçelievler / Istanbul. Services
+    include motorcycle sales, service & maintenance, spare parts, accessories, and
+    test rides. Phone: 0212 586 99 11.'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: Listed on motorcular.com as a Moto Guzzi Istanbul dealer. Also appears in
+    Yahoo Search results for 'Moto Guzzi Turkey Istanbul dealer' alongside the official
+    motoguzzi.com.tr dealer locator.
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

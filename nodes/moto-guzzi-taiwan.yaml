@@ -1,0 +1,33 @@
+id: moto-guzzi-taiwan
+name: Moto Guzzi Taiwan — Moto Star International (摩托之星國際有限公司)
+city: Taipei
+state: Taipei
+country: TW
+lat: 25.0578
+lon: 121.5889
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+functions:
+- sales
+- service
+url: https://www.facebook.com/motoguzzitaiwan
+phone: 02-27924208
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Moto Guzzi Taiwan official distributor is 摩托之星國際有限公司 (Moto Star International
+    Co., Ltd.). Address: 台北市內湖區新明路142之2號, Neihu District, Taipei. Phone 02-27924208.
+    Hours Mon-Fri 09:00-20:00. Listed on motoguzzi.com/tw_ZH/dealer-locator. Also
+    the official Aprilia Taiwan distributor.'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Facebook page "Moto Guzzi Taiwan" has 502,318 likes and 449.2K followers
+    — extremely high engagement for the market. Active Instagram presence. Marketing
+    department phone: 02-2792-3647. Confirmed as Piaggio Group Taiwan authorized distributor.'
+last_verified: 2026-08-22
+verified_by: claude-asia-sweep
+status: active

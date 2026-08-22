@@ -1,0 +1,35 @@
+id: dk-moto-taichung
+name: DK Moto (名速車業)
+city: Taichung
+state: Taichung
+country: TW
+lat: 24.1876
+lon: 120.637
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- benelli
+functions:
+- sales
+- service
+url: https://www.facebook.com/dkmotoclub
+phone: +886-4-2451-8909
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on official Moto Guzzi Taiwan dealer locator (motoguzzi.com/tw_EN/legacy-map)
+    as "DK Moto" at No.1227, Sec.2, Huanzhong Rd., Xitun Dist., Taichung City 407009.
+    Phone +886-4-2451-8909, email dkmotoclub@gmail.com. Also listed on aprilia.com
+    as authorized dealer.
+- date: 2026-08-22
+  method: community-endorsement
+  fact: Facebook page "DK MOTO" has 10,860 likes, 1,619 were here, 4.9/5 rating (161
+    reviews). Opened as Aprilia & Moto Guzzi 3S Motoplex CI flagship store on 2024-05-25
+    per supermoto8.com and bikein-net.com coverage. First 3S dealership for these
+    brands in central Taiwan. Also a Benelli central Taiwan dealer.
+last_verified: 2026-08-22
+verified_by: claude-asia-sweep
+status: active

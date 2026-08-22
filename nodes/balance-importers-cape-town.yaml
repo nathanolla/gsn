@@ -1,0 +1,40 @@
+id: balance-importers-cape-town
+name: Balance Auto Importers - Cape Town
+city: Cape Town
+state: Western Cape
+country: ZA
+lat: -33.8645
+lon: 18.6764
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- mv-agusta
+- ducati
+functions:
+- sales
+- service
+- parts
+- accessories
+url: https://www.balanceimporters.co.za/
+phone: +27 69 669 9651
+email: jon@balanceimporters.co.za
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Balance Auto Importers is the premier Italian motorcycle specialist in South
+    Africa, offering Aprilia, Moto Guzzi, MV Augusta, and Ducati. Cape Town location
+    at Aroma Park Village, 40 Welgelee Street, Vredekloof, Cape Town. Contact: Jon
+    +27 69 669 9651. Services include new & second-hand sales, service center, parts
+    & accessories. Also handles delivery bikes for Africa.'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: Facebook page 'Moto Guzzi South Africa' (586 likes, 654 followers) confirms
+    Balance Importers as the official source for Aprilia and Moto Guzzi products in
+    South Africa. Instagram @motoguzzisa (874 followers) states 'Proudly authentic
+    motorcycles since 1921 From IT to ZA by @imimporters'.
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

@@ -1,0 +1,37 @@
+id: duseja-moto-dubai
+name: Duseja Moto
+city: Dubai
+state: Dubai
+country: AE
+lat: 25.1437
+lon: 55.233
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+- triumph
+functions:
+- sales
+- service
+- parts
+- accessories
+- storage
+- transportation
+url: https://dusejamoto.com/
+phone: +971 4-3476712
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Duseja Moto has been operating in the UAE for 13+ years (since ~2009). Started
+    as exclusive importer for Aprilia, Moto Guzzi, Piaggio, Vespa, Gilera, Derbi,
+    and Triumph. Now the largest open-to-all-brand retail hub and service center for
+    motorcycles in the UAE. Address: Warehouse B3, Al Qouz Ind Area 3, Umm Suqeim
+    Road, Dubai. Factory-trained technicians. Services include sales, service/repair,
+    storage, transportation, RTA services, and customization.'
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

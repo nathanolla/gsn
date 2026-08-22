@@ -1,0 +1,36 @@
+id: motoplex-busan
+name: MotoPlex Busan (모토플렉스 부산)
+city: Busan
+state: Busan
+country: KR
+lat: 35.1631
+lon: 129.1635
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com/kr_ko/dealer-locator
+phone: 051-503-9741
+email: busan_vespa@naver.com
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi, Piaggio, Aprilia, and Vespa Korea dealer locators
+    as "Motoplex Busan (모토플렉스 부산)". Address: 부산 해운대구 해운대로 239, 48057 Busan. Phone
+    051-503-9741. Grand opening May 2021 per Korean Motorcycle News (kmnews.net).
+    Official Piaggio Group Korea flagship store.'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: Facebook page "모토플렉스부산" (5 likes, 164 were here). Daangn (당근마켓) listing confirms
+    address as 부산광역시 해운대구 해운대로 239 (재송동), hours 11:00-20:00, phone 0504-2528-6588.
+    Naver blog active at blog.naver.com/busan_vespa.
+last_verified: 2026-08-22
+verified_by: claude-asia-sweep
+status: active

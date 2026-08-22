@@ -1,0 +1,44 @@
+id: ofer-avnir-tel-aviv
+name: Ofer Avnir - Tel Aviv Showroom
+city: Tel Aviv-Yafo
+state: Tel Aviv
+country: IL
+lat: 32.0522
+lon: 34.771
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+- suzuki
+- kymco
+- husqvarna
+- gasgas
+- cfmoto
+- can-am
+- sea-doo
+functions:
+- sales
+- service
+- parts
+- accessories
+url: https://www.oferavnir.co.il/moto-guzzi
+phone: 8588*
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Ofer Avnir is the official exclusive importer of Moto Guzzi in Israel. Tel
+    Aviv showroom at HaSadna 6, Tel Aviv-Yafo. Hours: Sun-Thu 08:30-18:00, Fri 08:30-13:00.
+    Moto Guzzi models available: Stelvio 1100, V9 Bobber, V100 Mandello S, V100 Mandello,
+    V7 Special, V85TT, V7 Stone. Marketing Moto Guzzi in Israel since 2013.'
+- date: 2026-08-22
+  method: official-locator
+  fact: Website states 'עופר אבניר היא היבואן הרשמי בישראל' (Ofer Avnir is the official
+    importer in Israel). Offers nationwide authorized service centers, original parts,
+    financing options, and full warranty on all motorcycles.
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

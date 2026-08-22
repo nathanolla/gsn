@@ -1,0 +1,26 @@
+id: moto-guzzi-beijing-xinxi
+name: Moto Guzzi 北京新禧
+city: Beijing
+state: Beijing
+country: CN
+lat: 39.9522
+lon: 116.5878
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com/cn/zh/
+phone: 010-84593991
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: Listed on the official Moto Guzzi China dealer locator as "Moto Guzzi 北京新禧"
+    at 北京市朝阳区金盏乡金港汽车公园; phone 010-84593991; verified via Baidu search results showing
+    official Moto Guzzi China website dealer list.
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

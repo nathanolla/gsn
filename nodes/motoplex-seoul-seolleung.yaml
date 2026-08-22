@@ -1,0 +1,35 @@
+id: motoplex-seoul-seolleung
+name: MotoPlex Seoul Seolleung Service Center (모토플렉스 서울 선릉 서비스센터)
+city: Seoul
+state: Seoul
+country: KR
+lat: 37.5048
+lon: 127.0483
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- service
+url: https://www.aprilia.com/kr_ko/dealer-locator
+phone: 02-543-4385
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Aprilia and Piaggio Korea dealer locators as "Motoplex
+    Seoul Seolleung Service Center (모토플렉스 서울 선릉 서비스센터)". Address: 서울 강남구 선릉로 529,
+    1층. Service center that became the primary Seoul service point after MotoPlex
+    Seoul main store closed on 2026-07-15 per official Moto Guzzi Korea Facebook announcement.'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Instagram @motoplex_seoul_seolleung (702 followers, 104 posts). Active Naver
+    blog at blog.naver.com/mpseoulseolleung with regular service promotions. Hours:
+    Mon-Fri 09:00-19:30, Sat 09:00-18:30. Confirmed as Piaggio/Vespa/Aprilia/Moto
+    Guzzi service point.'
+last_verified: 2026-08-22
+verified_by: claude-asia-sweep
+status: active

@@ -1,0 +1,36 @@
+id: society-motors-dubai
+name: Society Motors LLC
+city: Dubai
+state: Dubai
+country: AE
+lat: 25.1437
+lon: 55.233
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+- parts
+url: https://www.instagram.com/societymotors/
+phone: null
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: Society Motors is the exclusive distributor for Aprilia, Vespa, and Moto Guzzi
+    in the United Arab Emirates. A venture by Ghaf Investments L.L.C. Located in Al
+    Quoz Industrial 1, Dubai. Verified via dubizzle.com business profile, bikenationmag.com
+    dealer directory, and LinkedIn company page. Instagram @societymotors has 5,271
+    followers.
+- date: 2026-08-22
+  method: website
+  fact: Facebook page 'Society Motors UAE' active as of Aug 12, 2026, posting about
+    Aprilia, Moto Guzzi, and Vespa ownership experiences. 680 likes, 731 followers.
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

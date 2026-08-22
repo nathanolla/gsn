@@ -1,0 +1,27 @@
+id: smiths-motorcycles-johannesburg
+name: Smith's Motorcycles
+city: Johannesburg
+state: Gauteng
+country: ZA
+lat: -26.0094
+lon: 28.0758
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- parts
+url: https://www.smithsmotorcycles.co.za/
+phone: +27 83 250 4538
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Smith''s Motorcycles lists Moto Guzzi as a category on their website. Located
+    at 6 Forssman Cl, Barbeque Downs, Johannesburg, 1684. Phone: 083 250 4538. Website
+    shows motorcycle sales, parts & accessories, services, and storage. Note: No Moto
+    Guzzi products currently listed in stock (may be seasonal or by-order).'
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

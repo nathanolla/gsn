@@ -1,0 +1,31 @@
+id: motoplex-butterworth
+name: Motoplex Butterworth
+city: Perai
+state: Penang
+country: MY
+lat: 5.313
+lon: 100.438
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+url: https://motorshopnearme.my/penang/motor-shop-perai/motoplex-butterworth-authorized-dealer-for-vespa-aprilia-moto-guzzi-piaggio/
+phone: +60 4-504 1881
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'MotorShopNearMe.my listing confirms Motoplex Butterworth as authorized dealer
+    for Vespa, Aprilia, Moto Guzzi and Piaggio. Address: 1681 G1-G2, Jalan Perusahaan,
+    Auto-City Juru, 13600 Perai, Pulau Pinang, Malaysia. Phone: +60 4-504 1881. Rating
+    4.7/5. Open daily 9:30am-6:00pm. Equipped with diagnostic tools and staffed by
+    trained technicians. Coordinates approximate, derived from Auto-City Juru location.'
+last_verified: 2026-08-22
+verified_by: claude-locator-xref
+status: active

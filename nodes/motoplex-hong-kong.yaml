@@ -1,0 +1,38 @@
+id: motoplex-hong-kong
+name: MotoPlex Hong Kong
+city: Kowloon
+state: Kowloon
+country: HK
+lat: 22.3128
+lon: 114.1872
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: https://www.facebook.com/motoplexhk
+phone: +852-2385-0181
+observations:
+- date: 2026-08-22
+  method: official-locator
+  fact: 'Listed on official Moto Guzzi website (motoguzzi.com/kowloon/motoplex-hong-kong)
+    as "MotoPlex Hong Kong". Address: G/F, 373A To Kwa Wan Road, Kowloon (土瓜灣道373號A地下).
+    Phone +852 2385 0181, email info@motoplex.com.hk. Hours 10am-7pm. Officially Authorized
+    Importer and Distributor in Hong Kong and Macau for Piaggio/Vespa/Aprilia/Moto
+    Guzzi.'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: Facebook page "Motoplex Hong Kong" has 6,471 likes and 677 were here. Listed
+    on Webike motoservice (motoservice.webike.hk) as authorized dealer in Kowloon
+    City. iBike (ibike.hk) coverage confirms 2025 Moto Guzzi V7 and full model range
+    available. Also listed on findglocal.com and autoyas.com as official Hong Kong/Macau
+    distributor.
+last_verified: 2026-08-22
+verified_by: claude-asia-sweep
+status: active
