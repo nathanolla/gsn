@@ -316,6 +316,12 @@ def localize():
     if not i18dir.is_dir():
         return
     en = (SITE / "index.html").read_text()
+    # IDEMPOTENT: the root file is both template and output, so strip any
+    # previously injected langbar/hreflang before injecting fresh ones —
+    # without this every rebuild stacks another language chooser.
+    import re as _re
+    en = _re.sub(r'<div class="langbar"[^>]*>.*?</div>', "", en, flags=_re.S)
+    en = _re.sub(r'<link rel="alternate" hreflang=[^>]*>\n?', "", en)
     locales = []
     for lf in sorted(i18dir.glob("*.yaml")):
         cfg = _y.safe_load(lf.read_text())
