@@ -8,8 +8,6 @@
 <link rel="alternate" hreflang="it" href="https://guzzisupport.network/it/">
 <link rel="alternate" hreflang="ja" href="https://guzzisupport.network/ja/">
 <link rel="alternate" hreflang="pl" href="https://guzzisupport.network/pl/">
-<link rel="alternate" hreflang="en" href="https://guzzisupport.network/">
-<link rel="alternate" hreflang="it" href="https://guzzisupport.network/it/">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Guzzi Support Network</title>
@@ -183,7 +181,7 @@
 </style>
 </head>
 <body>
-<div class="page"><div class="langbar" style="text-align:center;font-size:13px;margin:6px 0"><b>English</b> &middot; <a href="de/index.html" lang="de">Deutsch</a> &middot; <a href="es/index.html" lang="es">Español</a> &middot; <a href="fr/index.html" lang="fr">Français</a> &middot; <a href="it/index.html" lang="it">Italiano</a> &middot; <a href="ja/index.html" lang="ja">日本語</a> &middot; <a href="pl/index.html" lang="pl">Polski</a></div><div class="langbar" style="text-align:center;font-size:13px;margin:6px 0"><b>English</b> &middot; <a href="it/index.html" lang="it">Italiano</a></div>
+<div class="page"><div class="langbar" style="text-align:center;font-size:13px;margin:6px 0"><b>English</b> &middot; <a href="de/index.html" lang="de">Deutsch</a> &middot; <a href="es/index.html" lang="es">Español</a> &middot; <a href="fr/index.html" lang="fr">Français</a> &middot; <a href="it/index.html" lang="it">Italiano</a> &middot; <a href="ja/index.html" lang="ja">日本語</a> &middot; <a href="pl/index.html" lang="pl">Polski</a></div>
   <div class="masthead">
     <h1>The <span class="red">GUZZI</span> Support Network</h1>
     <p class="tag">&ldquo;Where&hellip;?&rdquo; &mdash; answered. A community-maintained map of everything that keeps a Moto&nbsp;Guzzi running.</p>
@@ -394,7 +392,7 @@ function render(){
     const ll=[f.geometry.coordinates[1],f.geometry.coordinates[0]];
     const m=L.marker(ll,{icon:capPin(p.capability[0],CAP_COLORS[p.capability[0]]||'#888'),opacity:staleClass(p.last_verified)?0.5:1}).addTo(map);
     const obs=(p.observations||[]).map(o=>`<div style="font-size:12px;color:#444">${esc(o.date)} · <i>${esc(o.method)}</i> — ${esc(o.fact)}</div>`).join('');
-    m.bindPopup(`<b>${p.url?`<a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`:esc(p.name)}</b><br>${esc(p.city||'')}${p.state?', '+esc(p.state):''} · <tt>${esc(p.capability.join('+'))}</tt><br>${esc(p.functions.join(' · '))}`+
+    m.bindPopup(`<b>${p.url?`<a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`:esc(p.name)}</b><br>${esc(p.city||'')}${p.state?', '+esc(p.state):''} · <tt>${esc(p.capability.map(c=>(LOC.vocab||{})[c]||c).join('+'))}</tt><br>${esc(p.functions.join(' · '))}`+
       (p.url?`<br><a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${esc(host(p.url))}</a>`:'')+(p.phone?` · ${esc(p.phone)}`:'')+
       `<hr>${obs}<div style="font-size:11px;color:#666;margin-top:3px">last verified ${esc(p.last_verified)} by ${esc(p.verified_by)}</div>`);
     markers[p.id]=m;
@@ -466,7 +464,7 @@ function render(){
   function xesc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
   function dl(name,type,text){const b=new Blob([text],{type});const a=document.createElement('a');
     a.href=URL.createObjectURL(b);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000);}
-  function descOf(p){return [p.capability.join('+'),(p.city?p.city+', '+p.state:''),p.phone,p.url,'verified '+p.last_verified].filter(Boolean).join(' | ');}
+  function descOf(p){return [p.capability.map(c=>(LOC.vocab||{})[c]||c).join('+'),(p.city?p.city+', '+p.state:''),p.phone,p.url,'verified '+p.last_verified].filter(Boolean).join(' | ');}
   document.getElementById('gpx').onclick=()=>{
     const w=visibleGeo().map(f=>{const p=f.properties,[lng,lat]=f.geometry.coordinates;
       return `  <wpt lat="${lat}" lon="${lng}">\n    <name>${xesc(p.name)}</name>\n    <desc>${xesc(descOf(p))}</desc>\n    <sym>Motorcycle Shop</sym>\n  </wpt>`;}).join('\n');
