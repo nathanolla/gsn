@@ -1194,11 +1194,6 @@
      },
      {
       "date": "2026-07-26",
-      "method": "community-endorsement",
-      "fact": "recommended by a forum member on guzzitech.com forums for Guzzi engine work â 'those guys are artists...they know what they do and do it well', thread of 2011-12 (https://www.guzzitech.com/forums/threads/i-cant-find-a-new-top-end.7818/); no fresher forum endorsement found, but shop is widely described as the premiere pre-1975 Guzzi restoration specialist"
-     },
-     {
-      "date": "2026-07-26",
       "method": "website",
       "fact": "relocation confirmed: now at 83525 Date Ave, Indio CA (moved from Huntington Beach); Yelp listing updated Feb 2026"
      },
@@ -1817,11 +1812,6 @@
     "observations": [
      {
       "date": "2026-07-26",
-      "method": "community-endorsement",
-      "fact": "recommended for Guzzi work by a forum member on wildguzzi.com as 'top notch in every way' with high-end restoration resources, thread of 2017-09 (https://wildguzzi.com/forum/index.php?topic=92351.0); dropped the MG franchise in late 2017 per guzzitech.com forums but continues restoration work"
-     },
-     {
-      "date": "2026-07-26",
       "method": "website",
       "fact": "europamacchina.com live; business directory data as of March 2026 shows the restoration shop operating with ~6 employees at 501 Industrial Dr, Lewisberry PA"
      }
@@ -2238,47 +2228,6 @@
   },
   {
    "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -118.6894,
-     34.0356
-    ]
-   },
-   "properties": {
-    "id": "gtm",
-    "name": "GTM / GuzziTech",
-    "city": "Malibu",
-    "state": "CA",
-    "country": "US",
-    "layer": "independent",
-    "brands": [
-     "moto-guzzi"
-    ],
-    "functions": [
-     "V85 performance parts",
-     "custom ECU maps",
-     "dyno development"
-    ],
-    "url": "https://guzzitech.com",
-    "phone": "",
-    "last_verified": "2026-07-26",
-    "verified_by": "claude",
-    "status": "active",
-    "capability": [
-     "performance"
-    ],
-    "observations": [
-     {
-      "date": "2026-07-26",
-      "method": "website",
-      "fact": "store live; contact is email-only by stated policy"
-     }
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "geometry": null,
    "properties": {
     "id": "guzzidiag",
@@ -2432,7 +2381,7 @@
      {
       "date": "2026-07-26",
       "method": "community-endorsement",
-      "fact": "identified by wildguzzi/guzzitech forum members as a US Moto Guzzi performance/machine specialist"
+      "fact": "identified by wildguzzi forum members as a US Moto Guzzi performance/machine specialist"
      }
     ]
    }
@@ -3127,11 +3076,6 @@
      "full-service"
     ],
     "observations": [
-     {
-      "date": "2026-07-26",
-      "method": "community-endorsement",
-      "fact": "recommended by a forum member on guzzitech.com forums as a Phoenix East Valley Guzzi dealer with 'great reviews', thread post of 2020 (https://www.guzzitech.com/forums/threads/guzzi-mechanic-in-the-phoenix-area-east-valley.19612/)"
-     },
      {
       "date": "2026-07-26",
       "method": "website",
@@ -4211,11 +4155,6 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "Mike Haven's independent Moto Guzzi/BMW service house (former Texas #1 Guzzi dealer 2000-2016, servicing Guzzis since the 1980s); site notice dated April 2025 'now accepting BMW & Moto Guzzi motorcycles for service', copyright 2026; relocated to the Pine Island/Waller area west of Houston per wildguzzi."
-     },
-     {
-      "date": "2026-07-26",
-      "method": "community-endorsement",
-      "fact": "recommended for Guzzi work by multiple members on guzzitech.com forums â former Texas #1 Guzzi dealer; one member wrote 'Simply cannot say enough good things...about MPH', thread of 2021-06 (https://www.guzzitech.com/forums/threads/houston-moto-guzzi-recommended-shops-mechanics.21516/)"
      }
     ]
    }
@@ -5506,11 +5445,6 @@
      },
      {
       "date": "2026-07-26",
-      "method": "community-endorsement",
-      "fact": "recommended by multiple members on guzzitech.com forums â Aprilia-experienced mechanic and a Savannah sister location with 'straight forward sales staff, no BS', thread of 2023-02 (https://www.guzzitech.com/forums/threads/new-member-and-question-about-atlanta-dealers.23468/)"
-     },
-     {
-      "date": "2026-07-26",
       "method": "official-locator",
       "fact": "listed on the official Moto Guzzi US dealer locator as \"Southeast Motorcycle\" (Douglasville, GA); type=dealers,services; verified 2026-07-26"
      }
@@ -5853,11 +5787,6 @@
      "heritage"
     ],
     "observations": [
-     {
-      "date": "2026-07-26",
-      "method": "community-endorsement",
-      "fact": "recommended by a forum member on guzzitech.com forums as 'The most knowledgeable Italian bike specialist I have ever met' (cash only), thread post of 2021 (https://www.guzzitech.com/forums/threads/guzzi-mechanic-in-the-phoenix-area-east-valley.19612/)"
-     },
      {
       "date": "2026-07-26",
       "method": "website",
@@ -6375,6 +6304,6 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 123
+  "count": 122
  }
 }
