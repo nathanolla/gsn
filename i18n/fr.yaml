@@ -52,3 +52,5 @@ strings:
   : votre position ne quitte jamais votre navigateur · optimisé pour <i>tous</i> les navigateurs — et <a href="#" id="go1999" title="Back to 1999">contrairement à 1999</a>, cette fois c’est vrai.<br>
   '>add a shop<': '>ajouter un atelier<'
   '>suggest a fix</a>': '>signaler une correction</a>'
+  '>ROUTE<': '>ITINÉRAIRE<'
+  'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': 'title="Planifiez un itinéraire : touchez la carte pour le tracer ou importez un GPX — la liste filtre les nœuds le long du trajet"'

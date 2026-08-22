@@ -52,3 +52,5 @@ strings:
   : 位置情報はブラウザの外に出ません · <i>どの</i>ブラウザでも快適 — <a href="#" id="go1999" title="Back to 1999">1999年とは違って</a>、今回は本当です。<br>
   '>add a shop<': '>ショップを追加<'
   '>suggest a fix</a>': '>修正を提案</a>'
+  '>ROUTE<': '>ルート<'
+  'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': title="ルート計画：地図をタップして描くか、GPXをインポート — ルート沿いのノードだけを表示"

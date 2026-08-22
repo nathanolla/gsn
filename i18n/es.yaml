@@ -52,3 +52,5 @@ strings:
   : tu ubicación nunca sale de tu navegador · se ve mejor en <i>cualquier</i> navegador — y <a href="#" id="go1999" title="Back to 1999">a diferencia de 1999</a>, esta vez es verdad.<br>
   '>add a shop<': '>añade un taller<'
   '>suggest a fix</a>': '>sugiere una corrección</a>'
+  '>ROUTE<': '>RUTA<'
+  'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': 'title="Planifica una ruta: toca el mapa para dibujarla o importa un GPX — la lista filtra los nodos a lo largo"'

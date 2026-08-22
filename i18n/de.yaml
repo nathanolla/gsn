@@ -52,3 +52,5 @@ strings:
   : dein Standort verlässt nie deinen Browser · am besten in <i>jedem</i> Browser — und <a href="#" id="go1999" title="Back to 1999">anders als 1999</a> stimmt das diesmal.<br>
   '>add a shop<': '>Werkstatt melden<'
   '>suggest a fix</a>': '>Korrektur vorschlagen</a>'
+  '>ROUTE<': '>ROUTE<'
+  'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': 'title="Route planen: auf die Karte tippen zum Zeichnen oder GPX importieren — die Liste filtert auf Knoten entlang der Route"'
