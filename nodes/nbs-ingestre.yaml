@@ -3,8 +3,8 @@ name: NBS Motorcycle Servicing
 city: Ingestre (near Stafford)
 state: ''
 country: GB
-lat: 0.0
-lon: 0.0
+lat: 52.8196
+lon: -2.0286
 layer: independent
 capability:
 - satellite
@@ -29,3 +29,4 @@ observations:
 last_verified: 2026-08-22
 verified_by: claude-eu-social
 status: active
+geocode: city-centroid

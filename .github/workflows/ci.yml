@@ -1,0 +1,28 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: install deps
+        run: pip install pytest pyyaml pillow
+      - name: build the site
+        run: python build/build.py
+      - name: test suite (data contracts, build/i18n invariants, shipped GPX/KML generators)
+        run: python -m pytest tests/ -q
+      - name: banned-source sweep
+        run: |
+          if grep -ril guzzitech nodes/ site/ i18n/; then
+            echo "::error::banned source referenced"; exit 1
+          fi
