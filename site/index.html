@@ -363,7 +363,22 @@ function render(){
   });
 }
 (async()=>{
-  const gj=await (await fetch('nodes.geojson')).json();
+  // iOS Safari kills/restarts service workers aggressively; a single rejected
+  // fetch here used to kill map init silently — no pins, no message. Retry,
+  // then fall back to the SW cache, and say so instead of dying quietly.
+  async function loadNodes(){
+    for (let a=0;a<3;a++){
+      try{ const r=await fetch('nodes.geojson',{cache:a<2?'default':'reload'}); if(r.ok) return await r.json(); }
+      catch(e){}
+      await new Promise(r=>setTimeout(r,600*(a+1)));
+    }
+    try{ const c=await caches.open((await caches.keys()).find(k=>k.startsWith('gsn-'))||''); 
+         const hit=await c.match('nodes.geojson',{ignoreSearch:true}); if(hit) return await hit.json(); }
+    catch(e){}
+    const el=document.getElementById('offline'); if(el){el.style.display='block';el.textContent='could not load node data — pull to refresh';}
+    return {type:'FeatureCollection',features:[]};
+  }
+  const gj=await loadNodes();
   FEATS=gj.features;
   // odometer + last update (honest hit-counter: it counts nodes, not you)
   document.getElementById('odometer').textContent=String(FEATS.length).padStart(6,'0');
