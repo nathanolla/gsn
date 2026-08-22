@@ -24,6 +24,6 @@ observations:
       Via Parodi 57 address via OSM/Nominatim. The official museum page exists at
       the url above but motoguzzi.com serves 403 to non-browser agents, so the
       official-site observation is the page's existence, not its content."
-last_verified: '2026-08-22'
+last_verified: 2026-08-22
 verified_by: claude
 status: active
