@@ -1,0 +1,50 @@
+lang: pl
+intl: pl-PL
+units: km
+rings:
+- 150
+- 300
+- 500
+vocab:
+  full-service: pełny serwis
+  satellite: punkt wsparcia
+  depot: części wysyłkowo
+  performance: tuning
+  heritage: klasyki
+  knowledge: wiedza
+strings:
+  <title>The Guzzi Support Network</title>: <title>Guzzi Support Network — sieć wsparcia Guzzi</title>
+  ? '&ldquo;Where&hellip;?&rdquo; &mdash; answered. A community-maintained map of everything that keeps a Moto&nbsp;Guzzi running.'
+  : '&bdquo;Gdzie&hellip;?&rdquo; &mdash; odpowied&zacute;. Utrzymywana przez społeczno&sacute;&cacute; mapa wszystkiego, co utrzymuje Moto&nbsp;Guzzi na drodze.'
+  ? EST. 2026 &middot; A FAN PROJECT &middot; GRADED BY FUNCTION &middot; FRESHNESS-DATED &middot; YOUR LOCATION NEVER LEAVES YOUR BROWSER
+  : OD 2026 &middot; PROJEKT FAN&Oacute;W &middot; OCENIANE WED&Lstrok;UG FUNKCJI &middot; DATOWANE &middot; TWOJA LOKALIZACJA NIGDY NIE OPUSZCZA PRZEGL&Aogon;DARKI
+  offline — showing cached data; map tiles may be blank, the list still works: offline — dane z pamięci podręcznej; kafelki mapy mogą nie działać, lista działa
+  <option value="">— all layers —</option>: <option value="">— wszystkie kategorie —</option>
+  aria-label="Filter by layer": aria-label="Filtruj według kategorii"
+  let h=`showing ${start+1}–${Math.min(start+size,total)} of ${total} &nbsp;`;: let h=`pokazano ${start+1}–${Math.min(start+size,total)} z ${total} &nbsp;`;
+  '''no nodes match''': '''brak pasujących węzłów'''
+  '''<b>Key — tap to filter</b><br>''': '''<b>Legenda — dotknij, aby filtrować</b><br>'''
+  tap the map to move your home pin &middot; rings = 100 / 200 / 300 miles: dotknij mapy, aby przesunąć swoją bazę &middot; pierścienie = 150 / 300 / 500 km
+  <b>HOME</b> — click the map to move: <b>BAZA</b> — dotknij mapy, aby przesunąć
+  last verified ${esc(p.last_verified)} by ${esc(p.verified_by)}: ostatnia weryfikacja ${esc(p.last_verified)} przez ${esc(p.verified_by)}
+  faded = stale: wyblakłe = do ponownej weryfikacji
+  <th>Node</th><th>What it's for</th><th>Verified</th>: <th>Węzeł</th><th>Do czego służy</th><th>Zweryfikowano</th>
+  placeholder="ZIP or city…": placeholder="Kod pocztowy lub miasto…"
+  aria-label="ZIP code or city for home pin": aria-label="Kod pocztowy lub miasto dla twojej bazy"
+  Data <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> · code MIT ·: Dane <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> · kod MIT ·
+  provided as-is, no warranty, informational only · corrections &amp; new nodes via: dostarczane tak jak są, bez gwarancji, wyłącznie informacyjnie · poprawki i nowe węzły przez
+  'Trademarks are the property of their owners.</b> Official site:': 'Znaki towarowe należą do właścicieli.</b> Oficjalna strona:'
+  '>what''s new<': '>co nowego<'
+  est. 2026: od 2026
+  '>SET HOME<': '>USTAW BAZĘ<'
+  '>LOCATE ME<': '>ZLOKALIZUJ MNIE<'
+  '>SHARE VIEW<': '>UDOSTĘPNIJ<'
+  title="Use browser location": title="Użyj lokalizacji przeglądarki"
+  title="Copy a link centered on your home pin": title="Skopiuj link wyśrodkowany na twojej bazie"
+  title="Download the shown nodes as GPX waypoints (Garmin, OsmAnd, Kurviger…)": title="Pobierz pokazane węzły jako punkty GPX (Garmin, OsmAnd, Kurviger…)"
+  title="Download the shown nodes as KML (Google Earth, Maps)": title="Pobierz pokazane węzły jako KML (Google Earth, Maps)"
+  '''Set a home pin first''': '''Najpierw ustaw swoją bazę'''
+  '''Location not found''': '''Nie znaleziono lokalizacji'''
+  NEXT &raquo;: DALEJ &raquo;
+  '&laquo; PREV': '&laquo; WSTECZ'
+  'per page: ': 'na stronę: '

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="alternate" hreflang="en" href="https://guzzisupport.network/">
+<link rel="alternate" hreflang="de" href="https://guzzisupport.network/de/">
+<link rel="alternate" hreflang="es" href="https://guzzisupport.network/es/">
+<link rel="alternate" hreflang="fr" href="https://guzzisupport.network/fr/">
+<link rel="alternate" hreflang="it" href="https://guzzisupport.network/it/">
+<link rel="alternate" hreflang="ja" href="https://guzzisupport.network/ja/">
+<link rel="alternate" hreflang="pl" href="https://guzzisupport.network/pl/">
+<link rel="alternate" hreflang="en" href="https://guzzisupport.network/">
+<link rel="alternate" hreflang="it" href="https://guzzisupport.network/it/">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Guzzi Support Network</title>
@@ -174,7 +183,7 @@
 </style>
 </head>
 <body>
-<div class="page">
+<div class="page"><div class="langbar" style="text-align:center;font-size:13px;margin:6px 0"><b>English</b> &middot; <a href="de/index.html" lang="de">Deutsch</a> &middot; <a href="es/index.html" lang="es">Español</a> &middot; <a href="fr/index.html" lang="fr">Français</a> &middot; <a href="it/index.html" lang="it">Italiano</a> &middot; <a href="ja/index.html" lang="ja">日本語</a> &middot; <a href="pl/index.html" lang="pl">Polski</a></div><div class="langbar" style="text-align:center;font-size:13px;margin:6px 0"><b>English</b> &middot; <a href="it/index.html" lang="it">Italiano</a></div>
   <div class="masthead">
     <h1>The <span class="red">GUZZI</span> Support Network</h1>
     <p class="tag">&ldquo;Where&hellip;?&rdquo; &mdash; answered. A community-maintained map of everything that keeps a Moto&nbsp;Guzzi running.</p>
@@ -253,6 +262,10 @@
 <script defer>
 const CAP_COLORS={'full-service':'#1e8a5f','satellite':'#c98d1f','depot':'#2f6fbe','performance':'#7a4fc0','heritage':'#6d7c8c','knowledge':'#888'};
 const MI=1609.344,R=6371e3;
+// Locale bundle: injected per-locale by the build (units, rings, Intl tag).
+// English root gets the default. All local — nothing stored or sent.
+const LOC=window.GSN_LOCALE||{lang:'en',intl:'en-US',units:'mi',rings:[100,200,300]};
+const UNITM=LOC.units==='km'?1000:MI;
 function dist(a,b){const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180,dp=(b[0]-a[0])*Math.PI/180,dl=(b[1]-a[1])*Math.PI/180;
   const h=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;return 2*R*Math.asin(Math.sqrt(h))/MI}
 function bearing(a,b){const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180,dl=(b[1]-a[1])*Math.PI/180;
@@ -282,7 +295,7 @@ function setHome(ll,save=true){
   home=ll;
   if(homeMarker)homeMarker.remove(); rings.forEach(r=>r.remove()); rings=[];
   homeMarker=L.marker(ll,{icon:L.divIcon({className:'',html:'<div style="font-size:22px;line-height:1;filter:drop-shadow(1px 1px 0 #fff)" role="img" aria-label="home">\uD83C\uDFCD\uFE0F</div>',iconSize:[24,24],iconAnchor:[12,12]})}).addTo(map).bindPopup('<b>HOME</b> — click the map to move');
-  [100,200,300].forEach(mi=>rings.push(L.circle(ll,{radius:mi*MI,color:'#c8102e',weight:1,opacity:.5,fill:false,dashArray:'6 8'}).addTo(map)));
+  LOC.rings.forEach(mi=>rings.push(L.circle(ll,{radius:mi*UNITM,color:'#c8102e',weight:1,opacity:.5,fill:false,dashArray:'6 8'}).addTo(map)));
   if(save){try{localStorage.setItem('gsn_home',JSON.stringify(ll))}catch(e){}} // client-side only; URL only via explicit Share
   page=0; render();
 }
@@ -328,7 +341,7 @@ function render(){
     let rel='';
     if(home&&f.geometry){
       const ll=[f.geometry.coordinates[1],f.geometry.coordinates[0]];
-      rel=`${Math.round(dist(home,ll))} mi ${bearing(home,ll)}`;
+      rel=`${Math.round(dist(home,ll)*MI/UNITM)} ${LOC.units} ${bearing(home,ll)}`;
       if(f===nearestFull) rel+=' ★ closest full-service';
     }
     const c0=p.capability[0], sw=capIcon(c0,CAP_COLORS[c0]||'#888');
@@ -393,13 +406,13 @@ function render(){
     if(![...caps].includes(c))return;
     const b=document.createElement('button');
     b.type='button'; b.className='chip'; b.setAttribute('aria-pressed','true');
-    b.innerHTML=`${capIcon(c,col)}${c}`;
+    b.innerHTML=`${capIcon(c,col)}${(LOC.vocab||{})[c]||c}`;
     b.onclick=()=>{activeCaps.has(c)?activeCaps.delete(c):activeCaps.add(c);
       b.classList.toggle('off',!activeCaps.has(c)); b.setAttribute('aria-pressed',String(activeCaps.has(c))); page=0; render();};
     chipwrap.appendChild(b);
   });
   document.getElementById('legend').innerHTML='<b>Key — tap to filter</b><br>'+Object.entries(CAP_COLORS)
-    .map(([c,col])=>`<span class="lg" data-cap="${c}" style="white-space:nowrap;cursor:pointer">${capIcon(c,col)}${c}</span>`).join('<br>')+
+    .map(([c,col])=>`<span class="lg" data-cap="${c}" style="white-space:nowrap;cursor:pointer">${capIcon(c,col)}${(LOC.vocab||{})[c]||c}</span>`).join('<br>')+
     '<br><span style="color:#666;font-size:11px">faded = stale</span>';
   document.querySelectorAll('.lg').forEach(el=>{
     el.onclick=()=>{const c=el.dataset.cap; activeCaps.has(c)?activeCaps.delete(c):activeCaps.add(c);

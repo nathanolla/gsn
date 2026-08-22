@@ -1,0 +1,50 @@
+lang: es
+intl: es-ES
+units: km
+rings:
+- 150
+- 300
+- 500
+vocab:
+  full-service: taller completo
+  satellite: punto de apoyo
+  depot: recambios por correo
+  performance: preparaciones
+  heritage: clásicas
+  knowledge: saber
+strings:
+  <title>The Guzzi Support Network</title>: <title>Guzzi Support Network — la red de apoyo Guzzi</title>
+  ? '&ldquo;Where&hellip;?&rdquo; &mdash; answered. A community-maintained map of everything that keeps a Moto&nbsp;Guzzi running.'
+  : '&laquo;&iquest;D&oacute;nde&hellip;?&raquo; &mdash; respondido. Un mapa mantenido por la comunidad con todo lo que mantiene una Moto&nbsp;Guzzi en marcha.'
+  ? EST. 2026 &middot; A FAN PROJECT &middot; GRADED BY FUNCTION &middot; FRESHNESS-DATED &middot; YOUR LOCATION NEVER LEAVES YOUR BROWSER
+  : DESDE 2026 &middot; UN PROYECTO DE AFICIONADOS &middot; CLASIFICADO POR FUNCI&Oacute;N &middot; FECHADO POR FRESCURA &middot; TU UBICACI&Oacute;N NUNCA SALE DE TU NAVEGADOR
+  offline — showing cached data; map tiles may be blank, the list still works: sin conexión — datos en caché; el mapa puede faltar, la lista funciona
+  <option value="">— all layers —</option>: <option value="">— todas las categorías —</option>
+  aria-label="Filter by layer": aria-label="Filtrar por categoría"
+  let h=`showing ${start+1}–${Math.min(start+size,total)} of ${total} &nbsp;`;: let h=`mostrando ${start+1}–${Math.min(start+size,total)} de ${total} &nbsp;`;
+  '''no nodes match''': '''ningún nodo coincide'''
+  '''<b>Key — tap to filter</b><br>''': '''<b>Leyenda — toca para filtrar</b><br>'''
+  tap the map to move your home pin &middot; rings = 100 / 200 / 300 miles: toca el mapa para mover tu base &middot; anillos = 150 / 300 / 500 km
+  <b>HOME</b> — click the map to move: <b>BASE</b> — toca el mapa para moverla
+  last verified ${esc(p.last_verified)} by ${esc(p.verified_by)}: última verificación ${esc(p.last_verified)} por ${esc(p.verified_by)}
+  faded = stale: atenuado = por reverificar
+  <th>Node</th><th>What it's for</th><th>Verified</th>: <th>Nodo</th><th>Para qué sirve</th><th>Verificado</th>
+  placeholder="ZIP or city…": placeholder="CP o ciudad…"
+  aria-label="ZIP code or city for home pin": aria-label="Código postal o ciudad para tu base"
+  Data <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> · code MIT ·: Datos <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> · código MIT ·
+  provided as-is, no warranty, informational only · corrections &amp; new nodes via: se ofrecen tal cual, sin garantía, solo informativos · correcciones y nuevos nodos vía
+  'Trademarks are the property of their owners.</b> Official site:': 'Las marcas pertenecen a sus propietarios.</b> Sitio oficial:'
+  '>what''s new<': '>novedades<'
+  est. 2026: desde 2026
+  '>SET HOME<': '>FIJAR BASE<'
+  '>LOCATE ME<': '>UBÍCAME<'
+  '>SHARE VIEW<': '>COMPARTIR<'
+  title="Use browser location": title="Usar la ubicación del navegador"
+  title="Copy a link centered on your home pin": title="Copiar un enlace centrado en tu base"
+  title="Download the shown nodes as GPX waypoints (Garmin, OsmAnd, Kurviger…)": title="Descargar los nodos mostrados como waypoints GPX (Garmin, OsmAnd, Kurviger…)"
+  title="Download the shown nodes as KML (Google Earth, Maps)": title="Descargar los nodos mostrados en KML (Google Earth, Maps)"
+  '''Set a home pin first''': '''Fija primero tu base'''
+  '''Location not found''': '''Ubicación no encontrada'''
+  NEXT &raquo;: SIGUIENTE &raquo;
+  '&laquo; PREV': '&laquo; ANTERIOR'
+  'per page: ': 'por página: '

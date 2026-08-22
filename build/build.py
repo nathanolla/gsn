@@ -165,6 +165,7 @@ def main():
     static_render(features)
     stamp_sw()
     whatsnew()
+    localize()
 
 
 def stamp_sw():
@@ -298,6 +299,88 @@ td{{border-top:1px solid #ccc;padding:5px 8px;vertical-align:top}}</style></head
 </body></html>"""
     (ROOT / "site" / "whatsnew.html").write_text(page)
     print(f"whatsnew.html: {len(rows)} entries")
+
+
+def localize():
+    SITE = ROOT / "site"
+    """Render site/<lang>/index.html from the built English page + i18n/<lang>.yaml.
+
+    Exact-string substitution, FAIL-LOUD: a catalog key that no longer matches
+    the template is a build error, not a silent English leak. Locale pages get
+    <base href="../"> (assets stay shared), lang attribute, a GSN_LOCALE bundle
+    (units/rings/Intl tag), hreflang alternates, and a language switcher that
+    is also injected back into the English root.
+    """
+    import yaml as _y
+    i18dir = ROOT / "i18n"
+    if not i18dir.is_dir():
+        return
+    en = (SITE / "index.html").read_text()
+    locales = []
+    for lf in sorted(i18dir.glob("*.yaml")):
+        cfg = _y.safe_load(lf.read_text())
+        locales.append(cfg)
+    if not locales:
+        return
+    # language switcher (English name + native name), shared across pages
+    NATIVE = {"it": "Italiano", "de": "Deutsch", "fr": "Français", "es": "Español",
+              "pl": "Polski", "ja": "日本語", "en": "English"}
+    def switcher(current):
+        links = []
+        for code in ["en"] + [c["lang"] for c in locales]:
+            label = NATIVE.get(code, code)
+            if code == current:
+                links.append(f"<b>{label}</b>")
+            else:
+                href = "../index.html" if (code == "en" and current != "en") else (
+                       f"{code}/index.html" if current == "en" else f"../{code}/index.html")
+                links.append(f'<a href="{href}" lang="{code}">{label}</a>')
+        return ('<div class="langbar" style="text-align:center;font-size:13px;margin:6px 0">'
+                + " &middot; ".join(links) + "</div>")
+    def hreflangs(current):
+        tags = ['<link rel="alternate" hreflang="en" href="https://guzzisupport.network/">']
+        for c in locales:
+            tags.append(f'<link rel="alternate" hreflang="{c["lang"]}" '
+                        f'href="https://guzzisupport.network/{c["lang"]}/">')
+        return "\n".join(tags)
+    errors = []
+    for cfg in locales:
+        lang = cfg["lang"]
+        page = en
+        for k, v in cfg["strings"].items():
+            if k not in page:
+                errors.append(f"i18n/{lang}: catalog key not found in template: {k[:70]!r}")
+                continue
+            page = page.replace(k, v)
+        # translate build-rendered capability tokens in rows via the vocab table
+        vocab = cfg.get("vocab") or {}
+        if vocab:
+            import re as _re
+            def _cap(m):
+                toks = _re.split(r"(\+)", m.group(2))
+                toks = [vocab.get(t, t) if t != "+" else t for t in toks]
+                return m.group(1) + "".join(toks) + m.group(3)
+            page = _re.sub(r'(<span class="cap">)([^<]+)(</span>)', _cap, page)
+        page = page.replace('<html lang="en">', f'<html lang="{lang}">')
+        bundle = ('<script>window.GSN_LOCALE=' + json.dumps(
+            {"lang": lang, "intl": cfg.get("intl", lang), "units": cfg.get("units", "km"),
+             "rings": cfg.get("rings", [150, 300, 500]), "vocab": cfg.get("vocab") or {}}) + '</script>')
+        page = page.replace("<head>", f'<head>\n<base href="../">\n{hreflangs(lang)}', 1)
+        # bundle must land BEFORE the main script block reads it: right after <body>-ish masthead start
+        page = page.replace("<body>", "<body>\n" + bundle, 1)
+        page = page.replace('<div class="page">', '<div class="page">' + switcher(lang), 1)
+        out = SITE / lang
+        out.mkdir(exist_ok=True)
+        (out / "index.html").write_text(page)
+        print(f"localized: site/{lang}/index.html ({len(cfg['strings'])} strings)")
+    if errors:
+        for e in errors: print("  -", e)
+        raise SystemExit("i18n: catalog drift — fix the keys above")
+    # switcher + hreflangs into the English root too
+    en2 = en.replace("<head>", "<head>\n" + hreflangs("en"), 1)
+    en2 = en2.replace('<div class="page">', '<div class="page">' + switcher("en"), 1)
+    (SITE / "index.html").write_text(en2)
+    print(f"localized: switcher + hreflang into root ({len(locales)} locales)")
 
 
 if __name__ == "__main__":

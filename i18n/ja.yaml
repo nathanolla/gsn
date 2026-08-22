@@ -1,0 +1,50 @@
+lang: ja
+intl: ja-JP
+units: km
+rings:
+- 150
+- 300
+- 500
+vocab:
+  full-service: フルサービス
+  satellite: サテライト
+  depot: 部品通販
+  performance: チューニング
+  heritage: ヘリテージ
+  knowledge: 知識
+strings:
+  <title>The Guzzi Support Network</title>: <title>Guzzi Support Network — グッツィ・サポート・ネットワーク</title>
+  ? '&ldquo;Where&hellip;?&rdquo; &mdash; answered. A community-maintained map of everything that keeps a Moto&nbsp;Guzzi running.'
+  : 「どこで&hellip;？」&mdash; その答え。モト・グッツィを走らせ続けるすべてを集めた、コミュニティ運営の地図。
+  ? EST. 2026 &middot; A FAN PROJECT &middot; GRADED BY FUNCTION &middot; FRESHNESS-DATED &middot; YOUR LOCATION NEVER LEAVES YOUR BROWSER
+  : 2026年設立 &middot; ファンプロジェクト &middot; 機能別グレード &middot; 鮮度日付つき &middot; あなたの位置情報はブラウザの外に出ません
+  offline — showing cached data; map tiles may be blank, the list still works: オフライン — キャッシュ表示中。地図タイルは表示されない場合がありますが、リストは動作します
+  <option value="">— all layers —</option>: <option value="">— すべてのカテゴリ —</option>
+  aria-label="Filter by layer": aria-label="カテゴリで絞り込み"
+  let h=`showing ${start+1}–${Math.min(start+size,total)} of ${total} &nbsp;`;: let h=`表示 ${start+1}–${Math.min(start+size,total)} ／全 ${total} &nbsp;`;
+  '''no nodes match''': '''該当するノードがありません'''
+  '''<b>Key — tap to filter</b><br>''': '''<b>凡例 — タップで絞り込み</b><br>'''
+  tap the map to move your home pin &middot; rings = 100 / 200 / 300 miles: 地図をタップして拠点を移動 &middot; リング = 150 / 300 / 500 km
+  <b>HOME</b> — click the map to move: <b>拠点</b> — 地図をタップして移動
+  last verified ${esc(p.last_verified)} by ${esc(p.verified_by)}: 最終確認 ${esc(p.last_verified)}（${esc(p.verified_by)}）
+  faded = stale: 淡色 = 要再確認
+  <th>Node</th><th>What it's for</th><th>Verified</th>: <th>ノード</th><th>用途</th><th>確認日</th>
+  placeholder="ZIP or city…": placeholder="郵便番号または都市…"
+  aria-label="ZIP code or city for home pin": aria-label="拠点の郵便番号または都市"
+  Data <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> · code MIT ·: データ <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> · コード MIT ·
+  provided as-is, no warranty, informational only · corrections &amp; new nodes via: 現状のまま・無保証・情報提供のみ · 修正や新ノードは
+  'Trademarks are the property of their owners.</b> Official site:': '商標は各所有者に帰属します。</b> 公式サイト:'
+  '>what''s new<': '>更新情報<'
+  est. 2026: 2026年〜
+  '>SET HOME<': '>拠点を設定<'
+  '>LOCATE ME<': '>現在地<'
+  '>SHARE VIEW<': '>共有<'
+  title="Use browser location": title="ブラウザの位置情報を使用"
+  title="Copy a link centered on your home pin": title="拠点を中心にしたリンクをコピー"
+  title="Download the shown nodes as GPX waypoints (Garmin, OsmAnd, Kurviger…)": title="表示中のノードをGPXウェイポイントでダウンロード（Garmin, OsmAnd, Kurviger…）"
+  title="Download the shown nodes as KML (Google Earth, Maps)": title="表示中のノードをKMLでダウンロード（Google Earth, Maps）"
+  '''Set a home pin first''': '''先に拠点を設定してください'''
+  '''Location not found''': '''場所が見つかりません'''
+  NEXT &raquo;: 次へ &raquo;
+  '&laquo; PREV': '&laquo; 前へ'
+  'per page: ': 'ページあたり: '

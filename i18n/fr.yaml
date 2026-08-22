@@ -1,0 +1,50 @@
+lang: fr
+intl: fr-FR
+units: km
+rings:
+- 150
+- 300
+- 500
+vocab:
+  full-service: atelier complet
+  satellite: point d'appui
+  depot: pièces par correspondance
+  performance: préparation
+  heritage: anciennes
+  knowledge: savoir
+strings:
+  <title>The Guzzi Support Network</title>: <title>Guzzi Support Network — le réseau d’entraide Guzzi</title>
+  ? '&ldquo;Where&hellip;?&rdquo; &mdash; answered. A community-maintained map of everything that keeps a Moto&nbsp;Guzzi running.'
+  : '&laquo;&nbsp;O&ugrave;&hellip;&nbsp;?&nbsp;&raquo; &mdash; la r&eacute;ponse. Une carte entretenue par la communaut&eacute; de tout ce qui fait rouler une Moto&nbsp;Guzzi.'
+  ? EST. 2026 &middot; A FAN PROJECT &middot; GRADED BY FUNCTION &middot; FRESHNESS-DATED &middot; YOUR LOCATION NEVER LEAVES YOUR BROWSER
+  : DEPUIS 2026 &middot; UN PROJET DE PASSIONN&Eacute;S &middot; CLASS&Eacute; PAR FONCTION &middot; DAT&Eacute; PAR FRA&Icirc;CHEUR &middot; VOTRE POSITION NE QUITTE JAMAIS VOTRE NAVIGATEUR
+  offline — showing cached data; map tiles may be blank, the list still works: hors ligne — données en cache ; la carte peut manquer, la liste fonctionne
+  <option value="">— all layers —</option>: <option value="">— toutes les catégories —</option>
+  aria-label="Filter by layer": aria-label="Filtrer par catégorie"
+  let h=`showing ${start+1}–${Math.min(start+size,total)} of ${total} &nbsp;`;: let h=`affichage ${start+1}–${Math.min(start+size,total)} sur ${total} &nbsp;`;
+  '''no nodes match''': '''aucun nœud ne correspond'''
+  '''<b>Key — tap to filter</b><br>''': '''<b>Légende — touchez pour filtrer</b><br>'''
+  tap the map to move your home pin &middot; rings = 100 / 200 / 300 miles: touchez la carte pour déplacer votre base &middot; anneaux = 150 / 300 / 500 km
+  <b>HOME</b> — click the map to move: <b>BASE</b> — touchez la carte pour la déplacer
+  last verified ${esc(p.last_verified)} by ${esc(p.verified_by)}: dernière vérification ${esc(p.last_verified)} par ${esc(p.verified_by)}
+  faded = stale: estompé = à revérifier
+  <th>Node</th><th>What it's for</th><th>Verified</th>: <th>Nœud</th><th>À quoi ça sert</th><th>Vérifié</th>
+  placeholder="ZIP or city…": placeholder="Code postal ou ville…"
+  aria-label="ZIP code or city for home pin": aria-label="Code postal ou ville pour votre base"
+  Data <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> · code MIT ·: Données <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL&nbsp;1.0</a> · code MIT ·
+  provided as-is, no warranty, informational only · corrections &amp; new nodes via: fournies en l’état, sans garantie, à titre informatif · corrections et nouveaux nœuds via
+  'Trademarks are the property of their owners.</b> Official site:': 'Les marques appartiennent à leurs propriétaires.</b> Site officiel :'
+  '>what''s new<': '>quoi de neuf<'
+  est. 2026: depuis 2026
+  '>SET HOME<': '>DÉFINIR BASE<'
+  '>LOCATE ME<': '>ME LOCALISER<'
+  '>SHARE VIEW<': '>PARTAGER<'
+  title="Use browser location": title="Utiliser la position du navigateur"
+  title="Copy a link centered on your home pin": title="Copier un lien centré sur votre base"
+  title="Download the shown nodes as GPX waypoints (Garmin, OsmAnd, Kurviger…)": title="Télécharger les nœuds affichés en waypoints GPX (Garmin, OsmAnd, Kurviger…)"
+  title="Download the shown nodes as KML (Google Earth, Maps)": title="Télécharger les nœuds affichés en KML (Google Earth, Maps)"
+  '''Set a home pin first''': '''Définissez d’abord votre base'''
+  '''Location not found''': '''Lieu introuvable'''
+  NEXT &raquo;: SUIVANT &raquo;
+  '&laquo; PREV': '&laquo; PRÉCÉDENT'
+  'per page: ': 'par page : '
