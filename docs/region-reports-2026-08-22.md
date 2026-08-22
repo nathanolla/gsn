@@ -66,3 +66,8 @@ Sources checked: Moto Guzzi official website (motoguzzi.com/vn_EN/ — blocked b
 ---
 
 **Summary**: 8 nodes emitted across 4 countries (IN: 2, TH: 1, MY: 3, SG: 2). Indonesia, Philippines, and Vietnam returned empty — no verifiable dealers found. India's two nodes (Chennai, Vijayawada) are Piaggio Group Motoplex/multi-brand dealers listed on BikeWale as carrying Moto Guzzi, but individual detail pages return 404, so confidence is moderate. Thailand and Malaysia have strong, well-documented Piaggio Group dealer networks. Singapore has both a sales showroom (Motoplex) and a service centre (DIDI Garage).
+
+
+## Russia / Ukraine / CIS (GLM lane, 2026-08-22)
+
+**REGION REPORT: Georgia, Armenia, Azerbaijan, Uzbekistan, Kyrgyzstan, Moldova**
