@@ -1,0 +1,42 @@
+id: motofavorits-riga
+name: SIA Motofavorīts
+city: Rīga
+state: Rīga
+country: LV
+lat: 56.9402123
+lon: 24.0022934
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- suzuki
+- ktm
+- indian
+functions:
+- sales
+- service
+- parts
+url: https://www.motoguzzi.lv/
+phone: +371 6789 2256
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'SIA "Motofavorīts", Valgales iela 2a, Rīga LV-1029 (+371 67892256, info@motofavorits.lv)
+    operates the dedicated Latvian Moto Guzzi site motoguzzi.lv listing the full current
+    lineup (V7 Stone/Special/Sport, V100 Mandello family, V85 TT/Travel/Strada, Stelvio
+    1000, Duecento Tributo). Fresh dealer news on the site: "Moto Guzzi World Days
+    2026" (2026-08-03) and up-to-4-year commercial warranty on selected Piaggio Group
+    models (2026-07-07); motorcycle storage/transport services; service section. ©
+    2025 SIA Motofavorīts. Sources: https://www.motoguzzi.lv/ and https://www.motofavorits.lv/
+    (fetched 2026-08-22).'
+- date: 2026-08-22
+  method: website
+  fact: 'Motofavorīts runs a parts/accessories e-shop at motoveikals.lv with a Moto
+    Guzzi brand catalogue including original (Oriģināldaļas) Guzzi parts in stock;
+    parts store address K.Ulmaņa gatve 21, Rīga LV-1004, +371 25626667. Source: https://motoveikals.lv/moto-guzzi
+    (fetched 2026-08-22).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

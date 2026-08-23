@@ -1,0 +1,32 @@
+id: motobox-casablanca-belvedere
+name: Motobox (Casablanca Bélvédère)
+city: Casablanca
+state: Casablanca-Settat
+country: MA
+lat: 33.5945
+lon: -7.62
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- keeway
+- morbidelli
+functions:
+- sales
+url: https://motobox.ma/
+phone: +212 6 65 60 43 34
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Motobox contact page lists branch: "1 Rue Sijilmassa, Bélvédère, Casablanca",
+    tel 06 65 60 43 34; part of the Motobox Piaggio Group network incl. Moto Guzzi.
+    Source: https://motobox.ma/contact/ (fetched 2026-08-22). lat/lon: 0.0 — street
+    geocode of stated address returned no match.'
+last_verified: 2026-08-22
+verified_by: claude-zai-nafrica
+status: active
+geocode: city-centroid

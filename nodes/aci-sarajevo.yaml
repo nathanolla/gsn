@@ -1,0 +1,42 @@
+id: aci-sarajevo
+name: A.C.I. d.o.o. (Auto Centar Italy)
+city: Sarajevo
+state: Kanton Sarajevo
+country: BA
+lat: 43.8522319
+lon: 18.3375945
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- honda
+- zontes
+functions:
+- sales
+- service
+- parts
+url: https://aci.ba/
+phone: +387 33 712 000
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'A.C.I. d.o.o. (Auto Centar Italy), Safeta Zajke 175, 71000 Sarajevo — "Ovlašteni
+    smo prodavac i serviser brendova ... PIAGGIO, VESPA, APRILIA, MOTO GUZZI" (authorized
+    seller and servicer incl. Moto Guzzi); original spare parts; showroom + service
+    centre; Piaggio Group news active on site (e.g. Piaggio Beverly 310 item, 2025-12-17).
+    Contact: prodaja@aci.ba / servis@aci.ba / info@aci.ba, ph 033-712-000. Source:
+    https://aci.ba/ and https://aci.ba/?page_id=7 (fetched 2026-08-22).'
+- date: 2026-08-22
+  method: official-locator
+  fact: The official Piaggio Group site for BiH (piaggiogroup.ba, "Oficijalna stranica
+    za BiH") states that Piaggio Group entered BiH with a direct importer/distributor
+    and authorized servicer, and that the authorized houses for BiH are "A.C.I. Sarajevo
+    i MARKETAUTO Laktaši". Site was returning 503 on direct fetch (2026-08-22, tried
+    direct + reader proxy); quoted from the search-engine index of piaggiogroup.ba/moto-guzzi/.
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

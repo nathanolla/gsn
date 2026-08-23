@@ -1,0 +1,28 @@
+id: motodnr-vilnius
+name: MOTO DNR, MB
+city: Vilnius
+state: Vilniaus m. savivaldybė
+country: LT
+lat: 54.723515
+lon: 25.2808531
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- parts
+url: https://motodnr.lt/brand/moto-guzzi
+phone: +370 603 444 34
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'MOTO DNR, MB — Vilnius moto parts/gear retailer, Kalvarijų g. 206, LT-08314
+    Vilnius, +370 603 444 34, info@motodnr.lt. Maintains a dedicated Moto Guzzi brand
+    page (motodnr.lt/brand/moto-guzzi) listing Guzzi among stocked brands. CAVEAT:
+    direct fetch of the page is Cloudflare-blocked for this fetcher (also via reader
+    proxy); details confirmed from the search-engine index of the same URL (DuckDuckGo
+    via jina reader, 2026-08-22). Inventory depth for Guzzi parts unverified.'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

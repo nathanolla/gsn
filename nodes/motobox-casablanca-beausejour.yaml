@@ -1,0 +1,52 @@
+id: motobox-casablanca-beausejour
+name: Motobox (Casablanca Beauséjour — main store)
+city: Casablanca
+state: Casablanca-Settat
+country: MA
+lat: 33.5945
+lon: -7.62
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- keeway
+- morbidelli
+functions:
+- sales
+url: https://motobox.ma/
+phone: +212 5 22 98 99 61
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Motobox lists itself as dealer for Piaggio, Aprilia, Vespa, Moto Guzzi (V7,
+    V85, V100, Stelvio model pages live), Keeway and Morbidelli. Contact page lists
+    Casablanca Beauséjour store: Bd Omar Al Khayam (face au CAFC), tel 05 22 98 99
+    61, plus 5 more branches (Corniche, Oulfa, Bélvédère, Tanger, Marrakech). Site
+    copyright 2024. Source: https://motobox.ma/ and https://motobox.ma/contact/ (fetched
+    2026-08-22). lat/lon: 0.0 — street geocode of stated address returned no match.'
+- date: 2026-08-22
+  method: website
+  fact: 'Moto Guzzi brand page shows current sales activity: Stelvio promo "20.000
+    Dh de remise immédiate" and V7 Stone Ten feature. Source: https://motobox.ma/marque/moto-guzzi/
+    (fetched 2026-08-22). Workshop/service not explicitly evidenced on site.'
+- date: 2026-08-22
+  method: website
+  fact: 'Piaggio Group magazine (16 Sep 2017) identifies SEHI GROUP as the Piaggio
+    Group importer in Morocco and MOTOBOX as the large Casablanca store for "Piaggio,
+    Vespa, Aprilia e Moto Guzzi" that hosted the Vespa Day start. Source: https://wide.piaggiogroup.com/articles/community/casablanca-successo-del-vespa-day/index.html
+    (fetched 2026-08-22).'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Moroccan moto community site dadas-bike.com carries a classified ad (published
+    15/11/2024) by advertiser "Motobox Piaggio", Casablanca, tel 0652177799, offering
+    "MOTO GUZZI V7 STONE WW, 2 ANS GARANTIS, TOUTES LES COULEURS DISPONIBLES". Source:
+    https://www.dadas-bike.com/annonces-moto/motos/moto-guzzi-v7-stone-ww-%E2%80%93-2-ans-de-garantie-toutes-les-couleurs-disponibles-2066
+    (fetched 2026-08-22).'
+last_verified: 2026-08-22
+verified_by: claude-zai-nafrica
+status: active
+geocode: city-centroid

@@ -1,0 +1,36 @@
+id: amt-tirana
+name: Albania Moto Technic (AMT)
+city: Tiranë
+state: Qarku i Tiranës
+country: AL
+lat: 41.3177856
+lon: 19.7979881
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- voge
+functions:
+- sales
+- service
+- parts
+url: https://amt.al/
+phone: +355 69 20 95 633
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Albania Moto Technic (AMT) — main office Rr. "Isuf Banka 02" / "Haxhi Isuf
+    Banka 1020", Tiranë; tel/fax +355 4 2244 009, mob +355 69 40 54 202, sales +355
+    69 20 95 633, info@amt.al. Self-described leader in auto/moto parts trading; site
+    menu offers Piaggio Group motorcycles (Piaggio, Vespa, Aprilia, Moto Guzzi) with
+    a dedicated Moto Guzzi category page (amt.al/?page_id=5391), plus motorcycle parts,
+    used bikes and Piaggio commercial vehicles. Official Piaggio distributor status
+    for Albania is claimed by site structure but not independently confirmed. Sources:
+    https://amt.al/ and https://amt.al/?page_id=5391 (fetched 2026-08-22).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

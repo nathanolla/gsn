@@ -1,0 +1,40 @@
+id: vetaka-vilnius
+name: UAB VeTaKa
+city: Vilnius
+state: Vilniaus m. savivaldybė
+country: LT
+lat: 54.6994073
+lon: 25.2710287
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+- parts
+url: https://aprilia.lt/
+phone: +370 5 219 5574
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'UAB VeTaKa, Lvivo g. 75, Vilnius — "Oficialus Vespa motorolerių ir Piaggio
+    Group atstovas Lietuvoje" (official Piaggio Group representative in Lithuania,
+    15+ years). Sells new Moto Guzzi Stelvio, V100 Mandello, V7 and V85 plus Aprilia/Vespa/Piaggio;
+    certified service, original parts (servisas@aprilia.lt, +370 609 77222); sales
+    +370 684 688 55, info@aprilia.lt. 2026 price list published (Kainynas_2026-05-28.pdf).
+    © 2026 UAB Vetaka. Source: https://aprilia.lt/ and https://aprilia.lt/motociklai-ir-motoroleriai/moto-guzzi/
+    (fetched 2026-08-22).'
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Lithuanian company registry aggregator rekvizitai.vz.lt lists VeTaKa, UAB
+    as "Oficialus PVG-Group atstovas Lietuvai" for Aprilia, Moto Guzzi, Piaggio and
+    Vespa motorcycles/scooters, corroborating importer status. Source: https://rekvizitai.vz.lt/imone/vetaka/
+    (DDG-indexed snippet, 2026-08-22).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

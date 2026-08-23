@@ -1,0 +1,34 @@
+id: motoland-chisinau
+name: MOTOLAND
+city: Chișinău
+state: Chișinău
+country: MD
+lat: 47.0343161
+lon: 28.8497853
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+- yamaha
+functions:
+- sales
+- service
+- parts
+url: https://motoland.md/ro/
+phone: +373 79 923 304
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'MOTOLAND, str. Pietrăriei 3A, Chișinău ("Motoland este expertul tău în domeniul
+    motociclismului din Moldova") sells NEW current-model Moto Guzzi in stock with
+    financing — V7 Special (197,888 MDL / €9,797, 5% discount) and Stelvio 2024 (325,214
+    MDL / €16,100) — alongside Yamaha and other brands; runs a service department
+    (Programare service) and parts sales. Sales phones +373 79 923 304/306/309, service
+    +373 79 923 301, contact@motoland.md. NOTE: no Piaggio/Moto Guzzi official importer
+    could be verified for Moldova, so franchise status is unverified — treated as
+    independent new-bike dealer. Sources: https://motoland.md/ro/product/moto-guzzi-v7-special
+    and https://motoland.md/ro/product/moto-guzzi-stelvio (fetched 2026-08-22).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

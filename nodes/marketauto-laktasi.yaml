@@ -1,0 +1,39 @@
+id: marketauto-laktasi
+name: MARKETAUTO d.o.o.
+city: Laktaši (Glamočani)
+state: Republika Srpska
+country: BA
+lat: 44.8706939
+lon: 17.2670676
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- honda
+- zontes
+functions:
+- sales
+- service
+- parts
+url: https://marketauto.ba/
+phone: +387 51 507 330
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'MARKETAUTO d.o.o., Svetosavska 221., Glamočani, 78252 Laktaši — authorized
+    seller and servicer for Piaggio, Vespa, Aprilia and Moto Guzzi (plus Fiat-group
+    cars, Honda, Zontes motorcycles); salon +387 51 507 349/344, servis +387 51 508
+    606, info@marketauto.ba; hours Mon-Fri 08-16, Sat 08-14. Source: https://marketauto.ba/
+    and https://marketauto.ba/?page_id=10 (fetched 2026-08-22).'
+- date: 2026-08-22
+  method: official-locator
+  fact: Named by the official Piaggio Group BiH site (piaggiogroup.ba, search-indexed
+    2026-08-22; direct fetch 503) as one of the two "ovlaštene kuće" (authorized houses)
+    for BiH, alongside A.C.I. Sarajevo.
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

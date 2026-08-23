@@ -1,0 +1,33 @@
+id: motokeskus-tallinn
+name: Motokeskus MC OÜ
+city: Tallinn
+state: Harju maakond
+country: EE
+lat: 59.4193109
+lon: 24.744525
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- harley-davidson
+- royal-enfield
+- ural
+functions:
+- sales
+- service
+- parts
+url: https://www.motokeskus.ee/et/motoguzzi
+phone: +372 656 7252
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'OÜ Motokeskus MC, Pärnu mnt 154, Tallinn (tel +372 656 7252, GSM +372 501
+    3902) maintains a Moto Guzzi brand page with a price list ("Hinnakiri — hinnad
+    sisaldavad käibemaksu... Moto Guzzi garantii 2 aastat" — prices incl. VAT, 2-year
+    Moto Guzzi warranty, implying authorized sales). Multi-brand dealer (also Harley-Davidson,
+    Royal Enfield, URAL) with service/parts departments. Source: https://www.motokeskus.ee/et/motoguzzi
+    and https://www.motokeskus.ee/et/motoguzzi/hinnad (fetched 2026-08-22).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

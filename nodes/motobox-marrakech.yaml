@@ -1,0 +1,31 @@
+id: motobox-marrakech
+name: Motobox (Marrakech)
+city: Marrakech
+state: Marrakech-Safi
+country: MA
+lat: 31.6725
+lon: -8.0061
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- keeway
+- morbidelli
+functions:
+- sales
+url: https://motobox.ma/
+phone: +212 5 24 29 13 33
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Motobox contact + franchises pages list branch: "Km 14, Route de Casablanca,
+    Marrakech", tel 05 24 29 13 33; part of the Motobox Piaggio Group network incl.
+    Moto Guzzi. Source: https://motobox.ma/franchises/ (fetched 2026-08-22). lat/lon
+    street-level geocode of the stated road (31.6725, -8.0061), "Km 14" not pinpointed.'
+last_verified: 2026-08-22
+verified_by: claude-zai-nafrica
+status: active

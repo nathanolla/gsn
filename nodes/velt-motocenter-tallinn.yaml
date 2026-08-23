@@ -1,0 +1,37 @@
+id: velt-motocenter-tallinn
+name: Velt Motocenter
+city: Tallinn
+state: Harju maakond
+country: EE
+lat: 59.4184316
+lon: 24.6801642
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+- beta
+- cfmoto
+functions:
+- sales
+- service
+- parts
+url: https://www.veltmotocenter.ee/mootorrattad-moto-guzzi-mudelivalik
+phone: +372 5650 0509
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Velt Motocenter (legal entity HT Motors Baltic OÜ, Laki 16, 10621 Tallinn,
+    reg nr 12027398) sells new Moto Guzzi with live inventory on the brand page: V85
+    Strada 850, V7 Special Red Stripe, demo V100 Mandello and Stelvio 1000 with prices
+    and financing (fetched 2026-08-22). Also Aprilia/Vespa/Piaggio/Beta/CFMOTO dealer;
+    workshop, spare parts, test rides; second location in Tartu. Sales Tallinn +372
+    5650 0509 / +372 5199 9799, parts +372 564 4204, service +372 5665 7255, info@veltmotocenter.ee.
+    Sources: https://www.veltmotocenter.ee/mootorrattad-moto-guzzi-mudelivalik and
+    https://www.veltmotocenter.ee/kontakt'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

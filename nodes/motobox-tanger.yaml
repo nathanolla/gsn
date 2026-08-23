@@ -1,0 +1,31 @@
+id: motobox-tanger
+name: Motobox (Tanger)
+city: Tanger
+state: Tanger-Tétouan-Al Hoceïma
+country: MA
+lat: 35.7709
+lon: -5.8122
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- keeway
+- morbidelli
+functions:
+- sales
+url: https://motobox.ma/
+phone: +212 5 39 34 11 79
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Motobox contact + franchises pages list branch: "4 Bd Moulay Youssef, Tanger",
+    tel 05 39 34 11 79; part of the Motobox Piaggio Group network incl. Moto Guzzi
+    (V7/V85/V100/Stelvio). Source: https://motobox.ma/franchises/ (fetched 2026-08-22).
+    lat/lon street-level geocode of the stated boulevard (35.7709, -5.8122).'
+last_verified: 2026-08-22
+verified_by: claude-zai-nafrica
+status: active

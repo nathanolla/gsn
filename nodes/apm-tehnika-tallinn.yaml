@@ -1,0 +1,32 @@
+id: apm-tehnika-tallinn
+name: APM Tehnika OÜ
+city: Tallinn
+state: Harju maakond
+country: EE
+lat: 59.3683304
+lon: 24.6405734
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+- parts
+url: https://motoguzzi.apmoto.ee/
+phone: +372 508 3256
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'APM Tehnika OÜ identifies itself as Moto Guzzi "maaletooja" (importer) for
+    Estonia on its dedicated site motoguzzi.apmoto.ee: sales salon Liipri 3, 10917
+    Tallinn (+372 5083256); service & parts Liipri 1, 10917 Tallinn (+372 55537762);
+    info@apmoto.ee. CAVEAT: the site''s model menu shows a legacy lineup (V7 III,
+    V9, Audace, MGX-21, Eldorado, California — models discontinued years ago) and
+    no 2025–2026 activity references were found in search, so current importer status
+    is unconfirmed; Velt Motocenter and Motokeskus also actively sell Guzzi in Estonia.
+    Source: https://motoguzzi.apmoto.ee/kontakt/ (fetched 2026-08-22).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: unverified

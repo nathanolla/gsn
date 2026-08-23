@@ -1,0 +1,34 @@
+id: motomaxx-nove-zamky
+name: MOTOMAXX
+city: Nové Zámky
+state: Nitriansky kraj
+country: SK
+lat: 47.9776607
+lon: 18.1780897
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- qj-motor
+- vespa
+functions:
+- sales
+- service
+- parts
+url: https://www.motomaxx.sk/znacka-moto/moto-guzzi
+phone: +421 903 456 125
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'MOTOMAXX, Komárňanská cesta 78, Nové Zámky — dealer for Aprilia, Moto Guzzi,
+    Piaggio, QJ Motor, Vespa. Brand page lists current Moto Guzzi Stelvio, V100 Mandello,
+    V85 TT and V7 with test rides; offers moto service, chassis/suspension service,
+    tuning, rentals. Contacts: +421 903 456 125, +421 356 402 556, motomaxx@motomaxx.sk.
+    Source: https://www.motomaxx.sk/znacka-moto/moto-guzzi (fetched 2026-08-22; site
+    footer 2025).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

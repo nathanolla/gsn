@@ -71,3 +71,20 @@ Sources checked: Moto Guzzi official website (motoguzzi.com/vn_EN/ — blocked b
 ## Russia / Ukraine / CIS (GLM lane, 2026-08-22)
 
 **REGION REPORT: Georgia, Armenia, Azerbaijan, Uzbekistan, Kyrgyzstan, Moldova**
+
+
+## CEE gaps + North Africa (GLM lanes, 2026-08-23)
+
+**REGION REPORT: Tunisia**
+
+**REGION REPORT: Egypt**
+
+**REGION REPORT: Libya**
+
+**REGION REPORT: Moldova
+Sources checked (2026-08-22): DDG via reader proxy for "Moto Guzzi Moldova Chișinău dealer" and "Moto Guzzi serviciu club Moldova"; fetched motoland.md (Guzzi product pages + contacts); reviewed leads g-moto.md, motolider.md, motodrive.md, ryx-moto.md (general moto dealers/service, none Guzzi-branded); classifieds 999.md and motors.md show only private used-bike listings; motoguzzi.com/ro_RO is the global site (no MD dealer list accessible; 403 for fetchers, 1 attempt only).
+Conclusion: MOTOLAND (Chișinău) is the only verifiable point of new Moto Guzzi sales (+ service) in Moldova; official franchise/importer status unverifiable; no Moto Guzzi-specific club or specialist workshop found — thin market, honest empty beyond MOTOLAND.**
+
+**REGION REPORT: North Macedonia
+Sources checked (2026-08-22): DDG via reader proxy ("Moto Guzzi North Macedonia Skopje dealer", club search, address searches); fetched dynamix.mk (brands + locations), gsgmoto.mk and skymoto.com.mk (no Moto Guzzi); Pazar3.mk classifieds show private Guzzi listings only; revieweuro directory listing exists but is Cloudflare-blocked (details taken from search index); motoguzzi.com dealer-locator 403 for fetchers (no attempt wasted — 0 direct tries, relied on indexed dealer sites).
+Conclusion: Dynamix (Skopje, two locations) is the only verifiable Moto Guzzi sales point; Moto Guzzi Club MKD Makedonija is a small verifiable Facebook community; no Guzzi-specific independent specialist found — thin market beyond these two.**

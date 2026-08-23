@@ -1,0 +1,39 @@
+id: dynamix-skopje
+name: Dynamix
+city: Skopje
+state: Grad Skopje
+country: MK
+lat: 41.9762343
+lon: 21.5492848
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+- bmw-motorrad
+- kawasaki
+- benelli
+- moto-morini
+- sym
+functions:
+- sales
+- service
+url: https://www.dynamix.mk/
+phone: +389 76 948 008
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Dynamix — Skopje motorcycle dealership; brands page lists Moto Guzzi among
+    cooperating brands (with Aprilia, BMW Motorrad, Kawasaki, Benelli, Moto Morini,
+    Piaggio, Vespa, Malossi, Nolan etc.), © 2025. Locations per dynamix.mk/locations/:
+    Улица 1732 Br. 2 Lokal 9, Skopje 1000 (+389 76 948 008, hello@dynamix.com) and
+    Улица Skupi 18, Skopje 1000 (+389 71 262 227). Facebook page ~49,211 likes and
+    active (DDG-indexed). NOTE: lat/lon is a street-level centroid of "Улица 1732"
+    from OSM (building-level geocode unavailable). Sources: https://www.dynamix.mk/brands/
+    and https://www.dynamix.mk/locations/ (fetched 2026-08-22).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

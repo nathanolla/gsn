@@ -1,0 +1,36 @@
+id: italmoto-zilina
+name: ITAL MOTO s.r.o.
+city: Žilina
+state: Žilinský kraj
+country: SK
+lat: 49.2210123
+lon: 18.7535223
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+- gilera
+functions:
+- sales
+- service
+- parts
+url: https://www.italmoto.sk/
+phone: +421 41 700 1000
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'ITAL MOTO s.r.o., M.R. Štefánika 201, 010 01 Žilina (branch shop: Rebarborova
+    1c, 821 07 Bratislava) states "Stali sme sa novým importérom motocyklov Moto Guzzi
+    pre Slovenskú republiku" (we became the new importer of Moto Guzzi motorcycles
+    for the Slovak Republic) and is exclusive importer of Aprilia, Vespa, Piaggio,
+    Gilera for Slovakia, with spare-parts and service-support contacts (parts +421
+    905 229 433; service +421 905 351 296; Bratislava shop +421 918 323 233). Source:
+    https://www.italmoto.sk/motocykel/ (fetched 2026-08-22; Guzzi subpage was in maintenance
+    mode on same date — importer status should be re-checked when site is fully back).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

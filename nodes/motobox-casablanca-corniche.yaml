@@ -1,0 +1,32 @@
+id: motobox-casablanca-corniche
+name: Motobox (Casablanca Corniche)
+city: Casablanca
+state: Casablanca-Settat
+country: MA
+lat: 33.5961
+lon: -7.6668
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- keeway
+- morbidelli
+functions:
+- sales
+url: https://motobox.ma/
+phone: +212 5 22 36 70 97
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'Motobox contact page lists branch: "Residence Dyar 4, Bd de la Corniche,
+    Casablanca", tel 05 22 36 70 97; part of the Motobox Piaggio/Aprilia/Vespa/Moto
+    Guzzi network (Guzzi V7/V85/V100/Stelvio sold). Source: https://motobox.ma/contact/
+    (fetched 2026-08-22). lat/lon street-level geocode of the stated boulevard (33.5961,
+    -7.6668), exact building not pinpointed.'
+last_verified: 2026-08-22
+verified_by: claude-zai-nafrica
+status: active

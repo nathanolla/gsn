@@ -1,0 +1,30 @@
+id: moto-servis-ab-sarajevo
+name: Moto Servis AB d.o.o.
+city: Sarajevo
+state: Kanton Sarajevo
+country: BA
+lat: 43.8571
+lon: 18.4126
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- service
+url: https://olx.ba/artikal/40403183/moto-servis-ab-d-o-o-sarajevo-piaggio-group/
+phone: ''
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'PIK.ba/OLX.ba classifieds listing "Moto Servis AB d.o.o Sarajevo Piaggio
+    Group" — moto service in Sarajevo (Stari Grad area) branded around Piaggio Group
+    products; shop account MotoAB_Shop holds a 10+ years-on-PIK badge with verified
+    phone, email and postal address (contacts gated behind login). Listing renewed
+    2023-05-20 — CURRENT ACTIVITY UNCONFIRMED; no street address stated in the listing,
+    so lat/lon are 0.0 by rule (city-level only: Sarajevo, Stari Grad).'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: unverified
+geocode: city-centroid

@@ -111,6 +111,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     18.3375945,
+     43.8522319
+    ]
+   },
+   "properties": {
+    "id": "aci-sarajevo",
+    "name": "A.C.I. d.o.o. (Auto Centar Italy)",
+    "city": "Sarajevo",
+    "state": "Kanton Sarajevo",
+    "country": "BA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "honda",
+     "zontes"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://aci.ba/",
+    "phone": "+387 33 712 000",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "A.C.I. d.o.o. (Auto Centar Italy), Safeta Zajke 175, 71000 Sarajevo — \"Ovlašteni smo prodavac i serviser brendova ... PIAGGIO, VESPA, APRILIA, MOTO GUZZI\" (authorized seller and servicer incl. Moto Guzzi); original spare parts; showroom + service centre; Piaggio Group news active on site (e.g. Piaggio Beverly 310 item, 2025-12-17). Contact: prodaja@aci.ba / servis@aci.ba / info@aci.ba, ph 033-712-000. Source: https://aci.ba/ and https://aci.ba/?page_id=7 (fetched 2026-08-22)."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "The official Piaggio Group site for BiH (piaggiogroup.ba, \"Oficijalna stranica za BiH\") states that Piaggio Group entered BiH with a direct importer/distributor and authorized servicer, and that the authorized houses for BiH are \"A.C.I. Sarajevo i MARKETAUTO Laktaši\". Site was returning 503 on direct fetch (2026-08-22, tried direct + reader proxy); quoted from the search-engine index of piaggiogroup.ba/moto-guzzi/."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -3.409998,
      53.19245
     ]
@@ -738,6 +789,51 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     19.7979881,
+     41.3177856
+    ]
+   },
+   "properties": {
+    "id": "amt-tirana",
+    "name": "Albania Moto Technic (AMT)",
+    "city": "Tiranë",
+    "state": "Qarku i Tiranës",
+    "country": "AL",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "voge"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://amt.al/",
+    "phone": "+355 69 20 95 633",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Albania Moto Technic (AMT) — main office Rr. \"Isuf Banka 02\" / \"Haxhi Isuf Banka 1020\", Tiranë; tel/fax +355 4 2244 009, mob +355 69 40 54 202, sales +355 69 20 95 633, info@amt.al. Self-described leader in auto/moto parts trading; site menu offers Piaggio Group motorcycles (Piaggio, Vespa, Aprilia, Moto Guzzi) with a dedicated Moto Guzzi category page (amt.al/?page_id=5391), plus motorcycle parts, used bikes and Piaggio commercial vehicles. Official Piaggio distributor status for Albania is claimed by site structure but not independently confirmed. Sources: https://amt.al/ and https://amt.al/?page_id=5391 (fetched 2026-08-22)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -77.6603,
      39.4459
     ]
@@ -876,6 +972,47 @@
       "date": "2026-04-15",
       "method": "official-locator",
       "fact": "official Moto Guzzi dealer-locator page for 'ap-motorcycles', Farnborough (snapshot 2026-04-15, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260415103641/https://www.motoguzzi.com/gb_EN/dealer-locator/farnborough/ap-motorcycles/ ; apmotorcycles.com/.co.uk not found in DNS on 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.6405734,
+     59.3683304
+    ]
+   },
+   "properties": {
+    "id": "apm-tehnika-tallinn",
+    "name": "APM Tehnika OÜ",
+    "city": "Tallinn",
+    "state": "Harju maakond",
+    "country": "EE",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://motoguzzi.apmoto.ee/",
+    "phone": "+372 508 3256",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "unverified",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "APM Tehnika OÜ identifies itself as Moto Guzzi \"maaletooja\" (importer) for Estonia on its dedicated site motoguzzi.apmoto.ee: sales salon Liipri 3, 10917 Tallinn (+372 5083256); service & parts Liipri 1, 10917 Tallinn (+372 55537762); info@apmoto.ee. CAVEAT: the site's model menu shows a legacy lineup (V7 III, V9, Audace, MGX-21, Eldorado, California — models discontinued years ago) and no 2025–2026 activity references were found in search, so current importer status is unconfirmed; Velt Motocenter and Motokeskus also actively sell Guzzi in Estonia. Source: https://motoguzzi.apmoto.ee/kontakt/ (fetched 2026-08-22)."
      }
     ]
    }
@@ -4489,6 +4626,54 @@
       "date": "2026-08-18",
       "method": "website",
       "fact": "Re-check: site live; Moto Guzzi inventory showroom link; 2027 model-year references; phone matches node."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.5492848,
+     41.9762343
+    ]
+   },
+   "properties": {
+    "id": "dynamix-skopje",
+    "name": "Dynamix",
+    "city": "Skopje",
+    "state": "Grad Skopje",
+    "country": "MK",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa",
+     "bmw-motorrad",
+     "kawasaki",
+     "benelli",
+     "moto-morini",
+     "sym"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.dynamix.mk/",
+    "phone": "+389 76 948 008",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Dynamix — Skopje motorcycle dealership; brands page lists Moto Guzzi among cooperating brands (with Aprilia, BMW Motorrad, Kawasaki, Benelli, Moto Morini, Piaggio, Vespa, Malossi, Nolan etc.), © 2025. Locations per dynamix.mk/locations/: Улица 1732 Br. 2 Lokal 9, Skopje 1000 (+389 76 948 008, hello@dynamix.com) and Улица Skupi 18, Skopje 1000 (+389 71 262 227). Facebook page ~49,211 likes and active (DDG-indexed). NOTE: lat/lon is a street-level centroid of \"Улица 1732\" from OSM (building-level geocode unavailable). Sources: https://www.dynamix.mk/brands/ and https://www.dynamix.mk/locations/ (fetched 2026-08-22)."
      }
     ]
    }
@@ -8224,6 +8409,51 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     18.7535223,
+     49.2210123
+    ]
+   },
+   "properties": {
+    "id": "italmoto-zilina",
+    "name": "ITAL MOTO s.r.o.",
+    "city": "Žilina",
+    "state": "Žilinský kraj",
+    "country": "SK",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "gilera"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.italmoto.sk/",
+    "phone": "+421 41 700 1000",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "ITAL MOTO s.r.o., M.R. Štefánika 201, 010 01 Žilina (branch shop: Rebarborova 1c, 821 07 Bratislava) states \"Stali sme sa novým importérom motocyklov Moto Guzzi pre Slovenskú republiku\" (we became the new importer of Moto Guzzi motorcycles for the Slovak Republic) and is exclusive importer of Aprilia, Vespa, Piaggio, Gilera for Slovakia, with spare-parts and service-support contacts (parts +421 905 229 433; service +421 905 351 296; Bratislava shop +421 918 323 233). Source: https://www.italmoto.sk/motocykel/ (fetched 2026-08-22; Guzzi subpage was in maintenance mode on same date — importer status should be re-checked when site is fully back)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      6.2283,
      45.4935
     ]
@@ -10042,6 +10272,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     17.2670676,
+     44.8706939
+    ]
+   },
+   "properties": {
+    "id": "marketauto-laktasi",
+    "name": "MARKETAUTO d.o.o.",
+    "city": "Laktaši (Glamočani)",
+    "state": "Republika Srpska",
+    "country": "BA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "honda",
+     "zontes"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://marketauto.ba/",
+    "phone": "+387 51 507 330",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "MARKETAUTO d.o.o., Svetosavska 221., Glamočani, 78252 Laktaši — authorized seller and servicer for Piaggio, Vespa, Aprilia and Moto Guzzi (plus Fiat-group cars, Honda, Zontes motorcycles); salon +387 51 507 349/344, servis +387 51 508 606, info@marketauto.ba; hours Mon-Fri 08-16, Sat 08-14. Source: https://marketauto.ba/ and https://marketauto.ba/?page_id=10 (fetched 2026-08-22)."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Named by the official Piaggio Group BiH site (piaggiogroup.ba, search-indexed 2026-08-22; direct fetch 503) as one of the two \"ovlaštene kuće\" (authorized houses) for BiH, alongside A.C.I. Sarajevo."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -0.3676,
      49.2271
     ]
@@ -10980,6 +11261,50 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     19.7926539,
+     41.3378476
+    ]
+   },
+   "properties": {
+    "id": "moto-italia-tirana",
+    "name": "Moto Italia",
+    "city": "Tiranë",
+    "state": "Qarku i Tiranës",
+    "country": "AL",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.merrjep.al/moto-italia",
+    "phone": "+355 68 571 1111",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Moto Italia, Rruga Dritan Hoxha, Tiranë 1001 (ph 068 571 1111) — Trusted Seller shop profile on Albania's main classifieds portal (MerrJep.al): \"Motorra te perdorur dhe me 0 km, Pjese kembimi origjinale, Servis i specializuar piaggio, vespa, guzzi, aprilia\" — used and 0-km motorcycles, original spare parts, and specialized service for Piaggio/Vespa/Guzzi/Aprilia. Facebook page active (DDG-indexed activity timestamp 2026-05-27); Instagram @motoitalia.al. Source: https://www.merrjep.al/moto-italia (fetched 2026-08-22); Cybo/gjithebiznesi listings corroborate address but are bot-blocked for direct fetch."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -1.7332,
      48.1007
     ]
@@ -11016,6 +11341,46 @@
       "date": "2026-07-16",
       "method": "community-endorsement",
       "fact": "forumGUZZI.fr independent-mechanics list (viewtopic.php?t=508, mise à jour 16/07/2026), dept 35: « MOTO PASSION 35, 37 bis rue du Manoir de Servigné ZI route de Lorient 35000 Rennes — Ex-concess' Guzzi ! »; lat/lon geocoded from stated address (Nominatim)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.4126,
+     43.8571
+    ]
+   },
+   "properties": {
+    "id": "moto-servis-ab-sarajevo",
+    "name": "Moto Servis AB d.o.o.",
+    "city": "Sarajevo",
+    "state": "Kanton Sarajevo",
+    "country": "BA",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://olx.ba/artikal/40403183/moto-servis-ab-d-o-o-sarajevo-piaggio-group/",
+    "phone": "",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "PIK.ba/OLX.ba classifieds listing \"Moto Servis AB d.o.o Sarajevo Piaggio Group\" — moto service in Sarajevo (Stari Grad area) branded around Piaggio Group products; shop account MotoAB_Shop holds a 10+ years-on-PIK badge with verified phone, email and postal address (contacts gated behind login). Listing renewed 2023-05-20 — CURRENT ACTIVITY UNCONFIRMED; no street address stated in the listing, so lat/lon are 0.0 by rule (city-level only: Sarajevo, Stari Grad)."
      }
     ]
    }
@@ -11454,6 +11819,285 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -7.62,
+     33.5945
+    ]
+   },
+   "properties": {
+    "id": "motobox-casablanca-beausejour",
+    "name": "Motobox (Casablanca Beauséjour — main store)",
+    "city": "Casablanca",
+    "state": "Casablanca-Settat",
+    "country": "MA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "keeway",
+     "morbidelli"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motobox.ma/",
+    "phone": "+212 5 22 98 99 61",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-nafrica",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Motobox lists itself as dealer for Piaggio, Aprilia, Vespa, Moto Guzzi (V7, V85, V100, Stelvio model pages live), Keeway and Morbidelli. Contact page lists Casablanca Beauséjour store: Bd Omar Al Khayam (face au CAFC), tel 05 22 98 99 61, plus 5 more branches (Corniche, Oulfa, Bélvédère, Tanger, Marrakech). Site copyright 2024. Source: https://motobox.ma/ and https://motobox.ma/contact/ (fetched 2026-08-22). lat/lon: 0.0 — street geocode of stated address returned no match."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Moto Guzzi brand page shows current sales activity: Stelvio promo \"20.000 Dh de remise immédiate\" and V7 Stone Ten feature. Source: https://motobox.ma/marque/moto-guzzi/ (fetched 2026-08-22). Workshop/service not explicitly evidenced on site."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Piaggio Group magazine (16 Sep 2017) identifies SEHI GROUP as the Piaggio Group importer in Morocco and MOTOBOX as the large Casablanca store for \"Piaggio, Vespa, Aprilia e Moto Guzzi\" that hosted the Vespa Day start. Source: https://wide.piaggiogroup.com/articles/community/casablanca-successo-del-vespa-day/index.html (fetched 2026-08-22)."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Moroccan moto community site dadas-bike.com carries a classified ad (published 15/11/2024) by advertiser \"Motobox Piaggio\", Casablanca, tel 0652177799, offering \"MOTO GUZZI V7 STONE WW, 2 ANS GARANTIS, TOUTES LES COULEURS DISPONIBLES\". Source: https://www.dadas-bike.com/annonces-moto/motos/moto-guzzi-v7-stone-ww-%E2%80%93-2-ans-de-garantie-toutes-les-couleurs-disponibles-2066 (fetched 2026-08-22)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -7.62,
+     33.5945
+    ]
+   },
+   "properties": {
+    "id": "motobox-casablanca-belvedere",
+    "name": "Motobox (Casablanca Bélvédère)",
+    "city": "Casablanca",
+    "state": "Casablanca-Settat",
+    "country": "MA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "keeway",
+     "morbidelli"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motobox.ma/",
+    "phone": "+212 6 65 60 43 34",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-nafrica",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Motobox contact page lists branch: \"1 Rue Sijilmassa, Bélvédère, Casablanca\", tel 06 65 60 43 34; part of the Motobox Piaggio Group network incl. Moto Guzzi. Source: https://motobox.ma/contact/ (fetched 2026-08-22). lat/lon: 0.0 — street geocode of stated address returned no match."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -7.6668,
+     33.5961
+    ]
+   },
+   "properties": {
+    "id": "motobox-casablanca-corniche",
+    "name": "Motobox (Casablanca Corniche)",
+    "city": "Casablanca",
+    "state": "Casablanca-Settat",
+    "country": "MA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "keeway",
+     "morbidelli"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motobox.ma/",
+    "phone": "+212 5 22 36 70 97",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-nafrica",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Motobox contact page lists branch: \"Residence Dyar 4, Bd de la Corniche, Casablanca\", tel 05 22 36 70 97; part of the Motobox Piaggio/Aprilia/Vespa/Moto Guzzi network (Guzzi V7/V85/V100/Stelvio sold). Source: https://motobox.ma/contact/ (fetched 2026-08-22). lat/lon street-level geocode of the stated boulevard (33.5961, -7.6668), exact building not pinpointed."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -7.62,
+     33.5945
+    ]
+   },
+   "properties": {
+    "id": "motobox-casablanca-oulfa",
+    "name": "Motobox (Casablanca Oulfa)",
+    "city": "Casablanca",
+    "state": "Casablanca-Settat",
+    "country": "MA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "keeway",
+     "morbidelli"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motobox.ma/",
+    "phone": "+212 6 60 52 14 15",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-nafrica",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Motobox contact page lists branch: \"78 Ave Mohamed Taieb Naciri (Tayeb), Casablanca 20240\", tel 06 60 52 14 15; part of the Motobox Piaggio Group network incl. Moto Guzzi. Source: https://motobox.ma/contact/ (fetched 2026-08-22). lat/lon: 0.0 — street geocode of stated address returned no match."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -8.0061,
+     31.6725
+    ]
+   },
+   "properties": {
+    "id": "motobox-marrakech",
+    "name": "Motobox (Marrakech)",
+    "city": "Marrakech",
+    "state": "Marrakech-Safi",
+    "country": "MA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "keeway",
+     "morbidelli"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motobox.ma/",
+    "phone": "+212 5 24 29 13 33",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-nafrica",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Motobox contact + franchises pages list branch: \"Km 14, Route de Casablanca, Marrakech\", tel 05 24 29 13 33; part of the Motobox Piaggio Group network incl. Moto Guzzi. Source: https://motobox.ma/franchises/ (fetched 2026-08-22). lat/lon street-level geocode of the stated road (31.6725, -8.0061), \"Km 14\" not pinpointed."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.8122,
+     35.7709
+    ]
+   },
+   "properties": {
+    "id": "motobox-tanger",
+    "name": "Motobox (Tanger)",
+    "city": "Tanger",
+    "state": "Tanger-Tétouan-Al Hoceïma",
+    "country": "MA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "keeway",
+     "morbidelli"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motobox.ma/",
+    "phone": "+212 5 39 34 11 79",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-zai-nafrica",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Motobox contact + franchises pages list branch: \"4 Bd Moulay Youssef, Tanger\", tel 05 39 34 11 79; part of the Motobox Piaggio Group network incl. Moto Guzzi (V7/V85/V100/Stelvio). Source: https://motobox.ma/franchises/ (fetched 2026-08-22). lat/lon street-level geocode of the stated boulevard (35.7709, -5.8122)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      15.8883,
      50.2187
     ]
@@ -11589,6 +12233,45 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "Yelp listing shows 250+ reviews and 521 photos. [source: https://html.duckduckgo.com/html/?q=%22MotoClub%22+3770+Motor+Ave+Los+Angeles+Moto+Guzzi+Aprilia]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.2808531,
+     54.723515
+    ]
+   },
+   "properties": {
+    "id": "motodnr-vilnius",
+    "name": "MOTO DNR, MB",
+    "city": "Vilnius",
+    "state": "Vilniaus m. savivaldybė",
+    "country": "LT",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "parts"
+    ],
+    "url": "https://motodnr.lt/brand/moto-guzzi",
+    "phone": "+370 603 444 34",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "MOTO DNR, MB — Vilnius moto parts/gear retailer, Kalvarijų g. 206, LT-08314 Vilnius, +370 603 444 34, info@motodnr.lt. Maintains a dedicated Moto Guzzi brand page (motodnr.lt/brand/moto-guzzi) listing Guzzi among stocked brands. CAVEAT: direct fetch of the page is Cloudflare-blocked for this fetcher (also via reader proxy); details confirmed from the search-engine index of the same URL (DuckDuckGo via jina reader, 2026-08-22). Inventory depth for Guzzi parts unverified."
      }
     ]
    }
@@ -11779,6 +12462,56 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     24.0022934,
+     56.9402123
+    ]
+   },
+   "properties": {
+    "id": "motofavorits-riga",
+    "name": "SIA Motofavorīts",
+    "city": "Rīga",
+    "state": "Rīga",
+    "country": "LV",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "suzuki",
+     "ktm",
+     "indian"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motoguzzi.lv/",
+    "phone": "+371 6789 2256",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "SIA \"Motofavorīts\", Valgales iela 2a, Rīga LV-1029 (+371 67892256, info@motofavorits.lv) operates the dedicated Latvian Moto Guzzi site motoguzzi.lv listing the full current lineup (V7 Stone/Special/Sport, V100 Mandello family, V85 TT/Travel/Strada, Stelvio 1000, Duecento Tributo). Fresh dealer news on the site: \"Moto Guzzi World Days 2026\" (2026-08-03) and up-to-4-year commercial warranty on selected Piaggio Group models (2026-07-07); motorcycle storage/transport services; service section. © 2025 SIA Motofavorīts. Sources: https://www.motoguzzi.lv/ and https://www.motofavorits.lv/ (fetched 2026-08-22)."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Motofavorīts runs a parts/accessories e-shop at motoveikals.lv with a Moto Guzzi brand catalogue including original (Oriģināldaļas) Guzzi parts in stock; parts store address K.Ulmaņa gatve 21, Rīga LV-1004, +371 25626667. Source: https://motoveikals.lv/moto-guzzi (fetched 2026-08-22)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      12.2587397,
      45.6652091
     ]
@@ -11901,6 +12634,94 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     17.1678762,
+     48.1494824
+    ]
+   },
+   "properties": {
+    "id": "motogroup-bratislava",
+    "name": "MOTOGROUP SK s.r.o.",
+    "city": "Bratislava",
+    "state": "Bratislavský kraj",
+    "country": "SK",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motogroup.sk/",
+    "phone": "+421 917 960 600",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "MOTOGROUP, Mierová 139, 821 05 Bratislava, sells new Aprilia, Moto Guzzi, Piaggio and Vespa motorcycles; runs a workshop (warranty and post-warranty service, Öhlins/Andreani suspension service), spare parts, motorcycle winter storage and STK inspection prep. Sales +421 917 960 600 / motogroup@motogroup.sk; service +421 917 970 600. Source: https://www.motogroup.sk/ and https://www.motogroup.sk/kontakt/ (fetched 2026-08-22)."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "official-locator",
+      "fact": "Search-engine index (Brave, 2026-08-22) surfaces the official Moto Guzzi Slovak dealer-locator entry \"MOTOGROUP SK s.r.o.\", Bratislava, at motoguzzi.com/sk_SK/dealer-locator/bratislava/motogroup-sk-s-r-o/. Direct fetch of motoguzzi.com is 403-blocked for this fetcher (1 attempt made), so this observation relies on the indexed locator URL, not a direct read."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     19.8824,
+     41.1793
+    ]
+   },
+   "properties": {
+    "id": "motoguzzi-albania-community",
+    "name": "Moto Guzzi Albania (community)",
+    "city": "",
+    "state": "",
+    "country": "AL",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "community"
+    ],
+    "url": "https://www.instagram.com/moto.guzzi.albania/",
+    "phone": "",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Instagram @moto.guzzi.albania — bio: \"Komuniteti zyrtar MotoGuzzi në Shqipëri — Bashkohu me riders, evente dhe pasionin për Moto Guzzi\" (self-described official Moto Guzzi community in Albania; riders, events). 102 followers, 6 posts (DDG-indexed profile data, 2026-08-22; direct IG fetch requires login). Tiny/emerging community — \"official\" claim is self-declared, not verified with AMT/Piaggio. No physical address stated, hence lat/lon 0.0."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -63.2006,
      -17.7559
     ]
@@ -11936,6 +12757,45 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Used-market context: Facebook Marketplace Santa Cruz listing of a Guzzi California 1400 via Powersport Vehicles; no club or independent Guzzi workshop found elsewhere in Bolivia (searches returned only spec aggregators bikersbuddy/motowheeler and wanuncios classifieds)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.7168,
+     41.6171
+    ]
+   },
+   "properties": {
+    "id": "motoguzzi-club-mkd",
+    "name": "Moto Guzzi Club MKD Makedonija",
+    "city": "",
+    "state": "",
+    "country": "MK",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "community"
+    ],
+    "url": "https://www.facebook.com/MotoGuzziClubMKDMakedonija/",
+    "phone": "",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Facebook page \"Moto Guzzi Club MKD Makedonija\" — 149 likes; bio: \"За оние кои сакаат да се тркалаат на две тркала, а помеѓу нив да стои Moto Guzzi машина ;)\" (for those who love riding on two wheels with a Moto Guzzi between them). Search-indexed activity timestamp 2025-04-24 (direct FB fetch not possible for this fetcher). Small national community; no physical address stated, hence lat/lon 0.0."
      }
     ]
    }
@@ -12311,6 +13171,50 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     24.744525,
+     59.4193109
+    ]
+   },
+   "properties": {
+    "id": "motokeskus-tallinn",
+    "name": "Motokeskus MC OÜ",
+    "city": "Tallinn",
+    "state": "Harju maakond",
+    "country": "EE",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "harley-davidson",
+     "royal-enfield",
+     "ural"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motokeskus.ee/et/motoguzzi",
+    "phone": "+372 656 7252",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "OÜ Motokeskus MC, Pärnu mnt 154, Tallinn (tel +372 656 7252, GSM +372 501 3902) maintains a Moto Guzzi brand page with a price list (\"Hinnakiri — hinnad sisaldavad käibemaksu... Moto Guzzi garantii 2 aastat\" — prices incl. VAT, 2-year Moto Guzzi warranty, implying authorized sales). Multi-brand dealer (also Harley-Davidson, Royal Enfield, URAL) with service/parts departments. Source: https://www.motokeskus.ee/et/motoguzzi and https://www.motokeskus.ee/et/motoguzzi/hinnad (fetched 2026-08-22)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      5.7138,
      45.1584
     ]
@@ -12348,6 +13252,48 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Official Moto Guzzi FR locator (API fr/G): MOTOLABO, 2 Rue de Bretagne, 38130 Échirolles, type=dealers,services, dealerCd FR7U23."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.8497853,
+     47.0343161
+    ]
+   },
+   "properties": {
+    "id": "motoland-chisinau",
+    "name": "MOTOLAND",
+    "city": "Chișinău",
+    "state": "Chișinău",
+    "country": "MD",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "yamaha"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://motoland.md/ro/",
+    "phone": "+373 79 923 304",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "MOTOLAND, str. Pietrăriei 3A, Chișinău (\"Motoland este expertul tău în domeniul motociclismului din Moldova\") sells NEW current-model Moto Guzzi in stock with financing — V7 Special (197,888 MDL / €9,797, 5% discount) and Stelvio 2024 (325,214 MDL / €16,100) — alongside Yamaha and other brands; runs a service department (Programare service) and parts sales. Sales phones +373 79 923 304/306/309, service +373 79 923 301, contact@motoland.md. NOTE: no Piaggio/Moto Guzzi official importer could be verified for Moldova, so franchise status is unverified — treated as independent new-bike dealer. Sources: https://motoland.md/ro/product/moto-guzzi-v7-special and https://motoland.md/ro/product/moto-guzzi-stelvio (fetched 2026-08-22)."
      }
     ]
    }
@@ -12484,6 +13430,51 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"MOTOMANU\"; address: Via Roma 161, 30030 Salzano (VE); type=services; dealerCd=IT479Z; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.1780897,
+     47.9776607
+    ]
+   },
+   "properties": {
+    "id": "motomaxx-nove-zamky",
+    "name": "MOTOMAXX",
+    "city": "Nové Zámky",
+    "state": "Nitriansky kraj",
+    "country": "SK",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "qj-motor",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.motomaxx.sk/znacka-moto/moto-guzzi",
+    "phone": "+421 903 456 125",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "MOTOMAXX, Komárňanská cesta 78, Nové Zámky — dealer for Aprilia, Moto Guzzi, Piaggio, QJ Motor, Vespa. Brand page lists current Moto Guzzi Stelvio, V100 Mandello, V85 TT and V7 with test rides; offers moto service, chassis/suspension service, tuning, rentals. Contacts: +421 903 456 125, +421 356 402 556, motomaxx@motomaxx.sk. Source: https://www.motomaxx.sk/znacka-moto/moto-guzzi (fetched 2026-08-22; site footer 2025)."
      }
     ]
    }
@@ -19470,6 +20461,52 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     24.6801642,
+     59.4184316
+    ]
+   },
+   "properties": {
+    "id": "velt-motocenter-tallinn",
+    "name": "Velt Motocenter",
+    "city": "Tallinn",
+    "state": "Harju maakond",
+    "country": "EE",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio",
+     "beta",
+     "cfmoto"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.veltmotocenter.ee/mootorrattad-moto-guzzi-mudelivalik",
+    "phone": "+372 5650 0509",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "Velt Motocenter (legal entity HT Motors Baltic OÜ, Laki 16, 10621 Tallinn, reg nr 12027398) sells new Moto Guzzi with live inventory on the brand page: V85 Strada 850, V7 Special Red Stripe, demo V100 Mandello and Stelvio 1000 with prices and financing (fetched 2026-08-22). Also Aprilia/Vespa/Piaggio/Beta/CFMOTO dealer; workshop, spare parts, test rides; second location in Tartu. Sales Tallinn +372 5650 0509 / +372 5199 9799, parts +372 564 4204, service +372 5665 7255, info@veltmotocenter.ee. Sources: https://www.veltmotocenter.ee/mootorrattad-moto-guzzi-mudelivalik and https://www.veltmotocenter.ee/kontakt"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -99.1785,
      19.4062
     ]
@@ -19651,6 +20688,55 @@
       "date": "2026-07-26",
       "method": "official-locator",
       "fact": "Listed on the official Moto Guzzi US dealer locator as \"Moto Guzzi Marietta\" (Marietta, GA); type=dealers; verified 2026-07-26."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.2710287,
+     54.6994073
+    ]
+   },
+   "properties": {
+    "id": "vetaka-vilnius",
+    "name": "UAB VeTaKa",
+    "city": "Vilnius",
+    "state": "Vilniaus m. savivaldybė",
+    "country": "LT",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://aprilia.lt/",
+    "phone": "+370 5 219 5574",
+    "last_verified": "2026-08-22",
+    "verified_by": "claude-lane-cee",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "observations": [
+     {
+      "date": "2026-08-22",
+      "method": "website",
+      "fact": "UAB VeTaKa, Lvivo g. 75, Vilnius — \"Oficialus Vespa motorolerių ir Piaggio Group atstovas Lietuvoje\" (official Piaggio Group representative in Lithuania, 15+ years). Sells new Moto Guzzi Stelvio, V100 Mandello, V7 and V85 plus Aprilia/Vespa/Piaggio; certified service, original parts (servisas@aprilia.lt, +370 609 77222); sales +370 684 688 55, info@aprilia.lt. 2026 price list published (Kainynas_2026-05-28.pdf). © 2026 UAB Vetaka. Source: https://aprilia.lt/ and https://aprilia.lt/motociklai-ir-motoroleriai/moto-guzzi/ (fetched 2026-08-22)."
+     },
+     {
+      "date": "2026-08-22",
+      "method": "community-endorsement",
+      "fact": "Lithuanian company registry aggregator rekvizitai.vz.lt lists VeTaKa, UAB as \"Oficialus PVG-Group atstovas Lietuvai\" for Aprilia, Moto Guzzi, Piaggio and Vespa motorcycles/scooters, corroborating importer status. Source: https://rekvizitai.vz.lt/imone/vetaka/ (DDG-indexed snippet, 2026-08-22)."
      }
     ]
    }
@@ -20397,6 +21483,6 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 441
+  "count": 465
  }
 }

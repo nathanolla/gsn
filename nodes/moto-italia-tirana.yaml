@@ -1,0 +1,35 @@
+id: moto-italia-tirana
+name: Moto Italia
+city: Tiranë
+state: Qarku i Tiranës
+country: AL
+lat: 41.3378476
+lon: 19.7926539
+layer: independent
+capability:
+- full-service
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+- parts
+url: https://www.merrjep.al/moto-italia
+phone: +355 68 571 1111
+observations:
+- date: 2026-08-22
+  method: community-endorsement
+  fact: 'Moto Italia, Rruga Dritan Hoxha, Tiranë 1001 (ph 068 571 1111) — Trusted
+    Seller shop profile on Albania''s main classifieds portal (MerrJep.al): "Motorra
+    te perdorur dhe me 0 km, Pjese kembimi origjinale, Servis i specializuar piaggio,
+    vespa, guzzi, aprilia" — used and 0-km motorcycles, original spare parts, and
+    specialized service for Piaggio/Vespa/Guzzi/Aprilia. Facebook page active (DDG-indexed
+    activity timestamp 2026-05-27); Instagram @motoitalia.al. Source: https://www.merrjep.al/moto-italia
+    (fetched 2026-08-22); Cybo/gjithebiznesi listings corroborate address but are
+    bot-blocked for direct fetch.'
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active

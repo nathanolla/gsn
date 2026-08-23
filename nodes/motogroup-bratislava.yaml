@@ -1,0 +1,39 @@
+id: motogroup-bratislava
+name: MOTOGROUP SK s.r.o.
+city: Bratislava
+state: Bratislavský kraj
+country: SK
+lat: 48.1494824
+lon: 17.1678762
+layer: franchise
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+functions:
+- sales
+- service
+- parts
+url: https://www.motogroup.sk/
+phone: +421 917 960 600
+observations:
+- date: 2026-08-22
+  method: website
+  fact: 'MOTOGROUP, Mierová 139, 821 05 Bratislava, sells new Aprilia, Moto Guzzi,
+    Piaggio and Vespa motorcycles; runs a workshop (warranty and post-warranty service,
+    Öhlins/Andreani suspension service), spare parts, motorcycle winter storage and
+    STK inspection prep. Sales +421 917 960 600 / motogroup@motogroup.sk; service
+    +421 917 970 600. Source: https://www.motogroup.sk/ and https://www.motogroup.sk/kontakt/
+    (fetched 2026-08-22).'
+- date: 2026-08-22
+  method: official-locator
+  fact: Search-engine index (Brave, 2026-08-22) surfaces the official Moto Guzzi Slovak
+    dealer-locator entry "MOTOGROUP SK s.r.o.", Bratislava, at motoguzzi.com/sk_SK/dealer-locator/bratislava/motogroup-sk-s-r-o/.
+    Direct fetch of motoguzzi.com is 403-blocked for this fetcher (1 attempt made),
+    so this observation relies on the indexed locator URL, not a direct read.
+last_verified: 2026-08-22
+verified_by: claude-lane-cee
+status: active
