@@ -68,3 +68,12 @@ def test_no_keyless_carto_tiles_remain():
         t = (ROOT / "site" / rel).read_text()
         assert "cartocdn" not in t and "carto.com" not in t, f"{rel}: carto crept back"
     assert "tile.openstreetmap.org" in (ROOT / "site" / "sw.js").read_text()
+
+def test_tile_requests_send_origin_referrer():
+    # OSM's tile policy requires a Referer; the global no-referrer meta blocked
+    # every tile with a 403 (2026-09-10). strict-origin sends the bare origin
+    # only — the ?home= privacy property survives.
+    t = (ROOT / "site" / "index.html").read_text()
+    i = t.index("L.tileLayer(TILE_URL")
+    assert "referrerPolicy:'strict-origin'" in t[i:i+300], \
+        "tile layer lost its referrerPolicy — OSM will 403 again"

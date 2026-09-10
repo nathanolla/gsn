@@ -12,6 +12,15 @@ localStorage. A location appears in a URL only when you explicitly click **Share
 that is you choosing to share it. Fallback is a typed ZIP/city; there is no IP-geolocation
 anywhere.
 
+## The two referrer carve-outs
+The page runs `no-referrer` globally, with two deliberate, minimal exceptions required
+by the services' usage policies: map-tile requests to OpenStreetMap and geocoding
+requests to Nominatim send the **bare origin only** (`https://guzzisupport.network` —
+no path, no query string). A shared **Share view** URL carries your chosen pin in its
+query string; because only the origin is ever sent, that never reaches OSM. Blocked-
+without-referrer is also why this exception exists at all: OSM's tile policy requires
+sites to identify themselves.
+
 ## What's collected
 Almost nothing.
 - **No accounts, no cookies, no analytics scripts, no tracking.** No cookies means no

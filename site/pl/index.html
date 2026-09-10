@@ -456,7 +456,13 @@ function render(){
   function setTiles(kind){
     // Cross-fade: add the new layer, drop the old one only once new tiles paint —
     // otherwise a theme switch flashes the empty map background before tiles arrive.
-    const nl=L.tileLayer(TILE_URL,{maxZoom:19,attribution:TATTR,className:kind==='dark'?'darktiles':''});
+    // referrerPolicy strict-origin: OSM's tile policy REQUIRES websites to send
+    // a Referer (missing-referer traffic gets 403-blocked — bit us live
+    // 2026-09-10, wiki.openstreetmap.org/wiki/Blocked_tiles). strict-origin
+    // sends ONLY the bare origin over HTTPS — no path, no query, so a shared
+    // ?home= URL still never leaks coordinates to the tile server. Same
+    // privacy carve-out the Nominatim geocode call has always made.
+    const nl=L.tileLayer(TILE_URL,{maxZoom:19,attribution:TATTR,referrerPolicy:'strict-origin',className:kind==='dark'?'darktiles':''});
     const old=tileLayer; tileLayer=nl; nl.addTo(map);
     if(old){ const drop=()=>{ if(map.hasLayer(old)) old.remove(); };
       nl.once('load',drop); setTimeout(drop,4000); }   // hard-drop after 4s if 'load' never fires
