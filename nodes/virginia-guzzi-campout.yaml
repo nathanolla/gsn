@@ -1,0 +1,29 @@
+id: virginia-guzzi-campout
+name: Virginia Moto Guzzi Campout (44th Annual)
+city: Meadows of Dan
+state: VA
+country: US
+lat: 36.734
+lon: -80.404
+layer: event
+capability:
+- event
+brands:
+- moto-guzzi
+functions:
+- rally
+- camping
+event_start: 2026-09-25
+event_end: 2026-09-27
+url: https://www.mgnoc.com/rally_calendar.html
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html,
+    checked 2026-09-10): 44th Annual Virginia Moto Guzzi Campout, September
+    25-27 2026, Willville Motorcycle Campground, 1510 Jeb Stuart Highway,
+    Meadows of Dan VA. Coords venue-approximate. On the Blue Ridge Parkway.'
+last_verified: 2026-09-10
+verified_by: claude
+status: active
+address: Willville Motorcycle Campground, 1510 Jeb Stuart Highway, Meadows of Dan, VA

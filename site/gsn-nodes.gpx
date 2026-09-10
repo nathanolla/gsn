@@ -630,6 +630,11 @@
     <desc>satellite | Wyoming, MI | (616) 855-3660 | https://www.foxpowersports.com | verified 2026-07-26</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="38.2" lon="-84.87">
+    <name>Frankfort Kentucky Moto Guzzi Rally (26th)</name>
+    <desc>event | Frankfort, KY | https://www.mgnoc.com/rally_calendar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="44.4581" lon="7.5581">
     <name>Fratelli Varrone di Sorzana Alessio</name>
     <desc>full-service | Cuneo,  | verified 2026-08-22</desc>
@@ -678,6 +683,11 @@
   <wpt lat="40.561014" lon="8.3210162">
     <name>GIULIO SPANEDDA EREDI SNC</name>
     <desc>full-service | ALGHERO,  | 079-953053 | https://www.motoguzzi.com/it_it/store-locator/alghero/giulio-spanedda-eredi-snc/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="45.916" lon="9.317">
+    <name>GMG — Moto Guzzi World Days</name>
+    <desc>event | Mandello del Lario,  | https://www.motoguzzi.com/en_EN/gmg/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="44.7779" lon="-0.5364">
@@ -743,6 +753,11 @@
   <wpt lat="33.8358" lon="-118.3406">
     <name>GuzziPower (Ed Milich)</name>
     <desc>performance | Torrance, CA | https://guzzipower.com | verified 2026-07-26</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="35.471" lon="-93.466">
+    <name>Guzzis in the Arkansas Ozarks (1st Annual)</name>
+    <desc>event | Clarksville, AR | https://www.mgnoc.com/rally_calendar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="51.1638" lon="10.4478">
@@ -818,6 +833,11 @@
   <wpt lat="47.6465" lon="19.1296">
     <name>IMC Motor — Importőr Motorcenter Kft.</name>
     <desc>full-service | Dunakeszi, None | +36-70-397-2543 | https://imcmotor.hu/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="42.108" lon="-72.078">
+    <name>IMOC Rally (41st Annual)</name>
+    <desc>event | Sturbridge, MA | https://www.imoc.website | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="47.6528" lon="17.6615">
@@ -2120,6 +2140,11 @@
     <desc>heritage | Clayton, NC | (919) 614-5414 | https://www.vintagemotonc.com | verified 2026-07-26</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="36.734" lon="-80.404">
+    <name>Virginia Moto Guzzi Campout (44th Annual)</name>
+    <desc>event | Meadows of Dan, VA | https://www.mgnoc.com/rally_calendar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="50.955" lon="3.81">
     <name>VRA Motors</name>
     <desc>full-service | Oosterzele,  | 0032 9 329 84 18 | https://www.vramotors.be/ | verified 2026-08-22</desc>
@@ -2178,6 +2203,11 @@
   <wpt lat="39.6287" lon="-79.3195">
     <name>Xtreme Powersports &amp; Marine</name>
     <desc>satellite | Accident, MD | (800) 967-7738 | https://www.xps-usa.com/ | verified 2026-07-26</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.808" lon="-72.249">
+    <name>New England Christmas-time at Ye-Olde Garage</name>
+    <desc>event | Storrs, CT | https://www.mgnoc.com/rally_calendar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="41.86664187" lon="12.5304975">

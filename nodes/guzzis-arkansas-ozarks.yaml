@@ -1,0 +1,28 @@
+id: guzzis-arkansas-ozarks
+name: Guzzis in the Arkansas Ozarks (1st Annual)
+city: Clarksville
+state: AR
+country: US
+lat: 35.471
+lon: -93.466
+layer: event
+capability:
+- event
+brands:
+- moto-guzzi
+functions:
+- rally
+- camping
+event_start: 2026-10-09
+event_end: 2026-10-11
+url: https://www.mgnoc.com/rally_calendar.html
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html,
+    checked 2026-09-10): 1st Annual Guzzis in the Arkansas Ozarks, October
+    9-11 2026, So Live So Ride Camp, Clarksville AR area. Coords city-level.'
+last_verified: 2026-09-10
+verified_by: claude
+status: active
+address: So Live So Ride Camp, Clarksville, AR

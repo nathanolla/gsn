@@ -7,8 +7,8 @@ import yaml, pytest
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 NODES = sorted(glob.glob(str(ROOT / "nodes" / "*.yaml")))
-LAYERS = {"franchise", "independent", "knowledge"}
-CAPS = {"full-service", "satellite", "depot", "performance", "heritage", "knowledge"}
+LAYERS = {"franchise", "independent", "knowledge", "event"}
+CAPS = {"full-service", "satellite", "depot", "performance", "heritage", "knowledge", "event"}
 METHODS = {"website", "community-endorsement", "official-locator"}
 
 def load(p): return yaml.safe_load(open(p, encoding="utf-8"))
@@ -74,3 +74,21 @@ def test_eras_are_legal_vocabulary():
             assert e in ERAS, f"{p}: illegal era {e!r}"
         tagged += 1
     assert tagged >= 5, "era seeding regressed — the filter UI would render dead"
+
+
+def test_event_nodes_are_time_bounded():
+    import datetime, re as _re
+    n_events = 0
+    for p, d in ALL.items():
+        if d["layer"] != "event":
+            assert not d.get("event_start") and not d.get("event_end"), \
+                f"{p}: event dates on a non-event layer"
+            continue
+        n_events += 1
+        s, e = str(d.get("event_start", "")), str(d.get("event_end", ""))
+        assert _re.match(r"^\d{4}-\d{2}-\d{2}$", s), f"{p}: bad event_start"
+        assert _re.match(r"^\d{4}-\d{2}-\d{2}$", e), f"{p}: bad event_end"
+        assert s <= e, f"{p}: event ends before it starts"
+        assert d.get("lat") is not None, f"{p}: event without coordinates"
+        assert "event" in d["capability"], f"{p}: event layer needs event capability"
+    assert n_events >= 1, "events layer has no data — the chip would render dead"

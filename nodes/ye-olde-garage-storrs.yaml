@@ -1,0 +1,28 @@
+id: ye-olde-garage-storrs
+name: New England Christmas-time at Ye-Olde Garage
+city: Storrs
+state: CT
+country: US
+lat: 41.808
+lon: -72.249
+layer: event
+capability:
+- event
+brands:
+- moto-guzzi
+functions:
+- meet
+event_start: 2026-12-12
+event_end: 2026-12-12
+url: https://www.mgnoc.com/rally_calendar.html
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html,
+    checked 2026-09-10): New England Christmas-time at Ye-Olde Garage,
+    December 12 2026, Stix & Stones, 1029 Storrs Road, Storrs CT.
+    Coords city-level.'
+last_verified: 2026-09-10
+verified_by: claude
+status: active
+address: Stix & Stones, 1029 Storrs Road, Storrs, CT

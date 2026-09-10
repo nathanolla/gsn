@@ -12,8 +12,8 @@ import sys
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-LAYERS = {"franchise", "independent", "knowledge"}
-CAPABILITIES = {"full-service", "satellite", "depot", "performance", "heritage", "knowledge"}
+LAYERS = {"franchise", "independent", "knowledge", "event"}
+CAPABILITIES = {"full-service", "satellite", "depot", "performance", "heritage", "knowledge", "event"}
 # Platform families a shop can actually touch (doctrine.md "Era competence").
 # Chronological order matters to the UI; keep this list ordered, not a set.
 ERAS = ["loop-frame", "tonti", "small-block", "spine-frame", "carc", "v85", "v100-pads"]
@@ -99,6 +99,18 @@ def main():
             err(f, "functions must be a non-empty list (a node without functions is a pin)")
         if n["status"] not in STATUSES:
             err(f, f"illegal status: {n['status']}")
+        # events are time-bounded nodes: dates required, coordinates required
+        # (an event is a place and a time), kept and faded after they pass
+        if n["layer"] == "event":
+            for k in ("event_start", "event_end"):
+                if not DATE.match(str(n.get(k, ""))):
+                    err(f, f"event node requires {k} (YYYY-MM-DD)")
+            if str(n.get("event_start", "")) > str(n.get("event_end", "")):
+                err(f, "event_start after event_end")
+            if n.get("lat") is None:
+                err(f, "event nodes need coordinates")
+        elif n.get("event_start") or n.get("event_end"):
+            err(f, "event_start/event_end are only legal on layer: event")
         eras = n.get("eras")
         if eras is not None:
             if not isinstance(eras, list) or not eras:
@@ -140,6 +152,9 @@ def main():
         if n.get("eras"):
             # emit in canonical chronological order regardless of YAML order
             props["eras"] = [e2 for e2 in ERAS if e2 in n["eras"]]
+        for k in ("event_start", "event_end"):
+            if n.get(k):
+                props[k] = str(n[k])
         # Two dates, derived, never stored: freshness is shown already; *how*
         # fresh is the trust upgrade. A node that has only ever been scraped
         # is honest about being thin.
@@ -252,7 +267,8 @@ def stamp_sw():
 
 
 CAP_COLORS = {"full-service": "#1e8a5f", "satellite": "#c98d1f", "depot": "#2f6fbe",
-              "performance": "#7a4fc0", "heritage": "#6d7c8c", "knowledge": "#888"}
+              "performance": "#7a4fc0", "heritage": "#6d7c8c", "knowledge": "#888",
+              "event": "#b8336a"}
 
 # Two-date freshness (kept identical in the JS renderer — site/index.html)
 RIDER_GLYPHS = {"called": "📞", "visited": "👁", "bought": "🛒"}
@@ -268,6 +284,7 @@ ICON_PATHS = {
     "performance": '<path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/>',
     "heritage": '<circle cx="12" cy="8" r="6"/><path d="M8.2 13.9 7 22l5-3 5 3-1.2-8.1"/>',
     "knowledge": '<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 1-4 4v14a3 3 0 0 1 3-3h7z"/>',
+    "event": '<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><path d="M4 22v-7"/>',
 }
 
 
@@ -325,8 +342,13 @@ def static_render(features):
             digits = re.sub(r"[^+0-9]", "", phone)
             tel = f' · <a href="tel:{e(digits)}">{e(phone)}</a>'
         lv = e(p.get("last_verified") or "never")
-        fresh = f'🌐 {e(p["last_scraped"])}' if p.get("last_scraped") else lv
-        if p.get("last_rider"):
+        if p.get("event_start"):
+            fresh = f'📅 {e(p["event_start"])} → {e(p["event_end"])}'
+        elif p.get("last_scraped"):
+            fresh = f'🌐 {e(p["last_scraped"])}'
+        else:
+            fresh = lv
+        if not p.get("event_start") and p.get("last_rider"):
             g = RIDER_GLYPHS.get(p.get("rider_method"), "👤")
             fresh += f'<br>{g} {e(p["last_rider"])}'
         rows.append(

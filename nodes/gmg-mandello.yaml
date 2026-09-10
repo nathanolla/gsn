@@ -1,0 +1,32 @@
+id: gmg-mandello
+name: GMG — Moto Guzzi World Days
+city: Mandello del Lario
+state: ''
+country: IT
+lat: 45.916
+lon: 9.317
+layer: event
+capability:
+- event
+brands:
+- moto-guzzi
+functions:
+- rally
+- factory open house
+- museum
+event_start: 2026-09-03
+event_end: 2026-09-06
+url: https://www.motoguzzi.com/en_EN/gmg/
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'GMG 2026 held September 3-6 at the renovated Mandello del Lario factory:
+    reopening of headquarters, new Moto Guzzi Museum and Motoplex store, 105th
+    anniversary, Saturday parade Lecco->Mandello; free registration at
+    gmg.motoguzzi.com. Sources: motoguzzi.com/en_EN/gmg/, roadracingworld.com
+    "Moto Guzzi World Days: Biggest-Ever Edition". Coords city-level (factory
+    Via Parodi 57). Next edition: watch gmg.motoguzzi.com.'
+last_verified: 2026-09-10
+verified_by: claude
+status: active
+address: Via Emanuele Vittorio Parodi 57, 23826 Mandello del Lario (LC)

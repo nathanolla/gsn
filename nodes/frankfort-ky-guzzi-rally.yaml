@@ -1,0 +1,29 @@
+id: frankfort-ky-guzzi-rally
+name: Frankfort Kentucky Moto Guzzi Rally (26th)
+city: Frankfort
+state: KY
+country: US
+lat: 38.2
+lon: -84.87
+layer: event
+capability:
+- event
+brands:
+- moto-guzzi
+functions:
+- rally
+- camping
+event_start: 2026-09-24
+event_end: 2026-09-27
+url: https://www.mgnoc.com/rally_calendar.html
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html,
+    checked 2026-09-10): 26th anniversary Frankfort KY Moto Guzzi Rally,
+    September 24-27 2026, Kentucky River Campground, 1489 Steel Branch Road.
+    Coords city-level.'
+last_verified: 2026-09-10
+verified_by: claude
+status: active
+address: Kentucky River Campground, 1489 Steel Branch Road, Frankfort, KY

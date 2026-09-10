@@ -1,0 +1,28 @@
+id: imoc-rally-sturbridge
+name: IMOC Rally (41st Annual)
+city: Sturbridge
+state: MA
+country: US
+lat: 42.108
+lon: -72.078
+layer: event
+capability:
+- event
+brands:
+- moto-guzzi
+functions:
+- rally
+event_start: 2026-09-20
+event_end: 2026-09-20
+url: https://www.imoc.website
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html,
+    checked 2026-09-10): 41st Annual IMOC (Italian Motorcycle Owners Club) Rally,
+    September 20 2026, Hamilton Rod & Gun Club, 24 Hamilton Road, Sturbridge MA.
+    Coords venue-approximate.'
+last_verified: 2026-09-10
+verified_by: claude
+status: active
+address: Hamilton Rod & Gun Club, 24 Hamilton Road, Sturbridge, MA

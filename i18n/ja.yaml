@@ -12,6 +12,7 @@ vocab:
   performance: チューニング
   heritage: ヘリテージ
   knowledge: 知識
+  event: イベント
 strings:
   <title>The Guzzi Support Network</title>: <title>Guzzi Support Network — グッツィ・サポート・ネットワーク</title>
   ? '&ldquo;Where&hellip;?&rdquo; &mdash; answered. A community-maintained map of everything that keeps a Moto&nbsp;Guzzi running.'

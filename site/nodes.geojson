@@ -6353,6 +6353,49 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -84.87,
+     38.2
+    ]
+   },
+   "properties": {
+    "id": "frankfort-ky-guzzi-rally",
+    "name": "Frankfort Kentucky Moto Guzzi Rally (26th)",
+    "city": "Frankfort",
+    "state": "KY",
+    "country": "US",
+    "layer": "event",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "rally",
+     "camping"
+    ],
+    "url": "https://www.mgnoc.com/rally_calendar.html",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "event"
+    ],
+    "event_start": "2026-09-24",
+    "event_end": "2026-09-27",
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html, checked 2026-09-10): 26th anniversary Frankfort KY Moto Guzzi Rally, September 24-27 2026, Kentucky River Campground, 1489 Steel Branch Road. Coords city-level."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      7.5581,
      44.4581
     ]
@@ -6798,6 +6841,50 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"GIULIO SPANEDDA EREDI SNC\"; address: C.SO VITTORIO EMANUELE 111, 07041 ALGHERO (SS); type=services; dealerCd=ITAD1025; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.317,
+     45.916
+    ]
+   },
+   "properties": {
+    "id": "gmg-mandello",
+    "name": "GMG — Moto Guzzi World Days",
+    "city": "Mandello del Lario",
+    "state": "",
+    "country": "IT",
+    "layer": "event",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "rally",
+     "factory open house",
+     "museum"
+    ],
+    "url": "https://www.motoguzzi.com/en_EN/gmg/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "event"
+    ],
+    "event_start": "2026-09-03",
+    "event_end": "2026-09-06",
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "GMG 2026 held September 3-6 at the renovated Mandello del Lario factory: reopening of headquarters, new Moto Guzzi Museum and Motoplex store, 105th anniversary, Saturday parade Lecco->Mandello; free registration at gmg.motoguzzi.com. Sources: motoguzzi.com/en_EN/gmg/, roadracingworld.com \"Moto Guzzi World Days: Biggest-Ever Edition\". Coords city-level (factory Via Parodi 57). Next edition: watch gmg.motoguzzi.com."
      }
     ]
    }
@@ -7543,6 +7630,49 @@
       "date": "2026-07-26",
       "method": "community-endorsement",
       "fact": "Identified by wildguzzi forum members as a US Moto Guzzi performance and machine specialist."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.466,
+     35.471
+    ]
+   },
+   "properties": {
+    "id": "guzzis-arkansas-ozarks",
+    "name": "Guzzis in the Arkansas Ozarks (1st Annual)",
+    "city": "Clarksville",
+    "state": "AR",
+    "country": "US",
+    "layer": "event",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "rally",
+     "camping"
+    ],
+    "url": "https://www.mgnoc.com/rally_calendar.html",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "event"
+    ],
+    "event_start": "2026-10-09",
+    "event_end": "2026-10-11",
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html, checked 2026-09-10): 1st Annual Guzzis in the Arkansas Ozarks, October 9-11 2026, So Live So Ride Camp, Clarksville AR area. Coords city-level."
      }
     ]
    }
@@ -8356,6 +8486,48 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "listed as 'Importőr Motorcenter Kft' on official Hungarian importer dealer page vespa.hu/kereskedok (site footer © 2026), accessed 2026-08-22, https://vespa.hu/kereskedok/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.078,
+     42.108
+    ]
+   },
+   "properties": {
+    "id": "imoc-rally-sturbridge",
+    "name": "IMOC Rally (41st Annual)",
+    "city": "Sturbridge",
+    "state": "MA",
+    "country": "US",
+    "layer": "event",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "rally"
+    ],
+    "url": "https://www.imoc.website",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "event"
+    ],
+    "event_start": "2026-09-20",
+    "event_end": "2026-09-20",
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html, checked 2026-09-10): 41st Annual IMOC (Italian Motorcycle Owners Club) Rally, September 20 2026, Hamilton Rod & Gun Club, 24 Hamilton Road, Sturbridge MA. Coords venue-approximate."
      }
     ]
    }
@@ -21240,6 +21412,49 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -80.404,
+     36.734
+    ]
+   },
+   "properties": {
+    "id": "virginia-guzzi-campout",
+    "name": "Virginia Moto Guzzi Campout (44th Annual)",
+    "city": "Meadows of Dan",
+    "state": "VA",
+    "country": "US",
+    "layer": "event",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "rally",
+     "camping"
+    ],
+    "url": "https://www.mgnoc.com/rally_calendar.html",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "event"
+    ],
+    "event_start": "2026-09-25",
+    "event_end": "2026-09-27",
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html, checked 2026-09-10): 44th Annual Virginia Moto Guzzi Campout, September 25-27 2026, Willville Motorcycle Campground, 1510 Jeb Stuart Highway, Meadows of Dan VA. Coords venue-approximate. On the Blue Ridge Parkway."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      3.81,
      50.955
     ]
@@ -21873,6 +22088,48 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -72.249,
+     41.808
+    ]
+   },
+   "properties": {
+    "id": "ye-olde-garage-storrs",
+    "name": "New England Christmas-time at Ye-Olde Garage",
+    "city": "Storrs",
+    "state": "CT",
+    "country": "US",
+    "layer": "event",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "meet"
+    ],
+    "url": "https://www.mgnoc.com/rally_calendar.html",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "event"
+    ],
+    "event_start": "2026-12-12",
+    "event_end": "2026-12-12",
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html, checked 2026-09-10): New England Christmas-time at Ye-Olde Garage, December 12 2026, Stix & Stones, 1029 Storrs Road, Storrs CT. Coords city-level."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      12.5304975,
      41.86664187
     ]
@@ -21952,6 +22209,6 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 465
+  "count": 471
  }
 }

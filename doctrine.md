@@ -40,6 +40,15 @@ An era claim is graded like everything else: from a dated observation (a vintage
 statement on the shop's site, a rider's dated report of loop-frame work done), never
 inferred from `full-service`. **No `eras` field means "unknown", not "none".**
 
+## Events
+Rallies, meets, and open houses are **time-bounded nodes**: `layer: event`,
+`capability: event`, with required `event_start`/`event_end` dates and coordinates.
+Graded from dated observations like everything else (the club calendar or the
+organizer's page is the source). A passed event fades but is kept — the next
+edition updates the dates, which is what makes the map worth a monthly visit.
+**Privacy rule:** organizer *personal* contact details (private phone numbers,
+personal email addresses) are never stored — venue, dates, and the club URL only.
+
 ## Relative roles
 Primary, standby, and edge describe a node relative to the viewer's home pin and are computed client-side, not stored. The dataset stores only intrinsic attributes.
 
