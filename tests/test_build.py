@@ -38,3 +38,19 @@ def test_metric_locales_get_km_rings():
         assert m, f"{lang}: no locale bundle"
         loc = json.loads(m.group(1))
         assert loc["units"] == "km" and loc["rings"] == [150, 300, 500]
+
+def test_two_date_freshness_is_derived():
+    g = json.loads((ROOT / "site" / "nodes.geojson").read_text())
+    scraped = rider = 0
+    for f in g["features"]:
+        p = f["properties"]
+        if "last_scraped" in p:
+            scraped += 1
+        if "last_rider" in p:
+            rider += 1
+            assert p["rider_method"] in ("called", "visited", "bought")
+            # derived dates must trace back to a matching observation
+            assert any(str(o["date"]) == p["last_rider"] and o["method"] == p["rider_method"]
+                       for o in p["observations"])
+    assert scraped > 300, "scraped-date derivation broke"
+    assert rider >= 1, "rider-date derivation broke (artmoto is visited-dated)"

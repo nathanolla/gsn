@@ -140,6 +140,17 @@ def main():
         if n.get("eras"):
             # emit in canonical chronological order regardless of YAML order
             props["eras"] = [e2 for e2 in ERAS if e2 in n["eras"]]
+        # Two dates, derived, never stored: freshness is shown already; *how*
+        # fresh is the trust upgrade. A node that has only ever been scraped
+        # is honest about being thin.
+        scraped = [str(o["date"]) for o in n["observations"]
+                   if o["method"] in ("website", "official-locator")]
+        rider = [(str(o["date"]), o["method"]) for o in n["observations"]
+                 if o["method"] in ("called", "visited", "bought")]
+        if scraped:
+            props["last_scraped"] = max(scraped)
+        if rider:
+            props["last_rider"], props["rider_method"] = max(rider)
         props["observations"] = n["observations"]
         geom = None
         if n.get("lat") is not None:
@@ -243,6 +254,10 @@ def stamp_sw():
 CAP_COLORS = {"full-service": "#1e8a5f", "satellite": "#c98d1f", "depot": "#2f6fbe",
               "performance": "#7a4fc0", "heritage": "#6d7c8c", "knowledge": "#888"}
 
+# Two-date freshness (kept identical in the JS renderer — site/index.html)
+RIDER_GLYPHS = {"called": "📞", "visited": "👁", "bought": "🛒"}
+FRESH_LEGEND = "🌐 web · 📞 called · 👁 visited · 🛒 bought"
+
 # In-house capability glyphs (inline SVG inner-paths; adapted from Feather Icons, MIT).
 # Single source of truth: used by the static render here AND injected into the page
 # for the JS to reuse, so both paths draw identical icons. No hosted images.
@@ -310,10 +325,14 @@ def static_render(features):
             digits = re.sub(r"[^+0-9]", "", phone)
             tel = f' · <a href="tel:{e(digits)}">{e(phone)}</a>'
         lv = e(p.get("last_verified") or "never")
+        fresh = f'🌐 {e(p["last_scraped"])}' if p.get("last_scraped") else lv
+        if p.get("last_rider"):
+            g = RIDER_GLYPHS.get(p.get("rider_method"), "👤")
+            fresh += f'<br>{g} {e(p["last_rider"])}'
         rows.append(
             f'<tr><td>{namecell}<br><span class="cap">{caps}</span>{era_html} · {loc}</td>'
             f'<td class="fnline">{fns}<br>{link}{tel}</td>'
-            f'<td><span class="pill">{lv}</span></td></tr>')
+            f'<td><span class="pill" title="{FRESH_LEGEND}">{fresh}</span></td></tr>')
 
     icons_js = "<script>const ICONS=" + json.dumps({c: icon_svg(c) for c in CAP_COLORS}) + ";</script>"
     doc = _replace_sentinel(doc, "ICONS", icons_js)
