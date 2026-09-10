@@ -1,0 +1,23 @@
+id: v7-club-turkiye
+name: V7 Club Türkiye
+country: TR
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- knowledge
+- community
+- rides
+url: https://v7clubturkiye.com/
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'v7clubturkiye.com (fetched): "Moto Guzzi V7 Club Türkiye" — independent Türkiye community
+    bringing V7 riders together around safe riding, events, technical knowledge and road stories;
+    site announces upcoming group rides. Knowledge layer — no coordinates required. Website-only
+    evidence, status capped unverified.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: unverified

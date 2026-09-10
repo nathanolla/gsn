@@ -1,0 +1,35 @@
+id: moto-droulias-elefsina
+name: MOTO DROULIAS (Droulias St. Panagiotis)
+city: Elefsina
+country: GR
+lat: 38.0431
+lon: 23.5415
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- sales
+url: https://motodroulias.weebly.com/katastimata.html
+phone: +30 2105561511
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Official MG Greece locator page exists at https://www.motoguzzi.com/gr_EL/dealer-locator/ελευσινα/δρουλιας-στ-παναγιωτης/
+    (twin listing on piaggio.com gr_EL). Coordinates city-level (Elefsina).
+- date: 2026-09-10
+  method: website
+  fact: 'Own stores page motodroulias.weebly.com/katastimata.html (fetched) lists two stores:
+    Elefsina (phone 2105561511) and Megara — 42nd km Old National Road Athens–Corinth (phone
+    2296089266). 11888.gr/polispages.gr categorise Moto Droulias as a motorcycle dealership
+    (Αντιπροσωπεία Μοτοσυκλετών).'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores)
+    lists ''ΔΡΟΥΛΙΑΣ ΣΤ.ΠΑΝΑΓΙΩΤΗΣ'', ΕΛΕΥΣΙΝΑ, active:true, type=services — lane evidence
+    confirmed against the live official list.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

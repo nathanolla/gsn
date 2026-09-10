@@ -1,0 +1,74 @@
+id: megabikes-dublin
+name: MegaBikes Ltd
+city: Dublin
+state: ''
+country: IE
+lat: 53.3192
+lon: -6.3472
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+- honda
+- kawasaki
+- suzuki
+- yamaha
+- rieju
+functions:
+- new-bike sales
+- workshop servicing
+- parts & accessories
+url: https://megabikes.ie/
+phone: 01-4784200
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi locator entry: https://www.motoguzzi.com/gb_EN/dealer-locator/dublin/megabikes-ltd/
+    — present in Brave''s live index on 2026-09-10 (query "moto guzzi dealer ireland"). Direct
+    fetch of motoguzzi.com is Akamai-403 for this fetcher (verified repeatedly, standing condition),
+    so corroborated via Wayback: the CDX index shows 200-OK captures of this same listing
+    on 2020-11-25 (as /dublin/) and 2024-02-26 (as /dublino/) — listed across two locator
+    generations. CDX enumeration of all 74 archived gb_EN locator dealer URLs (2026-09-10)
+    contains no Irish city slug other than Dublin → MegaBikes is the sole listed dealer in
+    the Republic.'
+- date: 2026-09-10
+  method: website
+  fact: 'Own site live and selling the full new Moto Guzzi lineup in EUR at https://megabikes.ie/motorcycles-for-sale-ireland/new-motorcycles/moto-guzzi:
+    V7 Stone €11,595; V7 Special €12,195; V7 Sport €12,995; V85 Strada €12,995 (sale); V85TT
+    €15,695; V85 TT Travel €17,395; Stelvio €19,495; Stelvio PFF €17,895 (sale); Stelvio Duecento
+    Tributo €21,495; V100 Mandello 25YM €17,995; V100 Mandello S €17,495 (sale); V100 Mandello
+    S E5+ €21,495.'
+- date: 2026-09-10
+  method: website
+  fact: 'Contact page (https://megabikes.ie/contact-us) lists two Dublin sites, each with
+    "Bike Sales Clothing Parts Workshop": MEGASTORE BALLYMOUNT, Salcombe House, Robinhood
+    Ind Estate, Dublin 22, Eircode D22 WP11; and CITY CENTRE, 3-4 Wexford Street, Dublin 2,
+    D02 TY03. Phone 01-4784200. Site meta self-description: "Irelands Premier Motorcycle Shop
+    based in Dublins city center. Providing bike sales, accessories and workshop." The workshop
+    page (https://megabikes.ie/workshop) is an enquiry form with no Guzzi-specific service
+    detail — so capability is graded satellite, not full-service, pending a first-party check.
+    lat/lon = Nominatim geocode of the stated Ballymount address (address-level, not city
+    guess).'
+- date: 2026-09-10
+  method: website
+  fact: 'allmoto.ie lists new Guzzi Stelvio models but is the same business, not a second
+    node: its pages load megabikes.ie assets and carry mailto sales@megabikes.ie and tel 01-4784200
+    (https://allmoto.ie/motorcycles-for-sale-ireland/new-motorcycles/moto-guzzi, https://allmoto.ie/contact-us).'
+- date: 2026-09-10
+  method: website
+  fact: 'Third-party corroboration: the Carole Nash Irish Motorbike and Scooter Show 2023
+    (RDS Dublin) exhibitor page for Moto Guzzi names Megabikes, 01 4784200, sales@megabikes.ie
+    — https://www.irishmotorbikeshow.com/moto-guzzi/.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator backend API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GB/motoguzzi/stores)
+    lists ''Megabikes Ltd'' twice (city DUBLIN and DUBLINO — both locator generations), active:true,
+    type=dealers,services — the lane''s archive-based ''sole IE dealer'' claim is confirmed
+    against the live list (32 GB records, no other Irish city).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

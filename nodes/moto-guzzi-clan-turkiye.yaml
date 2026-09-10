@@ -1,0 +1,22 @@
+id: moto-guzzi-clan-turkiye
+name: Moto Guzzi Clan Türkiye
+country: TR
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- knowledge
+- community
+url: https://www.facebook.com/groups/1418873795081962/
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Facebook group facebook.com/groups/1418873795081962/ (seen via search result 2026-09-10):
+    "MotoGuzzi Clan Türkiye, Türkiye de bulunan Moto Guzzi sahipleri ve hayranları için açılmıştır"
+    — open national group for Moto Guzzi owners and fans in Türkiye. Knowledge layer — no
+    coordinates. Facebook-only evidence, status capped unverified.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: unverified

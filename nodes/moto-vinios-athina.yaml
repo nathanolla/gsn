@@ -1,0 +1,41 @@
+id: moto-vinios-athina
+name: BYNIOS GEWRGIOS AE (Moto Vinios)
+city: Athens
+country: GR
+lat: 37.9838
+lon: 23.7843
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- brixton
+- moto-morini
+functions:
+- sales
+- parts
+url: https://www.motovinios.gr/b/Moto-Guzzi
+phone: +30 210 777 4131
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Official Moto Guzzi Greece locator page https://www.motoguzzi.com/gr_EL/dealer-locator/αθηνα/βυνιος-γεωργιος-αε-1/
+    lists "ΒΥΝΙΟΣ ΓΕΩΡΓΙΟΣ ΑΕ, πωλήσεις Moto Guzzi σε ΑΘΗΝΑ" (sales, with map/email/hours).
+    Coordinates are city-level (Athens centre); the locator detail page is JS-rendered and
+    did not expose its pin to my fetcher.
+- date: 2026-09-10
+  method: website
+  fact: Shop site motovinios.gr (brand page /b/Moto-Guzzi, indexed and live) states it carries
+    the whole Moto Guzzi range, accepts trade-ins, and ships nationwide ("ΟΛΗ Η ΓΚΑΜΑ ...
+    ΔΕΚΤΕΣ ΑΝΤΑΛΛΑΓΕΣ ... ΑΠΟΣΤΟΛΗ ΣΕ ΟΛΗ ΤΗΝ ΕΛΛΑΔΑ"); store address Michalakopoulou 141,
+    Athens, per 2026-dated directory mirrors globuya.com/GR/Athens/101035433373158/Moto-Vinios
+    and findglocal.com (FB-syndicated shop post 03/08/2026 with shop phone 210 777 4131).
+    Site itself is Cloudflare-gated to bots; content verified via its indexed pages.
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores)
+    lists ''ΒΥΝΙΟΣ ΓΕΩΡΓΙΟΣ ΑΕ'', ΑΘΗΝΑ, active:true, type=dealers — lane evidence confirmed
+    against the live official list.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

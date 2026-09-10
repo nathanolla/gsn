@@ -1,0 +1,24 @@
+id: papanikolaoy-nikitas-sia-epe-patra
+name: Παπανικολαου Νικητας & Σια Επε
+city: Πατρα
+country: GR
+lat: 38.27308
+lon: 21.75811
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +30-2610-461768
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΠΑΠΑΝΙΚΟΛΑΟΥ ΝΙΚΗΤΑΣ & ΣΙΑ ΕΠΕ'', ΚΑΝΕΛΛΟΠΟΥΛΟΥ 53, Πατρα
+    26445; active:true; type=dealers,services; phone 2610-461768.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

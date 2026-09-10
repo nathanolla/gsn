@@ -1,0 +1,25 @@
+id: tmm-motors-ltd-egkomi
+name: Tmm Motors Ltd
+city: Εγκωμη
+country: CY
+lat: 35.16513
+lon: 33.32445
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +357-00357-22106070
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''TMM MOTORS LTD'', ΝΕΑΣ ΕΓΚΩΜΗΣ 33, Εγκωμη 2409; active:true;
+    type=dealers,services; phone 00357-22106070. Filed under the GR locator but located in
+    Engomi, Nicosia — Cyprus; country recorded as CY.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

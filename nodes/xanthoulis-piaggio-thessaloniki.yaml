@@ -1,0 +1,39 @@
+id: xanthoulis-piaggio-thessaloniki
+name: E. XANTHOULIS & SIA E.E. (Xanthoulis Piaggio)
+city: Thessaloniki
+country: GR
+lat: 40.6401
+lon: 22.9444
+layer: franchise
+capability:
+- satellite
+- depot
+brands:
+- moto-guzzi
+- piaggio
+functions:
+- service
+- parts
+url: https://www.facebook.com/piaggio.xanthoulis/
+phone: +30 2310812580
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official MG Greece locator https://www.motoguzzi.com/gr_EL/dealer-locator/θεσσαλονικη/ε-ξανθουλης-και-σια-ε-ε/
+    — "Ε. ΞΑΝΘΟΥΛΗΣ ΚΑΙ ΣΙΑ Ε.Ε, τεχνική υποστήριξη Moto Guzzi σε ΘΕΣΣΑΛΟΝΙΚΗ" (technical
+    support). 11888.gr Yellow Pages listing title: "PIAGGIO - MOTO GUZZI - ΠΑΟΥΛΕΑΝΟΥ Γ ΞΑΝΘΟΥΛΗΣ
+    Ε & ΣΙΑ ΕΕ". Coordinates city-level.'
+- date: 2026-09-10
+  method: website
+  fact: 'Business Facebook page (facebook.com/piaggio.xanthoulis, via 2025/2026 findglocal
+    mirror): "Service δικύκλων/τρίκυκλων, πώληση ανταλλακτικών & αξεσουάρ" at Velissariou
+    54, Thessaloniki, tel +30 2310812580; a shop post advertises "the largest stock of accessories
+    and spare parts for Piaggio [group] machines" — parts-depot function.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores)
+    lists ''Ε. ΞΑΝΘΟΥΛΗΣ ΚΑΙ ΣΙΑ Ε.Ε'', ΘΕΣΣΑΛΟΝΙΚΗ, active:true, type=services — lane evidence
+    confirmed against the live official list.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

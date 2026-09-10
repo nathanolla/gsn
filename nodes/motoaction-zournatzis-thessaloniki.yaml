@@ -1,0 +1,41 @@
+id: motoaction-zournatzis-thessaloniki
+name: ZOURNATZIS ATHA. NIKOLAOS (MOTOACTION)
+city: Thessaloniki
+country: GR
+lat: 40.6401
+lon: 22.9444
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- ducati
+- triumph
+functions:
+- sales
+- service
+- parts
+url: https://motoaction.gr/
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official MG Greece locator https://www.motoguzzi.com/gr_EL/dealer-locator/θεσσαλονικη/ζουρνατζης-αθα-νικολαος/
+    — "ΖΟΥΡΝΑΤΖΗΣ ΑΘΑ. ΝΙΚΟΛΑΟΣ, πωλήσεις τεχνική υποστήριξη Moto Guzzi σε ΘΕΣΣΑΛΟΝΙΚΗ" (sales
+    + technical support). The equivalent aprilia.com gr_EL locator page for the same business
+    shows: official representative + official technical service point, e-mail info@motoaction.gr,
+    address Λ. Κωνσταντίνου Καραμανλή 49, 54639 Thessaloniki. Coordinates city-level (Thessaloniki).'
+- date: 2026-09-10
+  method: website
+  fact: motoaction.gr (fetched) is live with a Moto Guzzi brand banner (2026-dated uploads)
+    alongside Ducati/Triumph/Aprilia, and runs an online apparel/parts shop; findglocal.com
+    2026 mirror lists Motoaction as dealer/parts for Triumph, Ducati, Aprilia, Moto Guzzi,
+    Husqvarna, Royal Enfield, CFMOTO.
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores)
+    lists ''ΖΟΥΡΝΑΤΖΗΣ ΑΘΑ. ΝΙΚΟΛΑΟΣ'', ΘΕΣΣΑΛΟΝΙΚΗ, active:true, type=dealers,services —
+    lane evidence confirmed against the live official list.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

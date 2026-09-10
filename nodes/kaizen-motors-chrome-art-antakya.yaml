@@ -1,0 +1,28 @@
+id: kaizen-motors-chrome-art-antakya
+name: Kaizen Motors (Chrome Art) - Antakya
+city: Hatay
+country: TR
+lat: 36.25441
+lon: 36.17872
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0531 936 71 56
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+    lists Kaizen Motors (Chrome Art) - Antakya as authorized dealer (Yetkili Satici); published
+    address: Güzelburç Mah.E5 Karayolu Cad.No:114/1 Antakya - Hatay; published business phone
+    0531 936 71 56; exact pin coordinates 36.25441,36.17872 taken from the page store data.
+    Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html
+    states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr
+    currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

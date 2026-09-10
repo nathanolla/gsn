@@ -1,0 +1,23 @@
+id: dimitriadis-antonis-oe-korinthos
+name: Δημητριαδης Αντωνης Οε
+city: Κορινθος
+country: GR
+lat: 37.93982
+lon: 22.94217
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+phone: +30-2741085257
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΔΗΜΗΤΡΙΑΔΗΣ ΑΝΤΩΝΗΣ ΟΕ'', ΑΘΗΝΩΝ 56, Κορινθος 20100;
+    active:true; type=services; phone 2741085257.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

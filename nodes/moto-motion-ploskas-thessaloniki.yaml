@@ -1,0 +1,27 @@
+id: moto-motion-ploskas-thessaloniki
+name: PLOSKAS A & SIA O.E. (Moto Motion)
+city: Thessaloniki
+country: GR
+lat: 40.6401
+lon: 22.9444
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+phone: +30 2310848481
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Official MG Greece locator page exists at https://www.motoguzzi.com/gr_EL/dealer-locator/θεσσαλονικη/πλοσκας-α-σια-ο-ε/
+    (dealer listing for Thessaloniki). Coordinates city-level.
+- date: 2026-09-10
+  method: website
+  fact: Greek business directory ix.gr/directory/7/68/moto_motion (corroborated by vrisko.gr)
+    lists "MOTO MOTION - ΠΛΟΣΚΑΣ Α ΚΑΙ ΣΙΑ ΟΕ", motorcycle dealer/accessories, Vasilos Georgiou
+    18, Thessaloniki 54640, tel 2310848481. No own website verified.
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

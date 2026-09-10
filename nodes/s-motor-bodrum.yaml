@@ -1,0 +1,28 @@
+id: s-motor-bodrum
+name: S Motor - Bodrum
+city: Muğla
+country: TR
+lat: 37.05519
+lon: 27.37406
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0536 349 20 10
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+    lists S Motor - Bodrum as authorized dealer (Yetkili Satici); published address: Konacık
+    Mahallesi İbni Sina Caddesi A Blok No: 1A/1 Bodrum - Muğla; published business phone 0536
+    349 20 10; exact pin coordinates 37.05519,27.37406 taken from the page store data. Turkish
+    network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html
+    states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr
+    currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

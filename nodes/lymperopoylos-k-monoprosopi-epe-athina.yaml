@@ -1,0 +1,24 @@
+id: lymperopoylos-k-monoprosopi-epe-athina
+name: Λυμπεροπουλος Κ.Μονοπροσωπη Επε
+city: Αθηνα
+country: GR
+lat: 38.01534
+lon: 23.74341
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +30-210-2288288
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ.ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ'', Λ.ΓΑΛΑΤΣΙΟΥ 58-60,
+    Αθηνα 11141; active:true; type=dealers,services; phone 210-2288288.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

@@ -1,0 +1,23 @@
+id: klironomoy-kon-maria-limnos
+name: Κληρονομου Κων. Μαρια
+city: Λημνος
+country: GR
+lat: 39.87246
+lon: 25.06592
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+phone: +30-22540-22746
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΚΛΗΡΟΝΟΜΟΥ ΚΩΝ. ΜΑΡΙΑ'', ΛΟΥΚΑΡΕΩΣ 05, Λημνος 81400;
+    active:true; type=services; phone 22540-22746.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

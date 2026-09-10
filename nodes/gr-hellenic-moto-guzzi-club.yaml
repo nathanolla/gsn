@@ -1,0 +1,25 @@
+id: gr-hellenic-moto-guzzi-club
+name: Ελληνική Λέσχη Moto Guzzi / Hellenic Moto Guzzi Club
+city: Athens
+country: GR
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- knowledge
+- community
+- events
+url: https://motoguzziclub.gr/
+observations:
+- date: 2026-09-10
+  method: website
+  fact: motoguzziclub.gr (fetched live today, dated Πέμπτη 10 Σεπτεμβρίου 2026) — national
+    club site with club pages, announcements, technical section (Τεχνικά Θέματα), downloads
+    area, and long-running events (results post for the 27th "36ωρο Οδοιπορικό" rally of 2026);
+    companion Facebook page facebook.com/motoguzziclubgr (~2,599 likes); xo.gr directory lists
+    it as an association (Σύλλογος) based in Athens. Knowledge layer — no coordinates required.
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: unverified

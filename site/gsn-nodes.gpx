@@ -5,6 +5,11 @@
     <desc>full-service | Nørresundby, None | 72300433 | https://just-ride.nu/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="41.11909" lon="29.02298">
+    <name>Abdullah Akiş</name>
+    <desc>satellite | İstanbul, None | 0212 346 15 13 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="40.0992" lon="-104.9372">
     <name>ACES Motorcycles</name>
     <desc>full-service | Frederick, CO | 970-223-1203 | https://www.acesmotorcycles.com/ | verified 2026-08-18</desc>
@@ -20,9 +25,19 @@
     <desc>full-service | Denbigh,  | 01745 815105 | http://www.admotorcycles.co.uk/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="36.85863" lon="28.27288">
+    <name>Ada Motor</name>
+    <desc>satellite | Muğla, None | 0252 412 66 86 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="30.3634" lon="-97.6858">
     <name>AF1 Racing</name>
     <desc>depot+full-service | Austin, TX | (512) 459-3966 | https://www.af1racingaustin.com/ | verified 2026-08-18</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="35.36438" lon="24.47116">
+    <name>Αφοι Ξεκαλου Οε</name>
+    <desc>satellite | Ρεθυμνο, None | +30-28310-35203 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="9.9348" lon="-84.0866">
@@ -38,6 +53,11 @@
   <wpt lat="44.8153" lon="20.4457">
     <name>AK Kompresor – MotorLand</name>
     <desc>full-service | Beograd, None | 011/7155-619 | https://www.akkompresor.rs | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="36.54108" lon="32.03131">
+    <name>Ak Universal</name>
+    <desc>satellite | Antalya, None | 0242 514 31 19 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="40.7282" lon="8.5556">
@@ -58,6 +78,11 @@
   <wpt lat="25.2854" lon="51.531">
     <name>Alfardan Motorcycles</name>
     <desc>satellite | Doha,  | +974 44208666 | https://www.alfardanmotorcycles.com/brands/motoguzzi-qatar/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="39.59011" lon="27.01387">
+    <name>Altan Motostore</name>
+    <desc>satellite | Balıkesir, None | 0266 374 22 22 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="45.170947" lon="9.145053">
@@ -115,9 +140,24 @@
     <desc>full-service | Fuchu,  | 042-358-2020 | https://arai-motors.com/shop/moto_guzzi/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="39.9096" lon="32.79404">
+    <name>Arkas Söğütözü</name>
+    <desc>satellite | Ankara, None | 0312 203 94 44 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="37.93176" lon="23.70348">
+    <name>Αρμακολας Μοτο Ικε</name>
+    <desc>satellite | Παλαιο Φαληρο, None | +30-2109707198 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="35.7635" lon="-78.6566">
     <name>ArtMoto Garage</name>
     <desc>full-service | Raleigh, NC | (919) 833-5575 | https://artmotogarage.com/ | verified 2026-08-18</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.10952" lon="28.99058">
+    <name>Asal</name>
+    <desc>satellite | İstanbul, None | 0212 289 88 00 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="41.818899" lon="-6.791471">
@@ -135,6 +175,11 @@
     <desc>satellite | Bangalore,  | +91-7996659999 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="36.44011" lon="28.23352">
+    <name>Αβετε Κ Κωσταριδης</name>
+    <desc>satellite | Ροδος, None | +30-22410-22157 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="-33.8645" lon="18.6764">
     <name>Balance Auto Importers - Cape Town</name>
     <desc>full-service | Cape Town, Western Cape | +27 69 669 9651 | https://www.balanceimporters.co.za/ | verified 2026-08-22</desc>
@@ -143,6 +188,11 @@
   <wpt lat="51.5074" lon="-0.1278">
     <name>Baldricks Guzzi Workshop</name>
     <desc>satellite | London,  | +44 7536 116176 | https://www.facebook.com/baldricksworkshop | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="40.98774" lon="28.79725">
+    <name>Batuhan Motor</name>
+    <desc>satellite | İstanbul, None | 0212 592 88 33 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="34.56422" lon="-92.58684">
@@ -205,6 +255,11 @@
     <desc>satellite | Emmaus, PA | 610-965-9865 | https://www.blackmanscycle.com/ | verified 2026-08-18</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="37.03478" lon="35.24152">
+    <name>BLK Otomotiv</name>
+    <desc>satellite | Adana, None | 0322 255 12 55 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="41.4021" lon="-74.3243">
     <name>BMG Powersports</name>
     <desc>satellite | Goshen, NY | 845-294-2453 | https://www.bmgpowersports.com/ | verified 2026-08-18</desc>
@@ -263,6 +318,11 @@
   <wpt lat="46.7986" lon="8.232">
     <name>Moto Guzzi California Club Schweiz</name>
     <desc>knowledge | https://motoguzzicaliforniaclubschweiz.clubdesk.com/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="36.9022" lon="30.7159">
+    <name>Can Motor</name>
+    <desc>satellite | Antalya, None | 0242 321 76 48 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="37.30133718" lon="-89.55097154">
@@ -450,6 +510,11 @@
     <desc>full-service | Labège,  | 05 61 00 20 20 | https://piaggiotoulouse.fr/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="36.7636" lon="34.55234">
+    <name>Derya Drc Motor</name>
+    <desc>satellite | Mersin, None | 0324 359 30 44 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="42.657" lon="-83.533">
     <name>Detroit Iron Cycles</name>
     <desc>satellite | White Lake, MI | (248) 342-8225 | https://www.detroitironcycles.com/ | verified 2026-08-18</desc>
@@ -460,6 +525,11 @@
     <desc>full-service | PIANENGO,  | 0373-74965 | https://www.motoguzzi.com/it_it/store-locator/pianengo/dieffe-di-colombo-fabio-c-snc-1/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="37.93982" lon="22.94217">
+    <name>Δημητριαδης Αντωνης Οε</name>
+    <desc>satellite | Κορινθος, None | +30-2741085257 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="4.6534" lon="-74.0836">
     <name>Distribuidora Los Autos de Colombia SAS</name>
     <desc>satellite | Bogotá, None | 787-333-0277 | https://motoguzzi-colombia.com/ | verified 2026-08-22</desc>
@@ -468,6 +538,26 @@
   <wpt lat="24.1876" lon="120.637">
     <name>DK Moto (名速車業)</name>
     <desc>full-service | Taichung, Taichung | +886-4-2451-8909 | https://www.facebook.com/dkmotoclub | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="36.43171" lon="35.91993">
+    <name>Doğan Motor</name>
+    <desc>satellite | Hatay, None | 0542 415 55 59 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.04131" lon="28.80861">
+    <name>Doğan Trend Otomobilite - Basın Ekspres</name>
+    <desc>satellite | İstanbul, None | 0212 401 55 00 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.11859" lon="29.03637">
+    <name>Doğan Trend Otomobilite - İstinye</name>
+    <desc>satellite | İstanbul, None | 0212 401 55 25 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.00467" lon="29.0356">
+    <name>Doğan Trend Otomobilite - Koşuyolu</name>
+    <desc>satellite | İstanbul, None | 0531 667 25 61 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="38.868678" lon="-6.979989">
@@ -500,9 +590,19 @@
     <desc>full-service | Badalona,  | 930500267 | https://www.drivim.com/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="37.99513" lon="23.345">
+    <name>Δρουλιας Στ.Παναγιωτης</name>
+    <desc>satellite | Μεγαρα, None | +30-22960-89266 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="25.1437" lon="55.233">
     <name>Duseja Moto</name>
     <desc>full-service | Dubai, Dubai | +971 4-3476712 | https://dusejamoto.com/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="38.28723" lon="26.37242">
+    <name>Düzyol Motor</name>
+    <desc>satellite | İzmir, None | 0232 716 82 82 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="46.8083" lon="-100.7837">
@@ -573,6 +673,11 @@
   <wpt lat="39.7392" lon="-104.9903">
     <name>Erico Motorsports</name>
     <desc>full-service | Denver, CO | 303-308-1811 | https://www.ericomotorsports.com/ | verified 2026-08-18</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="39.78862" lon="30.47411">
+    <name>Eskişehir Kaya Motor</name>
+    <desc>satellite | Eskişehir, None | 0533 017 51 20 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="43.4663" lon="-1.4493">
@@ -680,6 +785,11 @@
     <desc>satellite | Wyoming, MI | (616) 855-3660 | https://www.foxpowersports.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="37.9838" lon="23.7843">
+    <name>FRANCESCO E.P.E.</name>
+    <desc>satellite+depot | Athens, None | +30 210 9240650 | https://b2c.francesco.gr/categories/06/moto-guzzi-/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="38.2" lon="-84.87">
     <name>Frankfort Kentucky Moto Guzzi Rally (26th)</name>
     <desc>event | Frankfort, KY | https://www.mgnoc.com/rally_calendar.html | verified 2026-09-10</desc>
@@ -760,6 +870,11 @@
     <desc>full-service | Bodegraven,  | 0172-650005 | https://www.goedhartmotoren.nl | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="36.62522" lon="29.13538">
+    <name>Gökçayır Motor</name>
+    <desc>satellite | Muğla, None | 0252 614 20 08 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="32.7157" lon="-117.1611">
     <name>GP Motorcycles</name>
     <desc>full-service | San Diego, CA | (619) 233-4762 | https://gpmotorcycles.com/ | verified 2026-09-10</desc>
@@ -773,6 +888,11 @@
   <wpt lat="44.8103" lon="10.3581">
     <name>Guareschi Moto</name>
     <desc>full-service+performance | Parma,  | 0521-774149 | https://www.guareschimoto.it/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="40.88103" lon="29.22959">
+    <name>Güngör Company</name>
+    <desc>satellite | İstanbul, None | 444 99 54 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="53.6242" lon="-1.8806">
@@ -820,6 +940,11 @@
     <desc>knowledge | Feldkirch,  | +43 664 430 99 09 | https://guzzisti.at/home | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="35.34123" lon="25.14421">
+    <name>H-K A.E.B.E.</name>
+    <desc>satellite | Ηρακλειο, None | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="40.83655" lon="-73.3951">
     <name>Habberstad Powersports</name>
     <desc>satellite | Huntington Station, NY | (631) 427-4400 | https://www.habberstadpowersports.com/ | verified 2026-09-10</desc>
@@ -853,6 +978,11 @@
   <wpt lat="37.9755" lon="23.7055">
     <name>Hellenic Moto Guzzi Club (Ελληνική Λέσχη Moto Guzzi)</name>
     <desc>satellite | Athens, None | +30 210 3413369 | https://motoguzziclub.gr/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="39.94673" lon="32.76136">
+    <name>Herter</name>
+    <desc>satellite | Ankara, None | 0532 419 66 03 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="47.0633" lon="9.9348">
@@ -965,6 +1095,16 @@
     <desc>satellite | Chennai,  | +91-9941420002 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="39.66858" lon="20.85638">
+    <name>Κ. Γκαρτζονικας Α.Ε.Β.Ε</name>
+    <desc>satellite | Ιωαννινα, None | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="39.57959" lon="20.86365">
+    <name>Κ. Γκαρτζονικας Α.Ε.Β.Ε</name>
+    <desc>satellite | Ιωαννινα, None | +30-26510-85204 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="50.7446" lon="15.0305">
     <name>K2 Moto Liberec</name>
     <desc>full-service | Liberec, None | +420 733 640 412 | https://www.k2moto.cz/ | verified 2026-08-22</desc>
@@ -973,6 +1113,21 @@
   <wpt lat="53.5063" lon="9.9872">
     <name>Kaffeemaschine (Axel Budde)</name>
     <desc>performance+heritage | Hamburg,  | https://www.kaffee-maschine.net/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="36.25441" lon="36.17872">
+    <name>Kaizen Motors (Chrome Art) - Antakya</name>
+    <desc>satellite | Hatay, None | 0531 936 71 56 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="36.51727" lon="36.16619">
+    <name>Kaizen Motors (Chrome Art)</name>
+    <desc>satellite | Hatay, None | 0531 936 74 34 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="35.50984" lon="24.02254">
+    <name>Κεχαγιας Σ. Κωνσταντινος</name>
+    <desc>satellite | Χανια, None | +30-28210-70530 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="47.6098" lon="15.9913">
@@ -995,9 +1150,29 @@
     <desc>full-service | Tyrone, PA | 814-861-7890 | https://www.kissellmotorsports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="37.07815" lon="37.36513">
+    <name>Klass Motor</name>
+    <desc>satellite | Gaziantep, None | 0342 324 02 79 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="39.87246" lon="25.06592">
+    <name>Κληρονομου Κων. Μαρια</name>
+    <desc>satellite | Λημνος, None | +30-22540-22746 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="52.4556" lon="8.8508">
     <name>KMS Motorrad Service (Achim Kindermann)</name>
     <desc>heritage+performance | Warmsen,  | https://www.kms-motorrad.de/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="40.76187" lon="29.95978">
+    <name>Kocaeli Kaya Motor</name>
+    <desc>satellite | Kocaeli, None | 0262 333 13 33 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.33104" lon="36.29032">
+    <name>Koçak Mobilite</name>
+    <desc>satellite | Samsun, None | 0362 204 00 55 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="55.4733" lon="12.1697">
@@ -1005,9 +1180,29 @@
     <desc>full-service | Køge, None | 56652619 | https://mc-center.dk/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="36.439" lon="28.23663">
+    <name>Κωσταριδης Κωνσταντινος</name>
+    <desc>satellite | Ροδος, None | +30-22410-23372 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="37.38002" lon="27.27756">
+    <name>Koyuncu Motor - Didim</name>
+    <desc>satellite | Aydın, None | 0530 068 19 09 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="37.86418" lon="27.2713">
+    <name>Koyuncu Motor</name>
+    <desc>satellite | Aydın, None | 0530 068 19 66 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="47.4691" lon="11.9846">
     <name>Auto Kruckenhauser</name>
     <desc>full-service | Kundl,  | https://www.auto-kruckenhauser.at/index.php/motorrad/moto-guzzi | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.01389" lon="28.54661">
+    <name>Kuzey Motosiklet</name>
+    <desc>satellite | İstanbul, None | 0212 556 23 23 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="38.19408" lon="15.35059">
@@ -1100,6 +1295,26 @@
     <desc>full-service | Marseille,  | 04 91 01 41 39 | https://lm-marseille.fr/motos-guzzi/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="38.01146" lon="23.81251">
+    <name>Λυμπεροπουλος Κ. Μονοπροσωπη Επε</name>
+    <desc>satellite | Αγια Παρασκευη, None | +30-210-6004050 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="38.01687" lon="23.7284">
+    <name>Λυμπεροπουλος Κ.Μονοπροσωπη Επε</name>
+    <desc>satellite | Αθηνα, None | +30-210-2116644 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="38.01534" lon="23.74341">
+    <name>Λυμπεροπουλος Κ.Μονοπροσωπη Επε</name>
+    <desc>satellite | Αθηνα, None | +30-210-2288288 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="37.93876" lon="23.7416">
+    <name>Λυμπεροπουλος Κ. Μονοπροσωπη Επε</name>
+    <desc>satellite | Ηλιουπολη, None | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="50.365886" lon="-4.126005">
     <name>Macpherson Motorcycles</name>
     <desc>full-service | Plymouth,  | 01752 710177 | https://www.macphersonmotorcycles.co.uk/ | verified 2026-08-22</desc>
@@ -1118,6 +1333,16 @@
   <wpt lat="45.6188" lon="8.7785">
     <name>Magni Fabbrica Cicli (Magni Giovanni)</name>
     <desc>performance+heritage | Samarate,  | +39-0331-234544 | https://www.magni.it/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="40.84453" lon="25.86817">
+    <name>Μακαρωνης Σιμος</name>
+    <desc>satellite | Αλεξανδρουπολη, None | +30-25510-32537 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="39.61678" lon="19.89993">
+    <name>Μανατος Σ.- Μοναστηριωτης Σ. Ο.Ε.</name>
+    <desc>satellite | Κερκυρα, None | +30-26610-31456 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="33.2487" lon="-111.6343">
@@ -1153,6 +1378,11 @@
   <wpt lat="43.09259349" lon="12.31420123">
     <name>MD MOTO</name>
     <desc>full-service | Corciano,  | 075-5173004 | http://www.mdmoto.it/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="53.3192" lon="-6.3472">
+    <name>MegaBikes Ltd</name>
+    <desc>satellite | Dublin,  | 01-4784200 | https://megabikes.ie/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="51.0962" lon="6.892">
@@ -1210,6 +1440,16 @@
     <desc>full-service | Oklahoma City, OK | (405) 641-1801 | https://motivcycleworks.net/ | verified 2026-07-26</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="38.61351" lon="27.43588">
+    <name>Moto 45</name>
+    <desc>satellite | Manisa, None | 0505 104 09 45 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="38.0431" lon="23.5415">
+    <name>MOTO DROULIAS (Droulias St. Panagiotis)</name>
+    <desc>satellite | Elefsina, None | +30 2105561511 | https://motodroulias.weebly.com/katastimata.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="44.43775207" lon="11.88054246">
     <name>MOTO EUROPA S.R.L.</name>
     <desc>full-service | Sant&#x27;Agata Sul Santerno,  | 0545-45112 | https://www.motoguzzi.com/it_it/store-locator/santagata-sul-santerno/moto-europa-s-r-l-1/ | verified 2026-08-22</desc>
@@ -1238,6 +1478,11 @@
   <wpt lat="41.3378476" lon="19.7926539">
     <name>Moto Italia</name>
     <desc>full-service | Tiranë, Qarku i Tiranës | +355 68 571 1111 | https://www.merrjep.al/moto-italia | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="40.6401" lon="22.9444">
+    <name>PLOSKAS A &amp; SIA O.E. (Moto Motion)</name>
+    <desc>satellite | Thessaloniki, None | +30 2310848481 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="48.1007" lon="-1.7332">
@@ -1270,6 +1515,11 @@
     <desc>full-service | Kampen,  | 085 1248460 | https://www.mototricolore.nl | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="37.9838" lon="23.7843">
+    <name>BYNIOS GEWRGIOS AE (Moto Vinios)</name>
+    <desc>satellite | Athens, None | +30 210 777 4131 | https://www.motovinios.gr/b/Moto-Guzzi | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="41.5942" lon="12.6486">
     <name>Moto World SMR</name>
     <desc>full-service | Aprilia,  | verified 2026-08-22</desc>
@@ -1278,6 +1528,11 @@
   <wpt lat="50.5096" lon="5.1634">
     <name>Moto Zenith</name>
     <desc>full-service | Ben-Ahin (Huy),  | 085-845012 | https://www.motozenith.be/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="40.6401" lon="22.9444">
+    <name>ZOURNATZIS ATHA. NIKOLAOS (MOTOACTION)</name>
+    <desc>satellite | Thessaloniki, None | https://motoaction.gr/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="33.6400941" lon="-117.9323611">
@@ -1350,6 +1605,11 @@
     <desc>full-service | Bydgoszcz, None | +48 722 226 228 | https://motodream.pl/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="40.98665" lon="29.0401">
+    <name>Motoek</name>
+    <desc>satellite | İstanbul, None | 0532 248 32 33 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="31.77709" lon="-106.4489181">
     <name>Moto El Paso</name>
     <desc>satellite | El Paso, TX | (915) 566-6666 | https://www.motoelpaso.com | verified 2026-09-10</desc>
@@ -1413,6 +1673,11 @@
   <wpt lat="41.003" lon="28.8658">
     <name>MotoHub</name>
     <desc>full-service | Istanbul, Istanbul | +90 212 586 99 11 | https://www.motohub.tr/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.01107" lon="28.87693">
+    <name>Motohub</name>
+    <desc>satellite | İstanbul, None | 0212 586 99 11 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="-33.7512" lon="150.6942">
@@ -1610,6 +1875,21 @@
     <desc>full-service | SIRACUSA,  | 0931/464166 | https://www.motorsud.it/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="36.6513" lon="29.13238">
+    <name>Motorall</name>
+    <desc>satellite | Muğla, None | 0252 613 28 48 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="37.91354" lon="40.11081">
+    <name>Motorange</name>
+    <desc>satellite | Diyarbakır, None | 0412 502 60 97 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="38.48124" lon="27.05516">
+    <name>Motoratel</name>
+    <desc>satellite | İzmir, None | 0232 386 57 47 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="44.93723" lon="10.49194">
     <name>MOTORBIKE DI FRANCO RE</name>
     <desc>full-service | Viadana,  | 3387402934 | https://www.motoguzzi.com/it_it/store-locator/viadana/motorbike-di-franco-re/ | verified 2026-08-22</desc>
@@ -1640,6 +1920,11 @@
     <desc>full-service | San Marcos, CA | (760) 520-1288 | https://www.motosandiego.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="37.06548" lon="37.33063">
+    <name>Motostop</name>
+    <desc>satellite | Gaziantep, None | 0342 341 22 30 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="52.5025" lon="4.9615">
     <name>Motostore Purmerend</name>
     <desc>full-service | Purmerend,  | verified 2026-08-22</desc>
@@ -1658,6 +1943,11 @@
   <wpt lat="45.4205512" lon="11.8094109">
     <name>Mototek sas di Allegro Daniele &amp; c.</name>
     <desc>full-service | Sarmeola di Rubano,  | 049 8979747 | https://www.motoguzzi.com/it_it/store-locator/sarmeola-di-rubano/mototek-sas-di-allegro-daniele-c/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="40.94403" lon="29.12786">
+    <name>Mototriple</name>
+    <desc>satellite | İstanbul, None | 0216 388 57 88 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="9.9684" lon="-84.114">
@@ -1755,6 +2045,11 @@
     <desc>full-service | Venturina Terme,  | 320-1529468 | https://www.nonsolomoto.it/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="41.1095" lon="24.9232">
+    <name>Ντολλας Μοτο Ι.Κ.Ε</name>
+    <desc>satellite | Ξανθη, None | +30-25410-29430 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="37.5024" lon="15.0874">
     <name>Nuova Sport Car S.p.A.</name>
     <desc>full-service | Catania,  | verified 2026-08-22</desc>
@@ -1815,9 +2110,29 @@
     <desc>full-service | Redmond, WA | 425-765-3691 | https://opmotorsports.com/ | verified 2026-07-26</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="41.00763" lon="28.62418">
+    <name>Orta Motor</name>
+    <desc>satellite | İstanbul, None | 0212 855 07 04 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="36.90652" lon="30.697">
+    <name>Özer Adlı</name>
+    <desc>satellite | Antalya, None | 0532 325 05 57 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="33.802" lon="-116.39">
     <name>Palm Springs Motorsports</name>
     <desc>satellite | Palm Desert, CA | 760-288-0011 | https://www.palmspringsmotorsports.com/ | verified 2026-07-26</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="38.27308" lon="21.75811">
+    <name>Παπανικολαου Νικητας &amp; Σια Επε</name>
+    <desc>satellite | Πατρα, None | +30-2610-461768 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="40.99862" lon="29.09897">
+    <name>Passione Moto – S Motor</name>
+    <desc>satellite | İstanbul, None | 0537 264 72 18 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="47.50732" lon="-111.30607">
@@ -1838,6 +2153,21 @@
   <wpt lat="44.8133" lon="20.4183">
     <name>P.G.S. Motori d.o.o. (Piaggio Group Srbija Motori)</name>
     <desc>full-service | Novi Beograd, None | +381 11 6690 916 | https://www.piaggio.rs/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="37.9472" lon="23.7381">
+    <name>Piaggio Lyberopoulos (HQ)</name>
+    <desc>satellite | Agios Dimitrios (Athens), None | +30 210 970 1400 | https://lyberopoulos.gr/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="39.3643" lon="22.9474">
+    <name>Piaggio Lyberopoulos — Volos branch</name>
+    <desc>satellite | Volos, None | https://lyberopoulos.gr/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="35.3387" lon="25.1442">
+    <name>Piaggio Moraitis</name>
+    <desc>satellite | Heraklion, None | +30 2810284714 | https://piaggiomoraitis.gr/en/home/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="8.9768" lon="-79.5343">
@@ -1925,6 +2255,11 @@
     <desc>full-service | Zionsville, IN | 317-939-2145 | https://www.rahalpiaggio.com/ | verified 2026-07-26</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="39.75875" lon="22.58073">
+    <name>Ραπτης Δημ. Γεωργιος</name>
+    <desc>satellite | Λαρισα, None | +30-24950-51849 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="63.64872" lon="22.73278">
     <name>RE Motors Oy Ab</name>
     <desc>satellite | Pietarsaari,  | +358-6-781-19-02 | verified 2026-09-10</desc>
@@ -2005,6 +2340,11 @@
     <desc>full-service | Roma,  | 06-55302096 | https://www.motoguzzi.com/it_it/store-locator/roma/rubei-3-s-r-l/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="37.05519" lon="27.37406">
+    <name>S Motor - Bodrum</name>
+    <desc>satellite | Muğla, None | 0536 349 20 10 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="48.6752" lon="2.2945">
     <name>S One Italian Motors</name>
     <desc>full-service | Ballainvilliers,  | verified 2026-08-22</desc>
@@ -2018,6 +2358,11 @@
   <wpt lat="45.64961284" lon="13.77946853">
     <name>SCOOTERIN S.N.C.</name>
     <desc>full-service | Trieste,  | 040-3490092 | https://www.motoguzzi.com/it_it/store-locator/trieste/scooterin-s-n-c/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.10181" lon="29.05452">
+    <name>Scooterist</name>
+    <desc>satellite | İstanbul, None | 0212 323 36 76 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="35.6769" lon="139.7639">
@@ -2115,6 +2460,11 @@
     <desc>full-service | Charlotte, NC | (704) 847-8454 | https://www.tseurocycles.com/ | verified 2026-07-26</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="39.55581" lon="27.08435">
+    <name>Teknak Otomotiv</name>
+    <desc>satellite | Balıkesir, None | 0266 283 03 70 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="45.5469086" lon="9.2354528">
     <name>TEKNOMOTO SNC</name>
     <desc>full-service | Sesto San Giovanni,  | 02-26223143 | https://www.motoguzzi.com/it_it/store-locator/sesto-san-giovanni/teknomoto-snc-1/ | verified 2026-08-22</desc>
@@ -2128,6 +2478,11 @@
   <wpt lat="39.9477699" lon="-83.0287584">
     <name>Throttle Company Vintage Motorcycles LLC</name>
     <desc>full-service | Columbus, OH | (614) 600-2421 | https://www.throttlecompany.com | verified 2026-07-26</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.01149" lon="29.16609">
+    <name>Thunder Moto</name>
+    <desc>satellite | İstanbul, None | 0542 266 55 05 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="-31.9059" lon="115.9443">
@@ -2145,6 +2500,11 @@
     <desc>satellite | Nijmegen,  | 06-900-6789-09 | https://tlm.nl/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="35.16513" lon="33.32445">
+    <name>Tmm Motors Ltd</name>
+    <desc>satellite | Εγκωμη, None | +357-00357-22106070 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="33.4152" lon="-111.8315">
     <name>Tom&#x27;s Italian Tune and Service</name>
     <desc>full-service+heritage | Mesa, AZ | 480-641-3871 | http://www.tomsitaliantuneandservice.com/ | verified 2026-07-26</desc>
@@ -2160,6 +2520,11 @@
     <desc>satellite | Cairo, NY | (518) 622-0131 | https://www.townlinemotorsports.com/ | verified 2026-07-26</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="41.00526" lon="29.03585">
+    <name>S Motor</name>
+    <desc>satellite | İstanbul, None | 0216 544 13 80 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="55.38388" lon="13.1134261">
     <name>Treble&#x27;s MC-service</name>
     <desc>satellite | Trelleborg, None | +46 410 460 09 | https://www.treblesmcservice.se/ | verified 2026-08-22</desc>
@@ -2168,6 +2533,11 @@
   <wpt lat="45.8854548" lon="11.0372767">
     <name>TRINCO UGO SNC</name>
     <desc>full-service | Rovereto,  | 0464-430479 | https://www.motoguzzi.com/it_it/store-locator/rovereto/trinco-ugo-snc/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="37.04133" lon="27.43842">
+    <name>Turcan Motor</name>
+    <desc>satellite | Muğla, None | 0252 313 93 76 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="32.2265" lon="-95.225">
@@ -2240,6 +2610,16 @@
     <desc>event | Meadows of Dan, VA | https://www.mgnoc.com/rally_calendar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="38.46631" lon="23.61562">
+    <name>Βλαχος Αναστ &amp; Βητας Χαριλ Οε</name>
+    <desc>satellite | Χαλκιδα, None | +30-22210-82382 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.11853" lon="27.90575">
+    <name>Volkan Motosiklet</name>
+    <desc>satellite | Tekirdağ, None | 0282 340 00 00 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="50.955" lon="3.81">
     <name>VRA Motors</name>
     <desc>full-service | Oosterzele,  | 0032 9 329 84 18 | https://www.vramotors.be/ | verified 2026-08-22</desc>
@@ -2285,6 +2665,11 @@
     <desc>performance | Marietta, GA | (770) 424-8804 | https://www.wowmotorcycles.com/ | verified 2026-07-26</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="40.6401" lon="22.9444">
+    <name>E. XANTHOULIS &amp; SIA E.E. (Xanthoulis Piaggio)</name>
+    <desc>satellite+depot | Thessaloniki, None | +30 2310812580 | https://www.facebook.com/piaggio.xanthoulis/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="40.6403" lon="22.9353">
     <name>Xanthoulis &amp; Sia E.E. (Ε. Ξανθούλης και ΣΙΑ Ε.Ε.)</name>
     <desc>depot | Thessaloniki, None | +30 2310 812580 | https://xanthoulis.com/ | verified 2026-08-22</desc>
@@ -2305,9 +2690,24 @@
     <desc>satellite | Vishakhapatnam,  | +91-9573571787 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="37.03925" lon="27.41794">
+    <name>Yavuz Moto</name>
+    <desc>satellite | Muğla, None | 0533 088 12 02 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="41.808" lon="-72.249">
     <name>New England Christmas-time at Ye-Olde Garage</name>
     <desc>event | Storrs, CT | https://www.mgnoc.com/rally_calendar.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="37.99531" lon="23.72411">
+    <name>Υιοι  Κωνσταντινου Δρακοπουλου Ο.Ε</name>
+    <desc>satellite | Αθηνα, None | +30-210-8239610 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.11689" lon="29.01899">
+    <name>Yücel Motor</name>
+    <desc>satellite | İstanbul, None | 0212 276 21 87 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="41.86664187" lon="12.5304975">

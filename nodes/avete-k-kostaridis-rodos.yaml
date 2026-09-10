@@ -1,0 +1,23 @@
+id: avete-k-kostaridis-rodos
+name: Αβετε Κ Κωσταριδης
+city: Ροδος
+country: GR
+lat: 36.44011
+lon: 28.23352
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+phone: +30-22410-22157
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΑΒΕΤΕ Κ ΚΩΣΤΑΡΙΔΗΣ'', ΚΑΝΑΔΑ 12, Ροδος 85100; active:true;
+    type=dealers; phone 22410-22157.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

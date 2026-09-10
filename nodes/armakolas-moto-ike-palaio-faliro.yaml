@@ -1,0 +1,24 @@
+id: armakolas-moto-ike-palaio-faliro
+name: Αρμακολας Μοτο Ικε
+city: Παλαιο Φαληρο
+country: GR
+lat: 37.93176
+lon: 23.70348
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +30-2109707198
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΑΡΜΑΚΟΛΑΣ ΜΟΤΟ ΙΚΕ'', ΛΕΩΦΟΡΟΣ ΑΜΦΙΘΕΑΣ 151, Παλαιο Φαληρο
+    17563; active:true; type=dealers,services; phone 2109707198.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

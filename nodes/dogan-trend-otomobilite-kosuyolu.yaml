@@ -1,0 +1,28 @@
+id: dogan-trend-otomobilite-kosuyolu
+name: Doğan Trend Otomobilite - Koşuyolu
+city: İstanbul
+country: TR
+lat: 41.00467
+lon: 29.0356
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-servisler.html
+phone: 0531 667 25 61
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html
+    lists Doğan Trend Otomobilite - Koşuyolu as authorized service (Yetkili Servis); published
+    address: Acıbadem Mh. Alidede Sk. No:4 Kadıköy - İstanbul; published business phone 0531
+    667 25 61; exact pin coordinates 41.00467,29.03560 taken from the page store data. Distributor-owned
+    service point. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html
+    states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr
+    currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

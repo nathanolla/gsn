@@ -1,0 +1,31 @@
+id: dogan-trend-otomobilite-basin-ekspres
+name: Doğan Trend Otomobilite - Basın Ekspres
+city: İstanbul
+country: TR
+lat: 41.04131
+lon: 28.80861
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0212 401 55 00
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+    lists Doğan Trend Otomobilite - Basın Ekspres as authorized dealer (Yetkili Satici) and
+    authorized service (Yetkili Servis); published address: Halkalı Merkez Mah. Basın Ekspres
+    Yolu Yan Yol No:37 Küçükçekmece - İstanbul; published business phone 0212 401 55 00; exact
+    pin coordinates 41.04131,28.80861 taken from the page store data. This is a flagship branch
+    of the national distributor itself (dogantrend.com). Turkish network is operated by distributor
+    Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served
+    in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the
+    Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

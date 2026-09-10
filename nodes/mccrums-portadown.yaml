@@ -1,0 +1,53 @@
+id: mccrums-portadown
+name: McCrums Motorcycles Ltd
+city: Portadown
+state: ''
+country: GB
+lat: 54.4251
+lon: -6.4454
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- suzuki
+- voge
+functions:
+- new-bike sales
+- used sales
+url: http://www.mccrums.co.uk/
+phone: 028 3886 8004
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Former official Moto Guzzi locator listing: Wayback 200-OK capture on 2020-11-28
+    of https://www.motoguzzi.com/gb_EN/dealer-locator/portadown/mccrums-motorcycles-ltd/ (archived
+    page is a JS shell; the archived locator URL itself evidences the listing). Not found
+    in Brave''s current index of motoguzzi.com (site: query, one attempt, 2026-09-10) and
+    direct locator fetch is Akamai-403 — current listing status unresolved. Only Northern
+    Ireland dealer URL in the 74 archived gb_EN locator entries.'
+- date: 2026-09-10
+  method: website
+  fact: 'Current own site contradicts an active Guzzi franchise: mccrums.co.uk about page
+    (http://www.mccrums.co.uk/about-us) states "NI Main Suzuki Dealer" and "Northern Ireland''s
+    Only Voge Dealer" (family business since 2013); no Moto Guzzi mention anywhere. Homepage
+    HTML contains Aprilia/Vespa/Piaggio/Moto-Guzzi logo links but they are inside HTML comments
+    (<!--...-->), evidencing a lapsed Piaggio-group web presence; remaining Aprilia traces
+    are the "McCrums Aprilia Open Race" sponsorship at Tandragee 100 and a customer review
+    of an Aprilia purchase. Phone 028 3886 8004. lat/lon = Nominatim geocode of Portadown
+    (city-level). Graded unverified: locator evidence is 2020; 2026 first-party evidence does
+    not support an active Guzzi franchise.'
+- date: 2026-09-10
+  method: community-endorsement
+  fact: wildguzzi.com census thread "A listing and map of all active Guzzi dealers in the
+    U.K. and Ireland" (https://wildguzzi.com/forum/index.php?topic=81583.0; table last edited
+    Feb 2017) contains no Northern Ireland rows — the McCrums locator listing therefore dates
+    from the 2017-2020 window.
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: NOT present in the current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GB/motoguzzi/stores,
+    32 records) — the 2020-era franchise listing has lapsed, consistent with the Guzzi logos
+    commented out of the shop''s own homepage HTML. Kept as unverified.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: unverified

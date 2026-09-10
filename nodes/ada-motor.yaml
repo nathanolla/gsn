@@ -1,0 +1,29 @@
+id: ada-motor
+name: Ada Motor
+city: Muğla
+country: TR
+lat: 36.85863
+lon: 28.27288
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0252 412 66 86
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+    lists Ada Motor as authorized dealer (Yetkili Satici) and authorized service (Yetkili
+    Servis); published address: Tepe Mah. Yeniyol Cad. No: 49 Marmaris - Muğla; published
+    business phone 0252 412 66 86; exact pin coordinates 36.85863,28.27288 taken from the
+    page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html
+    states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr
+    currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

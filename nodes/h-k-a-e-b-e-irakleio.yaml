@@ -1,0 +1,22 @@
+id: h-k-a-e-b-e-irakleio
+name: H-K A.E.B.E.
+city: Ηρακλειο
+country: GR
+lat: 35.34123
+lon: 25.14421
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''H-K A.E.B.E.'', Λ.ΙΚΑΡΟΥ & ΑΓΙΟΥ ΦΑΝΟΥΡΙΟΥ, Ηρακλειο
+    71307; active:true; type=dealers; phone n/a.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

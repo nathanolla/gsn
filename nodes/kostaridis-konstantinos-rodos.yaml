@@ -1,0 +1,23 @@
+id: kostaridis-konstantinos-rodos
+name: Κωσταριδης Κωνσταντινος
+city: Ροδος
+country: GR
+lat: 36.439
+lon: 28.23663
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+phone: +30-22410-23372
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΚΩΣΤΑΡΙΔΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ'', ΚΟΛΟΚΟΤΡΩΝΗ 13, Ροδος 85100;
+    active:true; type=services; phone 22410-23372.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

@@ -1,0 +1,28 @@
+id: motoratel
+name: Motoratel
+city: İzmir
+country: TR
+lat: 38.48124
+lon: 27.05516
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-servisler.html
+phone: 0232 386 57 47
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html
+    lists Motoratel as authorized service (Yetkili Servis); published address: Ataşehir Mahallesi
+    8281 sokak No:11 Çiğli - İzmir; published business phone 0232 386 57 47; exact pin coordinates
+    38.48124,27.05516 taken from the page store data. Turkish network is operated by distributor
+    Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served
+    in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the
+    Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

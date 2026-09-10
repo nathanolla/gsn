@@ -1,0 +1,36 @@
+id: piaggio-lyberopoulos-volos
+name: Piaggio Lyberopoulos — Volos branch
+city: Volos
+country: GR
+lat: 39.3643
+lon: 22.9474
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+functions:
+- sales
+url: https://lyberopoulos.gr/
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Official MG Greece locator page exists at https://www.motoguzzi.com/gr_EL/dealer-locator/βολος/λυμπεροπουλος-κ-μονοπροσωπη-επε/
+    (Volos listing). Coordinates city-level (Volos); no street address rendered to my fetcher.
+- date: 2026-09-10
+  method: community-endorsement
+  fact: Greek moto trade press motomag.gr articles "Νέο κατάστημα Aprilia – Moto Guzzi Lyberopoulos"
+    (motomag.gr/news/epikairotita/neo-katastima-aprilia-moto-guzzi-lyberopoulos) and "Εγκαίνια
+    για νέο κατάστημα Piaggio Λυμπερόπουλος στον Βόλο" (motomag.gr/market-news/egkainia-gia-neo-katastima-piaggio-lymperopoylos-ston-bolo)
+    cover the opening of the Lyberopoulos Aprilia–Moto Guzzi store in Volos (titles/URLs seen
+    2026-09-10).
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores)
+    lists ''ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ. ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ'', ΒΟΛΟΣ, active:true, type=dealers — lane evidence
+    confirmed against the live official list.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

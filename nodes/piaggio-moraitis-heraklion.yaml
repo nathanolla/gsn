@@ -1,0 +1,38 @@
+id: piaggio-moraitis-heraklion
+name: Piaggio Moraitis
+city: Heraklion
+country: GR
+lat: 35.3387
+lon: 25.1442
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+functions:
+- sales
+- service
+- parts
+url: https://piaggiomoraitis.gr/en/home/
+phone: +30 2810284714
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'piaggiomoraitis.gr (fetched, en/home + the-company): trades vehicles and spare parts
+    for the Piaggio Group (PIAGGIO-VESPA-APRILIA-MOTO GUZZI) with experienced-staff maintenance/repair
+    service; dedicated MOTO GUZZI MODELS section (V85 TT, V7, V9); address Ainikolioti 3,
+    Iraklio, Crete 712 01, tel +30 2810284714. Facebook page: "Επίσημος συνεργάτης της Piaggio
+    Hellas στο Ηράκλειο Κρήτης" (official partner of importer Piaggio Hellas in Heraklion).
+    Coordinates city-level (Heraklion). NOT seen on the motoguzzi.com gr_EL locator pages
+    reachable to me — status capped unverified per website-only methodology.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores)
+    lists ''ΜΩΡΑΙΤΗΣ ΕΥΑΓΓ.& ΖΑΧ. ΟΕ'', ΗΡΑΚΛΕΙΟ, active:true, type=services — lane evidence
+    confirmed against the live official list.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

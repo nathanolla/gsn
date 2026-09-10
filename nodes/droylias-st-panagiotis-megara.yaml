@@ -1,0 +1,23 @@
+id: droylias-st-panagiotis-megara
+name: Δρουλιας Στ.Παναγιωτης
+city: Μεγαρα
+country: GR
+lat: 37.99513
+lon: 23.345
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+phone: +30-22960-89266
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΔΡΟΥΛΙΑΣ ΣΤ.ΠΑΝΑΓΙΩΤΗΣ'', 42o ΧΛΜ Π.Ε.Ο ΑΘΗΝΩΝ-ΚΟΡΙΝΘΟΥ,
+    Μεγαρα 19100; active:true; type=services; phone 22960-89266.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

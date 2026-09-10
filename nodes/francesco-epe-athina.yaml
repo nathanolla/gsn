@@ -1,0 +1,40 @@
+id: francesco-epe-athina
+name: FRANCESCO E.P.E.
+city: Athens
+country: GR
+lat: 37.9838
+lon: 23.7843
+layer: franchise
+capability:
+- satellite
+- depot
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+- parts
+url: https://b2c.francesco.gr/categories/06/moto-guzzi-/
+phone: +30 210 9240650
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Official MG Greece locator https://www.motoguzzi.com/gr_EL/dealer-locator/αθηνα/francesco-ε-π-ε/
+    (and twin listing on piaggio.com gr_EL) — "FRANCESCO Ε.Π.Ε., πωλήσεις τεχνική υποστήριξη
+    Moto Guzzi σε ΑΘΗΝΑ" (sales + technical support). Coordinates city-level (Athens).
+- date: 2026-09-10
+  method: website
+  fact: Own online shop b2c.francesco.gr (fetched) has a live Moto Guzzi category (Motorbike
+    parts/accessories), header shows Kallirois 29-31, Athens (Neos Kosmos) 11743, tel 210
+    9240650 — functions as a mail-order parts depot for Piaggio-group brands.
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores)
+    lists ''FRANCESCO Ε.Π.Ε.'', ΑΘΗΝΑ, active:true, type=dealers,services — lane evidence
+    confirmed against the live official list.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

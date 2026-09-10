@@ -1,0 +1,39 @@
+id: piaggio-lyberopoulos-agios-dimitrios
+name: Piaggio Lyberopoulos (HQ)
+city: Agios Dimitrios (Athens)
+country: GR
+lat: 37.9472
+lon: 23.7381
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+functions:
+- sales
+- service
+url: https://lyberopoulos.gr/
+phone: +30 210 970 1400
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Official MG Greece locator page exists at https://www.motoguzzi.com/gr_EL/dealer-locator/αγιος-δημητριος/λυμπεροπουλος-κ-μονοπροσωπη-επε/
+    (twin listing on piaggio.com gr_EL under Αθήνα). Coordinates district-level (Agios Dimitrios).
+- date: 2026-09-10
+  method: website
+  fact: lyberopoulos.gr (fetched) states "Επίσημος dealer και εξουσιοδοτημένο service του
+    Piaggio Group" (official dealer and authorized service of Piaggio Group) with per-brand
+    service pages including MOTO GUZZI, and links out to motoguzzi.com/gr_EL promotions; contacts
+    page (fetched) gives Leof. Vouliagmenis 317, Ag. Dimitrios, phone 210 970 1400 (further
+    lines 210 211 6644 / 210 970 4500 / 210 228 8288 / 2106010076).
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores)
+    lists ''ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ. ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ'', ΑΓΙΟΣ ΔΗΜΗΤΡΙΟΣ, active:true, type=dealers,services
+    — lane evidence confirmed against the live official list.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

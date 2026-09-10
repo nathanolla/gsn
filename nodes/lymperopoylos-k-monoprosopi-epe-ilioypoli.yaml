@@ -1,0 +1,22 @@
+id: lymperopoylos-k-monoprosopi-epe-ilioypoli
+name: Λυμπεροπουλος Κ. Μονοπροσωπη Επε
+city: Ηλιουπολη
+country: GR
+lat: 37.93876
+lon: 23.7416
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ. ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ'', ΔΕΔΟΥΣΗ ΒΟΥΛΙΑΓΜΕΝΗΣ
+    331, Ηλιουπολη 16346; active:true; type=dealers; phone n/a.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

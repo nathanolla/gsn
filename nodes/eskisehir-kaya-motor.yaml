@@ -1,0 +1,29 @@
+id: eskisehir-kaya-motor
+name: Eskişehir Kaya Motor
+city: Eskişehir
+country: TR
+lat: 39.78862
+lon: 30.47411
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0533 017 51 20
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator lists Eskişehir Kaya Motor on both yetkili-saticilar.html
+    (dealer: Hoşnudiye Mah. İsmet İnönü 1 Bulvarı 131/1A-131/1B Tepebaşı) and yetkili-servisler.html
+    (service: Uluönder Mah. Baksan Sanayi Sitesi 20.Blok No:8 Tepebaşı — separate workshop
+    address, coordinates given are the workshop pin); published business phone 0533 017 51
+    20. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html
+    states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr
+    currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

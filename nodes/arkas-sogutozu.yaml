@@ -1,0 +1,29 @@
+id: arkas-sogutozu
+name: Arkas Söğütözü
+city: Ankara
+country: TR
+lat: 39.9096
+lon: 32.79404
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0312 203 94 44
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+    lists Arkas Söğütözü as authorized dealer (Yetkili Satici) and authorized service (Yetkili
+    Servis); published address: Söğütözü Mah. Dumlupınar Blv. No:102 Çankaya /Ankara; published
+    business phone 0312 203 94 44; exact pin coordinates 39.90960,32.79404 taken from the
+    page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html
+    states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr
+    currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

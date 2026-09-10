@@ -1,0 +1,40 @@
+id: ni-guzzis
+name: NI Guzzis (Moto Guzzi Club GB — Northern Ireland branch)
+state: ''
+country: GB
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- monthly club meets (Counties Down & Antrim)
+- annual rally organisation (Ulster Rally since 2009)
+- online community (Facebook/Instagram)
+url: https://belfastguzzi.com/
+phone: ''
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'https://belfastguzzi.com/ live — "NI GUZZIs – Moto Guzzi community and events in
+    Northern Ireland". Moto Guzzi Ulster Rally 2026 ran 22-25 May at The Shepherd''s Rest
+    campsite/pub in the Sperrins (post-event note: "attendance increased, weather improved…
+    time now to flag the date for 2027"); rally archive runs to "Ulster Rally 1: 2009" plus
+    "MGCGB Irish Rallies 1997 & 1998"; monthly meets page; Facebook facebook.com/Belfastguzzi,
+    Instagram @guzzisni. About page (signed "''Belfastguzzi''… County Down, January 2024")
+    records the Facebook page since 2008, first Ulster Rally 2009 attended by enthusiasts
+    "from UK, Ireland & Europe", and regular meets "mostly around Counties Down & Antrim".
+    No coordinates per club-layer methodology.'
+- date: 2026-09-10
+  method: website
+  fact: 'Moto Guzzi Club GB branches page (https://www.motoguzziclub.co.uk/branches) lists
+    a Northern Ireland branch: meets 2nd Wednesday monthly 19:00, Conway Square, Newtownards
+    (what3words ///snails.scripted.rooftop); the branch page (https://www.motoguzziclub.co.uk/branches/northern-ireland)
+    links belfastguzzi.com as the branch''s Facebook and publishes the role address ni.branch@motoguzziclub.co.uk
+    (branch organizer''s personal mobile deliberately NOT recorded here). Club self-describes
+    as "approximately 3,000 members in the UK, Ireland and Overseas… more than 40 local branches"
+    — the NI branch is the only Ireland-listed branch. Same community as the belfastguzzi.com
+    site: the about-page author identifies as the MGCGB NI Branch contact.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

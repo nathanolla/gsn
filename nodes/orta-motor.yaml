@@ -1,0 +1,29 @@
+id: orta-motor
+name: Orta Motor
+city: İstanbul
+country: TR
+lat: 41.00763
+lon: 28.62418
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0212 855 07 04
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+    lists Orta Motor as authorized dealer (Yetkili Satici) and authorized service (Yetkili
+    Servis); published address: Adnan Kahveci Mah. Avrupa Cd. No:106 Beylikdüzü - İstanbul;
+    published business phone 0212 855 07 04; exact pin coordinates 41.00763,28.62418 taken
+    from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html
+    states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr
+    currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

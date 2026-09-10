@@ -1,0 +1,30 @@
+id: blk-otomotiv
+name: BLK Otomotiv
+city: Adana
+country: TR
+lat: 37.03478
+lon: 35.24152
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0322 255 12 55
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+    lists BLK Otomotiv as authorized dealer (Yetkili Satici) and authorized service (Yetkili
+    Servis); published address: 100.Yıl Mah.Hacı Bektaşi Veli Bulvarı 82/2 Hilal Family Sitesi
+    No:82/1A Çukurova - Adana; published business phone 0322 255 12 55; exact pin coordinates
+    37.03478,35.24152 taken from the page store data. Turkish network is operated by distributor
+    Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served
+    in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the
+    Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

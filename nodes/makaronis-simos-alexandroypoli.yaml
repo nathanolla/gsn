@@ -1,0 +1,23 @@
+id: makaronis-simos-alexandroypoli
+name: Μακαρωνης Σιμος
+city: Αλεξανδρουπολη
+country: GR
+lat: 40.84453
+lon: 25.86817
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+phone: +30-25510-32537
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΜΑΚΑΡΩΝΗΣ ΣΙΜΟΣ'', Λ.ΔΗΜΟΚΡΑΤΙΑΣ&ΔΟΛΟΓΓΟΥ ΓΩΝΙΑ, Αλεξανδρουπολη
+    68100; active:true; type=services; phone 25510-32537.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

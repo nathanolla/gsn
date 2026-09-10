@@ -1,0 +1,23 @@
+id: yioi-konstantinoy-drakopoyloy-o-e-athina
+name: Υιοι  Κωνσταντινου Δρακοπουλου Ο.Ε
+city: Αθηνα
+country: GR
+lat: 37.99531
+lon: 23.72411
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+phone: +30-210-8239610
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΥΙΟΙ  ΚΩΝΣΤΑΝΤΙΝΟΥ ΔΡΑΚΟΠΟΥΛΟΥ Ο.Ε'', ΚΛΑΖΟΜΕΝΩΝ 1-3,
+    Αθηνα 10440; active:true; type=services; phone 210-8239610.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

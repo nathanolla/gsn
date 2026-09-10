@@ -1,0 +1,28 @@
+id: dogan-trend-otomobilite-istinye
+name: Doğan Trend Otomobilite - İstinye
+city: İstanbul
+country: TR
+lat: 41.11859
+lon: 29.03637
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0212 401 55 25
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+    lists Doğan Trend Otomobilite - İstinye as authorized dealer (Yetkili Satici); published
+    address: Sarıyer Cad. ABC Plaza Giriş Kat Sarıyer - İstanbul; published business phone
+    0212 401 55 25; exact pin coordinates 41.11859,29.03637 taken from the page store data.
+    Distributor-owned showroom. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html
+    states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr
+    currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

@@ -1,0 +1,28 @@
+id: gungor-company
+name: Güngör Company
+city: İstanbul
+country: TR
+lat: 40.88103
+lon: 29.22959
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-servisler.html
+phone: 444 99 54
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html
+    lists Güngör Company as authorized service (Yetkili Servis); published address: Yeni Mah.
+    Abdülhalik Renda Cad. No 32 Pendik - İstanbul; published business phone 444 99 54; exact
+    pin coordinates 40.88103,29.22959 taken from the page store data. Turkish network is operated
+    by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has
+    been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently
+    shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

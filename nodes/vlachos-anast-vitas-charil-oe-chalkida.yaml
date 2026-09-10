@@ -1,0 +1,23 @@
+id: vlachos-anast-vitas-charil-oe-chalkida
+name: Βλαχος Αναστ & Βητας Χαριλ Οε
+city: Χαλκιδα
+country: GR
+lat: 38.46631
+lon: 23.61562
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+phone: +30-22210-82382
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΒΛΑΧΟΣ ΑΝΑΣΤ & ΒΗΤΑΣ ΧΑΡΙΛ ΟΕ'', ΟΡΕΣΤΗ ΜΑΚΡΗ 20, Χαλκιδα
+    34100; active:true; type=services; phone 22210-82382.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

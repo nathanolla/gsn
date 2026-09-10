@@ -1,0 +1,23 @@
+id: manatos-s-monastiriotis-s-o-e-kerkyra
+name: Μανατος Σ.- Μοναστηριωτης Σ. Ο.Ε.
+city: Κερκυρα
+country: GR
+lat: 39.61678
+lon: 19.89993
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+phone: +30-26610-31456
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''ΜΑΝΑΤΟΣ Σ.- ΜΟΝΑΣΤΗΡΙΩΤΗΣ Σ. Ο.Ε.'', 2ο ΧΛΜ ΕΘΝΙΚΗ ΠΕΛΕΚΑ,
+    Κερκυρα 49100; active:true; type=services; phone 26610-31456.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active

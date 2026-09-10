@@ -1,0 +1,29 @@
+id: motorall
+name: Motorall
+city: Muğla
+country: TR
+lat: 36.6513
+lon: 29.13238
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+url: https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+phone: 0252 613 28 48
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html
+    lists Motorall as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis);
+    published address: Yeni Mahalle Adnan Menderes Bulvarı No:240 Fethiye - Muğla; published
+    business phone 0252 613 28 48; exact pin coordinates 36.65130,29.13238 taken from the
+    page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html
+    states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr
+    currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026).'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: active

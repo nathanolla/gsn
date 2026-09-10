@@ -59,6 +59,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     29.02298,
+     41.11909
+    ]
+   },
+   "properties": {
+    "id": "abdullah-akis",
+    "name": "Abdullah Akiş",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0212 346 15 13",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Abdullah Akiş as authorized service (Yetkili Servis); published address: 100. Yıl San. Sit. G:52 Sk. No:35 Maslak/İstanbul Sarıyer - İstanbul; published business phone 0212 346 15 13; exact pin coordinates 41.11909,29.02298 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      31.2357,
      30.0444
     ]
@@ -255,6 +295,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     28.27288,
+     36.85863
+    ]
+   },
+   "properties": {
+    "id": "ada-motor",
+    "name": "Ada Motor",
+    "city": "Muğla",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0252 412 66 86",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Ada Motor as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Tepe Mah. Yeniyol Cad. No: 49 Marmaris - Muğla; published business phone 0252 412 66 86; exact pin coordinates 36.85863,28.27288 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -97.6858,
      30.3634
     ]
@@ -310,6 +391,46 @@
       "date": "2026-08-18",
       "method": "website",
       "fact": "Re-check: site live; brand meta lists Aprilia/Moto Guzzi/Vespa/Triumph; 2027 and 2026 model-year references throughout; phone matches node"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.47116,
+     35.36438
+    ]
+   },
+   "properties": {
+    "id": "afoi-xekaloy-oe-rethymno",
+    "name": "Αφοι Ξεκαλου Οε",
+    "city": "Ρεθυμνο",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-28310-35203",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΑΦΟΙ ΞΕΚΑΛΟΥ ΟΕ', ΜΑΧΗΣ ΚΡΗΤΗΣ 97, Ρεθυμνο 74100; active:true; type=services; phone 28310-35203."
      }
     ]
    }
@@ -461,6 +582,46 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "listed as authorized dealer and authorized service on importer pages https://www.piaggio.rs/ovlasceni-dileri/ and https://www.piaggio.rs/ovlasceni-serviseri/, verified 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.03131,
+     36.54108
+    ]
+   },
+   "properties": {
+    "id": "ak-universal",
+    "name": "Ak Universal",
+    "city": "Antalya",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0242 514 31 19",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Ak Universal as authorized service (Yetkili Servis); published address: Cumhurıyet Mah.Yaşar Doğu Cad. Alı Nzım Bey Apt No:50/1-C Alanya - Antalya; published business phone 0242 514 31 19; exact pin coordinates 36.54108,32.03131 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -644,6 +805,46 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "Parent company page alfardan.com.qa/motorcycles confirms Alfardan Corporation as the operating entity.\n"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.01387,
+     39.59011
+    ]
+   },
+   "properties": {
+    "id": "altan-motostore",
+    "name": "Altan Motostore",
+    "city": "Balıkesir",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0266 374 22 22",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Altan Motostore as authorized service (Yetkili Servis); published address: Hamidiye Mah. Dr. Kamil Emin Güneş Cad. No:12/A (Edremit); published business phone 0266 374 22 22; exact pin coordinates 39.59011,27.01387 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -1243,6 +1444,88 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     32.79404,
+     39.9096
+    ]
+   },
+   "properties": {
+    "id": "arkas-sogutozu",
+    "name": "Arkas Söğütözü",
+    "city": "Ankara",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0312 203 94 44",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Arkas Söğütözü as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Söğütözü Mah. Dumlupınar Blv. No:102 Çankaya /Ankara; published business phone 0312 203 94 44; exact pin coordinates 39.90960,32.79404 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.70348,
+     37.93176
+    ]
+   },
+   "properties": {
+    "id": "armakolas-moto-ike-palaio-faliro",
+    "name": "Αρμακολας Μοτο Ικε",
+    "city": "Παλαιο Φαληρο",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-2109707198",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΑΡΜΑΚΟΛΑΣ ΜΟΤΟ ΙΚΕ', ΛΕΩΦΟΡΟΣ ΑΜΦΙΘΕΑΣ 151, Παλαιο Φαληρο 17563; active:true; type=dealers,services; phone 2109707198."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -78.6566,
      35.7635
     ]
@@ -1302,6 +1585,46 @@
       "date": "2026-08-18",
       "method": "website",
       "fact": "Re-check: site live (JS single-page shell); meta description names Moto Guzzi among dealership lines; consistent with 2026-07-25 in-person visit and 2026-07-26 locator listing"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.99058,
+     41.10952
+    ]
+   },
+   "properties": {
+    "id": "asal",
+    "name": "Asal",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0212 289 88 00",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Asal as authorized dealer (Yetkili Satici); published address: Asal Plaza Ayazağa Mah.Cendere Yolu No:5/1 Sarıyer - İstanbul; published business phone 0212 289 88 00; exact pin coordinates 41.10952,28.99058 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -1447,6 +1770,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     28.23352,
+     36.44011
+    ]
+   },
+   "properties": {
+    "id": "avete-k-kostaridis-rodos",
+    "name": "Αβετε Κ Κωσταριδης",
+    "city": "Ροδος",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": null,
+    "phone": "+30-22410-22157",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΑΒΕΤΕ Κ ΚΩΣΤΑΡΙΔΗΣ', ΚΑΝΑΔΑ 12, Ροδος 85100; active:true; type=dealers; phone 22410-22157."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      18.6764,
      -33.8645
     ]
@@ -1534,6 +1897,46 @@
       "date": "2026-05-18",
       "method": "community-endorsement",
       "fact": "Moto Guzzi Club GB forum, thread 'California 1400 independent servicing': Chris950s (2026-05-18) 'Baldrick gets my vote, look for contact details in the back of Gambalunga': https://forum.motoguzziclub.co.uk/t/california-1400-independent-servicing/23882 ; address Unit 20, rear of 282 Court Road, London SE9 4TU per forum post: https://forum.motoguzziclub.co.uk/t/moto-guzzi-servicing/2686"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.79725,
+     40.98774
+    ]
+   },
+   "properties": {
+    "id": "batuhan-motor",
+    "name": "Batuhan Motor",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0212 592 88 33",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Batuhan Motor as authorized service (Yetkili Servis); published address: Şenlikköy Mah. Eski Halkalı Cad. No: 3 Dükkan 15 Bakırköy - İstanbul; published business phone 0212 592 88 33; exact pin coordinates 40.98774,28.79725 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -2222,6 +2625,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     35.24152,
+     37.03478
+    ]
+   },
+   "properties": {
+    "id": "blk-otomotiv",
+    "name": "BLK Otomotiv",
+    "city": "Adana",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0322 255 12 55",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists BLK Otomotiv as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: 100.Yıl Mah.Hacı Bektaşi Veli Bulvarı 82/2 Hilal Family Sitesi No:82/1A Çukurova - Adana; published business phone 0322 255 12 55; exact pin coordinates 37.03478,35.24152 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -74.3243,
      41.4021
     ]
@@ -2802,6 +3246,46 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Club site is live: \"Moto Guzzi California Club Schweiz\" at motoguzzicaliforniaclubschweiz.clubdesk.com/, with Verein (membership), Neumitglied (new members), and Impressum sections. National Swiss club — no city stated on the fetched page; no coordinates per knowledge-node doctrine."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.7159,
+     36.9022
+    ]
+   },
+   "properties": {
+    "id": "can-motor",
+    "name": "Can Motor",
+    "city": "Antalya",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0242 321 76 48",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Can Motor as authorized dealer (Yetkili Satici); published address: Etiler Mah. Kızılırmak Cad. No: 27 Levent Apt. Muratpaşa - Antalya; published business phone 0242 321 76 48; exact pin coordinates 36.90220,30.71590 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -4753,6 +5237,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     34.55234,
+     36.7636
+    ]
+   },
+   "properties": {
+    "id": "derya-drc-motor",
+    "name": "Derya Drc Motor",
+    "city": "Mersin",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0324 359 30 44",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Derya Drc Motor as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Fatih Mah.Oktay Öner Sitesi GMK Bulvarı A1 Blok No:1 Mezitli - Mersin; published business phone 0324 359 30 44; exact pin coordinates 36.76360,34.55234 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -83.533,
      42.657
     ]
@@ -4850,6 +5375,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     22.94217,
+     37.93982
+    ]
+   },
+   "properties": {
+    "id": "dimitriadis-antonis-oe-korinthos",
+    "name": "Δημητριαδης Αντωνης Οε",
+    "city": "Κορινθος",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-2741085257",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΔΗΜΗΤΡΙΑΔΗΣ ΑΝΤΩΝΗΣ ΟΕ', ΑΘΗΝΩΝ 56, Κορινθος 20100; active:true; type=services; phone 2741085257."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -74.0836,
      4.6534
     ]
@@ -4935,6 +5500,168 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Facebook page \"DK MOTO\" has 10,860 likes, 1,619 were here, 4.9/5 rating (161 reviews). Opened as Aprilia & Moto Guzzi 3S Motoplex CI flagship store on 2024-05-25 per supermoto8.com and bikein-net.com coverage. First 3S dealership for these brands in central Taiwan. Also a Benelli central Taiwan dealer."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.91993,
+     36.43171
+    ]
+   },
+   "properties": {
+    "id": "dogan-motor",
+    "name": "Doğan Motor",
+    "city": "Hatay",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0542 415 55 59",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Doğan Motor as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Gökmeydanı Mah.A.Taner Kışlalı Cad. No:22 Arsuz - Hatay; published business phone 0542 415 55 59; exact pin coordinates 36.43171,35.91993 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.80861,
+     41.04131
+    ]
+   },
+   "properties": {
+    "id": "dogan-trend-otomobilite-basin-ekspres",
+    "name": "Doğan Trend Otomobilite - Basın Ekspres",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0212 401 55 00",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Doğan Trend Otomobilite - Basın Ekspres as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Halkalı Merkez Mah. Basın Ekspres Yolu Yan Yol No:37 Küçükçekmece - İstanbul; published business phone 0212 401 55 00; exact pin coordinates 41.04131,28.80861 taken from the page store data. This is a flagship branch of the national distributor itself (dogantrend.com). Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.03637,
+     41.11859
+    ]
+   },
+   "properties": {
+    "id": "dogan-trend-otomobilite-istinye",
+    "name": "Doğan Trend Otomobilite - İstinye",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0212 401 55 25",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Doğan Trend Otomobilite - İstinye as authorized dealer (Yetkili Satici); published address: Sarıyer Cad. ABC Plaza Giriş Kat Sarıyer - İstanbul; published business phone 0212 401 55 25; exact pin coordinates 41.11859,29.03637 taken from the page store data. Distributor-owned showroom. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.0356,
+     41.00467
+    ]
+   },
+   "properties": {
+    "id": "dogan-trend-otomobilite-kosuyolu",
+    "name": "Doğan Trend Otomobilite - Koşuyolu",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0531 667 25 61",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Doğan Trend Otomobilite - Koşuyolu as authorized service (Yetkili Servis); published address: Acıbadem Mh. Alidede Sk. No:4 Kadıköy - İstanbul; published business phone 0531 667 25 61; exact pin coordinates 41.00467,29.03560 taken from the page store data. Distributor-owned service point. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -5215,6 +5942,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     23.345,
+     37.99513
+    ]
+   },
+   "properties": {
+    "id": "droylias-st-panagiotis-megara",
+    "name": "Δρουλιας Στ.Παναγιωτης",
+    "city": "Μεγαρα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-22960-89266",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΔΡΟΥΛΙΑΣ ΣΤ.ΠΑΝΑΓΙΩΤΗΣ', 42o ΧΛΜ Π.Ε.Ο ΑΘΗΝΩΝ-ΚΟΡΙΝΘΟΥ, Μεγαρα 19100; active:true; type=services; phone 22960-89266."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      55.233,
      25.1437
     ]
@@ -5255,6 +6022,46 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Duseja Moto has been operating in the UAE for 13+ years (since ~2009). Started as exclusive importer for Aprilia, Moto Guzzi, Piaggio, Vespa, Gilera, Derbi, and Triumph. Now the largest open-to-all-brand retail hub and service center for motorcycles in the UAE. Address: Warehouse B3, Al Qouz Ind Area 3, Umm Suqeim Road, Dubai. Factory-trained technicians. Services include sales, service/repair, storage, transportation, RTA services, and customization."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.37242,
+     38.28723
+    ]
+   },
+   "properties": {
+    "id": "duzyol-motor",
+    "name": "Düzyol Motor",
+    "city": "İzmir",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0232 716 82 82",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Düzyol Motor as authorized service (Yetkili Servis); published address: Küçük San. Sit. 1057 Sk. No:1 Çeşme - İzmir; published business phone 0232 716 82 82; exact pin coordinates 38.28723,26.37242 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -5979,6 +6786,47 @@
       "date": "2026-08-18",
       "method": "website",
       "fact": "Re-check: site live; Moto Guzzi among sold brands; copyright 2026; phone matches node."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.47411,
+     39.78862
+    ]
+   },
+   "properties": {
+    "id": "eskisehir-kaya-motor",
+    "name": "Eskişehir Kaya Motor",
+    "city": "Eskişehir",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0533 017 51 20",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator lists Eskişehir Kaya Motor on both yetkili-saticilar.html (dealer: Hoşnudiye Mah. İsmet İnönü 1 Bulvarı 131/1A-131/1B Tepebaşı) and yetkili-servisler.html (service: Uluönder Mah. Baksan Sanayi Sitesi 20.Blok No:8 Tepebaşı — separate workshop address, coordinates given are the workshop pin); published business phone 0533 017 51 20. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -7014,6 +7862,62 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     23.7843,
+     37.9838
+    ]
+   },
+   "properties": {
+    "id": "francesco-epe-athina",
+    "name": "FRANCESCO E.P.E.",
+    "city": "Athens",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://b2c.francesco.gr/categories/06/moto-guzzi-/",
+    "phone": "+30 210 9240650",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite",
+     "depot"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official MG Greece locator https://www.motoguzzi.com/gr_EL/dealer-locator/αθηνα/francesco-ε-π-ε/ (and twin listing on piaggio.com gr_EL) — \"FRANCESCO Ε.Π.Ε., πωλήσεις τεχνική υποστήριξη Moto Guzzi σε ΑΘΗΝΑ\" (sales + technical support). Coordinates city-level (Athens)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Own online shop b2c.francesco.gr (fetched) has a live Moto Guzzi category (Motorbike parts/accessories), header shows Kallirois 29-31, Athens (Neos Kosmos) 11743, tel 210 9240650 — functions as a mail-order parts depot for Piaggio-group brands."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores) lists 'FRANCESCO Ε.Π.Ε.', ΑΘΗΝΑ, active:true, type=dealers,services — lane evidence confirmed against the live official list."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -84.87,
      38.2
     ]
@@ -7761,6 +8665,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     29.13538,
+     36.62522
+    ]
+   },
+   "properties": {
+    "id": "gokcayir-motor",
+    "name": "Gökçayır Motor",
+    "city": "Muğla",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0252 614 20 08",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Gökçayır Motor as authorized service (Yetkili Servis); published address: Sanayi Sitesi 261. Sokak No:8 Fethiye - Muğla; published business phone 0252 614 20 08; exact pin coordinates 36.62522,29.13538 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -117.1611,
      32.7157
     ]
@@ -7817,6 +8761,42 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "Re-check 2026-09-10: gpmotorcycles.com responds HTTP 403 (bot-challenge perimeter, server alive); consistent with prior checks; locator listing stands"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "gr-hellenic-moto-guzzi-club",
+    "name": "Ελληνική Λέσχη Moto Guzzi / Hellenic Moto Guzzi Club",
+    "city": "Athens",
+    "state": null,
+    "country": "GR",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "knowledge",
+     "community",
+     "events"
+    ],
+    "url": "https://motoguzziclub.gr/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "motoguzziclub.gr (fetched live today, dated Πέμπτη 10 Σεπτεμβρίου 2026) — national club site with club pages, announcements, technical section (Τεχνικά Θέματα), downloads area, and long-running events (results post for the 27th \"36ωρο Οδοιπορικό\" rally of 2026); companion Facebook page facebook.com/motoguzziclubgr (~2,599 likes); xo.gr directory lists it as an association (Σύλλογος) based in Athens. Knowledge layer — no coordinates required."
      }
     ]
    }
@@ -7955,6 +8935,46 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Anima Guzzista thread 2018-05-18: zanza85 'Murri a Ferrara e Guareschi a Parma sono due garanzie' — https://forum.animaguzzista.com/viewtopic.php?t=57815; counter-note 2012 (t=48224): local rider m.f. 'nulla da dire sulle competenze tecniche ma la professionalità lascia a desiderare' — mixed reviews, recorded for balance — https://forum.animaguzzista.com/viewtopic.php?t=48224"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.22959,
+     40.88103
+    ]
+   },
+   "properties": {
+    "id": "gungor-company",
+    "name": "Güngör Company",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "444 99 54",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Güngör Company as authorized service (Yetkili Servis); published address: Yeni Mah. Abdülhalik Renda Cad. No 32 Pendik - İstanbul; published business phone 444 99 54; exact pin coordinates 40.88103,29.22959 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -8558,6 +9578,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     25.14421,
+     35.34123
+    ]
+   },
+   "properties": {
+    "id": "h-k-a-e-b-e-irakleio",
+    "name": "H-K A.E.B.E.",
+    "city": "Ηρακλειο",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": null,
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'H-K A.E.B.E.', Λ.ΙΚΑΡΟΥ & ΑΓΙΟΥ ΦΑΝΟΥΡΙΟΥ, Ηρακλειο 71307; active:true; type=dealers; phone n/a."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -73.3951,
      40.83655
     ]
@@ -8904,6 +9964,47 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "public club forum online (server date 22 August 2026), accessed 2026-08-22, https://forum.motoguzziclub.gr/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.76136,
+     39.94673
+    ]
+   },
+   "properties": {
+    "id": "herter",
+    "name": "Herter",
+    "city": "Ankara",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0532 419 66 03",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Herter as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: İstanbul Yolu 7.Km. No: 148/1 Macunköy Girişi Yenimahalle - Ankara; published business phone 0532 419 66 03; exact pin coordinates 39.94673,32.76136 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -10003,6 +11104,86 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     20.85638,
+     39.66858
+    ]
+   },
+   "properties": {
+    "id": "k-gkartzonikas-a-e-v-e-ioannina-2",
+    "name": "Κ. Γκαρτζονικας Α.Ε.Β.Ε",
+    "city": "Ιωαννινα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": null,
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'Κ. ΓΚΑΡΤΖΟΝΙΚΑΣ Α.Ε.Β.Ε', ΒΟΓΙΑΝΟΥ 16, Ιωαννινα 45500; active:true; type=dealers; phone n/a."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     20.86365,
+     39.57959
+    ]
+   },
+   "properties": {
+    "id": "k-gkartzonikas-a-e-v-e-ioannina",
+    "name": "Κ. Γκαρτζονικας Α.Ε.Β.Ε",
+    "city": "Ιωαννινα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-26510-85204",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'Κ. ΓΚΑΡΤΖΟΝΙΚΑΣ Α.Ε.Β.Ε', 9 ΧΛΜ Ε.Ο ΙΩΑΝΝΙΝΩΝ - ΑΘΗΝΩΝ, Ιωαννινα 45500; active:true; type=services; phone 26510-85204."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      15.0305,
      50.7446
     ]
@@ -10089,6 +11270,127 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "guzzisti.de forum, 2022-11-15 (https://www.guzzisti.de/forum/topic/10186-besuch-bei-axel-budde/): 'Habe heute mit einem Freund mal Axel Budde in HH besucht. Was für eine Traumwerkstatt,was für Traummaschinen und dazu richtig guter Cappuccino! Und sehr freundlich und kompetent!'"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.17872,
+     36.25441
+    ]
+   },
+   "properties": {
+    "id": "kaizen-motors-chrome-art-antakya",
+    "name": "Kaizen Motors (Chrome Art) - Antakya",
+    "city": "Hatay",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0531 936 71 56",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Kaizen Motors (Chrome Art) - Antakya as authorized dealer (Yetkili Satici); published address: Güzelburç Mah.E5 Karayolu Cad.No:114/1 Antakya - Hatay; published business phone 0531 936 71 56; exact pin coordinates 36.25441,36.17872 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.16619,
+     36.51727
+    ]
+   },
+   "properties": {
+    "id": "kaizen-motors-chrome-art",
+    "name": "Kaizen Motors (Chrome Art)",
+    "city": "Hatay",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0531 936 74 34",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Kaizen Motors (Chrome Art) as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Derebahçe Mah. Girne Cad. No:12 Belen - Hatay; published business phone 0531 936 74 34; exact pin coordinates 36.51727,36.16619 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.02254,
+     35.50984
+    ]
+   },
+   "properties": {
+    "id": "kechagias-s-konstantinos-chania",
+    "name": "Κεχαγιας Σ. Κωνσταντινος",
+    "city": "Χανια",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-28210-70530",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΚΕΧΑΓΙΑΣ Σ. ΚΩΝΣΤΑΝΤΙΝΟΣ', ΑΠΟΚΟΡΩΝΟΥ 90, Χανια 73100; active:true; type=services; phone 28210-70530."
      }
     ]
    }
@@ -10282,6 +11584,86 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     37.36513,
+     37.07815
+    ]
+   },
+   "properties": {
+    "id": "klass-motor",
+    "name": "Klass Motor",
+    "city": "Gaziantep",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0342 324 02 79",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Klass Motor as authorized service (Yetkili Servis); published address: Mücahitler Mah. 55. Sok. No:3 Özdinç Apt. Şehitkamil - Gaziantep; published business phone 0342 324 02 79; exact pin coordinates 37.07815,37.36513 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.06592,
+     39.87246
+    ]
+   },
+   "properties": {
+    "id": "klironomoy-kon-maria-limnos",
+    "name": "Κληρονομου Κων. Μαρια",
+    "city": "Λημνος",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-22540-22746",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΚΛΗΡΟΝΟΜΟΥ ΚΩΝ. ΜΑΡΙΑ', ΛΟΥΚΑΡΕΩΣ 05, Λημνος 81400; active:true; type=services; phone 22540-22746."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      8.8508,
      52.4556
     ]
@@ -10320,6 +11702,88 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Listed in guzzifan.ch dealer directory as 'KMS Motorrad Service Achim Kindermann, Warmsen' (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.95978,
+     40.76187
+    ]
+   },
+   "properties": {
+    "id": "kocaeli-kaya-motor",
+    "name": "Kocaeli Kaya Motor",
+    "city": "Kocaeli",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0262 333 13 33",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Kocaeli Kaya Motor as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Körfez Mah. Ankara Karayolu Cad. No:22 İzmit - Kocaeli; published business phone 0262 333 13 33; exact pin coordinates 40.76187,29.95978 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.29032,
+     41.33104
+    ]
+   },
+   "properties": {
+    "id": "kocak-mobilite",
+    "name": "Koçak Mobilite",
+    "city": "Samsun",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0362 204 00 55",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Koçak Mobilite as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Denizevleri Mah.Atatürk Bulvarı No:158/1 Atakum - Samsun; published business phone 0362 204 00 55; exact pin coordinates 41.33104,36.29032 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -10382,6 +11846,128 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     28.23663,
+     36.439
+    ]
+   },
+   "properties": {
+    "id": "kostaridis-konstantinos-rodos",
+    "name": "Κωσταριδης Κωνσταντινος",
+    "city": "Ροδος",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-22410-23372",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΚΩΣΤΑΡΙΔΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ', ΚΟΛΟΚΟΤΡΩΝΗ 13, Ροδος 85100; active:true; type=services; phone 22410-23372."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.27756,
+     37.38002
+    ]
+   },
+   "properties": {
+    "id": "koyuncu-motor-didim",
+    "name": "Koyuncu Motor - Didim",
+    "city": "Aydın",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0530 068 19 09",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Koyuncu Motor - Didim as authorized dealer (Yetkili Satici), and https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists it as authorized service (Yetkili Servis); published address: Cumhuriyet mah. Cumhuriyet caddesi no:189 Didim/Aydın; published business phone 0530 068 19 09; exact pin coordinates 37.38002,27.27756 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.2713,
+     37.86418
+    ]
+   },
+   "properties": {
+    "id": "koyuncu-motor",
+    "name": "Koyuncu Motor",
+    "city": "Aydın",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0530 068 19 66",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Koyuncu Motor as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Türkmen Mah. Turgut Özal bul. No:61/A Kuşadası - Aydın; published business phone 0530 068 19 66; exact pin coordinates 37.86418,27.27130 taken from the page store data. Separate Didim branch filed as its own node. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      11.9846,
      47.4691
     ]
@@ -10419,6 +12005,47 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Listed in the auto-motor.at Moto Guzzi dealer directory for Tirol (https://auto-motor.at/Motorrad/Motorradhaendler/Moto-Guzzi-Motorrad-Haendler/Moto-Guzzi-Tirol.html) and on guzzi.at (http://www.guzzi.at/)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.54661,
+     41.01389
+    ]
+   },
+   "properties": {
+    "id": "kuzey-motosiklet",
+    "name": "Kuzey Motosiklet",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0212 556 23 23",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Kuzey Motosiklet as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Mimar Sinan Mah. E-5 Londra Asfaltı Cad.No:97 Büyükçekmece - İstanbul; published business phone 0212 556 23 23; exact pin coordinates 41.01389,28.54661 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -11376,6 +13003,169 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     23.81251,
+     38.01146
+    ]
+   },
+   "properties": {
+    "id": "lymperopoylos-k-monoprosopi-epe-agia-paraskeyi",
+    "name": "Λυμπεροπουλος Κ. Μονοπροσωπη Επε",
+    "city": "Αγια Παρασκευη",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-210-6004050",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ. ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ', ΜΕΣΟΓΕΙΩΝ 362 Α, Αγια Παρασκευη 15342; active:true; type=dealers,services; phone 210-6004050."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.7284,
+     38.01687
+    ]
+   },
+   "properties": {
+    "id": "lymperopoylos-k-monoprosopi-epe-athina-2",
+    "name": "Λυμπεροπουλος Κ.Μονοπροσωπη Επε",
+    "city": "Αθηνα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-210-2116644",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ.ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ', ΑΧΑΡΝΩΝ 362, Αθηνα 15341; active:true; type=dealers,services; phone 210-2116644."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.74341,
+     38.01534
+    ]
+   },
+   "properties": {
+    "id": "lymperopoylos-k-monoprosopi-epe-athina",
+    "name": "Λυμπεροπουλος Κ.Μονοπροσωπη Επε",
+    "city": "Αθηνα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-210-2288288",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ.ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ', Λ.ΓΑΛΑΤΣΙΟΥ 58-60, Αθηνα 11141; active:true; type=dealers,services; phone 210-2288288."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.7416,
+     37.93876
+    ]
+   },
+   "properties": {
+    "id": "lymperopoylos-k-monoprosopi-epe-ilioypoli",
+    "name": "Λυμπεροπουλος Κ. Μονοπροσωπη Επε",
+    "city": "Ηλιουπολη",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": null,
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ. ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ', ΔΕΔΟΥΣΗ ΒΟΥΛΙΑΓΜΕΝΗΣ 331, Ηλιουπολη 16346; active:true; type=dealers; phone n/a."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -4.126005,
      50.365886
     ]
@@ -11548,6 +13338,86 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "magni.it live 2026-08-22: 'Magni di Magni Giovanni - Via Leonardo da Vinci 331 - 21017 Samarate (VA) - tel +390331234544'; site lists Guzzi V11 fairing kit, V11 exhaust kit, parallelogrammo kit, dry-clutch kit, frame kits, Restauri (restorations) section — historic Guzzi special-builder active"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.86817,
+     40.84453
+    ]
+   },
+   "properties": {
+    "id": "makaronis-simos-alexandroypoli",
+    "name": "Μακαρωνης Σιμος",
+    "city": "Αλεξανδρουπολη",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-25510-32537",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΜΑΚΑΡΩΝΗΣ ΣΙΜΟΣ', Λ.ΔΗΜΟΚΡΑΤΙΑΣ&ΔΟΛΟΓΓΟΥ ΓΩΝΙΑ, Αλεξανδρουπολη 68100; active:true; type=services; phone 25510-32537."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     19.89993,
+     39.61678
+    ]
+   },
+   "properties": {
+    "id": "manatos-s-monastiriotis-s-o-e-kerkyra",
+    "name": "Μανατος Σ.- Μοναστηριωτης Σ. Ο.Ε.",
+    "city": "Κερκυρα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-26610-31456",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΜΑΝΑΤΟΣ Σ.- ΜΟΝΑΣΤΗΡΙΩΤΗΣ Σ. Ο.Ε.', 2ο ΧΛΜ ΕΘΝΙΚΗ ΠΕΛΕΚΑ, Κερκυρα 49100; active:true; type=services; phone 26610-31456."
      }
     ]
    }
@@ -11864,6 +13734,64 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -6.4454,
+     54.4251
+    ]
+   },
+   "properties": {
+    "id": "mccrums-portadown",
+    "name": "McCrums Motorcycles Ltd",
+    "city": "Portadown",
+    "state": "",
+    "country": "GB",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "suzuki",
+     "voge"
+    ],
+    "functions": [
+     "new-bike sales",
+     "used sales"
+    ],
+    "url": "http://www.mccrums.co.uk/",
+    "phone": "028 3886 8004",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Former official Moto Guzzi locator listing: Wayback 200-OK capture on 2020-11-28 of https://www.motoguzzi.com/gb_EN/dealer-locator/portadown/mccrums-motorcycles-ltd/ (archived page is a JS shell; the archived locator URL itself evidences the listing). Not found in Brave's current index of motoguzzi.com (site: query, one attempt, 2026-09-10) and direct locator fetch is Akamai-403 — current listing status unresolved. Only Northern Ireland dealer URL in the 74 archived gb_EN locator entries."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Current own site contradicts an active Guzzi franchise: mccrums.co.uk about page (http://www.mccrums.co.uk/about-us) states \"NI Main Suzuki Dealer\" and \"Northern Ireland's Only Voge Dealer\" (family business since 2013); no Moto Guzzi mention anywhere. Homepage HTML contains Aprilia/Vespa/Piaggio/Moto-Guzzi logo links but they are inside HTML comments (<!--...-->), evidencing a lapsed Piaggio-group web presence; remaining Aprilia traces are the \"McCrums Aprilia Open Race\" sponsorship at Tandragee 100 and a customer review of an Aprilia purchase. Phone 028 3886 8004. lat/lon = Nominatim geocode of Portadown (city-level). Graded unverified: locator evidence is 2020; 2026 first-party evidence does not support an active Guzzi franchise."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "wildguzzi.com census thread \"A listing and map of all active Guzzi dealers in the U.K. and Ireland\" (https://wildguzzi.com/forum/index.php?topic=81583.0; table last edited Feb 2017) contains no Northern Ireland rows — the McCrums locator listing therefore dates from the 2017-2020 window."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: NOT present in the current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GB/motoguzzi/stores, 32 records) — the 2020-era franchise listing has lapsed, consistent with the Guzzi logos commented out of the shop's own homepage HTML. Kept as unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      12.31420123,
      43.09259349
     ]
@@ -11895,6 +13823,81 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"MD MOTO\"; address: Via Salvador Allende 1, 06073 Corciano (PG); type=dealers; dealerCd=ITA846; website: http://www.mdmoto.it/; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.3472,
+     53.3192
+    ]
+   },
+   "properties": {
+    "id": "megabikes-dublin",
+    "name": "MegaBikes Ltd",
+    "city": "Dublin",
+    "state": "",
+    "country": "IE",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa",
+     "honda",
+     "kawasaki",
+     "suzuki",
+     "yamaha",
+     "rieju"
+    ],
+    "functions": [
+     "new-bike sales",
+     "workshop servicing",
+     "parts & accessories"
+    ],
+    "url": "https://megabikes.ie/",
+    "phone": "01-4784200",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi locator entry: https://www.motoguzzi.com/gb_EN/dealer-locator/dublin/megabikes-ltd/ — present in Brave's live index on 2026-09-10 (query \"moto guzzi dealer ireland\"). Direct fetch of motoguzzi.com is Akamai-403 for this fetcher (verified repeatedly, standing condition), so corroborated via Wayback: the CDX index shows 200-OK captures of this same listing on 2020-11-25 (as /dublin/) and 2024-02-26 (as /dublino/) — listed across two locator generations. CDX enumeration of all 74 archived gb_EN locator dealer URLs (2026-09-10) contains no Irish city slug other than Dublin → MegaBikes is the sole listed dealer in the Republic."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Own site live and selling the full new Moto Guzzi lineup in EUR at https://megabikes.ie/motorcycles-for-sale-ireland/new-motorcycles/moto-guzzi: V7 Stone €11,595; V7 Special €12,195; V7 Sport €12,995; V85 Strada €12,995 (sale); V85TT €15,695; V85 TT Travel €17,395; Stelvio €19,495; Stelvio PFF €17,895 (sale); Stelvio Duecento Tributo €21,495; V100 Mandello 25YM €17,995; V100 Mandello S €17,495 (sale); V100 Mandello S E5+ €21,495."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Contact page (https://megabikes.ie/contact-us) lists two Dublin sites, each with \"Bike Sales Clothing Parts Workshop\": MEGASTORE BALLYMOUNT, Salcombe House, Robinhood Ind Estate, Dublin 22, Eircode D22 WP11; and CITY CENTRE, 3-4 Wexford Street, Dublin 2, D02 TY03. Phone 01-4784200. Site meta self-description: \"Irelands Premier Motorcycle Shop based in Dublins city center. Providing bike sales, accessories and workshop.\" The workshop page (https://megabikes.ie/workshop) is an enquiry form with no Guzzi-specific service detail — so capability is graded satellite, not full-service, pending a first-party check. lat/lon = Nominatim geocode of the stated Ballymount address (address-level, not city guess)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "allmoto.ie lists new Guzzi Stelvio models but is the same business, not a second node: its pages load megabikes.ie assets and carry mailto sales@megabikes.ie and tel 01-4784200 (https://allmoto.ie/motorcycles-for-sale-ireland/new-motorcycles/moto-guzzi, https://allmoto.ie/contact-us)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Third-party corroboration: the Carole Nash Irish Motorbike and Scooter Show 2023 (RDS Dublin) exhibitor page for Moto Guzzi names Megabikes, 01 4784200, sales@megabikes.ie — https://www.irishmotorbikeshow.com/moto-guzzi/."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator backend API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GB/motoguzzi/stores) lists 'Megabikes Ltd' twice (city DUBLIN and DUBLINO — both locator generations), active:true, type=dealers,services — the lane's archive-based 'sole IE dealer' claim is confirmed against the live list (32 GB records, no other Irish city)."
      }
     ]
    }
@@ -12539,6 +14542,98 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     27.43588,
+     38.61351
+    ]
+   },
+   "properties": {
+    "id": "moto-45",
+    "name": "Moto 45",
+    "city": "Manisa",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0505 104 09 45",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Moto 45 as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Nişancıpaşa Mah. Uzunyol Cad. No:56/A Şehzadeler - Manisa; published business phone 0505 104 09 45 (service line 0236 232 00 45 also published); exact pin coordinates 38.61351,27.43588 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.5415,
+     38.0431
+    ]
+   },
+   "properties": {
+    "id": "moto-droulias-elefsina",
+    "name": "MOTO DROULIAS (Droulias St. Panagiotis)",
+    "city": "Elefsina",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motodroulias.weebly.com/katastimata.html",
+    "phone": "+30 2105561511",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official MG Greece locator page exists at https://www.motoguzzi.com/gr_EL/dealer-locator/ελευσινα/δρουλιας-στ-παναγιωτης/ (twin listing on piaggio.com gr_EL). Coordinates city-level (Elefsina)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Own stores page motodroulias.weebly.com/katastimata.html (fetched) lists two stores: Elefsina (phone 2105561511) and Megara — 42nd km Old National Road Athens–Corinth (phone 2296089266). 11888.gr/polispages.gr categorise Moto Droulias as a motorcycle dealership (Αντιπροσωπεία Μοτοσυκλετών)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores) lists 'ΔΡΟΥΛΙΑΣ ΣΤ.ΠΑΝΑΓΙΩΤΗΣ', ΕΛΕΥΣΙΝΑ, active:true, type=services — lane evidence confirmed against the live official list."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      11.88054246,
      44.43775207
     ]
@@ -12652,6 +14747,41 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on the official Moto Guzzi China dealer locator as \"Moto Guzzi 北京新禧\" at 北京市朝阳区金盏乡金港汽车公园; phone 010-84593991; verified via Baidu search results showing official Moto Guzzi China website dealer list."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "moto-guzzi-clan-turkiye",
+    "name": "Moto Guzzi Clan Türkiye",
+    "city": null,
+    "state": null,
+    "country": "TR",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "knowledge",
+     "community"
+    ],
+    "url": "https://www.facebook.com/groups/1418873795081962/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Facebook group facebook.com/groups/1418873795081962/ (seen via search result 2026-09-10): \"MotoGuzzi Clan Türkiye, Türkiye de bulunan Moto Guzzi sahipleri ve hayranları için açılmıştır\" — open national group for Moto Guzzi owners and fans in Türkiye. Knowledge layer — no coordinates. Facebook-only evidence, status capped unverified."
      }
     ]
    }
@@ -12869,6 +14999,51 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Moto Italia, Rruga Dritan Hoxha, Tiranë 1001 (ph 068 571 1111) — Trusted Seller shop profile on Albania's main classifieds portal (MerrJep.al): \"Motorra te perdorur dhe me 0 km, Pjese kembimi origjinale, Servis i specializuar piaggio, vespa, guzzi, aprilia\" — used and 0-km motorcycles, original spare parts, and specialized service for Piaggio/Vespa/Guzzi/Aprilia. Facebook page active (DDG-indexed activity timestamp 2026-05-27); Instagram @motoitalia.al. Source: https://www.merrjep.al/moto-italia (fetched 2026-08-22); Cybo/gjithebiznesi listings corroborate address but are bot-blocked for direct fetch."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.9444,
+     40.6401
+    ]
+   },
+   "properties": {
+    "id": "moto-motion-ploskas-thessaloniki",
+    "name": "PLOSKAS A & SIA O.E. (Moto Motion)",
+    "city": "Thessaloniki",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": null,
+    "phone": "+30 2310848481",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official MG Greece locator page exists at https://www.motoguzzi.com/gr_EL/dealer-locator/θεσσαλονικη/πλοσκας-α-σια-ο-ε/ (dealer listing for Thessaloniki). Coordinates city-level."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Greek business directory ix.gr/directory/7/68/moto_motion (corroborated by vrisko.gr) lists \"MOTO MOTION - ΠΛΟΣΚΑΣ Α ΚΑΙ ΣΙΑ ΟΕ\", motorcycle dealer/accessories, Vasilos Georgiou 18, Thessaloniki 54640, tel 2310848481. No own website verified."
      }
     ]
    }
@@ -13219,6 +15394,59 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     23.7843,
+     37.9838
+    ]
+   },
+   "properties": {
+    "id": "moto-vinios-athina",
+    "name": "BYNIOS GEWRGIOS AE (Moto Vinios)",
+    "city": "Athens",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "brixton",
+     "moto-morini"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://www.motovinios.gr/b/Moto-Guzzi",
+    "phone": "+30 210 777 4131",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Greece locator page https://www.motoguzzi.com/gr_EL/dealer-locator/αθηνα/βυνιος-γεωργιος-αε-1/ lists \"ΒΥΝΙΟΣ ΓΕΩΡΓΙΟΣ ΑΕ, πωλήσεις Moto Guzzi σε ΑΘΗΝΑ\" (sales, with map/email/hours). Coordinates are city-level (Athens centre); the locator detail page is JS-rendered and did not expose its pin to my fetcher."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Shop site motovinios.gr (brand page /b/Moto-Guzzi, indexed and live) states it carries the whole Moto Guzzi range, accepts trade-ins, and ships nationwide (\"ΟΛΗ Η ΓΚΑΜΑ ... ΔΕΚΤΕΣ ΑΝΤΑΛΛΑΓΕΣ ... ΑΠΟΣΤΟΛΗ ΣΕ ΟΛΗ ΤΗΝ ΕΛΛΑΔΑ\"); store address Michalakopoulou 141, Athens, per 2026-dated directory mirrors globuya.com/GR/Athens/101035433373158/Moto-Vinios and findglocal.com (FB-syndicated shop post 03/08/2026 with shop phone 210 777 4131). Site itself is Cloudflare-gated to bots; content verified via its indexed pages."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores) lists 'ΒΥΝΙΟΣ ΓΕΩΡΓΙΟΣ ΑΕ', ΑΘΗΝΑ, active:true, type=dealers — lane evidence confirmed against the live official list."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      12.6486,
      41.5942
     ]
@@ -13297,6 +15525,61 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Official Moto Guzzi BE locator (API be/G): MOTO ZENITH SRL, Chaussée d'Andenne 8, 4500 Ben-Ahin (Huy), type=dealers,services"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.9444,
+     40.6401
+    ]
+   },
+   "properties": {
+    "id": "motoaction-zournatzis-thessaloniki",
+    "name": "ZOURNATZIS ATHA. NIKOLAOS (MOTOACTION)",
+    "city": "Thessaloniki",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ducati",
+     "triumph"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://motoaction.gr/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official MG Greece locator https://www.motoguzzi.com/gr_EL/dealer-locator/θεσσαλονικη/ζουρνατζης-αθα-νικολαος/ — \"ΖΟΥΡΝΑΤΖΗΣ ΑΘΑ. ΝΙΚΟΛΑΟΣ, πωλήσεις τεχνική υποστήριξη Moto Guzzi σε ΘΕΣΣΑΛΟΝΙΚΗ\" (sales + technical support). The equivalent aprilia.com gr_EL locator page for the same business shows: official representative + official technical service point, e-mail info@motoaction.gr, address Λ. Κωνσταντίνου Καραμανλή 49, 54639 Thessaloniki. Coordinates city-level (Thessaloniki)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "motoaction.gr (fetched) is live with a Moto Guzzi brand banner (2026-dated uploads) alongside Ducati/Triumph/Aprilia, and runs an online apparel/parts shop; findglocal.com 2026 mirror lists Motoaction as dealer/parts for Triumph, Ducati, Aprilia, Moto Guzzi, Husqvarna, Royal Enfield, CFMOTO."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores) lists 'ΖΟΥΡΝΑΤΖΗΣ ΑΘΑ. ΝΙΚΟΛΑΟΣ', ΘΕΣΣΑΛΟΝΙΚΗ, active:true, type=dealers,services — lane evidence confirmed against the live official list."
      }
     ]
    }
@@ -13971,6 +16254,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     29.0401,
+     40.98665
+    ]
+   },
+   "properties": {
+    "id": "motoek",
+    "name": "Motoek",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0532 248 32 33",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Motoek as authorized service (Yetkili Servis); published address: Cumhur Sk. Demirbilek Apt. No: 2/A Kadıköy - İstanbul; published business phone 0532 248 32 33; exact pin coordinates 40.98665,29.04010 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -106.4489181,
      31.77709
     ]
@@ -14598,6 +16921,47 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Listed on motorcular.com as a Moto Guzzi Istanbul dealer. Also appears in Yahoo Search results for 'Moto Guzzi Turkey Istanbul dealer' alongside the official motoguzzi.com.tr dealer locator."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.87693,
+     41.01107
+    ]
+   },
+   "properties": {
+    "id": "motohub",
+    "name": "Motohub",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0212 586 99 11",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Motohub as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Bahçelievler Mahallesi Eski Londra Asfaltı Caddesi No: 3A Bahçelievler - İstanbul; published business phone 0212 586 99 11; exact pin coordinates 41.01107,28.87693 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -16533,6 +18897,128 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     29.13238,
+     36.6513
+    ]
+   },
+   "properties": {
+    "id": "motorall",
+    "name": "Motorall",
+    "city": "Muğla",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0252 613 28 48",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Motorall as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Yeni Mahalle Adnan Menderes Bulvarı No:240 Fethiye - Muğla; published business phone 0252 613 28 48; exact pin coordinates 36.65130,29.13238 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     40.11081,
+     37.91354
+    ]
+   },
+   "properties": {
+    "id": "motorange",
+    "name": "Motorange",
+    "city": "Diyarbakır",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0412 502 60 97",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Motorange as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Barış Mah. Urfa yolu üzeri 500 Evler Mevkii 1019 Sok No:50 Kayapınar - Diyarbakır; published business phone 0412 502 60 97; exact pin coordinates 37.91354,40.11081 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.05516,
+     38.48124
+    ]
+   },
+   "properties": {
+    "id": "motoratel",
+    "name": "Motoratel",
+    "city": "İzmir",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0232 386 57 47",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Motoratel as authorized service (Yetkili Servis); published address: Ataşehir Mahallesi 8281 sokak No:11 Çiğli - İzmir; published business phone 0232 386 57 47; exact pin coordinates 38.48124,27.05516 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      10.49194,
      44.93723
     ]
@@ -16808,6 +19294,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     37.33063,
+     37.06548
+    ]
+   },
+   "properties": {
+    "id": "motostop",
+    "name": "Motostop",
+    "city": "Gaziantep",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0342 341 22 30",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator lists Motostop on both yetkili-saticilar.html and yetkili-servisler.html (authorized dealer and authorized service); published address: Osmangazi Mah.Mona Roza Cad.No:5F Şehitkamil - Gaziantep; published business phone 0342 341 22 30; exact pin coordinates 37.06548,37.33063 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      4.9615,
      52.5025
     ]
@@ -16973,6 +19500,46 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"Mototek sas di Allegro Daniele & c.\"; address: Via G. Galilei 13, 35020 Sarmeola di Rubano (PD); type=services; dealerCd=IT241I; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.12786,
+     40.94403
+    ]
+   },
+   "properties": {
+    "id": "mototriple",
+    "name": "Mototriple",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0216 388 57 88",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Mototriple as authorized service (Yetkili Servis); published address: İdealtepe Mah. Tayfur Sok.No:1 /A Maltepe - İstanbul; published business phone 0216 388 57 88; exact pin coordinates 40.94403,29.12786 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -17842,6 +20409,47 @@
   },
   {
    "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "ni-guzzis",
+    "name": "NI Guzzis (Moto Guzzi Club GB — Northern Ireland branch)",
+    "city": null,
+    "state": "",
+    "country": "GB",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "monthly club meets (Counties Down & Antrim)",
+     "annual rally organisation (Ulster Rally since 2009)",
+     "online community (Facebook/Instagram)"
+    ],
+    "url": "https://belfastguzzi.com/",
+    "phone": "",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "https://belfastguzzi.com/ live — \"NI GUZZIs – Moto Guzzi community and events in Northern Ireland\". Moto Guzzi Ulster Rally 2026 ran 22-25 May at The Shepherd's Rest campsite/pub in the Sperrins (post-event note: \"attendance increased, weather improved… time now to flag the date for 2027\"); rally archive runs to \"Ulster Rally 1: 2009\" plus \"MGCGB Irish Rallies 1997 & 1998\"; monthly meets page; Facebook facebook.com/Belfastguzzi, Instagram @guzzisni. About page (signed \"'Belfastguzzi'… County Down, January 2024\") records the Facebook page since 2008, first Ulster Rally 2009 attended by enthusiasts \"from UK, Ireland & Europe\", and regular meets \"mostly around Counties Down & Antrim\". No coordinates per club-layer methodology."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Moto Guzzi Club GB branches page (https://www.motoguzziclub.co.uk/branches) lists a Northern Ireland branch: meets 2nd Wednesday monthly 19:00, Conway Square, Newtownards (what3words ///snails.scripted.rooftop); the branch page (https://www.motoguzziclub.co.uk/branches/northern-ireland) links belfastguzzi.com as the branch's Facebook and publishes the role address ni.branch@motoguzziclub.co.uk (branch organizer's personal mobile deliberately NOT recorded here). Club self-describes as \"approximately 3,000 members in the UK, Ireland and Overseas… more than 40 local branches\" — the NI branch is the only Ireland-listed branch. Same community as the belfastguzzi.com site: the about-page author identifies as the MGCGB NI Branch contact."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "geometry": {
     "type": "Point",
     "coordinates": [
@@ -18055,6 +20663,47 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "motoguzzi.no (fetched via kimi lane 2026-09-10): ~800 members, club magazine 'Bicilindrica', 2026 spring/autumn rallies (Rindal/Sirdal). NOTE (claude cross-check 2026-09-10): Norway has ZERO dealers on the official jhgateway locator API — this club is Norway's only GSN node."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.9232,
+     41.1095
+    ]
+   },
+   "properties": {
+    "id": "ntollas-moto-i-k-e-xanthi",
+    "name": "Ντολλας Μοτο Ι.Κ.Ε",
+    "city": "Ξανθη",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-25410-29430",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΝΤΟΛΛΑΣ ΜΟΤΟ Ι.Κ.Ε', 4οΧΛΜ.ΕΘΝ.Ο.ΞΑΝΘΗΣ-ΛΑΓΟΥΣ, Ξανθη 67100; active:true; type=dealers,services; phone 25410-29430."
      }
     ]
    }
@@ -18702,6 +21351,87 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     28.62418,
+     41.00763
+    ]
+   },
+   "properties": {
+    "id": "orta-motor",
+    "name": "Orta Motor",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0212 855 07 04",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Orta Motor as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Adnan Kahveci Mah. Avrupa Cd. No:106 Beylikdüzü - İstanbul; published business phone 0212 855 07 04; exact pin coordinates 41.00763,28.62418 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.697,
+     36.90652
+    ]
+   },
+   "properties": {
+    "id": "ozer-adli",
+    "name": "Özer Adlı",
+    "city": "Antalya",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0532 325 05 57",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Özer Adlı as authorized service (Yetkili Servis); published address: Cumhuriyet Mah. San. Sit. 670. Sok. No:10 Muratpaşa - Antalya; published business phone 0532 325 05 57; exact pin coordinates 36.90652,30.69700 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -116.39,
      33.802
     ]
@@ -18753,6 +21483,87 @@
       "date": "2026-07-26",
       "method": "official-locator",
       "fact": "listed on the official Moto Guzzi US dealer locator as \"Palm Springs Motorsports\" (Palm Desert, CA); type=dealers,services; verified 2026-07-26"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.75811,
+     38.27308
+    ]
+   },
+   "properties": {
+    "id": "papanikolaoy-nikitas-sia-epe-patra",
+    "name": "Παπανικολαου Νικητας & Σια Επε",
+    "city": "Πατρα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-2610-461768",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΠΑΠΑΝΙΚΟΛΑΟΥ ΝΙΚΗΤΑΣ & ΣΙΑ ΕΠΕ', ΚΑΝΕΛΛΟΠΟΥΛΟΥ 53, Πατρα 26445; active:true; type=dealers,services; phone 2610-461768."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.09897,
+     40.99862
+    ]
+   },
+   "properties": {
+    "id": "passione-moto-s-motor",
+    "name": "Passione Moto – S Motor",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0537 264 72 18",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Passione Moto – S Motor as authorized dealer (Yetkili Satici); published address: Barbaros Mh. Mor Sümbül Sk. Water Garden AVM B Blok Ataşehir - İstanbul; published business phone 0537 264 72 18; exact pin coordinates 40.99862,29.09897 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -19014,6 +21825,162 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Business-directory search results (todosbiz.com, worldplaces.me, cybo.com) show a listing \"Piaggio El Salvador\" in San Salvador with phone 2505 6995; listing dates unknown and street address not retrievable. No source confirms the Moto Guzzi line is still active in 2026; lat/lon 0.0 because no verified street address."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.7381,
+     37.9472
+    ]
+   },
+   "properties": {
+    "id": "piaggio-lyberopoulos-agios-dimitrios",
+    "name": "Piaggio Lyberopoulos (HQ)",
+    "city": "Agios Dimitrios (Athens)",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://lyberopoulos.gr/",
+    "phone": "+30 210 970 1400",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official MG Greece locator page exists at https://www.motoguzzi.com/gr_EL/dealer-locator/αγιος-δημητριος/λυμπεροπουλος-κ-μονοπροσωπη-επε/ (twin listing on piaggio.com gr_EL under Αθήνα). Coordinates district-level (Agios Dimitrios)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "lyberopoulos.gr (fetched) states \"Επίσημος dealer και εξουσιοδοτημένο service του Piaggio Group\" (official dealer and authorized service of Piaggio Group) with per-brand service pages including MOTO GUZZI, and links out to motoguzzi.com/gr_EL promotions; contacts page (fetched) gives Leof. Vouliagmenis 317, Ag. Dimitrios, phone 210 970 1400 (further lines 210 211 6644 / 210 970 4500 / 210 228 8288 / 2106010076)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores) lists 'ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ. ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ', ΑΓΙΟΣ ΔΗΜΗΤΡΙΟΣ, active:true, type=dealers,services — lane evidence confirmed against the live official list."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.9474,
+     39.3643
+    ]
+   },
+   "properties": {
+    "id": "piaggio-lyberopoulos-volos",
+    "name": "Piaggio Lyberopoulos — Volos branch",
+    "city": "Volos",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://lyberopoulos.gr/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official MG Greece locator page exists at https://www.motoguzzi.com/gr_EL/dealer-locator/βολος/λυμπεροπουλος-κ-μονοπροσωπη-επε/ (Volos listing). Coordinates city-level (Volos); no street address rendered to my fetcher."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "Greek moto trade press motomag.gr articles \"Νέο κατάστημα Aprilia – Moto Guzzi Lyberopoulos\" (motomag.gr/news/epikairotita/neo-katastima-aprilia-moto-guzzi-lyberopoulos) and \"Εγκαίνια για νέο κατάστημα Piaggio Λυμπερόπουλος στον Βόλο\" (motomag.gr/market-news/egkainia-gia-neo-katastima-piaggio-lymperopoylos-ston-bolo) cover the opening of the Lyberopoulos Aprilia–Moto Guzzi store in Volos (titles/URLs seen 2026-09-10)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores) lists 'ΛΥΜΠΕΡΟΠΟΥΛΟΣ Κ. ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ', ΒΟΛΟΣ, active:true, type=dealers — lane evidence confirmed against the live official list."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.1442,
+     35.3387
+    ]
+   },
+   "properties": {
+    "id": "piaggio-moraitis-heraklion",
+    "name": "Piaggio Moraitis",
+    "city": "Heraklion",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://piaggiomoraitis.gr/en/home/",
+    "phone": "+30 2810284714",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "piaggiomoraitis.gr (fetched, en/home + the-company): trades vehicles and spare parts for the Piaggio Group (PIAGGIO-VESPA-APRILIA-MOTO GUZZI) with experienced-staff maintenance/repair service; dedicated MOTO GUZZI MODELS section (V85 TT, V7, V9); address Ainikolioti 3, Iraklio, Crete 712 01, tel +30 2810284714. Facebook page: \"Επίσημος συνεργάτης της Piaggio Hellas στο Ηράκλειο Κρήτης\" (official partner of importer Piaggio Hellas in Heraklion). Coordinates city-level (Heraklion). NOT seen on the motoguzzi.com gr_EL locator pages reachable to me — status capped unverified per website-only methodology."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores) lists 'ΜΩΡΑΙΤΗΣ ΕΥΑΓΓ.& ΖΑΧ. ΟΕ', ΗΡΑΚΛΕΙΟ, active:true, type=services — lane evidence confirmed against the live official list."
      }
     ]
    }
@@ -19893,6 +22860,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     22.58073,
+     39.75875
+    ]
+   },
+   "properties": {
+    "id": "raptis-dim-georgios-larisa",
+    "name": "Ραπτης Δημ. Γεωργιος",
+    "city": "Λαρισα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-24950-51849",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΡΑΠΤΗΣ ΔΗΜ. ΓΕΩΡΓΙΟΣ', ΣΥΚΟΥΡΙΟ - ΛΑΡΙΣΑΣ, Λαρισα 40006; active:true; type=services; phone 24950-51849."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -71.4662,
      41.5554
     ]
@@ -20723,6 +23730,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     27.37406,
+     37.05519
+    ]
+   },
+   "properties": {
+    "id": "s-motor-bodrum",
+    "name": "S Motor - Bodrum",
+    "city": "Muğla",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0536 349 20 10",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists S Motor - Bodrum as authorized dealer (Yetkili Satici); published address: Konacık Mahallesi İbni Sina Caddesi A Blok No: 1A/1 Bodrum - Muğla; published business phone 0536 349 20 10; exact pin coordinates 37.05519,27.37406 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      2.2945,
      48.6752
     ]
@@ -20841,6 +23888,46 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"SCOOTERIN S.N.C.\"; address: Via della Sorgente 9/A, 34125 Trieste (TS); type=services; dealerCd=ITA053; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.05452,
+     41.10181
+    ]
+   },
+   "properties": {
+    "id": "scooterist",
+    "name": "Scooterist",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0212 323 36 76",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Scooterist as authorized service (Yetkili Servis); published address: Hekim Ata Cad. Emirgan Mah. No:5/A – 5/B Sarıyer - İstanbul; published business phone 0212 323 36 76; exact pin coordinates 41.10181,29.05452 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -21992,6 +25079,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     27.08435,
+     39.55581
+    ]
+   },
+   "properties": {
+    "id": "teknak-otomotiv",
+    "name": "Teknak Otomotiv",
+    "city": "Balıkesir",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0266 283 03 70",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Teknak Otomotiv as authorized dealer (Yetkili Satici); published address: Tekke Mah. Edremit-Balıkesir Yolu Cad. No: 107/2D Havran - Balıkesir; published business phone 0266 283 03 70; exact pin coordinates 39.55581,27.08435 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      9.2354528,
      45.5469086
     ]
@@ -22113,6 +25240,46 @@
       "date": "2026-07-26",
       "method": "website",
       "fact": "Own site newsletters dated February, March and April 2026; 'NEW 2026 & 2027 Moto Guzzi Models incoming'; Royal Enfield Classic 650 pre-order through March 31, 2026. [source: https://www.throttlecompany.com]"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.16609,
+     41.01149
+    ]
+   },
+   "properties": {
+    "id": "thunder-moto",
+    "name": "Thunder Moto",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0542 266 55 05",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Thunder Moto as authorized service (Yetkili Servis); published address: Esenşehir Mah. Rençber Sok. No:9/A Ümraniye - İstanbul; published business phone 0542 266 55 05; exact pin coordinates 41.01149,29.16609 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -22259,6 +25426,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     33.32445,
+     35.16513
+    ]
+   },
+   "properties": {
+    "id": "tmm-motors-ltd-egkomi",
+    "name": "Tmm Motors Ltd",
+    "city": "Εγκωμη",
+    "state": null,
+    "country": "CY",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+357-00357-22106070",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'TMM MOTORS LTD', ΝΕΑΣ ΕΓΚΩΜΗΣ 33, Εγκωμη 2409; active:true; type=dealers,services; phone 00357-22106070. Filed under the GR locator but located in Engomi, Nicosia — Cyprus; country recorded as CY."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -111.8315,
      33.4152
     ]
@@ -22392,6 +25600,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     29.03585,
+     41.00526
+    ]
+   },
+   "properties": {
+    "id": "tr-s-motor",
+    "name": "S Motor",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0216 544 13 80",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists S Motor as authorized dealer (Yetkili Satici); published address: Acıbadem Mahallesi, Alidede Sokak No:2 Kadıköy - İstanbul; published business phone 0216 544 13 80; exact pin coordinates 41.00526,29.03585 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      13.1134261,
      55.38388
     ]
@@ -22468,6 +25716,47 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"TRINCO UGO SNC\"; address: Via Halbherr, 27, 38068 Rovereto (TN); type=services; dealerCd=IT043G; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.43842,
+     37.04133
+    ]
+   },
+   "properties": {
+    "id": "turcan-motor",
+    "name": "Turcan Motor",
+    "city": "Muğla",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0252 313 93 76",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Turcan Motor as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Yokuşbaşı Mh. Kıbrıs Şehitleri Cd. No:2 Bodrum - Muğla; published business phone 0252 313 93 76; exact pin coordinates 37.04133,27.43842 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -22571,6 +25860,42 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "listed as 'TUTTO MOTO KFT. 1097 Budapest, Könyves Kálmán krt. 16.' on importer dealer list, accessed 2026-08-22, https://vespa.hu/kereskedok/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "v7-club-turkiye",
+    "name": "V7 Club Türkiye",
+    "city": null,
+    "state": null,
+    "country": "TR",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "knowledge",
+     "community",
+     "rides"
+    ],
+    "url": "https://v7clubturkiye.com/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "v7clubturkiye.com (fetched): \"Moto Guzzi V7 Club Türkiye\" — independent Türkiye community bringing V7 riders together around safe riding, events, technical knowledge and road stories; site announces upcoming group rides. Knowledge layer — no coordinates required. Website-only evidence, status capped unverified."
      }
     ]
    }
@@ -23124,6 +26449,87 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     23.61562,
+     38.46631
+    ]
+   },
+   "properties": {
+    "id": "vlachos-anast-vitas-charil-oe-chalkida",
+    "name": "Βλαχος Αναστ & Βητας Χαριλ Οε",
+    "city": "Χαλκιδα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-22210-82382",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΒΛΑΧΟΣ ΑΝΑΣΤ & ΒΗΤΑΣ ΧΑΡΙΛ ΟΕ', ΟΡΕΣΤΗ ΜΑΚΡΗ 20, Χαλκιδα 34100; active:true; type=services; phone 22210-82382."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.90575,
+     41.11853
+    ]
+   },
+   "properties": {
+    "id": "volkan-motosiklet",
+    "name": "Volkan Motosiklet",
+    "city": "Tekirdağ",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html",
+    "phone": "0282 340 00 00",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Volkan Motosiklet as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Seymen, E5 Üzeri Havaalanı Karşısı İstanbul Çorlu Yolu Çorlu - Tekirdağ; published business phone 0282 340 00 00; exact pin coordinates 41.11853,27.90575 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      3.81,
      50.955
     ]
@@ -23656,6 +27062,59 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     22.9444,
+     40.6401
+    ]
+   },
+   "properties": {
+    "id": "xanthoulis-piaggio-thessaloniki",
+    "name": "E. XANTHOULIS & SIA E.E. (Xanthoulis Piaggio)",
+    "city": "Thessaloniki",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio"
+    ],
+    "functions": [
+     "service",
+     "parts"
+    ],
+    "url": "https://www.facebook.com/piaggio.xanthoulis/",
+    "phone": "+30 2310812580",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite",
+     "depot"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official MG Greece locator https://www.motoguzzi.com/gr_EL/dealer-locator/θεσσαλονικη/ε-ξανθουλης-και-σια-ε-ε/ — \"Ε. ΞΑΝΘΟΥΛΗΣ ΚΑΙ ΣΙΑ Ε.Ε, τεχνική υποστήριξη Moto Guzzi σε ΘΕΣΣΑΛΟΝΙΚΗ\" (technical support). 11888.gr Yellow Pages listing title: \"PIAGGIO - MOTO GUZZI - ΠΑΟΥΛΕΑΝΟΥ Γ ΞΑΝΘΟΥΛΗΣ Ε & ΣΙΑ ΕΕ\". Coordinates city-level."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Business Facebook page (facebook.com/piaggio.xanthoulis, via 2025/2026 findglocal mirror): \"Service δικύκλων/τρίκυκλων, πώληση ανταλλακτικών & αξεσουάρ\" at Velissariou 54, Thessaloniki, tel +30 2310812580; a shop post advertises \"the largest stock of accessories and spare parts for Piaggio [group] machines\" — parts-depot function."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores) lists 'Ε. ΞΑΝΘΟΥΛΗΣ ΚΑΙ ΣΙΑ Ε.Ε', ΘΕΣΣΑΛΟΝΙΚΗ, active:true, type=services — lane evidence confirmed against the live official list."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      22.9353,
      40.6403
     ]
@@ -23857,6 +27316,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     27.41794,
+     37.03925
+    ]
+   },
+   "properties": {
+    "id": "yavuz-moto",
+    "name": "Yavuz Moto",
+    "city": "Muğla",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0533 088 12 02",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Yavuz Moto as authorized service (Yetkili Servis); published address: Yeniköy Mah.Kıbrıs Şehitleri Cad. No:195 Bodrum - Muğla; published business phone 0533 088 12 02; exact pin coordinates 37.03925,27.41794 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -72.249,
      41.808
     ]
@@ -23890,6 +27389,86 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "Listed on the MGNOC rally calendar (mgnoc.com/rally_calendar.html, checked 2026-09-10): New England Christmas-time at Ye-Olde Garage, December 12 2026, Stix & Stones, 1029 Storrs Road, Storrs CT. Coords city-level."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.72411,
+     37.99531
+    ]
+   },
+   "properties": {
+    "id": "yioi-konstantinoy-drakopoyloy-o-e-athina",
+    "name": "Υιοι  Κωνσταντινου Δρακοπουλου Ο.Ε",
+    "city": "Αθηνα",
+    "state": null,
+    "country": "GR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": null,
+    "phone": "+30-210-8239610",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΥΙΟΙ  ΚΩΝΣΤΑΝΤΙΝΟΥ ΔΡΑΚΟΠΟΥΛΟΥ Ο.Ε', ΚΛΑΖΟΜΕΝΩΝ 1-3, Αθηνα 10440; active:true; type=services; phone 210-8239610."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.01899,
+     41.11689
+    ]
+   },
+   "properties": {
+    "id": "yucel-motor",
+    "name": "Yücel Motor",
+    "city": "İstanbul",
+    "state": null,
+    "country": "TR",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.motoguzzi.com.tr/tr/yetkili-servisler.html",
+    "phone": "0212 276 21 87",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-servisler.html lists Yücel Motor as authorized service (Yetkili Servis); published address: A.O.S.S. 2. Kısım 26 Sk. NO: 997 Sarıyer - İstanbul; published business phone 0212 276 21 87; exact pin coordinates 41.11689,29.01899 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
      }
     ]
    }
@@ -23978,7 +27557,7 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 501,
+  "count": 586,
   "schema_version": "1.1",
   "schema": "https://github.com/nathanolla/gsn/blob/main/docs/schema.md",
   "license": "ODbL-1.0",
