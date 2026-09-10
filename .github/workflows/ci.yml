@@ -28,3 +28,30 @@ jobs:
           if grep -ril guzzitech nodes/ site/ i18n/; then
             echo "::error::banned source referenced"; exit 1
           fi
+
+  # Publish site/ to gh-pages on every green main build. Exists because the
+  # 2026-09-10 round sat fully committed on main for a day while the live site
+  # served stale data — the publish step lived only in someone's memory.
+  publish:
+    needs: test
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: rebuild site
+        run: |
+          pip install pyyaml pillow
+          sudo apt-get update -q && sudo apt-get install -y -q gpsbabel
+          python build/build.py
+      - name: deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
+          commit_message: "publish: ${{ github.event.head_commit.message }}"
