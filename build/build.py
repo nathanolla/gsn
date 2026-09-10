@@ -176,10 +176,53 @@ def main():
     out = ROOT / "site" / "nodes.geojson"
     out.write_text(json.dumps(gj, indent=1, ensure_ascii=False, default=str))
     print(f"OK: {len(nodes)} nodes validated -> {out.relative_to(ROOT)}")
+    export_files(features)
     static_render(features)
     stamp_sw()
     whatsnew()
     localize()
+
+
+def export_files(features):
+    """Prebuilt whole-database exports: site/gsn-nodes.gpx (also the JS-off
+    fallback for the GPX button) and site/gsn-poi.gpi for Garmin Zumo users
+    (copy to /Garmin/POI/). GPI is a reverse-engineered binary format — we go
+    through gpsbabel, the reference implementation, never a hand-rolled writer.
+    The client-side GPX/KML buttons still export the *filtered* view; these
+    files are the full active database."""
+    import html as H
+    import shutil
+    import subprocess
+    wpts = []
+    for f in features:
+        p = f["properties"]
+        if not f["geometry"] or p["status"] != "active":
+            continue
+        lon, lat = f["geometry"]["coordinates"]
+        desc = " | ".join(x for x in (
+            "+".join(p["capability"]),
+            f"{p['city']}, {p['state']}" if p.get("city") else "",
+            p.get("phone") or "", p.get("url") or "",
+            f"verified {p['last_verified']}") if x)
+        wpts.append(f'  <wpt lat="{lat}" lon="{lon}">\n    <name>{H.escape(str(p["name"]))}</name>\n'
+                    f'    <desc>{H.escape(desc)}</desc>\n    <sym>Motorcycle Shop</sym>\n  </wpt>')
+    gpx = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<gpx version="1.1" creator="Guzzi Support Network" '
+           'xmlns="http://www.topografix.com/GPX/1/1">\n' + "\n".join(wpts) + "\n</gpx>\n")
+    gpx_out = ROOT / "site" / "gsn-nodes.gpx"
+    gpx_out.write_text(gpx)
+    print(f"exports: {len(wpts)} active waypoints -> {gpx_out.relative_to(ROOT)}")
+    if shutil.which("gpsbabel"):
+        gpi_out = ROOT / "site" / "gsn-poi.gpi"
+        subprocess.run(
+            ["gpsbabel", "-i", "gpx", "-f", str(gpx_out),
+             "-o", "garmin_gpi,category=Guzzi Support Network,unique=1,descr=1",
+             "-F", str(gpi_out)], check=True)
+        print(f"exports: -> {gpi_out.relative_to(ROOT)} (Garmin POI)")
+    else:
+        # CI always has gpsbabel (see .github/workflows/ci.yml); a contributor
+        # without it just keeps the last committed gsn-poi.gpi.
+        print("exports: gpsbabel not found — skipping gsn-poi.gpi", file=sys.stderr)
 
 
 def stamp_sw():

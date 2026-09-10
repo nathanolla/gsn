@@ -48,3 +48,19 @@ def test_exports_respect_the_corridor():
     body = html[i:html.index("}", html.index("FEATS.filter", i)) + 1]
     assert "corridorOn()" in body and "nearRoute(" in body, (
         "visibleGeo() no longer applies the corridor filter to exports")
+
+def test_prebuilt_gpi_roundtrips_every_active_waypoint(tmp_path):
+    # The .gpi is binary and reverse-engineered; the only trustworthy check is
+    # reading it back with the tool that wrote it and counting waypoints.
+    import shutil, subprocess
+    if not shutil.which("gpsbabel"):
+        pytest.skip("gpsbabel not installed (CI installs it)")
+    gpi = ROOT / "site" / "gsn-poi.gpi"
+    assert gpi.exists(), "build did not produce gsn-poi.gpi"
+    assert gpi.read_bytes()[8:14] == b"GRMREC", "not a Garmin GPI file"
+    back = tmp_path / "back.gpx"
+    subprocess.run(["gpsbabel", "-i", "garmin_gpi", "-f", str(gpi),
+                    "-o", "gpx", "-F", str(back)], check=True)
+    n_back = back.read_text().count("<wpt")
+    n_src = (ROOT / "site" / "gsn-nodes.gpx").read_text().count("<wpt")
+    assert n_src > 0 and n_back == n_src, f"GPI lost waypoints: {n_back}/{n_src}"

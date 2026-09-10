@@ -206,6 +206,7 @@
     <select id="fera" aria-label="Nach Epoche filtern" style="display:none"><option value="">— alle Epochen —</option></select>
     <button id="gpx" class="sec" title="Angezeigte Knoten als GPX-Wegpunkte laden (Garmin, OsmAnd, Kurviger…)">↓ GPX</button>
     <button id="kml" class="sec" title="Angezeigte Knoten als KML laden (Google Earth, Maps)">↓ KML</button>
+    <button id="gpi" class="sec" title="Garmin-POI-Datei — auf dem Zumo nach /Garmin/POI/ kopieren. Gesamte Datenbank (ungefiltert)">↓ GPI</button>
     <button id="corridor" class="sec" title="Route planen: auf die Karte tippen zum Zeichnen oder GPX importieren — die Liste filtert auf Knoten entlang der Route">ROUTE</button>
     <select id="corrad" aria-label="Corridor radius" style="display:none"></select>
     <button id="gpximport" class="sec" style="display:none" title="GPX-Routendatei importieren — der Korridor folgt ihr">⤒ GPX</button>
@@ -596,6 +597,8 @@ function render(){
     const w=visibleGeo().map(f=>{const p=f.properties,[lng,lat]=f.geometry.coordinates;
       return `    <Placemark>\n      <name>${xesc(p.name)}</name>\n      <description>${xesc(descOf(p))}</description>\n      <Point><coordinates>${lng},${lat},0</coordinates></Point>\n    </Placemark>`;}).join('\n');
     dl(corridorOn()?'gsn-corridor.kml':'gsn-nodes.kml','application/vnd.google-earth.kml+xml',`<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document>\n    <name>Guzzi Support Network</name>\n${w}\n</Document></kml>\n`);};
+  // GPI is prebuilt binary (gpsbabel at build time) — a plain download, always whole-db
+  document.getElementById('gpi').onclick=()=>{location.href='gsn-poi.gpi'};
   // ---- offline indicator + service worker (PWA / offline-first) ----
   const offEl=document.getElementById('offline');
   const setOff=()=>{offEl.style.display=navigator.onLine?'none':'block';};

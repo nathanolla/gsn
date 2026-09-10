@@ -16,7 +16,9 @@ jobs:
         with:
           node-version: "22"
       - name: install deps
-        run: pip install pytest pyyaml pillow
+        run: |
+          pip install pytest pyyaml pillow
+          sudo apt-get update -q && sudo apt-get install -y -q gpsbabel
       - name: build the site
         run: python build/build.py
       - name: test suite (data contracts, build/i18n invariants, shipped GPX/KML generators)

@@ -58,3 +58,4 @@ strings:
   '<option value="">— any era —</option>': '<option value="">— すべての年代 —</option>'
   'aria-label="Filter by era"': 'aria-label="年代で絞り込む"'
   '<a href="desert.html">the desert index</a>': '<a href="desert.html">砂漠インデックス</a>'
+  'title="Garmin POI file — copy to /Garmin/POI/ on a Zumo. Whole database (not filtered)"': 'title="Garmin POIファイル — Zumoの/Garmin/POI/にコピー。全データベース（フィルタなし）"'
