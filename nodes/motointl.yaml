@@ -20,15 +20,18 @@ phone: 206-297-3822
 observations:
 - date: 2026-07-26
   method: website
-  fact: Historic dealership at 7701 Aurora Ave N, Seattle. Was the biggest-selling
-    US Moto Guzzi dealer every year from 2004 to 2012. The website is still online,
-    but the Yelp listing (updated December 2025) marks the business as CLOSED. Included
-    as a notable closed legend.
+  fact: Historic dealership at 7701 Aurora Ave N, Seattle. Was the biggest-selling US Moto
+    Guzzi dealer every year from 2004 to 2012. The website is still online, but the Yelp listing
+    (updated December 2025) marks the business as CLOSED. Included as a notable closed legend.
 - date: 2026-07-26
   method: official-locator
-  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26. May
-    be onboarding, a satellite listing, or a dropped franchise; treat franchise status
-    as unconfirmed.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26. May be onboarding,
+    a satellite listing, or a dropped franchise; treat franchise status as unconfirmed.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; meta description confirms ''Moto Guzzi
+    and Aprilia motorcycle & scooter sales, parts, service, and accessories''; website remains
+    online but prior Yelp closure (Dec 2025) still stands.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: defunct

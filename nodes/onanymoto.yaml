@@ -26,16 +26,22 @@ phone: (520) 269-6606
 observations:
 - date: 2026-07-26
   method: website
-  fact: Authorized dealer for a deep Italian roster (Aprilia, Ducati, MV Agusta, Moto
-    Guzzi, Piaggio, Vespa) per own site, with a Moto Guzzi current-inventory showroom.
+  fact: Authorized dealer for a deep Italian roster (Aprilia, Ducati, MV Agusta, Moto Guzzi,
+    Piaggio, Vespa) per own site, with a Moto Guzzi current-inventory showroom.
 - date: 2026-07-26
   method: official-locator
   fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
 - date: 2026-07-26
   method: official-locator
-  fact: listed on the official Moto Guzzi US dealer locator as "On Any Moto" (Tucson,
-    AZ); type=dealers,services; verified 2026-07-26
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: listed on the official Moto Guzzi US dealer locator as "On Any Moto" (Tucson, AZ);
+    type=dealers,services; verified 2026-07-26
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; keywords confirm moto guzzi, vespa,
+    ducati, piaggio, aprilia; ''Moto Guzzi Motorcycles for sale in Tucson, AZ'' nav link and
+    ''Moto Guzzi® for sale in Tucson, AZ'' brand section present; slideshow links to Aprilia/Moto
+    Guzzi/Piaggio/Vespa inventory. Confirmed active and Guzzi-carrying.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 2535 N. Jackrabbit Ave., Tucson, AZ 85745

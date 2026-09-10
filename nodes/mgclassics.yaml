@@ -23,10 +23,14 @@ observations:
   fact: Site is live with a current timestamp (August 22, 2026).
 - date: 2026-07-26
   method: website
-  fact: 'Specialized Moto Guzzi engine repair, performance tuning, and carb work.
-    Run by Mark Etheridge with over 45 years of Guzzi-only experience. A performance
-    and heritage node, not only heritage. [source: https://motoguzziclassics.com]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Specialized Moto Guzzi engine repair, performance tuning, and carb work. Run by Mark
+    Etheridge with over 45 years of Guzzi-only experience. A performance and heritage node,
+    not only heritage. [source: https://motoguzziclassics.com]'
+- date: 2026-09-10
+  method: website
+  fact: Re-verified live. Content reads 'Moto Guzzi Classics is the world's longest-running
+    independent Moto Guzzi shop.' Shows current date September 10, 2026.
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 1831 Redondo Avenue, Signal Hill, CA

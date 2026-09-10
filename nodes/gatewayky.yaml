@@ -25,13 +25,17 @@ phone: 859-497-2100
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site lists Moto Guzzi among authorized brands. Claims Kentucky's largest
-    powersports showroom with 250+ units. Acquired by Derek Harmon in 2024.
+  fact: Own site lists Moto Guzzi among authorized brands. Claims Kentucky's largest powersports
+    showroom with 250+ units. Acquired by Derek Harmon in 2024.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Gateway Cycles" (Mt.
-    Sterling, KY); type=dealers; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Gateway Cycles" (Mt. Sterling,
+    KY); type=dealers; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: gatewaycycles.com responds HTTP 403 (bot-challenge perimeter,
+    server alive); locator listing stands'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 620 N Maysville, Mt. Sterling, KY 40353

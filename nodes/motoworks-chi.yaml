@@ -26,15 +26,18 @@ phone: (312) 738-4269
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Chicago, IL); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Chicago, IL); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Site loads normally (previously returned HTTP 403 due to bot protection).
-    Copyright 2026; lists BMW, Triumph, Ducati, Vespa, Royal Enfield, Piaggio, MV
-    Agusta, KTM, Aprilia, Moto Guzzi, and Husqvarna among franchised brands. [source:
-    https://www.motoworkschicago.com]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Site loads normally (previously returned HTTP 403 due to bot protection). Copyright
+    2026; lists BMW, Triumph, Ducati, Vespa, Royal Enfield, Piaggio, MV Agusta, KTM, Aprilia,
+    Moto Guzzi, and Husqvarna among franchised brands. [source: https://www.motoworkschicago.com]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200 (403 on default curl, responds to browser
+    UA); ''Moto Guzzi'' nav link, Moto Guzzi homepage section with logo (uploaded 2025-08),
+    and code comments ''Add Aprilia and Moto Guzzi'' present. Confirmed active and Guzzi-carrying.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 1901 S Western Ave, Chicago, IL 60608

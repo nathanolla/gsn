@@ -20,14 +20,16 @@ phone: ''
 observations:
 - date: 2026-07-26
   method: website
-  fact: 'Moto Guzzi-only performance shop. Site lists in-house machine work under
-    P.E. Ed Milich: big-bore kits, pistons, heads, camshafts, billet parts, sump spacers,
-    and dyno runs. Mail-order from P.O. Box 3083, Torrance, CA 90510; ed@guzzipower.com.
-    [source: https://guzzipower.com/store/]'
+  fact: 'Moto Guzzi-only performance shop. Site lists in-house machine work under P.E. Ed
+    Milich: big-bore kits, pistons, heads, camshafts, billet parts, sump spacers, and dyno
+    runs. Mail-order from P.O. Box 3083, Torrance, CA 90510; ed@guzzipower.com. [source: https://guzzipower.com/store/]'
 - date: 2026-07-26
   method: community-endorsement
-  fact: Identified by wildguzzi forum members as a US Moto Guzzi performance and machine
-    specialist.
-last_verified: 2026-07-26
-verified_by: claude
+  fact: Identified by wildguzzi forum members as a US Moto Guzzi performance and machine specialist.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: guzzipower.com live (HTTP 200); confirms Guzzi performance shop
+    (Ed Milich, Torrance); no closure indicators; still operational'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

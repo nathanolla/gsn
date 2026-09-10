@@ -29,17 +29,20 @@ observations:
     but primary lines are CFMOTO/Segway/Beta; Guzzi stocking depth unconfirmed.
 - date: 2026-07-26
   method: website
-  fact: 'In-stock inventory search lists a 2027 Moto Guzzi (homepage brand roster
-    omits Guzzi but the inventory carries it): mountainpowersports.net/search/inventory/availability/In
+  fact: 'In-stock inventory search lists a 2027 Moto Guzzi (homepage brand roster omits Guzzi
+    but the inventory carries it): mountainpowersports.net/search/inventory/availability/In
     Stock/brand/Moto Guzzi'
 - date: 2026-07-26
   method: official-locator
-  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may
-    be onboarding, a satellite listing, or a dropped franchise — treat franchise status
-    as unconfirmed).
+  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding,
+    a satellite listing, or a dropped franchise — treat franchise status as unconfirmed).
 - date: 2026-08-22
   method: website
   fact: 'pass-2 check: site unreachable (HTTP 403 bot-protection block on all attempts)'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 403 bot-protection block on all attempts
+    including browser User-Agent strings. Unreachable; status unchanged.'
 last_verified: 2026-07-26
-verified_by: claude-locator-xref
+verified_by: claude-mimo
 status: unverified

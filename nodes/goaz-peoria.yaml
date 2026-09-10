@@ -27,16 +27,18 @@ phone: (623) 322-6700
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Peoria, AZ); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Peoria, AZ); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Independent Yelp profile ''go-az-motorcycles-peoria-peoria'' with 4.1 stars
-    and 57 reviews. [source: https://www.yelp.com/biz/go-az-motorcycles-peoria-peoria]'
+  fact: 'Independent Yelp profile ''go-az-motorcycles-peoria-peoria'' with 4.1 stars and 57
+    reviews. [source: https://www.yelp.com/biz/go-az-motorcycles-peoria-peoria]'
 - date: 2026-08-22
   method: website
-  fact: 'pass-2 check: site returns HTTP 403 (bot-protection), address could not be
-    extracted.'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'pass-2 check: site returns HTTP 403 (bot-protection), address could not be extracted.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: goazwest.com responds HTTP 403 (bot-challenge perimeter, server
+    alive); consistent with all prior checks; locator listing stands'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

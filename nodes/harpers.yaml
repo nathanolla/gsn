@@ -24,8 +24,12 @@ observations:
   fact: e-commerce live
 - date: 2026-07-26
   method: official-locator
-  fact: listed on the official Moto Guzzi US dealer locator as "Harper\'s Moto Guzzi"
-    (Greenwood, MO); type=services; verified 2026-07-26
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: listed on the official Moto Guzzi US dealer locator as "Harper\'s Moto Guzzi" (Greenwood,
+    MO); type=services; verified 2026-07-26
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: harpermoto.com live (HTTP 200); heavily Guzzi-focused (486 mentions);
+    extensive parts/NOS inventory (540 parts mentions); e-commerce still operational'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

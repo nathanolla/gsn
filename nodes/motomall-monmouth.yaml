@@ -19,14 +19,18 @@ phone: (732) 615-0900
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Middletown, NJ); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Middletown, NJ); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Independent listings on Yelp, CycleTrader, and MotoHunt describe this as
-    an authorized Moto Guzzi dealer at 656 Highway 35, formerly Jersey Shore Powersports.
-    [source: https://html.duckduckgo.com/html/?q=Motorcycle+Mall+of+Monmouth+Middletown+NJ+Moto+Guzzi+dealer]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Independent listings on Yelp, CycleTrader, and MotoHunt describe this as an authorized
+    Moto Guzzi dealer at 656 Highway 35, formerly Jersey Shore Powersports. [source: https://html.duckduckgo.com/html/?q=Motorcycle+Mall+of+Monmouth+Middletown+NJ+Moto+Guzzi+dealer]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; site is operational as a powersports
+    dealer but featured brands are now Yamaha and CFMoto; no Moto Guzzi mention found on current
+    homepage or brand roster. Guzzi franchise may have been dropped; recommend re-checking
+    official locator.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 656 Highway 35, Middletown, NJ 07748

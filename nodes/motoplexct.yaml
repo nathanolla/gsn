@@ -1,29 +1,42 @@
 id: motoplexct
-name: "Motoplex Fairfield"
-city: "Fairfield"
+name: Motoplex Fairfield
+city: Fairfield
 state: CT
 country: US
 lat: 41.1408
 lon: -73.2613
 layer: franchise
-capability: [full-service]
+capability:
+- full-service
 eras:
 - v85
 - v100-pads
-brands: [moto-guzzi, aprilia, vespa, piaggio]
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.motoplexfairfield.com/
-phone: "203-292-3550"
+phone: 203-292-3550
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Piaggio-group Motoplex store at 301 Commerce Dr; own site lists 2027 Moto Guzzi V100 Mandello S, V85 TT, V7 Sport and Stelvio PFF with promotions running through July 31, 2026."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"PiaggioVespa ApriliaMoto Guzzi Fairfield\" (Fairfield, CT); type=dealers,services; verified 2026-07-26"
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+- date: 2026-07-26
+  method: website
+  fact: Piaggio-group Motoplex store at 301 Commerce Dr; own site lists 2027 Moto Guzzi V100
+    Mandello S, V85 TT, V7 Sport and Stelvio PFF with promotions running through July 31,
+    2026.
+- date: 2026-07-26
+  method: official-locator
+  fact: listed on the official Moto Guzzi US dealer locator as "PiaggioVespa ApriliaMoto Guzzi
+    Fairfield" (Fairfield, CT); type=dealers,services; verified 2026-07-26
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; title confirms ''Vespa, Piaggio, Moto
+    Guzzi & Aprilia | Motoplex Fairfield''; megamenu shows Aprilia and Moto Guzzi brand sections
+    with in-stock inventory links. Confirmed active and Guzzi-carrying.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

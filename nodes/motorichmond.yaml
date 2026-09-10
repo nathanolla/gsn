@@ -28,7 +28,13 @@ observations:
   method: official-locator
   fact: Listed on the official Moto Guzzi US dealer locator as "Moto Richmond" (Richmond,
     VA); type=dealers; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; meta description and body confirm Moto
+    Guzzi among franchised brands; active slideshow promotes ''LAST Moto Guzzi V85s from 2025''
+    (5/1/2026–9/30/2026); ''Shop Moto Guzzi'' inventory link present. Confirmed active and
+    Guzzi-carrying.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 6000 Midlothian Turnpike, Richmond, VA 23225-5920

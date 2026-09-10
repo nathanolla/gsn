@@ -1,29 +1,42 @@
 id: motopia
-name: "Motopia NM"
-city: "Albuquerque"
+name: Motopia NM
+city: Albuquerque
 state: NM
 country: US
 lat: 35.1107
 lon: -106.6056
 layer: franchise
-capability: [full-service]
-brands: [moto-guzzi, aprilia, triumph, royal-enfield, beta]
+capability:
+- full-service
+brands:
+- moto-guzzi
+- aprilia
+- triumph
+- royal-enfield
+- beta
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.motopianm.com/
-phone: "505-839-0505"
+phone: 505-839-0505
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "New Mexico's Guzzi point at 2839 Carlisle Blvd NE; own site shows new Moto Guzzi inventory across 2023-2026 model years (V7, V85 TT, V100, Stelvio) plus factory showroom."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "Appears on the official Moto Guzzi dealer locator (surfaced in search results)."
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator as \"Motopia NM\" (ALBUQUERQUE, NM); type=dealers,services; verified 2026-07-26"
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+- date: 2026-07-26
+  method: website
+  fact: New Mexico's Guzzi point at 2839 Carlisle Blvd NE; own site shows new Moto Guzzi inventory
+    across 2023-2026 model years (V7, V85 TT, V100, Stelvio) plus factory showroom.
+- date: 2026-07-26
+  method: official-locator
+  fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
+- date: 2026-07-26
+  method: official-locator
+  fact: listed on the official Moto Guzzi US dealer locator as "Motopia NM" (ALBUQUERQUE,
+    NM); type=dealers,services; verified 2026-07-26
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; body text confirms ''new Triumphs, Royal-Enfields
+    Aprilias, Moto Guzzis, and Beta dirt bikes''; shows ''Guzzit'' logo. Confirmed active
+    and Guzzi-carrying.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

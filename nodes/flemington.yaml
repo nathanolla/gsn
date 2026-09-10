@@ -23,13 +23,16 @@ phone: (908) 237-0099
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Flemington, NJ); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Flemington, NJ); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'MotoHunt lists 13 current Moto Guzzi motorcycles including 2026 model-year
-    units. Recent TikTok product tours show current Aprilia inventory. [source: https://html.duckduckgo.com/html/?q=Flemington+Powersports+Flemington+NJ+Moto+Guzzi+Aprilia+dealer+reviews]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'MotoHunt lists 13 current Moto Guzzi motorcycles including 2026 model-year units.
+    Recent TikTok product tours show current Aprilia inventory. [source: https://html.duckduckgo.com/html/?q=Flemington+Powersports+Flemington+NJ+Moto+Guzzi+Aprilia+dealer+reviews]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: flemingtonpowersports.com live (HTTP 200); confirms Moto Guzzi,
+    Can-Am, Polaris, Aprilia dealer; still operational'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 300 Route 202, Flemington, NJ 08822

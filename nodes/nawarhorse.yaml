@@ -29,13 +29,17 @@ observations:
 - date: 2026-07-26
   method: website
   fact: Site describes a 50,000+ sq ft showroom at 1000 Dunham Dr., Dunmore, PA. Promotions
-    include Ducati, MV Agusta, Honda, Yamaha, Kawasaki, KTM, Polaris, Can-Am, Ski-Doo,
-    Vespa, and Piaggio. Moto Guzzi confirmed via official locator listing.
+    include Ducati, MV Agusta, Honda, Yamaha, Kawasaki, KTM, Polaris, Can-Am, Ski-Doo, Vespa,
+    and Piaggio. Moto Guzzi confirmed via official locator listing.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "North American Warhorse"
-    (Dunmore, PA); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "North American Warhorse" (Dunmore,
+    PA); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; ''Moto Guzzi at North American Warhorse''
+    nav link with image present (/inventory/v1/Current/Moto-Guzzi). Confirmed active and Guzzi-carrying.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 1000 Dunham Dr., Dunmore, PA 18512

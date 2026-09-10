@@ -28,18 +28,21 @@ phone: (413) 642-8199
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Westfield, MA); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Westfield, MA); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'The site shows 2026 model-year inventory and Aprilia promotions dated through
-    December 2026. [source: https://www.montysmotorsports.com/]'
+  fact: 'The site shows 2026 model-year inventory and Aprilia promotions dated through December
+    2026. [source: https://www.montysmotorsports.com/]'
 - date: 2026-07-26
   method: website
-  fact: Listed on the official Guzzi locator as a Piaggio-group point. The site's
-    sales lineup does not foreground Moto Guzzi units; treat as a service and order
-    satellite.
-last_verified: 2026-07-26
-verified_by: claude
+  fact: Listed on the official Guzzi locator as a Piaggio-group point. The site's sales lineup
+    does not foreground Moto Guzzi units; treat as a service and order satellite.
+- date: 2026-09-10
+  method: website
+  fact: Re-verified live. Moto Guzzi model page exists (/Brands/Manufacturer-Models/Model-List/Moto-Guzzi)
+    but Guzzi is not in the main brand navigation menu. Original observation about not foregrounding
+    Guzzi still accurate.
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 1 Arch Rd. Suite 8, Westfield, MA 01085

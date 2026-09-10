@@ -28,17 +28,20 @@ phone: (702) 430-3500
 observations:
 - date: 2026-07-26
   method: website
-  fact: 300+ bikes in stock at 6175 W Sahara Ave; current Guzzi inventory incl. 2025
-    V85 Strada/V85 TT and 2024 V9 Bobber/V100 Mandello; ships nationwide with financing
-    in all 50 states.
+  fact: 300+ bikes in stock at 6175 W Sahara Ave; current Guzzi inventory incl. 2025 V85 Strada/V85
+    TT and 2024 V9 Bobber/V100 Mandello; ships nationwide with financing in all 50 states.
 - date: 2026-07-26
   method: official-locator
   fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Euro Cycle" (Las Vegas,
-    NV); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Euro Cycle" (Las Vegas, NV);
+    type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: rideeurocycle.com is live (HTTP 200); page content confirms
+    Moto Guzzi, Aprilia, Vespa dealer; still operational'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 6175 W Sahara Ave Ste B, Las Vegas, NV 89146

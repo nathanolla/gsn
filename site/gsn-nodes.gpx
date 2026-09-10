@@ -90,11 +90,6 @@
     <desc>full-service | Tiranë, Qarku i Tiranës | +355 69 20 95 633 | https://amt.al/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
-  <wpt lat="39.4459" lon="-77.6603">
-    <name>Antietam Classic Cycle</name>
-    <desc>heritage+performance | Rohrersville, MD | 301-432-2275 | https://antietamclassiccycle.com/ | verified 2026-07-26</desc>
-    <sym>Motorcycle Shop</sym>
-  </wpt>
   <wpt lat="51.2407" lon="4.4523">
     <name>Antwerp Bike Store BV</name>
     <desc>full-service | Antwerpen,  | 0032 -(0)3 481 8 | https://antwerpbikestore.be/ | verified 2026-08-22</desc>
@@ -307,7 +302,7 @@
   </wpt>
   <wpt lat="38.6582" lon="-77.2497">
     <name>Coleman PowerSports</name>
-    <desc>satellite | Woodbridge, VA | 703-497-1500 | https://www.wherethepoweris.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Woodbridge, VA | 703-497-1500 | https://www.wherethepoweris.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="53.1362" lon="7.5998">
@@ -477,7 +472,7 @@
   </wpt>
   <wpt lat="43.488" lon="-112.056">
     <name>Eagle Rock Indian Motorcycle (Idaho Motorcycle Co.)</name>
-    <desc>satellite | Idaho Falls, ID | 208-525-1901 | https://www.idahomotorcyclecompany.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Idaho Falls, ID | 208-525-1901 | https://www.idahomotorcyclecompany.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="42.5584" lon="-70.88">
@@ -552,17 +547,17 @@
   </wpt>
   <wpt lat="36.1447" lon="-115.227">
     <name>Euro Cycle Las Vegas</name>
-    <desc>full-service | Las Vegas, NV | (702) 430-3500 | https://rideeurocycle.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Las Vegas, NV | (702) 430-3500 | https://rideeurocycle.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="40.1351" lon="-76.8594">
     <name>Europa Macchina</name>
-    <desc>heritage | Lewisberry, PA | (717) 932-6600 | https://www.europamacchina.com/ | verified 2026-07-26</desc>
+    <desc>heritage | Lewisberry, PA | (717) 932-6600 | https://www.europamacchina.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="40.585" lon="-111.893">
     <name>Eurosports Utah</name>
-    <desc>full-service | Sandy, UT | 801-618-2700 | https://www.euroutah.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Sandy, UT | 801-618-2700 | https://www.euroutah.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="49.6372" lon="-1.5953">
@@ -602,7 +597,7 @@
   </wpt>
   <wpt lat="40.50015" lon="-74.855187">
     <name>Flemington Powersports</name>
-    <desc>full-service | Flemington, NJ | (908) 237-0099 | https://www.flemingtonpowersports.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Flemington, NJ | (908) 237-0099 | https://www.flemingtonpowersports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="44.155625" lon="12.242746">
@@ -627,7 +622,7 @@
   </wpt>
   <wpt lat="42.8825953" lon="-85.6825048">
     <name>Fox Powersports</name>
-    <desc>satellite | Wyoming, MI | (616) 855-3660 | https://www.foxpowersports.com | verified 2026-07-26</desc>
+    <desc>satellite | Wyoming, MI | (616) 855-3660 | https://www.foxpowersports.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="38.2" lon="-84.87">
@@ -642,7 +637,7 @@
   </wpt>
   <wpt lat="29.76058" lon="-95.36968">
     <name>Full Throttle</name>
-    <desc>satellite | Houston, TX | (877) 551-9538 | https://www.fullthrottlehouston.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Houston, TX | (877) 551-9538 | https://www.fullthrottlehouston.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="45.38719035" lon="10.98258062">
@@ -667,7 +662,7 @@
   </wpt>
   <wpt lat="38.0565" lon="-83.9433">
     <name>Gateway Cycles</name>
-    <desc>satellite | Mount Sterling, KY | 859-497-2100 | https://www.gatewaycycles.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Mount Sterling, KY | 859-497-2100 | https://www.gatewaycycles.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="42.6384" lon="12.6743">
@@ -697,7 +692,7 @@
   </wpt>
   <wpt lat="33.635498" lon="-112.235555">
     <name>GO AZ Motorcycles Peoria</name>
-    <desc>satellite | Peoria, AZ | (623) 322-6700 | https://www.goazwest.com | verified 2026-07-26</desc>
+    <desc>satellite | Peoria, AZ | (623) 322-6700 | https://www.goazwest.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="45.337747" lon="12.065402">
@@ -712,7 +707,7 @@
   </wpt>
   <wpt lat="32.7157" lon="-117.1611">
     <name>GP Motorcycles</name>
-    <desc>full-service | San Diego, CA | (619) 233-4762 | https://gpmotorcycles.com/ | verified 2026-07-26</desc>
+    <desc>full-service | San Diego, CA | (619) 233-4762 | https://gpmotorcycles.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="-25.2831" lon="-57.5877">
@@ -737,7 +732,7 @@
   </wpt>
   <wpt lat="42.2795" lon="-87.8673">
     <name>The Guzzi Doctor</name>
-    <desc>heritage+performance | Lake Bluff, IL | 708-715-0360 | https://theguzzidoctor.com/ | verified 2026-07-26</desc>
+    <desc>heritage+performance | Lake Bluff, IL | 708-715-0360 | https://theguzzidoctor.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="49.1893" lon="8.5542">
@@ -752,7 +747,7 @@
   </wpt>
   <wpt lat="33.8358" lon="-118.3406">
     <name>GuzziPower (Ed Milich)</name>
-    <desc>performance | Torrance, CA | https://guzzipower.com | verified 2026-07-26</desc>
+    <desc>performance | Torrance, CA | https://guzzipower.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="35.471" lon="-93.466">
@@ -772,12 +767,17 @@
   </wpt>
   <wpt lat="40.83655" lon="-73.3951">
     <name>Habberstad Powersports</name>
-    <desc>satellite | Huntington Station, NY | (631) 427-4400 | https://www.habberstadpowersports.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Huntington Station, NY | (631) 427-4400 | https://www.habberstadpowersports.com/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="41.3755731" lon="-73.4242635">
+    <name>Hamlin Cycles, LLC</name>
+    <desc>full-service | Bethel, CT | (203) 942-2232 | https://www.hamlincycles.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="38.852" lon="-94.344">
     <name>Harper&#x27;s Moto Guzzi</name>
-    <desc>depot | Greenwood, MO | (816) 697-3411 | https://harpermoto.com | verified 2026-07-26</desc>
+    <desc>depot | Greenwood, MO | (816) 697-3411 | https://harpermoto.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="53.5505" lon="8.5852">
@@ -792,7 +792,7 @@
   </wpt>
   <wpt lat="35.1595" lon="-84.8766">
     <name>HBR Powersports</name>
-    <desc>satellite | Cleveland, TN | 423-790-0510 | https://www.hbrpowersports.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Cleveland, TN | 423-790-0510 | https://www.hbrpowersports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="37.9755" lon="23.7055">
@@ -815,9 +815,14 @@
     <desc>full-service | Waterloo,  | 3227925793 | https://horsepower84motos.be/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="41.1104" lon="-73.7787">
+    <name>Hunter Motorsports</name>
+    <desc>satellite | Thornwood, NY | 914-769-4722 | https://huntermotorcycle.com/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="31.98226" lon="-81.15078">
-    <name>Honda Yamaha of Savannah</name>
-    <desc>satellite | Savannah, GA | (912) 927-7070 | https://www.hondayamahaofsavannah.com/ | verified 2026-07-26</desc>
+    <name>Revhouse Powersports (fmr Honda Yamaha of Savannah)</name>
+    <desc>satellite | Savannah, GA | (912) 927-7070 | https://www.hondayamahaofsavannah.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="48.7787" lon="-123.708">
@@ -927,7 +932,7 @@
   </wpt>
   <wpt lat="40.6706" lon="-78.2386">
     <name>Kissell Motorsports</name>
-    <desc>full-service | Tyrone, PA | 814-861-7890 | https://www.kissellmotorsports.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Tyrone, PA | 814-861-7890 | https://www.kissellmotorsports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="52.4556" lon="8.8508">
@@ -962,7 +967,7 @@
   </wpt>
   <wpt lat="38.8816" lon="-77.091">
     <name>La Moto Washington</name>
-    <desc>full-service | Arlington, VA | 833-686-7532 | https://www.lamotowashington.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Arlington, VA | 833-686-7532 | https://www.lamotowashington.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="43.5514" lon="7.0062">
@@ -982,7 +987,7 @@
   </wpt>
   <wpt lat="44.6497" lon="-93.2427">
     <name>Leo&#x27;s South</name>
-    <desc>full-service | Lakeville, MN | 855-536-7386 | https://www.leossouth.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Lakeville, MN | 855-536-7386 | https://www.leossouth.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="54.5165" lon="18.5403">
@@ -1002,17 +1007,17 @@
   </wpt>
   <wpt lat="32.5421" lon="-97.3208">
     <name>Lone Star Yamaha Burleson</name>
-    <desc>satellite | Burleson, TX | 817-447-4200 | https://www.lonestaryamaha.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Burleson, TX | 817-447-4200 | https://www.lonestaryamaha.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="28.7813722" lon="-82.6151001">
     <name>Love Motorsports</name>
-    <desc>satellite | Homosassa, FL | (352) 621-3678 | https://www.lovemotorsports.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Homosassa, FL | (352) 621-3678 | https://www.lovemotorsports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="28.5692" lon="-81.544">
     <name>Love Motorsports of Ocoee</name>
-    <desc>satellite | Ocoee, FL | 407-787-9595 | https://www.lmsocoee.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Ocoee, FL | 407-787-9595 | https://www.lmsocoee.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="42.45970335" lon="14.22753803">
@@ -1022,7 +1027,7 @@
   </wpt>
   <wpt lat="26.6406" lon="-81.8723">
     <name>Lucky U Cycles Fort Myers</name>
-    <desc>satellite | Fort Myers, FL | (239) 415-3271 | https://www.luckyuftmyers.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Fort Myers, FL | (239) 415-3271 | https://www.luckyuftmyers.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="43.2909" lon="5.492">
@@ -1052,7 +1057,7 @@
   </wpt>
   <wpt lat="33.2487" lon="-111.6343">
     <name>Manic Moto</name>
-    <desc>full-service | Queen Creek, AZ | 480-783-3243 | https://www.manicmoto.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Queen Creek, AZ | 480-783-3243 | https://www.manicmoto.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="56.6161782" lon="13.0345658">
@@ -1077,7 +1082,7 @@
   </wpt>
   <wpt lat="41.8886" lon="-87.9895">
     <name>Motor Cycle Center</name>
-    <desc>full-service | Villa Park, IL | 630-782-2010 | https://www.teammcc.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Villa Park, IL | 630-782-2010 | https://www.teammcc.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="43.09259349" lon="12.31420123">
@@ -1102,12 +1107,12 @@
   </wpt>
   <wpt lat="33.7905" lon="-118.1519">
     <name>Moto Guzzi Classics</name>
-    <desc>heritage+performance | Signal Hill, CA | (562) 986-0070 | https://www.motoguzziclassics.com/ | verified 2026-07-26</desc>
+    <desc>heritage+performance | Signal Hill, CA | (562) 986-0070 | https://www.motoguzziclassics.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="42.7137" lon="-89.4305">
     <name>MG Cycle</name>
-    <desc>depot | Albany, WI | (608) 862-2300 | https://www.mgcycle.com | verified 2026-07-26</desc>
+    <desc>depot | Albany, WI | (608) 862-2300 | https://www.mgcycle.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="45.7626" lon="9.2034">
@@ -1122,17 +1127,17 @@
   </wpt>
   <wpt lat="40.2798" lon="-75.2996">
     <name>Montgomeryville Cycle Center</name>
-    <desc>full-service | Hatfield, PA | 215-712-7433 | https://www.montgomeryvillecc.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Hatfield, PA | 215-712-7433 | https://www.montgomeryvillecc.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="42.140974" lon="-72.733939">
     <name>Monty&#x27;s Motorsports</name>
-    <desc>satellite | Westfield, MA | (413) 642-8199 | https://www.montysmotorsports.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Westfield, MA | (413) 642-8199 | https://www.montysmotorsports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="36.13" lon="-96.01">
     <name>Mother Road Motorsports</name>
-    <desc>full-service | Tulsa, OK | 918-660-2883 | https://www.motherroadmotorsports.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Tulsa, OK | 918-660-2883 | https://www.motherroadmotorsports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="35.4675602" lon="-97.5164276">
@@ -1262,7 +1267,7 @@
   </wpt>
   <wpt lat="34.0213117" lon="-118.4044776">
     <name>MotoClub Los Angeles</name>
-    <desc>full-service | Los Angeles, CA | (310) 882-5684 | https://motoclubla.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Los Angeles, CA | (310) 882-5684 | https://motoclubla.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="54.723515" lon="25.2808531">
@@ -1282,7 +1287,7 @@
   </wpt>
   <wpt lat="31.77709" lon="-106.4489181">
     <name>Moto El Paso</name>
-    <desc>satellite | El Paso, TX | (915) 566-6666 | https://www.motoelpaso.com | verified 2026-07-26</desc>
+    <desc>satellite | El Paso, TX | (915) 566-6666 | https://www.motoelpaso.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="41.459554" lon="-8.354619">
@@ -1377,12 +1382,12 @@
   </wpt>
   <wpt lat="40.40533" lon="-74.12756">
     <name>Motorcycle Mall of Monmouth</name>
-    <desc>full-service | Middletown, NJ | (732) 615-0900 | https://www.motorcyclemallofmonmouth.com | verified 2026-07-26</desc>
+    <desc>full-service | Middletown, NJ | (732) 615-0900 | https://www.motorcyclemallofmonmouth.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="40.7937" lon="-74.1502">
     <name>Motorcycle Mall</name>
-    <desc>full-service | Belleville, NJ | 973-751-4545 | https://www.motorcyclemall.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Belleville, NJ | 973-751-4545 | https://www.motorcyclemall.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="45.5235621" lon="12.0904521">
@@ -1402,7 +1407,7 @@
   </wpt>
   <wpt lat="35.1107" lon="-106.6056">
     <name>Motopia NM</name>
-    <desc>full-service | Albuquerque, NM | 505-839-0505 | https://www.motopianm.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Albuquerque, NM | 505-839-0505 | https://www.motopianm.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="13.725" lon="100.569">
@@ -1497,7 +1502,7 @@
   </wpt>
   <wpt lat="41.1408" lon="-73.2613">
     <name>Motoplex Fairfield</name>
-    <desc>full-service | Fairfield, CT | 203-292-3550 | https://www.motoplexfairfield.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Fairfield, CT | 203-292-3550 | https://www.motoplexfairfield.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="-34.5803" lon="-58.4245">
@@ -1557,7 +1562,7 @@
   </wpt>
   <wpt lat="37.5052" lon="-77.5068">
     <name>Moto Richmond</name>
-    <desc>full-service | Richmond, VA | (804) 230-1000 | https://www.motorichmond.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Richmond, VA | (804) 230-1000 | https://www.motorichmond.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="43.3874974" lon="10.4626512">
@@ -1567,7 +1572,7 @@
   </wpt>
   <wpt lat="33.139952" lon="-117.181437">
     <name>Moto San Diego</name>
-    <desc>full-service | San Marcos, CA | (760) 520-1288 | https://www.motosandiego.com/ | verified 2026-07-26</desc>
+    <desc>full-service | San Marcos, CA | (760) 520-1288 | https://www.motosandiego.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="52.5025" lon="4.9615">
@@ -1597,7 +1602,7 @@
   </wpt>
   <wpt lat="41.8553907" lon="-87.685358">
     <name>Vespa Aprilia Moto Guzzi Chicago</name>
-    <desc>full-service | Chicago, IL | (312) 738-4269 | https://www.motoworkschicago.com | verified 2026-07-26</desc>
+    <desc>full-service | Chicago, IL | (312) 738-4269 | https://www.motoworkschicago.com | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="4.6705" lon="-74.0207">
@@ -1617,7 +1622,7 @@
   </wpt>
   <wpt lat="30.044" lon="-96.0536">
     <name>MPH Cycles</name>
-    <desc>full-service+heritage | Hempstead, TX | 281-647-6557 | https://mphcycles.com/ | verified 2026-07-26</desc>
+    <desc>full-service+heritage | Hempstead, TX | 281-647-6557 | https://mphcycles.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="52.9534" lon="-1.1496">
@@ -1627,12 +1632,12 @@
   </wpt>
   <wpt lat="36.71064" lon="-81.97496">
     <name>Motorsports Unlimited</name>
-    <desc>satellite | Abingdon, VA | (304) 952-7096 | https://www.virginia-motorsports.com/ | verified 2026-07-26</desc>
+    <desc>satellite | Abingdon, VA | (304) 952-7096 | https://www.virginia-motorsports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="38.302" lon="-80.832">
     <name>Motorsports Unlimited - Summersville</name>
-    <desc>satellite | Summersville, WV | 304-872-5151 | https://www.motorsportsunlimitedsummersville.shop/ | verified 2026-07-26</desc>
+    <desc>satellite | Summersville, WV | 304-872-5151 | https://www.motorsportsunlimitedsummersville.shop/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="44.844" lon="11.8473">
@@ -1647,7 +1652,7 @@
   </wpt>
   <wpt lat="41.4248" lon="-75.6083">
     <name>North American Warhorse</name>
-    <desc>full-service | Dunmore, PA | (570) 346-2453 | https://www.nawarhorse.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Dunmore, PA | (570) 346-2453 | https://www.nawarhorse.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="52.8196" lon="-2.0286">
@@ -1662,7 +1667,7 @@
   </wpt>
   <wpt lat="27.9524" lon="-82.3744">
     <name>Next Ride</name>
-    <desc>full-service | Tampa, FL | 813-443-5399 | https://www.nextride.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Tampa, FL | 813-443-5399 | https://www.nextride.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="52.69907" lon="5.146064">
@@ -1692,7 +1697,7 @@
   </wpt>
   <wpt lat="41.0241" lon="-73.77346">
     <name>New York Powersports</name>
-    <desc>full-service | White Plains, NY | (914) 949-1993 | https://newyorkpowersports.com/ | verified 2026-07-26</desc>
+    <desc>full-service | White Plains, NY | (914) 949-1993 | https://newyorkpowersports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="43.5405297" lon="13.2698612">
@@ -1732,7 +1737,7 @@
   </wpt>
   <wpt lat="32.2529" lon="-111.007">
     <name>On Any Moto</name>
-    <desc>full-service | Tucson, AZ | (520) 269-6606 | https://www.onanymoto.com/ | verified 2026-07-26</desc>
+    <desc>full-service | Tucson, AZ | (520) 269-6606 | https://www.onanymoto.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="45.4528" lon="11.0494">

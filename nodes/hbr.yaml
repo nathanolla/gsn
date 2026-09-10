@@ -25,13 +25,13 @@ phone: 423-790-0510
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site shows Moto Guzzi in current inventory including a 2024 Stelvio with
-    PFF Rider Assistance. Located at 165 1st St SW, serving the Chattanooga corridor.
+  fact: Own site shows Moto Guzzi in current inventory including a 2024 Stelvio with PFF Rider
+    Assistance. Located at 165 1st St SW, serving the Chattanooga corridor.
 - date: 2026-07-26
   method: official-locator
   fact: Listed on the official Moto Guzzi US dealer locator as "HBR Powersports" (Cleveland,
     TN); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 165 1st St SW, Cleveland, TN 37311

@@ -22,15 +22,13 @@ phone: 914-769-4722
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site titles itself 'Piaggio, Vespa, Aprilia, Moto Guzzi Dealer' serving
-    Westchester/CT/NYC. Yelp listing updated July 2026 shows it open at 873 Franklin
-    Avenue, Thornwood, NY.
+  fact: Own site titles itself 'Piaggio, Vespa, Aprilia, Moto Guzzi Dealer' serving Westchester/CT/NYC.
+    Yelp listing updated July 2026 shows it open at 873 Franklin Avenue, Thornwood, NY.
 - date: 2026-07-26
   method: official-locator
-  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may
-    be onboarding, a satellite listing, or a dropped franchise — treat franchise status
-    as unconfirmed).
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
-status: unverified
+  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding,
+    a satellite listing, or a dropped franchise — treat franchise status as unconfirmed).
+last_verified: 2026-09-10
+verified_by: claude-mimo
+status: active
 address: 873 Franklin Avenue, Thornwood, NY 10594

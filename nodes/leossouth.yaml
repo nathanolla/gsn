@@ -22,13 +22,17 @@ phone: 855-536-7386
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site calls itself the leading Moto Guzzi dealer in Minnesota. Family-owned
-    since 1977. Carries new (2024 V100 Mandello, V7/V9/V85) and used Guzzi inventory.
+  fact: Own site calls itself the leading Moto Guzzi dealer in Minnesota. Family-owned since
+    1977. Carries new (2024 V100 Mandello, V7/V9/V85) and used Guzzi inventory.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Leo's South, Inc."
-    (Lakeville, MN); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Leo's South, Inc." (Lakeville,
+    MN); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: Site returns HTTP 403 on both attempts (Cloudflare challenge, cf-mitigated header
+    present). Site is alive behind bot-protection but content cannot be programmatically verified.
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 16375 Kenrick Ave, Lakeville, MN 55044

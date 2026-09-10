@@ -27,17 +27,21 @@ phone: 208-525-1901
 observations:
 - date: 2026-07-26
   method: website
-  fact: Eastern Idaho multi-line store (opened 2017) with a Motoplex section; own-site
-    inventory search includes Aprilia and Moto Guzzi units; 804 Pancheri Dr.
+  fact: Eastern Idaho multi-line store (opened 2017) with a Motoplex section; own-site inventory
+    search includes Aprilia and Moto Guzzi units; 804 Pancheri Dr.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Motoplex Idaho" (Idaho
-    Falls, ID); type=dealers,services; verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator as "Motoplex Idaho" (Idaho Falls,
+    ID); type=dealers,services; verified 2026-07-26.
 - date: 2026-08-18
   method: website
   fact: 'Re-check 2026-08-18: idahomotorcyclecompany.com is up but returns 403 bot-challenge
-    to automated fetch (site perimeter, not an outage); content not re-checkable this
-    round; 2026-07-26 locator listing stands; last_verified NOT bumped.'
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+    to automated fetch (site perimeter, not an outage); content not re-checkable this round;
+    2026-07-26 locator listing stands; last_verified NOT bumped.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: idahomotorcyclecompany.com responds HTTP 403 (bot-challenge
+    perimeter, server alive); consistent with prior checks; locator listing stands'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

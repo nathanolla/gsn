@@ -19,7 +19,12 @@ observations:
   method: website
   fact: E-commerce site is live, selling OEM and Mistral Moto Guzzi parts and accessories
     by mail order.
-last_verified: 2026-07-26
-verified_by: claude
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verified live. Content: ''MG Cycle, Moto Guzzi Parts and Accessories available
+    online at MGCycle.com''. Sells Mistral exhaust systems. Address: 601 Ogden Ave. Albany,
+    WI 53502.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 601 Ogden Ave, Albany, WI 53502

@@ -23,14 +23,18 @@ phone: 817-447-4200
 observations:
 - date: 2026-07-26
   method: website
-  fact: Full-line Yamaha store that also franchises Aprilia, Vespa, and Moto Guzzi.
-    The site hosts Moto Guzzi model-list pages indicating the brand can be ordered.
-    Located in the DFW area at 1636 SW Wilshire Blvd, Burleson, TX.
+  fact: Full-line Yamaha store that also franchises Aprilia, Vespa, and Moto Guzzi. The site
+    hosts Moto Guzzi model-list pages indicating the brand can be ordered. Located in the
+    DFW area at 1636 SW Wilshire Blvd, Burleson, TX.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Lone Star Burleson"
-    (Burleson, TX); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Lone Star Burleson" (Burleson,
+    TX); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verified live. Moto Guzzi brand logo present on homepage. Site title: ''Lone Star
+    Yamaha | Located in Irving, TX and Burleson, TX | Motorsports Dealer''.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 1636 SW Wilshire Blvd, Burleson, TX 76028

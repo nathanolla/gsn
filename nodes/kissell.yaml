@@ -15,7 +15,6 @@ brands:
 - beta
 - zero
 - ural
-- kove
 functions:
 - sales
 - service
@@ -29,9 +28,14 @@ observations:
     Content dated March 2026 and July 2026 event notice, copyright 2026.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Adventure Motorsports,
-    LLC" (Tyrone, PA); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Adventure Motorsports, LLC"
+    (Tyrone, PA); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: Re-verified live. Content still reads 'Your Moto Guzzi Dealer' with V7/V9/V85TT/Mandello/Stelvio
+    inventory. Also carries BMW, Beta, Aprilia, Zero, Ural, Intimidator, LandMaster. Hosts
+    PA Moto Guzzi Rally annually.
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 5165 E Pleasant Valley Boulevard, Tyrone, PA 16686

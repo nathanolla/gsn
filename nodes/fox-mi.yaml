@@ -23,13 +23,16 @@ phone: (616) 855-3660
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Wyoming, MI); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Wyoming, MI); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'BirdEye shows 3,333 customer reviews for the Wyoming, MI location. Active
-    Yelp, Yellow Pages, and Google Maps listings with current hours. [source: https://html.duckduckgo.com/html/?q=%22Fox+Powersports%22+Wyoming+MI+Yelp+reviews+rating+hours]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'BirdEye shows 3,333 customer reviews for the Wyoming, MI location. Active Yelp, Yellow
+    Pages, and Google Maps listings with current hours. [source: https://html.duckduckgo.com/html/?q=%22Fox+Powersports%22+Wyoming+MI+Yelp+reviews+rating+hours]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: foxpowersports.com live (HTTP 200); site title "Fox Powersports";
+    no prominent Moto Guzzi branding on homepage but locator listing stands; still operational'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 720 44th Street SW, Wyoming, MI 49509

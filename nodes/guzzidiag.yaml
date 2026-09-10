@@ -17,11 +17,15 @@ phone: ''
 observations:
 - date: 2026-07-26
   method: website
-  fact: Download page was actively maintained (v0.61 Windows / v0.60 Linux+Mac, June
-    2026).
+  fact: Download page was actively maintained (v0.61 Windows / v0.60 Linux+Mac, June 2026).
 - date: 2026-08-22
   method: website
   fact: 'pass-2 check: site unreachable (HTTP 404 on both attempts).'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: download page still returns HTTP 404 on both attempts; root
+    domain von-der-salierburg.de is alive (HTTP 200) but the GuzziDiag download path has been
+    gone since at least 2026-08-22; status remains unverified'
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-mimo
 status: unverified

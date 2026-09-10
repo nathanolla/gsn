@@ -22,14 +22,22 @@ phone: (877) 551-9538
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Houston, TX); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Houston, TX); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Own site shows Moto Guzzi Days and Aprilia Days promotions with financing
-    offers and performance credits on select 2025-2027 models, valid August 1-31,
-    2026. Current inventory includes 2027 Aprilia RS 660 at $11,849. [source: https://www.fullthrottlehouston.com/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Own site shows Moto Guzzi Days and Aprilia Days promotions with financing offers
+    and performance credits on select 2025-2027 models, valid August 1-31, 2026. Current inventory
+    includes 2027 Aprilia RS 660 at $11,849. [source: https://www.fullthrottlehouston.com/]'
+- date: 2026-07-26
+  method: website
+  fact: 'Own site shows Moto Guzzi Days and Aprilia Days promotions with financing offers
+    and performance credits on select 2025-2027 models, valid August 1-31, 2026. Current inventory
+    includes 2027 Aprilia RS 660 at 1,849. [source: https://www.fullthrottlehouston.com/]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: fullthrottlehouston.com live (HTTP 200); confirms Moto Guzzi
+    (12 mentions), Aprilia, Vespa, Piaggio dealer; still operational'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 7090 SW Freeway, Houston, TX 77074

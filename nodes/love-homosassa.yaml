@@ -1,26 +1,44 @@
 id: love-homosassa
-name: "Love Motorsports"
-city: "Homosassa"
+name: Love Motorsports
+city: Homosassa
 state: FL
 country: US
 lat: 28.7813722
 lon: -82.6151001
 layer: franchise
-capability: [satellite]
-brands: [moto-guzzi]
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- bmw
+- harley-davidson
+- honda
+- ktm
+- piaggio
+- polaris
+- suzuki
+- vespa
+- yamaha
 functions:
-  - sales
-  - service
-  - parts
+- sales
+- service
+- parts
 url: https://www.lovemotorsports.com/
-phone: "(352) 621-3678"
+phone: (352) 621-3678
 observations:
-  - date: 2026-07-26
-    method: official-locator
-    fact: "listed on the official Moto Guzzi US dealer locator (Homosassa, FL); verified 2026-07-26"
-  - date: 2026-07-26
-    method: website
-    fact: "Facebook (LoveMotorsportsFL) shows 3,394 likes, 220 talking about this, 1,130 were here; active Yelp biz page  [source: https://www.yelp.com/biz/love-motorsports-homosassa]"
-last_verified: 2026-07-26
-verified_by: claude
+- date: 2026-07-26
+  method: official-locator
+  fact: listed on the official Moto Guzzi US dealer locator (Homosassa, FL); verified 2026-07-26
+- date: 2026-07-26
+  method: website
+  fact: 'Facebook (LoveMotorsportsFL) shows 3,394 likes, 220 talking about this, 1,130 were
+    here; active Yelp biz page  [source: https://www.yelp.com/biz/love-motorsports-homosassa]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verified live. Site title: ''Powersports Dealer in Homosassa, FL | Love Motorsports''.
+    Moto Guzzi confirmed in brand keywords alongside Aprilia, BMW, Honda, KTM, Piaggio, Polaris,
+    Suzuki, Vespa, Yamaha, and others.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

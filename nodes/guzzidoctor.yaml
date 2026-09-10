@@ -22,14 +22,18 @@ phone: 708-715-0360
 observations:
 - date: 2026-07-26
   method: community-endorsement
-  fact: Praised by multiple members on wildguzzi.com — 'pre computer Guzzi expert',
-    'knows what he's doing', 'Amazing workmanship' — when his motor build for a turbo
-    1969 Eldorado was recognized by Moto Guzzi, thread of 2017-08 (https://wildguzzi.com/forum/index.php?topic=91691.0).
+  fact: Praised by multiple members on wildguzzi.com — 'pre computer Guzzi expert', 'knows
+    what he's doing', 'Amazing workmanship' — when his motor build for a turbo 1969 Eldorado
+    was recognized by Moto Guzzi, thread of 2017-08 (https://wildguzzi.com/forum/index.php?topic=91691.0).
 - date: 2026-07-26
   method: website
-  fact: theguzzidoctor.com is live (Chicago Moto Guzzi repair, Joe Walano). 5-star
-    rating across 24 reviews on Birdeye listing.
-last_verified: 2026-07-26
-verified_by: claude-research-sweep
+  fact: theguzzidoctor.com is live (Chicago Moto Guzzi repair, Joe Walano). 5-star rating
+    across 24 reviews on Birdeye listing.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: theguzzidoctor.com live (HTTP 200); heavily Guzzi-focused (106
+    mentions); references Lake Bluff; no closure indicators; still operational'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 13110 Rockland Rd Suite 5, Lake Bluff, IL 60044

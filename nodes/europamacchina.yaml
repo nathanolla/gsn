@@ -18,10 +18,13 @@ phone: (717) 932-6600
 observations:
 - date: 2026-07-26
   method: website
-  fact: europamacchina.com is live. Business directory data as of March 2026 shows
-    the restoration shop operating with approximately 6 employees at 501 Industrial
-    Drive, Lewisberry, PA.
-last_verified: 2026-07-26
-verified_by: claude-research-sweep
+  fact: europamacchina.com is live. Business directory data as of March 2026 shows the restoration
+    shop operating with approximately 6 employees at 501 Industrial Drive, Lewisberry, PA.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: europamacchina.com live (HTTP 200); site still presents as European
+    motorcycle restoration; no closure indicators'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 501 Industrial Drive, Lewisberry, PA 17339

@@ -17,8 +17,12 @@ phone: ''
 observations:
 - date: 2026-07-26
   method: website
-  fact: Version 9 is the current edition (711 pages, independently published December
-    2018). Author's site routes purchases to Amazon.
-last_verified: 2026-07-26
-verified_by: claude
+  fact: Version 9 is the current edition (711 pages, independently published December 2018).
+    Author's site routes purchases to Amazon.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: Amazon listing alive (HTTP 200); book URL still valid and returning
+    full page content'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

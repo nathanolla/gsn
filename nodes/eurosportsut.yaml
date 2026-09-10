@@ -23,14 +23,18 @@ phone: 801-618-2700
 observations:
 - date: 2026-07-26
   method: website
-  fact: Utah's leading European-brand dealer, founded in 2009 as BMW Motorcycles of
-    Utah. Own site lists Moto Guzzi among its five premium lines. Located at 339 W.
-    9000 South, Sandy, UT 84070. Yelp listing updated July 2026.
+  fact: Utah's leading European-brand dealer, founded in 2009 as BMW Motorcycles of Utah.
+    Own site lists Moto Guzzi among its five premium lines. Located at 339 W. 9000 South,
+    Sandy, UT 84070. Yelp listing updated July 2026.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Aprilia & Moto Guzzi
-    Of Utah" (Sandy, UT); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Aprilia & Moto Guzzi Of Utah"
+    (Sandy, UT); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: euroutah.com live (HTTP 200); confirms Moto Guzzi, Aprilia,
+    Ducati, BMW, Triumph dealer; still operational'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 339 W. 9000 South, Sandy, UT 84070

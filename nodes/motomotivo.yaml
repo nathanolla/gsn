@@ -1,23 +1,31 @@
 id: motomotivo
-name: "Moto Motivo (Two Wheel Art)"
-city: "Durham"
+name: Moto Motivo (Two Wheel Art)
+city: Durham
 state: NC
 country: US
 lat: 35.9975
 lon: -78.9019
 layer: independent
-capability: [heritage]
-brands: [ducati]
+capability:
+- heritage
+brands:
+- ducati
 functions:
-  - restorations
-  - custom builds / transformations
-  - workshop service
+- restorations
+- custom builds / transformations
+- workshop service
 url: https://www.motomotivo.com
-phone: ""
+phone: ''
 observations:
-  - date: 2026-07-26
-    method: website
-    fact: "Durham NC per own contact page; restoration/workshop/transformations focus; Ducati work shown in workshop gallery; no Moto Guzzi statement found; contact johann@motomotivo.com"
-last_verified: 2026-07-26
-verified_by: claude
+- date: 2026-07-26
+  method: website
+  fact: Durham NC per own contact page; restoration/workshop/transformations focus; Ducati
+    work shown in workshop gallery; no Moto Guzzi statement found; contact johann@motomotivo.com
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; title ''Ducati Cafe Racer | United States
+    | Moto Motivo''; keywords include BMW, Bimota, Ducati, Honda, Vyrus — no Moto Guzzi. Confirmed
+    active as a Ducati/cafe racer restoration shop at 4911 Southpark Drive, Durham NC.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: unverified

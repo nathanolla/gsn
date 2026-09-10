@@ -19,14 +19,17 @@ phone: 480-783-3243
 observations:
 - date: 2026-07-26
   method: website
-  fact: 'Manic Moto is a family-owned shop in Queen Creek, AZ, authorized for Beta
-    and Moto Guzzi. It services all makes and models and has been in business since
-    2014. Yelp listing updated December 2025 shows address as 22230 S Scotland Ct
-    #101, Queen Creek, AZ.'
+  fact: 'Manic Moto is a family-owned shop in Queen Creek, AZ, authorized for Beta and Moto
+    Guzzi. It services all makes and models and has been in business since 2014. Yelp listing
+    updated December 2025 shows address as 22230 S Scotland Ct #101, Queen Creek, AZ.'
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Manic Moto, LLC" (Queen
-    Creek, AZ); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Manic Moto, LLC" (Queen Creek,
+    AZ); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: Re-verified live. Content reads 'Guzzi Dealer' and 'Guzzi authorized dealer'. Services
+    all makes and models. Financing available for qualified buyers.
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

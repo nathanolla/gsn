@@ -25,13 +25,15 @@ phone: (915) 566-6666
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (El Paso, TX); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (El Paso, TX); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Search results corroborate a 70,000 sq ft dealership at 3750 Gateway Blvd
-    East selling Piaggio, Vespa, Aprilia, and Moto Guzzi (per AllBiz listing). [source:
-    https://html.duckduckgo.com/html/?q=Moto+El+Paso+Vespa+Moto+Guzzi+dealer+El+Paso+Texas]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Search results corroborate a 70,000 sq ft dealership at 3750 Gateway Blvd East selling
+    Piaggio, Vespa, Aprilia, and Moto Guzzi (per AllBiz listing). [source: https://html.duckduckgo.com/html/?q=Moto+El+Paso+Vespa+Moto+Guzzi+dealer+El+Paso+Texas]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; title ''MOTO ELPASO'' with SALES, PARTS,
+    MOTO pages; JS-rendered site confirmed operational as a motorcycle dealership.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

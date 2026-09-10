@@ -27,13 +27,18 @@ phone: (914) 949-1993
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (White Plains, NY); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (White Plains, NY); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Site shows active promotions dated 07/01/2026 through 07/31/2026 across Moto
-    Guzzi, Vespa, Piaggio, and Aprilia, with 2025-2027 model inventory. [source: https://newyorkpowersports.com/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Site shows active promotions dated 07/01/2026 through 07/31/2026 across Moto Guzzi,
+    Vespa, Piaggio, and Aprilia, with 2025-2027 model inventory. [source: https://newyorkpowersports.com/]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; title ''Moto Guzzi Motorcycles for Sale'';
+    Moto Guzzi promo images and First Responders Discount slideshow present; ''Shop Moto Guzzi
+    at New York Powersports in White Plains, NY'' brand section active. Confirmed active and
+    Guzzi-carrying.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 98 West Post Rd., White Plains, NY 10606

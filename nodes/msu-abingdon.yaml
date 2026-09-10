@@ -26,14 +26,19 @@ phone: (304) 952-7096
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Abingdon, VA); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Abingdon, VA); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'URL virginia-motorsports.com serves the Wytheville, VA location (145 Fairview
-    Rd, Wytheville, VA 24382). The Abingdon location may use a separate site; active
-    inventory was previously found at motorsportsunlimitedabingdon.shop and the CFMoto
-    dealer subdomain virginiamotorsports.dz.cfmotousa.com. [source: https://html.duckduckgo.com/html/?q=Motorsports+Unlimited+Abingdon+Virginia+motorcycle+dealer]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'URL virginia-motorsports.com serves the Wytheville, VA location (145 Fairview Rd,
+    Wytheville, VA 24382). The Abingdon location may use a separate site; active inventory
+    was previously found at motorsportsunlimitedabingdon.shop and the CFMoto dealer subdomain
+    virginiamotorsports.dz.cfmotousa.com. [source: https://html.duckduckgo.com/html/?q=Motorsports+Unlimited+Abingdon+Virginia+motorcycle+dealer]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: virginia-motorsports.com redirects to motorsportsunlimitedwytheville.shop
+    (Wytheville location). Abingdon location confirmed at motorsportsunlimitedabingdon.shop
+    (HTTP 200); title ''Motorsports Unlimited - New & Pre-Owned Powersports...in Abingdon,
+    VA''; keywords include moto guzzi, vespa, aprilia, cfmoto, kayo. Both sites operational.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

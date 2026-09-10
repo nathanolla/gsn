@@ -17,13 +17,17 @@ phone: (336) 596-1111
 observations:
 - date: 2026-07-26
   method: website
-  fact: 2442 Maple Ave, Burlington, NC 27215. 4.7 stars across 154 public reviews.
-    Owner Johnny. Vintage and modern repair per directories. Recommended by name for
-    Guzzi work in a Moto Guzzi USA community thread (2025-04, owner-supplied).
+  fact: 2442 Maple Ave, Burlington, NC 27215. 4.7 stars across 154 public reviews. Owner Johnny.
+    Vintage and modern repair per directories. Recommended by name for Guzzi work in a Moto
+    Guzzi USA community thread (2025-04, owner-supplied).
 - date: 2026-08-22
   method: website
-  fact: 'pass-2 check: Facebook page unreachable (HTTP 400 on automated fetch; Facebook
-    blocks non-browser access)'
+  fact: 'pass-2 check: Facebook page unreachable (HTTP 400 on automated fetch; Facebook blocks
+    non-browser access)'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: Facebook page returns error page (''Sorry, something went wrong'');
+    not accessible via automated fetch. Status unchanged.'
 last_verified: 2026-07-26
-verified_by: claude-research-sweep
+verified_by: claude-mimo
 status: unverified

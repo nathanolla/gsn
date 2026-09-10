@@ -23,14 +23,18 @@ phone: 215-712-7433
 observations:
 - date: 2026-07-26
   method: website
-  fact: The site lists approximately 15 Moto Guzzi units including new 2026 V85 TT
-    Travel and 2026 V7 Stone. A Moto Guzzi Days financing promotion was running through
-    July 31, 2026.
+  fact: The site lists approximately 15 Moto Guzzi units including new 2026 V85 TT Travel
+    and 2026 V7 Stone. A Moto Guzzi Days financing promotion was running through July 31,
+    2026.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Montgomeryville Cycle
-    Center" (Hatfield, PA); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Montgomeryville Cycle Center"
+    (Hatfield, PA); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: Re-verified live. Moto Guzzi brand logo and inventory link present on homepage. Hatfield,
+    PA location confirmed.
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 2901 Bethlehem Pike, Hatfield, PA 19440

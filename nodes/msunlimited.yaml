@@ -26,13 +26,19 @@ phone: 304-872-5151
 observations:
 - date: 2026-07-26
   method: website
-  fact: VA/WV dealer group; Summersville location's own site shows 2025 and 2026 Moto
-    Guzzi units in stock.
+  fact: VA/WV dealer group; Summersville location's own site shows 2025 and 2026 Moto Guzzi
+    units in stock.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Motors Unlimited"
-    (Summersville, WV); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Motors Unlimited" (Summersville,
+    WV); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; title ''Motorsports Unlimited - Summersville
+    | Motorsports Dealer in Princeton, WV''; current keywords list cfmoto, arctic cat, suzuki,
+    kayo, ssr motorsports, segway — no Moto Guzzi, Aprilia, Vespa, or Piaggio in current keywords
+    or homepage text. Brand lineup may have changed; recommend re-checking official locator.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 806 Northside Dr, Summersville, WV 26651

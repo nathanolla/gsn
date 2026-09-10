@@ -15,7 +15,6 @@ brands:
 - triumph
 - ktm
 - husqvarna
-- royal-enfield
 functions:
 - sales
 - service
@@ -25,14 +24,19 @@ phone: 630-782-2010
 observations:
 - date: 2026-07-26
   method: website
-  fact: Over 40 years in business at 443 E. Saint Charles Rd, Villa Park, IL. Authorized
-    dealer for Moto Guzzi, Ducati, Triumph, KTM, Aprilia, Husqvarna, and Royal Enfield,
-    with new and used Guzzi stock. Yelp listing updated April 2026.
+  fact: Over 40 years in business at 443 E. Saint Charles Rd, Villa Park, IL. Authorized dealer
+    for Moto Guzzi, Ducati, Triumph, KTM, Aprilia, Husqvarna, and Royal Enfield, with new
+    and used Guzzi stock. Yelp listing updated April 2026.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "MCC Motor Cycle Center"
-    (Villa Park, IL); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "MCC Motor Cycle Center" (Villa
+    Park, IL); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verified live. Content confirms Moto Guzzi among brands (Ducati, Triumph, Aprilia,
+    Moto Guzzi, KTM, Husqvarna). Dedicated Moto Guzzi new inventory section. Address: 443
+    E. Saint Charles Rd, Villa Park, IL 60181.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 443 E. Saint Charles Rd, Villa Park, IL 60181

@@ -15,6 +15,16 @@ brands:
 - piaggio
 - royal-enfield
 - cfmoto
+- bmw
+- ducati
+- harley-davidson
+- honda
+- kawasaki
+- suzuki
+- triumph
+- yamaha
+- polaris
+- can-am
 functions:
 - sales
 - service
@@ -24,14 +34,18 @@ phone: (239) 415-3271
 observations:
 - date: 2026-07-26
   method: website
-  fact: The site maintains dedicated in-stock Moto Guzzi inventory and factory-showroom
-    model pages (V7, Stelvio). Part of the Lucky U Cycles group, which also has a
-    Wildwood, FL location.
+  fact: The site maintains dedicated in-stock Moto Guzzi inventory and factory-showroom model
+    pages (V7, Stelvio). Part of the Lucky U Cycles group, which also has a Wildwood, FL location.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Lucky U Cycles of
-    Ft Myers" (Fort Myers, FL); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Lucky U Cycles of Ft Myers"
+    (Fort Myers, FL); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verified live. Moto Guzzi confirmed in manufacturer filter list with dedicated
+    inventory pages. Site title: ''Lucky U Cycles Fort Myers | Powersports Dealer in Fort
+    Myers FL''. Large multi-brand dealership.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 4607 Fowler Street, Fort Myers, FL 33907

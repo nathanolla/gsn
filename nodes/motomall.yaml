@@ -24,14 +24,21 @@ phone: 973-751-4545
 observations:
 - date: 2026-07-26
   method: website
-  fact: The site (search-indexed; direct fetch was bot-blocked on a prior check) lists
-    new 2025 Moto Guzzi V85 TT and V85 TT Travel, and ran Moto Guzzi APR promotions
-    dated February 2026. Located at 655 Washington Ave, Belleville, NJ.
+  fact: The site (search-indexed; direct fetch was bot-blocked on a prior check) lists new
+    2025 Moto Guzzi V85 TT and V85 TT Travel, and ran Moto Guzzi APR promotions dated February
+    2026. Located at 655 Washington Ave, Belleville, NJ.
 - date: 2026-07-26
   method: official-locator
   fact: Listed on the official Moto Guzzi US dealer locator as "Motorcycle Mall" (Belleville,
     NJ); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; homepage featured brands have shifted
+    to Polaris Off Road, Polaris Slingshot, Indian Motorcycle, Can-Am, Sea-Doo, Yamaha. No
+    Moto Guzzi, Aprilia, Vespa, or Piaggio in featured brand roster. /shop-moto-guzzi URL
+    still returns HTTP 200. Brand lineup appears to have changed significantly since July
+    2026.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 655 Washington Ave., Belleville, NJ 07109

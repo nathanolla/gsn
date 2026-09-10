@@ -15,6 +15,8 @@ brands:
 - piaggio
 - polaris
 - cfmoto
+- harley-davidson
+- yamaha
 functions:
 - sales
 - service
@@ -24,13 +26,18 @@ phone: 407-787-9595
 observations:
 - date: 2026-07-26
   method: website
-  fact: The site carries a Moto Guzzi brand showroom with new inventory including
-    a 2024 Stelvio. Orlando-area store at 11953 W Colonial Dr, Ocoee, FL.
+  fact: The site carries a Moto Guzzi brand showroom with new inventory including a 2024 Stelvio.
+    Orlando-area store at 11953 W Colonial Dr, Ocoee, FL.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Love Motorsports of
-    Ocoee" (Ocoee, FL); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Love Motorsports of Ocoee"
+    (Ocoee, FL); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verified live. Site title: ''Powersports Dealership in Ocoee, FL | Love Motorsports
+    of Ocoee''. Moto Guzzi confirmed in brand keywords alongside Aprilia, CFMOTO, Harley-Davidson,
+    Polaris, Yamaha, and others.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 11953 W Colonial Dr, Ocoee, FL 34761

@@ -22,27 +22,31 @@ phone: 301-432-2275
 observations:
 - date: 2026-07-26
   method: community-endorsement
-  fact: Recommended for Guzzi work by multiple members on wildguzzi.com as loop-frame
-    Guzzi expert "Charlie" worth "a short trailer ride", thread of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0)
+  fact: Recommended for Guzzi work by multiple members on wildguzzi.com as loop-frame Guzzi
+    expert "Charlie" worth "a short trailer ride", thread of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0)
 - date: 2026-07-26
   method: website
   fact: Directory listings current (Yelp updated May 2026) at 3333 Gapland Rd, Rohrersville
-    MD; described as dedicated to vintage European motorcycles with Moto Guzzi as
-    primary focus
+    MD; described as dedicated to vintage European motorcycles with Moto Guzzi as primary
+    focus
 - date: 2026-07-26
   method: website
-  fact: 'Documented Moto Guzzi engine building including a 949cc big-bore build with
-    5-speed and head/valve work (Charlie Mullendore) — performance-grade engine capability
-    [source: https://www.antietamclassiccycle.com]'
+  fact: 'Documented Moto Guzzi engine building including a 949cc big-bore build with 5-speed
+    and head/valve work (Charlie Mullendore) — performance-grade engine capability [source:
+    https://www.antietamclassiccycle.com]'
 - date: 2026-08-18
   method: website
   fact: 'Re-check 2026-08-18: own-site domain antietamclassiccycle.com fails DNS resolution
-    (SERVFAIL, no NS records at 1.1.1.1 and 8.8.8.8); third-party directories (Yelp)
-    last updated Dec 2024; no 2025-26 signals found — flagged dubious, needs a phone
-    check; last_verified NOT bumped'
+    (SERVFAIL, no NS records at 1.1.1.1 and 8.8.8.8); third-party directories (Yelp) last
+    updated Dec 2024; no 2025-26 signals found — flagged dubious, needs a phone check; last_verified
+    NOT bumped'
 - date: 2026-08-22
   method: website
   fact: 'Pass-2 check: site unreachable (DNS SERVFAIL — domain has no NS records)'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: site unreachable after 2 attempts (connection reset by peer
+    on both); domain remains down since at least 2026-08-18; status set to unverified'
 last_verified: 2026-07-26
-verified_by: claude
-status: active
+verified_by: claude-mimo
+status: unverified

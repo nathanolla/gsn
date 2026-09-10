@@ -26,16 +26,27 @@ phone: 813-443-5399
 observations:
 - date: 2026-07-26
   method: website
-  fact: Authorized dealer for Aprilia, BMW, Ducati, MV Agusta, Moto Guzzi, Piaggio,
-    and Vespa per own site. Current promotions include Moto Guzzi Days (up to $1,500
-    off or 4.99% APR for 48 months) and Aprilia Days (3.99% APR for 60 months). Tampa
-    location at 7202 E. Adamo Drive; second location at 3375 E. Bay Drive, Tampa,
-    FL 33771.
+  fact: Authorized dealer for Aprilia, BMW, Ducati, MV Agusta, Moto Guzzi, Piaggio, and Vespa
+    per own site. Current promotions include Moto Guzzi Days (up to $1,500 off or 4.99% APR
+    for 48 months) and Aprilia Days (3.99% APR for 60 months). Tampa location at 7202 E. Adamo
+    Drive; second location at 3375 E. Bay Drive, Tampa, FL 33771.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Next Ride, LLC" (Largo,
-    FL); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Next Ride, LLC" (Largo, FL);
+    type=dealers,services; verified 2026-07-26.
+- date: 2026-07-26
+  method: website
+  fact: Authorized dealer for Aprilia, BMW, Ducati, MV Agusta, Moto Guzzi, Piaggio, and Vespa
+    per own site. Current promotions include Moto Guzzi Days (up to ,500 off or 4.99% APR
+    for 48 months) and Aprilia Days (3.99% APR for 60 months). Tampa location at 7202 E. Adamo
+    Drive; second location at 3375 E. Bay Drive, Tampa, FL 33771.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200; ''Moto Guzzi in Tampa, FL'' nav link,
+    ''Moto Guzzi Days'' promotion slideshow (up to $1,500 off or 4.99% APR for 48 months),
+    15% off factory services for Aprilia/Moto Guzzi/MV Agusta, and ''Moto Guzzi Inventory''
+    brand link present. Confirmed active and Guzzi-carrying.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 7202 E. Adamo Drive, Tampa, FL 33619

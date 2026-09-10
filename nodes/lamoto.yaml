@@ -22,23 +22,25 @@ phone: 833-686-7532
 observations:
 - date: 2026-07-26
   method: community-endorsement
-  fact: Cited by forum members on wildguzzi.com for northern Virginia Guzzi service
-    — one reported no issues with their service work, another called them 'nice folks'
-    with 'cool Guzzis', thread of 2017-09 (https://wildguzzi.com/forum/index.php?topic=92351.0).
+  fact: Cited by forum members on wildguzzi.com for northern Virginia Guzzi service — one
+    reported no issues with their service work, another called them 'nice folks' with 'cool
+    Guzzis', thread of 2017-09 (https://wildguzzi.com/forum/index.php?topic=92351.0).
 - date: 2026-07-26
   method: website
-  fact: lamotowashington.com was live with current Moto Guzzi inventory including
-    Stelvio. Listed on motoguzzi.com official dealer locator. Previously observed
-    at 3298 A Wilson Blvd, Arlington, VA.
+  fact: lamotowashington.com was live with current Moto Guzzi inventory including Stelvio.
+    Listed on motoguzzi.com official dealer locator. Previously observed at 3298 A Wilson
+    Blvd, Arlington, VA.
 - date: 2026-07-26
   method: official-locator
-  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may
-    be onboarding, a satellite listing, or a dropped franchise — treat franchise status
-    as unconfirmed).
+  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding,
+    a satellite listing, or a dropped franchise — treat franchise status as unconfirmed).
 - date: 2026-08-22
   method: website
-  fact: 'pass-2 check: site returns HTTP 403 (bot-protection), address could not be
-    re-verified.'
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: 'pass-2 check: site returns HTTP 403 (bot-protection), address could not be re-verified.'
+- date: 2026-09-10
+  method: website
+  fact: Site returns HTTP 403 on both attempts (Cloudflare challenge, cf-mitigated header
+    present). Site is alive behind bot-protection but content cannot be programmatically verified.
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

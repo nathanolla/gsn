@@ -22,14 +22,19 @@ phone: (760) 520-1288
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (San Marcos, CA); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (San Marcos, CA); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Formerly BMW Motorcycles of Escondido, now operating as Moto San Diego in
-    San Marcos. Site shows copyright 2026, warranty info dated March 2026, and current
-    2026 model inventory. [source: https://www.motosandiego.com/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Formerly BMW Motorcycles of Escondido, now operating as Moto San Diego in San Marcos.
+    Site shows copyright 2026, warranty info dated March 2026, and current 2026 model inventory.
+    [source: https://www.motosandiego.com/]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification pass: site returns HTTP 200 (403 on default curl, responds to browser
+    UA); meta description confirms ''BMW, Aprilia, and Moto Guzzi bikes, parts, and service'';
+    ''Moto Guzzi Promotions'' nav link and ''MOTO GUZZI'' brand lineup present. Confirmed
+    active and Guzzi-carrying.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 1040 Los Vallecitos Blvd Suite 102, San Marcos, CA 92069

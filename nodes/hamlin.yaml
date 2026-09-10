@@ -20,15 +20,19 @@ phone: (203) 942-2232
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Bethel, CT); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Bethel, CT); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Yelp listing active as of July 2026, 16 reviews, ''Authorized Moto Guzzi
-    dealership''. [source: https://www.yelp.com/biz/hamlin-cycles-bethel]'
+  fact: 'Yelp listing active as of July 2026, 16 reviews, ''Authorized Moto Guzzi dealership''.
+    [source: https://www.yelp.com/biz/hamlin-cycles-bethel]'
 - date: 2026-08-22
   method: website
   fact: 'pass-2 check: site unreachable (transport error on both attempts).'
-last_verified: 2026-07-26
-verified_by: claude
-status: unverified
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check 2026-09-10: hamlincycles.com alive (HTTP 200 via redirect, SSL self-signed
+    cert); confirms Moto Guzzi (11 mentions), Triumph, Bethel; no closure indicators; restored
+    from unverified to active'
+last_verified: 2026-09-10
+verified_by: claude-mimo
+status: active
