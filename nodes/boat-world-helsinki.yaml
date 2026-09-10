@@ -1,0 +1,39 @@
+id: boat-world-helsinki
+name: Boat World
+city: Helsinki
+state: ''
+country: FI
+lat: 60.14991
+lon: 24.88848
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: null
+phone: null
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/FI/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Boat World'', Helsinki, active:true, type=dealers,services.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'SPG Nordic (Nordic Piaggio-group distributor) dealer map — Google My Maps KML hard-coded
+    in motoguzzinordic.com/fi/dealers JS (https://www.google.com/maps/d/kml?mid=16WuIcU55clW7w7xr7CVsxD3F37Y&forcekml=1,
+    fetched 2026-09-10): listed with tag ''Sale and service''.'
+- date: '2026-09-10'
+  method: website
+  fact: Present on the official jhgateway locator but NOT on the SPG Nordic Google-My-Maps
+    dealer map — the two official sources disagree; kept on the stronger (live API) with the
+    discrepancy recorded.
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: active
+address: Helsinki

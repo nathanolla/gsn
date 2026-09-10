@@ -1,0 +1,42 @@
+id: bike-world-vantaa
+name: Bike World Oy
+city: Vantaa
+state: ''
+country: FI
+lat: 60.29596
+lon: 24.88993
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: null
+phone: +358-20-7757-300
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/FI/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Bike World Oy'', Vantaa, active:true, type=dealers,services.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'SPG Nordic (Nordic Piaggio-group distributor) dealer map — Google My Maps KML hard-coded
+    in motoguzzinordic.com/fi/dealers JS (https://www.google.com/maps/d/kml?mid=16WuIcU55clW7w7xr7CVsxD3F37Y&forcekml=1,
+    fetched 2026-09-10): listed with tag ''Sale and service''.'
+- date: '2026-09-10'
+  method: website
+  fact: bikeworld.fi today has zero Moto Guzzi mentions (site search '?s=guzzi' 0 hits; /moottoripyorat/moto-guzzi
+    404) — graded satellite on locator evidence only; own-site Guzzi evidence absent or stale.
+- date: '2026-09-10'
+  method: community-endorsement
+  fact: 'guzziclub.fi forum (https://foorumi.guzziclub.fi/index.php?topic=8215.0, 2021-08-04):
+    Bike World Vantaa quoted an 8-week service queue and redirected Guzzi owners to Star-Service.'
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: active
+address: Tuupakantie 7, 01740 Vantaa

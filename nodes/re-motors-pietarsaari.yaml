@@ -1,0 +1,43 @@
+id: re-motors-pietarsaari
+name: RE Motors Oy Ab
+city: Pietarsaari
+state: ''
+country: FI
+lat: 63.64872
+lon: 22.73278
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: null
+phone: +358-6-781-19-02
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/FI/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''RE Motors Oy Ab'', Pietarsaari, active:true, type=dealers,services.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'SPG Nordic (Nordic Piaggio-group distributor) dealer map — Google My Maps KML hard-coded
+    in motoguzzinordic.com/fi/dealers JS (https://www.google.com/maps/d/kml?mid=16WuIcU55clW7w7xr7CVsxD3F37Y&forcekml=1,
+    fetched 2026-09-10): listed with tag ''Sale and service''.'
+- date: '2026-09-10'
+  method: website
+  fact: remotors.fi lists Vespa/Piaggio/Aprilia and a 'PIAGGIO OEM Varaosat' parts browser
+    but no Moto Guzzi brand page; the old Guzzi category URL redirects away.
+- date: '2026-09-10'
+  method: community-endorsement
+  fact: 'guzziclub.fi forum (https://foorumi.guzziclub.fi/index.php?topic=8215.0, 2021-08-05):
+    ''yksi sellainen ja tuttu firma on RE Motors Pietarsaaressa'' — named as official Guzzi
+    service.'
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: active
+address: Pännäistentie 141, 68600 Pietarsaari

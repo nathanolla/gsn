@@ -1,0 +1,27 @@
+id: norsk-moto-guzzi-klubb
+name: Norsk Moto Guzzi Klubb
+city: ''
+state: ''
+country: 'NO'
+lat: null
+lon: null
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- national owners club
+- rallies
+- magazine
+url: https://motoguzzi.no
+observations:
+- date: '2026-09-10'
+  method: website
+  fact: 'motoguzzi.no (fetched via kimi lane 2026-09-10): ~800 members, club magazine ''Bicilindrica'',
+    2026 spring/autumn rallies (Rindal/Sirdal). NOTE (claude cross-check 2026-09-10): Norway
+    has ZERO dealers on the official jhgateway locator API — this club is Norway''s only GSN
+    node.'
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: active

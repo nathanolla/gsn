@@ -1,0 +1,26 @@
+id: mp-varaosat-viljakkala
+name: MP Varaosat (Riekkoniemi Oy)
+city: Viljakkala
+state: ''
+country: FI
+lat: 61.7492
+lon: 23.2401
+layer: independent
+capability:
+- depot
+brands:
+- moto-guzzi
+functions:
+- mail-order parts
+url: https://mpvaraosat.fi/moto-guzzi-varaosat/
+phone: +358-44-777-0506
+observations:
+- date: '2026-09-10'
+  method: website
+  fact: 'mpvaraosat.fi/moto-guzzi-varaosat/: ''Kaikkien Moto Guzzi moottoripyörien varaosat
+    suoraan netistä… varaosia löytyy melkein jokaiseen malliin'' — Finland-based Guzzi parts
+    webshop. Website-only evidence.'
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: unverified
+address: Ylöjärventie 356, 39310 Viljakkala

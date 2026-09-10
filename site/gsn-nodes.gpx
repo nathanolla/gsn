@@ -175,6 +175,21 @@
     <desc>satellite | Delhi,  | +91-8588999009 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="60.49618" lon="22.25149">
+    <name>Bike &amp; Boat World</name>
+    <desc>satellite | Tampere,  | +358-20-7757-360 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="60.49618" lon="22.25149">
+    <name>Bike &amp; Boat World</name>
+    <desc>satellite | Kaarina,  | +358-20-7757-340 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="60.29596" lon="24.88993">
+    <name>Bike World Oy</name>
+    <desc>satellite | Vantaa,  | +358-20-7757-300 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="39.8436087785" lon="-76.6199483577">
     <name>Billet Motorsports</name>
     <desc>full-service | Red Lion, PA | (717) 501-0028 | https://www.billetmotorsportsinc.com/ | verified 2026-08-18</desc>
@@ -198,6 +213,11 @@
   <wpt lat="29.35" lon="47.9333">
     <name>BNK Motion</name>
     <desc>satellite | Shuwaikh,  | https://bnkmotion.com/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="60.14991" lon="24.88848">
+    <name>Boat World</name>
+    <desc>satellite | Helsinki,  | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="41.92208614" lon="12.37441951">
@@ -1880,6 +1900,11 @@
     <desc>satellite | Melbourne, FL | (321) 587-4697 | https://www.primemotorcyclesmelbourne.com/ | verified 2026-07-26</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="60.4233" lon="22.5197">
+    <name>ProItalia</name>
+    <desc>full-service+heritage | Piikkiö,  | +358-44-308-3451 | https://proitalia.fi | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="34.199" lon="-118.2291">
     <name>Pro Italia</name>
     <desc>full-service | Glendale, CA | (818) 249-5707 | https://www.proitalia.com/ | verified 2026-07-26</desc>
@@ -1898,6 +1923,11 @@
   <wpt lat="39.9433" lon="-86.2523">
     <name>Rahal Piaggio Indianapolis</name>
     <desc>full-service | Zionsville, IN | 317-939-2145 | https://www.rahalpiaggio.com/ | verified 2026-07-26</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="63.64872" lon="22.73278">
+    <name>RE Motors Oy Ab</name>
+    <desc>satellite | Pietarsaari,  | +358-6-781-19-02 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="43.0896" lon="-88.0703">
@@ -2153,6 +2183,11 @@
   <wpt lat="45.534" lon="9.5973">
     <name>Vailati</name>
     <desc>full-service | Treviglio,  | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="60.8794" lon="21.6976">
+    <name>Valkon Verstas</name>
+    <desc>satellite | Laitila,  | +358-400-701-114 | https://valkonverstas.fi | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="45.5464038" lon="11.2770995">

@@ -1,0 +1,42 @@
+id: proitalia-piikkio
+name: ProItalia
+city: Piikkiö
+state: ''
+country: FI
+lat: 60.4233
+lon: 22.5197
+layer: independent
+capability:
+- full-service
+- heritage
+brands:
+- moto-guzzi
+- ducati
+- laverda
+functions:
+- service
+- repairs
+- vintage service
+url: https://proitalia.fi
+phone: +358-44-308-3451
+observations:
+- date: '2026-09-10'
+  method: website
+  fact: 'proitalia.fi: ''Olen erikoistunut Moto Guzzi Moottoripyörien huoltoihin ja korjauksiin
+    jo yli 30 vuoden kokemuksella… Huollan myös Ducatit, laverdat ja muut italialaismerkit''
+    — 30+ years Guzzi-specialized (Marko Nurmi).'
+- date: '2026-09-10'
+  method: website
+  fact: 'proitalia.fi/411192487/411240569: ran the importer Moto Italia Import''s workshop
+    operation from 1994; documents the FI importer chain (RM Heino 2014 -> Brandt 2018 ->
+    SPG Nordic 2021).'
+- date: '2026-09-10'
+  method: community-endorsement
+  fact: 'guzziclub.fi forum (https://foorumi.guzziclub.fi/index.php?topic=8215.0, edited 2022-01-26):
+    ''Proitalia on jatkossa Guzzin valtuutettu huoltopiste'' — authorized service point under
+    SPG Nordic; earlier thread 5107 (2014-09): ''Makella on paras tietotaito Guzzeista tässä
+    maassa''.'
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: active
+address: Tammisillantie 224, 21500 Piikkiö

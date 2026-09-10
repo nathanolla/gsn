@@ -1,0 +1,38 @@
+id: bike-boat-world-tampere
+name: Bike & Boat World
+city: Tampere
+state: ''
+country: FI
+lat: 60.49618
+lon: 22.25149
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+- service
+url: null
+phone: +358-20-7757-360
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/FI/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Bike & Boat World'', Turku, active:true, type=dealers,services.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'SPG Nordic (Nordic Piaggio-group distributor) dealer map — Google My Maps KML hard-coded
+    in motoguzzinordic.com/fi/dealers JS (https://www.google.com/maps/d/kml?mid=16WuIcU55clW7w7xr7CVsxD3F37Y&forcekml=1,
+    fetched 2026-09-10): listed with tag ''Sale and service''.'
+- date: '2026-09-10'
+  method: website
+  fact: bikeworld.fi today has zero Moto Guzzi mentions (site search '?s=guzzi' 0 hits; /moottoripyorat/moto-guzzi
+    404) — graded satellite on locator evidence only; own-site Guzzi evidence absent or stale.
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: active
+address: Keskuojankatu 14, Tampere

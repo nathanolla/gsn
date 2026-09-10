@@ -1843,6 +1843,173 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     22.25149,
+     60.49618
+    ]
+   },
+   "properties": {
+    "id": "bike-boat-world-tampere",
+    "name": "Bike & Boat World",
+    "city": "Tampere",
+    "state": "",
+    "country": "FI",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+358-20-7757-360",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/FI/motoguzzi/stores, fetched 2026-09-10 by claude): 'Bike & Boat World', Turku, active:true, type=dealers,services."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "SPG Nordic (Nordic Piaggio-group distributor) dealer map — Google My Maps KML hard-coded in motoguzzinordic.com/fi/dealers JS (https://www.google.com/maps/d/kml?mid=16WuIcU55clW7w7xr7CVsxD3F37Y&forcekml=1, fetched 2026-09-10): listed with tag 'Sale and service'."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "bikeworld.fi today has zero Moto Guzzi mentions (site search '?s=guzzi' 0 hits; /moottoripyorat/moto-guzzi 404) — graded satellite on locator evidence only; own-site Guzzi evidence absent or stale."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.25149,
+     60.49618
+    ]
+   },
+   "properties": {
+    "id": "bike-boat-world-turku",
+    "name": "Bike & Boat World",
+    "city": "Kaarina",
+    "state": "",
+    "country": "FI",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+358-20-7757-340",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/FI/motoguzzi/stores, fetched 2026-09-10 by claude): 'Bike & Boat World', Turku, active:true, type=dealers,services."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "SPG Nordic dealer map (https://www.google.com/maps/d/kml?mid=16WuIcU55clW7w7xr7CVsxD3F37Y&forcekml=1, fetched 2026-09-10): 'Sale and service'; store page places it at Autoilijankatu 31, Kaarina (Turku region)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "bikeworld.fi today has zero Moto Guzzi mentions (site search '?s=guzzi' 0 hits; /moottoripyorat/moto-guzzi 404) — graded satellite on locator evidence only; own-site Guzzi evidence absent or stale."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.88993,
+     60.29596
+    ]
+   },
+   "properties": {
+    "id": "bike-world-vantaa",
+    "name": "Bike World Oy",
+    "city": "Vantaa",
+    "state": "",
+    "country": "FI",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+358-20-7757-300",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/FI/motoguzzi/stores, fetched 2026-09-10 by claude): 'Bike World Oy', Vantaa, active:true, type=dealers,services."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "SPG Nordic (Nordic Piaggio-group distributor) dealer map — Google My Maps KML hard-coded in motoguzzinordic.com/fi/dealers JS (https://www.google.com/maps/d/kml?mid=16WuIcU55clW7w7xr7CVsxD3F37Y&forcekml=1, fetched 2026-09-10): listed with tag 'Sale and service'."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "bikeworld.fi today has zero Moto Guzzi mentions (site search '?s=guzzi' 0 hits; /moottoripyorat/moto-guzzi 404) — graded satellite on locator evidence only; own-site Guzzi evidence absent or stale."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "guzziclub.fi forum (https://foorumi.guzziclub.fi/index.php?topic=8215.0, 2021-08-04): Bike World Vantaa quoted an 8-week service queue and redirected Guzzi owners to Star-Service."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -76.6199483577,
      39.8436087785
     ]
@@ -2153,6 +2320,60 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "Facebook post by Kuwait Times (2022-10-27) at facebook.com/kuwaittimesdaily/posts/10160478585047065/ confirms BNK as \"the official dealership of Piaggio Group Motor Works in Kuwait.\" Sharq E Trade interview names Achraf Tamin as General Manager.\n"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.88848,
+     60.14991
+    ]
+   },
+   "properties": {
+    "id": "boat-world-helsinki",
+    "name": "Boat World",
+    "city": "Helsinki",
+    "state": "",
+    "country": "FI",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/FI/motoguzzi/stores, fetched 2026-09-10 by claude): 'Boat World', Helsinki, active:true, type=dealers,services."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "SPG Nordic (Nordic Piaggio-group distributor) dealer map — Google My Maps KML hard-coded in motoguzzinordic.com/fi/dealers JS (https://www.google.com/maps/d/kml?mid=16WuIcU55clW7w7xr7CVsxD3F37Y&forcekml=1, fetched 2026-09-10): listed with tag 'Sale and service'."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Present on the official jhgateway locator but NOT on the SPG Nordic Google-My-Maps dealer map — the two official sources disagree; kept on the stronger (live API) with the discrepancy recorded."
      }
     ]
    }
@@ -7650,6 +7871,47 @@
   },
   {
    "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "gruppo-moto-guzzi-finlandia",
+    "name": "Gruppo Moto Guzzi Finlandia ry (GMGF)",
+    "city": "",
+    "state": "",
+    "country": "FI",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "national owners club",
+     "rallies",
+     "forum"
+    ],
+    "url": "https://www.guzziclub.fi",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "guzziclub.fi 'Gruppo in English': Finnish Moto Guzzi Owners Club since 1982, registered association since 2006, 500+ members in 2025, bulletin 'Il Falcone'; Guzziralli 7-9.8.2026 Sieravuori; membership 15 EUR join + 25 EUR/yr."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "foorumi.guzziclub.fi active this week (posts dated 2026-09-07 and today at fetch time); 38k+ posts in the general board; Nordic travel board."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "geometry": {
     "type": "Point",
     "coordinates": [
@@ -12396,6 +12658,48 @@
   },
   {
    "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "moto-guzzi-club-sweden",
+    "name": "Moto Guzzi Club of Sweden (MGCoS)",
+    "city": "",
+    "state": "",
+    "country": "SE",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "national owners club",
+     "rallies",
+     "forum",
+     "13 districts"
+    ],
+    "url": "https://guzziclub.nu",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "wp.guzziclub.nu/about/: founded 1970, ~500 members from Lappland to Skåne in 13 districts, magazine 'Giornale', two official rallies/year; homepage (c) 2026 lists Vårträff 29-31 May 2026 Gunnerud and 2026 annual meeting."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "guzziclubforum.nu: 24,073 posts / 962 members; threads dated 2026-08-24 (Hösträff), 2026-08-31 (2027 Moto Guzzi Friends Meeting), 2026-09-02 — active this week. NOTE (claude cross-check 2026-09-10): Sweden has ZERO dealers on the official jhgateway locator API — the national club is Sweden's Guzzi support backbone."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "geometry": {
     "type": "Point",
     "coordinates": [
@@ -16983,6 +17287,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     23.2401,
+     61.7492
+    ]
+   },
+   "properties": {
+    "id": "mp-varaosat-viljakkala",
+    "name": "MP Varaosat (Riekkoniemi Oy)",
+    "city": "Viljakkala",
+    "state": "",
+    "country": "FI",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "mail-order parts"
+    ],
+    "url": "https://mpvaraosat.fi/moto-guzzi-varaosat/",
+    "phone": "+358-44-777-0506",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "unverified",
+    "capability": [
+     "depot"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "mpvaraosat.fi/moto-guzzi-varaosat/: 'Kaikkien Moto Guzzi moottoripyörien varaosat suoraan netistä… varaosia löytyy melkein jokaiseen malliin' — Finland-based Guzzi parts webshop. Website-only evidence."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -96.0536,
      30.044
     ]
@@ -17675,6 +18019,42 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Anima Guzzista thread 2025-08-22: MAUGUZZI 'Nonsolomoto Paparo a Venturina (Li)' listed for Tuscany service — https://forum.animaguzzista.com/viewtopic.php?t=60892"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "norsk-moto-guzzi-klubb",
+    "name": "Norsk Moto Guzzi Klubb",
+    "city": "",
+    "state": "",
+    "country": "NO",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "national owners club",
+     "rallies",
+     "magazine"
+    ],
+    "url": "https://motoguzzi.no",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "motoguzzi.no (fetched via kimi lane 2026-09-10): ~800 members, club magazine 'Bicilindrica', 2026 spring/autumn rallies (Rindal/Sirdal). NOTE (claude cross-check 2026-09-10): Norway has ZERO dealers on the official jhgateway locator API — this club is Norway's only GSN node."
      }
     ]
    }
@@ -19255,6 +19635,61 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     22.5197,
+     60.4233
+    ]
+   },
+   "properties": {
+    "id": "proitalia-piikkio",
+    "name": "ProItalia",
+    "city": "Piikkiö",
+    "state": "",
+    "country": "FI",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi",
+     "ducati",
+     "laverda"
+    ],
+    "functions": [
+     "service",
+     "repairs",
+     "vintage service"
+    ],
+    "url": "https://proitalia.fi",
+    "phone": "+358-44-308-3451",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "full-service",
+     "heritage"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "proitalia.fi: 'Olen erikoistunut Moto Guzzi Moottoripyörien huoltoihin ja korjauksiin jo yli 30 vuoden kokemuksella… Huollan myös Ducatit, laverdat ja muut italialaismerkit' — 30+ years Guzzi-specialized (Marko Nurmi)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "proitalia.fi/411192487/411240569: ran the importer Moto Italia Import's workshop operation from 1994; documents the FI importer chain (RM Heino 2014 -> Brandt 2018 -> SPG Nordic 2021)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "guzziclub.fi forum (https://foorumi.guzziclub.fi/index.php?topic=8215.0, edited 2022-01-26): 'Proitalia on jatkossa Guzzin valtuutettu huoltopiste' — authorized service point under SPG Nordic; earlier thread 5107 (2014-09): 'Makella on paras tietotaito Guzzeista tässä maassa'."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -118.2291,
      34.199
     ]
@@ -19502,6 +19937,65 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "pass-2 check: site unreachable (403 Forbidden)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.73278,
+     63.64872
+    ]
+   },
+   "properties": {
+    "id": "re-motors-pietarsaari",
+    "name": "RE Motors Oy Ab",
+    "city": "Pietarsaari",
+    "state": "",
+    "country": "FI",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+358-6-781-19-02",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/FI/motoguzzi/stores, fetched 2026-09-10 by claude): 'RE Motors Oy Ab', Pietarsaari, active:true, type=dealers,services."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "SPG Nordic (Nordic Piaggio-group distributor) dealer map — Google My Maps KML hard-coded in motoguzzinordic.com/fi/dealers JS (https://www.google.com/maps/d/kml?mid=16WuIcU55clW7w7xr7CVsxD3F37Y&forcekml=1, fetched 2026-09-10): listed with tag 'Sale and service'."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "remotors.fi lists Vespa/Piaggio/Aprilia and a 'PIAGGIO OEM Varaosat' parts browser but no Moto Guzzi brand page; the old Guzzi category URL redirects away."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "guzziclub.fi forum (https://foorumi.guzziclub.fi/index.php?topic=8215.0, 2021-08-05): 'yksi sellainen ja tuttu firma on RE Motors Pietarsaaressa' — named as official Guzzi service."
      }
     ]
    }
@@ -20924,6 +21418,45 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     25.057,
+     60.2769
+    ]
+   },
+   "properties": {
+    "id": "star-service-helsinki",
+    "name": "Star Service",
+    "city": "Helsinki",
+    "state": "",
+    "country": "FI",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://www.star-service.fi",
+    "phone": "+358-10-231-6000",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "guzziclub.fi forum (https://foorumi.guzziclub.fi/index.php?topic=8215.0, 2021-08-04): Bike World Vantaa redirected Guzzi owners here — 'tekevät kuulemma hyvää työtä ja on tietääkseen saanut takas virallisen Guzzi-huollon statuksen'; a second owner reports good repair work. Own site (MP/ATV/marine workshop) never mentions Guzzi — single-thread 2021 endorsement with hearsay, hence unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -84.0617,
      35.9212
     ]
@@ -22082,6 +22615,47 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Anima Guzzista thread 2024-04-11: greybike 'A Treviglio c'è Vailati, il Carlo non c'è più però per me lavorano bene, abbastanza vicino si trova la stazione ferroviaria' — https://forum.animaguzzista.com/viewtopic.php?t=60387; lat/lon are Treviglio comune centroid (approx)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.6976,
+     60.8794
+    ]
+   },
+   "properties": {
+    "id": "valkon-verstas-laitila",
+    "name": "Valkon Verstas",
+    "city": "Laitila",
+    "state": "",
+    "country": "FI",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "service",
+     "repairs"
+    ],
+    "url": "https://valkonverstas.fi",
+    "phone": "+358-400-701-114",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-kimi",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "valkonverstas.fi/huolto-korjaus/moottoripyorat/: 'Huollamme myös muita MP-merkkejä kuten BMW, Yamaha, KTM, Triumph ja MotoGuzzi'; merkkihuolto page repeats Moto Guzzi in serviced brands. Linked from guzziclub.fi's Guzzi page."
      }
     ]
    }
@@ -23404,7 +23978,7 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 489,
+  "count": 501,
   "schema_version": "1.1",
   "schema": "https://github.com/nathanolla/gsn/blob/main/docs/schema.md",
   "license": "ODbL-1.0",

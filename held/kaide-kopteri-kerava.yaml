@@ -1,0 +1,25 @@
+# HELD: single dated forum endorsement (guzziclub.fi topic 8215, ~2021-22:
+# gearbox-shift adjustment on a Nevada, 'asiallinen meininki'); no website,
+# no address, not found in the business register under this name. Real work
+# evidenced but the business itself is unlocatable — needs address/phone
+# before it can be a node.
+id: kaide-kopteri-kerava
+name: Kaide Kopteri
+city: Kerava
+country: FI
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+observations:
+- date: 2026-09-10
+  method: community-endorsement
+  fact: 'guzziclub.fi forum topic 8215 (~2021-22): "Keravan Kaide Kopterilla on
+    asiallinen meininki ja hintakaan ei päätä huimannut. Sääti vaihteistonsiirron
+    ja sain Nevada ajettavaan kuntoon."'
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: unverified

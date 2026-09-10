@@ -1,0 +1,27 @@
+id: valkon-verstas-laitila
+name: Valkon Verstas
+city: Laitila
+state: ''
+country: FI
+lat: 60.8794
+lon: 21.6976
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+- repairs
+url: https://valkonverstas.fi
+phone: +358-400-701-114
+observations:
+- date: '2026-09-10'
+  method: website
+  fact: 'valkonverstas.fi/huolto-korjaus/moottoripyorat/: ''Huollamme myös muita MP-merkkejä
+    kuten BMW, Yamaha, KTM, Triumph ja MotoGuzzi''; merkkihuolto page repeats Moto Guzzi in
+    serviced brands. Linked from guzziclub.fi''s Guzzi page.'
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: active
+address: Retkentie 72, 23840 Laitila

@@ -1,0 +1,28 @@
+id: star-service-helsinki
+name: Star Service
+city: Helsinki
+state: ''
+country: FI
+lat: 60.2769
+lon: 25.057
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- service
+url: https://www.star-service.fi
+phone: +358-10-231-6000
+observations:
+- date: '2026-09-10'
+  method: community-endorsement
+  fact: 'guzziclub.fi forum (https://foorumi.guzziclub.fi/index.php?topic=8215.0, 2021-08-04):
+    Bike World Vantaa redirected Guzzi owners here — ''tekevät kuulemma hyvää työtä ja on
+    tietääkseen saanut takas virallisen Guzzi-huollon statuksen''; a second owner reports
+    good repair work. Own site (MP/ATV/marine workshop) never mentions Guzzi — single-thread
+    2021 endorsement with hearsay, hence unverified.'
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: unverified
+address: Tullikirjurinkuja 2, 00750 Helsinki

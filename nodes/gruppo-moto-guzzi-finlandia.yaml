@@ -1,0 +1,30 @@
+id: gruppo-moto-guzzi-finlandia
+name: Gruppo Moto Guzzi Finlandia ry (GMGF)
+city: ''
+state: ''
+country: FI
+lat: null
+lon: null
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- national owners club
+- rallies
+- forum
+url: https://www.guzziclub.fi
+observations:
+- date: '2026-09-10'
+  method: website
+  fact: 'guzziclub.fi ''Gruppo in English'': Finnish Moto Guzzi Owners Club since 1982, registered
+    association since 2006, 500+ members in 2025, bulletin ''Il Falcone''; Guzziralli 7-9.8.2026
+    Sieravuori; membership 15 EUR join + 25 EUR/yr.'
+- date: '2026-09-10'
+  method: website
+  fact: foorumi.guzziclub.fi active this week (posts dated 2026-09-07 and today at fetch time);
+    38k+ posts in the general board; Nordic travel board.
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: active

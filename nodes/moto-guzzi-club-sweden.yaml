@@ -1,0 +1,33 @@
+id: moto-guzzi-club-sweden
+name: Moto Guzzi Club of Sweden (MGCoS)
+city: ''
+state: ''
+country: SE
+lat: null
+lon: null
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- national owners club
+- rallies
+- forum
+- 13 districts
+url: https://guzziclub.nu
+observations:
+- date: '2026-09-10'
+  method: website
+  fact: 'wp.guzziclub.nu/about/: founded 1970, ~500 members from Lappland to Skåne in 13 districts,
+    magazine ''Giornale'', two official rallies/year; homepage (c) 2026 lists Vårträff 29-31
+    May 2026 Gunnerud and 2026 annual meeting.'
+- date: '2026-09-10'
+  method: website
+  fact: 'guzziclubforum.nu: 24,073 posts / 962 members; threads dated 2026-08-24 (Hösträff),
+    2026-08-31 (2027 Moto Guzzi Friends Meeting), 2026-09-02 — active this week. NOTE (claude
+    cross-check 2026-09-10): Sweden has ZERO dealers on the official jhgateway locator API
+    — the national club is Sweden''s Guzzi support backbone.'
+last_verified: '2026-09-10'
+verified_by: claude-kimi
+status: active
