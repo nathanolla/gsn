@@ -1289,6 +1289,60 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     77.701273,
+     12.961459
+    ]
+   },
+   "properties": {
+    "id": "avant-garde-motors-bengaluru",
+    "name": "Avant Garde Motors",
+    "city": "Bangalore",
+    "state": "",
+    "country": "IN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+91-7996659999",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, retrieved 2026-09-10) lists \"Avant Garde Motors\", dealerCd DEALER-IN-153, address \"#19, KMJ AVEN, Outer Ring Road, Marathahalli\", Bangalore, Karnataka 560037, phone1 7996659999 (phone2 9845099990), business email ceo.avant@piaggio2Wstore.in, exact coordinates 12.9614593/77.7012732, active: true, type \"dealers,services\", motoplex \"MP\", Guzzi competence codes G_10/G_C1400 present. City is spelled \"Bangalore\" in the locator; renamed Bengaluru here."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "City-level historical corroboration of Piaggio's Guzzi-selling channel: MotorBeam (https://www.motorbeam.com/piaggio-india-already-sells-range-of-aprilia-moto-guzzi-bikes/, 2014-01-21) reports Piaggio selling its complete Aprilia and Moto Guzzi range in India on order basis via dealerships in Pune, Delhi and Bangalore — Bangalore has been a Piaggio big-bike dealer city since at least 2014."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'Avant Garde Motors', #19, KMJ AVEN, Outer Ring Road, Marathahalli, Bangalore 560037, Karnataka; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      18.6764,
      -33.8645
     ]
@@ -1627,6 +1681,55 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Anima Guzzista thread 2021-11-04: Blueyes 'Hai provato da Beppe Moto a Moncalieri? Sono i più storici a Torino'; marco58 (Rivoli dealer couldn't fix his Stelvio) 'Nessun problema a Moncalieri dove... hanno anche risolto il problema alla stelvio'; Blueyes 'vendendo solo Guzzi e Aprilia da decenni sono molto più competenti' — https://forum.animaguzzista.com/viewtopic.php?t=59691"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.140215,
+     28.633903
+    ]
+   },
+   "properties": {
+    "id": "bhawani-realtech-delhi",
+    "name": "Bhawani Realtech Pvt. Ltd.",
+    "city": "Delhi",
+    "state": "",
+    "country": "IN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+91-8588999009",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Piaggio dealer-locator API behind motoguzzi.com (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, retrieved 2026-09-10) lists \"Bhawani Realtech Pvt. Ltd.\", dealerCd DEALER-IN-37, address \"A-17, Naraina Vihar, near SBI Bank\", Delhi 110028, phone1 8588999009 (phone2 9350025850), business email Sales.bhawanirealtech@piaggio2wstore.in, exact dealer coordinates 28.633903/77.140215 (dealer-level, not city-level), active: true, type \"dealers,services\", motoplex \"MP\", qualifications include \"GM\" and idoneita_tecnica includes \"G_C1400\" (Guzzi technical-competence codes)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'Bhawani Realtech Pvt. Ltd.', A-17, NARAINA VIHAR, NEAR SBI BANK, Delhi 110028, Delhi; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
      }
     ]
    }
@@ -3290,6 +3393,50 @@
       "date": "2026-08-18",
       "method": "website",
       "fact": "Re-check: site live; WordPress media uploaded May 2025; phone 919-688-5009 matches; still no Moto Guzzi mention anywhere on own site — node kept as Durham-area European service option, scope question flagged to maintainer."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.498529,
+     22.996611
+    ]
+   },
+   "properties": {
+    "id": "concept-motorbike-co-pvt-ltd-ahmedabad",
+    "name": "Concept Motorbike Co. Pvt. Ltd",
+    "city": "Ahmedabad",
+    "state": "",
+    "country": "IN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+91-9824300707",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'Concept Motorbike Co. Pvt. Ltd', Showroom:- Signature 1, Ground Floor, Nr. YMCA Club, S.G Highway, Makarba, Ahmedabad 380051, Gujarat; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
      }
     ]
    }
@@ -5943,6 +6090,55 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Listed on the guzzi.at links page as 'Fa. Faber' (http://www.guzzi.at/)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.56947,
+     12.909841
+    ]
+   },
+   "properties": {
+    "id": "falcon-mobikes-bengaluru",
+    "name": "Falcon Mobikes Pvt Ltd",
+    "city": "Bangalore",
+    "state": "",
+    "country": "IN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+91-7996659999",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, retrieved 2026-09-10) lists \"Falcon Mobikes Pvt Ltd\", dealerCd DEALER-IN-154, address \"No.187, 100ft Ring Road, Hosakerehalli Cross, Banashankari 3rd Stage\", Bangalore, Karnataka 560085, phone1 7996659999 (phone2 9845045525 — used as primary here since phone1 is shared with Avant Garde Motors, DEALER-IN-153, suggesting a shared group switchboard), business email sales.falcon@piaggio2Wstore.in, exact coordinates 12.9098407/77.5694696, active: true, type \"dealers,services\", motoplex \"MP\", Guzzi competence codes G_10/G_C1400 present. City is spelled \"Bangalore\" in the locator; renamed Bengaluru here."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'Falcon Mobikes Pvt Ltd', No.187 ,100ft Ring Road, Hosakerehalli Cross, Banashankari 3rd Stage, Bangalore 560085, Karnataka; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
      }
     ]
    }
@@ -9239,6 +9435,65 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     80.21563,
+     13.041235
+    ]
+   },
+   "properties": {
+    "id": "jmb-motors-chennai",
+    "name": "J M B Motors",
+    "city": "Chennai",
+    "state": "",
+    "country": "IN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+91-9941420002",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, retrieved 2026-09-10) lists \"J M B Motors\", dealerCd DEALER-IN-106, address \"4th Avenue, Ashok Nagar\", Chennai, Tamil Nadu 600083, phone1 9941420002 (phone2 9840361000), business email ceo.jmbmotoplex@piaggio2wstore.in, exact coordinates 13.041235/80.2156303, active: true, type \"dealers,services\", motoplex \"MP\", Guzzi competence codes G_10/G_C1400 present."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "carandbike (https://www.carandbike.com/moto-guzzi-bikes/v85-tt/price-in-chennai) lists Moto Guzzi dealer \"JMB MOTOPLEX, NO.106/64, 4TH AVENUE, ASHOK NAGAR, Chennai, Tamil Nadu-600083\" — same street/locality as official locator."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "zigwheels dealer page (https://www.zigwheels.com/bikes/dealers/moto-guzzi/Chennai) is titled \"Moto Guzzi Bike Showrooms in Chennai (1 Dealer)\" and lists JMB Motoplex — third independent corroboration. Historic: Piaggio Group press release (https://www.piaggiogroup.com/en/archive/press-releases/piaggio-group-expands-distribution-network-indian-and-apac-market-12, 11 Aug 2016) opened a main Motoplex in Chennai selling Vespa, Moto Guzzi and Aprilia."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'J M B Motors', 4th Avenue, Ashok Nagar, Chennai 600083, Tamil Nadu; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      15.0305,
      50.7446
     ]
@@ -10270,6 +10525,60 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "Re-verified live. Moto Guzzi brand logo present on homepage. Site title: 'Lone Star Yamaha | Located in Irving, TX and Burleson, TX | Motorsports Dealer'."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.807335,
+     18.648893
+    ]
+   },
+   "properties": {
+    "id": "long-miles-pune",
+    "name": "Long Miles",
+    "city": "Pune",
+    "state": "",
+    "country": "IN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+91-9096802889",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, retrieved 2026-09-10) lists \"Long Miles\", dealerCd DEALER-IN-192, address \"plot-85, Telco Rd, KSB Chowk, Nr Vestige Marketing, Pimpri-Chinchwad\", Pune, Maharashtra 411019, phone1 9096802889 (phone2 8554949633), business email ceo.longmiles@piaggio2wstore.in, exact coordinates 18.6488927/73.8073355, active: true, type \"dealers,services\", motoplex \"MP\", Guzzi competence codes G_10/G_C1400 present."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Pune is the original Motoplex flagship city: Piaggio Group press release (https://www.piaggiogroup.com/en/archive/press-releases/piaggio-group-expands-distribution-network-indian-and-apac-market-12, 11 Aug 2016) references \"the flagship store that opened in Pune last November\" (Nov 2015) selling Vespa, Moto Guzzi and Aprilia; MotorBeam Audace review (https://www.motorbeam.com/2016-moto-guzzi-audace-review-test-ride/, 2016-03-22): \"Piaggio opening its Motoplex (Pune) last year\". Note: carandbike (https://www.carandbike.com/moto-guzzi-bikes/v85-tt/price-in-pune) still lists an older Pune entry \"Motoplex, 5 Nyati Unitree, Nagar Road, Yerawada, Maharashtra-411006\" not present in the live official locator — treated as stale aggregator data; current node graded from the official locator."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'Long Miles', plot -85, Telco Rd, KSB Chowk, Nr Vestige Marketing, Pimpri-Chinchwad, Pune 411019, Maharashtra; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
      }
     ]
    }
@@ -18417,6 +18726,60 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     78.423951,
+     17.475331
+    ]
+   },
+   "properties": {
+    "id": "premier-automobiles-hyderabad",
+    "name": "Premier Automobiles",
+    "city": "Hyderabad",
+    "state": "",
+    "country": "IN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+91-8790169988",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, retrieved 2026-09-10) lists \"Premier Automobiles\", dealerCd DEALER-IN-89, address \"5-5-34/1, Moosapet Y Junction, Kukatpally, Medchal Malkajgiri\", Hyderabad, Telangana 500072, phone1 8790169988 (phone2 9849779988), business email CEO.PREMIERAUTOMOBILES@PIAGGIO2WSTORE.IN, exact coordinates 17.475331/78.423951, active: true, type \"dealers,services\", motoplex \"MP\", Guzzi competence codes G_10/G_C1400 present."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Piaggio Group press release (https://www.piaggiogroup.com/en/archive/press-releases/piaggio-group-expands-distribution-network-indian-and-apac-market-12, dated 11 Aug 2016): one of three main Motoplex stores opened in India in Aug 2016 was in \"Hyderabad in the State of Telangana\", and the Indian Motoplex outlets \"will offer the Vespa, Moto Guzzi and Aprilia brands\" — city has had an official Guzzi-selling Motoplex since 2016. MotorBeam 2016-10-26 (https://www.motorbeam.com/moto-guzzi-v9-mgx-21-launched-india-priced-rs-13-60-lakhs/) lists Hyderabad among dealerships for the India-launched V9/MGX-21."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'Premier Automobiles', 5-5-34/1, Moosapet Y Junction, Kukatpally, Medchal Malkajgiri, Hyderabad 500072, Telangana; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      8.390238,
      45.355362
     ]
@@ -19887,6 +20250,50 @@
       "date": "2026-05-20",
       "method": "official-locator",
       "fact": "Official Moto Guzzi dealer-locator page for 'siegis-garage', Gleisdorf (snapshot 2026-05-20, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260520071639/https://www.motoguzzi.com/at_DE/dealer-locator/gleisdorf/siegis-garage/ . No own website found — siegis.at is an unrelated bakery and siegisgarage.at refused connection (checked 2026-08-22)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.791751,
+     21.143117
+    ]
+   },
+   "properties": {
+    "id": "silicon-motobike-surat",
+    "name": "Silicon Motobike",
+    "city": "Surat",
+    "state": "",
+    "country": "IN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+91-9825544444",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'Silicon Motobike', 51 , Palladium Opp VIP Plaza VIP road Vesu, Surat 395007, Gujarat; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
      }
     ]
    }
@@ -22397,6 +22804,50 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     83.312358,
+     17.71196
+    ]
+   },
+   "properties": {
+    "id": "yallop-motors-vishakhapatnam",
+    "name": "Yallop Motors",
+    "city": "Vishakhapatnam",
+    "state": "",
+    "country": "IN",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "vespa",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+91-9573571787",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'Yallop Motors', Ground Floor, 13-1-1/c, Roman Cathelic Mission, Antony Nagar, Jagadamba Centre, Maharanipeta, Vishakhapatnam 530002, Andhra Pradesh; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -72.249,
      41.808
     ]
@@ -22518,7 +22969,7 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 471,
+  "count": 480,
   "schema_version": "1.1",
   "schema": "https://github.com/nathanolla/gsn/blob/main/docs/schema.md",
   "license": "ODbL-1.0",

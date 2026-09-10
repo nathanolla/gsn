@@ -125,6 +125,11 @@
     <desc>full-service | Cadoneghe,  | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="12.961459" lon="77.701273">
+    <name>Avant Garde Motors</name>
+    <desc>satellite | Bangalore,  | +91-7996659999 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="-33.8645" lon="18.6764">
     <name>Balance Auto Importers - Cape Town</name>
     <desc>full-service | Cape Town, Western Cape | +27 69 669 9651 | https://www.balanceimporters.co.za/ | verified 2026-08-22</desc>
@@ -158,6 +163,11 @@
   <wpt lat="45.0077" lon="7.6576">
     <name>Beppe Moto</name>
     <desc>full-service+satellite | Moncalieri,  | https://beppemoto.it/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="28.633903" lon="77.140215">
+    <name>Bhawani Realtech Pvt. Ltd.</name>
+    <desc>satellite | Delhi,  | +91-8588999009 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="39.8436087785" lon="-76.6199483577">
@@ -313,6 +323,11 @@
   <wpt lat="36.0073" lon="-78.8824">
     <name>Combustion Cycles Ltd</name>
     <desc>full-service | Durham, NC | (919) 688-5009 | https://www.combustioncycles.com/ | verified 2026-08-18</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="22.996611" lon="72.498529">
+    <name>Concept Motorbike Co. Pvt. Ltd</name>
+    <desc>satellite | Ahmedabad,  | +91-9824300707 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="-36.8521" lon="174.7632">
@@ -578,6 +593,11 @@
   <wpt lat="48.1486" lon="16.3431">
     <name>Faber Roller &amp; Bike</name>
     <desc>full-service | Wien (1230, Liesing),  | +43 1 491590 | https://www.faber.at/roller-bikes/moto-guzzi/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="12.909841" lon="77.56947">
+    <name>Falcon Mobikes Pvt Ltd</name>
+    <desc>satellite | Bangalore,  | +91-7996659999 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="51.9625" lon="7.6252">
@@ -905,6 +925,11 @@
     <desc>full-service | Falkirk  Scotland,  | 01324 620111 | http://www.jim-allan.com | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="13.041235" lon="80.21563">
+    <name>J M B Motors</name>
+    <desc>satellite | Chennai,  | +91-9941420002 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="50.7446" lon="15.0305">
     <name>K2 Moto Liberec</name>
     <desc>full-service | Liberec, None | +420 733 640 412 | https://www.k2moto.cz/ | verified 2026-08-22</desc>
@@ -1008,6 +1033,11 @@
   <wpt lat="32.5421" lon="-97.3208">
     <name>Lone Star Yamaha Burleson</name>
     <desc>satellite | Burleson, TX | 817-447-4200 | https://www.lonestaryamaha.com/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="18.648893" lon="73.807335">
+    <name>Long Miles</name>
+    <desc>satellite | Pune,  | +91-9096802889 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="28.7813722" lon="-82.6151001">
@@ -1820,6 +1850,11 @@
     <desc>satellite | San Juan, None | 787-333-0277 | https://powersportspr.com/collections/moto-guzzi/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="17.475331" lon="78.423951">
+    <name>Premier Automobiles</name>
+    <desc>satellite | Hyderabad,  | +91-8790169988 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="45.355362" lon="8.390238">
     <name>PRETE MOTO</name>
     <desc>full-service | Caresanablot,  | 0161 1921988 | https://www.motoguzzi.com/it_it/store-locator/caresanablot/prete-moto/ | verified 2026-08-22</desc>
@@ -1963,6 +1998,11 @@
   <wpt lat="47.1054" lon="15.7098">
     <name>Siegis Garage</name>
     <desc>full-service | Gleisdorf,  | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="21.143117" lon="72.791751">
+    <name>Silicon Motobike</name>
+    <desc>satellite | Surat,  | +91-9825544444 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="-26.0094" lon="28.0758">
@@ -2208,6 +2248,11 @@
   <wpt lat="39.6287" lon="-79.3195">
     <name>Xtreme Powersports &amp; Marine</name>
     <desc>satellite | Accident, MD | (800) 967-7738 | https://www.xps-usa.com/ | verified 2026-07-26</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="17.71196" lon="83.312358">
+    <name>Yallop Motors</name>
+    <desc>satellite | Vishakhapatnam,  | +91-9573571787 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="41.808" lon="-72.249">

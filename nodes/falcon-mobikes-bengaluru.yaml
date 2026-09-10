@@ -1,0 +1,43 @@
+id: falcon-mobikes-bengaluru
+name: Falcon Mobikes Pvt Ltd
+city: Bangalore
+state: ''
+country: IN
+lat: 12.909841
+lon: 77.56947
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+phone: +91-7996659999
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores,
+    retrieved 2026-09-10) lists "Falcon Mobikes Pvt Ltd", dealerCd DEALER-IN-154, address
+    "No.187, 100ft Ring Road, Hosakerehalli Cross, Banashankari 3rd Stage", Bangalore, Karnataka
+    560085, phone1 7996659999 (phone2 9845045525 — used as primary here since phone1 is shared
+    with Avant Garde Motors, DEALER-IN-153, suggesting a shared group switchboard), business
+    email sales.falcon@piaggio2Wstore.in, exact coordinates 12.9098407/77.5694696, active:
+    true, type "dealers,services", motoplex "MP", Guzzi competence codes G_10/G_C1400 present.
+    City is spelled "Bangalore" in the locator; renamed Bengaluru here.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores,
+    fetched 2026-09-10, cross-checked by claude): ''Falcon Mobikes Pvt Ltd'', No.187 ,100ft
+    Ring Road, Hosakerehalli Cross, Banashankari 3rd Stage, Bangalore 560085, Karnataka; active:true;
+    type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) —
+    identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no
+    independent service-depth evidence)'
+last_verified: '2026-09-10'
+verified_by: claude-zai
+status: active
+address: No.187 ,100ft Ring Road, Hosakerehalli Cross, Banashankari 3rd Stage, Bangalore 560085,
+  Karnataka

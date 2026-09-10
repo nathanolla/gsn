@@ -313,7 +313,9 @@ def static_render(features):
         return html.escape("" if s is None else str(s))
     index = ROOT / "site" / "index.html"
     doc = index.read_text()
-    dates = [f["properties"].get("last_verified") for f in features if f["properties"].get("last_verified")]
+    # str-normalize: YAML gives date objects for unquoted dates, str for quoted —
+    # ISO strings compare correctly either way once coerced
+    dates = [str(f["properties"].get("last_verified")) for f in features if f["properties"].get("last_verified")]
     newest = max(dates) if dates else ""
 
     rows = []

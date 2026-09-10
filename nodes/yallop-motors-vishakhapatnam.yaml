@@ -1,0 +1,33 @@
+id: yallop-motors-vishakhapatnam
+name: Yallop Motors
+city: Vishakhapatnam
+state: ''
+country: IN
+lat: 17.71196
+lon: 83.312358
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+phone: +91-9573571787
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores,
+    fetched 2026-09-10, cross-checked by claude): ''Yallop Motors'', Ground Floor, 13-1-1/c,
+    Roman Cathelic Mission, Antony Nagar, Jagadamba Centre, Maharanipeta, Vishakhapatnam 530002,
+    Andhra Pradesh; active:true; type=dealers,services; Motoplex store; Guzzi technical codes
+    listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite,
+    not full-service (no independent service-depth evidence)'
+last_verified: '2026-09-10'
+verified_by: claude-zai
+status: active
+address: Ground Floor, 13-1-1/c, Roman Cathelic Mission, Antony Nagar, Jagadamba Centre, Maharanipeta,
+  Vishakhapatnam 530002, Andhra Pradesh

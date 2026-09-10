@@ -1,0 +1,31 @@
+id: silicon-motobike-surat
+name: Silicon Motobike
+city: Surat
+state: ''
+country: IN
+lat: 21.143117
+lon: 72.791751
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+phone: +91-9825544444
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores,
+    fetched 2026-09-10, cross-checked by claude): ''Silicon Motobike'', 51 , Palladium Opp
+    VIP Plaza VIP road Vesu, Surat 395007, Gujarat; active:true; type=dealers,services; Motoplex
+    store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all
+    9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)'
+last_verified: '2026-09-10'
+verified_by: claude-zai
+status: active
+address: 51 , Palladium Opp VIP Plaza VIP road Vesu, Surat 395007, Gujarat

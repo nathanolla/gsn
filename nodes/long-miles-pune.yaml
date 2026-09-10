@@ -1,0 +1,50 @@
+id: long-miles-pune
+name: Long Miles
+city: Pune
+state: ''
+country: IN
+lat: 18.648893
+lon: 73.807335
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- vespa
+- piaggio
+functions:
+- sales
+- service
+phone: +91-9096802889
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores,
+    retrieved 2026-09-10) lists "Long Miles", dealerCd DEALER-IN-192, address "plot-85, Telco
+    Rd, KSB Chowk, Nr Vestige Marketing, Pimpri-Chinchwad", Pune, Maharashtra 411019, phone1
+    9096802889 (phone2 8554949633), business email ceo.longmiles@piaggio2wstore.in, exact
+    coordinates 18.6488927/73.8073355, active: true, type "dealers,services", motoplex "MP",
+    Guzzi competence codes G_10/G_C1400 present.'
+- date: 2026-09-10
+  method: website
+  fact: 'Pune is the original Motoplex flagship city: Piaggio Group press release (https://www.piaggiogroup.com/en/archive/press-releases/piaggio-group-expands-distribution-network-indian-and-apac-market-12,
+    11 Aug 2016) references "the flagship store that opened in Pune last November" (Nov 2015)
+    selling Vespa, Moto Guzzi and Aprilia; MotorBeam Audace review (https://www.motorbeam.com/2016-moto-guzzi-audace-review-test-ride/,
+    2016-03-22): "Piaggio opening its Motoplex (Pune) last year". Note: carandbike (https://www.carandbike.com/moto-guzzi-bikes/v85-tt/price-in-pune)
+    still lists an older Pune entry "Motoplex, 5 Nyati Unitree, Nagar Road, Yerawada, Maharashtra-411006"
+    not present in the live official locator — treated as stale aggregator data; current node
+    graded from the official locator.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores,
+    fetched 2026-09-10, cross-checked by claude): ''Long Miles'', plot -85, Telco Rd, KSB
+    Chowk, Nr Vestige Marketing, Pimpri-Chinchwad, Pune 411019, Maharashtra; active:true;
+    type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) —
+    identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no
+    independent service-depth evidence)'
+last_verified: '2026-09-10'
+verified_by: claude-zai
+status: active
+address: plot -85, Telco Rd, KSB Chowk, Nr Vestige Marketing, Pimpri-Chinchwad, Pune 411019,
+  Maharashtra
