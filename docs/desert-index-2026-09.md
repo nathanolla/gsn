@@ -3,7 +3,7 @@
 **How far is America from a Guzzi wrench?** For every US town with
 5,000+ people, the straight-line distance to the nearest *active,
 full-service* node in the [Guzzi Support Network](https://guzzisupport.network/).
-Computed 2026-09-10 from 301 full-service nodes and 7,557 towns.
+Computed 2026-09-10 from 303 full-service nodes and 7,557 towns.
 
 *A neutral finding, per doctrine: this measures geography, not shops.
 Straight-line miles (roads are longer). A desert in our data is either
@@ -62,11 +62,11 @@ either way. Towns: GeoNames `cities5000`, CC-BY 4.0.*
 | IN | 134 | 48 | Mount Vernon | 165 | 14% |
 | MA | 283 | 43 | Nantucket | 126 | 0% |
 | CA | 715 | 39 | Crescent City | 330 | 9% |
-| CT | 111 | 38 | Plainfield | 79 | 0% |
 | NC | 151 | 38 | Kill Devil Hills | 144 | 1% |
 | OK | 77 | 38 | Guymon | 237 | 4% |
 | WA | 208 | 37 | Clarkston | 253 | 28% |
 | MN | 147 | 36 | East Grand Forks | 290 | 8% |
+| CT | 111 | 32 | Plainfield | 79 | 0% |
 | UT | 99 | 30 | Moab | 187 | 7% |
 | AZ | 104 | 30 | Kayenta | 233 | 6% |
 | MD | 240 | 28 | Ocean City | 115 | 0% |
@@ -76,7 +76,7 @@ either way. Towns: GeoNames `cities5000`, CC-BY 4.0.*
 | CO | 112 | 22 | Redlands | 200 | 8% |
 | VA | 175 | 21 | Big Stone Gap | 154 | 7% |
 | DE | 20 | 21 | Georgetown | 89 | 0% |
-| NY | 513 | 20 | Massena | 228 | 6% |
+| NY | 513 | 20 | Massena | 228 | 5% |
 | PA | 365 | 20 | Warren | 94 | 0% |
 | NJ | 335 | 15 | Wildwood | 79 | 0% |
 | DC | 53 | 5 | Capitol Gateway | 9 | 0% |
