@@ -1,6 +1,6 @@
 // GSN service worker — offline-first. Version stamped by build.py so a new build
 // invalidates the shell cache; node data uses stale-while-revalidate.
-const V = 'gsn-/*BUILD:SWVER*/8649953d2e/*/';
+const V = 'gsn-/*BUILD:SWVER*/a0bc54b739/*/';
 const SHELL = ['./', 'index.html', 'nodes.geojson', 'manifest.json',
   'icon-192.png', 'icon-512.png', 'gsn-88x31.png',
   'vendor/leaflet/leaflet.css', 'vendor/leaflet/leaflet.js',
@@ -19,7 +19,7 @@ self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
   const u = new URL(e.request.url);
   // OSM map tiles: cache-first runtime cache so viewed areas survive going offline
-  if (/\.basemaps\.cartocdn\.com$/.test(u.host)) {
+  if (u.host === 'tile.openstreetmap.org') {
     e.respondWith(caches.open('gsn-tiles').then(async c => {
       const hit = await c.match(e.request);
       if (hit) return hit;

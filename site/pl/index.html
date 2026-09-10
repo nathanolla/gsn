@@ -88,6 +88,8 @@
   .ring{text-align:center;font-size:14px;margin:10px 0}
   .foot{font-size:12.5px;color:#333;text-align:center;line-height:1.7;padding-bottom:26px}
   .leaflet-container{font:13px "Times New Roman",serif}
+  /* dark basemap = filtered light basemap (one tile source, no key, no second vendor) */
+  .darktiles{filter:invert(1) hue-rotate(180deg) brightness(.91) contrast(.87) saturate(.55)}
   a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #c8102e;outline-offset:1px}
 
   /* The 1999 face is the hidden feature now (est. line ×5, or ?retro=1).
@@ -258,7 +260,7 @@
     <b>Not affiliated with, endorsed by, or sponsored by Piaggio Group or Moto&nbsp;Guzzi.
     Znaki towarowe należą do właścicieli.</b> Oficjalna strona: <a href="https://www.motoguzzi.com/">motoguzzi.com</a> ·
     <a href="https://github.com/nathanolla/gsn/blob/main/notices.md">notices</a><br>
-    Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · <a href="https://carto.com/attributions">CARTO</a> ·
+    Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors ·
     twoja lokalizacja nigdy nie opuszcza przeglądarki · najlepiej działa w <i>każdej</i> przeglądarce — i <a href="#" id="go1999" title="Back to 1999">w przeciwieństwie do 1999</a> tym razem to prawda.<br>
     community-maintained · database last touched <span id="footupd"><!--BUILD:FOOTUPD-->2026-09-10<!--/BUILD:FOOTUPD--></span> ·
     <a href="whatsnew.html">co nowego</a> · <a href="desert.html">indeks pustyni</a> · <a href="sticker.svg">naklejka na ladę</a> · <a href="https://github.com/nathanolla/gsn/issues/new?template=new-node.yml" target="_blank" rel="noopener" id="addshop">zgłoś warsztat</a> · od 2026
@@ -445,15 +447,17 @@ function render(){
       }catch(e){}
     },3000);
   }
-  // Carto basemaps (embeddable, no key) — theme-aware: Voyager for 1999, Dark Matter for 2026.
-  const TILES={light:'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
-               dark:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'};
-  const TATTR='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>';
+  // OSM standard tiles — keyless, no vendor account. Carto's "free" endpoint
+  // started stamping API KEY REQUIRED across every tile (verified 2026-09-10),
+  // so: one provider, two faces — dark mode is a CSS filter over the same
+  // tiles (see .darktiles), not a second tile source that can break separately.
+  const TILE_URL='https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+  const TATTR='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
   let tileLayer=null;
   function setTiles(kind){
     // Cross-fade: add the new layer, drop the old one only once new tiles paint —
     // otherwise a theme switch flashes the empty map background before tiles arrive.
-    const nl=L.tileLayer(TILES[kind],{maxZoom:19,subdomains:'abcd',detectRetina:true,attribution:TATTR});
+    const nl=L.tileLayer(TILE_URL,{maxZoom:19,attribution:TATTR,className:kind==='dark'?'darktiles':''});
     const old=tileLayer; tileLayer=nl; nl.addTo(map);
     if(old){ const drop=()=>{ if(map.hasLayer(old)) old.remove(); };
       nl.once('load',drop); setTimeout(drop,4000); }   // hard-drop after 4s if 'load' never fires

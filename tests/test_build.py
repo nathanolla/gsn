@@ -60,3 +60,11 @@ def test_geojson_carries_the_schema_contract():
     p = g["properties"]
     assert p["schema_version"].startswith("1."), "v1 stability promise broken?"
     assert p["license"] == "ODbL-1.0" and "schema.md" in p["schema"]
+
+def test_no_keyless_carto_tiles_remain():
+    # Carto's keyless endpoint started watermarking API KEY REQUIRED on every
+    # tile (2026-09-10). One tile source now: OSM, dark via CSS filter.
+    for rel in ["index.html", "sw.js"]:
+        t = (ROOT / "site" / rel).read_text()
+        assert "cartocdn" not in t and "carto.com" not in t, f"{rel}: carto crept back"
+    assert "tile.openstreetmap.org" in (ROOT / "site" / "sw.js").read_text()
