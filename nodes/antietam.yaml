@@ -9,6 +9,8 @@ layer: independent
 capability:
 - heritage
 - performance
+eras:
+- loop-frame
 brands:
 - moto-guzzi
 functions:

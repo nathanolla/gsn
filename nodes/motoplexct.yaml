@@ -7,6 +7,9 @@ lat: 41.1408
 lon: -73.2613
 layer: franchise
 capability: [full-service]
+eras:
+- v85
+- v100-pads
 brands: [moto-guzzi, aprilia, vespa, piaggio]
 functions:
   - sales

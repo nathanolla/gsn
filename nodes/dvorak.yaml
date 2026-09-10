@@ -8,6 +8,8 @@ lon: -100.7837
 layer: franchise
 capability:
 - satellite
+eras:
+- v85
 brands:
 - moto-guzzi
 - aprilia

@@ -862,6 +862,9 @@
      "heritage",
      "performance"
     ],
+    "eras": [
+     "loop-frame"
+    ],
     "observations": [
      {
       "date": "2026-07-26",
@@ -3648,6 +3651,10 @@
     "capability": [
      "heritage"
     ],
+    "eras": [
+     "loop-frame",
+     "tonti"
+    ],
     "observations": [
      {
       "date": "2026-07-26",
@@ -3707,6 +3714,10 @@
     "status": "active",
     "capability": [
      "full-service"
+    ],
+    "eras": [
+     "v85",
+     "v100-pads"
     ],
     "observations": [
      {
@@ -4610,6 +4621,9 @@
     "status": "active",
     "capability": [
      "satellite"
+    ],
+    "eras": [
+     "v85"
     ],
     "observations": [
      {
@@ -7201,6 +7215,9 @@
     "capability": [
      "heritage",
      "performance"
+    ],
+    "eras": [
+     "loop-frame"
     ],
     "observations": [
      {
@@ -14486,6 +14503,10 @@
     "capability": [
      "full-service"
     ],
+    "eras": [
+     "v85",
+     "v100-pads"
+    ],
     "observations": [
      {
       "date": "2026-07-26",
@@ -16746,6 +16767,9 @@
     "status": "active",
     "capability": [
      "heritage"
+    ],
+    "eras": [
+     "tonti"
     ],
     "observations": [
      {

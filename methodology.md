@@ -22,6 +22,12 @@ Derived from observations, not stored as opinion:
 
 Multi-role nodes list several.
 
+## Eras
+`eras` (see doctrine) is derived the same way: an era is listed only when an observation
+evidences work on that platform family — a website statement of vintage/classic Guzzi
+service, a dated community report naming the model worked on, or a first-party check.
+Absence of the field is "unknown", never "none". Rubric 1.2.0 adds this section.
+
 ## Status
 - `active` — recent observations support operation
 - `unverified` — website-only, or `last_verified` over 24 months

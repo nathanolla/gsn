@@ -14,6 +14,9 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LAYERS = {"franchise", "independent", "knowledge"}
 CAPABILITIES = {"full-service", "satellite", "depot", "performance", "heritage", "knowledge"}
+# Platform families a shop can actually touch (doctrine.md "Era competence").
+# Chronological order matters to the UI; keep this list ordered, not a set.
+ERAS = ["loop-frame", "tonti", "small-block", "spine-frame", "carc", "v85", "v100-pads"]
 METHODS = {"visited", "called", "bought", "website", "official-locator", "community-endorsement"}
 STATUSES = {"active", "unverified", "defunct"}
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -96,6 +99,14 @@ def main():
             err(f, "functions must be a non-empty list (a node without functions is a pin)")
         if n["status"] not in STATUSES:
             err(f, f"illegal status: {n['status']}")
+        eras = n.get("eras")
+        if eras is not None:
+            if not isinstance(eras, list) or not eras:
+                err(f, "eras, when present, must be a non-empty list (omit for unknown)")
+            else:
+                for e2 in eras:
+                    if e2 not in ERAS:
+                        err(f, f"illegal era: {e2} (legal: {', '.join(ERAS)})")
         if not DATE.match(str(n["last_verified"])):
             err(f, "last_verified must be YYYY-MM-DD")
         for o in n["observations"]:
@@ -126,6 +137,9 @@ def main():
                                        "brands", "functions", "url", "phone",
                                        "last_verified", "verified_by", "status")}
         props["capability"] = n["capability"] if isinstance(n["capability"], list) else [n["capability"]]
+        if n.get("eras"):
+            # emit in canonical chronological order regardless of YAML order
+            props["eras"] = [e2 for e2 in ERAS if e2 in n["eras"]]
         props["observations"] = n["observations"]
         geom = None
         if n.get("lat") is not None:
@@ -244,6 +258,8 @@ def static_render(features):
             link = ""
         loc = f'{e(p["city"])}, {e(p["state"])}' if p.get("city") else "—"
         caps = e("+".join(p["capability"] or []))
+        # separate span: the i18n vocab regex must keep matching the bare cap span
+        era_html = f'<span class="cap"> · ⚙ {e("+".join(p["eras"]))}</span>' if p.get("eras") else ""
         fns = e(" · ".join(p.get("functions") or []))
         phone = p.get("phone")
         tel = ""
@@ -252,7 +268,7 @@ def static_render(features):
             tel = f' · <a href="tel:{e(digits)}">{e(phone)}</a>'
         lv = e(p.get("last_verified") or "never")
         rows.append(
-            f'<tr><td>{namecell}<br><span class="cap">{caps}</span> · {loc}</td>'
+            f'<tr><td>{namecell}<br><span class="cap">{caps}</span>{era_html} · {loc}</td>'
             f'<td class="fnline">{fns}<br>{link}{tel}</td>'
             f'<td><span class="pill">{lv}</span></td></tr>')
 

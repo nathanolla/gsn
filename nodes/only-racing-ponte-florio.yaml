@@ -8,6 +8,8 @@ lon: 11.0494
 layer: independent
 capability:
 - heritage
+eras:
+- tonti
 brands:
 - moto-guzzi
 functions:

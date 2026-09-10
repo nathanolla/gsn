@@ -8,6 +8,9 @@ lon: -81.6557
 layer: franchise
 capability:
 - full-service
+eras:
+- v85
+- v100-pads
 brands:
 - moto-guzzi
 - aprilia

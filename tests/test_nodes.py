@@ -61,3 +61,16 @@ def test_banned_source_never_returns():
     hay = subprocess.run(["grep", "-ril", "guzzitech", str(ROOT / "nodes"), str(ROOT / "site")],
                          capture_output=True, text=True).stdout.strip()
     assert hay == "", f"banned source referenced in: {hay}"
+
+def test_eras_are_legal_vocabulary():
+    ERAS = {"loop-frame", "tonti", "small-block", "spine-frame", "carc", "v85", "v100-pads"}
+    tagged = 0
+    for p, d in ALL.items():
+        eras = d.get("eras")
+        if eras is None:
+            continue  # doctrine: absent means unknown, not none
+        assert isinstance(eras, list) and eras, f"{p}: eras must be a non-empty list"
+        for e in eras:
+            assert e in ERAS, f"{p}: illegal era {e!r}"
+        tagged += 1
+    assert tagged >= 5, "era seeding regressed — the filter UI would render dead"

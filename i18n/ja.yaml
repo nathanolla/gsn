@@ -55,3 +55,5 @@ strings:
   '>ROUTE<': '>ルート<'
   'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': title="ルート計画：地図をタップして描くか、GPXをインポート — ルート沿いのノードだけを表示"
   'title="Import a GPX route file — the corridor follows it"': 'title="GPXルートファイルを読み込む — 回廊がルートに沿います"'
+  '<option value="">— any era —</option>': '<option value="">— すべての年代 —</option>'
+  'aria-label="Filter by era"': 'aria-label="年代で絞り込む"'

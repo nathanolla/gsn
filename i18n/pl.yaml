@@ -55,3 +55,5 @@ strings:
   '>ROUTE<': '>TRASA<'
   'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': 'title="Zaplanuj trasę: dotknij mapy, aby ją narysować, lub zaimportuj GPX — lista pokaże węzły wzdłuż trasy"'
   'title="Import a GPX route file — the corridor follows it"': 'title="Zaimportuj plik trasy GPX — korytarz podąża za nią"'
+  '<option value="">— any era —</option>': '<option value="">— wszystkie epoki —</option>'
+  'aria-label="Filter by era"': 'aria-label="Filtruj według epoki"'
