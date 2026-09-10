@@ -22,11 +22,12 @@ m = qr.get_matrix()
 n = len(m)
 
 # Geometry (mm). Canvas 104x79 = 100x75 sticker + 2mm bleed all round.
-# Title runs full width; below it the text column owns x<59 and the QR
-# (with 3mm quiet zone) owns x>=60 — the two never overlap.
+# Nathan's design brief (2026-09-10): QR code, website URL, and a solid
+# abstract image of a transverse V-twin. Nothing else but the legal microtype.
 W, H, BLEED = 104.0, 79.0, 2.0
-QR_SIZE = 34.0
-QR_X, QR_Y = W - BLEED - 5.0 - QR_SIZE, 26.0
+QR_SIZE = 38.0
+QR_X, QR_Y = W - BLEED - 7.0, 14.0  # placeholder; set below
+QR_X = W - BLEED - 7.0 - QR_SIZE
 cell = QR_SIZE / n
 path = []
 for y, row in enumerate(m):
@@ -36,38 +37,41 @@ for y, row in enumerate(m):
                         f"h{cell:.3f}v{cell:.3f}h-{cell:.3f}z")
 qr_path = "".join(path)
 
-TXT_X = BLEED + 7.0
+
+def cylinder():
+    """One finned cylinder pointing 'up' in local coords; rotated per side.
+    Solid single-fill silhouette: head cap, fin bars, barrel."""
+    parts = ['<rect x="-6" y="-33" width="12" height="21" rx="1"/>',      # barrel
+             '<rect x="-8" y="-36.5" width="16" height="4" rx="1.2"/>']   # head
+    for fy in (-30.5, -26, -21.5, -17):                                    # fins
+        parts.append(f'<rect x="-9.5" y="{fy}" width="19" height="2.4" rx="1"/>')
+    return "".join(parts)
+
+
+V2_CX, V2_CY = 28.5, 35.5
+v2 = (f'<g transform="translate({V2_CX} {V2_CY}) scale(0.88)" fill="#c8102e">'
+      f'<g transform="rotate(-45)">{cylinder()}</g>'
+      f'<g transform="rotate(45)">{cylinder()}</g>'
+      '<circle cx="0" cy="0" r="11.5"/>'
+      '<rect x="-8" y="9" width="16" height="8" rx="2.5"/>'
+      '</g>')
+
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}mm" height="{H}mm"
      viewBox="0 0 {W} {H}">
   <title>Guzzi Support Network — counter sticker</title>
-  <!-- bleed background -->
   <rect x="0" y="0" width="{W}" height="{H}" fill="#efefea"/>
-  <!-- trim line (100x75mm): printers cut here; keep for proof, harmless if printed -->
+  <!-- trim line (100x75mm) -->
   <rect x="{BLEED}" y="{BLEED}" width="{W - 2 * BLEED}" height="{H - 2 * BLEED}"
         fill="none" stroke="#bbb" stroke-width="0.1" stroke-dasharray="1 1.5"/>
-  <!-- the double red rule, top and bottom -->
-  <g stroke="#c8102e" stroke-width="0.8">
-    <line x1="{BLEED + 4}" y1="{BLEED + 6}" x2="{W - BLEED - 4}" y2="{BLEED + 6}"/>
-    <line x1="{BLEED + 4}" y1="{BLEED + 7.6}" x2="{W - BLEED - 4}" y2="{BLEED + 7.6}"/>
-    <line x1="{BLEED + 4}" y1="{H - BLEED - 7.6}" x2="{W - BLEED - 4}" y2="{H - BLEED - 7.6}"/>
-    <line x1="{BLEED + 4}" y1="{H - BLEED - 6}" x2="{W - BLEED - 4}" y2="{H - BLEED - 6}"/>
-  </g>
-  <g font-family="'Times New Roman',Times,serif" fill="#111">
-    <text x="{TXT_X}" y="{BLEED + 15}" font-size="6.0" font-weight="bold">The
-      <tspan fill="#c8102e">GUZZI</tspan> Support Network</text>
-    <text x="{TXT_X}" y="{BLEED + 22.5}" font-size="4.2" font-style="italic">&#8220;Where&#8230;?&#8221; &#8212; answered.</text>
-    <text x="{TXT_X}" y="{BLEED + 29}" font-size="3.2">Every shop, wrench, parts depot</text>
-    <text x="{TXT_X}" y="{BLEED + 33.4}" font-size="3.2">and club that keeps a Moto Guzzi</text>
-    <text x="{TXT_X}" y="{BLEED + 37.8}" font-size="3.2">running &#8212; one community-kept,</text>
-    <text x="{TXT_X}" y="{BLEED + 42.2}" font-size="3.2">freshness-dated map.</text>
-    <text x="{TXT_X}" y="{BLEED + 49}" font-size="3.5" font-weight="bold">Scan it. Save the nodes. Ride.</text>
-    <text x="{TXT_X}" y="{BLEED + 56}" font-size="3.8" font-family="'Courier New',monospace">guzzisupport.network</text>
-    <text x="{TXT_X}" y="{H - BLEED - 11.6}" font-size="2.4" fill="#555">free to listed shops &#183; no ads, no tracking, no accounts &#183; ODbL data</text>
-    <text x="{TXT_X}" y="{H - BLEED - 8.4}" font-size="2.4" fill="#555">not affiliated with, endorsed or sponsored by Piaggio Group or Moto Guzzi</text>
-  </g>
-  <!-- QR: quiet zone then modules -->
+  <!-- the mark: solid abstract transverse V-twin -->
+  {v2}
+  <!-- QR with quiet zone -->
   <rect x="{QR_X - 3}" y="{QR_Y - 3}" width="{QR_SIZE + 6}" height="{QR_SIZE + 6}" fill="#fff"/>
   <path d="{qr_path}" fill="#111"/>
+  <text x="{W / 2}" y="66.5" text-anchor="middle" font-size="5.2"
+        font-family="'Courier New',monospace" font-weight="bold" fill="#111">guzzisupport.network</text>
+  <text x="{W / 2}" y="73.5" text-anchor="middle" font-size="2.0" fill="#666"
+        font-family="'Times New Roman',Times,serif">free to listed shops &#183; no tracking &#183; ODbL data &#183; not affiliated with Piaggio Group or Moto Guzzi</text>
 </svg>
 """
 out = ROOT / "site" / "sticker.svg"
