@@ -279,6 +279,20 @@ function bearing(a,b){const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180,dl=(b[1]-a[1
   const d=(Math.atan2(y,x)*180/Math.PI+360)%360;return ['N','NE','E','SE','S','SW','W','NW'][Math.round(d/45)%8]}
 // Two-date freshness: how a date was earned is the trust signal (mirrors build.py)
 const RIDER_GLYPHS={called:'📞',visited:'👁',bought:'🛒'};
+// Frictionless reports. PRs are a high bar for a 68-year-old with an Eldorado:
+// the issue link prefills every form field, so the reporter only types what's
+// wrong. REPORT_EMAIL stays '' until the domain has a forwarding address
+// (no MX today) — when set, a no-account mailto appears beside it.
+const REPORT_EMAIL='';
+function fixIssueUrl(p){
+  const where=p.name+(p.city?' — '+p.city+(p.state?', '+p.state:''):'')+(p.url?' · '+p.url:'');
+  return 'https://github.com/nathanolla/gsn/issues/new?template=fix-node.yml'
+    +'&title='+encodeURIComponent('[fix] '+p.name)+'&node='+encodeURIComponent(where);}
+function fixMailto(p){
+  const body='Which entry: '+p.name+(p.city?' ('+p.city+')':'')
+    +'\n\nWhat is wrong (closed / moved / wrong info / update):\n\n\nSource or date seen:\n';
+  return 'mailto:'+REPORT_EMAIL+'?subject='+encodeURIComponent('[fix] '+p.name)
+    +'&body='+encodeURIComponent(body);}
 const FRESH_LEGEND='🌐 web · 📞 telefon · 👁 wizyta · 🛒 zakup';
 function freshCell(p){
   let h=p.last_scraped?('🌐 '+esc(p.last_scraped)):esc(p.last_verified||'never');
@@ -447,7 +461,7 @@ function render(){
     const obs=(p.observations||[]).map(o=>`<div style="font-size:12px;color:#444">${esc(o.date)} · <i>${esc(o.method)}</i> — ${esc(o.fact)}</div>`).join('');
     m.bindPopup(`<b>${p.url?`<a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`:esc(p.name)}</b><br>${esc(p.city||'')}${p.state?', '+esc(p.state):''} · <tt>${esc(p.capability.map(c=>(LOC.vocab||{})[c]||c).join('+'))}</tt>${p.eras?' · <tt>⚙ '+esc(p.eras.join('+'))+'</tt>':''}<br>${esc(p.functions.join(' · '))}`+
       (p.url?`<br><a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${esc(host(p.url))}</a>`:'')+(p.phone?` · ${esc(p.phone)}`:'')+
-      `<hr>${obs}<div style="font-size:11px;color:#666;margin-top:3px" title="${FRESH_LEGEND}">${freshCell(p)}</div><div style="font-size:11px;color:#666;margin-top:3px">ostatnia weryfikacja ${esc(p.last_verified)} przez ${esc(p.verified_by)} · <a href="https://github.com/nathanolla/gsn/issues/new?template=fix-node.yml&title=${encodeURIComponent('[fix] '+p.name)}" target="_blank" rel="noopener">zgłoś poprawkę</a></div>`);
+      `<hr>${obs}<div style="font-size:11px;color:#666;margin-top:3px" title="${FRESH_LEGEND}">${freshCell(p)}</div><div style="font-size:11px;color:#666;margin-top:3px">ostatnia weryfikacja ${esc(p.last_verified)} przez ${esc(p.verified_by)} · <a href="${fixIssueUrl(p)}" target="_blank" rel="noopener">zgłoś poprawkę</a>${REPORT_EMAIL?` · <a href="${fixMailto(p)}">✉ zgłoś e-mailem</a>`:''}</div>`);
     markers[p.id]=m;
   });
   [...layers].sort().forEach(l=>document.getElementById('flayer').insertAdjacentHTML('beforeend',`<option>${l}</option>`));
