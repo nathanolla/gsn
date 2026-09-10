@@ -280,7 +280,8 @@ function bearing(a,b){const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180,dl=(b[1]-a[1
 const RIDER_GLYPHS={called:'📞',visited:'👁',bought:'🛒'};
 // Frictionless reports. PRs are a high bar for a 68-year-old with an Eldorado:
 // the issue link prefills every form field, so the reporter only types what's
-// wrong. REPORT_EMAIL stays '' until the domain has a forwarding address
+// wrong. REPORT_EMAIL stays '' until the domain has a forwarding address.
+// Approved 2026-09-10: set to 'fix@guzzisupport.network' once MX exists
 // (no MX today) — when set, a no-account mailto appears beside it.
 const REPORT_EMAIL='';
 function fixIssueUrl(p){
