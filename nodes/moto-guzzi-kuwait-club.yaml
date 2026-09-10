@@ -1,0 +1,31 @@
+id: moto-guzzi-kuwait-club
+name: Moto Guzzi Kuwait
+city: ''
+state: ''
+country: KW
+lat: 29.3759
+lon: 47.9774
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- rides
+- community
+- events
+url: https://www.instagram.com/motoguzzi_kuwait/
+phone: ''
+observations:
+- date: 2026-09-10
+  method: community-endorsement
+  fact: 'Instagram account @motoguzzi_kuwait shows posts from 2023 through late 2024 about
+    group rides, events, and community gatherings. Posts include "Moto Guzzi, a group of..."
+    (instagram.com/p/C8G0McHs4Pj/), "An unforgettable ride coming..." (instagram.com/p/DAf4bW2KSnL/),
+    and networking event reels. Distinct from BNK Motion (the authorized dealer). Appears
+    to be the most recently active Guzzi club in the region.
+
+    '
+last_verified: 2026-09-10
+verified_by: qgsn-me-eg
+status: unverified

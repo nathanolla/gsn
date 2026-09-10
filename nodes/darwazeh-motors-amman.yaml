@@ -1,0 +1,39 @@
+id: darwazeh-motors-amman
+name: Darwazeh Motors
+city: Amman
+state: ''
+country: JO
+lat: 31.9539
+lon: 35.9106
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- vespa
+- aprilia
+- piaggio
+functions:
+- sales
+- service
+- parts
+url: https://www.darwazehmotors.com/
+phone: +962-6-5534780
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'darwazehmotors.com self-describes as "Exclusive Importer" of Piaggio Group brands
+    in Jordan (Vespa, Aprilia, Moto Guzzi, Piaggio). Mentions "after-sales workshop care."
+    Located in Shmeisani, Amman.
+
+    '
+- date: 2026-09-10
+  method: website
+  fact: 'Facebook page facebook.com/darwazeh.motors shows a Moto Guzzi Griso post and a Moto
+    Guzzi brake service video, confirming workshop familiarity with the brand. Tipntag listing
+    confirms Shmeisani location.
+
+    '
+last_verified: 2026-09-10
+verified_by: qgsn-me-eg
+status: active

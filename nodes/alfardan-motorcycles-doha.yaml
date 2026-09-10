@@ -1,0 +1,45 @@
+id: alfardan-motorcycles-doha
+name: Alfardan Motorcycles
+city: Doha
+state: ''
+country: QA
+lat: 25.2854
+lon: 51.531
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- ktm
+- bmw-motorrad
+- ducati
+- triumph
+- vespa
+- gasgas
+- husqvarna
+functions:
+- sales
+- aftersales
+- parts
+url: https://www.alfardanmotorcycles.com/brands/motoguzzi-qatar/
+phone: +974 44208666
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'alfardanmotorcycles.com/brands/motoguzzi-qatar/ lists Moto Guzzi as a brand alongside
+    Aprilia, KTM, BMW Motorrad, Ducati, Triumph, Vespa, GASGAS, and Husqvarna. Showroom at
+    The Pearl-Qatar, Medina Centrale; service centre in Industrial Area, Doha. Dedicated "MOTO
+    GUZZI - AFTERSALES" enquiry form at alfardanmotorcycles.com/brands/motoguzzi-qatar/enquire
+    confirms parts and service intent.
+
+    '
+- date: 2026-09-10
+  method: website
+  fact: 'Parent company page alfardan.com.qa/motorcycles confirms Alfardan Corporation as
+    the operating entity.
+
+    '
+last_verified: 2026-09-10
+verified_by: qgsn-me-eg
+status: active

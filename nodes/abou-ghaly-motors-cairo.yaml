@@ -1,0 +1,40 @@
+id: abou-ghaly-motors-cairo
+name: Abou Ghaly Motors
+city: Cairo
+state: ''
+country: EG
+lat: 30.0444
+lon: 31.2357
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- vespa
+- aprilia
+- piaggio
+functions:
+- sales
+- distribution
+url: https://leads.vespa-egypt.com/
+phone: '19570'
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Enterprise AM article (enterpriseam.com, 2026-02-05) reports Piaggio Group signed
+    Abou Ghaly Motors as official importer/distributor for Egypt covering all four Piaggio
+    Group brands: Vespa, Piaggio, Aprilia, and Moto Guzzi. Plans include future local assembly
+    and MENA/Africa export hub. CEO: Mohamed Abou Ghaly.
+
+    '
+- date: 2026-09-10
+  method: website
+  fact: 'Yellow Pages Egypt (yellowpages.com.eg/en/profile/abou-ghaly-motors/102097) lists
+    address at 12 El Nozha St., Ard El Golf, Heliopolis, Cairo. Phone: 19570. Partnership
+    is new (Feb 2026) — actual Moto Guzzi stock availability not yet confirmed. Previous distributor
+    Eco Trade For Motorcycles (Agouza, Giza) may be superseded.
+
+    '
+last_verified: 2026-09-10
+verified_by: qgsn-me-eg
+status: unverified

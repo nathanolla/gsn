@@ -55,6 +55,11 @@
     <desc>full-service | Massa,  | 0585 488544 | https://www.motoguzzi.com/it_it/store-locator/massa/aldovardi-moto-s-r-l/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="25.2854" lon="51.531">
+    <name>Alfardan Motorcycles</name>
+    <desc>satellite | Doha,  | +974 44208666 | https://www.alfardanmotorcycles.com/brands/motoguzzi-qatar/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="45.170947" lon="9.145053">
     <name>Altauto srl</name>
     <desc>full-service | Pavia,  | 0382 569602 | https://www.motoguzzi.com/it_it/store-locator/pavia/altauto-srl/ | verified 2026-08-22</desc>
@@ -188,6 +193,11 @@
   <wpt lat="41.4021" lon="-74.3243">
     <name>BMG Powersports</name>
     <desc>satellite | Goshen, NY | 845-294-2453 | https://www.bmgpowersports.com/ | verified 2026-08-18</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="29.35" lon="47.9333">
+    <name>BNK Motion</name>
+    <desc>satellite | Shuwaikh,  | https://bnkmotion.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="41.92208614" lon="12.37441951">
@@ -393,6 +403,11 @@
   <wpt lat="48.9409" lon="10.3639">
     <name>Däs Mototec</name>
     <desc>performance | Birkenlohe (Unterschneidheim),  | https://www.daes-mototec.de/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="31.9539" lon="35.9106">
+    <name>Darwazeh Motors</name>
+    <desc>satellite | Amman,  | +962-6-5534780 | https://www.darwazehmotors.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="51.2356" lon="5.7051">

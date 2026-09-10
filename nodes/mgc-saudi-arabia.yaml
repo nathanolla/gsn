@@ -1,0 +1,36 @@
+id: mgc-saudi-arabia
+name: MGC Saudi Arabia
+city: ''
+state: ''
+country: SA
+lat: 24.7136
+lon: 46.6753
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- rides
+- community
+url: https://www.instagram.com/motoguzzi.saudi/
+phone: ''
+observations:
+- date: 2026-09-10
+  method: community-endorsement
+  fact: 'Instagram account @motoguzzi.saudi posted "Welcome to the official Moto Guzzi Club
+    in Saudi Arabia" on 2021-06-29 (instagram.com/p/CQtD4o7h4WD/). Subsequent post references
+    a "Moto Guzzi Saudi Tour" on a California model in southern Saudi Arabia. Listed on moto-guzzi-club.com/country/saudi-arabia-47.
+    Current activity level unclear — no confirmed 2025/2026 posts found.
+
+    '
+- date: 2026-09-10
+  method: website
+  fact: 'mgc.com.sa is an infrastructure/water/transport company in Riyadh, NOT a motorcycle
+    dealer. The Instagram account appears to be a community/fan page, not a commercial entity.
+    No official Moto Guzzi dealer exists in Saudi Arabia as of this research date.
+
+    '
+last_verified: 2026-09-10
+verified_by: qgsn-me-eg
+status: unverified

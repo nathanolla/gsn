@@ -59,6 +59,55 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     31.2357,
+     30.0444
+    ]
+   },
+   "properties": {
+    "id": "abou-ghaly-motors-cairo",
+    "name": "Abou Ghaly Motors",
+    "city": "Cairo",
+    "state": "",
+    "country": "EG",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "aprilia",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "distribution"
+    ],
+    "url": "https://leads.vespa-egypt.com/",
+    "phone": "19570",
+    "last_verified": "2026-09-10",
+    "verified_by": "qgsn-me-eg",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Enterprise AM article (enterpriseam.com, 2026-02-05) reports Piaggio Group signed Abou Ghaly Motors as official importer/distributor for Egypt covering all four Piaggio Group brands: Vespa, Piaggio, Aprilia, and Moto Guzzi. Plans include future local assembly and MENA/Africa export hub. CEO: Mohamed Abou Ghaly.\n"
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Yellow Pages Egypt (yellowpages.com.eg/en/profile/abou-ghaly-motors/102097) lists address at 12 El Nozha St., Ard El Golf, Heliopolis, Cairo. Phone: 19570. Partnership is new (Feb 2026) — actual Moto Guzzi stock availability not yet confirmed. Previous distributor Eco Trade For Motorcycles (Agouza, Giza) may be superseded.\n"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.9372,
      40.0992
     ]
@@ -540,6 +589,61 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"ALDOVARDI MOTO S.R.L.\"; address: Via Venturini 5, 54100 Massa (MS); type=services; dealerCd=IT436C; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     51.531,
+     25.2854
+    ]
+   },
+   "properties": {
+    "id": "alfardan-motorcycles-doha",
+    "name": "Alfardan Motorcycles",
+    "city": "Doha",
+    "state": "",
+    "country": "QA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "ktm",
+     "bmw-motorrad",
+     "ducati",
+     "triumph",
+     "vespa",
+     "gasgas",
+     "husqvarna"
+    ],
+    "functions": [
+     "sales",
+     "aftersales",
+     "parts"
+    ],
+    "url": "https://www.alfardanmotorcycles.com/brands/motoguzzi-qatar/",
+    "phone": "+974 44208666",
+    "last_verified": "2026-09-10",
+    "verified_by": "qgsn-me-eg",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "alfardanmotorcycles.com/brands/motoguzzi-qatar/ lists Moto Guzzi as a brand alongside Aprilia, KTM, BMW Motorrad, Ducati, Triumph, Vespa, GASGAS, and Husqvarna. Showroom at The Pearl-Qatar, Medina Centrale; service centre in Industrial Area, Doha. Dedicated \"MOTO GUZZI - AFTERSALES\" enquiry form at alfardanmotorcycles.com/brands/motoguzzi-qatar/enquire confirms parts and service intent.\n"
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Parent company page alfardan.com.qa/motorcycles confirms Alfardan Corporation as the operating entity.\n"
      }
     ]
    }
@@ -1999,6 +2103,56 @@
       "date": "2026-08-18",
       "method": "website",
       "fact": "Re-check: site live; Moto Guzzi showroom grid plus 48 Guzzi mentions; heavy 2026/2027 model-year references; phone matches node (official-locator absence noted 2026-07-26 still unexplained)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     47.9333,
+     29.35
+    ]
+   },
+   "properties": {
+    "id": "bnk-motion-kuwait",
+    "name": "BNK Motion",
+    "city": "Shuwaikh",
+    "state": "",
+    "country": "KW",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "aprilia",
+     "piaggio",
+     "vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://bnkmotion.com/",
+    "phone": "",
+    "last_verified": "2026-09-10",
+    "verified_by": "qgsn-me-eg",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Piaggio Group Wide Magazine article at wide.piaggiogroup.com/en/articles/markets/successful-grand-opening-of-the-bnk-motion-motoplex-in-kuwait/index.html confirms BNK Motion as a Piaggio Group Motoplex in Shuwaikh, Kuwait, carrying Aprilia, Moto Guzzi, Piaggio, and Vespa. Described as \"flagship store\" with sales, service, and community events.\n"
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Facebook post by Kuwait Times (2022-10-27) at facebook.com/kuwaittimesdaily/posts/10160478585047065/ confirms BNK as \"the official dealership of Piaggio Group Motor Works in Kuwait.\" Sharq E Trade interview names Achraf Tamin as General Manager.\n"
      }
     ]
    }
@@ -4118,6 +4272,56 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Listed in guzzifan.ch dealer directory as 'Daes Mototec, Birkenlohe' (https://www.guzzifan.ch/guzzi-h%C3%A4ndler-clubs-mehr) and on guzzi.at links page as 'DS Mototec'."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.9106,
+     31.9539
+    ]
+   },
+   "properties": {
+    "id": "darwazeh-motors-amman",
+    "name": "Darwazeh Motors",
+    "city": "Amman",
+    "state": "",
+    "country": "JO",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "aprilia",
+     "piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.darwazehmotors.com/",
+    "phone": "+962-6-5534780",
+    "last_verified": "2026-09-10",
+    "verified_by": "qgsn-me-eg",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "darwazehmotors.com self-describes as \"Exclusive Importer\" of Piaggio Group brands in Jordan (Vespa, Aprilia, Moto Guzzi, Piaggio). Mentions \"after-sales workshop care.\" Located in Shmeisani, Amman.\n"
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Facebook page facebook.com/darwazeh.motors shows a Moto Guzzi Griso post and a Moto Guzzi brake service video, confirming workshop familiarity with the brand. Tipntag listing confirms Shmeisani location.\n"
      }
     ]
    }
@@ -7963,6 +8167,49 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     55.2708,
+     25.2048
+    ]
+   },
+   "properties": {
+    "id": "guzzisti-arabia",
+    "name": "Guzzisti Arabia — The Clan Moto Guzzi Middle East",
+    "city": "",
+    "state": "",
+    "country": "KW",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "rides",
+     "touring",
+     "community",
+     "safe-riding"
+    ],
+    "url": "https://www.facebook.com/groups/339473656253470/",
+    "phone": "",
+    "last_verified": "2026-09-10",
+    "verified_by": "qgsn-me-eg",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Bike Nation Magazine profile (bikenationmag.com/guzzisti-arabia/, June 2017) documents Guzzisti Arabia as founded by Luciano Scelza in UAE, approved by Moto Guzzi on 2016-02-07 as \"the only approved Moto Guzzi Club in the Middle East.\" ~40 members at time of profile. Contact: guzzisti.arabia@gmail.com. Facebook group active from 2016 through at least November 2022. Instagram: @guzzisti_arabia.the_clan. Country listed as KW (placeholder) — club is UAE-based and covers the wider Gulf/Middle East region; adjust country to AE when merging with the AE lane.\n"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      10.4478,
      51.1638
     ]
@@ -11532,6 +11779,52 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     46.6753,
+     24.7136
+    ]
+   },
+   "properties": {
+    "id": "mgc-saudi-arabia",
+    "name": "MGC Saudi Arabia",
+    "city": "",
+    "state": "",
+    "country": "SA",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "rides",
+     "community"
+    ],
+    "url": "https://www.instagram.com/motoguzzi.saudi/",
+    "phone": "",
+    "last_verified": "2026-09-10",
+    "verified_by": "qgsn-me-eg",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "Instagram account @motoguzzi.saudi posted \"Welcome to the official Moto Guzzi Club in Saudi Arabia\" on 2021-06-29 (instagram.com/p/CQtD4o7h4WD/). Subsequent post references a \"Moto Guzzi Saudi Tour\" on a California model in southern Saudi Arabia. Listed on moto-guzzi-club.com/country/saudi-arabia-47. Current activity level unclear — no confirmed 2025/2026 posts found.\n"
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "mgc.com.sa is an infrastructure/water/transport company in Riyadh, NOT a motorcycle dealer. The Instagram account appears to be a community/fan page, not a commercial entity. No official Moto Guzzi dealer exists in Saudi Arabia as of this research date.\n"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -118.1519,
      33.7905
     ]
@@ -12097,6 +12390,47 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on the official Moto Guzzi China dealer locator as \"Moto Guzzi 北京新禧\" at 北京市朝阳区金盏乡金港汽车公园; phone 010-84593991; verified via Baidu search results showing official Moto Guzzi China website dealer list."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     47.9774,
+     29.3759
+    ]
+   },
+   "properties": {
+    "id": "moto-guzzi-kuwait-club",
+    "name": "Moto Guzzi Kuwait",
+    "city": "",
+    "state": "",
+    "country": "KW",
+    "layer": "knowledge",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "rides",
+     "community",
+     "events"
+    ],
+    "url": "https://www.instagram.com/motoguzzi_kuwait/",
+    "phone": "",
+    "last_verified": "2026-09-10",
+    "verified_by": "qgsn-me-eg",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "Instagram account @motoguzzi_kuwait shows posts from 2023 through late 2024 about group rides, events, and community gatherings. Posts include \"Moto Guzzi, a group of...\" (instagram.com/p/C8G0McHs4Pj/), \"An unforgettable ride coming...\" (instagram.com/p/DAf4bW2KSnL/), and networking event reels. Distinct from BNK Motion (the authorized dealer). Appears to be the most recently active Guzzi club in the region.\n"
      }
     ]
    }
@@ -18399,6 +18733,51 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     44.8271,
+     41.7151
+    ]
+   },
+   "properties": {
+    "id": "pitstop-moto-tbilisi",
+    "name": "Pitstop Moto",
+    "city": "Tbilisi",
+    "state": "",
+    "country": "GE",
+    "layer": "independent",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "motorcycle retail listings"
+    ],
+    "url": "https://pitstopmoto.ge/en/store/?search=MOTO%20GUZZI",
+    "phone": "+995 599 99 40 99",
+    "last_verified": "2026-09-10",
+    "verified_by": "qgsn-caucasus-ca",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "https://pitstopmoto.ge/en/store/?search=MOTO%20GUZZI lists Moto Guzzi Stelvio Duecento Tributo and V7 Special; this evidences catalog retail only, not authorization, parts, or servicing."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "https://pitstopmoto.ge/en/contact identifies Pitstop Moto at Eliava Market, 0154 Tbilisi and gives the business phone; coordinates are city-level for Tbilisi."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -80.0804,
      40.65322
     ]
@@ -22323,6 +22702,62 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     50.5478,
+     26.1736
+    ]
+   },
+   "properties": {
+    "id": "wheels-of-arabia-bahrain",
+    "name": "Wheels of Arabia",
+    "city": "Isa Town",
+    "state": "",
+    "country": "BH",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "vespa",
+     "aprilia",
+     "piaggio",
+     "ducati"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts"
+    ],
+    "url": "https://www.wheelsofarabia.ae/",
+    "phone": "+973 7705 0333",
+    "last_verified": "2026-09-10",
+    "verified_by": "qgsn-me-eg",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Piaggio Group Wide Magazine article at wide.piaggiogroup.com/en/articles/markets/wheels-of-arabia-importer-operations-creativity-and-passion/index.html profiles Wheels of Arabia as Piaggio Group importer in Bahrain, carrying Vespa, Aprilia, Piaggio, and Moto Guzzi. Part of Khalid Almoayed and Sons Group. Established 2009.\n"
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Bahrain Yellow Pages (bahrainyellow.com/company/21784/Wheels_of_Arabia) lists address at Flat 5, Building 833, Road 1213, Block 712, Isa Town. Facebook post (May 2016) advertises Moto Guzzi at \"unbelievable prices.\" Aug 2015 Facebook post references \"Wheels of Arabia in KSA\" but current Saudi operations could not be confirmed.\n"
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Cross-check by claude 2026-09-10: the Piaggio Wide importer profile is dated July 2019, and wheelsofarabia.ae's current homepage contains zero Moto Guzzi mentions (fetched today) — importer status confirmed historically, current Guzzi relationship unestablished; status set unverified, not active."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -0.2427,
      52.5726
     ]
@@ -22969,7 +23404,7 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 480,
+  "count": 489,
   "schema_version": "1.1",
   "schema": "https://github.com/nathanolla/gsn/blob/main/docs/schema.md",
   "license": "ODbL-1.0",

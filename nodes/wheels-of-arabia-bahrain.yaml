@@ -1,0 +1,47 @@
+id: wheels-of-arabia-bahrain
+name: Wheels of Arabia
+city: Isa Town
+state: ''
+country: BH
+lat: 26.1736
+lon: 50.5478
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- vespa
+- aprilia
+- piaggio
+- ducati
+functions:
+- sales
+- service
+- parts
+url: https://www.wheelsofarabia.ae/
+phone: +973 7705 0333
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Piaggio Group Wide Magazine article at wide.piaggiogroup.com/en/articles/markets/wheels-of-arabia-importer-operations-creativity-and-passion/index.html
+    profiles Wheels of Arabia as Piaggio Group importer in Bahrain, carrying Vespa, Aprilia,
+    Piaggio, and Moto Guzzi. Part of Khalid Almoayed and Sons Group. Established 2009.
+
+    '
+- date: 2026-09-10
+  method: website
+  fact: 'Bahrain Yellow Pages (bahrainyellow.com/company/21784/Wheels_of_Arabia) lists address
+    at Flat 5, Building 833, Road 1213, Block 712, Isa Town. Facebook post (May 2016) advertises
+    Moto Guzzi at "unbelievable prices." Aug 2015 Facebook post references "Wheels of Arabia
+    in KSA" but current Saudi operations could not be confirmed.
+
+    '
+- date: '2026-09-10'
+  method: website
+  fact: 'Cross-check by claude 2026-09-10: the Piaggio Wide importer profile is dated July
+    2019, and wheelsofarabia.ae''s current homepage contains zero Moto Guzzi mentions (fetched
+    today) — importer status confirmed historically, current Guzzi relationship unestablished;
+    status set unverified, not active.'
+last_verified: 2026-09-10
+verified_by: qgsn-me-eg
+status: unverified

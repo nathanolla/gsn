@@ -1,0 +1,31 @@
+# HELD: no city/coords; single-model dropship-marketplace copy — needs a
+# real address or stronger depot evidence before it is a node.
+id: izap24-kazakhstan
+name: iZAP24
+city: ''
+state: ''
+country: KZ
+lat: null
+lon: null
+layer: independent
+capability:
+- depot
+brands:
+- moto-guzzi
+functions:
+- used motorcycle-parts marketplace
+url: https://izap24.kz/moto/moto-guzzi/v-7-ii-scrambler-kit-2015/
+phone: ''
+observations:
+- date: 2026-09-10
+  method: website
+  fact: https://izap24.kz/moto/moto-guzzi/v-7-ii-scrambler-kit-2015/ states that original
+    used parts for a Moto Guzzi V7 II Scrambler Kit 2015 can be supplied from European dismantlers;
+    this is marketplace copy, not verified live inventory or authorization.
+- date: 2026-09-10
+  method: website
+  fact: https://izap24.kz/contacts/ lists the head office as Mukhtar Auezov St. 38, 010000,
+    Kazakhstan, but does not state a city; city and coordinates are intentionally blank.
+last_verified: 2026-09-10
+verified_by: qgsn-caucasus-ca
+status: unverified

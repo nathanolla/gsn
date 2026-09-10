@@ -1,0 +1,29 @@
+id: pitstop-moto-tbilisi
+name: Pitstop Moto
+city: Tbilisi
+state: ''
+country: GE
+lat: 41.7151
+lon: 44.8271
+layer: independent
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- motorcycle retail listings
+url: https://pitstopmoto.ge/en/store/?search=MOTO%20GUZZI
+phone: +995 599 99 40 99
+observations:
+- date: 2026-09-10
+  method: website
+  fact: https://pitstopmoto.ge/en/store/?search=MOTO%20GUZZI lists Moto Guzzi Stelvio Duecento
+    Tributo and V7 Special; this evidences catalog retail only, not authorization, parts,
+    or servicing.
+- date: 2026-09-10
+  method: website
+  fact: https://pitstopmoto.ge/en/contact identifies Pitstop Moto at Eliava Market, 0154 Tbilisi
+    and gives the business phone; coordinates are city-level for Tbilisi.
+last_verified: 2026-09-10
+verified_by: qgsn-caucasus-ca
+status: unverified

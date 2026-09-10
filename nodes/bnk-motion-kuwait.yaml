@@ -1,0 +1,40 @@
+id: bnk-motion-kuwait
+name: BNK Motion
+city: Shuwaikh
+state: ''
+country: KW
+lat: 29.35
+lon: 47.9333
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- aprilia
+- piaggio
+- vespa
+functions:
+- sales
+- service
+- parts
+url: https://bnkmotion.com/
+phone: ''
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Piaggio Group Wide Magazine article at wide.piaggiogroup.com/en/articles/markets/successful-grand-opening-of-the-bnk-motion-motoplex-in-kuwait/index.html
+    confirms BNK Motion as a Piaggio Group Motoplex in Shuwaikh, Kuwait, carrying Aprilia,
+    Moto Guzzi, Piaggio, and Vespa. Described as "flagship store" with sales, service, and
+    community events.
+
+    '
+- date: 2026-09-10
+  method: website
+  fact: 'Facebook post by Kuwait Times (2022-10-27) at facebook.com/kuwaittimesdaily/posts/10160478585047065/
+    confirms BNK as "the official dealership of Piaggio Group Motor Works in Kuwait." Sharq
+    E Trade interview names Achraf Tamin as General Manager.
+
+    '
+last_verified: 2026-09-10
+verified_by: qgsn-me-eg
+status: active

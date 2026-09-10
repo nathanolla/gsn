@@ -1,0 +1,34 @@
+id: guzzisti-arabia
+name: Guzzisti Arabia — The Clan Moto Guzzi Middle East
+city: ''
+state: ''
+country: KW
+lat: 25.2048
+lon: 55.2708
+layer: knowledge
+capability:
+- knowledge
+brands:
+- moto-guzzi
+functions:
+- rides
+- touring
+- community
+- safe-riding
+url: https://www.facebook.com/groups/339473656253470/
+phone: ''
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Bike Nation Magazine profile (bikenationmag.com/guzzisti-arabia/, June 2017) documents
+    Guzzisti Arabia as founded by Luciano Scelza in UAE, approved by Moto Guzzi on 2016-02-07
+    as "the only approved Moto Guzzi Club in the Middle East." ~40 members at time of profile.
+    Contact: guzzisti.arabia@gmail.com. Facebook group active from 2016 through at least November
+    2022. Instagram: @guzzisti_arabia.the_clan. Country listed as KW (placeholder) — club
+    is UAE-based and covers the wider Gulf/Middle East region; adjust country to AE when merging
+    with the AE lane.
+
+    '
+last_verified: 2026-09-10
+verified_by: qgsn-me-eg
+status: unverified
