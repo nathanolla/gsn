@@ -33,6 +33,13 @@ Absence of the field is "unknown", never "none". Rubric 1.2.0 adds this section.
 - `unverified` — website-only, or `last_verified` over 24 months
 - `defunct` — evidence of closure; kept, rendered faded
 
+## Bot-walls
+An HTTP 403/bot-challenge on re-verification is **not evidence of closure** — the server
+is alive and refusing robots. If a standing `official-locator` observation less than 24
+months old exists, the node stays `active` and the 403 is recorded as an observation.
+Website-only nodes behind a bot-wall degrade to `unverified` (nothing can be confirmed).
+A first-party check (`called`/`visited`) beats the wall entirely.
+
 ## Corrections
 Submit a newer or better observation; the category recomputes. Any listed business may request correction or removal.
 

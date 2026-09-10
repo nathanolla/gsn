@@ -25,13 +25,13 @@ phone: +1-415-621-7223
 observations:
 - date: 2026-07-26
   method: website
-  fact: Open since 1991; own site lists Moto Guzzi among authorized franchises (with
-    Aprilia, KTM, Kove, Piaggio, Royal Enfield, Vespa) — the Bay Area's Guzzi point.
+  fact: Open since 1991; own site lists Moto Guzzi among authorized franchises (with Aprilia,
+    KTM, Kove, Piaggio, Royal Enfield, Vespa) — the Bay Area's Guzzi point.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Scuderia West" (San
-    Francisco, CA); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
-status: unverified
+  fact: Listed on the official Moto Guzzi US dealer locator as "Scuderia West" (San Francisco,
+    CA); type=dealers,services; verified 2026-07-26.
+last_verified: 2026-09-10
+verified_by: claude-mimo
+status: active
 address: 1070 Maryland St, Suite 112, Pier 70 Bldg 12, San Francisco, CA 94107

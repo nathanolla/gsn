@@ -21,18 +21,22 @@ phone: 970-223-1203
 observations:
 - date: 2026-07-26
   method: website
-  fact: Family-owned Northern Colorado dealer (150+ units) carrying Aprilia, Ducati
-    and Moto Guzzi; own site maintains new Moto Guzzi inventory pages; 3761 Monarch
-    St
+  fact: Family-owned Northern Colorado dealer (150+ units) carrying Aprilia, Ducati and Moto
+    Guzzi; own site maintains new Moto Guzzi inventory pages; 3761 Monarch St
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Aces Motorcycles"
-    (Frederick, CO); type=dealers,services; verified 2026-07-26
+  fact: Listed on the official Moto Guzzi US dealer locator as "Aces Motorcycles" (Frederick,
+    CO); type=dealers,services; verified 2026-07-26
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live (HTTP 200); own site carries Moto Guzzi new-unit inventory
-    link and brand listing; copyright 2026; phone matches node'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live (HTTP 200); own site carries Moto Guzzi new-unit inventory link
+    and brand listing; copyright 2026; phone matches node'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title "ACES Motorcycles in Frederick, CO"; meta keywords
+    include Aprilia, Ducati, Moto-Guzzi; phone 970-223-1203 matches node. Still an active
+    powersports dealer.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 3761 Monarch St, Frederick, CO 80516

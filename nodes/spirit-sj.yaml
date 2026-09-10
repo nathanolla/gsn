@@ -25,14 +25,12 @@ phone: (408) 571-6000
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (San Jose, CA); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (San Jose, CA); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Own site copyright 2026 with current Triumph and Moto Guzzi promotions running
-    through August 2026, including Military & First Responder incentives. [source:
-    https://www.spiritmotorcycles.com]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Own site copyright 2026 with current Triumph and Moto Guzzi promotions running through
+    August 2026, including Military & First Responder incentives. [source: https://www.spiritmotorcycles.com]'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 460 Meridian Avenue, San Jose, CA 95126

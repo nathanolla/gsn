@@ -26,8 +26,13 @@ observations:
 - date: 2026-08-18
   method: website
   fact: 'Re-check: site live (static site, content dated ~2021); business''s own Instagram
-    storefront @motoborgotaro active (11k followers, 748 posts) — operating vintage
-    shop, by appointment.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+    storefront @motoborgotaro active (11k followers, 748 posts) — operating vintage shop,
+    by appointment.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200, Squarespace static site); meta "Moto Borgotaro specializes
+    in vintage European motorcycles sales and restoration. Ducati, Laverda, Moto Guzzi, BMW
+    and MV Augusta"; still a by-appointment vintage European motorcycle shop.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

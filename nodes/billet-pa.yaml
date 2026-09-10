@@ -22,17 +22,21 @@ phone: (717) 501-0028
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Red Lion, PA); verified
-    2026-07-26
+  fact: Listed on the official Moto Guzzi US dealer locator (Red Lion, PA); verified 2026-07-26
 - date: 2026-07-26
   method: website
-  fact: 'Own site copyright 2026; official Beta USA dealer; sells Beta, Aprilia, Moto
-    Guzzi, BSA [source: https://www.billetmotorsportsinc.com/]'
+  fact: 'Own site copyright 2026; official Beta USA dealer; sells Beta, Aprilia, Moto Guzzi,
+    BSA [source: https://www.billetmotorsportsinc.com/]'
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; MOTO GUZZI inventory link in nav; copyright 2026; phone
-    matches node'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; MOTO GUZZI inventory link in nav; copyright 2026; phone matches
+    node'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title references Beta USA; nav links to Beta Motorcycles,
+    Aprilia, Moto Guzzi, BSA; meta keywords include "Beta USA, GPX Moto, Aprilia, Moto Guzzi";
+    address 4762 Rippling Run Rd matches node; phone (717) 501-0028 matches node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 4762 Rippling Run Rd, Red Lion, PA 17356

@@ -22,14 +22,17 @@ phone: (561) 758-0569
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (West Palm Beach, FL);
-    verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (West Palm Beach, FL); verified
+    2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Dealer site (exclusivecycleswp.com) shows 2026/2027 inventory including Aprilia
-    RS 660 and Moto Guzzi V7 Stone, with promotions valid July 1-31, 2026. [source:
-    https://www.exclusivecycleswp.com/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Dealer site (exclusivecycleswp.com) shows 2026/2027 inventory including Aprilia RS
+    660 and Moto Guzzi V7 Stone, with promotions valid July 1-31, 2026. [source: https://www.exclusivecycleswp.com/]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); title confirms powersports dealer in West
+    Palm Beach FL; phone (561) 758-0569 current; still carries Moto Guzzi'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 2040 Indian Rd., West Palm Beach, FL 33409

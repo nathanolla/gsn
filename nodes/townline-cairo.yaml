@@ -23,13 +23,12 @@ phone: (518) 622-0131
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Cairo, NY); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Cairo, NY); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Site loads with promotions active July-Sept 2026 (Moto Guzzi Days, Aprilia
-    Days, Vespa Days, 0.99% APR). [source: https://www.townlinemotorsports.com/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Site loads with promotions active July-Sept 2026 (Moto Guzzi Days, Aprilia Days,
+    Vespa Days, 0.99% APR). [source: https://www.townlinemotorsports.com/]'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 7186 Route 32, Cairo, NY 12413

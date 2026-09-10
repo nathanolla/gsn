@@ -27,18 +27,25 @@ observations:
   fact: Retail site live; single consolidated Austin location
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "AF-1 Racing" (Austin,
-    TX); type=dealers,services; verified 2026-07-26
+  fact: Listed on the official Moto Guzzi US dealer locator as "AF-1 Racing" (Austin, TX);
+    type=dealers,services; verified 2026-07-26
 - date: 2026-07-26
   method: website
-  fact: 'Retails/installs UpMap T800+ app-based ECU reflash for Moto Guzzi V85/V9/V7-850
-    e5 (RACE / full-exhaust maps) — an ECU-tune option in addition to parts [source:
-    af1racing.com UpMap listing]'
+  fact: 'Retails/installs UpMap T800+ app-based ECU reflash for Moto Guzzi V85/V9/V7-850 e5
+    (RACE / full-exhaust maps) — an ECU-tune option in addition to parts [source: af1racing.com
+    UpMap listing]'
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; brand meta lists Aprilia/Moto Guzzi/Vespa/Triumph; 2027
-    and 2026 model-year references throughout; phone matches node'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; brand meta lists Aprilia/Moto Guzzi/Vespa/Triumph; 2027 and
+    2026 model-year references throughout; phone matches node'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200 with browser UA; 403 for bot UA — Cloudflare protection);
+    title "AF1 Racing Austin"; meta description names Aprilia, Moto Guzzi, Vespa, Triumph;
+    brand logo bar adds Moto Morini, MV Agusta, Piaggio, Super73; current promotion "$250
+    Off all new Aprilia, Moto Guzzi, Piaggio, and Vespa Models"; phone (512) 459-3966 matches
+    node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 9900 North Interstate Hwy 35 SB, Austin, TX 78753

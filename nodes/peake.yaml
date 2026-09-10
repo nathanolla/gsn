@@ -27,15 +27,24 @@ phone: (315) 483-6916
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Williamson, NY); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Williamson, NY); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Site loads with promotions dated July 1-31, 2026. Featured inventory includes
-    2024 Moto Guzzi Stelvio ($9,999) and 2024 Moto Guzzi Stelvio PFF Rider Assistance
-    Solution ($12,899). Physical address is 6551 Pratt Rd, Sodus, NY 14551 (site references
-    Williamson, NY area). [source: https://www.peakeoffroad.com/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Site loads with promotions dated July 1-31, 2026. Featured inventory includes 2024
+    Moto Guzzi Stelvio ($9,999) and 2024 Moto Guzzi Stelvio PFF Rider Assistance Solution
+    ($12,899). Physical address is 6551 Pratt Rd, Sodus, NY 14551 (site references Williamson,
+    NY area). [source: https://www.peakeoffroad.com/]'
+- date: 2026-07-26
+  method: website
+  fact: 'Site loads with promotions dated July 1-31, 2026. Featured inventory includes 2024
+    Moto Guzzi Stelvio (,999) and 2024 Moto Guzzi Stelvio PFF Rider Assistance Solution (2,899).
+    Physical address is 6551 Pratt Rd, Sodus, NY 14551 (site references Williamson, NY area).
+    [source: https://www.peakeoffroad.com/]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); homepage nav includes Moto Guzzi inventory
+    link and "Moto Guzzi - Super Summer" promotion; still carries Moto Guzzi among brands'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 6551 Pratt Rd, Sodus, NY 14551

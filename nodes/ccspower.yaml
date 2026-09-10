@@ -24,21 +24,26 @@ phone: 570-301-6065
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site shows Moto Guzzi new-model showroom and 2025 V85 Strada availability;
-    previously listed at 19 Shoemaker St.
+  fact: Own site shows Moto Guzzi new-model showroom and 2025 V85 Strada availability; previously
+    listed at 19 Shoemaker St.
 - date: 2026-07-26
   method: official-locator
   fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "CC's Powersports"
-    (Forty Fort, PA); type=dealers,services; verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator as "CC's Powersports" (Forty Fort,
+    PA); type=dealers,services; verified 2026-07-26.
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; own sitemap inventory includes 2027 Moto Guzzi Stelvio
-    and 2027 V100 Mandello units (Forty Fort) — fresher than the 2025 V85 stock noted
-    2026-07-26; phone matches node.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; own sitemap inventory includes 2027 Moto Guzzi Stelvio and 2027
+    V100 Mandello units (Forty Fort) — fresher than the 2025 V85 stock noted 2026-07-26; phone
+    matches node.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); active promotions for Vespa, Aprilia, Moto Guzzi
+    ("Super Summer", "Military & First Responders"), and Piaggio; phone 570-301-6065 matches
+    node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 1340 Wyoming Ave., Forty Fort, PA 18704

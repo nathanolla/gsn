@@ -26,11 +26,14 @@ observations:
   fact: Operating as Star Powersports (formerly Star Moto / Ducati of Knoxville).
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Star Powersports,
-    LLC" (Knoxville, TN); type=dealers,services; verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator as "Star Powersports, LLC" (Knoxville,
+    TN); type=dealers,services; verified 2026-07-26.
 - date: 2026-08-22
   method: website
   fact: 'pass-2 check: site unreachable (403 Forbidden)'
+- date: 2026-09-10
+  method: website
+  fact: 're-verification check: site still returning 403 Forbidden on both attempts'
 last_verified: 2026-07-26
-verified_by: claude-locator-xref
+verified_by: claude-mimo
 status: unverified

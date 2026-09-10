@@ -22,13 +22,20 @@ observations:
 - date: 2026-07-26
   method: website
   fact: 40+ year family exotic-car house that is also the Milwaukee-area Vespa/Piaggio/Aprilia/Moto
-    Guzzi dealer with Italian factory-trained techs; two-wheel side is secondary to
-    the car business.
+    Guzzi dealer with Italian factory-trained techs; two-wheel side is secondary to the car
+    business.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Reina International"
-    (Brookfield, WI); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Reina International" (Brookfield,
+    WI); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); title confirms "Exotic Sports Cars and Vespa
+    scooters"; nav includes "Factory Finance for Aprilia, Moto Guzzi, Vespa and Piaggio";
+    Facebook link references Vespa-Piaggio-Aprilia-Moto-Guzzi-Milwaukee; address still 12730
+    West Capitol Drive, Brookfield WI; service hours listed for second location at 4050 North
+    128 Street'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 12730 West Capitol Drive, Brookfield, WI 53005

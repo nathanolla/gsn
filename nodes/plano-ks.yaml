@@ -25,14 +25,18 @@ phone: (972) 422-4111
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Plano, TX); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Plano, TX); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Own site shows August 2026 promotions across Moto Guzzi, Vespa, Piaggio,
-    and Aprilia (military/first responder incentives valid 08/01/2026-08/31/2026).
-    Carries Kawasaki, Suzuki, Aprilia, Moto Guzzi, Vespa, and Piaggio. [source: https://www.planokawasakisuzuki.com]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Own site shows August 2026 promotions across Moto Guzzi, Vespa, Piaggio, and Aprilia
+    (military/first responder incentives valid 08/01/2026-08/31/2026). Carries Kawasaki, Suzuki,
+    Aprilia, Moto Guzzi, Vespa, and Piaggio. [source: https://www.planokawasakisuzuki.com]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); title confirms "Motorcycle, Scooter, ATV
+    Dealer in Plano, TX | Plano Kawasaki Suzuki Aprilia Moto Guzzi Vespa Genuine"; LD+JSON
+    schema type MotorcycleDealer; Moto Guzzi confirmed in description'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 3405 N Central Expy, Plano, TX 75023

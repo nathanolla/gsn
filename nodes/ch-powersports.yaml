@@ -24,17 +24,20 @@ phone: (432) 225-0479
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Odessa, TX); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Odessa, TX); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Own site shows July 2026 ''Moto Guzzi Days'' / ''Aprilia Days'' promotions
-    and 2027 model-year inventory (Aprilia RS 660, Moto Guzzi V7). [source: https://www.chpowersports.com/]'
+  fact: 'Own site shows July 2026 ''Moto Guzzi Days'' / ''Aprilia Days'' promotions and 2027
+    model-year inventory (Aprilia RS 660, Moto Guzzi V7). [source: https://www.chpowersports.com/]'
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; 2027 Moto Guzzi V7 Special unit listed in inventory
-    URL structure; 2027 model-year references; phone matches node.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; 2027 Moto Guzzi V7 Special unit listed in inventory URL structure;
+    2027 model-year references; phone matches node.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); nav links Aprilia, Vespa, Piaggio, Moto Guzzi, Segway,
+    Triumph; 2027 Aprilia RS 660 inventory visible; phone (432) 225-0479 matches node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 208 E 2nd St, Odessa, TX 79761

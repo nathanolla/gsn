@@ -25,19 +25,25 @@ phone: (808) 831-2600
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Honolulu, HI); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Honolulu, HI); verified 2026-07-26.
 - date: 2026-07-26
   method: website
   fact: 'Independent Yelp profile ''Claimed'' with 3.9 stars and 495 reviews, categorized
     Motorcycle Dealers/Repair/Rental. [source: https://www.yelp.com/biz/cycle-city-hawaii-honolulu-2]'
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; own new-inventory sitemap feed (358 units, 2026 model-year
-    stock) lists zero Moto Guzzi units (Kawasaki/Yamaha/Honda/Triumph/Harley/Aprilia/Vespa
-    present); brand pages are JS-rendered and not fetchable; franchise per official
-    locator 2026-07-26 — satellite retained, zero-stock noted.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; own new-inventory sitemap feed (358 units, 2026 model-year stock)
+    lists zero Moto Guzzi units (Kawasaki/Yamaha/Honda/Triumph/Harley/Aprilia/Vespa present);
+    brand pages are JS-rendered and not fetchable; franchise per official locator 2026-07-26
+    — satellite retained, zero-stock noted.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); meta keywords include Aprilia, Moto Guzzi, Piaggio,
+    Vespa; nav "Moto Guzzi for sale in Honolulu, HI" with dedicated brand logo and inventory
+    link; also shows Harley-Davidson, Kawasaki, Triumph, Aprilia, Vespa, Piaggio brand links;
+    parts request form references Guzzi; franchise per official locator 2026-07-26 — satellite
+    retained (stock levels may vary by cycle).'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 600 Puuloa Road, Honolulu, HI 96819

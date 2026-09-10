@@ -27,11 +27,15 @@ observations:
     2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'The site (www.motivcycleworks.com redirects to motivcycleworks.net) lists
-    Moto Guzzi as an authorized dealer brand. Address is 245 W Wilshire Blvd Unit
-    A, Oklahoma City, OK. The site''s copyright notice shows a placeholder year of
-    2035. Newest inventory listed includes 2024 Moto Guzzi models. [source: https://motivcycleworks.net/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'The site (www.motivcycleworks.com redirects to motivcycleworks.net) lists Moto Guzzi
+    as an authorized dealer brand. Address is 245 W Wilshire Blvd Unit A, Oklahoma City, OK.
+    The site''s copyright notice shows a placeholder year of 2035. Newest inventory listed
+    includes 2024 Moto Guzzi models. [source: https://motivcycleworks.net/]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); meta description confirms Moto Guzzi, Ducati,
+    MV Augusta among brands; address still 245 W Wilshire Blvd, Oklahoma City OK'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 245 W Wilshire Blvd, Unit A, Oklahoma City, OK 73116

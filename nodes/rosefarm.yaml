@@ -14,14 +14,13 @@ brands:
 functions:
 - service
 - restoration
-url: null
 phone: 815-337-6686
 observations:
 - date: 2026-07-26
   method: website
-  fact: Jim Barron's appointment-only BMW/Moto Guzzi specialist at 1250 N Rose Farm
-    Rd; long described as Chicagoland's only exclusive Moto Guzzi shop. No own website
-    found — listing data from directories, currency unconfirmed.
+  fact: Jim Barron's appointment-only BMW/Moto Guzzi specialist at 1250 N Rose Farm Rd; long
+    described as Chicagoland's only exclusive Moto Guzzi shop. No own website found — listing
+    data from directories, currency unconfirmed.
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-mimo
 status: unverified

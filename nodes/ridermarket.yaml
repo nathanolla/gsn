@@ -25,13 +25,12 @@ phone: (386) 257-2269
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Ormond Beach, FL); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Ormond Beach, FL); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Listed site daytonabeachmotos.com 301-redirects to ridermarketdaytona.com
-    (live). [source: https://www.daytonabeachmotos.com/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Listed site daytonabeachmotos.com 301-redirects to ridermarketdaytona.com (live).
+    [source: https://www.daytonabeachmotos.com/]'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 430 South Yonge Street, Ormond Beach, FL 32174

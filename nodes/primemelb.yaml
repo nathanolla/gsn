@@ -28,14 +28,18 @@ phone: (321) 587-4697
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site offers in-stock Moto Guzzi inventory and can-order model list. Carries
-    Aprilia, Benda, Benelli, CFMOTO, Denago, Moto Guzzi, Moto Morini, Piaggio, Segway,
-    and Vespa. Free statewide delivery advertised. Sister service operation in Sanford
-    FL.
+  fact: Own site offers in-stock Moto Guzzi inventory and can-order model list. Carries Aprilia,
+    Benda, Benelli, CFMOTO, Denago, Moto Guzzi, Moto Morini, Piaggio, Segway, and Vespa. Free
+    statewide delivery advertised. Sister service operation in Sanford FL.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Prime Motorcycles
-    Melbourne" (Melbourne, FL); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Prime Motorcycles Melbourne"
+    (Melbourne, FL); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); title confirms Prime Motorcycles Melbourne
+    powersports dealer; homepage nav links Aprilia, Benda, Benelli inventory pages; DX1 platform
+    active'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

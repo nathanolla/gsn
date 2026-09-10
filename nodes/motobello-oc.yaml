@@ -22,13 +22,16 @@ phone: (949) 373-3041
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Costa Mesa, CA); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Costa Mesa, CA); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'California''s first and only Piaggio Motoplex, established in 2024. Sells
-    Vespa, Aprilia, Moto Guzzi, and Piaggio. Located a mile from Newport Beach. Copyright
-    2026 Moto Bello Orange County. [source: https://www.motobello-oc.com/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'California''s first and only Piaggio Motoplex, established in 2024. Sells Vespa,
+    Aprilia, Moto Guzzi, and Piaggio. Located a mile from Newport Beach. Copyright 2026 Moto
+    Bello Orange County. [source: https://www.motobello-oc.com/]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); title confirms Piaggio Motoplex; og:description
+    lists Vespa, Moto Guzzi, and Aprilia; still serving Orange County'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

@@ -22,13 +22,17 @@ phone: (480) 284-8433
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Chandler, AZ); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Chandler, AZ); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Yelp listing marked ''Updated July 2026'' with 82 photos and 22 reviews.
-    [source: https://html.duckduckgo.com/html/?q=Reparto+Veloce+Chandler+Arizona+Aprilia+Moto+Guzzi+dealer+reviews]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Yelp listing marked ''Updated July 2026'' with 82 photos and 22 reviews. [source:
+    https://html.duckduckgo.com/html/?q=Reparto+Veloce+Chandler+Arizona+Aprilia+Moto+Guzzi+dealer+reviews]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); title confirms "Motorcycle & Scooter Dealer,
+    Chandler AZ | Aprilia, Moto Guzzi, Vespa, Piaggio"; meta description confirms all four
+    brands; DX1 platform active with Aprilia inventory links on homepage'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 430 E. Warner Rd Suite 5, Chandler, AZ 85225

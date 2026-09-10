@@ -21,14 +21,13 @@ phone: (614) 600-2421
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Columbus, OH); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Columbus, OH); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Own site newsletters dated February, March and April 2026; ''NEW 2026 & 2027
-    Moto Guzzi Models incoming''; Royal Enfield Classic 650 pre-order through March
-    31, 2026. [source: https://www.throttlecompany.com]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Own site newsletters dated February, March and April 2026; ''NEW 2026 & 2027 Moto
+    Guzzi Models incoming''; Royal Enfield Classic 650 pre-order through March 31, 2026. [source:
+    https://www.throttlecompany.com]'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 1130 West Mound Street, Columbus, OH 43223

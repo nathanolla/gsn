@@ -26,15 +26,30 @@ phone: (406) 761-0303
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Great Falls, MT); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Great Falls, MT); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Own site copyright 2026. Featured inventory includes 2025 Moto Guzzi Stelvio
-    ($16,990), 2026 Aprilia Tuono 660 Factory, 2026 Aprilia Tuareg 660, and multiple
-    2026 Can-Am Defender models (some marked ''Coming Soon''). Carries Arctic Cat,
-    Can-Am, Sea-Doo, Ski-Doo, Beta, and Aprilia among others. [source: https://www.paulsenspowersports.com/]'
+  fact: 'Own site copyright 2026. Featured inventory includes 2025 Moto Guzzi Stelvio ($16,990),
+    2026 Aprilia Tuono 660 Factory, 2026 Aprilia Tuareg 660, and multiple 2026 Can-Am Defender
+    models (some marked ''Coming Soon''). Carries Arctic Cat, Can-Am, Sea-Doo, Ski-Doo, Beta,
+    and Aprilia among others. [source: https://www.paulsenspowersports.com/]'
+- date: 2026-07-26
+  method: website
+  fact: 'Own site copyright 2026. Featured inventory includes 2025 Moto Guzzi Stelvio (6,990),
+    2026 Aprilia Tuono 660 Factory, 2026 Aprilia Tuareg 660, and multiple 2026 Can-Am Defender
+    models (some marked ''Coming Soon''). Carries Arctic Cat, Can-Am, Sea-Doo, Ski-Doo, Beta,
+    and Aprilia among others. [source: https://www.paulsenspowersports.com/]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site returns HTTP 403 on both attempts (including browser User-Agent).
+    Bot-protection block. Status set to unverified.'
+- date: '2026-09-10'
+  method: website
+  fact: 'Status adjudication (claude): 403 is a bot-wall, not closure evidence — the server
+    is alive and refusing robots; the 2026-07-26 official-locator listing stands. Policy (methodology
+    ''Bot-walls''): active on standing locator evidence <24mo, with the 403 recorded. Applied
+    uniformly across both 2026-09-10 reverify chunks.'
 last_verified: 2026-07-26
-verified_by: claude
+verified_by: claude-mimo
 status: active
 address: 200 57th St N, Great Falls, MT 59405

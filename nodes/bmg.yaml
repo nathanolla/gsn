@@ -24,19 +24,23 @@ phone: 845-294-2453
 observations:
 - date: 2026-07-26
   method: website
-  fact: 'Own site headline: "New Aprilia, Arctic Cat, Moto Guzzi, & Piaggio for sale";
-    maintains new Moto Guzzi model showroom pages; 2677 Route 17M'
+  fact: 'Own site headline: "New Aprilia, Arctic Cat, Moto Guzzi, & Piaggio for sale"; maintains
+    new Moto Guzzi model showroom pages; 2677 Route 17M'
 - date: 2026-07-26
   method: official-locator
-  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may
-    be onboarding, a satellite listing, or a dropped franchise — treat franchise status
-    as unconfirmed)
+  fact: Not found on the official Moto Guzzi US dealer locator as of 2026-07-26 (may be onboarding,
+    a satellite listing, or a dropped franchise — treat franchise status as unconfirmed)
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; Moto Guzzi showroom grid plus 48 Guzzi mentions; heavy
-    2026/2027 model-year references; phone matches node (official-locator absence
-    noted 2026-07-26 still unexplained)'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; Moto Guzzi showroom grid plus 48 Guzzi mentions; heavy 2026/2027
+    model-year references; phone matches node (official-locator absence noted 2026-07-26 still
+    unexplained)'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title "BMG Triumph Goshen, NY"; showroom links for
+    Aprilia, Moto Guzzi, Arctic Cat, Triumph, Piaggio with brand logos; phone 845-294-2453
+    matches node (official-locator absence noted 2026-07-26 still unexplained).'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 2677 Route 17M, Goshen, NY 10924

@@ -24,16 +24,20 @@ phone: (501) 794-5852
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Benton, AR); verified
-    2026-07-26
+  fact: Listed on the official Moto Guzzi US dealer locator (Benton, AR); verified 2026-07-26
 - date: 2026-07-26
   method: website
-  fact: 'Site loads with featured 2027-model inventory (Aprilia, GasGas, Husqvarna,
-    KTM) [source: https://www.baxleysmcatv.com/]'
+  fact: 'Site loads with featured 2027-model inventory (Aprilia, GasGas, Husqvarna, KTM) [source:
+    https://www.baxleysmcatv.com/]'
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; Moto Guzzi manufacturer/models page linked from nav;
-    2027 model-year references; phone matches node'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; Moto Guzzi manufacturer/models page linked from nav; 2027 model-year
+    references; phone matches node'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); nav links KTM, GasGas, Beta, Husqvarna, Aprilia,
+    and Moto Guzzi (dedicated /Brands/Manufacturer-Models/Model-List/Moto-Guzzi page); still
+    an active motorcycle/ATV dealership.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active

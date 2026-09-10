@@ -27,8 +27,8 @@ phone: 760-288-0011
 observations:
 - date: 2026-07-26
   method: website
-  fact: Multi-line desert dealer at 72750 Dinah Shore Dr; own site lists new Guzzi
-    units incl. 2024 V100 Mandello S and 2025 V7 Special.
+  fact: Multi-line desert dealer at 72750 Dinah Shore Dr; own site lists new Guzzi units incl.
+    2024 V100 Mandello S and 2025 V7 Special.
 - date: 2026-07-26
   method: official-locator
   fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
@@ -36,7 +36,12 @@ observations:
   method: official-locator
   fact: listed on the official Moto Guzzi US dealer locator as "Palm Springs Motorsports"
     (Palm Desert, CA); type=dealers,services; verified 2026-07-26
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); meta description confirms Motoguzzi among
+    brands; title lists Powersports Vehicles, Sales, Service, and Parts; serving Riverside,
+    Temecula, Indio, Palm Desert, Los Angeles'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 72750 Dinah Shore Drive Unit 107, Palm Desert, CA 92211

@@ -28,15 +28,19 @@ phone: (928) 778-7910
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site's 'Moto Guzzi Motorcycles For Sale in Prescott, AZ' page states it
-    has been an authorized Moto Guzzi dealer since 1996 — the northern-Arizona Guzzi
-    point. Also carries Genuine, Kymco, Moto Morini, SWM, GPX, KOVE, Benelli, Benda,
-    and Keeway.
+  fact: Own site's 'Moto Guzzi Motorcycles For Sale in Prescott, AZ' page states it has been
+    an authorized Moto Guzzi dealer since 1996 — the northern-Arizona Guzzi point. Also carries
+    Genuine, Kymco, Moto Morini, SWM, GPX, KOVE, Benelli, Benda, and Keeway.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Powersports Outlet"
-    (Prescott, AZ); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Powersports Outlet" (Prescott,
+    AZ); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); meta description confirms "Authorized Dealer
+    and Service Center for Moto Guzzi" since 1996; nav includes dedicated Moto Guzzi Parts
+    section and Moto Guzzi for-sale page; still serving Prescott AZ'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 145 N Montezuma St, Prescott, AZ 86301

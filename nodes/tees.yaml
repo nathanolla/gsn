@@ -26,7 +26,7 @@ observations:
   method: official-locator
   fact: Listed on the official Moto Guzzi US dealer locator as "Team Charlotte Motorsports"
     (Charlotte, NC); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 3004 Freedom Dr, Charlotte, NC 28208

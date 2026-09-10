@@ -24,10 +24,17 @@ observations:
     found.
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; WordPress media uploaded May 2025; phone 919-688-5009
-    matches; still no Moto Guzzi mention anywhere on own site — node kept as Durham-area
-    European service option, scope question flagged to maintainer.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; WordPress media uploaded May 2025; phone 919-688-5009 matches;
+    still no Moto Guzzi mention anywhere on own site — node kept as Durham-area European service
+    option, scope question flagged to maintainer.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title "Combustion Cycles Ltd – Motorcycle and Scooter
+    Sales and Service, Durham, NC"; lists Honda, Suzuki, Kawasaki, Yamaha, Triumph, Genuine,
+    Vespa, HD, Indian, BMW, Ducati — still no Moto Guzzi mention on own site (third consecutive
+    check). Node retained as Durham-area European service option per prior maintainer decision;
+    scope question remains flagged.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 911-C East Trinity Avenue, Durham, NC 27704

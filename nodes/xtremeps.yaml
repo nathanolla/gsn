@@ -23,18 +23,23 @@ phone: (800) 967-7738
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site lists Aprilia, Beta, and Moto Guzzi among brands with current new
-    inventory including 2025 V85 TT and 2025 Stelvio; located at 418 S Main St.
+  fact: Own site lists Aprilia, Beta, and Moto Guzzi among brands with current new inventory
+    including 2025 V85 TT and 2025 Stelvio; located at 418 S Main St.
 - date: 2026-07-26
   method: official-locator
   fact: Listed on the official Moto Guzzi US dealer locator as "Xtreme Powersports-Marine"
     (Accident, MD); type=dealers,services; verified 2026-07-26.
 - date: 2026-08-22
   method: website
-  fact: Pass-2 site check confirmed the address as 418 S. Main St, Accident, MD 21520
-    and the phone as (800) 967-7738. Homepage promotes Aprilia and Moto Guzzi with
-    current financing offers.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Pass-2 site check confirmed the address as 418 S. Main St, Accident, MD 21520 and
+    the phone as (800) 967-7738. Homepage promotes Aprilia and Moto Guzzi with current financing
+    offers.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title "Xtreme Powersports"; meta keywords include
+    "aprilia, beta, moto guzzi, piaggio, vespa"; phone 800-967-7738 matches node. Still a
+    powersports dealership in Accident, MD.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 418 S. Main St, Accident, MD 21520

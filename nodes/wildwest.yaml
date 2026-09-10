@@ -26,21 +26,21 @@ phone: 281-392-8850
 observations:
 - date: 2026-07-26
   method: website
-  fact: Houston-area multi-line dealership at 22515 Katy Freeway; site has a dedicated
-    'Moto Guzzi Dealer in Katy, TX' page and lists Moto Guzzi among its brands.
+  fact: Houston-area multi-line dealership at 22515 Katy Freeway; site has a dedicated 'Moto
+    Guzzi Dealer in Katy, TX' page and lists Moto Guzzi among its brands.
 - date: 2026-07-26
   method: official-locator
   fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Wild West Motoplex"
-    (Katy, TX); type=dealers,services; verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator as "Wild West Motoplex" (Katy,
+    TX); type=dealers,services; verified 2026-07-26.
 - date: 2026-08-22
   method: website
-  fact: Pass-2 site check confirmed the address as 22515 Katy Fwy, Katy, TX 77450
-    and the phone as (281) 392-8850. Site also lists Aprilia, Piaggio, Vespa, and
-    Zero Motorcycles beyond the brands currently captured in this node.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Pass-2 site check confirmed the address as 22515 Katy Fwy, Katy, TX 77450 and the
+    phone as (281) 392-8850. Site also lists Aprilia, Piaggio, Vespa, and Zero Motorcycles
+    beyond the brands currently captured in this node.
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 22515 Katy Fwy, Katy, TX 77450

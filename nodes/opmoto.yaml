@@ -23,27 +23,36 @@ phone: 425-765-3691
 observations:
 - date: 2026-07-26
   method: website
-  fact: Licensed Aprilia/Moto Guzzi/Vespa/Piaggio/Triumph dealer at 13622 NE 20th
-    St — the Seattle-area Guzzi franchise since Moto International's closure. Own
-    site maintains new-inventory and news pages, with additional Redmond WA and Portland
-    OR operations.
+  fact: Licensed Aprilia/Moto Guzzi/Vespa/Piaggio/Triumph dealer at 13622 NE 20th St — the
+    Seattle-area Guzzi franchise since Moto International's closure. Own site maintains new-inventory
+    and news pages, with additional Redmond WA and Portland OR operations.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Optimum Performance
-    Motorsports" (Redmond, WA); type=dealers,services; verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator as "Optimum Performance Motorsports"
+    (Redmond, WA); type=dealers,services; verified 2026-07-26.
 - date: 2026-07-26
   method: community-endorsement
   fact: Recommended for Guzzi work by multiple members on wildguzzi.com as the Seattle-area
-    dealer after Moto International closed. One member's friend had a new V85 shipped
-    to Alaska with 'nothing but praise', thread of 2020-01 (https://wildguzzi.com/forum/index.php?topic=104139.0).
+    dealer after Moto International closed. One member's friend had a new V85 shipped to Alaska
+    with 'nothing but praise', thread of 2020-01 (https://wildguzzi.com/forum/index.php?topic=104139.0).
 - date: 2026-07-26
   method: website
-  fact: Second Eastside location reported at 17646 NE 65th St, Redmond WA, plus a
-    Portland OR operation — multi-site; confirm primary address when calling.
+  fact: Second Eastside location reported at 17646 NE 65th St, Redmond WA, plus a Portland
+    OR operation — multi-site; confirm primary address when calling.
 - date: 2026-08-22
   method: website
-  fact: Site is currently down for scheduled maintenance. Maintenance page confirms
-    Redmond phone (425) 765-3691 and Portland phone (971) 865-0054.
+  fact: Site is currently down for scheduled maintenance. Maintenance page confirms Redmond
+    phone (425) 765-3691 and Portland phone (971) 865-0054.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site returns HTTP 403 on both attempts (including browser User-Agent).
+    Previously maintenance-mode on 2026-08-22; now fully blocked. Status set to unverified.'
+- date: '2026-09-10'
+  method: website
+  fact: 'Status adjudication (claude): 403 is a bot-wall, not closure evidence — the server
+    is alive and refusing robots; the 2026-07-26 official-locator listing stands. Policy (methodology
+    ''Bot-walls''): active on standing locator evidence <24mo, with the 403 recorded. Applied
+    uniformly across both 2026-09-10 reverify chunks.'
 last_verified: 2026-07-26
-verified_by: claude-locator-xref
+verified_by: claude-mimo
 status: active

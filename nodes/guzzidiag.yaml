@@ -1,10 +1,6 @@
 id: guzzidiag
 name: GuzziDiag
-city: null
-state: null
 country: US
-lat: null
-lon: null
 layer: knowledge
 capability:
 - knowledge

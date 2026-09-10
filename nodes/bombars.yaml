@@ -25,9 +25,15 @@ observations:
   fact: Relocated from Durham, NC to Wilmington, NC per own announcements.
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; meta description "BMW, Triumph, Moto Guzzi and European
-    Motorcycle Service"; phone matches node.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; meta description "BMW, Triumph, Moto Guzzi and European Motorcycle
+    Service"; phone matches node.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); meta "Bombars Beemers BMW, Triumph, Moto Guzzi and
+    European Motorcycle Service. 919-491-4875"; brand logos for BMW, Triumph, Guzzi, KTM,
+    Kawasaki, Suzuki, Honda, Yamaha, Norton, Ural; body text: "offer BMW, Moto Guzzi, and
+    European owners the finest services available"; phone (919) 491-4875 matches node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 6427 Windmill Way UNIT C, Wilmington, NC 28405

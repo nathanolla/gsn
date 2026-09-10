@@ -24,18 +24,23 @@ phone: (573) 334-7300
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Cape Girardeau, MO);
-    verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Cape Girardeau, MO); verified
+    2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Own site shows July 1-31 2026 promotions (Piaggio Urban Days, Vespa Days,
-    Moto Guzzi Days, Aprilia Days); Suzuki graphics promo through Sep 30 2026. [source:
-    https://www.capesuzukicfmoto.com/]'
+  fact: 'Own site shows July 1-31 2026 promotions (Piaggio Urban Days, Vespa Days, Moto Guzzi
+    Days, Aprilia Days); Suzuki graphics promo through Sep 30 2026. [source: https://www.capesuzukicfmoto.com/]'
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; Moto Guzzi military/first-responders promotion displayed;
-    heavy 2026/2027 references; phone matches node.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; Moto Guzzi military/first-responders promotion displayed; heavy
+    2026/2027 references; phone matches node.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title "Cape Suzuki CFMOTO Powersports"; active promotions
+    for Vespa (Military & First Responders, Super Summer), Aprilia (Military & First Responders,
+    Super Summer), and Moto Guzzi (Super Summer); nav links Suzuki and CFMOTO; phone (573)
+    334-7300 matches node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 338 Christine Street, Cape Girardeau, MO 63703

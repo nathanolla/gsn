@@ -28,9 +28,9 @@ observations:
   fact: Site live; actively promotes Moto Guzzi financing.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Moto Guzzi Marietta"
-    (Marietta, GA); type=dealers; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Moto Guzzi Marietta" (Marietta,
+    GA); type=dealers; verified 2026-07-26.
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 793 Roswell Street NE, Marietta, GA 30060

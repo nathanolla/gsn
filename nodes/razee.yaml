@@ -20,16 +20,19 @@ phone: 401-295-8837
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site (search-indexed; direct fetch bot-blocked) shows current new Moto
-    Guzzi inventory including 2025 V85 Strada and 2024 V100 Mandello S; family-owned,
-    730 Tower Hill Rd.
+  fact: Own site (search-indexed; direct fetch bot-blocked) shows current new Moto Guzzi inventory
+    including 2025 V85 Strada and 2024 V100 Mandello S; family-owned, 730 Tower Hill Rd.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Razee Motorcycle Center,
-    Inc." (N. Kingstown, RI); type=dealers,services; verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator as "Razee Motorcycle Center, Inc."
+    (N. Kingstown, RI); type=dealers,services; verified 2026-07-26.
 - date: 2026-08-22
   method: website
   fact: 'pass-2 check: site unreachable (403 Forbidden)'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site returns HTTP 403 on both attempts (including browser User-Agent).
+    Consistent bot-protection block since 2026-08-22. Status remains unverified.'
 last_verified: 2026-07-26
-verified_by: claude-locator-xref
+verified_by: claude-mimo
 status: unverified

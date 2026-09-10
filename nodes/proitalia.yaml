@@ -21,14 +21,19 @@ phone: (818) 249-5707
 observations:
 - date: 2026-07-26
   method: website
-  fact: Selling Italian bikes since 1987. Own site runs current Moto Guzzi inventory
-    showroom (2027 V100 Mandello S in stock) and US Moto Guzzi promotions pages serving
-    greater Los Angeles. Also carries Aprilia and Ducati.
+  fact: Selling Italian bikes since 1987. Own site runs current Moto Guzzi inventory showroom
+    (2027 V100 Mandello S in stock) and US Moto Guzzi promotions pages serving greater Los
+    Angeles. Also carries Aprilia and Ducati.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Pro Italia Motors,
-    Inc." (Glendale, CA); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Pro Italia Motors, Inc." (Glendale,
+    CA); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); title confirms "Ducati, Aprilia, Moto Guzzi,
+    Agusta and Royal Enfield"; meta description confirms Moto Guzzi; serving Los Angeles,
+    Pasadena, Glendale, Burbank, Agoura'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 3319 North Verdugo Rd., Glendale, CA 91208

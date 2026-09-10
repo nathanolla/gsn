@@ -28,28 +28,31 @@ phone: 216-795-5580
 observations:
 - date: 2026-07-26
   method: website
-  fact: 25+ year shop at 16211 Lorain Ave claiming the largest Italian bike/scooter
-    inventory in the USA; current stock incl. 2023 Moto Guzzi V100 Mandello S; also
-    does Guzzi restoration and custom work (separate Mentor OH satellite closed).
+  fact: 25+ year shop at 16211 Lorain Ave claiming the largest Italian bike/scooter inventory
+    in the USA; current stock incl. 2023 Moto Guzzi V100 Mandello S; also does Guzzi restoration
+    and custom work (separate Mentor OH satellite closed).
 - date: 2026-07-26
   method: official-locator
-  fact: Listed as 'Cleveland Moto Guzzi' on the official dealer locator (surfaced
-    in search results).
+  fact: Listed as 'Cleveland Moto Guzzi' on the official dealer locator (surfaced in search
+    results).
 - date: 2026-07-26
   method: community-endorsement
-  fact: Recommended for Guzzi work by a forum member on wildguzzi.com — former MG
-    dealers who 'still work on them (and lots of Italian bikes)', thread of 2021-11
-    (https://wildguzzi.com/forum/index.php?topic=112965.0); also cited as having good
-    reviews in a 2020-08 Ohio thread (https://wildguzzi.com/forum/index.php?topic=107253.0).
+  fact: Recommended for Guzzi work by a forum member on wildguzzi.com — former MG dealers
+    who 'still work on them (and lots of Italian bikes)', thread of 2021-11 (https://wildguzzi.com/forum/index.php?topic=112965.0);
+    also cited as having good reviews in a 2020-08 Ohio thread (https://wildguzzi.com/forum/index.php?topic=107253.0).
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Cleveland Moto Guzzi"
-    (Cleveland, OH); type=dealers,services; verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator as "Cleveland Moto Guzzi" (Cleveland,
+    OH); type=dealers,services; verified 2026-07-26.
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; Moto Guzzi slideshow banner; copyright 2026; phone matches
-    node.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; Moto Guzzi slideshow banner; copyright 2026; phone matches node.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title "ClevelandMoto"; Moto Guzzi slideshow banner
+    image; nav "Shop Moto Guzzi in Cleveland, OH" with inventory link; also shows Moto Morini
+    and Piaggio; meta describes Piaggio, Vespa, Zero; phone 216-795-5580 matches node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 16211 Lorain Ave., Cleveland, OH 44111

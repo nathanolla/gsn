@@ -22,15 +22,19 @@ phone: (724) 779-1901
 observations:
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator (Warrendale, PA); verified
-    2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator (Warrendale, PA); verified 2026-07-26.
 - date: 2026-07-26
   method: website
-  fact: 'Own site copyright 2026. Carries Triumph, Royal Enfield, Aprilia, and Moto
-    Guzzi. Current inventory includes 2025 Moto Guzzi Stelvio, 2026 Moto Guzzi V7
-    Stone, 2027 Moto Guzzi V7 Stone, and 2026 Aprilia Tuono V4. Service location also
-    at 10301 Perry Highway, Bldg. B, Wexford, PA 15090. [source: https://www.pittcycles.com/]'
-last_verified: 2026-07-26
-verified_by: claude
+  fact: 'Own site copyright 2026. Carries Triumph, Royal Enfield, Aprilia, and Moto Guzzi.
+    Current inventory includes 2025 Moto Guzzi Stelvio, 2026 Moto Guzzi V7 Stone, 2027 Moto
+    Guzzi V7 Stone, and 2026 Aprilia Tuono V4. Service location also at 10301 Perry Highway,
+    Bldg. B, Wexford, PA 15090. [source: https://www.pittcycles.com/]'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); title confirms "Motorcycle Dealers in Pittsburgh:
+    Triumph, Royal Enfield, Aprilia, & Moto Guzzi"; meta description confirms Moto Guzzi among
+    brands; site initially returned 403 but served content with browser User-Agent'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 65 Warrendale Bayne Rd, Warrendale, PA 15086

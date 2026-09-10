@@ -23,20 +23,25 @@ phone: 210-403-2100
 observations:
 - date: 2026-07-26
   method: website
-  fact: Own site sells new Triumph, Moto Guzzi, Aprilia and Ducati with a Moto Guzzi
-    current-inventory showroom and demo-bike program; 11007 Fredericksburg Rd.
+  fact: Own site sells new Triumph, Moto Guzzi, Aprilia and Ducati with a Moto Guzzi current-inventory
+    showroom and demo-bike program; 11007 Fredericksburg Rd.
 - date: 2026-07-26
   method: official-locator
   fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "CTX Motoworks" (San
-    Antonio, TX); type=dealers,services; verified 2026-07-26.
+  fact: Listed on the official Moto Guzzi US dealer locator as "CTX Motoworks" (San Antonio,
+    TX); type=dealers,services; verified 2026-07-26.
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; "new and pre-owned from Triumph, Moto Guzzi, Aprilia
-    and Ducati"; 2026 references; phone matches node.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; "new and pre-owned from Triumph, Moto Guzzi, Aprilia and Ducati";
+    2026 references; phone matches node.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title "New and Used Motorcycles San Antonio"; meta
+    "Triumph, Moto Guzzi, Aprilia and Ducati"; nav links Ducati, Triumph, Aprilia, Moto Guzzi,
+    MV Agusta; phone 210-403-2100 matches node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 11007 Fredericksburg Road, San Antonio, TX 78249

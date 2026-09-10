@@ -29,17 +29,22 @@ phone: 610-965-9865
 observations:
 - date: 2026-07-26
   method: website
-  fact: 70-year, 18-brand family dealership; own site has current Moto Guzzi inventory
-    pages, Moto Guzzi promotions page, and a Moto Guzzi Demo Tour event listing
+  fact: 70-year, 18-brand family dealership; own site has current Moto Guzzi inventory pages,
+    Moto Guzzi promotions page, and a Moto Guzzi Demo Tour event listing
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Blackmans Cycle Center
-    in Emmaus, PA" (Emmaus, PA); type=dealers,services; verified 2026-07-26
+  fact: Listed on the official Moto Guzzi US dealer locator as "Blackmans Cycle Center in
+    Emmaus, PA" (Emmaus, PA); type=dealers,services; verified 2026-07-26
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; Moto Guzzi inventory link and promotional slideshow;
-    2027 model-year references; copyright 2026; phone matches node'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; Moto Guzzi inventory link and promotional slideshow; 2027 model-year
+    references; copyright 2026; phone matches node'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title "Powersports Vehicles For Sale In Emmaus, Pennsylvania";
+    current Moto Guzzi inventory includes 2026 V85 TT Travel, 2025 Stelvio, 2025 V85 Strada;
+    dedicated Moto Guzzi nav link with brand logo; phone 610-965-9865 matches node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 4911 Buckeye Road, Emmaus, PA 18049

@@ -22,15 +22,20 @@ phone: 317-939-2145
 observations:
 - date: 2026-07-26
   method: website
-  fact: Graham Rahal's Piaggio Motoplex. Own site runs a current Moto Guzzi showroom
-    with multiple models in stock (V7 Special, V85 TT Travel, V85 Strada, Stelvio,
-    V100 Mandello, V9 Bobber). Co-located with Rahal Ducati at 10814 Creek Way, Zionsville,
-    IN. Also serves Anderson, Indianapolis, Noblesville, and Whitestown areas.
+  fact: Graham Rahal's Piaggio Motoplex. Own site runs a current Moto Guzzi showroom with
+    multiple models in stock (V7 Special, V85 TT Travel, V85 Strada, Stelvio, V100 Mandello,
+    V9 Bobber). Co-located with Rahal Ducati at 10814 Creek Way, Zionsville, IN. Also serves
+    Anderson, Indianapolis, Noblesville, and Whitestown areas.
 - date: 2026-07-26
   method: official-locator
-  fact: Listed on the official Moto Guzzi US dealer locator as "Piaggio Vespa Aprilia
-    Moto Guzzi Indiana" (Zionsville, IN); type=dealers,services; verified 2026-07-26.
-last_verified: 2026-07-26
-verified_by: claude-locator-xref
+  fact: Listed on the official Moto Guzzi US dealer locator as "Piaggio Vespa Aprilia Moto
+    Guzzi Indiana" (Zionsville, IN); type=dealers,services; verified 2026-07-26.
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: site alive (HTTP 200); title confirms "Motorcycle Dealer near Indianapolis,
+    IN | Rahal Piaggio"; meta keywords include Moto Guzzi; serving Zionsville, Lebanon, Fishers,
+    Avon, Indianapolis'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 10814 Creek Way, Zionsville, IN 46077

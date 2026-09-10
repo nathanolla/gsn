@@ -21,27 +21,32 @@ phone: 513-522-7300
 observations:
 - date: 2026-07-26
   method: website
-  fact: 'Own site: ''Cincinnati''s premier Moto Guzzi, Vespa, and Piaggio dealership
-    and service center'', European-brand specialists at 11121 Deerfield Rd (Blue Ash
-    area), home delivery within 200 miles.'
+  fact: 'Own site: ''Cincinnati''s premier Moto Guzzi, Vespa, and Piaggio dealership and service
+    center'', European-brand specialists at 11121 Deerfield Rd (Blue Ash area), home delivery
+    within 200 miles.'
 - date: 2026-07-26
   method: official-locator
   fact: Appears on the official Moto Guzzi dealer locator (surfaced in search results).
 - date: 2026-07-26
   method: community-endorsement
-  fact: Recommended for Guzzi work by multiple members on wildguzzi.com — praised
-    for 'Guzzi Dave', a 1970s Guzzi restoration, and 'top notch mechanics', threads
-    of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0) and 2021-11
-    (https://wildguzzi.com/forum/index.php?topic=112965.0).
+  fact: Recommended for Guzzi work by multiple members on wildguzzi.com — praised for 'Guzzi
+    Dave', a 1970s Guzzi restoration, and 'top notch mechanics', threads of 2020-08 (https://wildguzzi.com/forum/index.php?topic=107253.0)
+    and 2021-11 (https://wildguzzi.com/forum/index.php?topic=112965.0).
 - date: 2026-07-26
   method: official-locator
   fact: Listed on the official Moto Guzzi US dealer locator as "Cadre Cycle" (Cincinnati,
     OH); type=dealers,services; verified 2026-07-26.
 - date: 2026-08-18
   method: website
-  fact: 'Re-check: site live; title/description "Vespa, Piaggio, Moto Guzzi Dealer
-    Cincinnati"; 2027 V85 reference; copyright 2026; phone matches node.'
-last_verified: 2026-08-18
-verified_by: claude-glm
+  fact: 'Re-check: site live; title/description "Vespa, Piaggio, Moto Guzzi Dealer Cincinnati";
+    2027 V85 reference; copyright 2026; phone matches node.'
+- date: 2026-09-10
+  method: website
+  fact: 'Re-check: site live (HTTP 200); title "Cadre Cycle | Vespa, Piaggio, Moto Guzzi Dealer
+    Cincinnati"; nav links to New Moto Guzzi Motorcycles, New Piaggio & Vespa Scooters, Moto
+    Guzzi Owners/Service Manuals; schema dateModified 2026-09-02; phone 513-522-7300 matches
+    node.'
+last_verified: 2026-09-10
+verified_by: claude-mimo
 status: active
 address: 11121 Deerfield Rd Ste D, Blue Ash, OH 45242

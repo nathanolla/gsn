@@ -28,6 +28,11 @@ observations:
   method: website
   fact: 'Re-verification pass: Facebook page returns error page (''Sorry, something went wrong'');
     not accessible via automated fetch. Status unchanged.'
-last_verified: 2026-07-26
+- date: 2026-09-10
+  method: website
+  fact: 'Re-verification: Facebook page accessible (HTTP 200); og:title confirms "Old school
+    cycles | Burlington NC"; og:description shows 730 likes, 71 check-ins, listed as Motorcycle
+    Dealership; page still active'
+last_verified: 2026-09-10
 verified_by: claude-mimo
-status: unverified
+status: active
