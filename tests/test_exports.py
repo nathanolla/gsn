@@ -38,3 +38,13 @@ def test_escaping_survives_hostile_names(exports):
 def test_vocab_reaches_export_descriptions(exports):
     # Harness injects a marker vocab for full-service; descOf must use it.
     assert "vollservice-TEST" in exports["gpx"], "LOC.vocab not applied in descOf"
+
+def test_exports_respect_the_corridor():
+    # The shipped export selector must apply the corridor filter — the promise
+    # of corridor mode is "export the nodes that can save this trip", and a
+    # visibleGeo() without nearRoute() silently exports the whole database.
+    html = (ROOT / "site" / "index.html").read_text()
+    i = html.index("function visibleGeo()")
+    body = html[i:html.index("}", html.index("FEATS.filter", i)) + 1]
+    assert "corridorOn()" in body and "nearRoute(" in body, (
+        "visibleGeo() no longer applies the corridor filter to exports")

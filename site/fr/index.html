@@ -207,6 +207,7 @@
     <button id="kml" class="sec" title="Télécharger les nœuds affichés en KML (Google Earth, Maps)">↓ KML</button>
     <button id="corridor" class="sec" title="Planifiez un itinéraire : touchez la carte pour le tracer ou importez un GPX — la liste filtre les nœuds le long du trajet">ITINÉRAIRE</button>
     <select id="corrad" aria-label="Corridor radius" style="display:none"></select>
+    <button id="gpximport" class="sec" style="display:none" title="Importer un fichier de route GPX — le corridor la suit">⤒ GPX</button>
     <input id="gpxfile" type="file" accept=".gpx" style="display:none">
   </div>
   <div id="offline" style="display:none;text-align:center;background:#ffe08a;color:#5a4500;font:13px/1.6 monospace;padding:4px">
@@ -497,6 +498,7 @@ function render(){
     cbtn.dataset.base=cbtn.dataset.base||cbtn.textContent;
     cbtn.textContent=on?cbtn.dataset.base+' ✕':cbtn.dataset.base;
     corrSel.style.display=on?'':'none';
+    document.getElementById('gpximport').style.display=on?'':'none';
     if(!on){routePts=[];drawRoute();}
     render();
   }
@@ -505,8 +507,8 @@ function render(){
     if(corridorActive){setCorridor(false);return;}
     setCorridor(true);
   };
-  // long-press alternative for GPX import lives on the radius select label;
-  // simplest affordance: double-click the ROUTE button to import a file
+  // visible import button (appears with corridor mode); double-click ROUTE kept as a shortcut
+  document.getElementById('gpximport').onclick=()=>document.getElementById('gpxfile').click();
   document.getElementById('corridor').ondblclick=()=>{if(corridorActive)document.getElementById('gpxfile').click();};
   document.getElementById('gpxfile').onchange=e=>{
     const f=e.target.files[0]; if(!f)return;
@@ -570,7 +572,7 @@ function render(){
   };
   // ---- GPX / KML export of the currently-shown (filtered) nodes, client-side ----
   function visibleGeo(){const fl=document.getElementById('flayer').value;
-    return FEATS.filter(f=>f.geometry&&f.properties.capability.some(c=>activeCaps.has(c))&&(!fl||f.properties.layer===fl));}
+    return FEATS.filter(f=>f.geometry&&f.properties.capability.some(c=>activeCaps.has(c))&&(!fl||f.properties.layer===fl)&&(!corridorOn()||nearRoute(f.geometry.coordinates)));}
   function xesc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
   function dl(name,type,text){const b=new Blob([text],{type});const a=document.createElement('a');
     a.href=URL.createObjectURL(b);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000);}
@@ -578,11 +580,11 @@ function render(){
   document.getElementById('gpx').onclick=()=>{
     const w=visibleGeo().map(f=>{const p=f.properties,[lng,lat]=f.geometry.coordinates;
       return `  <wpt lat="${lat}" lon="${lng}">\n    <name>${xesc(p.name)}</name>\n    <desc>${xesc(descOf(p))}</desc>\n    <sym>Motorcycle Shop</sym>\n  </wpt>`;}).join('\n');
-    dl('gsn-nodes.gpx','application/gpx+xml',`<?xml version="1.0" encoding="UTF-8"?>\n<gpx version="1.1" creator="Guzzi Support Network" xmlns="http://www.topografix.com/GPX/1/1">\n${w}\n</gpx>\n`);};
+    dl(corridorOn()?'gsn-corridor.gpx':'gsn-nodes.gpx','application/gpx+xml',`<?xml version="1.0" encoding="UTF-8"?>\n<gpx version="1.1" creator="Guzzi Support Network" xmlns="http://www.topografix.com/GPX/1/1">\n${w}\n</gpx>\n`);};
   document.getElementById('kml').onclick=()=>{
     const w=visibleGeo().map(f=>{const p=f.properties,[lng,lat]=f.geometry.coordinates;
       return `    <Placemark>\n      <name>${xesc(p.name)}</name>\n      <description>${xesc(descOf(p))}</description>\n      <Point><coordinates>${lng},${lat},0</coordinates></Point>\n    </Placemark>`;}).join('\n');
-    dl('gsn-nodes.kml','application/vnd.google-earth.kml+xml',`<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document>\n    <name>Guzzi Support Network</name>\n${w}\n</Document></kml>\n`);};
+    dl(corridorOn()?'gsn-corridor.kml':'gsn-nodes.kml','application/vnd.google-earth.kml+xml',`<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document>\n    <name>Guzzi Support Network</name>\n${w}\n</Document></kml>\n`);};
   // ---- offline indicator + service worker (PWA / offline-first) ----
   const offEl=document.getElementById('offline');
   const setOff=()=>{offEl.style.display=navigator.onLine?'none':'block';};

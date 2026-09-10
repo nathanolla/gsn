@@ -54,3 +54,4 @@ strings:
   '>suggest a fix</a>': '>zgłoś poprawkę</a>'
   '>ROUTE<': '>TRASA<'
   'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': 'title="Zaplanuj trasę: dotknij mapy, aby ją narysować, lub zaimportuj GPX — lista pokaże węzły wzdłuż trasy"'
+  'title="Import a GPX route file — the corridor follows it"': 'title="Zaimportuj plik trasy GPX — korytarz podąża za nią"'

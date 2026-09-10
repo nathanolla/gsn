@@ -54,3 +54,4 @@ strings:
   '>suggest a fix</a>': '>signaler une correction</a>'
   '>ROUTE<': '>ITINÉRAIRE<'
   'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': 'title="Planifiez un itinéraire : touchez la carte pour le tracer ou importez un GPX — la liste filtre les nœuds le long du trajet"'
+  'title="Import a GPX route file — the corridor follows it"': 'title="Importer un fichier de route GPX — le corridor la suit"'

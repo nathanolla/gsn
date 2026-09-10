@@ -54,3 +54,4 @@ strings:
   '>suggest a fix</a>': '>Korrektur vorschlagen</a>'
   '>ROUTE<': '>ROUTE<'
   'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': 'title="Route planen: auf die Karte tippen zum Zeichnen oder GPX importieren — die Liste filtert auf Knoten entlang der Route"'
+  'title="Import a GPX route file — the corridor follows it"': 'title="GPX-Routendatei importieren — der Korridor folgt ihr"'

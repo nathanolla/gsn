@@ -54,3 +54,4 @@ strings:
   '>suggest a fix</a>': '>修正を提案</a>'
   '>ROUTE<': '>ルート<'
   'title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it"': title="ルート計画：地図をタップして描くか、GPXをインポート — ルート沿いのノードだけを表示"
+  'title="Import a GPX route file — the corridor follows it"': 'title="GPXルートファイルを読み込む — 回廊がルートに沿います"'
