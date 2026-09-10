@@ -57,3 +57,4 @@ strings:
   'title="Import a GPX route file — the corridor follows it"': 'title="GPX-Routendatei importieren — der Korridor folgt ihr"'
   '<option value="">— any era —</option>': '<option value="">— alle Epochen —</option>'
   'aria-label="Filter by era"': 'aria-label="Nach Epoche filtern"'
+  '<a href="desert.html">the desert index</a>': '<a href="desert.html">der Wüstenindex</a>'

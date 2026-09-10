@@ -57,3 +57,4 @@ strings:
   'title="Import a GPX route file — the corridor follows it"': 'title="GPXルートファイルを読み込む — 回廊がルートに沿います"'
   '<option value="">— any era —</option>': '<option value="">— すべての年代 —</option>'
   'aria-label="Filter by era"': 'aria-label="年代で絞り込む"'
+  '<a href="desert.html">the desert index</a>': '<a href="desert.html">砂漠インデックス</a>'
