@@ -54,3 +54,9 @@ def test_two_date_freshness_is_derived():
                        for o in p["observations"])
     assert scraped > 300, "scraped-date derivation broke"
     assert rider >= 1, "rider-date derivation broke (artmoto is visited-dated)"
+
+def test_geojson_carries_the_schema_contract():
+    g = json.loads((ROOT / "site" / "nodes.geojson").read_text())
+    p = g["properties"]
+    assert p["schema_version"].startswith("1."), "v1 stability promise broken?"
+    assert p["license"] == "ODbL-1.0" and "schema.md" in p["schema"]

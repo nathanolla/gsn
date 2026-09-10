@@ -198,7 +198,11 @@ def main():
 
     gj = {"type": "FeatureCollection",
           "features": features,
-          "properties": {"generated_by": "gsn build.py", "count": len(features)}}
+          "properties": {"generated_by": "gsn build.py", "count": len(features),
+                         "schema_version": "1.1",
+                         "schema": "https://github.com/nathanolla/gsn/blob/main/docs/schema.md",
+                         "license": "ODbL-1.0",
+                         "attribution": "Guzzi Support Network — guzzisupport.network"}}
     out = ROOT / "site" / "nodes.geojson"
     out.write_text(json.dumps(gj, indent=1, ensure_ascii=False, default=str))
     print(f"OK: {len(nodes)} nodes validated -> {out.relative_to(ROOT)}")

@@ -21,6 +21,12 @@ Read [`doctrine.md`](doctrine.md) (the grading rubric) and [`methodology.md`](me
 (observations → categories). Then open a PR using the template. The cheapest valuable
 contribution is **adopt-a-node**: confirm the phone still answers and bump `last_verified`.
 
+## Use the data
+`https://guzzisupport.network/nodes.geojson` is a **public, stable, CORS-open endpoint**
+(plus `gsn-nodes.gpx` and `gsn-poi.gpi`). Schema contract and stability promise:
+[`docs/schema.md`](docs/schema.md). Build your bot, overlay, or club page on it — ODbL:
+attribute and share-alike.
+
 ## Licenses
 - **Data** (`/nodes`, generated GeoJSON): [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)
 - **Code** (everything else): MIT — see [LICENSE](LICENSE)

@@ -22209,6 +22209,10 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 471
+  "count": 471,
+  "schema_version": "1.1",
+  "schema": "https://github.com/nathanolla/gsn/blob/main/docs/schema.md",
+  "license": "ODbL-1.0",
+  "attribution": "Guzzi Support Network — guzzisupport.network"
  }
 }
