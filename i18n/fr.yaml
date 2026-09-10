@@ -63,3 +63,5 @@ strings:
   '🌐 web · 📞 called · 👁 visited · 🛒 bought': '🌐 web · 📞 appelé · 👁 visité · 🛒 acheté'
   '>✉ report by email</a>': '>✉ signaler par e-mail</a>'
   '<a href="sticker.svg">counter sticker</a>': '<a href="sticker.svg">autocollant de comptoir</a>'
+  '>DESERT</button>': '>DÉSERT</button>'
+  'title="Heat layer: every town on earth colored by distance to the nearest full-service node — green good, red bad, grey desert. Where we haven''t scraped yet, grey measures our coverage too"': 'title="Calque thermique : chaque ville du monde colorée selon la distance au nœud full-service le plus proche — vert bien, rouge mal, gris désert. Là où nous n''avons pas encore relevé, le gris mesure aussi notre couverture"'

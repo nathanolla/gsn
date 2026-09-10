@@ -189,7 +189,7 @@ div.scroll{{overflow-x:auto}}</style></head><body>
 <p class="note">How far is America from a Guzzi wrench? Distance from every US town (5,000+ people)
 to the nearest <i>active, full-service</i> GSN node. Straight-line miles — roads are longer.<br>
 Computed {TODAY} from {len(fs)} full-service nodes. A neutral finding, not a review.
-<br><a href="index.html">&larr; back to the map</a></p><hr>
+<br>The world heat layer lives on the map itself — tap <b>DESERT</b> (green=good, red=bad, grey=desert; where we have not scraped yet, grey measures our coverage too).<br><a href="index.html">&larr; back to the map</a></p><hr>
 <h2>The ten worst gaps in the lower 48</h2>
 <div class="scroll"><table><tr><th>#</th><th>town</th><th>pop.</th><th>gap</th><th>nearest full-service</th><th>nearest service point (any grade)</th></tr>{trs}</table></div>
 <h2>By state</h2>

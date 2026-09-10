@@ -63,3 +63,5 @@ strings:
   '🌐 web · 📞 called · 👁 visited · 🛒 bought': '🌐 ウェブ · 📞 電話確認 · 👁 訪問 · 🛒 購入'
   '>✉ report by email</a>': '>✉ メールで報告</a>'
   '<a href="sticker.svg">counter sticker</a>': '<a href="sticker.svg">カウンターステッカー</a>'
+  '>DESERT</button>': '>砂漠</button>'
+  'title="Heat layer: every town on earth colored by distance to the nearest full-service node — green good, red bad, grey desert. Where we haven''t scraped yet, grey measures our coverage too"': 'title="ヒートレイヤー：世界の全都市を最寄りのフルサービス拠点までの距離で色分け — 緑=良、赤=悪、灰=砂漠。未調査地域の灰色は当プロジェクトのカバレッジも反映"'

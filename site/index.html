@@ -205,6 +205,7 @@
     <button id="gpx" class="sec" title="Download the shown nodes as GPX waypoints (Garmin, OsmAnd, Kurviger…)">↓ GPX</button>
     <button id="kml" class="sec" title="Download the shown nodes as KML (Google Earth, Maps)">↓ KML</button>
     <button id="gpi" class="sec" title="Garmin POI file — copy to /Garmin/POI/ on a Zumo. Whole database (not filtered)">↓ GPI</button>
+    <button id="desertbtn" class="sec" title="Heat layer: every town on earth colored by distance to the nearest full-service node — green good, red bad, grey desert. Where we haven't scraped yet, grey measures our coverage too">DESERT</button>
     <button id="corridor" class="sec" title="Plan a route: tap the map to draw, or import a GPX — the list filters to nodes along it">ROUTE</button>
     <select id="corrad" aria-label="Corridor radius" style="display:none"></select>
     <button id="gpximport" class="sec" style="display:none" title="Import a GPX route file — the corridor follows it">⤒ GPX</button>
@@ -623,6 +624,16 @@ function render(){
     dl(corridorOn()?'gsn-corridor.kml':'gsn-nodes.kml','application/vnd.google-earth.kml+xml',`<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document>\n    <name>Guzzi Support Network</name>\n${w}\n</Document></kml>\n`);};
   // GPI is prebuilt binary (gpsbabel at build time) — a plain download, always whole-db
   document.getElementById('gpi').onclick=()=>{location.href='gsn-poi.gpi'};
+  // ---- global desert heat layer (green=good, red=bad, grey=desert) ----
+  // Prebuilt mercator PNG (scripts/desert_overlay.py); bounds must match it.
+  let desertLayer=null;
+  const dbtn=document.getElementById('desertbtn');
+  dbtn.onclick=()=>{
+    dbtn.dataset.base=dbtn.dataset.base||dbtn.textContent;
+    if(desertLayer){desertLayer.remove();desertLayer=null;dbtn.textContent=dbtn.dataset.base;return;}
+    desertLayer=L.imageOverlay('desert-overlay.png',[[72,-180],[-56,180]],
+      {opacity:.55,attribution:'towns © <a href="https://www.geonames.org/">GeoNames</a> (CC-BY 4.0)'}).addTo(map);
+    dbtn.textContent=dbtn.dataset.base+' ✕';};
   // ---- offline indicator + service worker (PWA / offline-first) ----
   const offEl=document.getElementById('offline');
   const setOff=()=>{offEl.style.display=navigator.onLine?'none':'block';};

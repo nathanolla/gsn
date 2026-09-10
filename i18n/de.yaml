@@ -63,3 +63,5 @@ strings:
   '🌐 web · 📞 called · 👁 visited · 🛒 bought': '🌐 Web · 📞 angerufen · 👁 besucht · 🛒 gekauft'
   '>✉ report by email</a>': '>✉ per E-Mail melden</a>'
   '<a href="sticker.svg">counter sticker</a>': '<a href="sticker.svg">Thekenaufkleber</a>'
+  '>DESERT</button>': '>WÜSTE</button>'
+  'title="Heat layer: every town on earth colored by distance to the nearest full-service node — green good, red bad, grey desert. Where we haven''t scraped yet, grey measures our coverage too"': 'title="Heatmap: jede Stadt der Welt, gefärbt nach Entfernung zum nächsten Vollservice-Knoten — grün gut, rot schlecht, grau Wüste. Wo wir noch nicht erfasst haben, misst Grau auch unsere Abdeckung"'

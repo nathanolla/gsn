@@ -207,6 +207,7 @@
     <button id="gpx" class="sec" title="Télécharger les nœuds affichés en waypoints GPX (Garmin, OsmAnd, Kurviger…)">↓ GPX</button>
     <button id="kml" class="sec" title="Télécharger les nœuds affichés en KML (Google Earth, Maps)">↓ KML</button>
     <button id="gpi" class="sec" title="Fichier POI Garmin — à copier dans /Garmin/POI/ sur un Zumo. Base complète (non filtrée)">↓ GPI</button>
+    <button id="desertbtn" class="sec" title="Calque thermique : chaque ville du monde colorée selon la distance au nœud full-service le plus proche — vert bien, rouge mal, gris désert. Là où nous n'avons pas encore relevé, le gris mesure aussi notre couverture">DÉSERT</button>
     <button id="corridor" class="sec" title="Planifiez un itinéraire : touchez la carte pour le tracer ou importez un GPX — la liste filtre les nœuds le long du trajet">ITINÉRAIRE</button>
     <select id="corrad" aria-label="Corridor radius" style="display:none"></select>
     <button id="gpximport" class="sec" style="display:none" title="Importer un fichier de route GPX — le corridor la suit">⤒ GPX</button>
@@ -625,6 +626,16 @@ function render(){
     dl(corridorOn()?'gsn-corridor.kml':'gsn-nodes.kml','application/vnd.google-earth.kml+xml',`<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document>\n    <name>Guzzi Support Network</name>\n${w}\n</Document></kml>\n`);};
   // GPI is prebuilt binary (gpsbabel at build time) — a plain download, always whole-db
   document.getElementById('gpi').onclick=()=>{location.href='gsn-poi.gpi'};
+  // ---- global desert heat layer (green=good, red=bad, grey=desert) ----
+  // Prebuilt mercator PNG (scripts/desert_overlay.py); bounds must match it.
+  let desertLayer=null;
+  const dbtn=document.getElementById('desertbtn');
+  dbtn.onclick=()=>{
+    dbtn.dataset.base=dbtn.dataset.base||dbtn.textContent;
+    if(desertLayer){desertLayer.remove();desertLayer=null;dbtn.textContent=dbtn.dataset.base;return;}
+    desertLayer=L.imageOverlay('desert-overlay.png',[[72,-180],[-56,180]],
+      {opacity:.55,attribution:'towns © <a href="https://www.geonames.org/">GeoNames</a> (CC-BY 4.0)'}).addTo(map);
+    dbtn.textContent=dbtn.dataset.base+' ✕';};
   // ---- offline indicator + service worker (PWA / offline-first) ----
   const offEl=document.getElementById('offline');
   const setOff=()=>{offEl.style.display=navigator.onLine?'none':'block';};
