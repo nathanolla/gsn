@@ -62,3 +62,4 @@ strings:
   'title="Garmin POI file — copy to /Garmin/POI/ on a Zumo. Whole database (not filtered)"': 'title="Fichier POI Garmin — à copier dans /Garmin/POI/ sur un Zumo. Base complète (non filtrée)"'
   '🌐 web · 📞 called · 👁 visited · 🛒 bought': '🌐 web · 📞 appelé · 👁 visité · 🛒 acheté'
   '>✉ report by email</a>': '>✉ signaler par e-mail</a>'
+  '<a href="sticker.svg">counter sticker</a>': '<a href="sticker.svg">autocollant de comptoir</a>'
