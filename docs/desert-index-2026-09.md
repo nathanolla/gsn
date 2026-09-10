@@ -3,7 +3,7 @@
 **How far is America from a Guzzi wrench?** For every US town with
 5,000+ people, the straight-line distance to the nearest *active,
 full-service* node in the [Guzzi Support Network](https://guzzisupport.network/).
-Computed 2026-09-10 from 303 full-service nodes and 7,557 towns.
+Computed 2026-09-10 from 310 full-service nodes and 7,557 towns.
 
 *A neutral finding, per doctrine: this measures geography, not shops.
 Straight-line miles (roads are longer). A desert in our data is either
