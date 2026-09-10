@@ -1,0 +1,38 @@
+id: moto-guzzi-mjosa
+name: Moto Guzzi Mjøsa
+city: Moelv
+country: 'NO'
+lat: 60.92827
+lon: 10.70103
+layer: knowledge
+capability:
+- knowledge
+brands:
+- Moto Guzzi
+functions:
+- meetings
+- knowledge-sharing
+- social
+url: https://guzzimjosa.com/
+observations:
+- date: 2026-09-10
+  method: website
+  fact: Moto Guzzi Mjøsa website (https://guzzimjosa.com/) states it is a local chapter of
+    Norsk Moto Guzzi Klubb, formed in 2022, holding monthly coffee meetings at Cobee Restaurant,
+    Storgata 105, Moelv.
+- date: 2026-09-10
+  method: website
+  fact: Founding page (https://guzzimjosa.com/om-oss/2022-oppstarten/) says the chapter grew
+    from a Facebook thread and held its first meeting on 5 December 2022 in Moelv with 18
+    attendees.
+- date: 2026-09-10
+  method: community-endorsement
+  fact: Norsk Moto Guzzi Klubb national website (https://motoguzzi.no/moto-guzzi-mjosa/) lists
+    Moto Guzzi Mjøsa as a local chapter and provides the chapter website link.
+- date: 2026-09-10
+  method: website
+  fact: 'City-level coordinates for Moelv taken from Wikipedia (https://en.wikipedia.org/wiki/Moelv:
+    60.92827°N, 10.70103°E).'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

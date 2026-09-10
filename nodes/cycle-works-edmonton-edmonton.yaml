@@ -1,0 +1,26 @@
+id: cycle-works-edmonton-edmonton
+name: Cycle Works Edmonton
+city: Edmonton
+state: AB
+country: CA
+lat: 53.55014
+lon: -113.46871
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +1-(780) 440-3200
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Cycle Works Edmonton'', 5688 75TH Street, Edmonton T6E
+    5X6; active:true; type=dealers,services.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 5688 75TH Street, Edmonton T6E 5X6

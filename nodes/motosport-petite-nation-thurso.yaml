@@ -1,0 +1,28 @@
+id: motosport-petite-nation-thurso
+name: Motosport Petite Nation
+city: Thurso
+country: CA
+lat: 45.6001
+lon: -75.243
+layer: franchise
+capability:
+- satellite
+brands:
+- Moto Guzzi
+functions:
+- sales
+url: https://www.motosportpetitenation.com/en/
+phone: 819-659-0591
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Moto Guzzi’s official Canadian locator identifies Motosport Petite Nation in Thurso:
+    https://www.motoguzzi.com/ca_EN/dealer-locator/thurso/motosport-petite-nation/. City-level
+    coordinates are used.'
+- date: 2026-09-10
+  method: website
+  fact: 'The current shop site confirms the Thurso business contact details but does not present
+    Moto Guzzi service or parts-depth evidence: https://www.motosportpetitenation.com/en/contact/.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

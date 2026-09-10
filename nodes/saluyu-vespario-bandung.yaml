@@ -1,0 +1,30 @@
+id: saluyu-vespario-bandung
+name: Saluyu Vespario (Bandung)
+city: Bandung
+country: ID
+lat: -6.9429628
+lon: 107.5911632
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (022) 20599125
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "SALUYU VESPARIO" at Jl. Raya Kopo No. 338, Kopo, Bojongloa
+    Kaler, Bandung, West Java, phone (022) 20599125, brand AGPV, dealer code DEALER-ID-56.
+    NOTE: absent from the motoguzzi.co.id dealer list fetched the same day — cross-source
+    discrepancy flagged for review.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

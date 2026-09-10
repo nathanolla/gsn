@@ -1,0 +1,47 @@
+id: motoplex-brixton
+name: Motoplex Brixton (Biker Box Brixton)
+city: Pasig
+country: PH
+lat: 14.5715422
+lon: 121.0567336
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+functions:
+- sales
+- service
+- parts
+- warranty
+url: https://www.motoguzzi.com/ph_EN/dealer-locator/pasig-city/biker-box-brixton/
+phone: '639166183660'
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores,
+    fetched 2026-09-10) lists "Motoplex Brixton" at 11 Brixton St., Brgy. Kapitolyo, Pasig,
+    phone +639166183660, type "dealers,services", brand AG, dealer code DEALER-PH-48; indexed
+    official locator entry at https://www.motoguzzi.com/ph_EN/dealer-locator/pasig-city/biker-box-brixton/.
+- date: 2026-09-10
+  method: website
+  fact: Zigwheels PH lists "Biker Box Brixton" (11 Brixton St. Kapitolyo, Pasig) and co-located
+    "Vespa Brixton" as Moto Guzzi motorcycle dealers/service centers in Pasig (https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/pasig
+    and https://www.zigwheels.ph/new-motorcycles/moto-guzzi/service-centers/pasig/rosario-bikes-4323,
+    both fetched 2026-09-10).
+- date: 2026-09-10
+  method: website
+  fact: 'CONFLICT FLAG: insideracing.com.ph (https://insideracing.com.ph/aprilia-moto-guzzi-brixton-store-consolidates-operations-with-paranaque-facility/,
+    2025-07-29) reported the Aprilia Moto Guzzi Brixton store would close 2025-07-31 with
+    operations consolidating into the Parañaque (Sucat) facility; however the live official
+    locator fetched 2026-09-10 still lists Motoplex Brixton and does not list Sucat. Current
+    operation uncertain — verify before publishing as active.'
+- date: '2026-09-10'
+  method: website
+  fact: 'Grading review (claude): evidence shows sales/booking or generic multi-brand service,
+    not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology,
+    same bar applied across the whole 2026-09 sweep.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

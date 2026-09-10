@@ -1,0 +1,26 @@
+id: maxxim-motorsports-barrie
+name: Maxxim Motorsports
+city: Barrie
+country: CA
+lat: 44.3894
+lon: -79.6903
+layer: franchise
+capability:
+- full-service
+brands:
+- Moto Guzzi
+functions:
+- sales
+- parts
+- service
+url: https://maxximmotorsports.com/Moto-Guzzi-Dealer-Barrie-Ontario/
+phone: 705-230-3070
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Maxxim calls itself Barrie’s authorized Moto Guzzi dealer and says it provides complete
+    service, repairs, and genuine OEM Moto Guzzi parts: https://maxximmotorsports.com/Moto-Guzzi-Dealer-Barrie-Ontario/.
+    City-level coordinates are used.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

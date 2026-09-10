@@ -1,0 +1,24 @@
+id: motor-sports-world-ottawa
+name: Motor Sports World
+city: Ottawa
+country: CA
+lat: 45.4215
+lon: -75.6972
+layer: franchise
+capability:
+- satellite
+brands:
+- Moto Guzzi
+functions:
+- sales
+url: https://motorsportsworld.com/
+phone: 613-225-2892
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Motor Sports World identifies itself as a “BRP, Aprilia, Moto Guzzi and Suzuki Dealership
+    in Ottawa,” and lists 1375 Clyde Ave., Nepean: https://motorsportsworld.com/. No Moto
+    Guzzi-specific service-depth evidence was found. City-level coordinates are used.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

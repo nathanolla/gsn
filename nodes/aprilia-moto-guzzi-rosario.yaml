@@ -1,0 +1,37 @@
+id: aprilia-moto-guzzi-rosario
+name: Aprilia Moto Guzzi Rosario (Rosario Bikes)
+city: Pasig
+country: PH
+lat: 14.5907529
+lon: 121.0877042
+layer: franchise
+capability:
+- full-service
+brands:
+- Aprilia
+- Moto Guzzi
+functions:
+- sales
+- service
+- parts
+- warranty
+url: https://www.motoguzzi.com/ph_EN/dealer-locator/pasig/rosario-bikes/
+phone: '639922153844'
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores,
+    fetched 2026-09-10) lists "Aprilia Moto Guzzi Rosario" at 43 Ortigas Ave, Rosario, Pasig
+    City, phone +639922153844, type "dealers,services", brand AG, dealer code DEALER-PH-52;
+    indexed official locator entry at https://www.motoguzzi.com/ph_EN/dealer-locator/pasig/rosario-bikes/.
+- date: 2026-09-10
+  method: website
+  fact: 'Zigwheels PH lists Rosario Bikes as a Moto Guzzi dealer AND service center in Pasig
+    at 43 Ortigas Ave, Padilla, Pasig 1609, with service booking phone +639455748223 ("Rosario
+    Bikes - Service Center ... Book a service"): https://www.zigwheels.ph/new-motorcycles/moto-guzzi/service-centers/pasig/rosario-bikes-4323
+    and https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/pasig/rosario-bikes-4323
+    (both fetched 2026-09-10). Also indexed on the official Aprilia PH locator as "Aprilia
+    Moto Guzzi Rosario" (https://www.aprilia.com/ph_EN/dealer-locator/pasig/rosario-bikes/).'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

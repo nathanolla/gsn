@@ -1,0 +1,34 @@
+id: anugerah-aspac-pratama-makassar
+name: Anugerah Aspac Pratama (St. Alauddin)
+city: Makassar
+country: ID
+lat: -5.1809274
+lon: 119.4400838
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (0411) 880386 / 880486
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API serving motoguzzi.com (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "Anugerah Aspac Pratama", Jl. Sultan Alauddin No. 78 A, Mangasa,
+    Tamalate Makassar, phone (0411) 880386/880486, type "dealers,services", brand code AGPV,
+    dealer code DEALER-ID-58, coords -5.1809274/119.4400838, flagged Motoplex.
+- date: 2026-09-10
+  method: official-locator
+  fact: Also listed on official Moto Guzzi Indonesia dealer page (https://motoguzzi.co.id/dealer,
+    fetched 2026-09-10) with the same address and phones. Service depth beyond the locator's
+    bulk "dealers,services" classification is unverified — satellite pending review.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

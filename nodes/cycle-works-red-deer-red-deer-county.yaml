@@ -1,0 +1,26 @@
+id: cycle-works-red-deer-red-deer-county
+name: Cycle Works Red Deer
+city: Red Deer County
+state: AB
+country: CA
+lat: 52.28954
+lon: -113.87227
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +1-(403)357-1578
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Cycle Works Red Deer'', 207 Burnt Ridge Road, Red Deer
+    County T4S 0K6; active:true; type=dealers,services.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 207 Burnt Ridge Road, Red Deer County T4S 0K6

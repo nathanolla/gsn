@@ -1,0 +1,38 @@
+id: satya-mandiri-motors-jemursari
+name: Satya Mandiri Motors (Motoplex Jatim, Jemursari)
+city: Surabaya
+country: ID
+lat: -7.3116794
+lon: 112.7576992
+layer: franchise
+capability:
+- full-service
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- service
+- parts
+- warranty
+url: https://www.motoplexjatim.com/
+phone: (031) 8433878
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "SATYA MANDIRI MOTORS" at Jl. Raya Jemursari No. 270, Sidosermo,
+    Wonocolo, Surabaya, phones (031) 8433878/8433898, brand AGPV, dealer code DEALER-ID-31.
+    Same listing on https://motoguzzi.co.id/dealer.
+- date: 2026-09-10
+  method: website
+  fact: Retail site https://www.motoplexjatim.com/ (fetched 2026-09-10) shows Moto Guzzi V85
+    TT Travel and V7 Stone in its model line-up and a Service Center page (https://www.motoplexjatim.com/service-center/)
+    stating the service center is "certified by the Piaggio Prime Service Standard" offering
+    maintenance, repair, vehicle inspection and tire replacement at Jl. Raya Jemursari 270,
+    Surabaya.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

@@ -1,0 +1,45 @@
+id: zuauto-miraflores
+name: ZuAuto (Piaggio Group motorcycles)
+city: Lima
+country: PE
+lat: -12.1244867
+lon: -77.0297812
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- gilera
+- derbi
+functions:
+- sales
+url: https://www.nitro.pe/motos/zuauto-inaugura-local-de-motos-piaggio-en-miraflores.html
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'nitro.pe (2014-07-19, updated 2020-06-17): ZuAuto (Grupo Casabaca, Ecuadorian capital)
+    "inauguró el primer concesionario de motos del Grupo Piaggio en Lima… con las marcas Piaggio,
+    Vespa, Aprilia y Moto Guzzi" (text also lists Gilera, Derbi, Scarabeo; 50–1400cc), at
+    "avenida Benavides 170, a unos pasos de la bajada Balta en Miraflores", inaugurated with
+    Piaggio LatAm director present. Coords are street-level geocode of Av. Alfredo Benavides,
+    Miraflores (Nominatim) from the article''s stated street; exact building unverified.'
+- date: 2026-09-10
+  method: website
+  fact: 'Current status unknown: zuauto.pe and motoguzzi-peru.com do not resolve (NXDOMAIN,
+    2026-09-10); todomotos.pe article dated 2025-09-03 still ties "Grupo Piaggio de la mano
+    de ZuAuto" but the article is unreachable (HTTP 421) so could not be read. The Piaggio
+    Peru network today is run through aprilia-peru.com / motocontinental.com.pe (see moto-continental-peru
+    node), suggesting ZuAuto''s motorcycle franchise was superseded ~2025 — closure not independently
+    evidenced, so status capped at unverified rather than defunct. Emitted as legacy/possibly-defunct
+    franchise for reviewer adjudication.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: the central Piaggio locator API (jhgateway) returns
+    ZERO records for PE, UY and VE — these markets run importer-side, so website evidence
+    is the only official trail.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: unverified

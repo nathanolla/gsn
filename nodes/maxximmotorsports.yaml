@@ -26,11 +26,16 @@ phone: 416-686-5991
 observations:
 - date: 2026-08-22
   method: website
-  fact: maxximmotorsports.com live; authorised Moto Guzzi retailer with locations
-    in Oakville (416-686-5991) and Barrie (705-230-3070), Ontario; carries Moto Guzzi
-    V7 series among other brands (Triumph, CFMOTO, Argo, Vespa, Aprilia, Suzuki, Piaggio);
-    factory-trained technicians for service with genuine parts; verified 2026-08-22
-last_verified: 2026-08-22
-verified_by: gsn-lane-beyond-europe
+  fact: maxximmotorsports.com live; authorised Moto Guzzi retailer with locations in Oakville
+    (416-686-5991) and Barrie (705-230-3070), Ontario; carries Moto Guzzi V7 series among
+    other brands (Triumph, CFMOTO, Argo, Vespa, Aprilia, Suzuki, Piaggio); factory-trained
+    technicians for service with genuine parts; verified 2026-08-22
+- date: 2026-09-10
+  method: website
+  fact: 'Maxxim’s Oakville page identifies it as a Moto Guzzi dealer and says factory-trained
+    technicians use genuine Moto Guzzi parts: https://maxximmotorsports.com/Moto-Guzzi-Dealer-Oakville/.
+    City-level coordinates are used.'
+last_verified: '2026-09-10'
+verified_by: claude-qoder
 status: active
 geocode: city-centroid

@@ -1,0 +1,30 @@
+id: udayana-satya-laksana-mahendradata
+name: Udayana Satya Laksana (Mahendradata, Denpasar)
+city: Denpasar
+country: ID
+lat: -8.6864989
+lon: 115.1862759
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (0361) 8456339
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "UDAYANA SATYA LAKSANA" at Jl. Mahendradata Selatan No. 99,
+    Pemecutan Klod, Denpasar, phones (0361) 8456339/(0811) 3889905, brand AGPV, dealer code
+    DEALER-ID-41. NOTE: this outlet is absent from the motoguzzi.co.id dealer list fetched
+    the same day — cross-source discrepancy flagged for review.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

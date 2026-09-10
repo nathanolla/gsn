@@ -1,0 +1,57 @@
+id: motor-centeret-as
+name: Motor Centeret AS
+city: Bryne
+country: 'NO'
+lat: 58.73521
+lon: 5.65256
+layer: franchise
+capability:
+- satellite
+brands:
+- Moto Guzzi
+- Aprilia
+- Vespa
+- QJ Motor
+- VOGE
+- Husqvarna
+- Kawasaki
+- Honda
+- BSA
+functions:
+- sales
+- service
+- repair
+- parts
+url: https://www.m-centeret.no/
+phone: +47 51 48 72 48
+observations:
+- date: 2026-09-10
+  method: website
+  fact: FINN.no dealer page (https://www.finn.no/mobility/dealer/427232672/motor-centeret-as)
+    lists Moto Guzzi as a brand alongside Aprilia, QJ Motor, VOGE, Husqvarna, Kawasaki and
+    Honda, and shows active vehicle listings.
+- date: 2026-09-10
+  method: community-endorsement
+  fact: Motor Centeret Bryne Facebook post (https://www.facebook.com/motorcenteretbryne/posts/vi-er-n%C3%A5-moto-guzzi-forhandlermotor-centeret-er-n%C3%A5-forhandler-av-den-italienske-/3740576856028687/,
+    2021-02-08) announces "Vi er nå Moto Guzzi forhandler!"
+- date: 2026-09-10
+  method: community-endorsement
+  fact: Bike.no article (https://www.bike.no/nyheter/demodag-hos-motor-centeret-pa-bryne/,
+    2024-05-25) reports a demo day at Motor Centeret featuring Moto Guzzi, Aprilia, Voge,
+    BSA and Vespa.
+- date: 2026-09-10
+  method: website
+  fact: 1881.no listing (https://www.1881.no/mc-moped-og-atv-forhandler/mc-moped-og-atv-forhandler-rogaland/mc-moped-og-atv-forhandler-bryne/motor-centeret-as_100713428S1/)
+    gives address Morenefaret 1, 4340 Bryne and phone +47 51 48 72 48.
+- date: 2026-09-10
+  method: website
+  fact: 'City-level coordinates for Bryne taken from Wikipedia (https://en.wikipedia.org/wiki/Bryne:
+    58.73521°N, 5.65256°E).'
+- date: '2026-09-10'
+  method: website
+  fact: 'Grading review (claude): evidence shows sales/booking or generic multi-brand service,
+    not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology,
+    same bar applied across the whole 2026-09 sweep.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

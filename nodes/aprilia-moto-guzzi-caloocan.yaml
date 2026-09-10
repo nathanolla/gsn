@@ -1,0 +1,35 @@
+id: aprilia-moto-guzzi-caloocan
+name: Aprilia Moto Guzzi Caloocan
+city: Quezon City
+country: PH
+lat: 14.6416339
+lon: 121.0364942
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Vespa
+functions:
+- sales
+- parts
+url: https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/caloocan/mlco-motocileta-co-4324
+phone: '639177073650'
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores,
+    fetched 2026-09-10) lists "Aprilia Moto Guzzi Caloocan" (dealer code DEALER-PH-12, brand
+    AGV, phone +639177073650) at Unit 1A, 64 Sgt. Esguerra St., South Triangle, Quezon City
+    — note the store name says Caloocan but the current official address is in Quezon City
+    (South Triangle), coordinates 14.6416339/121.0364942.
+- date: 2026-09-10
+  method: website
+  fact: Zigwheels PH lists "MLCO Motocileta Co" as the Moto Guzzi dealer in Caloocan City
+    at 363 Rizal Ave Ext, Grace Park West, Caloocan City (https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/caloocan/mlco-motocileta-co-4324,
+    fetched 2026-09-10) — possibly the same dealer's former address; relocation unconfirmed.
+    Service depth unverified — satellite pending review.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

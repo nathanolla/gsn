@@ -30,6 +30,11 @@
     <desc>satellite | Muğla, None | 0252 412 66 86 | https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="49.71404" lon="-96.99604">
+    <name>Adventure Power Products</name>
+    <desc>satellite | Ile Des Chenes, MB | +1-(204) 878-3194 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="30.3634" lon="-97.6858">
     <name>AF1 Racing</name>
     <desc>depot+full-service | Austin, TX | (512) 459-3966 | https://www.af1racingaustin.com/ | verified 2026-08-18</desc>
@@ -67,7 +72,7 @@
   </wpt>
   <wpt lat="53.5462" lon="-113.4912">
     <name>Alberta Cycle Motorsports</name>
-    <desc>full-service | Edmonton,  | 780-477-3525 | https://albertacycle.com/ | verified 2026-08-22</desc>
+    <desc>full-service | Edmonton,  | 780-477-3525 | https://albertacycle.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="44.040205" lon="10.143637">
@@ -95,6 +100,11 @@
     <desc>full-service | Palermo,  | 091-8601306 | https://www.motoguzzi.com/it_it/store-locator/palermo/amar-s-r-l/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="0.4859" lon="101.4548">
+    <name>Amartha Kura Motorindo (Motoplex Pekanbaru)</name>
+    <desc>satellite | Pekanbaru, None | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="46.4132" lon="11.2467">
     <name>American-Bikes Kaltern</name>
     <desc>full-service | Caldaro sulla Strada del Vino (Kaltern),  | 0471 678060 | https://www.american-bikes.it/ | verified 2026-08-22</desc>
@@ -120,14 +130,49 @@
     <desc>full-service | Tiranë, Qarku i Tiranës | +355 69 20 95 633 | https://amt.al/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="48.46189" lon="-68.50828">
+    <name>André Hallé &amp; Fils</name>
+    <desc>satellite | Rimouski, QC | +1-(418)723-5132 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="51.2407" lon="4.4523">
     <name>Antwerp Bike Store BV</name>
     <desc>full-service | Antwerpen,  | 0032 -(0)3 481 8 | https://antwerpbikestore.be/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="-5.1809274" lon="119.4400838">
+    <name>Anugerah Aspac Pratama (St. Alauddin)</name>
+    <desc>satellite | Makassar, None | (0411) 880386 / 880486 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-6.2245908" lon="106.8110858">
+    <name>Anugerah Sinergi Pratama (Motoplex SCBD)</name>
+    <desc>full-service | Jakarta, None | (021) 5155280 | https://motoplexsinergi.co.id/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="51.2919" lon="-0.754">
     <name>AP Motorcycles</name>
     <desc>full-service | Farnborough,  | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="14.6416339" lon="121.0364942">
+    <name>Aprilia Moto Guzzi Caloocan</name>
+    <desc>satellite | Quezon City, None | 639177073650 | https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/caloocan/mlco-motocileta-co-4324 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="14.4004333" lon="121.0117786">
+    <name>Aprilia Moto Guzzi Daang Hari (MotorAce Leisure Bikes)</name>
+    <desc>satellite | Bacoor, None | 639276090331 | https://www.aprilia.com/ph_EN/dealer-locator/bacoor/motorace-daang-hari/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="15.0593937" lon="120.6567054">
+    <name>Aprilia Moto Guzzi Pampanga</name>
+    <desc>satellite | San Fernando, None | 639190894572 | https://www.facebook.com/ApriliaMotoGuzziPampanga/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="14.5907529" lon="121.0877042">
+    <name>Aprilia Moto Guzzi Rosario (Rosario Bikes)</name>
+    <desc>full-service | Pasig, None | 639922153844 | https://www.motoguzzi.com/ph_EN/dealer-locator/pasig/rosario-bikes/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="37.5024" lon="15.0874">
@@ -420,6 +465,16 @@
     <desc>satellite | Ahmedabad,  | +91-9824300707 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="56.71114" lon="-111.34247">
+    <name>Conlon Motorsports Fort Mac</name>
+    <desc>satellite | Fort Mc Murray, AB | +1-(587) 674-1100 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="53.29193" lon="-113.53052">
+    <name>Conlon Motorsports Leduc</name>
+    <desc>satellite | Leduc, AB | +1-(780) 612-9995 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="-36.8521" lon="174.7632">
     <name>Continental Motorrad</name>
     <desc>full-service | Auckland,  | 09 956 3841 | https://continentalmotorrad.co.nz/ | verified 2026-08-22</desc>
@@ -453,6 +508,16 @@
   <wpt lat="55.8531" lon="9.8478">
     <name>CVP Horsens MC-Service A/S</name>
     <desc>full-service | Horsens, None | 75618111 | https://www.cvp-mc.dk/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="53.55014" lon="-113.46871">
+    <name>Cycle Works Edmonton</name>
+    <desc>satellite | Edmonton, AB | +1-(780) 440-3200 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="52.28954" lon="-113.87227">
+    <name>Cycle Works Red Deer</name>
+    <desc>satellite | Red Deer County, AB | +1-(403)357-1578 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="21.3358997" lon="-157.9019336">
@@ -572,7 +637,7 @@
   </wpt>
   <wpt lat="45.2788" lon="-66.0585">
     <name>Down East Powersports</name>
-    <desc>full-service | Saint John,  | 506-635-1223 | https://www.downeastpowersports.ca/ | verified 2026-08-22</desc>
+    <desc>full-service | Saint John,  | 506-635-1223 | https://www.downeastpowersports.ca/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="51.443" lon="-2.5817">
@@ -610,6 +675,11 @@
     <desc>satellite | Bismarck, ND | (701) 751-7547 | https://www.dvorakmotorsports.com/ | verified 2026-08-18</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="-6.135849" lon="106.804838">
+    <name>Dwi Pratama Mandiri (Bandengan)</name>
+    <desc>satellite | Jakarta, None | (021) 6912209 / 6927216 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="41.9762343" lon="21.5492848">
     <name>Dynamix</name>
     <desc>full-service | Skopje, Grad Skopje | +389 76 948 008 | https://www.dynamix.mk/ | verified 2026-08-22</desc>
@@ -643,6 +713,11 @@
   <wpt lat="36.1312" lon="-5.4474">
     <name>El Motorista (Algeciras)</name>
     <desc>full-service | Algeciras,  | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="48.551" lon="-71.335">
+    <name>Électro-Loisirs STJB</name>
+    <desc>satellite | Saint-Ambroise, None | https://www.motoguzzi.com/ca_EN/dealer-locator/saint-ambroise/%C3%A9lectro-loisirs-stjb/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="53.0972" lon="8.844">
@@ -820,6 +895,11 @@
     <desc>full-service | Ponta Delgada,  | 296201920 | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="3.5568464" lon="98.6339182">
+    <name>Garda Depan Indonesia (Medan)</name>
+    <desc>satellite | Medan, None | (061) 42578899 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="39.6538" lon="20.8611">
     <name>Gartzonikas Moto (Κ. Γκαρτζονίκας Α.Ε.Β.Ε.)</name>
     <desc>full-service | Ioannina, None | +30 2651 607822 | https://gartzonikas.gr/ | verified 2026-08-22</desc>
@@ -875,9 +955,19 @@
     <desc>satellite | Muğla, None | 0252 614 20 08 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="45.6363" lon="-73.83765">
+    <name>Goulet Moto Sports Ste-Therese</name>
+    <desc>satellite | Ste-Therese, QC | +1-(450) 435-2408 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="32.7157" lon="-117.1611">
     <name>GP Motorcycles</name>
     <desc>full-service | San Diego, CA | (619) 233-4762 | https://gpmotorcycles.com/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="43.1394" lon="-80.2644">
+    <name>Grand River Power Sports</name>
+    <desc>full-service | Brantford, None | 519-759-8140 | https://www.grandriverpowersports.ca/en/moto-guzzi-dealer-brantford/1/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="-25.2831" lon="-57.5877">
@@ -893,6 +983,11 @@
   <wpt lat="40.88103" lon="29.22959">
     <name>Güngör Company</name>
     <desc>satellite | İstanbul, None | 444 99 54 | https://www.motoguzzi.com.tr/tr/yetkili-servisler.html | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-6.1616711" lon="106.8259383">
+    <name>Gunung Selamat Jaya (Pecenongan)</name>
+    <desc>satellite | Jakarta, None | (021) 3442887 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="53.6242" lon="-1.8806">
@@ -948,6 +1043,11 @@
   <wpt lat="40.83655" lon="-73.3951">
     <name>Habberstad Powersports</name>
     <desc>satellite | Huntington Station, NY | (631) 427-4400 | https://www.habberstadpowersports.com/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="60.42214" lon="10.50428">
+    <name>Hadeland MC &amp; Fritid AS</name>
+    <desc>full-service | Brandbu, None | +47 61 33 19 46 | https://hadelandmc.no/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="41.3755731" lon="-73.4242635">
@@ -1012,7 +1112,7 @@
   </wpt>
   <wpt lat="48.7787" lon="-123.708">
     <name>Ignition Motorsports</name>
-    <desc>full-service | Duncan,  | 250-510-8844 | https://ignitionmotorsports.ca/ | verified 2026-08-22</desc>
+    <desc>full-service | Duncan,  | 250-510-8844 | https://ignitionmotorsports.ca/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="47.9974" lon="16.8608">
@@ -1128,6 +1228,16 @@
   <wpt lat="35.50984" lon="24.02254">
     <name>Κεχαγιας Σ. Κωνσταντινος</name>
     <desc>satellite | Χανια, None | +30-28210-70530 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-7.0008213" lon="110.4335576">
+    <name>Kharisma Motor (Semarang Selatan)</name>
+    <desc>satellite | Semarang, None | (024) 76444555 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-7.8150045" lon="110.3687226">
+    <name>Kharisma Motor (Kol. Sugiyono, Yogyakarta)</name>
+    <desc>satellite | Yogyakarta, None | (0274) 379998 / 4281747 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="47.6098" lon="15.9913">
@@ -1367,7 +1477,7 @@
   </wpt>
   <wpt lat="43.4474" lon="-79.6667">
     <name>Maxxim Motorsports</name>
-    <desc>full-service | Oakville,  | 416-686-5991 | https://maxximmotorsports.com/ | verified 2026-08-22</desc>
+    <desc>full-service | Oakville,  | 416-686-5991 | https://maxximmotorsports.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="41.8886" lon="-87.9895">
@@ -1420,6 +1530,11 @@
     <desc>full-service | Veroli,  | 0775 308309 | https://www.motoguzzi.com/it_it/store-locator/veroli/mm-moto/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="-8.5907676" lon="116.1464597">
+    <name>Mobilitas Total Tujuan (Lombok)</name>
+    <desc>satellite | Mataram, None | (0877) 77019777 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="40.2798" lon="-75.2996">
     <name>Montgomeryville Cycle Center</name>
     <desc>full-service | Hatfield, PA | 215-712-7433 | https://www.montgomeryvillecc.com/ | verified 2026-09-10</desc>
@@ -1468,6 +1583,11 @@
   <wpt lat="45.9154" lon="9.3224">
     <name>Moto Guzzi — Factory &amp; Museo Moto Guzzi</name>
     <desc>heritage+knowledge | Mandello del Lario,  | https://www.motoguzzi.com/en_EN/world/museum/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="60.92827" lon="10.70103">
+    <name>Moto Guzzi Mjøsa</name>
+    <desc>knowledge | Moelv, None | https://guzzimjosa.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="25.0578" lon="121.5889">
@@ -1745,6 +1865,11 @@
     <desc>full-service | Bangkok, Bangkok | 02-262-0846 | https://www.facebook.com/motoguzzithailandofficial/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="14.5715422" lon="121.0567336">
+    <name>Motoplex Brixton (Biker Box Brixton)</name>
+    <desc>satellite | Pasig, None | 639166183660 | https://www.motoguzzi.com/ph_EN/dealer-locator/pasig-city/biker-box-brixton/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="35.1631" lon="129.1635">
     <name>MotoPlex Busan (모토플렉스 부산)</name>
     <desc>full-service | Busan, Busan | 051-503-9741 | https://www.motoguzzi.com/kr_ko/dealer-locator | verified 2026-08-22</desc>
@@ -1768,6 +1893,11 @@
   <wpt lat="24.0347" lon="-104.6712">
     <name>Motoplex Durango</name>
     <desc>satellite | Durango (Zona Centro), Durango | +52 618 315 0195 | https://www.google.com/maps/place/MOTOPLEX+Durango | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="21.026438" lon="105.895983">
+    <name>Motoplex Hà Nội</name>
+    <desc>full-service | Hanoi, None | (+84) 86 899 1946 | https://motoplexhanoi.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="22.3128" lon="114.1872">
@@ -1803,6 +1933,11 @@
   <wpt lat="20.545" lon="-100.3955">
     <name>Motoplex Querétaro</name>
     <desc>satellite | Santiago de Querétaro (Álamos 3ra Secc.), Querétaro | +52 446 123 3738 | https://www.google.com/maps/place/MOTOPLEX+Quer%C3%A9taro | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="10.8019278" lon="106.6452337">
+    <name>Motoplex Sài Gòn</name>
+    <desc>full-service | Ho Chi Minh City, None | 0888000586 / 0838116414 | https://motoplexsaigon.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="22.1504" lon="-100.9907">
@@ -1870,6 +2005,11 @@
     <desc>full-service | Budapest, None | +36-70-376-6700 | https://www.motorcentergyulai.hu/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="58.73521" lon="5.65256">
+    <name>Motor Centeret AS</name>
+    <desc>satellite | Bryne, None | +47 51 48 72 48 | https://www.m-centeret.no/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="37.0727603" lon="15.2872803">
     <name>MOTOR SUD S.R.L.</name>
     <desc>full-service | SIRACUSA,  | 0931/464166 | https://www.motorsud.it/ | verified 2026-08-22</desc>
@@ -1915,9 +2055,19 @@
     <desc>full-service | Rosignano Marittimo,  | 0586/760123 | https://www.motoguzzi.com/it_it/store-locator/rosignano-marittimo/motorpoint-snc-di-simone-donati/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="45.72645" lon="-73.68799">
+    <name>Motos Illimitees</name>
+    <desc>satellite | Terrebonne, QC | +1-(450) 477-4000 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="33.139952" lon="-117.181437">
     <name>Moto San Diego</name>
     <desc>full-service | San Marcos, CA | (760) 520-1288 | https://www.motosandiego.com/ | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="45.6001" lon="-75.243">
+    <name>Motosport Petite Nation</name>
+    <desc>satellite | Thurso, None | 819-659-0591 | https://www.motosportpetitenation.com/en/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="37.06548" lon="37.33063">
@@ -2175,6 +2325,11 @@
     <desc>full-service | Panama City, None | +507 2039178 | https://piaggiopanama.com/motos-moto-guzzi-en-panama/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="45.52792" lon="-73.5771">
+    <name>Piaggio Vespa Moto Guzzi Montreal</name>
+    <desc>satellite | Montreal, QC | +1-(514) 842-1234 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="43.758992" lon="11.201704">
     <name>PIKKA MOTORS SNC di Pisano Paolo e</name>
     <desc>full-service | SCANDICCI,  | 055-253737 | https://www.motoguzzi.com/it_it/store-locator/scandicci/pikka-motors-snc-di-pisano-paolo-e/ | verified 2026-08-22</desc>
@@ -2243,6 +2398,11 @@
   <wpt lat="34.54" lon="-112.4685">
     <name>Powersports Outlet</name>
     <desc>satellite | Prescott, AZ | (928) 778-7910 | https://powersportsoutlet.com/ | verified 2026-07-26</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-5.1548488" lon="119.4243374">
+    <name>Putra Sulawesi (Makassar)</name>
+    <desc>satellite | Makassar, None | 624113984066 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="49.3949" lon="12.1365">
@@ -2330,6 +2490,11 @@
     <desc>satellite | Ashton, Northampton,  | 07979 153900 | https://www.rpmbikes.co.uk/ | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="46.75673" lon="-71.1725">
+    <name>RPM Rive-Sud</name>
+    <desc>satellite | Levis, QC | +1-(418) 835-1624 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="37.135953" lon="-8.669716">
     <name>R&amp;S Motos</name>
     <desc>full-service | Lagos,  | 282 764 947 | https://www.rsmotos.com.pt | verified 2026-08-22</desc>
@@ -2350,9 +2515,19 @@
     <desc>full-service | Ballainvilliers,  | verified 2026-08-22</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="-6.9429628" lon="107.5911632">
+    <name>Saluyu Vespario (Bandung)</name>
+    <desc>satellite | Bandung, None | (022) 20599125 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="49.5963" lon="8.486">
     <name>Fahrzeugtechnik Sanfilippo</name>
     <desc>satellite | Lampertheim,  | +49 6206 52359 | https://fahrzeugtechnik-sanfilippo.de/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-7.3116794" lon="112.7576992">
+    <name>Satya Mandiri Motors (Motoplex Jatim, Jemursari)</name>
+    <desc>full-service | Surabaya, None | (031) 8433878 | https://www.motoplexjatim.com/ | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="45.64961284" lon="13.77946853">
@@ -2395,6 +2570,26 @@
     <desc>satellite | Surat,  | +91-9825544444 | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
+  <wpt lat="-6.2869577" lon="106.8189516">
+    <name>Sinar Inti Harapan (Ampera)</name>
+    <desc>satellite | Jakarta, None | +62 21 38820178 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-6.2028503" lon="106.7592871">
+    <name>Sinar Inti Harapan (Kebon Jeruk)</name>
+    <desc>satellite | Jakarta, None | (021) 53344883 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-7.2764354" lon="112.7478465">
+    <name>SMART Mulia Abadi (Gubeng, Surabaya)</name>
+    <desc>satellite | Surabaya, None | (031) 5050777 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-7.370968" lon="112.728542">
+    <name>Smart Mulia Abadi (Waru, Sidoarjo)</name>
+    <desc>satellite | Sidoarjo, None | +62 31 8550300 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
   <wpt lat="-26.0094" lon="28.0758">
     <name>Smith&#x27;s Motorcycles</name>
     <desc>satellite | Johannesburg, Gauteng | +27 83 250 4538 | https://www.smithsmotorcycles.co.za/ | verified 2026-08-22</desc>
@@ -2433,6 +2628,21 @@
   <wpt lat="50.6808" lon="3.0816">
     <name>Stradale Moto</name>
     <desc>full-service | Marquette-lez-Lille,  | 0320811180 | https://stradalemoto.com/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="43.6532" lon="-79.3832">
+    <name>Studio Cycle</name>
+    <desc>satellite+depot | Toronto, None | 416-766-5300 | https://studiocycle.ca/collections/moto-guzzi-parts | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-1.2486723" lon="116.8356608">
+    <name>Sukses Vista Motor (Balikpapan)</name>
+    <desc>satellite | Balikpapan, None | (0821) 51005808 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-0.4966372" lon="117.1555818">
+    <name>Sukses Vista Motor (Samarinda)</name>
+    <desc>satellite | Samarinda, None | (0813) 99996334 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="38.8339" lon="-104.8214">
@@ -2548,6 +2758,26 @@
   <wpt lat="47.4711" lon="19.087">
     <name>Tutto Moto Kft.</name>
     <desc>full-service | Budapest, None | +36-20-222-77-44 | https://tuttomoto.hu/ | verified 2026-08-22</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="43.59346" lon="-80.30675">
+    <name>Two Wheel Motorsports</name>
+    <desc>satellite | Guelph, ON | +1-(519) 836-1957 | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-8.7405789" lon="115.1805695">
+    <name>Udayana Satya Laksana (Jimbaran / By Pass Ngurah Rai)</name>
+    <desc>satellite | Badung, None | (0361) 4469171 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-8.6864989" lon="115.1862759">
+    <name>Udayana Satya Laksana (Mahendradata, Denpasar)</name>
+    <desc>satellite | Denpasar, None | (0361) 8456339 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
+    <sym>Motorcycle Shop</sym>
+  </wpt>
+  <wpt lat="-8.674243" lon="115.1843074">
+    <name>Udayana Satya Laksana (Teuku Umar, Denpasar)</name>
+    <desc>satellite | Denpasar, None | (0361) 8446722 / 8446727 / 8466015 | https://motoguzzi.co.id/dealer | verified 2026-09-10</desc>
     <sym>Motorcycle Shop</sym>
   </wpt>
   <wpt lat="45.534" lon="9.5973">

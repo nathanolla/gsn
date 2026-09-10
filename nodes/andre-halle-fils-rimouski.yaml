@@ -1,0 +1,26 @@
+id: andre-halle-fils-rimouski
+name: André Hallé & Fils
+city: Rimouski
+state: QC
+country: CA
+lat: 48.46189
+lon: -68.50828
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +1-(418)723-5132
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''André Hallé & Fils'', 178 Leonidas Sud, Rimouski G5L
+    2T5; active:true; type=dealers,services.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 178 Leonidas Sud, Rimouski G5L 2T5

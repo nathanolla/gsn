@@ -1,0 +1,38 @@
+id: aprilia-moto-guzzi-sucat
+name: Aprilia Moto Guzzi Sucat (Bikerbox Inc.)
+city: Parañaque
+country: PH
+lat: 14.4792922
+lon: 121.0221444
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+functions:
+- sales
+- parts
+url: https://www.facebook.com/APMG.Sucat/
+observations:
+- date: 2026-09-10
+  method: website
+  fact: insideracing.com.ph (https://insideracing.com.ph/aprilia-moto-guzzi-brixton-store-consolidates-operations-with-paranaque-facility/,
+    2025-07-29) reported the Aprilia Moto Guzzi Brixton store closing 2025-07-31 with operations
+    consolidating into the Parañaque facility at Lot 8 B2 Doña Irenea St., Ireneville, Sucat,
+    Parañaque (coordinates are city-level).
+- date: 2026-09-10
+  method: website
+  fact: Zigwheels PH lists "Bikerbox Inc. (Sucat)" as a Moto Guzzi dealer at LOT 8-B Dona
+    Irenea St, Irineville Subd, BF Homes, Paranaque (https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/paranaque/bikerbox-inc-sucat-4322,
+    fetched 2026-09-10); Facebook page "Aprilia Moto Guzzi Sucat | Parañaque" (https://www.facebook.com/APMG.Sucat/)
+    exists and is described as servicing Aprilia and Moto Guzzi brands.
+- date: 2026-09-10
+  method: official-locator
+  fact: 'CAVEAT: this outlet is NOT in the live Piaggio dealer-locator API for the Philippines
+    fetched 2026-09-10 (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores),
+    despite being the consolidation flagship per the July 2025 trade press; distribution changed
+    hands at end-2025 (MSI out, Piaggio PH subsidiary in) — current operation unconfirmed.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

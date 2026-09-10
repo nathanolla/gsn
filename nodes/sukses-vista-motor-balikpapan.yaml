@@ -1,0 +1,30 @@
+id: sukses-vista-motor-balikpapan
+name: Sukses Vista Motor (Balikpapan)
+city: Balikpapan
+country: ID
+lat: -1.2486723
+lon: 116.8356608
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (0821) 51005808
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "Sukses Vista Motor" at Jl. Ahmad Yani, Karang Rejo, Balikpapan
+    Tengah, Balikpapan, phone (0821) 51005808, brand AGPV, dealer code DEALER-ID-64, flagged
+    Motoplex. Also on https://motoguzzi.co.id/dealer (no phone listed there). Service depth
+    unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

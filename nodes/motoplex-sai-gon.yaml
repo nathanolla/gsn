@@ -1,0 +1,42 @@
+id: motoplex-sai-gon
+name: Motoplex Sài Gòn
+city: Ho Chi Minh City
+country: VN
+lat: 10.8019278
+lon: 106.6452337
+layer: franchise
+capability:
+- full-service
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- service
+- parts
+- warranty
+url: https://motoplexsaigon.com/
+phone: 0888000586 / 0838116414
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/vn/G/stores,
+    fetched 2026-09-10) lists "Motoplex Sai Gon" at 223-233 Cộng Hòa, Phường Tân Bình, TP
+    Hồ Chí Minh, phones 0888000586/0838116414, email customercare@sapa.com.vn, brand AGPV,
+    dealer code VN020E, coords 10.8019278/106.6452337. Also indexed on the official Aprilia
+    VN locator (https://www.aprilia.com/vn_VI/dealer-locator/tp-h%E1%BB%93-ch%C3%AD-minh/motoplex-sai-gon/).
+- date: 2026-09-10
+  method: website
+  fact: 'Dealer site https://motoplexsaigon.com/ (fetched 2026-09-10) bills itself "Trung
+    tâm Vespa, Piaggio, Aprilia, Moto Guzzi" (center for Vespa/Piaggio/Aprilia/Moto Guzzi),
+    lists Moto Guzzi V100/V7/V85/V9, offers maintenance booking, genuine spare parts and after-sales
+    service; address 233 Cộng Hòa, P. Tân Bình, TP.HCM, tax ID 0304913178, sales 090 276 33
+    99, service 0909 53 88 23, hotline 1900252633; the operator (SAPA group) also runs six
+    Vespa Sapa stores in HCMC listed on the site. Opening covered by Piaggio Vietnam Motoplex
+    launch coverage (YouTube, 2021-12-31) and thanhnien.vn (https://thanhnien.vn/moto-guzzi-aprilia-gia-nhap-thi-truong-viet-nam-gia-ban-ngang-o-to-hang-a-1851417059.htm):
+    Moto Guzzi/Aprilia entered Vietnam via Motoplex in late 2021.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

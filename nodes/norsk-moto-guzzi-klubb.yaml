@@ -22,6 +22,28 @@ observations:
     2026 spring/autumn rallies (Rindal/Sirdal). NOTE (claude cross-check 2026-09-10): Norway
     has ZERO dealers on the official jhgateway locator API — this club is Norway''s only GSN
     node.'
+- date: 2026-09-10
+  method: website
+  fact: Club website (https://motoguzzi.no/) describes Norsk Moto Guzzi Klubb as a nationwide
+    brand club for Moto Guzzi motorcycles with approximately 800 members, founded 18 June
+    1983.
+- date: 2026-09-10
+  method: website
+  fact: Contact page (https://motoguzzi.no/kontakt-oss/) lists address Tverråsen 35, 1397
+    Nesøya, phone +47 901 16 604 and email post@motoguzzi.no; Elin Vandevjen is listed as
+    leader.
+- date: 2026-09-10
+  method: community-endorsement
+  fact: Wikipedia (https://no.wikipedia.org/wiki/Norsk_Moto_Guzzi_klubb) confirms the club
+    was founded in 1983, covers Norway, has about 800 members and holds annual meetings.
+- date: 2026-09-10
+  method: community-endorsement
+  fact: Motorhobby directory (https://www.motorhobby.no/view/item/norsk-moto-guzzi-klubb,
+    2023-06-20) lists the club as a nationwide Moto Guzzi club with contact phone and email.
+- date: 2026-09-10
+  method: website
+  fact: 'City-level coordinates for Nesøya, Akershus taken from Wikipedia (https://en.wikipedia.org/wiki/Nes%C3%B8ya,_Akershus:
+    59.863528°N, 10.520417°E).'
 last_verified: '2026-09-10'
-verified_by: claude-kimi
+verified_by: claude-qoder
 status: active

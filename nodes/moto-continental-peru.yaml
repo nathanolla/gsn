@@ -1,0 +1,56 @@
+id: moto-continental-peru
+name: Moto Continental del Perú
+city: Lima
+country: PE
+lat: -12.0459808
+lon: -77.0305912
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+- royal-enfield
+- can-am
+- sea-doo
+functions:
+- sales
+url: https://motocontinental.com.pe/
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'motocontinental.com.pe launch announcement (published 2025-03-27): Moto Continental,
+    subsidiary of Grupo SIMPA (Buenos Aires), operating in Mexico since 2020, "aterriza en
+    Perú" with "Royal Enfield, Vespa, Aprilia, Moto Guzzi, Piaggio, Can-Am y Sea-Doo" — Moto
+    Guzzi explicitly named among brands brought to Peru. No street address published anywhere
+    on the site (contact form only); lat/lon is Lima city-centroid (Nominatim "Lima, Peru"),
+    city-level only — company debut was at Expomoto 2025, Jockey Plaza convention center,
+    Lima (site news, 2025-07 event).'
+- date: 2026-09-10
+  method: website
+  fact: 'Current Guzzi presence is contradicted by Moto Continental''s own live pages: site
+    nav MARCAS lists only Royal Enfield, Vespa, Aprilia, Piaggio, Can-Am, Sea-Doo (no Moto
+    Guzzi); Expomoto 2025 article (fetched) lists portfolio "Royal Enfield, Vespa, Piaggio,
+    Can-Am, Seadoo y Moto Morini" without Guzzi. aprilia-peru.com (footer "© 2026 Moto Continental",
+    links to motocontinental.com.mx) lists 2 concesionarios, both Ventas+Postventa: "Aprilia
+    EL CAMINO", Jr. Domingo Elías 1251, Surquillo, Lima and "Aprilia MOTORSPORT", Av. República
+    de Panamá 505, Barranco, Lima (vespa-peru.com adds Vespa TARAPOTO) — no Guzzi-branded
+    listing anywhere.'
+- date: 2026-09-10
+  method: website
+  fact: 'False-lead eliminations documented during verification: Grupo Socopur (socopur.com.pe,
+    "Talleres Autorizados") current brands are KTM/Husqvarna/GasGas/Triumph/Voge — no Guzzi
+    (its 2018 "primer Showroom de Piaggio" was commercial vehicles); piaggio-peru.com is operated
+    by AQUASPORT S.A.C (Av. República de Panamá 505 Barranco / 5329 Surquillo), scooter brands
+    only. An alibaba.com autopart page claiming "Grupo Socopur — official Piaggio Group distributor
+    for Moto Guzzi V7 Stone in Lima" is auto-generated SEO content, not corroborated by socopur.com.pe.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: the central Piaggio locator API (jhgateway) returns
+    ZERO records for PE, UY and VE — these markets run importer-side, so website evidence
+    is the only official trail.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: unverified

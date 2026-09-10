@@ -1,0 +1,25 @@
+id: mecamoto-montreal
+name: Mecamoto
+city: Montréal
+country: CA
+lat: 45.5017
+lon: -73.5673
+layer: franchise
+capability:
+- satellite
+brands:
+- Moto Guzzi
+functions:
+- sales
+url: https://www.mecamoto.ca/en/
+phone: 514-842-1234
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Mecamoto lists Moto Guzzi inventory, identifies itself as a Montréal dealer, and
+    offers service for two-wheeled vehicles: https://www.mecamoto.ca/en/ and https://www.mecamoto.ca/en/service/.
+    The site does not explicitly establish authorized status or Guzzi-specific service depth.
+    City-level coordinates are used.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

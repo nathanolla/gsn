@@ -1,0 +1,29 @@
+id: kharisma-motor-yogyakarta
+name: Kharisma Motor (Kol. Sugiyono, Yogyakarta)
+city: Yogyakarta
+country: ID
+lat: -7.8150045
+lon: 110.3687226
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (0274) 379998 / 4281747
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "KHARISMA MOTOR" at Jl. Kolonel Sugiyono No. 3, Pojok Beteng
+    Wetan, Mergangsan, Yogyakarta, phones (0274) 379998/4281747, brand AGPV, dealer code DEALER-ID-23.
+    Same listing on https://motoguzzi.co.id/dealer. Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

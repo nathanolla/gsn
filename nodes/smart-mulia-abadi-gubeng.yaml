@@ -1,0 +1,29 @@
+id: smart-mulia-abadi-gubeng
+name: SMART Mulia Abadi (Gubeng, Surabaya)
+city: Surabaya
+country: ID
+lat: -7.2764354
+lon: 112.7478465
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (031) 5050777
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "SMART MULIA ABADI" at Jl. Sulawesi No. 53, Gubeng, Surabaya,
+    phone (031) 5050777, brand AGPV, dealer code DEALER-ID-34. Same listing on https://motoguzzi.co.id/dealer.
+    Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

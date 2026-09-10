@@ -1,0 +1,21 @@
+id: guzzi-riders-canada
+name: Guzzi Riders Canada
+country: CA
+layer: knowledge
+capability:
+- knowledge
+brands:
+- Moto Guzzi
+functions:
+- owner-community
+- knowledge-sharing
+url: https://www.facebook.com/groups/232461450819788/
+observations:
+- date: 2026-09-10
+  method: community-endorsement
+  fact: 'The public group identifies itself as “Guzzi Riders Canada,” with Canada-wide scope
+    and a Moto Guzzi focus: https://www.facebook.com/groups/232461450819788/. No coordinates
+    are assigned to this national knowledge group.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

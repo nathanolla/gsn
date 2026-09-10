@@ -1,0 +1,23 @@
+id: bike-breakers-canada-edmonton
+name: Bike Breakers Canada
+city: Edmonton
+country: CA
+lat: 53.5461
+lon: -113.4938
+layer: independent
+capability:
+- depot
+brands:
+- Moto Guzzi
+functions:
+- used-parts-sales
+url: https://bikebreakers.ca/collections/moto-guzzi
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Bike Breakers’ Moto Guzzi collection says it offers used Moto Guzzi parts: https://bikebreakers.ca/collections/moto-guzzi.
+    Its public business listing identifies it as Edmonton, AB: https://www.facebook.com/bikebreakers.ca/.
+    City-level coordinates are used.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

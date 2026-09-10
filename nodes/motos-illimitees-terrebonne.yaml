@@ -1,0 +1,25 @@
+id: motos-illimitees-terrebonne
+name: Motos Illimitees
+city: Terrebonne
+state: QC
+country: CA
+lat: 45.72645
+lon: -73.68799
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+phone: +1-(450) 477-4000
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Motos Illimitees'', 3300 Boulevard Des Entreprises, Terrebonne
+    J6X 4J8; active:true; type=dealers.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 3300 Boulevard Des Entreprises, Terrebonne J6X 4J8

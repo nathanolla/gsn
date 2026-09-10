@@ -1,0 +1,25 @@
+id: cycle-works-calgary
+name: Cycle Works Calgary
+city: Calgary
+country: CA
+lat: 51.0447
+lon: -114.0719
+layer: franchise
+capability:
+- satellite
+brands:
+- Moto Guzzi
+functions:
+- sales
+url: https://www.calgarycycleworks.com/inventory/v1/Current/Moto-Guzzi
+phone: 403-230-1920
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Cycle Works publishes a current Moto Guzzi motorcycle-sales inventory page and identifies
+    itself as a Calgary dealer with service and parts departments: https://www.calgarycycleworks.com/inventory/v1/Current/Moto-Guzzi
+    and https://www.calgarycycleworks.com/--moto-guzzi. No Moto Guzzi-specific service-depth
+    claim was found. City-level coordinates are used.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

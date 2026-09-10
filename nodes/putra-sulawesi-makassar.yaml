@@ -1,0 +1,27 @@
+id: putra-sulawesi-makassar
+name: Putra Sulawesi (Makassar)
+city: Makassar
+country: ID
+lat: -5.1548488
+lon: 119.4243374
+layer: franchise
+capability:
+- satellite
+brands:
+- Moto Guzzi
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: '624113984066'
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Indonesia dealer page (https://motoguzzi.co.id/dealer, fetched
+    2026-09-10) lists "Putra Sulawesi" outlet "Makassar", Jl. Veteran Selatan no 195-196,
+    Kel. Maricaya Selatan, Kec. Mamajang, Makassar, phone +624113984066, coords -5.1548/119.4243
+    (city-level). NOTE: this outlet is absent from the global Piaggio locator API dataset
+    fetched the same day — cross-source discrepancy flagged for review.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

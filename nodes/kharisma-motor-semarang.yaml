@@ -1,0 +1,29 @@
+id: kharisma-motor-semarang
+name: Kharisma Motor (Semarang Selatan)
+city: Semarang
+country: ID
+lat: -7.0008213
+lon: 110.4335576
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (024) 76444555
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "KHARISMA MOTOR" at Jl. Kompol Maksum 314C, Peterongan, Semarang
+    Selatan, phone (024) 76444555, brand AGPV, dealer code DEALER-ID-24. Same listing on https://motoguzzi.co.id/dealer.
+    Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

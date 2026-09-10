@@ -1,0 +1,34 @@
+id: aprilia-moto-guzzi-pampanga
+name: Aprilia Moto Guzzi Pampanga
+city: San Fernando
+country: PH
+lat: 15.0593937
+lon: 120.6567054
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+functions:
+- sales
+- parts
+url: https://www.facebook.com/ApriliaMotoGuzziPampanga/
+phone: '639190894572'
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API serving motoguzzi.com/ph_EN (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores,
+    fetched 2026-09-10) lists "Aprilia Moto Guzzi Pampanga" at Laus Group Blvd, Laus Group
+    Complex, Jose Abad Santos Ave., San Jose City, San Fernando, Pampanga, phone +639190894572,
+    type "dealers,services", brand code AG (Aprilia/Moto Guzzi), dealer code DEALER-PH-15,
+    coords 15.0593937/120.6567054.
+- date: 2026-09-10
+  method: website
+  fact: Facebook page "Aprilia Moto Guzzi Pampanga | San Fernando" (https://www.facebook.com/ApriliaMotoGuzziPampanga/)
+    exists; a public visit video "Ready to ride with these motorcycles? Come with me to visit
+    Aprilia Moto Guzzi [Pampanga]" dated 2026-07-11 appears in search results, indicating
+    recent activity. Service depth unverified — satellite pending review.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

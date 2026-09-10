@@ -1,0 +1,29 @@
+id: sinar-inti-harapan-ampera
+name: Sinar Inti Harapan (Ampera)
+city: Jakarta
+country: ID
+lat: -6.2869577
+lon: 106.8189516
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: +62 21 38820178
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "Sinar Inti Harapan" at Jl. Ampera Raya No. 11, Cilandak Timur,
+    Ps. Minggu, Jakarta Selatan, phone 622138820178, brand AGPV, dealer code DEALER-ID-59,
+    flagged Motoplex. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

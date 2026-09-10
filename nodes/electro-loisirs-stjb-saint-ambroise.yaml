@@ -1,0 +1,23 @@
+id: electro-loisirs-stjb-saint-ambroise
+name: Électro-Loisirs STJB
+city: Saint-Ambroise
+country: CA
+lat: 48.551
+lon: -71.335
+layer: franchise
+capability:
+- satellite
+brands:
+- Moto Guzzi
+functions:
+- sales
+url: https://www.motoguzzi.com/ca_EN/dealer-locator/saint-ambroise/%C3%A9lectro-loisirs-stjb/
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Moto Guzzi’s official Canadian locator identifies Électro-Loisirs STJB in Saint-Ambroise:
+    https://www.motoguzzi.com/ca_EN/dealer-locator/saint-ambroise/%C3%A9lectro-loisirs-stjb/.
+    City-level coordinates are used.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

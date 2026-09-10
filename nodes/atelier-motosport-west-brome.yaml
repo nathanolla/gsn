@@ -1,0 +1,30 @@
+id: atelier-motosport-west-brome
+name: Atelier Motosport Pierre Beullac
+city: West Brome
+country: CA
+lat: 45.216
+lon: -72.667
+layer: independent
+capability:
+- satellite
+brands:
+- Moto Guzzi
+functions:
+- service
+url: https://ateliermotosport.com/pages/services
+phone: 450-263-6902
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Atelier Motosport says it works on “all kinds of bikes,” explicitly including Moto
+    Guzzi: https://ateliermotosport.com/pages/services. Its contact page lists 1150 ch. Knowlton,
+    West Brome and the business phone: https://ateliermotosport.com/pages/contact-us. City-level
+    coordinates are used.'
+- date: '2026-09-10'
+  method: website
+  fact: 'Grading review (claude): evidence shows sales/booking or generic multi-brand service,
+    not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology,
+    same bar applied across the whole 2026-09 sweep.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

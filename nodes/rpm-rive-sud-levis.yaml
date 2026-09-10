@@ -1,0 +1,25 @@
+id: rpm-rive-sud-levis
+name: RPM Rive-Sud
+city: Levis
+state: QC
+country: CA
+lat: 46.75673
+lon: -71.1725
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+phone: +1-(418) 835-1624
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''RPM Rive-Sud'', 226 Chemin des iles, Levis G6V 7M5; active:true;
+    type=dealers.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 226 Chemin des iles, Levis G6V 7M5

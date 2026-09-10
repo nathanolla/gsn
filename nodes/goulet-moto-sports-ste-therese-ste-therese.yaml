@@ -1,0 +1,26 @@
+id: goulet-moto-sports-ste-therese-ste-therese
+name: Goulet Moto Sports Ste-Therese
+city: Ste-Therese
+state: QC
+country: CA
+lat: 45.6363
+lon: -73.83765
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +1-(450) 435-2408
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Goulet Moto Sports Ste-Therese'', 110 Turgeon, Ste-Therese
+    J7E 3H9; active:true; type=dealers,services.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 110 Turgeon, Ste-Therese J7E 3H9

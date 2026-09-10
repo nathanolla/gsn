@@ -92,3 +92,9 @@ def test_event_nodes_are_time_bounded():
         assert d.get("lat") is not None, f"{p}: event without coordinates"
         assert "event" in d["capability"], f"{p}: event layer needs event capability"
     assert n_events >= 1, "events layer has no data — the chip would render dead"
+
+def test_phones_are_strings():
+    # an unquoted phone in YAML parses as int and breaks the GPX desc join
+    for p, d in ALL.items():
+        ph = d.get("phone")
+        assert ph is None or isinstance(ph, str), f"{p}: phone is {type(ph).__name__}"

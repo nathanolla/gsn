@@ -1,0 +1,30 @@
+id: sinar-inti-harapan-kebon-jeruk
+name: Sinar Inti Harapan (Kebon Jeruk)
+city: Jakarta
+country: ID
+lat: -6.2028503
+lon: 106.7592871
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (021) 53344883
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "SINAR INTI HARAPAN" at Jl. Lapangan Bola No. 16, Kebon Jeruk,
+    Jakarta Barat, phone (021) 53344883, brand AGPV, dealer code DEALER-ID-11. Same dealer
+    on https://motoguzzi.co.id/dealer (Jln. Panjang no. 16A dan Jln. Lapangan Bola no. 16,
+    Srengseng, Kebon Jeruk). Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

@@ -1,0 +1,40 @@
+id: motoplex-hanoi
+name: Motoplex Hà Nội
+city: Hanoi
+country: VN
+lat: 21.026438
+lon: 105.895983
+layer: franchise
+capability:
+- full-service
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- service
+- parts
+- warranty
+url: https://motoplexhanoi.com/
+phone: (+84) 86 899 1946
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/vn/G/stores,
+    fetched 2026-09-10) lists "Motoplex Hà Nội" at 99 Đàm Quang Trung, Phường Long Biên, TP
+    Hà Nội, phone 0868991946, email motoplex.hanoi@fmg.asia, brand code AGPV, dealer code
+    VN113A, coords 21.026438/105.895983.
+- date: 2026-09-10
+  method: website
+  fact: 'Dealer site https://motoplexhanoi.com/ (fetched 2026-09-10) states Moto Guzzi V7
+    Stone is "chính thức được phân phối bởi Motoplex Hanoi - Đại lý Ủy Quyền" (officially
+    distributed by Motoplex Hanoi, authorized dealer), sells V7, V9 Bobber, V85 TT and V100
+    Mandello (V100 Mandello S listed at 535,000,000₫) plus Moto Guzzi accessories, and offers
+    a service workshop (Xưởng Dịch Vụ: sửa chữa & bảo dưỡng / repair and maintenance, bảo
+    hành / warranty, cứu hộ xe 24/7 / 24-7 roadside rescue); contact page gives head office
+    99 Đàm Quang Trung, Long Biên, Hanoi, phone (+84) 86 899 1946, operated by FMG Mobility.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

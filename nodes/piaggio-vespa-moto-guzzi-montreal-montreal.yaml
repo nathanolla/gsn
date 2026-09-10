@@ -1,0 +1,26 @@
+id: piaggio-vespa-moto-guzzi-montreal-montreal
+name: Piaggio Vespa Moto Guzzi Montreal
+city: Montreal
+state: QC
+country: CA
+lat: 45.52792
+lon: -73.5771
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +1-(514) 842-1234
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Piaggio Vespa Moto Guzzi Montreal'', 4398 Rue De La Roche,
+    Montreal H2J 3J1; active:true; type=dealers,services.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 4398 Rue De La Roche, Montreal H2J 3J1

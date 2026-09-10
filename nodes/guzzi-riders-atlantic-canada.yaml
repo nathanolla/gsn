@@ -1,0 +1,23 @@
+id: guzzi-riders-atlantic-canada
+name: Moto Guzzi Riders of Atlantic Canada
+country: CA
+layer: knowledge
+capability:
+- knowledge
+brands:
+- Moto Guzzi
+functions:
+- owner-community
+- rides
+- knowledge-sharing
+url: https://www.facebook.com/groups/435632367760133/
+observations:
+- date: 2026-09-10
+  method: community-endorsement
+  fact: 'The public group is titled “Moto Guzzi Riders of Atlantic Canada,” and search results
+    show Atlantic-region owner discussions and a 2024 Atlantic Canada meet: https://www.facebook.com/groups/435632367760133/
+    and https://www.instagram.com/p/C8iZS6SPd-a/. No coordinates are assigned to this regional
+    knowledge group.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

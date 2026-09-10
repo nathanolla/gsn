@@ -1,0 +1,53 @@
+id: motoplex-montevideo
+name: Motoplex Montevideo (Santa Rosa Motors)
+city: Montevideo
+country: UY
+lat: -34.9064926
+lon: -56.1367696
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+- piaggio
+- vespa
+- aprilia
+functions:
+- sales
+url: https://www.montevideo.com.uy/Airbag/Grupo-Piaggio-inauguro-su-primer-local-de-exposicion-y-ventas-en-Uruguay-uc686224
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'montevideo.com.uy (2018-06-15, uc686224): "Grupo Piaggio inauguró su primer local
+    de exposición y ventas en Uruguay" — Motoplex Montevideo in Pocitos; "Vespa, Piaggio,
+    Moto Guzzi y Aprilia tienen desde hoy una nueva casa en Pocitos donde además de la exhibición,
+    se brindará una atención especializada". Address per infonegocios.biz (2018-06-15): Luis
+    Alberto de Herrera esq. 26 de Marzo. OSM/Nominatim resolves Av. Luis Alberto de Herrera
+    1163 to La Mondiola, Buceo, 11300 Montevideo (coords above, street-level geocode; sources
+    describe the barrio as Pocitos/Buceo border).'
+- date: 2026-09-10
+  method: website
+  fact: 'infonegocios.biz (2018-06-15): Santa Rosa Motors took over Grupo Piaggio representation
+    in July 2016 (from Autolíder, confirmed by montevideo.com.uy 2016-08-01 uc316031: exclusive
+    rep of Piaggio/Vespa/Aprilia/Moto Guzzi; SRM locales then at Cerro Largo 999 esq. Julio
+    Herrera y Obes and Av. Al Parque y Rambla, Carrasco); sales grew 350%; range aimed "150
+    cm3 en adelante… llegamos a 1100 cm3" (i.e. including Guzzi-class bikes). autoblog.com.uy
+    (2018-06-21) dates the Motoplex opening to Wednesday 2018-06-13, first Piaggio-exclusive
+    point of the firm that represents Santa Rosa Motors in Uruguay.'
+- date: 2026-09-10
+  method: website
+  fact: 'Current-status caveat: Santa Rosa Motors has no findable website (santarosamotors.com.uy
+    / .uy NXDOMAIN). Business directories (uy.near-place.com, uy.todosnegocios.com — phone
+    2624 1651 — and autoyas.com "(2026)") still list Motoplex Montevideo / Santa Rosa Motors,
+    but those pages are Cloudflare/bot-walled and could not be opened, so no post-2018 primary
+    evidence and no phone is confirmed. A Facebook page "Aprilia-Moto Guzzi Uruguay" exists
+    but is login-walled, operator unverified. Graded satellite: franchise-store evidence,
+    service depth not evidenced.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: the central Piaggio locator API (jhgateway) returns
+    ZERO records for PE, UY and VE — these markets run importer-side, so website evidence
+    is the only official trail.'
+last_verified: 2026-09-10
+verified_by: claude-zai
+status: unverified

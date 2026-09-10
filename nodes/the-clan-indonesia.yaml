@@ -1,0 +1,35 @@
+id: the-clan-indonesia
+name: The Clan (Moto Guzzi Indonesia community)
+city: national
+country: ID
+layer: knowledge
+capability:
+- knowledge
+brands:
+- Moto Guzzi
+functions:
+- community
+- rides
+- peer-support
+url: https://www.facebook.com/MotoGuzziIndonesia
+observations:
+- date: 2026-09-10
+  method: website
+  fact: Moto Guzzi Indonesia (PT Piaggio Indonesia) news article (https://motoguzzi.co.id/en/news/komunitas-pecinta-moto-guzzi-di-indonesia-the-clan-tegaskan-rasa-cinta-tanah-air-dengan-jelajahi-salah-satu-keindahan-timur-indo,
+    published 2023-09-18) describes "The Clan" as the community of Moto Guzzi lovers in Indonesia,
+    touring Flores in Aug 2023.
+- date: 2026-09-10
+  method: website
+  fact: Indonesian moto news kabaroto.com (https://kabaroto.com/post/read/komunitas-moto-guzzi-the-clan-taklukkan-alam-sumba,
+    2025-06-21) covers The Clan's Sumba island tour; Motorplus (https://www.motorplus-online.com/read/253102767/,
+    2022-01-19) covered the community touring with PT Piaggio for Moto Guzzi's 100th anniversary.
+- date: 2026-09-10
+  method: website
+  fact: 'Facebook page "Moto Guzzi Indonesia Official" (https://www.facebook.com/MotoGuzziIndonesia,
+    cf. Instagram https://www.instagram.com/motoguzziindonesia/) posted a video titled "The
+    Clan bonds stronger with every mile" dated 2026-05-29, indicating the community remains
+    active; the community''s own group presence is behind Facebook''s login wall and could
+    not be inspected. No coordinates: national community.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

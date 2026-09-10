@@ -1,0 +1,30 @@
+id: dwi-pratama-mandiri-bandengan
+name: Dwi Pratama Mandiri (Bandengan)
+city: Jakarta
+country: ID
+lat: -6.135849
+lon: 106.804838
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (021) 6912209 / 6927216
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "DWI PRATAMA MANDIRI" at Jl. Bandengan Utara Raya No. 11B, Pekojan,
+    Tambora, Jakarta Barat, phones (021) 6912209/6927216, type "dealers,services", brand AGPV,
+    dealer code DEALER-ID-51. Same listing on https://motoguzzi.co.id/dealer. Service depth
+    unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

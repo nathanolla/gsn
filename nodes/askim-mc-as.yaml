@@ -1,0 +1,51 @@
+id: askim-mc-as
+name: Askim MC AS
+city: Askim
+country: 'NO'
+lat: 59.58611
+lon: 11.17
+layer: franchise
+capability:
+- full-service
+brands:
+- Moto Guzzi
+- Aprilia
+- Vespa
+- BMW
+- Harley-Davidson
+- Energica
+- Beta
+- Sherco
+- Piaggio
+functions:
+- sales
+- service
+- repair
+- restoration
+- winter-storage
+- dyno
+- custom-builds
+url: https://www.askimmc.no/
+phone: +47 69 88 48 28
+observations:
+- date: 2026-09-10
+  method: website
+  fact: Askim MC "Om oss" page (https://www.askimmc.no/om-oss) lists Moto Guzzi as a brand
+    and offers service, repair, restoration, winter storage, insurance appraisal, dyno testing
+    and custom builds.
+- date: 2026-09-10
+  method: website
+  fact: Askim MC homepage (https://www.askimmc.no/) confirms address Vangsveien 10 E, 1814
+    Askim, phone 69 88 48 28, and email post@askimmc.no.
+- date: 2026-09-10
+  method: website
+  fact: Askim MC Facebook page (https://www.facebook.com/p/Askim-Mc-100044100552719/) posted
+    Moto Guzzi Stelio new-colour spring 2025 content and EICMA 2024 news, showing current
+    brand engagement.
+- date: 2026-09-10
+  method: website
+  fact: 'City-level coordinates for Askim taken from Wikipedia (https://en.wikipedia.org/wiki/Askim:
+    59°35′10″N, 11°10′12″E).'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

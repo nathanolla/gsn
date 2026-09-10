@@ -336,6 +336,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -96.99604,
+     49.71404
+    ]
+   },
+   "properties": {
+    "id": "adventure-power-products-ile-des-chenes",
+    "name": "Adventure Power Products",
+    "city": "Ile Des Chenes",
+    "state": "MB",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+1-(204) 878-3194",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Adventure Power Products', 1-797 Quest Blvd, Ile Des Chenes R0A 0T1; active:true; type=dealers,services."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -97.6858,
      30.3634
     ]
@@ -698,18 +739,33 @@
     ],
     "url": "https://albertacycle.com/",
     "phone": "780-477-3525",
-    "last_verified": "2026-08-22",
-    "verified_by": "gsn-lane-beyond-europe",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
     "status": "active",
     "capability": [
      "full-service"
     ],
-    "last_scraped": "2026-08-22",
+    "last_scraped": "2026-09-10",
     "observations": [
      {
       "date": "2026-08-22",
       "method": "website",
       "fact": "albertacycle.com is live. Address 12505 97 Street NW, Edmonton AB T5G 1Z8; phone 780-477-3525. Carries Royal Enfield, Aprilia, Moto Guzzi, Vespa, Piaggio, Arctic Cat, and Husqvarna."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Moto Guzzi’s official Canadian locator identifies Alberta Cycle in Edmonton: https://www.motoguzzi.com/ca_EN/dealer-locator/edmonton/alberta-cycle/. City-level coordinates are used."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Alberta Cycle Motorsports lists 12505 97 Street NW, Edmonton and its business phone at https://albertacycle.com/; its current site does not provide Moto Guzzi-specific service-depth evidence."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Alberta Cycle', 12505-97TH St NW, Edmonton T5G 1Z8; active:true; type=dealers,services."
      }
     ]
    }
@@ -925,6 +981,62 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"AMAR S.R.L.\"; address: Via dell'Artigliere 8/20, 90143 Palermo (PA); type=dealers; dealerCd=ITA401S2; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4548,
+     0.4859
+    ]
+   },
+   "properties": {
+    "id": "amartha-kura-motorindo-pekanbaru",
+    "name": "Amartha Kura Motorindo (Motoplex Pekanbaru)",
+    "city": "Pekanbaru",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "warranty"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Piaggio Indonesia news article (https://vespa.co.id/id/magazine/read/perluas-eksistensi-ke-sumatera-pt-piaggio-indonesia-membuka-deal) states PT Amartha Kura Motorindo opened a 4-brand Motoplex (Piaggio, Vespa, Aprilia, Moto Guzzi) on 2025-11-22 at Jl. Jend. Sudirman, Sudirman City Square, E-12-14, Tengkerang Selatan, Bukit Raya, Pekanbaru, with integrated Sales, Service and Spare Parts (3S) facilities. Corroborated by urbannews.id 2025-11-27 (https://www.urbannews.id/2025/11/27/piaggio-indonesia-resmikan-dealer-4-brand-baru-di-pekanbaru/)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Indonesia dealer page (https://motoguzzi.co.id/dealer, fetched 2026-09-10) lists \"Amartha Kura Motorindo\" outlet \"Pekanbaru\", province Riau, coordinates 0.4859/101.4548 (city-level). WARNING: the listed address (Jl. Ampera Raya No. 11, Jakarta Selatan) and phone (+622138820178) duplicate Sinar Inti Harapan's Ampera outlet and appear to be a site data error; phone left blank pending correction."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Grading review (claude): evidence shows sales/booking or generic multi-brand service, not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology, same bar applied across the whole 2026-09 sweep."
      }
     ]
    }
@@ -1155,6 +1267,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -68.50828,
+     48.46189
+    ]
+   },
+   "properties": {
+    "id": "andre-halle-fils-rimouski",
+    "name": "André Hallé & Fils",
+    "city": "Rimouski",
+    "state": "QC",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+1-(418)723-5132",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'André Hallé & Fils', 178 Leonidas Sud, Rimouski G5L 2T5; active:true; type=dealers,services."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -77.6603,
      39.4459
     ]
@@ -1272,6 +1425,111 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     119.4400838,
+     -5.1809274
+    ]
+   },
+   "properties": {
+    "id": "anugerah-aspac-pratama-makassar",
+    "name": "Anugerah Aspac Pratama (St. Alauddin)",
+    "city": "Makassar",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(0411) 880386 / 880486",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API serving motoguzzi.com (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"Anugerah Aspac Pratama\", Jl. Sultan Alauddin No. 78 A, Mangasa, Tamalate Makassar, phone (0411) 880386/880486, type \"dealers,services\", brand code AGPV, dealer code DEALER-ID-58, coords -5.1809274/119.4400838, flagged Motoplex."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Also listed on official Moto Guzzi Indonesia dealer page (https://motoguzzi.co.id/dealer, fetched 2026-09-10) with the same address and phones. Service depth beyond the locator's bulk \"dealers,services\" classification is unverified — satellite pending review."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8110858,
+     -6.2245908
+    ]
+   },
+   "properties": {
+    "id": "anugerah-sinergi-pratama-scbd",
+    "name": "Anugerah Sinergi Pratama (Motoplex SCBD)",
+    "city": "Jakarta",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "warranty"
+    ],
+    "url": "https://motoplexsinergi.co.id/",
+    "phone": "(021) 5155280",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"Anugerah Sinergi Pratama\" at SCBD Lot 8, Jl. Jendral Sudirman kav. 52-53, Kebayoran Baru, Jakarta Selatan, phone (021) 5155280, brand code AGPV, dealer code DEALER-ID-57. Also on https://motoguzzi.co.id/dealer (fetched 2026-09-10)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Operator site https://motoplexsinergi.co.id/ (fetched 2026-09-10): PT Anugerah Sinergi Pratama, authorized main distributor/dealer for Piaggio, Vespa, Aprilia and Moto Guzzi since 2014, serves unit purchases, accessories, merchandise and service with professional staff; seven JABOTABEK branches (SCBD, Tebet, Bogor, Tangerang, Ciledug, Pondok Gede, Bekasi); phone (021) 5155280."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Moto Guzzi Indonesia news (https://motoguzzi.co.id/en/news/pt-piaggio-indonesia-resmi-membuka-motoplex-4-brand-ke-11-kali-ini-di-kawasan-elit-sudirman-central-business-district-scbd-lokas) states Piaggio Indonesia opened its 11th Motoplex 4-brand store on 2023-03-16 at SCBD Lot 8, operated by PT Anugerah Sinergi Pratama."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -0.754,
      51.2919
     ]
@@ -1346,6 +1604,249 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "APM Tehnika OÜ identifies itself as Moto Guzzi \"maaletooja\" (importer) for Estonia on its dedicated site motoguzzi.apmoto.ee: sales salon Liipri 3, 10917 Tallinn (+372 5083256); service & parts Liipri 1, 10917 Tallinn (+372 55537762); info@apmoto.ee. CAVEAT: the site's model menu shows a legacy lineup (V7 III, V9, Audace, MGX-21, Eldorado, California — models discontinued years ago) and no 2025–2026 activity references were found in search, so current importer status is unconfirmed; Velt Motocenter and Motokeskus also actively sell Guzzi in Estonia. Source: https://motoguzzi.apmoto.ee/kontakt/ (fetched 2026-08-22)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.0364942,
+     14.6416339
+    ]
+   },
+   "properties": {
+    "id": "aprilia-moto-guzzi-caloocan",
+    "name": "Aprilia Moto Guzzi Caloocan",
+    "city": "Quezon City",
+    "state": null,
+    "country": "PH",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/caloocan/mlco-motocileta-co-4324",
+    "phone": "639177073650",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores, fetched 2026-09-10) lists \"Aprilia Moto Guzzi Caloocan\" (dealer code DEALER-PH-12, brand AGV, phone +639177073650) at Unit 1A, 64 Sgt. Esguerra St., South Triangle, Quezon City — note the store name says Caloocan but the current official address is in Quezon City (South Triangle), coordinates 14.6416339/121.0364942."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Zigwheels PH lists \"MLCO Motocileta Co\" as the Moto Guzzi dealer in Caloocan City at 363 Rizal Ave Ext, Grace Park West, Caloocan City (https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/caloocan/mlco-motocileta-co-4324, fetched 2026-09-10) — possibly the same dealer's former address; relocation unconfirmed. Service depth unverified — satellite pending review."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.0117786,
+     14.4004333
+    ]
+   },
+   "properties": {
+    "id": "aprilia-moto-guzzi-daang-hari",
+    "name": "Aprilia Moto Guzzi Daang Hari (MotorAce Leisure Bikes)",
+    "city": "Bacoor",
+    "state": null,
+    "country": "PH",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://www.aprilia.com/ph_EN/dealer-locator/bacoor/motorace-daang-hari/",
+    "phone": "639276090331",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores, fetched 2026-09-10) lists \"Aprilia Moto Guzzi Daang Hari\" at 0008 Daang Hari Road, Molino IV, Bacoor, Cavite, phone +639276090331, type \"dealers,services\", brand AG, dealer code DEALER-PH-45."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Indexed official Aprilia PH locator entry \"Aprilia Moto Guzzi Daang Hari\" (https://www.aprilia.com/ph_EN/dealer-locator/bacoor/motorace-daang-hari/); operator socials seen in search: Facebook \"MotorAce Leisure Bikes Daang Hari | Bacoor\" (https://www.facebook.com/p/MotorAce-Leisure-Bikes-Daang-Hari-61565670211719/) and Instagram @apriliadaanghari, with a Sept 2024 RS457 showroom post. Zigwheels lists \"Motorace - Daang Hari, Daang Hari Road, Molino IV, Bacoor\" as a Moto Guzzi dealer. Service depth unverified — satellite pending review."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6567054,
+     15.0593937
+    ]
+   },
+   "properties": {
+    "id": "aprilia-moto-guzzi-pampanga",
+    "name": "Aprilia Moto Guzzi Pampanga",
+    "city": "San Fernando",
+    "state": null,
+    "country": "PH",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://www.facebook.com/ApriliaMotoGuzziPampanga/",
+    "phone": "639190894572",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API serving motoguzzi.com/ph_EN (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores, fetched 2026-09-10) lists \"Aprilia Moto Guzzi Pampanga\" at Laus Group Blvd, Laus Group Complex, Jose Abad Santos Ave., San Jose City, San Fernando, Pampanga, phone +639190894572, type \"dealers,services\", brand code AG (Aprilia/Moto Guzzi), dealer code DEALER-PH-15, coords 15.0593937/120.6567054."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Facebook page \"Aprilia Moto Guzzi Pampanga | San Fernando\" (https://www.facebook.com/ApriliaMotoGuzziPampanga/) exists; a public visit video \"Ready to ride with these motorcycles? Come with me to visit Aprilia Moto Guzzi [Pampanga]\" dated 2026-07-11 appears in search results, indicating recent activity. Service depth unverified — satellite pending review."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.0877042,
+     14.5907529
+    ]
+   },
+   "properties": {
+    "id": "aprilia-moto-guzzi-rosario",
+    "name": "Aprilia Moto Guzzi Rosario (Rosario Bikes)",
+    "city": "Pasig",
+    "state": null,
+    "country": "PH",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "warranty"
+    ],
+    "url": "https://www.motoguzzi.com/ph_EN/dealer-locator/pasig/rosario-bikes/",
+    "phone": "639922153844",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores, fetched 2026-09-10) lists \"Aprilia Moto Guzzi Rosario\" at 43 Ortigas Ave, Rosario, Pasig City, phone +639922153844, type \"dealers,services\", brand AG, dealer code DEALER-PH-52; indexed official locator entry at https://www.motoguzzi.com/ph_EN/dealer-locator/pasig/rosario-bikes/."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Zigwheels PH lists Rosario Bikes as a Moto Guzzi dealer AND service center in Pasig at 43 Ortigas Ave, Padilla, Pasig 1609, with service booking phone +639455748223 (\"Rosario Bikes - Service Center ... Book a service\"): https://www.zigwheels.ph/new-motorcycles/moto-guzzi/service-centers/pasig/rosario-bikes-4323 and https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/pasig/rosario-bikes-4323 (both fetched 2026-09-10). Also indexed on the official Aprilia PH locator as \"Aprilia Moto Guzzi Rosario\" (https://www.aprilia.com/ph_EN/dealer-locator/pasig/rosario-bikes/)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.0221444,
+     14.4792922
+    ]
+   },
+   "properties": {
+    "id": "aprilia-moto-guzzi-sucat",
+    "name": "Aprilia Moto Guzzi Sucat (Bikerbox Inc.)",
+    "city": "Parañaque",
+    "state": null,
+    "country": "PH",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://www.facebook.com/APMG.Sucat/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "insideracing.com.ph (https://insideracing.com.ph/aprilia-moto-guzzi-brixton-store-consolidates-operations-with-paranaque-facility/, 2025-07-29) reported the Aprilia Moto Guzzi Brixton store closing 2025-07-31 with operations consolidating into the Parañaque facility at Lot 8 B2 Doña Irenea St., Ireneville, Sucat, Parañaque (coordinates are city-level)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Zigwheels PH lists \"Bikerbox Inc. (Sucat)\" as a Moto Guzzi dealer at LOT 8-B Dona Irenea St, Irineville Subd, BF Homes, Paranaque (https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/paranaque/bikerbox-inc-sucat-4322, fetched 2026-09-10); Facebook page \"Aprilia Moto Guzzi Sucat | Parañaque\" (https://www.facebook.com/APMG.Sucat/) exists and is described as servicing Aprilia and Moto Guzzi brands."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "CAVEAT: this outlet is NOT in the live Piaggio dealer-locator API for the Philippines fetched 2026-09-10 (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores), despite being the consolidation flagship per the July 2025 trade press; distribution changed hands at end-2025 (MSI out, Piaggio PH subsidiary in) — current operation unconfirmed."
      }
     ]
    }
@@ -1625,6 +2126,120 @@
       "date": "2026-09-10",
       "method": "official-locator",
       "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Asal as authorized dealer (Yetkili Satici); published address: Asal Plaza Ayazağa Mah.Cendere Yolu No:5/1 Sarıyer - İstanbul; published business phone 0212 289 88 00; exact pin coordinates 41.10952,28.99058 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.17,
+     59.58611
+    ]
+   },
+   "properties": {
+    "id": "askim-mc-as",
+    "name": "Askim MC AS",
+    "city": "Askim",
+    "state": null,
+    "country": "NO",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi",
+     "Aprilia",
+     "Vespa",
+     "BMW",
+     "Harley-Davidson",
+     "Energica",
+     "Beta",
+     "Sherco",
+     "Piaggio"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "repair",
+     "restoration",
+     "winter-storage",
+     "dyno",
+     "custom-builds"
+    ],
+    "url": "https://www.askimmc.no/",
+    "phone": "+47 69 88 48 28",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Askim MC \"Om oss\" page (https://www.askimmc.no/om-oss) lists Moto Guzzi as a brand and offers service, repair, restoration, winter storage, insurance appraisal, dyno testing and custom builds."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Askim MC homepage (https://www.askimmc.no/) confirms address Vangsveien 10 E, 1814 Askim, phone 69 88 48 28, and email post@askimmc.no."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Askim MC Facebook page (https://www.facebook.com/p/Askim-Mc-100044100552719/) posted Moto Guzzi Stelio new-colour spring 2025 content and EICMA 2024 news, showing current brand engagement."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "City-level coordinates for Askim taken from Wikipedia (https://en.wikipedia.org/wiki/Askim: 59°35′10″N, 11°10′12″E)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.667,
+     45.216
+    ]
+   },
+   "properties": {
+    "id": "atelier-motosport-west-brome",
+    "name": "Atelier Motosport Pierre Beullac",
+    "city": "West Brome",
+    "state": null,
+    "country": "CA",
+    "layer": "independent",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "service"
+    ],
+    "url": "https://ateliermotosport.com/pages/services",
+    "phone": "450-263-6902",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Atelier Motosport says it works on “all kinds of bikes,” explicitly including Moto Guzzi: https://ateliermotosport.com/pages/services. Its contact page lists 1150 ch. Knowlton, West Brome and the business phone: https://ateliermotosport.com/pages/contact-us. City-level coordinates are used."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Grading review (claude): evidence shows sales/booking or generic multi-brand service, not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology, same bar applied across the whole 2026-09 sweep."
      }
     ]
    }
@@ -2106,6 +2721,41 @@
   },
   {
    "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "bcimog",
+    "name": "British Columbia Italian Motorcycle Owner's Group",
+    "city": null,
+    "state": null,
+    "country": "CA",
+    "layer": "knowledge",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "owner-community",
+     "rides",
+     "knowledge-sharing"
+    ],
+    "url": "https://wildguzzi.com/forum/index.php?topic=95017.0",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "A WildGuzzi post dated 2018-03-15 describes BCIMOG as an informal British Columbia riding group for all Italian motorcycles, which includes Moto Guzzi riders: https://wildguzzi.com/forum/index.php?topic=95017.0. No coordinates are assigned to this regional knowledge group."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "geometry": {
     "type": "Point",
     "coordinates": [
@@ -2345,6 +2995,46 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "bikeworld.fi today has zero Moto Guzzi mentions (site search '?s=guzzi' 0 hits; /moottoripyorat/moto-guzzi 404) — graded satellite on locator evidence only; own-site Guzzi evidence absent or stale."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -113.4938,
+     53.5461
+    ]
+   },
+   "properties": {
+    "id": "bike-breakers-canada-edmonton",
+    "name": "Bike Breakers Canada",
+    "city": "Edmonton",
+    "state": null,
+    "country": "CA",
+    "layer": "independent",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "used-parts-sales"
+    ],
+    "url": "https://bikebreakers.ca/collections/moto-guzzi",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "depot"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Bike Breakers’ Moto Guzzi collection says it offers used Moto Guzzi parts: https://bikebreakers.ca/collections/moto-guzzi. Its public business listing identifies it as Edmonton, AB: https://www.facebook.com/bikebreakers.ca/. City-level coordinates are used."
      }
     ]
    }
@@ -3206,6 +3896,41 @@
       "date": "2026-08-18",
       "method": "website",
       "fact": "Re-check: site live; title/description \"Vespa, Piaggio, Moto Guzzi Dealer Cincinnati\"; 2027 V85 reference; copyright 2026; phone matches node."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "calgary-moto-guzzisti",
+    "name": "Calgary Moto Guzzisti",
+    "city": "Calgary",
+    "state": null,
+    "country": "CA",
+    "layer": "knowledge",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "owner-community",
+     "rides",
+     "knowledge-sharing"
+    ],
+    "url": "https://www.facebook.com/calgaryguzzisti/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "The public page identifies “Calgary Moto Guzzisti” as a Calgary, Alberta Moto Guzzi community: https://www.facebook.com/calgaryguzzisti/. No coordinates are assigned to this knowledge group."
      }
     ]
    }
@@ -4305,6 +5030,88 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -111.34247,
+     56.71114
+    ]
+   },
+   "properties": {
+    "id": "conlon-motorsports-fort-mac-fort-mc-murray",
+    "name": "Conlon Motorsports Fort Mac",
+    "city": "Fort Mc Murray",
+    "state": "AB",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+1-(587) 674-1100",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Conlon Motorsports Fort Mac', 351 Rickard Rd, Fort Mc Murray T9H 0E1; active:true; type=dealers,services."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -113.53052,
+     53.29193
+    ]
+   },
+   "properties": {
+    "id": "conlon-motorsports-leduc-leduc",
+    "name": "Conlon Motorsports Leduc",
+    "city": "Leduc",
+    "state": "AB",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+1-(780) 612-9995",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Conlon Motorsports Leduc', 4108 65A Ave, Leduc T9E 0R8; active:true; type=dealers,services."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      174.7632,
      -36.8521
     ]
@@ -4645,6 +5452,128 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Own website confirms MC workshop (MC-værksted) in Horsens, https://www.cvp-mc.dk/, verified 2026-08-22."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -114.0719,
+     51.0447
+    ]
+   },
+   "properties": {
+    "id": "cycle-works-calgary",
+    "name": "Cycle Works Calgary",
+    "city": "Calgary",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.calgarycycleworks.com/inventory/v1/Current/Moto-Guzzi",
+    "phone": "403-230-1920",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Cycle Works publishes a current Moto Guzzi motorcycle-sales inventory page and identifies itself as a Calgary dealer with service and parts departments: https://www.calgarycycleworks.com/inventory/v1/Current/Moto-Guzzi and https://www.calgarycycleworks.com/--moto-guzzi. No Moto Guzzi-specific service-depth claim was found. City-level coordinates are used."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -113.46871,
+     53.55014
+    ]
+   },
+   "properties": {
+    "id": "cycle-works-edmonton-edmonton",
+    "name": "Cycle Works Edmonton",
+    "city": "Edmonton",
+    "state": "AB",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+1-(780) 440-3200",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Cycle Works Edmonton', 5688 75TH Street, Edmonton T6E 5X6; active:true; type=dealers,services."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -113.87227,
+     52.28954
+    ]
+   },
+   "properties": {
+    "id": "cycle-works-red-deer-red-deer-county",
+    "name": "Cycle Works Red Deer",
+    "city": "Red Deer County",
+    "state": "AB",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+1-(403)357-1578",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Cycle Works Red Deer', 207 Burnt Ridge Road, Red Deer County T4S 0K6; active:true; type=dealers,services."
      }
     ]
    }
@@ -5785,13 +6714,13 @@
     ],
     "url": "https://www.downeastpowersports.ca/",
     "phone": "506-635-1223",
-    "last_verified": "2026-08-22",
-    "verified_by": "gsn-lane-beyond-europe",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
     "status": "active",
     "capability": [
      "full-service"
     ],
-    "last_scraped": "2026-08-22",
+    "last_scraped": "2026-09-10",
     "observations": [
      {
       "date": "2026-08-22",
@@ -5802,6 +6731,16 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "downeastpowersports.ca is live. Address 1230 Fairville Blvd, Saint John NB E2M 5T7; phone 506-635-1223. Stocks Polaris, Honda, Piaggio, Aprilia, Vespa, and Moto Guzzi. New and used inventory available."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Moto Guzzi’s official Canadian locator identifies Down East Powersports in Saint John: https://www.motoguzzi.com/ca_EN/dealer-locator/saint-john/down-east-powersports/. City-level coordinates are used."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "The shop lists a Moto Guzzi V85 Strada in its current inventory and publishes a service department, but does not state Moto Guzzi-specific service depth: https://www.downeastpowersports.ca/en/new-inventory/ and https://www.downeastpowersports.ca/en/."
      }
     ]
    }
@@ -6121,6 +7060,50 @@
       "date": "2026-08-18",
       "method": "website",
       "fact": "Re-check: site live; Moto Guzzi inventory showroom link; 2027 model-year references; phone matches node."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.804838,
+     -6.135849
+    ]
+   },
+   "properties": {
+    "id": "dwi-pratama-mandiri-bandengan",
+    "name": "Dwi Pratama Mandiri (Bandengan)",
+    "city": "Jakarta",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(021) 6912209 / 6927216",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"DWI PRATAMA MANDIRI\" at Jl. Bandengan Utara Raya No. 11B, Pekojan, Tambora, Jakarta Barat, phones (021) 6912209/6927216, type \"dealers,services\", brand AGPV, dealer code DEALER-ID-51. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
      }
     ]
    }
@@ -6472,6 +7455,46 @@
       "date": "2026-05-20",
       "method": "official-locator",
       "fact": "Official Moto Guzzi dealer-locator page for 'el-motorista-algeciras' (snapshot 2026-05-20, accessed 2026-08-22 via Internet Archive): https://web.archive.org/web/20260520065848/https://www.motoguzzi.com/es_ES/dealer-locator/algeciras/el-motorista-algeciras/ ; elmotorista.es is a chain site (live as of 2026-08-22) but Algeciras-specific address not extractable from available pages."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.335,
+     48.551
+    ]
+   },
+   "properties": {
+    "id": "electro-loisirs-stjb-saint-ambroise",
+    "name": "Électro-Loisirs STJB",
+    "city": "Saint-Ambroise",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motoguzzi.com/ca_EN/dealer-locator/saint-ambroise/%C3%A9lectro-loisirs-stjb/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Moto Guzzi’s official Canadian locator identifies Électro-Loisirs STJB in Saint-Ambroise: https://www.motoguzzi.com/ca_EN/dealer-locator/saint-ambroise/%C3%A9lectro-loisirs-stjb/. City-level coordinates are used."
      }
     ]
    }
@@ -7725,6 +8748,66 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     105.895983,
+     21.026438
+    ]
+   },
+   "properties": {
+    "id": "fmg-mobility",
+    "name": "FMG Mobility (multi-brand shop & Piaggio-group parts depot)",
+    "city": "Hanoi",
+    "state": null,
+    "country": "VN",
+    "layer": "independent",
+    "brands": [
+     "Moto Guzzi",
+     "Aprilia",
+     "Piaggio",
+     "Vespa",
+     "Ducati",
+     "Royal Enfield"
+    ],
+    "functions": [
+     "parts",
+     "accessories",
+     "mail-order",
+     "sales",
+     "service"
+    ],
+    "url": "https://fmg.com.vn/",
+    "phone": "(+84) 86 899 1946",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "depot",
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "https://fmg.com.vn/collections/phu-kien-xe-moto-guzzi (fetched 2026-09-10) sells \"Phụ Kiện Xe Moto Guzzi Chính Hãng Piaggio Việt Nam\" (genuine Piaggio Vietnam Moto Guzzi accessories) with 1-year warranty; company is Công ty Cổ phần FMG Mobility (JSC), tax ID 0109706474, registered 2021-07-14 in Hanoi; also sells Ducati, Royal Enfield, Piaggio, Vespa, Aprilia. Same company operates Motoplex Hanoi (motoplex.hanoi@fmg.asia per official locator)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Contact page https://fmg.com.vn/pages/lien-he (fetched 2026-09-10): Hanoi store and service area at Diện tích dịch vụ 1, tầng 1, toà D1, Northern Diamond, 99 Đàm Quang Trung, Long Biên, Hanoi, hotline (+84) 86 899 1946 (co-located with Motoplex Hanoi — coordinates are the store location); HCMC branch at Lô DVTM-1A, Đường số 7, KCX Tân Thuận, Quận 7, TP.HCM, hotline (+84) 899 508 211; services include repair & maintenance (Xưởng Dịch Vụ: Sửa Chữa & Bảo Dưỡng), warranty, 24/7 rescue."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Grading review (claude): evidence shows sales/booking or generic multi-brand service, not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology, same bar applied across the whole 2026-09 sweep."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      1.8883,
      46.6034
     ]
@@ -8174,6 +9257,50 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on the official Moto Guzzi dealer locator (PT feed) as \"GARAGEM DE SÃO JOSÉ\" (Ponta Delgada), type dealers/services, dealer code DEALER-PT-41, address Parque Dinis da Mota 4, 9500-241 Ponta Delgada. Source: https://www.motoguzzi.com/pt_PT/dealer-locator/ponta-delgada/garagem-de-são-josé/ (data: https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/pt/G/stores). Verified 2026-08-22."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.6339182,
+     3.5568464
+    ]
+   },
+   "properties": {
+    "id": "garda-depan-indonesia-medan",
+    "name": "Garda Depan Indonesia (Medan)",
+    "city": "Medan",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(061) 42578899",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"GARDA DEPAN INDONESIA\" at Jl. Gagak Hitam No. 35-BCD, Ringroad, Simpang Asoka, Medan Selayang, phone (061) 42578899, type \"dealers,services\", brand AGPV, dealer code DEALER-ID-54. Same listing (Jln Gagak Hitam 35BCD, Medan 20133) on https://motoguzzi.co.id/dealer. Service depth unverified."
      }
     ]
    }
@@ -8705,6 +9832,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -73.83765,
+     45.6363
+    ]
+   },
+   "properties": {
+    "id": "goulet-moto-sports-ste-therese-ste-therese",
+    "name": "Goulet Moto Sports Ste-Therese",
+    "city": "Ste-Therese",
+    "state": "QC",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+1-(450) 435-2408",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Goulet Moto Sports Ste-Therese', 110 Turgeon, Ste-Therese J7E 3H9; active:true; type=dealers,services."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -117.1611,
      32.7157
     ]
@@ -8797,6 +9965,53 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "motoguzziclub.gr (fetched live today, dated Πέμπτη 10 Σεπτεμβρίου 2026) — national club site with club pages, announcements, technical section (Τεχνικά Θέματα), downloads area, and long-running events (results post for the 27th \"36ωρο Οδοιπορικό\" rally of 2026); companion Facebook page facebook.com/motoguzziclubgr (~2,599 likes); xo.gr directory lists it as an association (Σύλλογος) based in Athens. Knowledge layer — no coordinates required."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.2644,
+     43.1394
+    ]
+   },
+   "properties": {
+    "id": "grand-river-power-sports-brantford",
+    "name": "Grand River Power Sports",
+    "city": "Brantford",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts",
+     "service"
+    ],
+    "url": "https://www.grandriverpowersports.ca/en/moto-guzzi-dealer-brantford/1/",
+    "phone": "519-759-8140",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Moto Guzzi’s official Canadian locator identifies Grand River Power Sports in Brantford: https://www.motoguzzi.com/ca_EN/dealer-locator/brantford/grand-river-power-sports/. City-level coordinates are used."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Its dealer page calls it an authorized Moto Guzzi dealer with genuine parts and factory-trained service: https://www.grandriverpowersports.ca/en/moto-guzzi-dealer-brantford/1/."
      }
     ]
    }
@@ -8984,6 +10199,50 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     106.8259383,
+     -6.1616711
+    ]
+   },
+   "properties": {
+    "id": "gunung-selamat-jaya-pecenongan",
+    "name": "Gunung Selamat Jaya (Pecenongan)",
+    "city": "Jakarta",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(021) 3442887",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"Gunung Selamat Jaya\" at Jl. SK. Wiryopranoto No. 56-64, Kebon Kelapa, Gambir, Jakarta Pusat, phone (021) 3442887, brand AGPV, dealer code DEALER-ID-60, flagged Motoplex. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -1.8806,
      53.6242
     ]
@@ -9119,6 +10378,75 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Recommended in pinned Guzzistas club list and dedicated praise threads ('un taller de la ostia... De 10'): https://guzzistas.mforos.com/652460/11812891-para-los-que-no-aun-no-conoceis-guzzi-motobox/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "guzzi-riders-atlantic-canada",
+    "name": "Moto Guzzi Riders of Atlantic Canada",
+    "city": null,
+    "state": null,
+    "country": "CA",
+    "layer": "knowledge",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "owner-community",
+     "rides",
+     "knowledge-sharing"
+    ],
+    "url": "https://www.facebook.com/groups/435632367760133/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "The public group is titled “Moto Guzzi Riders of Atlantic Canada,” and search results show Atlantic-region owner discussions and a 2024 Atlantic Canada meet: https://www.facebook.com/groups/435632367760133/ and https://www.instagram.com/p/C8iZS6SPd-a/. No coordinates are assigned to this regional knowledge group."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "guzzi-riders-canada",
+    "name": "Guzzi Riders Canada",
+    "city": null,
+    "state": null,
+    "country": "CA",
+    "layer": "knowledge",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "owner-community",
+     "knowledge-sharing"
+    ],
+    "url": "https://www.facebook.com/groups/232461450819788/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "The public group identifies itself as “Guzzi Riders Canada,” with Canada-wide scope and a Moto Guzzi focus: https://www.facebook.com/groups/232461450819788/. No coordinates are assigned to this national knowledge group."
      }
     ]
    }
@@ -9666,6 +10994,69 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "Re-check 2026-09-10: habberstadpowersports.com live (HTTP 200); confirms Moto Guzzi, Suzuki, Vespa, Aprilia, CFMoto dealer; still operational"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.50428,
+     60.42214
+    ]
+   },
+   "properties": {
+    "id": "hadeland-mc-fritid-as",
+    "name": "Hadeland MC & Fritid AS",
+    "city": "Brandbu",
+    "state": null,
+    "country": "NO",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi",
+     "Honda",
+     "Aprilia",
+     "CFMOTO",
+     "Kymco",
+     "Tohatsu"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "repair",
+     "parts"
+    ],
+    "url": "https://hadelandmc.no/",
+    "phone": "+47 61 33 19 46",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Hadeland MC homepage (https://hadelandmc.no/) lists Moto Guzzi among its brands and states the business sells and services motorcycles and ATVs."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Workshop page (https://hadelandmc.no/verksted/) says the workshop services all brands and offers service, repairs, insurance damage assessment, condition reports and winter storage."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "Ringblad article (https://www.ringblad.no/her-har-tor-akkurat-kjopt-sin-attende-moto-guzzi-den-dro-han-til-hadeland-for-a-kjope/s/5-45-784770, 2019-05-07) reports a customer buying his eighth Moto Guzzi at Hadeland MC."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "City-level coordinates for Brandbu taken from Wikipedia (https://en.wikipedia.org/wiki/Brandbu: 60.42214°N, 10.50428°E)."
      }
     ]
    }
@@ -10298,18 +11689,23 @@
     ],
     "url": "https://ignitionmotorsports.ca/",
     "phone": "250-510-8844",
-    "last_verified": "2026-08-22",
-    "verified_by": "gsn-lane-beyond-europe",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
     "status": "active",
     "capability": [
      "full-service"
     ],
-    "last_scraped": "2026-08-22",
+    "last_scraped": "2026-09-10",
     "observations": [
      {
       "date": "2026-08-22",
       "method": "website",
       "fact": "ignitionmotorsports.ca is live as an authorised Moto Guzzi retailer in Duncan BC. Address 277 Government St, Duncan BC; phone (250) 510-8844. Carries Aprilia, Moto Guzzi, CFMOTO, Talaria, and Fantic, plus karts and used powersports."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Its Moto Guzzi page calls Ignition Moto Guzzi specialists offering “Sales, parts and service”; its service page says staff are factory trained on Moto Guzzi: https://ignitionmotorsports.ca/pages/moto-guzzi and https://ignitionmotorsports.ca/pages/service. City-level coordinates are used."
      }
     ]
    }
@@ -10501,6 +11897,51 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -121.9515,
+     49.1579
+    ]
+   },
+   "properties": {
+    "id": "international-motorsports-chilliwack",
+    "name": "International Motorsports",
+    "city": "Chilliwack",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.internationalmotorsports.com/",
+    "phone": "604-288-1553",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "A WildGuzzi active-dealer-list entry dated 2025-08-06 names “International Motorsports... Chilliwack, BC”: https://wildguzzi.com/forum/index.php?topic=81314.270. The company currently lists its Chilliwack branch at https://motolifestyle.net/pages/contact. City-level coordinates are used."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores) lists 'International Motorcycle - Chilliwack', active:true, type=dealers (name variant of this store)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -122.657,
      49.1039
     ]
@@ -10522,13 +11963,13 @@
     ],
     "url": "https://www.internationalmotorsports.com/",
     "phone": "604-288-1553",
-    "last_verified": "2026-08-22",
-    "verified_by": "gsn-lane-beyond-europe",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
     "status": "unverified",
     "capability": [
      "full-service"
     ],
-    "last_scraped": "2026-08-22",
+    "last_scraped": "2026-09-10",
     "observations": [
      {
       "date": "2026-08-22",
@@ -10539,6 +11980,11 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "pass-2 check: site unreachable (HTTP 403 Forbidden on both attempts — likely bot protection or geo-blocking)"
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "International Motorsports lists its Langley location and business phone at https://motolifestyle.net/pages/contact; its current inventory search exposes a Moto Guzzi brand collection at https://www.internationalmotorsports.com/search/inventory/brand/Moto%20Guzzi. City-level coordinates are used."
      }
     ]
    }
@@ -11391,6 +12837,94 @@
       "date": "2026-09-10",
       "method": "official-locator",
       "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/GR/motoguzzi/stores, fetched 2026-09-10 by claude): 'ΚΕΧΑΓΙΑΣ Σ. ΚΩΝΣΤΑΝΤΙΝΟΣ', ΑΠΟΚΟΡΩΝΟΥ 90, Χανια 73100; active:true; type=services; phone 28210-70530."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.4335576,
+     -7.0008213
+    ]
+   },
+   "properties": {
+    "id": "kharisma-motor-semarang",
+    "name": "Kharisma Motor (Semarang Selatan)",
+    "city": "Semarang",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(024) 76444555",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"KHARISMA MOTOR\" at Jl. Kompol Maksum 314C, Peterongan, Semarang Selatan, phone (024) 76444555, brand AGPV, dealer code DEALER-ID-24. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.3687226,
+     -7.8150045
+    ]
+   },
+   "properties": {
+    "id": "kharisma-motor-yogyakarta",
+    "name": "Kharisma Motor (Kol. Sugiyono, Yogyakarta)",
+    "city": "Yogyakarta",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(0274) 379998 / 4281747",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"KHARISMA MOTOR\" at Jl. Kolonel Sugiyono No. 3, Pojok Beteng Wetan, Mergangsan, Yogyakarta, phones (0274) 379998/4281747, brand AGPV, dealer code DEALER-ID-23. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
      }
     ]
    }
@@ -13628,6 +15162,48 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -79.6903,
+     44.3894
+    ]
+   },
+   "properties": {
+    "id": "maxxim-motorsports-barrie",
+    "name": "Maxxim Motorsports",
+    "city": "Barrie",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts",
+     "service"
+    ],
+    "url": "https://maxximmotorsports.com/Moto-Guzzi-Dealer-Barrie-Ontario/",
+    "phone": "705-230-3070",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Maxxim calls itself Barrie’s authorized Moto Guzzi dealer and says it provides complete service, repairs, and genuine OEM Moto Guzzi parts: https://maxximmotorsports.com/Moto-Guzzi-Dealer-Barrie-Ontario/. City-level coordinates are used."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -79.6667,
      43.4474
     ]
@@ -13656,18 +15232,23 @@
     ],
     "url": "https://maxximmotorsports.com/",
     "phone": "416-686-5991",
-    "last_verified": "2026-08-22",
-    "verified_by": "gsn-lane-beyond-europe",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
     "status": "active",
     "capability": [
      "full-service"
     ],
-    "last_scraped": "2026-08-22",
+    "last_scraped": "2026-09-10",
     "observations": [
      {
       "date": "2026-08-22",
       "method": "website",
       "fact": "maxximmotorsports.com live; authorised Moto Guzzi retailer with locations in Oakville (416-686-5991) and Barrie (705-230-3070), Ontario; carries Moto Guzzi V7 series among other brands (Triumph, CFMOTO, Argo, Vespa, Aprilia, Suzuki, Piaggio); factory-trained technicians for service with genuine parts; verified 2026-08-22"
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Maxxim’s Oakville page identifies it as a Moto Guzzi dealer and says factory-trained technicians use genuine Moto Guzzi parts: https://maxximmotorsports.com/Moto-Guzzi-Dealer-Oakville/. City-level coordinates are used."
      }
     ]
    }
@@ -13823,6 +15404,46 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"MD MOTO\"; address: Via Salvador Allende 1, 06073 Corciano (PG); type=dealers; dealerCd=ITA846; website: http://www.mdmoto.it/; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.5673,
+     45.5017
+    ]
+   },
+   "properties": {
+    "id": "mecamoto-montreal",
+    "name": "Mecamoto",
+    "city": "Montréal",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.mecamoto.ca/en/",
+    "phone": "514-842-1234",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Mecamoto lists Moto Guzzi inventory, identifies itself as a Montréal dealer, and offers service for two-wheeled vehicles: https://www.mecamoto.ca/en/ and https://www.mecamoto.ca/en/service/. The site does not explicitly establish authorized status or Guzzi-specific service depth. City-level coordinates are used."
      }
     ]
    }
@@ -14313,6 +15934,50 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     116.1464597,
+     -8.5907676
+    ]
+   },
+   "properties": {
+    "id": "mobilitas-total-tujuan-mataram",
+    "name": "Mobilitas Total Tujuan (Lombok)",
+    "city": "Mataram",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(0877) 77019777",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"Mobilitas Total Tujuan\" at Jl. Selaparang No. 168, Mayura, Cakranegara, Mataram, phone (0877) 77019777, brand AGPV, dealer code DEALER-ID-61, flagged Motoplex. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -75.2996,
      40.2798
     ]
@@ -14574,6 +16239,67 @@
       "date": "2026-09-10",
       "method": "official-locator",
       "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Moto 45 as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Nişancıpaşa Mah. Uzunyol Cad. No:56/A Şehzadeler - Manisa; published business phone 0505 104 09 45 (service line 0236 232 00 45 also published); exact pin coordinates 38.61351,27.43588 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.0305912,
+     -12.0459808
+    ]
+   },
+   "properties": {
+    "id": "moto-continental-peru",
+    "name": "Moto Continental del Perú",
+    "city": "Lima",
+    "state": null,
+    "country": "PE",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "royal-enfield",
+     "can-am",
+     "sea-doo"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motocontinental.com.pe/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "motocontinental.com.pe launch announcement (published 2025-03-27): Moto Continental, subsidiary of Grupo SIMPA (Buenos Aires), operating in Mexico since 2020, \"aterriza en Perú\" with \"Royal Enfield, Vespa, Aprilia, Moto Guzzi, Piaggio, Can-Am y Sea-Doo\" — Moto Guzzi explicitly named among brands brought to Peru. No street address published anywhere on the site (contact form only); lat/lon is Lima city-centroid (Nominatim \"Lima, Peru\"), city-level only — company debut was at Expomoto 2025, Jockey Plaza convention center, Lima (site news, 2025-07 event)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Current Guzzi presence is contradicted by Moto Continental's own live pages: site nav MARCAS lists only Royal Enfield, Vespa, Aprilia, Piaggio, Can-Am, Sea-Doo (no Moto Guzzi); Expomoto 2025 article (fetched) lists portfolio \"Royal Enfield, Vespa, Piaggio, Can-Am, Seadoo y Moto Morini\" without Guzzi. aprilia-peru.com (footer \"© 2026 Moto Continental\", links to motocontinental.com.mx) lists 2 concesionarios, both Ventas+Postventa: \"Aprilia EL CAMINO\", Jr. Domingo Elías 1251, Surquillo, Lima and \"Aprilia MOTORSPORT\", Av. República de Panamá 505, Barranco, Lima (vespa-peru.com adds Vespa TARAPOTO) — no Guzzi-branded listing anywhere."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "False-lead eliminations documented during verification: Grupo Socopur (socopur.com.pe, \"Talleres Autorizados\") current brands are KTM/Husqvarna/GasGas/Triumph/Voge — no Guzzi (its 2018 \"primer Showroom de Piaggio\" was commercial vehicles); piaggio-peru.com is operated by AQUASPORT S.A.C (Av. República de Panamá 505 Barranco / 5329 Surquillo), scooter brands only. An alibaba.com autopart page claiming \"Grupo Socopur — official Piaggio Group distributor for Moto Guzzi V7 Stone in Lima\" is auto-generated SEO content, not corroborated by socopur.com.pe."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: the central Piaggio locator API (jhgateway) returns ZERO records for PE, UY and VE — these markets run importer-side, so website evidence is the only official trail."
      }
     ]
    }
@@ -14908,6 +16634,97 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "headquarters and factory at Via Parodi 57, Mandello del Lario, operating since the company's founding (Società Anonima Moto Guzzi, 15 March 1921) — address and history verified against the Wikipedia 'Moto Guzzi' article (https://en.wikipedia.org/wiki/Moto_Guzzi); coordinates geocoded to the exact Via Parodi 57 address via OSM/Nominatim. The official museum page exists at the url above but motoguzzi.com serves 403 to non-browser agents, so the official-site observation is the page's existence, not its content."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "moto-guzzi-manitoba",
+    "name": "Moto Guzzi Manitoba",
+    "city": null,
+    "state": null,
+    "country": "CA",
+    "layer": "knowledge",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "owner-community",
+     "knowledge-sharing"
+    ],
+    "url": "https://www.facebook.com/motoguzzimb/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "The public Moto Guzzi Manitoba page identifies a Manitoba-focused Moto Guzzi owner community: https://www.facebook.com/motoguzzimb/. No coordinates are assigned to this knowledge group."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.70103,
+     60.92827
+    ]
+   },
+   "properties": {
+    "id": "moto-guzzi-mjosa",
+    "name": "Moto Guzzi Mjøsa",
+    "city": "Moelv",
+    "state": null,
+    "country": "NO",
+    "layer": "knowledge",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "meetings",
+     "knowledge-sharing",
+     "social"
+    ],
+    "url": "https://guzzimjosa.com/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Moto Guzzi Mjøsa website (https://guzzimjosa.com/) states it is a local chapter of Norsk Moto Guzzi Klubb, formed in 2022, holding monthly coffee meetings at Cobee Restaurant, Storgata 105, Moelv."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Founding page (https://guzzimjosa.com/om-oss/2022-oppstarten/) says the chapter grew from a Facebook thread and held its first meeting on 5 December 2022 in Moelv with 18 attendees."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "Norsk Moto Guzzi Klubb national website (https://motoguzzi.no/moto-guzzi-mjosa/) lists Moto Guzzi Mjøsa as a local chapter and provides the chapter website link."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "City-level coordinates for Moelv taken from Wikipedia (https://en.wikipedia.org/wiki/Moelv: 60.92827°N, 10.70103°E)."
      }
     ]
    }
@@ -17700,6 +19517,65 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     121.0567336,
+     14.5715422
+    ]
+   },
+   "properties": {
+    "id": "motoplex-brixton",
+    "name": "Motoplex Brixton (Biker Box Brixton)",
+    "city": "Pasig",
+    "state": null,
+    "country": "PH",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "warranty"
+    ],
+    "url": "https://www.motoguzzi.com/ph_EN/dealer-locator/pasig-city/biker-box-brixton/",
+    "phone": "639166183660",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores, fetched 2026-09-10) lists \"Motoplex Brixton\" at 11 Brixton St., Brgy. Kapitolyo, Pasig, phone +639166183660, type \"dealers,services\", brand AG, dealer code DEALER-PH-48; indexed official locator entry at https://www.motoguzzi.com/ph_EN/dealer-locator/pasig-city/biker-box-brixton/."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Zigwheels PH lists \"Biker Box Brixton\" (11 Brixton St. Kapitolyo, Pasig) and co-located \"Vespa Brixton\" as Moto Guzzi motorcycle dealers/service centers in Pasig (https://www.zigwheels.ph/new-motorcycles/moto-guzzi/dealers/pasig and https://www.zigwheels.ph/new-motorcycles/moto-guzzi/service-centers/pasig/rosario-bikes-4323, both fetched 2026-09-10)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "CONFLICT FLAG: insideracing.com.ph (https://insideracing.com.ph/aprilia-moto-guzzi-brixton-store-consolidates-operations-with-paranaque-facility/, 2025-07-29) reported the Aprilia Moto Guzzi Brixton store would close 2025-07-31 with operations consolidating into the Parañaque (Sucat) facility; however the live official locator fetched 2026-09-10 still lists Motoplex Brixton and does not list Sucat. Current operation uncertain — verify before publishing as active."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Grading review (claude): evidence shows sales/booking or generic multi-brand service, not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology, same bar applied across the whole 2026-09 sweep."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      129.1635,
      35.1631
     ]
@@ -17933,6 +19809,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     105.895983,
+     21.026438
+    ]
+   },
+   "properties": {
+    "id": "motoplex-hanoi",
+    "name": "Motoplex Hà Nội",
+    "city": "Hanoi",
+    "state": null,
+    "country": "VN",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "warranty"
+    ],
+    "url": "https://motoplexhanoi.com/",
+    "phone": "(+84) 86 899 1946",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/vn/G/stores, fetched 2026-09-10) lists \"Motoplex Hà Nội\" at 99 Đàm Quang Trung, Phường Long Biên, TP Hà Nội, phone 0868991946, email motoplex.hanoi@fmg.asia, brand code AGPV, dealer code VN113A, coords 21.026438/105.895983."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Dealer site https://motoplexhanoi.com/ (fetched 2026-09-10) states Moto Guzzi V7 Stone is \"chính thức được phân phối bởi Motoplex Hanoi - Đại lý Ủy Quyền\" (officially distributed by Motoplex Hanoi, authorized dealer), sells V7, V9 Bobber, V85 TT and V100 Mandello (V100 Mandello S listed at 535,000,000₫) plus Moto Guzzi accessories, and offers a service workshop (Xưởng Dịch Vụ: sửa chữa & bảo dưỡng / repair and maintenance, bảo hành / warranty, cứu hộ xe 24/7 / 24-7 roadside rescue); contact page gives head office 99 Đàm Quang Trung, Long Biên, Hanoi, phone (+84) 86 899 1946, operated by FMG Mobility."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      114.1872,
      22.3128
     ]
@@ -18014,6 +19941,64 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed on official Moto Guzzi (Piaggio) IT dealer locator as \"MOTOPLEX Mantova\"; address: Piazza Vilfredo Pareto, 1, 46100 Mantova (MN); type=dealers,services; dealerCd=ITCS01; website: http://www.motoplexpiaggio.com/mantova/; verified via official Piaggio Group dealerlocator API 2026-08-22"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -56.1367696,
+     -34.9064926
+    ]
+   },
+   "properties": {
+    "id": "motoplex-montevideo",
+    "name": "Motoplex Montevideo (Santa Rosa Motors)",
+    "city": "Montevideo",
+    "state": null,
+    "country": "UY",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.montevideo.com.uy/Airbag/Grupo-Piaggio-inauguro-su-primer-local-de-exposicion-y-ventas-en-Uruguay-uc686224",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "montevideo.com.uy (2018-06-15, uc686224): \"Grupo Piaggio inauguró su primer local de exposición y ventas en Uruguay\" — Motoplex Montevideo in Pocitos; \"Vespa, Piaggio, Moto Guzzi y Aprilia tienen desde hoy una nueva casa en Pocitos donde además de la exhibición, se brindará una atención especializada\". Address per infonegocios.biz (2018-06-15): Luis Alberto de Herrera esq. 26 de Marzo. OSM/Nominatim resolves Av. Luis Alberto de Herrera 1163 to La Mondiola, Buceo, 11300 Montevideo (coords above, street-level geocode; sources describe the barrio as Pocitos/Buceo border)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "infonegocios.biz (2018-06-15): Santa Rosa Motors took over Grupo Piaggio representation in July 2016 (from Autolíder, confirmed by montevideo.com.uy 2016-08-01 uc316031: exclusive rep of Piaggio/Vespa/Aprilia/Moto Guzzi; SRM locales then at Cerro Largo 999 esq. Julio Herrera y Obes and Av. Al Parque y Rambla, Carrasco); sales grew 350%; range aimed \"150 cm3 en adelante… llegamos a 1100 cm3\" (i.e. including Guzzi-class bikes). autoblog.com.uy (2018-06-21) dates the Motoplex opening to Wednesday 2018-06-13, first Piaggio-exclusive point of the firm that represents Santa Rosa Motors in Uruguay."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Current-status caveat: Santa Rosa Motors has no findable website (santarosamotors.com.uy / .uy NXDOMAIN). Business directories (uy.near-place.com, uy.todosnegocios.com — phone 2624 1651 — and autoyas.com \"(2026)\") still list Motoplex Montevideo / Santa Rosa Motors, but those pages are Cloudflare/bot-walled and could not be opened, so no post-2018 primary evidence and no phone is confirmed. A Facebook page \"Aprilia-Moto Guzzi Uruguay\" exists but is login-walled, operator unverified. Graded satellite: franchise-store evidence, service depth not evidenced."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: the central Piaggio locator API (jhgateway) returns ZERO records for PE, UY and VE — these markets run importer-side, so website evidence is the only official trail."
      }
     ]
    }
@@ -18253,6 +20238,57 @@
       "date": "2026-08-22",
       "method": "website",
       "fact": "Google Maps business listing \"MOTOPLEX Querétaro\" (category Motorcycle dealer): \"Prol. Bernardo Quintana 4100-Loc 2B, Alamos 3ra Secc, 76160 Santiago de Querétaro, Qro.\", \"Located in: Plaza Boulevares\", phone +52 446 123 3738. Lat/lon geocoded from the stated address (Nominatim)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.6452337,
+     10.8019278
+    ]
+   },
+   "properties": {
+    "id": "motoplex-sai-gon",
+    "name": "Motoplex Sài Gòn",
+    "city": "Ho Chi Minh City",
+    "state": null,
+    "country": "VN",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "warranty"
+    ],
+    "url": "https://motoplexsaigon.com/",
+    "phone": "0888000586 / 0838116414",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/vn/G/stores, fetched 2026-09-10) lists \"Motoplex Sai Gon\" at 223-233 Cộng Hòa, Phường Tân Bình, TP Hồ Chí Minh, phones 0888000586/0838116414, email customercare@sapa.com.vn, brand AGPV, dealer code VN020E, coords 10.8019278/106.6452337. Also indexed on the official Aprilia VN locator (https://www.aprilia.com/vn_VI/dealer-locator/tp-h%E1%BB%93-ch%C3%AD-minh/motoplex-sai-gon/)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Dealer site https://motoplexsaigon.com/ (fetched 2026-09-10) bills itself \"Trung tâm Vespa, Piaggio, Aprilia, Moto Guzzi\" (center for Vespa/Piaggio/Aprilia/Moto Guzzi), lists Moto Guzzi V100/V7/V85/V9, offers maintenance booking, genuine spare parts and after-sales service; address 233 Cộng Hòa, P. Tân Bình, TP.HCM, tax ID 0304913178, sales 090 276 33 99, service 0909 53 88 23, hotline 1900252633; the operator (SAPA group) also runs six Vespa Sapa stores in HCMC listed on the site. Opening covered by Piaggio Vietnam Motoplex launch coverage (YouTube, 2021-12-31) and thanhnien.vn (https://thanhnien.vn/moto-guzzi-aprilia-gia-nhap-thi-truong-viet-nam-gia-ban-ngang-o-to-hang-a-1851417059.htm): Moto Guzzi/Aprilia entered Vietnam via Motoplex in late 2021."
      }
     ]
    }
@@ -18857,6 +20893,122 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     5.65256,
+     58.73521
+    ]
+   },
+   "properties": {
+    "id": "motor-centeret-as",
+    "name": "Motor Centeret AS",
+    "city": "Bryne",
+    "state": null,
+    "country": "NO",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi",
+     "Aprilia",
+     "Vespa",
+     "QJ Motor",
+     "VOGE",
+     "Husqvarna",
+     "Kawasaki",
+     "Honda",
+     "BSA"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "repair",
+     "parts"
+    ],
+    "url": "https://www.m-centeret.no/",
+    "phone": "+47 51 48 72 48",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "FINN.no dealer page (https://www.finn.no/mobility/dealer/427232672/motor-centeret-as) lists Moto Guzzi as a brand alongside Aprilia, QJ Motor, VOGE, Husqvarna, Kawasaki and Honda, and shows active vehicle listings."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "Motor Centeret Bryne Facebook post (https://www.facebook.com/motorcenteretbryne/posts/vi-er-n%C3%A5-moto-guzzi-forhandlermotor-centeret-er-n%C3%A5-forhandler-av-den-italienske-/3740576856028687/, 2021-02-08) announces \"Vi er nå Moto Guzzi forhandler!\""
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "Bike.no article (https://www.bike.no/nyheter/demodag-hos-motor-centeret-pa-bryne/, 2024-05-25) reports a demo day at Motor Centeret featuring Moto Guzzi, Aprilia, Voge, BSA and Vespa."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "1881.no listing (https://www.1881.no/mc-moped-og-atv-forhandler/mc-moped-og-atv-forhandler-rogaland/mc-moped-og-atv-forhandler-bryne/motor-centeret-as_100713428S1/) gives address Morenefaret 1, 4340 Bryne and phone +47 51 48 72 48."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "City-level coordinates for Bryne taken from Wikipedia (https://en.wikipedia.org/wiki/Bryne: 58.73521°N, 5.65256°E)."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Grading review (claude): evidence shows sales/booking or generic multi-brand service, not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology, same bar applied across the whole 2026-09 sweep."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.6972,
+     45.4215
+    ]
+   },
+   "properties": {
+    "id": "motor-sports-world-ottawa",
+    "name": "Motor Sports World",
+    "city": "Ottawa",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://motorsportsworld.com/",
+    "phone": "613-225-2892",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Motor Sports World identifies itself as a “BRP, Aprilia, Moto Guzzi and Suzuki Dealership in Ottawa,” and lists 1375 Clyde Ave., Nepean: https://motorsportsworld.com/. No Moto Guzzi-specific service-depth evidence was found. City-level coordinates are used."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      15.2872803,
      37.0727603
     ]
@@ -19239,6 +21391,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -73.68799,
+     45.72645
+    ]
+   },
+   "properties": {
+    "id": "motos-illimitees-terrebonne",
+    "name": "Motos Illimitees",
+    "city": "Terrebonne",
+    "state": "QC",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": null,
+    "phone": "+1-(450) 477-4000",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Motos Illimitees', 3300 Boulevard Des Entreprises, Terrebonne J6X 4J8; active:true; type=dealers."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -117.181437,
      33.139952
     ]
@@ -19285,6 +21477,51 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "Re-verification pass: site returns HTTP 200 (403 on default curl, responds to browser UA); meta description confirms 'BMW, Aprilia, and Moto Guzzi bikes, parts, and service'; 'Moto Guzzi Promotions' nav link and 'MOTO GUZZI' brand lineup present. Confirmed active and Guzzi-carrying."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.243,
+     45.6001
+    ]
+   },
+   "properties": {
+    "id": "motosport-petite-nation-thurso",
+    "name": "Motosport Petite Nation",
+    "city": "Thurso",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.motosportpetitenation.com/en/",
+    "phone": "819-659-0591",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Moto Guzzi’s official Canadian locator identifies Motosport Petite Nation in Thurso: https://www.motoguzzi.com/ca_EN/dealer-locator/thurso/motosport-petite-nation/. City-level coordinates are used."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "The current shop site confirms the Thurso business contact details but does not present Moto Guzzi service or parts-depth evidence: https://www.motosportpetitenation.com/en/contact/."
      }
     ]
    }
@@ -20652,7 +22889,7 @@
     "url": "https://motoguzzi.no",
     "phone": null,
     "last_verified": "2026-09-10",
-    "verified_by": "claude-kimi",
+    "verified_by": "claude-qoder",
     "status": "active",
     "capability": [
      "knowledge"
@@ -20663,6 +22900,31 @@
       "date": "2026-09-10",
       "method": "website",
       "fact": "motoguzzi.no (fetched via kimi lane 2026-09-10): ~800 members, club magazine 'Bicilindrica', 2026 spring/autumn rallies (Rindal/Sirdal). NOTE (claude cross-check 2026-09-10): Norway has ZERO dealers on the official jhgateway locator API — this club is Norway's only GSN node."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Club website (https://motoguzzi.no/) describes Norsk Moto Guzzi Klubb as a nationwide brand club for Moto Guzzi motorcycles with approximately 800 members, founded 18 June 1983."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Contact page (https://motoguzzi.no/kontakt-oss/) lists address Tverråsen 35, 1397 Nesøya, phone +47 901 16 604 and email post@motoguzzi.no; Elin Vandevjen is listed as leader."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "Wikipedia (https://no.wikipedia.org/wiki/Norsk_Moto_Guzzi_klubb) confirms the club was founded in 1983, covers Norway, has about 800 members and holds annual meetings."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "community-endorsement",
+      "fact": "Motorhobby directory (https://www.motorhobby.no/view/item/norsk-moto-guzzi-klubb, 2023-06-20) lists the club as a nationwide Moto Guzzi club with contact phone and email."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "City-level coordinates for Nesøya, Akershus taken from Wikipedia (https://en.wikipedia.org/wiki/Nes%C3%B8ya,_Akershus: 59.863528°N, 10.520417°E)."
      }
     ]
    }
@@ -21276,6 +23538,42 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "Anima Guzzista thread 2015-04-12: mikethebike 'ti consiglio l'officina Only Racing di Ponte Florio... ho portato il mio 850T per alcune regolazioni e sostituzioni di pezzi, e ne sono rimasto soddisfatto' — https://forum.animaguzzista.com/viewtopic.php?t=54135; STALE (2015) endorsement, no current verification, lat/lon are frazione centroid (approx, no street given)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "ontario-guzzi-riders",
+    "name": "Ontario Guzzi Riders",
+    "city": null,
+    "state": null,
+    "country": "CA",
+    "layer": "knowledge",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "owner-community",
+     "rides",
+     "knowledge-sharing"
+    ],
+    "url": "https://www.ontarioguzziriders.com/",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Ontario Guzzi Riders describes itself as a group of Moto Guzzi enthusiasts; its about page says it connects Guzzi owners across Ontario through breakfast rides and a Nipissing Lake rally: https://www.ontarioguzziriders.com/ and https://www.ontarioguzziriders.com/about.html. No coordinates are assigned to this provincial knowledge group."
      }
     ]
    }
@@ -22040,6 +24338,47 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -73.5771,
+     45.52792
+    ]
+   },
+   "properties": {
+    "id": "piaggio-vespa-moto-guzzi-montreal-montreal",
+    "name": "Piaggio Vespa Moto Guzzi Montreal",
+    "city": "Montreal",
+    "state": "QC",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+1-(514) 842-1234",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Piaggio Vespa Moto Guzzi Montreal', 4398 Rue De La Roche, Montreal H2J 3J1; active:true; type=dealers,services."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      11.201704,
      43.758992
     ]
@@ -22452,6 +24791,48 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -112.8451,
+     49.6956
+    ]
+   },
+   "properties": {
+    "id": "precision-powersports-lethbridge",
+    "name": "Precision Powersports",
+    "city": "Lethbridge",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts",
+     "service"
+    ],
+    "url": "https://precisionpowersportsltd.com/brands/moto-guzzi",
+    "phone": "403-394-6228",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Precision calls itself an “Authorized Moto Guzzi dealer” and explicitly offers “Parts, service & financing” on its Moto Guzzi page: https://precisionpowersportsltd.com/brands/moto-guzzi. City-level coordinates are used."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      78.423951,
      17.475331
     ]
@@ -22753,6 +25134,47 @@
       "date": "2026-07-26",
       "method": "official-locator",
       "fact": "Listed on the official Moto Guzzi US dealer locator as \"Powersports Outlet\" (Prescott, AZ); type=dealers,services; verified 2026-07-26."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.4243374,
+     -5.1548488
+    ]
+   },
+   "properties": {
+    "id": "putra-sulawesi-makassar",
+    "name": "Putra Sulawesi (Makassar)",
+    "city": "Makassar",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "624113984066",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi Indonesia dealer page (https://motoguzzi.co.id/dealer, fetched 2026-09-10) lists \"Putra Sulawesi\" outlet \"Makassar\", Jl. Veteran Selatan no 195-196, Kel. Maricaya Selatan, Kec. Mamajang, Makassar, phone +624113984066, coords -5.1548/119.4243 (city-level). NOTE: this outlet is absent from the global Piaggio locator API dataset fetched the same day — cross-source discrepancy flagged for review."
      }
     ]
    }
@@ -23644,6 +26066,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -71.1725,
+     46.75673
+    ]
+   },
+   "properties": {
+    "id": "rpm-rive-sud-levis",
+    "name": "RPM Rive-Sud",
+    "city": "Levis",
+    "state": "QC",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": null,
+    "phone": "+1-(418) 835-1624",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'RPM Rive-Sud', 226 Chemin des iles, Levis G6V 7M5; active:true; type=dealers."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -8.669716,
      37.135953
     ]
@@ -23811,6 +26273,50 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     107.5911632,
+     -6.9429628
+    ]
+   },
+   "properties": {
+    "id": "saluyu-vespario-bandung",
+    "name": "Saluyu Vespario (Bandung)",
+    "city": "Bandung",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(022) 20599125",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"SALUYU VESPARIO\" at Jl. Raya Kopo No. 338, Kopo, Bojongloa Kaler, Bandung, West Java, phone (022) 20599125, brand AGPV, dealer code DEALER-ID-56. NOTE: absent from the motoguzzi.co.id dealer list fetched the same day — cross-source discrepancy flagged for review."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      8.486,
      49.5963
     ]
@@ -23848,6 +26354,57 @@
       "date": "2026-08-22",
       "method": "community-endorsement",
       "fact": "guzzisti.de forum, 2026-01-19, thread 'Werkstattempfehlung/Werkstatterfahrung im Raum Mannheim-Heidelberg' (https://www.guzzisti.de/forum/topic/19249-werkstattempfehlung-werkstatterfahrung-im-raum-mannheim-heidelberg/): 'Sanfilippo in Lampertheim fand ich immer sehr nett und engagiert.'"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.7576992,
+     -7.3116794
+    ]
+   },
+   "properties": {
+    "id": "satya-mandiri-motors-jemursari",
+    "name": "Satya Mandiri Motors (Motoplex Jatim, Jemursari)",
+    "city": "Surabaya",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "service",
+     "parts",
+     "warranty"
+    ],
+    "url": "https://www.motoplexjatim.com/",
+    "phone": "(031) 8433878",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "full-service"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"SATYA MANDIRI MOTORS\" at Jl. Raya Jemursari No. 270, Sidosermo, Wonocolo, Surabaya, phones (031) 8433878/8433898, brand AGPV, dealer code DEALER-ID-31. Same listing on https://motoguzzi.co.id/dealer."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Retail site https://www.motoplexjatim.com/ (fetched 2026-09-10) shows Moto Guzzi V85 TT Travel and V7 Stone in its model line-up and a Service Center page (https://www.motoplexjatim.com/service-center/) stating the service center is \"certified by the Piaggio Prime Service Standard\" offering maintenance, repair, vehicle inspection and tire replacement at Jl. Raya Jemursari 270, Surabaya."
      }
     ]
    }
@@ -24254,6 +26811,182 @@
       "date": "2026-09-10",
       "method": "official-locator",
       "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/IN/motoguzzi/stores, fetched 2026-09-10, cross-checked by claude): 'Silicon Motobike', 51 , Palladium Opp VIP Plaza VIP road Vesu, Surat 395007, Gujarat; active:true; type=dealers,services; Motoplex store; Guzzi technical codes listed (G_10, G_C1400) — identical boilerplate across all 9 IN dealers, so graded satellite, not full-service (no independent service-depth evidence)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8189516,
+     -6.2869577
+    ]
+   },
+   "properties": {
+    "id": "sinar-inti-harapan-ampera",
+    "name": "Sinar Inti Harapan (Ampera)",
+    "city": "Jakarta",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "+62 21 38820178",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"Sinar Inti Harapan\" at Jl. Ampera Raya No. 11, Cilandak Timur, Ps. Minggu, Jakarta Selatan, phone 622138820178, brand AGPV, dealer code DEALER-ID-59, flagged Motoplex. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.7592871,
+     -6.2028503
+    ]
+   },
+   "properties": {
+    "id": "sinar-inti-harapan-kebon-jeruk",
+    "name": "Sinar Inti Harapan (Kebon Jeruk)",
+    "city": "Jakarta",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(021) 53344883",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"SINAR INTI HARAPAN\" at Jl. Lapangan Bola No. 16, Kebon Jeruk, Jakarta Barat, phone (021) 53344883, brand AGPV, dealer code DEALER-ID-11. Same dealer on https://motoguzzi.co.id/dealer (Jln. Panjang no. 16A dan Jln. Lapangan Bola no. 16, Srengseng, Kebon Jeruk). Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.7478465,
+     -7.2764354
+    ]
+   },
+   "properties": {
+    "id": "smart-mulia-abadi-gubeng",
+    "name": "SMART Mulia Abadi (Gubeng, Surabaya)",
+    "city": "Surabaya",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(031) 5050777",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"SMART MULIA ABADI\" at Jl. Sulawesi No. 53, Gubeng, Surabaya, phone (031) 5050777, brand AGPV, dealer code DEALER-ID-34. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.728542,
+     -7.370968
+    ]
+   },
+   "properties": {
+    "id": "smart-mulia-abadi-waru",
+    "name": "Smart Mulia Abadi (Waru, Sidoarjo)",
+    "city": "Sidoarjo",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "+62 31 8550300",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"Smart Mulia Abadi\" at Jl. Raya Waru No. 92, Gedangan, Sidoarjo, phone 62318550300, brand AGPV, dealer code DEALER-ID-62, flagged Motoplex. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
      }
     ]
    }
@@ -24802,6 +27535,141 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -79.3832,
+     43.6532
+    ]
+   },
+   "properties": {
+    "id": "studio-cycle-toronto",
+    "name": "Studio Cycle",
+    "city": "Toronto",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://studiocycle.ca/collections/moto-guzzi-parts",
+    "phone": "416-766-5300",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite",
+     "depot"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Moto Guzzi’s official Canadian locator identifies Studio Cycle Group Inc. in Toronto: https://www.motoguzzi.com/ca_EN/dealer-locator/toronto/studio-cycle-group-inc/. City-level coordinates are used."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Studio Cycle calls itself “Canada’s #1 Aprilia & Moto Guzzi dealer” and maintains a Moto Guzzi parts collection: https://studiocycle.ca/collections/moto-guzzi-parts."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.8356608,
+     -1.2486723
+    ]
+   },
+   "properties": {
+    "id": "sukses-vista-motor-balikpapan",
+    "name": "Sukses Vista Motor (Balikpapan)",
+    "city": "Balikpapan",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(0821) 51005808",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"Sukses Vista Motor\" at Jl. Ahmad Yani, Karang Rejo, Balikpapan Tengah, Balikpapan, phone (0821) 51005808, brand AGPV, dealer code DEALER-ID-64, flagged Motoplex. Also on https://motoguzzi.co.id/dealer (no phone listed there). Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.1555818,
+     -0.4966372
+    ]
+   },
+   "properties": {
+    "id": "sukses-vista-motor-samarinda",
+    "name": "Sukses Vista Motor (Samarinda)",
+    "city": "Samarinda",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(0813) 99996334",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"Sukses Vista Motor\" at Jl. Arief Rahman Hakim No. 17, Samarinda, East Kalimantan, phone (0813) 99996334, brand AGPV, dealer code DEALER-ID-63, flagged Motoplex. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.8214,
      38.8339
     ]
@@ -25191,6 +28059,52 @@
       "date": "2026-08-22",
       "method": "official-locator",
       "fact": "Listed as 'The Bike Hub - Reprezentata Oficiala | Moto Guzzi Bucuresti' on the official Moto Guzzi dealer locator for Romania. The live page returned HTTP 503 on 2026-08-22; verified via Wayback snapshot from 2026-02-07: https://web.archive.org/web/20260207135452/https://www.motoguzzi.com/ro_RO/dealer-locator/bucure%C8%99ti/the-bike-hub-reprezentata-oficiala/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "id": "the-clan-indonesia",
+    "name": "The Clan (Moto Guzzi Indonesia community)",
+    "city": "national",
+    "state": null,
+    "country": "ID",
+    "layer": "knowledge",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "community",
+     "rides",
+     "peer-support"
+    ],
+    "url": "https://www.facebook.com/MotoGuzziIndonesia",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "knowledge"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Moto Guzzi Indonesia (PT Piaggio Indonesia) news article (https://motoguzzi.co.id/en/news/komunitas-pecinta-moto-guzzi-di-indonesia-the-clan-tegaskan-rasa-cinta-tanah-air-dengan-jelajahi-salah-satu-keindahan-timur-indo, published 2023-09-18) describes \"The Clan\" as the community of Moto Guzzi lovers in Indonesia, touring Flores in Aug 2023."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Indonesian moto news kabaroto.com (https://kabaroto.com/post/read/komunitas-moto-guzzi-the-clan-taklukkan-alam-sumba, 2025-06-21) covers The Clan's Sumba island tour; Motorplus (https://www.motorplus-online.com/read/253102767/, 2022-01-19) covered the community touring with PT Piaggio for Moto Guzzi's 100th anniversary."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Facebook page \"Moto Guzzi Indonesia Official\" (https://www.facebook.com/MotoGuzziIndonesia, cf. Instagram https://www.instagram.com/motoguzziindonesia/) posted a video titled \"The Clan bonds stronger with every mile\" dated 2026-05-29, indicating the community remains active; the community's own group presence is behind Facebook's login wall and could not be inspected. No coordinates: national community."
      }
     ]
    }
@@ -25866,6 +28780,179 @@
   },
   {
    "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.30675,
+     43.59346
+    ]
+   },
+   "properties": {
+    "id": "two-wheel-motorsports-guelph",
+    "name": "Two Wheel Motorsports",
+    "city": "Guelph",
+    "state": "ON",
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi"
+    ],
+    "functions": [
+     "sales",
+     "service"
+    ],
+    "url": null,
+    "phone": "+1-(519) 836-1957",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores, fetched 2026-09-10 by claude): 'Two Wheel Motorsports', 5624 Hwy 6 North, RR1, Guelph N1H 6J2; active:true; type=dealers,services."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.1805695,
+     -8.7405789
+    ]
+   },
+   "properties": {
+    "id": "udayana-satya-laksana-jimbaran",
+    "name": "Udayana Satya Laksana (Jimbaran / By Pass Ngurah Rai)",
+    "city": "Badung",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(0361) 4469171",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"UDAYANA SATYA LAKSANA\" at Jl. By Pass Ngurah Rai No. 90, Kelan, Tuban (Badung, Bali), phone (0361) 4469171, brand AGPV, dealer code DEALER-ID-42. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.1862759,
+     -8.6864989
+    ]
+   },
+   "properties": {
+    "id": "udayana-satya-laksana-mahendradata",
+    "name": "Udayana Satya Laksana (Mahendradata, Denpasar)",
+    "city": "Denpasar",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(0361) 8456339",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"UDAYANA SATYA LAKSANA\" at Jl. Mahendradata Selatan No. 99, Pemecutan Klod, Denpasar, phones (0361) 8456339/(0811) 3889905, brand AGPV, dealer code DEALER-ID-41. NOTE: this outlet is absent from the motoguzzi.co.id dealer list fetched the same day — cross-source discrepancy flagged for review."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.1843074,
+     -8.674243
+    ]
+   },
+   "properties": {
+    "id": "udayana-satya-laksana-teuku-umar",
+    "name": "Udayana Satya Laksana (Teuku Umar, Denpasar)",
+    "city": "Denpasar",
+    "state": null,
+    "country": "ID",
+    "layer": "franchise",
+    "brands": [
+     "Aprilia",
+     "Moto Guzzi",
+     "Piaggio",
+     "Vespa"
+    ],
+    "functions": [
+     "sales",
+     "parts"
+    ],
+    "url": "https://motoguzzi.co.id/dealer",
+    "phone": "(0361) 8446722 / 8446727 / 8466015",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "active",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores, fetched 2026-09-10) lists \"UDAYANA SATYA LAKSANA\" at Jl. Teuku Umar Barat No. 108X, Padangsambian Klod, Denpasar, phones (0361) 8446722/8446727/8466015, brand AGPV, dealer code DEALER-ID-50. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "geometry": null,
    "properties": {
     "id": "v7-club-turkiye",
@@ -26521,6 +29608,53 @@
       "date": "2026-09-10",
       "method": "official-locator",
       "fact": "Official Moto Guzzi Turkiye locator https://www.motoguzzi.com.tr/tr/yetkili-saticilar.html lists Volkan Motosiklet as authorized dealer (Yetkili Satici) and authorized service (Yetkili Servis); published address: Seymen, E5 Üzeri Havaalanı Karşısı İstanbul Çorlu Yolu Çorlu - Tekirdağ; published business phone 0282 340 00 00; exact pin coordinates 41.11853,27.90575 taken from the page store data. Turkish network is operated by distributor Dogan Trend (dogantrend.com/tr/marka/motoguzzi.html states Moto Guzzi has been served in Turkiye under Dogan Trend assurance since 2016; motoguzzi.com.tr currently shows the Stelvio/V100/V85/V7 lineup, copyright 2026)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.526,
+     43.797
+    ]
+   },
+   "properties": {
+    "id": "vos-motors-concord",
+    "name": "VOS Motors",
+    "city": "Concord",
+    "state": null,
+    "country": "CA",
+    "layer": "franchise",
+    "brands": [
+     "Moto Guzzi"
+    ],
+    "functions": [
+     "sales",
+     "parts",
+     "service"
+    ],
+    "url": "https://www.vosmotors.com/moto-guzzi-dealer",
+    "phone": "905-660-2901",
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-qoder",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "VOS says it carries Moto Guzzi inventory and that customers can contact it for Moto Guzzi parts or service support: https://www.vosmotors.com/moto-guzzi-dealer. City-level coordinates are used."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Grading review (claude): evidence shows sales/booking or generic multi-brand service, not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology, same bar applied across the whole 2026-09 sweep."
      }
     ]
    }
@@ -27518,6 +30652,61 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -77.0297812,
+     -12.1244867
+    ]
+   },
+   "properties": {
+    "id": "zuauto-miraflores",
+    "name": "ZuAuto (Piaggio Group motorcycles)",
+    "city": "Lima",
+    "state": null,
+    "country": "PE",
+    "layer": "franchise",
+    "brands": [
+     "moto-guzzi",
+     "piaggio",
+     "vespa",
+     "aprilia",
+     "gilera",
+     "derbi"
+    ],
+    "functions": [
+     "sales"
+    ],
+    "url": "https://www.nitro.pe/motos/zuauto-inaugura-local-de-motos-piaggio-en-miraflores.html",
+    "phone": null,
+    "last_verified": "2026-09-10",
+    "verified_by": "claude-zai",
+    "status": "unverified",
+    "capability": [
+     "satellite"
+    ],
+    "last_scraped": "2026-09-10",
+    "observations": [
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "nitro.pe (2014-07-19, updated 2020-06-17): ZuAuto (Grupo Casabaca, Ecuadorian capital) \"inauguró el primer concesionario de motos del Grupo Piaggio en Lima… con las marcas Piaggio, Vespa, Aprilia y Moto Guzzi\" (text also lists Gilera, Derbi, Scarabeo; 50–1400cc), at \"avenida Benavides 170, a unos pasos de la bajada Balta en Miraflores\", inaugurated with Piaggio LatAm director present. Coords are street-level geocode of Av. Alfredo Benavides, Miraflores (Nominatim) from the article's stated street; exact building unverified."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "website",
+      "fact": "Current status unknown: zuauto.pe and motoguzzi-peru.com do not resolve (NXDOMAIN, 2026-09-10); todomotos.pe article dated 2025-09-03 still ties \"Grupo Piaggio de la mano de ZuAuto\" but the article is unreachable (HTTP 421) so could not be read. The Piaggio Peru network today is run through aprilia-peru.com / motocontinental.com.pe (see moto-continental-peru node), suggesting ZuAuto's motorcycle franchise was superseded ~2025 — closure not independently evidenced, so status capped at unverified rather than defunct. Emitted as legacy/possibly-defunct franchise for reviewer adjudication."
+     },
+     {
+      "date": "2026-09-10",
+      "method": "official-locator",
+      "fact": "Cross-check by claude 2026-09-10: the central Piaggio locator API (jhgateway) returns ZERO records for PE, UY and VE — these markets run importer-side, so website evidence is the only official trail."
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      6.9891,
      50.7628
     ]
@@ -27557,7 +30746,7 @@
  ],
  "properties": {
   "generated_by": "gsn build.py",
-  "count": 586,
+  "count": 654,
   "schema_version": "1.1",
   "schema": "https://github.com/nathanolla/gsn/blob/main/docs/schema.md",
   "license": "ODbL-1.0",

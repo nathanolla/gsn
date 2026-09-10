@@ -1,0 +1,21 @@
+id: moto-guzzi-manitoba
+name: Moto Guzzi Manitoba
+country: CA
+layer: knowledge
+capability:
+- knowledge
+brands:
+- Moto Guzzi
+functions:
+- owner-community
+- knowledge-sharing
+url: https://www.facebook.com/motoguzzimb/
+observations:
+- date: 2026-09-10
+  method: community-endorsement
+  fact: 'The public Moto Guzzi Manitoba page identifies a Manitoba-focused Moto Guzzi owner
+    community: https://www.facebook.com/motoguzzimb/. No coordinates are assigned to this
+    knowledge group.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

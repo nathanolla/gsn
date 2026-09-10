@@ -1,0 +1,29 @@
+id: gunung-selamat-jaya-pecenongan
+name: Gunung Selamat Jaya (Pecenongan)
+city: Jakarta
+country: ID
+lat: -6.1616711
+lon: 106.8259383
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (021) 3442887
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "Gunung Selamat Jaya" at Jl. SK. Wiryopranoto No. 56-64, Kebon
+    Kelapa, Gambir, Jakarta Pusat, phone (021) 3442887, brand AGPV, dealer code DEALER-ID-60,
+    flagged Motoplex. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

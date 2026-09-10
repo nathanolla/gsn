@@ -200,3 +200,13 @@ Searched Zambia, Malawi, Uganda, Rwanda, and corridor-specific overland/forum re
 
 **Recommendation:** Do not create placeholder nodes. The region genuinely has no evidenced Moto Guzzi support infrastructure beyond South Africa. Re-verify in 12–18 months or if Piaggio Group announces a new regional importer.
 
+
+---
+
+## Peru / Uruguay / Venezuela
+
+## GSN intake lane — Peru / Uruguay / Venezuela — 2026-09-10 (`gsn-pe-uy-ve`)
+
+Method note: motoguzzi.com is Akamai-403 to fetchers and its dealer-locator API (`jhgateway.piaggiogroup.com/.../dealerlocator`) requires a live browser session + CSRF token, so the official locator could not be queried directly (same limitation prior lanes hit). All facts below trace to pages fetched and read this session (national press, importer/dealer sites, rendered storefront pages). No guzzitech.com source used. No personal phones/emails included; no phone fields where no verifiable business number could be loaded.
+
+

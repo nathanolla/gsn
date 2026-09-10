@@ -1,0 +1,26 @@
+id: conlon-motorsports-leduc-leduc
+name: Conlon Motorsports Leduc
+city: Leduc
+state: AB
+country: CA
+lat: 53.29193
+lon: -113.53052
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +1-(780) 612-9995
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Conlon Motorsports Leduc'', 4108 65A Ave, Leduc T9E 0R8;
+    active:true; type=dealers,services.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 4108 65A Ave, Leduc T9E 0R8

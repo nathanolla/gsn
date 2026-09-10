@@ -229,7 +229,8 @@ def export_files(features):
         if not f["geometry"] or p["status"] != "active":
             continue
         lon, lat = f["geometry"]["coordinates"]
-        desc = " | ".join(x for x in (
+        # str-coerce everything: an unquoted phone in YAML parses as int
+        desc = " | ".join(str(x) for x in (
             "+".join(p["capability"]),
             f"{p['city']}, {p['state']}" if p.get("city") else "",
             p.get("phone") or "", p.get("url") or "",

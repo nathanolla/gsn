@@ -1,0 +1,35 @@
+id: aprilia-moto-guzzi-daang-hari
+name: Aprilia Moto Guzzi Daang Hari (MotorAce Leisure Bikes)
+city: Bacoor
+country: PH
+lat: 14.4004333
+lon: 121.0117786
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+functions:
+- sales
+- parts
+url: https://www.aprilia.com/ph_EN/dealer-locator/bacoor/motorace-daang-hari/
+phone: '639276090331'
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/ph/G/stores,
+    fetched 2026-09-10) lists "Aprilia Moto Guzzi Daang Hari" at 0008 Daang Hari Road, Molino
+    IV, Bacoor, Cavite, phone +639276090331, type "dealers,services", brand AG, dealer code
+    DEALER-PH-45.
+- date: 2026-09-10
+  method: website
+  fact: 'Indexed official Aprilia PH locator entry "Aprilia Moto Guzzi Daang Hari" (https://www.aprilia.com/ph_EN/dealer-locator/bacoor/motorace-daang-hari/);
+    operator socials seen in search: Facebook "MotorAce Leisure Bikes Daang Hari | Bacoor"
+    (https://www.facebook.com/p/MotorAce-Leisure-Bikes-Daang-Hari-61565670211719/) and Instagram
+    @apriliadaanghari, with a Sept 2024 RS457 showroom post. Zigwheels lists "Motorace - Daang
+    Hari, Daang Hari Road, Molino IV, Bacoor" as a Moto Guzzi dealer. Service depth unverified
+    — satellite pending review.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

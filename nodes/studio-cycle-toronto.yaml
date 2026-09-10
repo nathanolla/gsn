@@ -1,0 +1,30 @@
+id: studio-cycle-toronto
+name: Studio Cycle
+city: Toronto
+country: CA
+lat: 43.6532
+lon: -79.3832
+layer: franchise
+capability:
+- satellite
+- depot
+brands:
+- Moto Guzzi
+functions:
+- sales
+- parts
+url: https://studiocycle.ca/collections/moto-guzzi-parts
+phone: 416-766-5300
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Moto Guzzi’s official Canadian locator identifies Studio Cycle Group Inc. in Toronto:
+    https://www.motoguzzi.com/ca_EN/dealer-locator/toronto/studio-cycle-group-inc/. City-level
+    coordinates are used.'
+- date: 2026-09-10
+  method: website
+  fact: 'Studio Cycle calls itself “Canada’s #1 Aprilia & Moto Guzzi dealer” and maintains
+    a Moto Guzzi parts collection: https://studiocycle.ca/collections/moto-guzzi-parts.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

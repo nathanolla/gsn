@@ -1,0 +1,26 @@
+id: two-wheel-motorsports-guelph
+name: Two Wheel Motorsports
+city: Guelph
+state: 'ON'
+country: CA
+lat: 43.59346
+lon: -80.30675
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +1-(519) 836-1957
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Two Wheel Motorsports'', 5624 Hwy 6 North, RR1, Guelph
+    N1H 6J2; active:true; type=dealers,services.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 5624 Hwy 6 North, RR1, Guelph N1H 6J2

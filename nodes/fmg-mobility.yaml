@@ -1,0 +1,49 @@
+id: fmg-mobility
+name: FMG Mobility (multi-brand shop & Piaggio-group parts depot)
+city: Hanoi
+country: VN
+lat: 21.026438
+lon: 105.895983
+layer: independent
+capability:
+- depot
+- satellite
+brands:
+- Moto Guzzi
+- Aprilia
+- Piaggio
+- Vespa
+- Ducati
+- Royal Enfield
+functions:
+- parts
+- accessories
+- mail-order
+- sales
+- service
+url: https://fmg.com.vn/
+phone: (+84) 86 899 1946
+observations:
+- date: 2026-09-10
+  method: website
+  fact: https://fmg.com.vn/collections/phu-kien-xe-moto-guzzi (fetched 2026-09-10) sells "Phụ
+    Kiện Xe Moto Guzzi Chính Hãng Piaggio Việt Nam" (genuine Piaggio Vietnam Moto Guzzi accessories)
+    with 1-year warranty; company is Công ty Cổ phần FMG Mobility (JSC), tax ID 0109706474,
+    registered 2021-07-14 in Hanoi; also sells Ducati, Royal Enfield, Piaggio, Vespa, Aprilia.
+    Same company operates Motoplex Hanoi (motoplex.hanoi@fmg.asia per official locator).
+- date: 2026-09-10
+  method: website
+  fact: 'Contact page https://fmg.com.vn/pages/lien-he (fetched 2026-09-10): Hanoi store and
+    service area at Diện tích dịch vụ 1, tầng 1, toà D1, Northern Diamond, 99 Đàm Quang Trung,
+    Long Biên, Hanoi, hotline (+84) 86 899 1946 (co-located with Motoplex Hanoi — coordinates
+    are the store location); HCMC branch at Lô DVTM-1A, Đường số 7, KCX Tân Thuận, Quận 7,
+    TP.HCM, hotline (+84) 899 508 211; services include repair & maintenance (Xưởng Dịch Vụ:
+    Sửa Chữa & Bảo Dưỡng), warranty, 24/7 rescue.'
+- date: '2026-09-10'
+  method: website
+  fact: 'Grading review (claude): evidence shows sales/booking or generic multi-brand service,
+    not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology,
+    same bar applied across the whole 2026-09 sweep.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

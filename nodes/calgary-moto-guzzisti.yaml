@@ -1,0 +1,23 @@
+id: calgary-moto-guzzisti
+name: Calgary Moto Guzzisti
+city: Calgary
+country: CA
+layer: knowledge
+capability:
+- knowledge
+brands:
+- Moto Guzzi
+functions:
+- owner-community
+- rides
+- knowledge-sharing
+url: https://www.facebook.com/calgaryguzzisti/
+observations:
+- date: 2026-09-10
+  method: community-endorsement
+  fact: 'The public page identifies “Calgary Moto Guzzisti” as a Calgary, Alberta Moto Guzzi
+    community: https://www.facebook.com/calgaryguzzisti/. No coordinates are assigned to this
+    knowledge group.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

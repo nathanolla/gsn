@@ -1,0 +1,29 @@
+id: mobilitas-total-tujuan-mataram
+name: Mobilitas Total Tujuan (Lombok)
+city: Mataram
+country: ID
+lat: -8.5907676
+lon: 116.1464597
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (0877) 77019777
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "Mobilitas Total Tujuan" at Jl. Selaparang No. 168, Mayura,
+    Cakranegara, Mataram, phone (0877) 77019777, brand AGPV, dealer code DEALER-ID-61, flagged
+    Motoplex. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

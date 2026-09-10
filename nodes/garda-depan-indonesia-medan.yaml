@@ -1,0 +1,30 @@
+id: garda-depan-indonesia-medan
+name: Garda Depan Indonesia (Medan)
+city: Medan
+country: ID
+lat: 3.5568464
+lon: 98.6339182
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (061) 42578899
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "GARDA DEPAN INDONESIA" at Jl. Gagak Hitam No. 35-BCD, Ringroad,
+    Simpang Asoka, Medan Selayang, phone (061) 42578899, type "dealers,services", brand AGPV,
+    dealer code DEALER-ID-54. Same listing (Jln Gagak Hitam 35BCD, Medan 20133) on https://motoguzzi.co.id/dealer.
+    Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

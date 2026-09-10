@@ -1,0 +1,23 @@
+id: ontario-guzzi-riders
+name: Ontario Guzzi Riders
+country: CA
+layer: knowledge
+capability:
+- knowledge
+brands:
+- Moto Guzzi
+functions:
+- owner-community
+- rides
+- knowledge-sharing
+url: https://www.ontarioguzziriders.com/
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'Ontario Guzzi Riders describes itself as a group of Moto Guzzi enthusiasts; its about
+    page says it connects Guzzi owners across Ontario through breakfast rides and a Nipissing
+    Lake rally: https://www.ontarioguzziriders.com/ and https://www.ontarioguzziriders.com/about.html.
+    No coordinates are assigned to this provincial knowledge group.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

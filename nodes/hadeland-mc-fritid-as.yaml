@@ -1,0 +1,44 @@
+id: hadeland-mc-fritid-as
+name: Hadeland MC & Fritid AS
+city: Brandbu
+country: 'NO'
+lat: 60.42214
+lon: 10.50428
+layer: franchise
+capability:
+- full-service
+brands:
+- Moto Guzzi
+- Honda
+- Aprilia
+- CFMOTO
+- Kymco
+- Tohatsu
+functions:
+- sales
+- service
+- repair
+- parts
+url: https://hadelandmc.no/
+phone: +47 61 33 19 46
+observations:
+- date: 2026-09-10
+  method: website
+  fact: Hadeland MC homepage (https://hadelandmc.no/) lists Moto Guzzi among its brands and
+    states the business sells and services motorcycles and ATVs.
+- date: 2026-09-10
+  method: website
+  fact: Workshop page (https://hadelandmc.no/verksted/) says the workshop services all brands
+    and offers service, repairs, insurance damage assessment, condition reports and winter
+    storage.
+- date: 2026-09-10
+  method: community-endorsement
+  fact: Ringblad article (https://www.ringblad.no/her-har-tor-akkurat-kjopt-sin-attende-moto-guzzi-den-dro-han-til-hadeland-for-a-kjope/s/5-45-784770,
+    2019-05-07) reports a customer buying his eighth Moto Guzzi at Hadeland MC.
+- date: 2026-09-10
+  method: website
+  fact: 'City-level coordinates for Brandbu taken from Wikipedia (https://en.wikipedia.org/wiki/Brandbu:
+    60.42214°N, 10.50428°E).'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

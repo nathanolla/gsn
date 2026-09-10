@@ -1,0 +1,30 @@
+id: grand-river-power-sports-brantford
+name: Grand River Power Sports
+city: Brantford
+country: CA
+lat: 43.1394
+lon: -80.2644
+layer: franchise
+capability:
+- full-service
+brands:
+- Moto Guzzi
+functions:
+- sales
+- parts
+- service
+url: https://www.grandriverpowersports.ca/en/moto-guzzi-dealer-brantford/1/
+phone: 519-759-8140
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Moto Guzzi’s official Canadian locator identifies Grand River Power Sports in Brantford:
+    https://www.motoguzzi.com/ca_EN/dealer-locator/brantford/grand-river-power-sports/. City-level
+    coordinates are used.'
+- date: 2026-09-10
+  method: website
+  fact: 'Its dealer page calls it an authorized Moto Guzzi dealer with genuine parts and factory-trained
+    service: https://www.grandriverpowersports.ca/en/moto-guzzi-dealer-brantford/1/.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

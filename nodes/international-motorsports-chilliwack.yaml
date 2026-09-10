@@ -1,0 +1,30 @@
+id: international-motorsports-chilliwack
+name: International Motorsports
+city: Chilliwack
+country: CA
+lat: 49.1579
+lon: -121.9515
+layer: franchise
+capability:
+- satellite
+brands:
+- Moto Guzzi
+functions:
+- sales
+url: https://www.internationalmotorsports.com/
+phone: 604-288-1553
+observations:
+- date: 2026-09-10
+  method: community-endorsement
+  fact: 'A WildGuzzi active-dealer-list entry dated 2025-08-06 names “International Motorsports...
+    Chilliwack, BC”: https://wildguzzi.com/forum/index.php?topic=81314.270. The company currently
+    lists its Chilliwack branch at https://motolifestyle.net/pages/contact. City-level coordinates
+    are used.'
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Cross-check by claude 2026-09-10: current live locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores)
+    lists ''International Motorcycle - Chilliwack'', active:true, type=dealers (name variant
+    of this store).'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

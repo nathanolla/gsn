@@ -1,0 +1,29 @@
+id: smart-mulia-abadi-waru
+name: Smart Mulia Abadi (Waru, Sidoarjo)
+city: Sidoarjo
+country: ID
+lat: -7.370968
+lon: 112.728542
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: +62 31 8550300
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "Smart Mulia Abadi" at Jl. Raya Waru No. 92, Gedangan, Sidoarjo,
+    phone 62318550300, brand AGPV, dealer code DEALER-ID-62, flagged Motoplex. Same listing
+    on https://motoguzzi.co.id/dealer. Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

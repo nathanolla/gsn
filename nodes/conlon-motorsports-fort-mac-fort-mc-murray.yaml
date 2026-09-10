@@ -1,0 +1,26 @@
+id: conlon-motorsports-fort-mac-fort-mc-murray
+name: Conlon Motorsports Fort Mac
+city: Fort Mc Murray
+state: AB
+country: CA
+lat: 56.71114
+lon: -111.34247
+layer: franchise
+capability:
+- satellite
+brands:
+- moto-guzzi
+functions:
+- sales
+- service
+phone: +1-(587) 674-1100
+observations:
+- date: '2026-09-10'
+  method: official-locator
+  fact: 'Official Moto Guzzi dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/CA/motoguzzi/stores,
+    fetched 2026-09-10 by claude): ''Conlon Motorsports Fort Mac'', 351 Rickard Rd, Fort Mc
+    Murray T9H 0E1; active:true; type=dealers,services.'
+last_verified: '2026-09-10'
+verified_by: claude
+status: active
+address: 351 Rickard Rd, Fort Mc Murray T9H 0E1

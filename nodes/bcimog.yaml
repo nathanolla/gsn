@@ -1,0 +1,22 @@
+id: bcimog
+name: British Columbia Italian Motorcycle Owner's Group
+country: CA
+layer: knowledge
+capability:
+- knowledge
+brands:
+- Moto Guzzi
+functions:
+- owner-community
+- rides
+- knowledge-sharing
+url: https://wildguzzi.com/forum/index.php?topic=95017.0
+observations:
+- date: 2026-09-10
+  method: community-endorsement
+  fact: 'A WildGuzzi post dated 2018-03-15 describes BCIMOG as an informal British Columbia
+    riding group for all Italian motorcycles, which includes Moto Guzzi riders: https://wildguzzi.com/forum/index.php?topic=95017.0.
+    No coordinates are assigned to this regional knowledge group.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

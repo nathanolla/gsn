@@ -1,0 +1,43 @@
+id: amartha-kura-motorindo-pekanbaru
+name: Amartha Kura Motorindo (Motoplex Pekanbaru)
+city: Pekanbaru
+country: ID
+lat: 0.4859
+lon: 101.4548
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- service
+- parts
+- warranty
+url: https://motoguzzi.co.id/dealer
+observations:
+- date: 2026-09-10
+  method: website
+  fact: Piaggio Indonesia news article (https://vespa.co.id/id/magazine/read/perluas-eksistensi-ke-sumatera-pt-piaggio-indonesia-membuka-deal)
+    states PT Amartha Kura Motorindo opened a 4-brand Motoplex (Piaggio, Vespa, Aprilia, Moto
+    Guzzi) on 2025-11-22 at Jl. Jend. Sudirman, Sudirman City Square, E-12-14, Tengkerang
+    Selatan, Bukit Raya, Pekanbaru, with integrated Sales, Service and Spare Parts (3S) facilities.
+    Corroborated by urbannews.id 2025-11-27 (https://www.urbannews.id/2025/11/27/piaggio-indonesia-resmikan-dealer-4-brand-baru-di-pekanbaru/).
+- date: 2026-09-10
+  method: official-locator
+  fact: 'Official Moto Guzzi Indonesia dealer page (https://motoguzzi.co.id/dealer, fetched
+    2026-09-10) lists "Amartha Kura Motorindo" outlet "Pekanbaru", province Riau, coordinates
+    0.4859/101.4548 (city-level). WARNING: the listed address (Jl. Ampera Raya No. 11, Jakarta
+    Selatan) and phone (+622138820178) duplicate Sinar Inti Harapan''s Ampera outlet and appear
+    to be a site data error; phone left blank pending correction.'
+- date: '2026-09-10'
+  method: website
+  fact: 'Grading review (claude): evidence shows sales/booking or generic multi-brand service,
+    not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology,
+    same bar applied across the whole 2026-09 sweep.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

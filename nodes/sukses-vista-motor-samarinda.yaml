@@ -1,0 +1,29 @@
+id: sukses-vista-motor-samarinda
+name: Sukses Vista Motor (Samarinda)
+city: Samarinda
+country: ID
+lat: -0.4966372
+lon: 117.1555818
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (0813) 99996334
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "Sukses Vista Motor" at Jl. Arief Rahman Hakim No. 17, Samarinda,
+    East Kalimantan, phone (0813) 99996334, brand AGPV, dealer code DEALER-ID-63, flagged
+    Motoplex. Same listing on https://motoguzzi.co.id/dealer. Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

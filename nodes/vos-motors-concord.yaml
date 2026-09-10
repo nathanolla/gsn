@@ -1,0 +1,31 @@
+id: vos-motors-concord
+name: VOS Motors
+city: Concord
+country: CA
+lat: 43.797
+lon: -79.526
+layer: franchise
+capability:
+- satellite
+brands:
+- Moto Guzzi
+functions:
+- sales
+- parts
+- service
+url: https://www.vosmotors.com/moto-guzzi-dealer
+phone: 905-660-2901
+observations:
+- date: 2026-09-10
+  method: website
+  fact: 'VOS says it carries Moto Guzzi inventory and that customers can contact it for Moto
+    Guzzi parts or service support: https://www.vosmotors.com/moto-guzzi-dealer. City-level
+    coordinates are used.'
+- date: '2026-09-10'
+  method: website
+  fact: 'Grading review (claude): evidence shows sales/booking or generic multi-brand service,
+    not Guzzi-specific wrenching depth — full-service downgraded to satellite per methodology,
+    same bar applied across the whole 2026-09 sweep.'
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: unverified

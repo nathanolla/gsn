@@ -1,0 +1,29 @@
+id: udayana-satya-laksana-jimbaran
+name: Udayana Satya Laksana (Jimbaran / By Pass Ngurah Rai)
+city: Badung
+country: ID
+lat: -8.7405789
+lon: 115.1805695
+layer: franchise
+capability:
+- satellite
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- parts
+url: https://motoguzzi.co.id/dealer
+phone: (0361) 4469171
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "UDAYANA SATYA LAKSANA" at Jl. By Pass Ngurah Rai No. 90, Kelan,
+    Tuban (Badung, Bali), phone (0361) 4469171, brand AGPV, dealer code DEALER-ID-42. Same
+    listing on https://motoguzzi.co.id/dealer. Service depth unverified.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active

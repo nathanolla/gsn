@@ -1,0 +1,43 @@
+id: anugerah-sinergi-pratama-scbd
+name: Anugerah Sinergi Pratama (Motoplex SCBD)
+city: Jakarta
+country: ID
+lat: -6.2245908
+lon: 106.8110858
+layer: franchise
+capability:
+- full-service
+brands:
+- Aprilia
+- Moto Guzzi
+- Piaggio
+- Vespa
+functions:
+- sales
+- service
+- parts
+- warranty
+url: https://motoplexsinergi.co.id/
+phone: (021) 5155280
+observations:
+- date: 2026-09-10
+  method: official-locator
+  fact: Live Piaggio dealer-locator API (https://jhgateway.piaggiogroup.com/services/pgbusinesspt/api/dealerlocator/v2/id/G/stores,
+    fetched 2026-09-10) lists "Anugerah Sinergi Pratama" at SCBD Lot 8, Jl. Jendral Sudirman
+    kav. 52-53, Kebayoran Baru, Jakarta Selatan, phone (021) 5155280, brand code AGPV, dealer
+    code DEALER-ID-57. Also on https://motoguzzi.co.id/dealer (fetched 2026-09-10).
+- date: 2026-09-10
+  method: website
+  fact: 'Operator site https://motoplexsinergi.co.id/ (fetched 2026-09-10): PT Anugerah Sinergi
+    Pratama, authorized main distributor/dealer for Piaggio, Vespa, Aprilia and Moto Guzzi
+    since 2014, serves unit purchases, accessories, merchandise and service with professional
+    staff; seven JABOTABEK branches (SCBD, Tebet, Bogor, Tangerang, Ciledug, Pondok Gede,
+    Bekasi); phone (021) 5155280.'
+- date: 2026-09-10
+  method: website
+  fact: Moto Guzzi Indonesia news (https://motoguzzi.co.id/en/news/pt-piaggio-indonesia-resmi-membuka-motoplex-4-brand-ke-11-kali-ini-di-kawasan-elit-sudirman-central-business-district-scbd-lokas)
+    states Piaggio Indonesia opened its 11th Motoplex 4-brand store on 2023-03-16 at SCBD
+    Lot 8, operated by PT Anugerah Sinergi Pratama.
+last_verified: 2026-09-10
+verified_by: claude-qoder
+status: active
