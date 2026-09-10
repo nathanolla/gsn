@@ -1,6 +1,6 @@
 // GSN service worker — offline-first. Version stamped by build.py so a new build
 // invalidates the shell cache; node data uses stale-while-revalidate.
-const V = 'gsn-/*BUILD:SWVER*/5bc7a7d4ff/*/';
+const V = 'gsn-/*BUILD:SWVER*/56c31af2cb/*/';
 const SHELL = ['./', 'index.html', 'nodes.geojson', 'manifest.json',
   'icon-192.png', 'icon-512.png', 'gsn-88x31.png',
   'vendor/leaflet/leaflet.css', 'vendor/leaflet/leaflet.js',

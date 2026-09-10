@@ -57,7 +57,11 @@
     .badges,.ring{font-size:13px}
   }
   .maplabel{font-family:"Courier New",monospace;font-size:12px;color:#444;text-align:center;margin-top:3px}
-  table.nodes{border-collapse:collapse;width:100%;font-size:14px;background:#fff;border:2px outset #999}
+  table.nodes{border-collapse:collapse;width:100%;font-size:14px;background:#fff;border:2px outset #999;table-layout:fixed}
+  /* fixed layout: auto-layout let the nowrap date pills inflate VERIFIED and
+     squeeze the other two columns differently on every page of results */
+  table.nodes th:nth-child(1){width:41%}
+  table.nodes th:nth-child(3){width:100px}
   table.nodes th{background:#c8102e;color:#fff;font-family:Verdana,Geneva,sans-serif;font-size:11px;
     text-transform:uppercase;letter-spacing:.08em;padding:5px 7px;text-align:left}
   table.nodes td{border-top:1px solid #ccc;padding:6px 7px;vertical-align:top;overflow-wrap:anywhere}
